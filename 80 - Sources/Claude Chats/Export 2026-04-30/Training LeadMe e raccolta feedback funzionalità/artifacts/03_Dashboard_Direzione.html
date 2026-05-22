@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LeadMe — Dashboard Direzione</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#fff;padding:24px;color:#1a1a1a}
+.top-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.top-bar h2{font-size:18px;font-weight:500}
+.role-badge{font-size:10px;padding:3px 10px;border-radius:8px;background:#fefce8;color:#854d0e}
+.kpi-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:16px}
+.kpi{background:#f8fafc;border-radius:8px;padding:12px}
+.kpi-label{font-size:11px;color:#6b7280;margin-bottom:4px}
+.kpi-val{font-size:22px;font-weight:500}
+.kpi-sub{font-size:10px;color:#9ca3af;margin-top:2px}
+.kpi-alert{border-left:3px solid #ef4444}
+.section{margin-bottom:16px}
+.section-title{font-size:14px;font-weight:500;margin-bottom:10px}
+.bar-chart{display:flex;flex-direction:column;gap:6px}
+.bar-row{display:flex;align-items:center;gap:8px;font-size:12px}
+.bar-label{width:100px;color:#6b7280;text-align:right;flex-shrink:0}
+.bar-track{flex:1;height:20px;background:#f3f4f6;border-radius:4px;overflow:hidden;display:flex}
+.bar-seg{height:100%;display:flex;align-items:center;justify-content:center;font-size:9px;color:#fff;font-weight:500}
+.bar-val{font-size:11px;color:#6b7280;width:30px;text-align:right;flex-shrink:0}
+.sem-table{width:100%;font-size:12px;border-collapse:collapse}
+.sem-table th{text-align:left;font-weight:500;color:#6b7280;padding:6px 8px;border-bottom:1px solid #e5e7eb;font-size:11px}
+.sem-table td{padding:6px 8px;border-bottom:1px solid #f3f4f6}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:4px}
+.alert-row{background:#fef2f2}
+.warn-row{background:#fefce8}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.industry-list{font-size:12px;line-height:2.2}
+.ind-bar{display:inline-block;height:6px;border-radius:3px;vertical-align:middle;margin-right:6px}
+.legend-bar{display:flex;gap:12px;margin-top:6px;font-size:10px;color:#9ca3af}
+.legend-bar span{display:flex;align-items:center;gap:3px}
+.legend-bar .sq{width:8px;height:8px;border-radius:2px;display:inline-block}
+.tbc{margin-top:14px}
+.tbc-box{background:#FCE4EC;border:1.5px dashed #E91E63;border-radius:8px;padding:8px 10px;font-size:11px;color:#880E4F;line-height:1.5;margin-bottom:8px}
+.tbc-tag{display:inline-block;background:#E91E63;color:#fff;font-size:9px;font-weight:500;padding:1px 6px;border-radius:4px;margin-bottom:4px}
+</style></head><body>
+<div class="top-bar"><h2>Dashboard direzione</h2><span class="role-badge">Vista Garbarino / Zaghi</span></div>
+<div class="kpi-grid">
+<div class="kpi"><div class="kpi-label">Totale contatti</div><div class="kpi-val">623</div><div class="kpi-sub">67 clienti · 556 NB</div></div>
+<div class="kpi"><div class="kpi-label">Pipeline NB attiva</div><div class="kpi-val">284</div><div class="kpi-sub">51% del totale NB</div></div>
+<div class="kpi"><div class="kpi-label">Brief/gare in corso</div><div class="kpi-val">12</div><div class="kpi-sub">+3 vs mese scorso</div></div>
+<div class="kpi kpi-alert"><div class="kpi-label">Clienti fermi/inattivi</div><div class="kpi-val" style="color:#ef4444">19</div><div class="kpi-sub">11 fermi · 8 inattivi</div></div>
+<div class="kpi"><div class="kpi-label">Conversioni NB→Cliente</div><div class="kpi-val">4</div><div class="kpi-sub">ultimi 90 giorni</div></div>
+</div>
+<div class="section">
+<div class="section-title">Pipeline per commerciale</div>
+<div class="bar-chart">
+<div class="bar-row"><div class="bar-label">Simona M.</div><div class="bar-track"><div class="bar-seg" style="width:20%;background:#8b5cf6">38</div><div class="bar-seg" style="width:25%;background:#3b82f6">48</div><div class="bar-seg" style="width:15%;background:#06b6d4">29</div><div class="bar-seg" style="width:8%;background:#10b981">15</div><div class="bar-seg" style="width:5%;background:#22c55e">9</div></div><div class="bar-val">139</div></div>
+<div class="bar-row"><div class="bar-label">Ilia G.</div><div class="bar-track"><div class="bar-seg" style="width:22%;background:#8b5cf6">22</div><div class="bar-seg" style="width:20%;background:#3b82f6">20</div><div class="bar-seg" style="width:18%;background:#06b6d4">18</div><div class="bar-seg" style="width:10%;background:#10b981">10</div><div class="bar-seg" style="width:3%;background:#22c55e">3</div></div><div class="bar-val">73</div></div>
+<div class="bar-row"><div class="bar-label">Matteo C.</div><div class="bar-track"><div class="bar-seg" style="width:30%;background:#8b5cf6">9</div><div class="bar-seg" style="width:20%;background:#3b82f6">6</div><div class="bar-seg" style="width:10%;background:#06b6d4">3</div></div><div class="bar-val">18</div></div>
+<div class="bar-row"><div class="bar-label">Luca C.</div><div class="bar-track"><div class="bar-seg" style="width:15%;background:#8b5cf6">8</div><div class="bar-seg" style="width:10%;background:#3b82f6">5</div><div class="bar-seg" style="width:5%;background:#06b6d4">3</div></div><div class="bar-val">16</div></div>
+<div class="bar-row"><div class="bar-label">Marco P.</div><div class="bar-track"><div class="bar-seg" style="width:12%;background:#8b5cf6">5</div><div class="bar-seg" style="width:10%;background:#3b82f6">4</div><div class="bar-seg" style="width:14%;background:#06b6d4">6</div><div class="bar-seg" style="width:5%;background:#10b981">2</div></div><div class="bar-val">17</div></div>
+</div>
+<div class="legend-bar"><span><span class="sq" style="background:#8b5cf6"></span>Prospect</span><span><span class="sq" style="background:#3b82f6"></span>Contatto</span><span><span class="sq" style="background:#06b6d4"></span>Follow-up</span><span><span class="sq" style="background:#10b981"></span>Incontro</span><span><span class="sq" style="background:#22c55e"></span>Brief</span></div>
+</div>
+<div class="grid-2">
+<div class="section">
+<div class="section-title">Segnali di allarme</div>
+<table class="sem-table">
+<tr><th></th><th>Cliente</th><th>Stato</th><th>Mesi</th><th>Commerciale</th></tr>
+<tr class="alert-row"><td><span class="dot" style="background:#ef4444"></span></td><td>Ferrovie dello Stato</td><td>Inattivo</td><td>14</td><td>Luca C.</td></tr>
+<tr class="alert-row"><td><span class="dot" style="background:#ef4444"></span></td><td>Vorwerk</td><td>Inattivo</td><td>18</td><td>—</td></tr>
+<tr class="alert-row"><td><span class="dot" style="background:#ef4444"></span></td><td>Telecom Italia</td><td>Inattivo</td><td>12</td><td>Marco P.</td></tr>
+<tr class="alert-row"><td><span class="dot" style="background:#ef4444"></span></td><td>Enel</td><td>Inattivo</td><td>11</td><td>Simona M.</td></tr>
+<tr class="warn-row"><td><span class="dot" style="background:#eab308"></span></td><td>ACEA</td><td>Fermo</td><td>6</td><td>Simona M.</td></tr>
+<tr class="warn-row"><td><span class="dot" style="background:#eab308"></span></td><td>Banca Mediolanum</td><td>Fermo</td><td>5</td><td>Luca C.</td></tr>
+<tr class="warn-row"><td><span class="dot" style="background:#eab308"></span></td><td>Intesa Sanpaolo</td><td>Fermo</td><td>4</td><td>Ilia G.</td></tr>
+</table>
+</div>
+<div class="section">
+<div class="section-title">Distribuzione per settore</div>
+<div class="industry-list">
+<div><span class="ind-bar" style="width:120px;background:#8b5cf6"></span>Fashion & luxury <span style="color:#9ca3af">(142)</span></div>
+<div><span class="ind-bar" style="width:90px;background:#3b82f6"></span>Automotive <span style="color:#9ca3af">(98)</span></div>
+<div><span class="ind-bar" style="width:70px;background:#06b6d4"></span>Bancario assicurativo <span style="color:#9ca3af">(74)</span></div>
+<div><span class="ind-bar" style="width:55px;background:#10b981"></span>Food & beverage <span style="color:#9ca3af">(61)</span></div>
+<div><span class="ind-bar" style="width:45px;background:#f59e0b"></span>Tech & telco <span style="color:#9ca3af">(52)</span></div>
+<div><span class="ind-bar" style="width:40px;background:#8b5cf6"></span>Energy & utilities <span style="color:#9ca3af">(43)</span></div>
+<div><span class="ind-bar" style="width:80px;background:#9ca3af"></span>Altri settori <span style="color:#9ca3af">(153)</span></div>
+</div>
+</div>
+</div>
+<div class="tbc">
+<div class="tbc-box"><span class="tbc-tag">TBC 8</span> Quali settori sono considerati prioritari/strategici per Noloop? Ci sono industrie su cui volete crescere in modo specifico?</div>
+<div class="tbc-box"><span class="tbc-tag">TBC 9</span> Esiste una classificazione clienti per importanza/budget (es. "premium", "top account")? Se sì, quali criteri la definiscono?</div>
+</div>
+</body></html>

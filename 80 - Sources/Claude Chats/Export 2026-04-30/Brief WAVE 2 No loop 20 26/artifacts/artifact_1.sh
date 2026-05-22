@@ -1,0 +1,1 @@
+cd /home/claude && NODE_PATH=/home/claude/.npm-global/lib/node_modules node build_brief.js 2>&1

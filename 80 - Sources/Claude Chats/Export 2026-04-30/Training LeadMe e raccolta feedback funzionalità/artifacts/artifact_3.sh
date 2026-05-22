@@ -1,0 +1,1 @@
+cp /home/claude/arch_v4_fixed.png /mnt/user-data/outputs/Noloop_Architettura_Ecosistema_v4.png

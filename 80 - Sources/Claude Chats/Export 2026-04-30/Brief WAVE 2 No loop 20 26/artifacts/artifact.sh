@@ -1,0 +1,1 @@
+cd /home/claude && npm list -g docx 2>&1 | head -5

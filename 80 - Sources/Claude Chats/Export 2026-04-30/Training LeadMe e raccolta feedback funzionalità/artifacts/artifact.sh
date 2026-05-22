@@ -1,0 +1,1 @@
+pip install cairosvg --break-system-packages -q 2>&1 | tail -1

@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LeadMe — Pipeline Clienti</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#fff;padding:24px;color:#1a1a1a}
+.title-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.title-bar h2{font-size:18px;font-weight:500}
+.badge{font-size:11px;padding:3px 10px;border-radius:8px;background:#dcfce7;color:#166534}
+.kanban{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px}
+.col{min-width:150px;flex:1;border-radius:8px;padding:10px}
+.col-head{font-size:12px;font-weight:500;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between}
+.col-count{font-size:10px;padding:1px 6px;border-radius:10px;background:rgba(0,0,0,.05)}
+.card{background:#fff;border:0.5px solid #e5e7eb;border-radius:8px;padding:8px;margin-bottom:6px;font-size:12px;position:relative;padding-left:12px}
+.card-bar{position:absolute;left:0;top:0;width:4px;height:100%;border-radius:4px 0 0 4px}
+.card-name{font-weight:500;font-size:12px}
+.card-co{color:#6b7280;font-size:11px;margin-top:1px}
+.card-rep{font-size:10px;color:#3b82f6;margin-top:3px}
+.card-info{font-size:10px;color:#9ca3af;margin-top:4px}
+.legend{display:flex;gap:16px;margin-bottom:12px;font-size:11px;color:#6b7280}
+.legend-item{display:flex;align-items:center;gap:4px}
+.legend-dot{width:8px;height:8px;border-radius:50%}
+.tbc{margin-top:12px}
+.tbc-box{background:#FCE4EC;border:1.5px dashed #E91E63;border-radius:8px;padding:8px 10px;font-size:11px;color:#880E4F;line-height:1.5;margin-bottom:8px}
+.tbc-tag{display:inline-block;background:#E91E63;color:#fff;font-size:9px;font-weight:500;padding:1px 6px;border-radius:4px;margin-bottom:4px}
+</style></head><body>
+<div class="title-bar"><h2>Pipeline clienti</h2><span class="badge">Clienti fidelizzati</span></div>
+<div class="legend">
+<div class="legend-item"><div class="legend-dot" style="background:#22c55e"></div> Attività recente</div>
+<div class="legend-item"><div class="legend-dot" style="background:#eab308"></div> Fermo da X mesi</div>
+<div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div> Inattivo da XX mesi</div>
+</div>
+<div class="kanban">
+<div class="col" style="background:#f8fafc"><div class="col-head" style="color:#6b7280">Attivazione <span class="col-count">3</span></div>
+<div class="card"><div class="card-bar" style="background:#22c55e"></div><div class="card-name">Roberto Conti</div><div class="card-co">Nissan</div><div class="card-rep">Simona M.</div><div class="card-info">Primo brief ricevuto — gara attiva</div></div>
+<div class="card"><div class="card-bar" style="background:#22c55e"></div><div class="card-name">Francesca Villa</div><div class="card-co">Zanichelli</div><div class="card-rep">Ilia G.</div><div class="card-info">Brief ricevuto 08/03</div></div>
+</div>
+<div class="col" style="background:#f0fdf4"><div class="col-head" style="color:#166534">Attivo <span class="col-count">42</span></div>
+<div class="card"><div class="card-bar" style="background:#22c55e"></div><div class="card-name">Laura Neri</div><div class="card-co">Campari</div><div class="card-rep">Luca C.</div><div class="card-info">3 gare in corso — ultimo brief feb 2026</div></div>
+<div class="card"><div class="card-bar" style="background:#22c55e"></div><div class="card-name">Marco Trevisan</div><div class="card-co">Luxottica</div><div class="card-rep">Luca C.</div><div class="card-info">Evento Cannes confermato</div></div>
+<div style="text-align:center;font-size:10px;color:#9ca3af;padding:4px">+40 altri</div>
+</div>
+<div class="col" style="background:#fefce8"><div class="col-head" style="color:#854d0e">Fermo <span class="col-count">11</span></div>
+<div class="card"><div class="card-bar" style="background:#eab308"></div><div class="card-name">Alessia Greco</div><div class="card-co">ACEA</div><div class="card-rep">Simona M.</div><div class="card-info">Ultimo brief: settembre 2025 (6 mesi fa)</div></div>
+<div class="card"><div class="card-bar" style="background:#eab308"></div><div class="card-name">Giovanni Ferri</div><div class="card-co">Intesa Sanpaolo</div><div class="card-rep">Ilia G.</div><div class="card-info">Ultimo contatto: 4 mesi fa</div></div>
+</div>
+<div class="col" style="background:#fef2f2"><div class="col-head" style="color:#991b1b">Inattivo <span class="col-count">8</span></div>
+<div class="card"><div class="card-bar" style="background:#ef4444"></div><div class="card-name">Davide Colombo</div><div class="card-co">Ferrovie dello Stato</div><div class="card-rep">Luca C.</div><div class="card-info">Nessun brief da 14 mesi</div></div>
+<div class="card"><div class="card-bar" style="background:#ef4444"></div><div class="card-name">Elena Basso</div><div class="card-co">Enel</div><div class="card-rep">Simona M.</div><div class="card-info">Nessun contatto da 11 mesi</div></div>
+</div>
+<div class="col" style="background:#eff6ff"><div class="col-head" style="color:#1e40af">Da riattivare <span class="col-count">5</span></div>
+<div class="card"><div class="card-bar" style="background:#ef4444"></div><div class="card-name">Paola Vitale</div><div class="card-co">Vorwerk</div><div class="card-rep">Non assegnato</div><div class="card-info">Ex fidelizzato — fermo da 18 mesi</div></div>
+</div>
+</div>
+<div class="tbc">
+<div class="tbc-box"><span class="tbc-tag">TBC 5</span> Soglie per "Fermo" e "Inattivo": proposta fermo = 3-6 mesi senza brief, inattivo = oltre 6 mesi. Conferma? Diversifichiamo per tipo di cliente?</div>
+<div class="tbc-box"><span class="tbc-tag">TBC 6</span> Quanti brief/gare l'anno deve generare un cliente per restare "Attivo"? Basta 1 brief in 12 mesi? O il criterio è diverso (es. fatturato)?</div>
+<div class="tbc-box"><span class="tbc-tag">TBC 7</span> "Da riattivare" — resta nella pipeline Clienti con trattamento specifico, oppure torna nella pipeline New Business e ricomincia il funnel da zero?</div>
+</div>
+</body></html>

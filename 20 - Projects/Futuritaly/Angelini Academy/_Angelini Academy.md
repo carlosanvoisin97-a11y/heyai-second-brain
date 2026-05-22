@@ -1,0 +1,915 @@
+---
+type: project
+status: active
+priority: p2
+client: Angelini Academy (via FuturItaly)
+aliases:
+  - Angelini Academy
+  - Angelini Academy - Sito
+created: 2026-04-03
+updated: 2026-05-20
+last_doc_added: 2026-05-20 sera — [[Prompt Claude Code - Laboratorio editoriale dentro engaged-network]] (architettura D2 post-cambio strategico Carlo 20/5 sera). Decisione finale: `/engaged-research` resta interamente pubblica come preview con CTA outro potenziata (4 bullet nuovi che specificano cosa c'è nel laboratorio editoriale completo dentro `/engaged-network`) + il laboratorio editoriale COMPLETO entra come nuovo blocco dentro `/engaged-network` posizionato tra le 4 funzionalità esistenti e i Paper Discussion Threads, con 3 sotto-blocchi (4 paper completi con CTA download PDF + executive summary mock · 4 VideoPillolaCard con Lottie animation placeholder preferred SVG zero-dependency · Galileo Reading Room full mode con textarea ATTIVO + response hardcoded ~600 chars dopo 800ms thinking simulato). Patch 2 file: `src/pages/EngagedResearch.tsx` (potenziamento bullet outro) + `src/pages/EngagedNetwork.tsx` (nuova section ~+330 righe). Niente login wall, niente state useState complesso, niente AnimatePresence locked/unlocked — architettura più pulita rispetto a D1 superseded. Documento precedente [[Prompt Claude Code - Hub editoriale doppio livello engaged-research]] **marcato SUPERSEDED** (D1 archiviata, vedi intestazione del file). (prompt operativo post-conferma WhatsApp Elena 20/5 mattina sul modello accesso hub editoriale: sezione preview pubblica + login community per accedere completo. Patch a `src/pages/EngagedResearch.tsx` con 5 azioni: (1) state locale `communityUnlocked` useState · (2) nuovo blocco "Community Gate CTA" dopo Reading Room con messaging + bottone "Entra nella community" che apre direttamente i contenuti — login illustrativo demo-fluido, refresh torna locked · (3) nuovo blocco condizionale "Community Content" sotto il gate, 4 sotto-blocchi: 4 paper completi riusati dai 6 Reading Room con CTA download + executive summary mock · 4 VideoPillolaCard Lottie animation placeholder (preferred SVG animato Framer Motion zero-dependency, alt vero Lottie via @lottiefiles/react-lottie-player) · 2 Paper Discussion Threads contestualizzati riusati da `/engaged-network` §17.3 · Galileo Reading Room full mode con textarea ATTIVO + typewriter response hardcoded · (4) accessibility + AnimatePresence transitions · (5) bottone "Esci dalla community" per resettare lo stato durante demo Carlo iterate al pitch 31/5. Decisione Carlo verbatim 20/5: *"il login lo mettiamo, nella CTA c'è scritto che ci si iscrive alla community per entrare, ma per la demo entriamo direttamente così è più fluida. Per le video pillole attualmente mettiamo una Lottie animation"*. File EngagedResearch.tsx passa da 157 a ~450-550 righe stimati). Documento precedente di pari giornata: [[Prompt Claude Code - Refactor atomo Industry Learning Ecosystem]] (✅ ESEGUITO da Carlo) (prompt operativo self-contained per refactor dell'atomo Industry Learning Ecosystem dentro `src/pages/PercorsiImprese.tsx` — target CORRETTO post-feedback Carlo che ha chiarito che il refactor atomico è qui, non su Pillars homepage / Cross-OpCo Tracker. **Decisione Carlo Interpretazione B**: 3 orbite ellittiche statiche (oggi ruotano 60s/75s/45s — si fermano e diventano backdrop strutturale) + 3 nuove sfere gialle decorative piccole senza label aggiunte come elettroni che scorrono lungo i 3 path ellittici via SVG animateMotion + mpath (r 1.2-1.4, durations 10s/14s/18s in fase sfasata) + float idle desincronizzato sulle 12 scritte dell'atomo (4 OpCo label Pharma/Industrial Tech/Consumer/Fater + 8 partner-elettroni label Biotech/Life sciences/HR tech/Manufacturing excellence/Digital solution/System integrator/Learning analytics/Automation provider). Le 8 imprese partner restano FERME nelle posizioni cardinali (label invariate, pulse esistente preservato). Palette assolutamente INVARIATA (#6B2C91 viola + #E4002B rosso nucleo + #F6BE00 giallo brand partner ed elettroni decorativi). Documento precedente [[Prompt Claude Code - Refactor atomo Pillars nucleo + orbite]] **marcato SUPERSEDED** in vault — era sul target sbagliato; resta come storico ma non da incollare. Atomo passa da 12 sfere (4+8) a 15 (4+8+3 decorativi) — se troppe sfere al refresh visivo, 4 strategie di riduzione previste nel prompt). (prompt operativo self-contained per refactor del comportamento dinamico dei pattern atomic-like del sito: (1) Nucleus() in Pillars.tsx — orbite ellittiche STATICHE nello spazio 3D + elettroni che SCORRONO lungo il perimetro via pattern wrapper-rotante (oggi è il contrario: orbite ruotano, satellites le seguono). Size elettroni leggermente aumentata (size-2/2.5 → size-2.5/3/3.5), velocità diverse 14s/18s/10s con counter-rotation alternata. (2) Micro-float idle desincronizzato su TUTTE le scritte interne+esterne dei due pattern atomic del sito: label centrali "NUCLEO · 00" + "Engaged Research" dentro l'atomo Pillars · 4 PillarCard esterne homepage · numero "01-04" sopra le 4 OpCoSphere del Cross-OpCo Tracker in /mba-gateway · nome OpCo nella callout attiva (Pharma/Tech/Ventures/Fater). Timing durations 5.0-7.5s desincronizzate, delay sfalsati 0-0.9s. **Tagliata v1**: restyle palette nucleo magenta/fucsia — la palette ufficiale Angelini resta INTATTA su tutti i componenti (nucleo blu-pianeta attuale + orbital rings ocra/ang-200 + satellites/elettroni con gradient warm cream/argentati esistenti). Nessun colore nuovo. Pattern tecnico orbital lasciato a CC su sua scelta). Documento precedente: [[Prompt Claude Code - percorsi imprese + persona 3D]] (doppio prompt operativo: (1) Claude Code per creare `src/pages/PercorsiImprese.tsx` come 5° percorso utente cluster 7 Elena v.012 "Imprese filiera & capability partners" con 7 section — hero "Industry Learning Ecosystem" · due funzioni Co-design + Placement · network visualization 4 OpCo + 8-10 partner esterni · 3 leve Programmi/Reskilling/Placement · 3 step onboarding Proposta/Workshop/Pilot · CommunityCallout cross-link Engaged Network · CTA finale form proposta via PreviewModal — accent viola istituzionale `#6B2C91` + routing in App.tsx + voce 5ª dropdown Header "Imprese & Partner di filiera" + 5ª persona PersonaSelect chiude pattern F-M-F-M-F. File nuovo ~400 righe TSX. (2) Prompt immagine 3D in inglese per generatore Midjourney v6/DALL-E/SDXL → asset `public/personas/imprese.png` — Innovation Director donna 45-50 manufacturing/control room, stile European Institutional Graphic Novel translated to 3D coerente con le 4 personas esistenti, palette navy + ivory + accent viola, pose 3/4 upward, illuminazione cinematica upper-left. Decisioni Carlo acquisite 19/5 notte: naming pagina "Imprese & Partner di filiera" + eyebrow hero "Industry Learning Ecosystem" + persona donna manufacturing). Documento precedente di pari giornata: [[Prompt Claude Code - Patch HR Business cluster 3]] **v2 asciugata** (prompt operativo self-contained per patchare `src/pages/PercorsiHrBusiness.tsx` con 4 azioni mirate post-feedback Carlo: revisione intro hero per posizionamento thought leader · sostituzione di 2 dei 4 box masterclass esistenti con executive programs LBS Executive Program for General Manager + LUISS BS Mastery Program for Managers + rinaming H2 da "Quattro masterclass" → "Quattro programmi, quattro partner internazionali" · nuova section Future Skills Observatory 4 trend Q2 2026 con CTA download via PreviewModal · nuovo callout compatto Forum Casa Angelini prima della CTA paper L&D. **Tagliate v1**: section dedicata "La ricerca dentro i vostri programmi" cross-link Engaged Research (appesantiva) + callout Talent pipeline + callout Newsletter (Newsletter già esistente via PageShell variant business). File da 260 a ~400 righe stimati. Round HR & Business chiude PRIMA del round Imprese — patch concordata con Carlo 19/5 sera). Documento precedente di pari giornata: archivio trascrizione call 19/5 (`80 - Sources/Files/Angelini Academy/2026-05-19 - Trascrizione Call FuturItaly+HeyAI - Allineamento Proposta Sito.docx`) + documento target cluster v.012 di Elena Chiti (`80 - Sources/Files/Angelini Academy/Analisi cluster utenti sito v.012 - Elena Chiti FuturItaly.docx`) — fonte autoritativa per cluster 7 "Imprese della filiera & capability partners". Decisione Carlo 19/5 sera su hub editoriale: **doppio livello in-page su `/engaged-research`** (variante D1) — preview pubblica come gancio + community-only login per contenuti completi (light white paper + video pillole ricercatore + paper completi + thread + Galileo full mode). Carlo verbatim: *"laboratorio editoriale permanente io lo voglio mettere come a doppio livello con la parte dentro la community che è più sviluppata"*.
+last_doc_added_prev: 2026-05-19 notte — [[Prompt Claude Code - Modifiche post-call 19-5]] (4 modifiche chirurgiche al mockup: PersonaSelect facoltativa + riordino gender F-M-F-M con donna in prima posizione · rimozione calcolatore borse MBA Gateway · homepage sezione network strutturata al posto del box-link · componente CommunityCallout fine percorsi Researcher e Talent. **Pendente per nuova chat strategica**: collocazione cluster Imprese percorso/sezione + collocazione hub editoriale Engaged Research nel mockup). Coaching note pari giornata: [[2026-05-19 - Carlo Performance — Call FuturItaly Angelini Academy]] (coaching 56 min call · voto 6,8/10 · 9 episodi · 6 pattern). Pre-doc: [[Pitch Outline 18-5 — Strategia Angelini Academy Short]] **ristrutturato in 4 parti** (Analisi 0-8 → Capability 9 → Proposta 10-17 → Esecuzione 18-22), aggiunte 2 slide nuove (analisi competitor 4 classi · analisi SEO 15 keyword + 4 spazi), aggiunta capability 6 ipersegmentazione + box mapping iniziativa↔obiettivi cliente per ogni iniziativa (slide 12-15). v1 era 411 righe, 32KB — versione asciutta McKinsey-style del Pre-call Elena. 20 slide con headline action-title + framework/tabella + so-what per ogni slide. Base diretta per la PPTX pitch finale 31/5 + supporto strategico per call FuturItaly 19/5 ore 15. Storytelling continuativo, leggibile in 15 min). Documento precedente di pari giornata: [[Mockup Sito - Struttura e Copy Completo]] (estrazione omnicomprensiva del mockup React in /Users/carlosanvoisin/code/angelini-academy: 17 route + tutti i componenti + tutto il copy citato letteralmente + dizionario i18n IT/EN + decisioni live di design 17-18/5). Documento di riferimento per pitch finale Angelini 31/5 e per qualsiasi audit/revisione del mockup
+last_doc_added_prev: 2026-05-18 sera — [[Pre-call Elena 18-5 — Strategia Angelini Academy]] (15 capitoli, 1.148 righe, 180KB — documento strategico unitario McKinsey-style per la call Carlo+Elena del 19/5 ore 15; ricompone in sequenza consulenziale Brief + Strategia Website 2026 + Sintesi Strategica v1.1 + User Journey + PDF FuturItaly 17/2 + Brief Copy + SEO + Accessibility + Concept Engaged Network. Capitoli nuovi rispetto ai doc esistenti: 3-A Concept e vision del sito; 7 Framework canali sito-centric; 7-bis Capability HeyAI in 5 blocchi; 8.10 OS10 Dashboard cliente di KPI sito; 10 Loop tre strati interno/community/esterno; 13 Matrice priorizzazione Now/Next/Later × Impatto/Sforzo; 13-bis Slide team; 14 Linkage criteri valutazione gara. KPI quantitativi distribuiti per cluster + iniziativa + consolidati cap. 11). Prima del documento (mattina 18/5): [[User Journey Dettagliati 2026-05-18]] (companion doc della Sintesi Strategica — 6 user journey end-to-end) + Sintesi Strategica patchata v1.1 (Galileo come UN agente con 4 capability, Angelini People + Engaged Network promossi a slide stabili del pitch, HeroBridgeConstellation come apertura visiva, PersonaSelect come prova architetturale visibile)
+last_call_date: 2026-05-18
+last_call_date: 2026-05-13
+last_call_date: 2026-05-12
+last_call_date: 2026-05-11
+next_touchpoint: 2026-05-21 pomeriggio o 2026-05-22 mattina (slot da fissare con FuturItaly)
+brand_book_received: 2026-05-14
+deadline: 2026-05-31
+deadline_history:
+  - 2026-05-08 — Q&A call cliente (svolta ✅, cambio scope strategico restyling+ristrutturazione fase 2)
+  - 2026-05-31 — concept proposta pitch finale (3 settimane post Q&A, stesso tempo dato alle altre agenzie)
+stakeholders: [Elena Chiti, Lavinia Ferrari, Daniele Caporale, Caterina Caboni, Tiziana Carnicelli, Michele Mattucci]
+---
+<!-- auto-updated by cowork-sessions-index 2026-05-20 20:22 (cron-22) | source-session: local_ae061e23 (icone 3D batch) + local_6cce3cbe (continuation §2.bis cluster Imprese/Hub editoriale review status) + local_b31cd243 (continuation §2.bis handover audit email Sito Futuritaly) | source-lastActive: 2026-05-20 -->
+<!-- atomic-change updated: 2026-05-20 → 2026-05-20 | session: local_ae061e23 -->
+<!-- auto-updated by cowork-sessions-index 2026-05-18 20:22 (cron-22) | source-session: local_6c45a690 + local_afc8645b + local_6a0ced23 + local_205afc1b + local_b31cd243 + local_0b808c8f (continuation §2.bis) | source-lastActive: 2026-05-18 -->
+<!-- auto-updated by cowork-sessions-index 2026-05-15 20:22 (cron-22) | source-session: local_66c1006d-f99e-4ac6-a003-d181898a7076 + local_9912ed2f-67e2-4965-a04a-d6fc60b841e4 + local_0b808c8f-b4ad-4ee9-8c6e-c110558730af + local_6ac858a6-cb61-4f50-af7c-35651a5981d1 | source-lastActive: 2026-05-15 -->
+<!-- auto-updated by cowork-sessions-index 2026-05-08 13:00 -->
+<!-- auto-updated by cowork-sessions-index 2026-05-08 13:33 (post call cliente 8/5 mattina) -->
+
+# 📁 Angelini Academy — Sito di comunicazione (gara)
+
+> **Outcome**: Aggiudicarsi (o decidere di non partecipare a) la gara per la progettazione e/o realizzazione del sito di comunicazione di **Angelini Academy**, intermediati da [[FuturItaly]] come agenzia che porta il progetto.
+
+## Stato
+
+- **Status**: 🟢 Active — **gara ancora attiva**, post Q&A cliente 8/5; in preparazione concept proposta entro fine maggio
+- **Cliente finale**: **Angelini Academy** (Viale Amelia 70, 00181 Roma — `angeliniacademy.com`); società di **Angelini Industries** in evoluzione da business unit a SRL autonoma
+- **Intermediario**: [[FuturItaly]] (Elena Chiti Key Account, Daniele Caporale Communication strategist, Lavinia Ferrari Strategy)
+- **Sponsor lato cliente confermata**: [[Caterina Caboni]] (single point of contact fase gara). [[Tiziana Carnicelli]] è in CC ma **non è la sponsor**: ruolo ridimensionato, presumibilmente collega/peer di Caterina con focus comunicazione esterna
+- **Prossimo milestone**: **Allineamento interno Carlo + Daniele + Elena — lunedì 11/5 ore 12:00** per ricalibrare regia pitch finale, rimettere a terra "laboratorio editoriale permanente" come differenziale, chiudere flusso economico margine FuturItaly
+- **Scope HeyAI** (consolidato post chiamata Carlo↔Elena 8/5 pomeriggio): **entrambe le fasi restano sul tavolo nella nostra proposta** — restyling rapido entro giugno (fase 1) + ristrutturazione completa successiva (fase 2). Elena ha confermato che possiamo proporre per entrambe; il restyling potrebbe restare al fornitore tecnico di gruppo Angelini ("economia di scala mai messa in discussione" parole Caterina) ma resta aperto. La proposta sarà **modulare** in modo che Angelini possa decidere quali fasi affidarci e quali far gestire al fornitore in essere. Lo sviluppo tecnico anche per la fase 2 è da chiarire con IT (Caterina aperta a valutare proposte alternative, non è default). Porta aperta diplomatica sulle altre voci del brief (social, content, video, PM operations) — non si insiste se Caterina ha già fornitori in essere
+- **Domande residue da chiudere lunedì 11/5 con Daniele/Elena**: (a) chi tira la corda con Caterina sull'IT per sviluppo tecnico fase 2 e quando; (b) regia pitch finale; (c) flusso economico margine FuturItaly; (d) laboratorio editoriale permanente come differenziale
+- **Differenziale per il pitch finale**: **laboratorio editoriale permanente** (idea Tiziana↔Elena non emersa in call cliente per confusione di Caterina sui contenuti) — HeyAI come infrastruttura editoriale-tecnica che converte la ricerca scientifica in posizionamento, non agenzia che "fa il sito". Da rimettere a terra lunedì 11/5 con Daniele
+- **Ultimo aggiornamento**: 2026-05-08 (post Q&A call cliente)
+
+> ⚠️ Questo progetto è **distinto** da [[_Futuritaly|Futuritaly]] (Osservatorio AI per studio legale): stesso intermediario commerciale (FuturItaly) ma cliente finale, scope e team diversi. Non confondere i due dossier.
+
+## 📚 Documenti collegati
+
+- [[Mockup Sito - Struttura e Copy Completo]] — 🆕 **documento di riferimento omnicomprensivo del mockup** (18/5/2026 tardo). Estrazione letterale di architettura, sezioni, copy ed elementi UI di tutte le 17 route del mockup React costruito da Michele (`/Users/carlosanvoisin/code/angelini-academy`). Indice navigabile §0, 21 sezioni totali: routing globale + 17 pagine in dettaglio (Home con LandingMesh+PersonaSelect+Hero+Pillars+People+Events+Blog+HomeBuilding+Partners+Newsletter, 4 percorsi persona, Engaged Research con Reading Room + Galileo Research Engine, MBA Gateway con Timeline+CrossOpCoTracker+GalileoTutor+Calcolatore borsa, Founder Stories, Press Room, Chi Siamo, Contatti, Eventi, Blog, Dashboard, Metafora Lab, Engaged Network con 4 widget interattivi, Angelini People con 5 aree post-login) + componenti trasversali (Newsletter 5 varianti, PreviewModal, PaperToLinkedIn, EmailAutomationModal, Galileo 4 personalità, Cross-OpCo Tracker) + dizionario completo i18n IT/EN + 8 decisioni live design 17-18/5. **Uso**: input per pitch finale 31/5, base per audit copy/QA, riferimento per evoluzioni post-pitch. Aggiornare al next commit del mockup
+- [[Analisi Brief]] — analisi strutturata del brief PDF (vision, purpose, 4 pilastri, communication plan 2026, fili rossi, target, scope gara, criteri di valutazione)
+- [[Domande QA]] — lista domande operative per il Q&A 8/5, raggruppate per ambito + indicazione di chi pone (Carlo / Daniele&Elena)
+- [[Brief Mockup]] — brief operativo per Michele/Federico/Simone per produrre il mockup navigabile entro giovedì sera 7/5
+- **Domande tecniche IT (v1.1) post Q&A 8/5** — 13 domande mappate per fase (restyling fase 1 / ristrutturazione fase 2 / entrambe), tagliate 8 domande premature post-aggiudicazione e D4 fuori scope (legal/GDPR gestita internamente Angelini). File: [[50 - Archive/Inbox/2026-05/2026-05-08 - Angelini Academy - Domande tecniche IT|2026-05-08 - Domande tecniche IT]] in `00 - Inbox/`
+- [[50 - Archive/Inbox/2026-05/2026-05-10 - Audit Angelini pre-Elena|2026-05-10 - Audit Angelini pre-Elena]] — memo stato dei fatti al 10/5 (Fase 1 del percorso pitch finale)
+- [[Strategia Pitch Finale]] — framework strategico working interno HeyAI (Fase 2). Spina dorsale di documento per Elena, pitch deck, prototipo. Da allineare con Daniele+Elena lunedì 11/5 12:00
+- [Strategia Pitch Finale per Elena.docx](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/Angelini%20Academy/Strategia%20Pitch%20Finale%20per%20Elena.docx) — documento docx condivisibile con FuturItaly (Fase 3 v1, archiviato come fonte secondaria). Versione asciugata della strategia
+- [[50 - Archive/Inbox/2026-05/2026-05-10 - Cheat sheet call interna Carlo+Daniele+Elena 11-5|2026-05-10 - Cheat sheet call interna]] — cheat sheet operativo Carlo per condurre la call 11/5 12:00 (Fase 3 v2, ridestinato a Carlo come strumento di vendita interna della strategia a FuturItaly)
+- [[50 - Archive/Inbox/2026-05/2026-05-10 - Analisi 360 Angelini e piano lavoro con FuturItaly|2026-05-10 - Analisi 360 Angelini]] — **main deliverable Carlo per la call 11/5** (Fase 3 v3). Analisi 360° obiettivi comunicazione + posizionamento cliente + traduzione in web design/content creation/AI/SEO/lead gen + divisione lavoro HeyAI↔FuturItaly + punti extra-pitch (economico/contrattuale/governance/cliente/rischi) + prossimi passi operativi con owner e deadline
+- [[50 - Archive/Inbox/2026-05/2026-05-10 - Cosa vuole davvero Angelini Academy|2026-05-10 - Cosa vuole davvero Angelini]] — **lettura HeyAI obiettivi reali del cliente** (Fase 3 v4, focus strategico-commerciale). 4 obiettivi latenti rangati (talent pipeline life sciences/robotics · revenue corporate learning aperto · brand uplift internazionale · innovation scouting per Ventures + 4 OpCo) supportati da fatti pubblici verificati. Trasforma il sito da "comunicazione" a "hub di ingresso su 4 flussi strategici". 6 sezioni nuove obbligatorie nel prototipo, 4 metriche di successo per pitch, psicologia di articolazione a Caterina. Arma di vendita differenziante per il pitch finale
+- [[50 - Archive/Inbox/2026-05/2026-05-10 - Prep call 11-5 — guida operativa Carlo|2026-05-10 - Prep call 11-5]] — **📍 Documento unico di riferimento Carlo per condurre la call 11/5 12:00** (Fase 3 v5, sintesi operativa). 1-2 pagine, agenda 6 punti con tempi, come intavolare ogni argomento, risultato atteso per ciascuno, cosa NON discutere (delimitazione), 3 anti-pattern Carlo, recap WhatsApp modello, fallback se la call si dilunga. Tutti gli altri doc 10/5 sono background
+- [[50 - Archive/Inbox/2026-05/2026-05-10 - Ecosistema AI e innovazione Angelini Academy|2026-05-10 - Ecosistema AI Angelini]] — catalogo 30+ idee AI/ecosistema/editoriale/wow mappate sui 4 obiettivi reali. Ammunition interna per pitch (UNA feature) + roadmap evolutiva (3 estensioni accennate) + backlog fase 2/3. Quattro sezioni: A. Feature AI sito · B. Ecosistema digitale (CRM, LinkedIn, newsletter, automation, alumni platform) · C. Content format editoriali · D. Idee "wow" sperimentali (graphic novel, mini videogioco Career Path, avatar AI partner accademici, tour WebXR, AI co-author paper)
+- [[Framework Pitch Finale]] — **spina dorsale strategica della proposta HeyAI** (Fase 3 v6, 11/5/2026). Sostituisce strutturalmente la Strategia Pitch Finale come riferimento unitario. Articolato in 7 pillar (analisi del contesto + cluster destinatari + messaggi/value proposition + iniziative on-site/off-site + journey per cluster + KPI + roadmap) + sintesi esecutiva + sezione finale moduli operativi (quotazione, governance, allocazione risorse, analisi rischi come perimetro). Metodologia: `marketing:campaign-plan` + `design:research-synthesis`. Tono "fondazione culturale-scientifica europea con propensione mecenatistica". Trend di mercato dei cinque mercati di posizionamento (corporate learning Europa/Italia, executive education, AI in education, open education, ESG mecenatismo, lifelong learning) verificati da fonti web pubbliche al 11/5. Cluster operativi 4 espandibili quando FuturItaly consegnerà clustering 12/5 sera
+- [[Strategia Website 2026]] — **🟢 documento operativo HeyAI per la realizzazione del sito** (Fase 3 v9, 12/5/2026). Pivot metodologico vs Campagna 2026 archiviata: scope HeyAI = sito + soli satelliti del sito (no PR, no Forum proprio, no Hackathon proprio, no Roadshow, no eventi propri — gestiti da Angelini direttamente o da fornitori in essere). Struttura concordata con Carlo a 9 sezioni (comprensione contesto · analisi interna+esterna · target · messaggi+VP · iniziative on-site+satellite · user journey 4 percorsi · KPI site-centric · roadmap 3 fasi · quotazione+governance+rischi). Eredita esplicitamente dal [[Framework Pitch Finale]]. Le 9 iniziative on-site (architettura 4 percorsi · Engaged Research Lab · Cross-OpCo Tracker · Founder Stories · Gateway Hub · AI Layer 5 funzionalità · Newsletter segmentata · Press room+Bilancio · Footer cross-link Industries) + 6 iniziative satellite. Layer AI con disciplina informativa (ogni funzionalità ha confine "cosa NON fa") riprese dal feedback Caterina 8/5
+- [[Scan Siti Web Comparable]] — **🟢 scan UX dei siti player comparable** (Fase 3 v9, 12/5/2026). Sostituisce [[Analisi Competitor (v2 archiviata)]] con cambio metodologico opzione 2 (vedi feedback Carlo 12/5): solo osservazioni VERIFICABILI dal browser sui 10 siti scansionati (5 fondazioni mecenatistiche + 3 research lab pedagogici + 2 business school comparable). NESSUN claim su strategia interna, deliverable interni, ranking, futuro lancio dei player — tutte cose smontabili da chi conosce meglio il player. Output: 8 pattern UX aggregati osservabili che diventano input per la sezione "Analisi esterna" della [[Strategia Website 2026]]. Rischio del pitch ridotto rispetto alla v2 archiviata
+- [[Analisi Competitor (v2 archiviata)]] — versione v2 precedente (mantenuta come archivio audit del pivot opzione 2). Non usare per il pitch — sostituita da [[Scan Siti Web Comparable]]
+- [[Analisi Competitor (v1 archiviata)]] — versione v1 precedente (mantenuta come archivio audit del primo cambio metodologico). Non usare per il pitch
+- [[Campagna 2026 (archiviata - scope troppo largo)]] — versione precedente "Campagna 2026" (mantenuta come archivio audit del pivot scope-creep). Non usare per il pitch — sostituita da [[Strategia Website 2026]]
+
+#### 🏗️ Architettura documentale strategica (12/5/2026)
+
+I documenti del progetto si organizzano in **3 layer** che si parlano tra loro coerentemente:
+
+**Layer 1 — Strategico (cornice generale)**
+- [[Framework Pitch Finale]] — spina dorsale strategica generale (7 pillar)
+- [[50 - Archive/Inbox/2026-05/2026-05-10 - Cosa vuole davvero Angelini Academy|2026-05-10 - Cosa vuole davvero Angelini]] — interno HeyAI, mai shared
+
+**Layer 2 — Operativo per il pitch (le slide al cliente nascono da qui)**
+- [[Strategia Website 2026]] — cornice site-centric, eredita dal Framework
+- [[Scan Siti Web Comparable]] — input osservazionale per analisi esterna
+- [[Sintesi Strategica Pre-PPTX 2026-05-18]] — 🆕 18/5/2026 v1.1 patchata (**riferimento attivo per generazione PPTX pitch 31/5**): razionalizzazione unitaria delle slide (headline + corpo discorsivo + note di regia) di tutti i deliverable strategici prodotti tra 5/5 e 17/5. **Patch v1.1 (sera 18/5)**: Slide 0 nuova HeroBridgeConstellation (apertura visiva del mockup), Slide 6 patch PersonaSelect (carousel 3D character-select), Slide 9 riscritta — **Galileo è UN agente con 4 capability (Career Path Navigator + Reading Room + Tutor + Research Engine simulazioni)**, NON 5 feature AI separate · Slide 14a/14b/14c promosse — Angelini People (login Elena + dashboard Personal Learning Record + 5 aree) + Engaged Network preview (6 feature MVP Q1 2027) + loop tre strati. Slide 1-2 lettura problema cliente · Slide 3 tesi vincita · Slide 4-5 analisi interna ed esterna · Slide 6 4 percorsi utente · Slide 7 messaggi chiave + VP1-VP4 · Slide 8 9 OS on-site + 6 SAT satellite · Slide 10 traduzione strategia→architettura · Slide 11 user journey 4 percorsi (link a companion doc) · Slide 12 KPI site-centric · Slide 13 roadmap 3 fasi · Slide 15 slide del NO · Slide 16 quotazione modulare + governance · Slide 17 linkage criteri gara. Appendice regia + decisioni aperte + caveat operativi + 10 citazioni testuali cliente da preservare
+- [[User Journey Dettagliati 2026-05-18]] — 🆕 18/5/2026 (**companion doc della Sintesi Strategica**): documento dedicato ai **6 user journey end-to-end** per le persone del sito. Persona 1 Giovane talento (Sofia) → entry LinkedIn/Roadshow/paid/passaparola → PersonaSelect → landing `/percorsi/talent` → Galileo · Career Path Navigator (capability 1) → `/mba-gateway` con Timeline + Cross-OpCo Tracker + Galileo · Tutor (capability 3) + Calcolatore + EOI form. Persona 2 Ricercatore (Marco) → Google Scholar/peer accademico → Galileo · Reading Room (capability 2) → Galileo · Research Engine (capability 4 con **simulazioni parallele + hypothesis generation + pattern discovery + synthetic experiments**) → form proposta collaborazione. Persona 3 HR & Business (Giulia) → **soft seeding 2026** newsletter + intent indicator. Persona 4 Media (Luca) → press kit + bio Morbidelli. Persona 5 **Dipendente Gruppo (Elena Marchetti) — NEW Angelini People** → login wall + dashboard Personal Learning Record (4+4 box per simmetria) + 5 aree + reset demo automatico invisibile. Persona 6 **Alumnus MBA / Ricercatore partner — NEW Engaged Network preview Q1 2027** → grid 6 feature (Paper Discussion + Pedagogical Quiz + AI Co-pilot + Tier silenziosi + Career Path Tracker + Collaborative Position Paper). **8 diff segnalate** tra mockup live e doc strategici originari (Galileo unico vs 5 feature · Research Engine simulazioni nuova capability · Engaged Network + Angelini People già navigabili nel mockup · HeroBridgeConstellation Hero · PersonaSelect carousel · riordino schede citazioni Sofia→Marco→Elena · criteri MBA rimossi · 9 risorse esistenti sito attuale). 3 approcci possibili per le slide pitch (1 slide per persona / 1 diagramma 4 corsie / demo live del mockup)
+
+**Layer 3 — Tecnico allegato (deliverable specialistici, da costruire in chat dedicate)**
+- [[SEO Specs Sito Nuovo]] — ✅ 13/5/2026: specifica SEO operativa forward-looking per il sito nuovo (no audit sito attuale, obsoleto). 6 capitoli: keyword research per 4 percorsi utente (15 keyword priority cross-cluster) · content architecture (URL structure + hierarchy + hub-and-spoke internal linking + hreflang IT/EN + cross-domain Industries) · benchmark 5 siti (IE Insights, UCL Knowledge Lab, SDA Bocconi, Fondazione Bracco, Fondazione Veronesi) via WebFetch diretto · schema markup completo (EducationalOrganization + Person + ScholarlyArticle + Course + Event + FAQPage + BreadcrumbList + WebSite/SearchAction con esempi JSON-LD) · KPI baseline (indexation + organic visibility + engagement + Core Web Vitals + backlink) · priorità fase 1/fase 2. Vincolo dichiarato: no Ahrefs/Semrush (volume qualitativi). Da allegare a pitch finale 31/5
+- [[Accessibility Specs Sito Nuovo Angelini Academy]] — ✅ 13/5/2026: spec WCAG 2.1 AA vincolante per design system + delivery sito nuovo. 6 sezioni (framework AA · checkpoint per macro-area OS1–OS9 + AI Layer · pattern per 5 funzionalità AI · template implementativi skip-to-content/ARIA/focus/keyboard/contrast/screen reader · plan testing manual+automated · posizionamento accessibility come asset narrativo fondazione + EAA compliance). Benchmark MAXXI/Royal Society UK/Smithsonian. Standard: WCAG 2.1 AA W3C ufficiale + EAA D.Lgs. 82/2022. Da allegare a pitch finale 31/5
+- (Quando arriva brand book Elena) Brand Review Sito Angelini (chat con `/marketing:brand-review`)
+
+**Layer 4 — Delivery handoff per AI builder (Claude Code, in sessione sul repo `/Users/carlosanvoisin/code/angelini-academy/`)**
+- [[Mockup Brief Sito]] — 🆕 ✅ 15/5/2026 (**riferimento attivo per il pitch 31/5**): brief operativo snello (~2.450 parole, 9 sezioni) per evolvere la landing one-pager già esistente in mockup navigabile multi-pagina. Stack reale **Vite + React 19 + TypeScript + Tailwind 4 + Framer Motion** (NON Next.js). Sezioni: scope · audit landing sezione per sezione (Header/PersonaSelect/Hero/Pillars/People/Events/Blog/Partners/Newsletter/Footer — cosa tenere/correggere) · sitemap target 10 pagine nuove (Home + 4 percorsi cluster + Engaged Research + MBA Gateway + Founder Stories + Press + Chi Siamo + Contatti) · spec snella per ognuna delle 10 pagine (obiettivo · sezioni · messaggio · CTA · componenti riusabili + nuovi) · note coerenza palette/tipografia (ang-/ocra-/ink, Fraunces+Manrope già in `src/index.css`, no ridefinizione) · **5 idee wow grafiche/stilistiche** (Cross-OpCo Tracker scroll-driven · PersonaSelect peek-preview · Founder Stories scroll-jacking parallax · Engaged Research biblioteca galleggiante · Newsletter intent-driven) · hook Phase 2 AI Layer illustrativo (5 funzionalità da [[Strategia Website 2026]] §5.3 come UI demo, no backend) · pipeline operativa step-by-step per Carlo · riferimenti incrociati. **Mismatch trovato**: "HR & L&D Director" landing vs "HR & business community" Strategia → rinaming proposto `HR & Business`, slug `/percorsi/hr-business` da decidere PRIMA del pass a Claude Code (impatta slug+componenti+copy)
+- [[Prompt Claude Code - Hero scroll effect]] — 🆕 ✅ 15/5/2026 (sera tardi): prompt dedicato SOLO al miglioramento dell'effetto scroll della Hero (HeroBridgeConstellation con arco SVG + 7 sfere scroll-driven). 3 round iterativi (fix strutturali curva+sincronizzazione+climax · polish estetico chromatic aberration+particles+parallax+bloom 3D · accessibility+responsive+QA performance). Vincoli: solo palette brand book, no librerie nuove, no touch ad altri componenti. Reference visivi opzionali da mandare in chat. Sessione dedicata senza altri task in parallelo come da decisione strategica
+- [[Prompt Claude Code - Audit modifiche recenti]] — 🆕 ✅ 15/5/2026 (sera tardi): prompt audit per verificare se le pagine del sito sono state silenziosamente ridotte di contenuti negli ultimi 6 commit (~2h di lavoro). 8 step: git log + git diff --shortstat + identificazione file con netto negativo + analisi blocchi rimossi >5 linee consecutive + verifica esplicita su Percorsi/Eventi/Blog + verdetto finale. Report salvato in `/tmp/audit-angelini-academy.md`. Triggerato da preoccupazione Carlo su possibili riduzioni silenziose dopo i commit "v3 polish · UX cleanup"
+- [[Prompt Claude Code - Revisioni sito 15-5 v1]] — 🆕 ✅ 15/5/2026 (sera tardi, post-review visiva Carlo + 4 correzioni successive): 11 punti di refinement chirurgici organizzati per pagina/sezione del sito. **Riordino schede citazioni** in People.tsx + FounderStories.tsx (Sofia→Marco→Elena, NON era il PersonaSelect carousel) · home box uguali + più colorati · Engaged Network 4 box "Partecipare al network" colorati · Career Path Tracker foto diversificate · Tier system replicato pattern CrossOpCo · footer link allineati · Angelini People 4° box + **reset demo automatico SENZA pulsante visibile** + logout Elena auto + titoli arricchiti · Engaged Research allineamento registri + Metodologia colorata · HR & Business foto fix + 4 settori colorati · MBA Gateway Galileo Tutor versione leggera con icona info + CTA quiz Career Path + **criteri eleggibilità RIMOSSI completamente** (erano finti, non nel brief Angelini) · Chi Siamo sfondi più omogenei. Ponte animato hero NON in questo prompt (sessione dedicata separata, mood board da preparare)
+- [[Prompt Claude Code - Galileo Tutor e Research Engine]] — 🆕 ✅ 15/5/2026 (sera tardi, **v2.0 — sostituisce strutturalmente v1.0 AI Tutor e Research Engine**): pattern consolidato dopo scoperta di Galileo come agente AI già unico nel sito. Niente nuovi agenti — estendiamo Galileo con 2 nuove capability (Galileo · Tutor in `/mba-gateway` + Galileo · Research Engine in `/engaged-research`) in continuità con il pattern esistente (Galileo · Career Path Navigator + Galileo · Agente di ricerca). Punti d'innesto chirurgici identificati nel codice: tra CrossOpCoTracker e Criteria in MbaGateway.tsx · tra EngagedResearchReadingRoom e Methodology in EngagedResearch.tsx. Componenti nuovi: GalileoTutor.tsx + GalileoResearchEngine.tsx. Cross-link soft via frasi italic "La ricerca che facciamo diventa la formazione che diamo". 4 capability totali di un solo agente al pitch 31/5. Pattern industriale 2025-2026 Khanmigo/Harvey/Cursor: UN agente verticale per audience, capability multiple coordinate
+- [[Prompt Claude Code - AI Tutor e Research Engine]] — ⚠️ 15/5/2026 (deprecato v1.0, proponeva agenti separati; sostituito da v2.0 Galileo Tutor e Research Engine dopo scoperta naming Galileo già consolidato nel codice)
+- [[Prompt Claude Code - Pagina Engaged Network Preview]] — 🆕 ✅ 15/5/2026: prompt operativo self-contained da copia-incollare a Claude Code per creare la pagina `/engaged-network` come **mockup illustrativo Preview Q1 2027** per il pitch 31/5 (NO backend, NO auth, NO DB). 12 sezioni: header con badge Preview · hero · grid 6 feature · mockup F1 Paper threads · mockup F14 Career Path Tracker · mockup F18 Position Paper drafting · sezione Tier · sezione AI Co-pilot · CTA banner · FAQ 5 domande · waitlist form mockup · footer. Coerenza con design system + tipografia + Brief Copy. Componenti React in `src/components/EngagedNetwork/` + dati mock in `src/data/engagedNetworkMock.ts`
+- [[Concept - Engaged Network Community]] — 🆕 ✅ 15/5/2026: concept di lavoro per una sezione community owned sul sito Angelini Academy ("Engaged Network"), estensione digitale perpetua del Forum annuale. Reference: Il Marketers + Reforge + Disco/Circle + AI moderation hybrid 2026. Decisioni consolidate via AskUserQuestion 15/5: roadmap Fase 3 2027 + **teaser visivo al pitch 31/5** (1-2 slide concept, no costi) · audience priorità lancio **alumni MBA + ricercatori partner accademici** (i 14 atenei pre-validati FuturItaly 17/2) · modello **free apertura + AI Co-pilot moderation hybrid grounded RAG + Community Editor HeyAI** dentro Laboratorio editoriale. 4 feature core (paper discussion threads · pedagogical quiz light · AI moderation · tier silenziosi tipo Wikipedia/Stack Overflow). 5 tensioni residue + mitigation. Da sondare con Elena al touchpoint 18/5 prima di integrare in Strategia Website 2026 + Framework Pitch Finale
+- [[Prompt Claude Code - Typography swap]] — 🆕 ✅ 15/5/2026: prompt operativo self-contained da copia-incollare a Claude Code per sostituire Fraunces+Manrope con Merriweather+Barlow preservando la logica semantica originale del sito (serif display per headlines + sans neutro per body/UI). Mapping 1:1, design tokens completi (scale, weight, letter-spacing, line-height), regole di non-uso, procedura step-by-step, deliverable attesi. Argomento di difesa al pitch 31/5 incluso (clausola brand book pag. 23 "esigenze compositive")
+- [[Smoke test font - Variante B]] — 🆕 ✅ 15/5/2026: HTML standalone per smoke test estetico tipografico — Barlow Light hero + Merriweather Light Italic accent + blockquote
+- [[Smoke test font - Variante C]] — 🆕 ✅ 15/5/2026: HTML standalone per smoke test estetico tipografico — Merriweather Light Italic DOMINANTE nei display (variante preferita 15/5: replica logica Fraunces+Manrope originale)
+- [[Brief Copy Sito per Claude Code]] — 🆕 ✅ 15/5/2026 (**riferimento attivo per review/scrittura copy delle 10 pagine sitemap**): brief operativo per Claude Code in sessione su `/Users/carlosanvoisin/code/angelini-academy/`. 12 sezioni: identità cliente · archetipo Sage primario + Magician secondario · ToV 5 attributi · lessico approvato/vietato (liste chiuse) · **copy blessato da preservare letteralmente** (hero, tagline, intro 4 pilastri, 5 CTA, positioning §6.10) · regole copy per le 10 pagine sitemap · checklist anti-marketing-speak pass/fail 7 criteri · identità visiva brand book Angelini 2024 (Barlow+Merriweather, #003087, "Unwavering Care" — swap font da Fraunces+Manrope deciso 15/5) · linee guida per i 4 cluster (cosa dire/non dire) + cluster 5 founder · 4 tensioni narrative · procedura operativa step-by-step. Gerarchia fonti: brief PDF gara + brand book + call cliente/Elena come PRIMARIE; documenti HeyAI come secondarie interpretative. Output atteso: copy che superi la checklist §7
+- [[Master Brief Sito Angelini Academy]] — ⚠️ 15/5/2026 (**deprecato come riferimento attivo, resta come riserva specs tecniche dettagliate per fase production post-pitch**): assumeva stack Next.js 14 — sbagliato vs codebase reale Vite+React. Sezioni utili da riusare in fase production: design tokens estesi, 8 schema JSON-LD, performance budget, WCAG checklist, componenti UI con stati. Se mai riutilizzato post-pitch: patchare §12 stack + §5 routing (App Router → react-router) + §9 schema markup (renderlo SSR via vite-ssg o accettare client-side fallback)
+
+Ogni documento del Layer 3 cita esplicitamente come parent la [[Strategia Website 2026]] (Layer 2) e come grandparent il [[Framework Pitch Finale]] (Layer 1). La Strategia Website 2026 è il documento che integra tutto e diventa il pitch operativo.
+
+### Prep doc / Cheat sheet / Specchietti pre-call (in `00 - Inbox/`)
+
+- [[50 - Archive/Inbox/2026-05/2026-05-07 - Prep call FuturItaly Angelini Academy|2026-05-07 - Prep call Angelini]] — prep doc allineamento Carlo + Elena 7/5 ore 16:30
+- [[50 - Archive/Inbox/2026-05/2026-05-07 - Cheat sheet call FuturItaly Angelini Academy|2026-05-07 - Cheat sheet Angelini]] — cheat sheet rapido per stessa call 7/5
+- [[50 - Archive/Inbox/2026-05/2026-05-07 - Specchietto AI Angelini Academy|2026-05-07 - Specchietto AI Angelini]] — specchietto AI/posizionamento per la gara
+- [[50 - Archive/Inbox/2026-05/2026-05-08 - Prep call cliente Angelini Academy|2026-05-08 - Prep call Angelini]] — prep doc per la Q&A call cliente 8/5 mattina (stakeholder Caterina+forse Tiziana, regia Daniele, scenari di risposta tipici, segnali politici)
+
+## ⚠️ Cambio di natura del progetto (cronistoria 4-5/5/2026)
+
+Quello che era partito come **richiesta di quotazione one-shot** ad aprile (Lavinia chiede un preventivo via email, Elena gestisce in call) si è evoluto in due passaggi:
+
+**Step 1 (4/5)**: Caterina Caboni (Angelini) condivide a Daniele Caporale "tutto il materiale condiviso con le agenzie in gara" su SharePoint → conferma di gara competitiva.
+
+**Step 2 (5/5, call Carlo-Elena)**: Elena chiarisce la cronologia reale. La gara formale Angelini era partita a febbraio (briefing 16-20 feb, offerte 14 marzo, presentazioni 16-20 marzo, go-live aprile) ma **FuturItaly era stata preclusa** dalla procedura per problemi di accreditamento sulla piattaforma fornitori. La gara formale è chiusa, ma il management Angelini ha richiamato FuturItaly **fuori procedura** in modo informale per chiedere comunque una proposta — perché il dirigente alleato non è soddisfatto del fornitore storico della holding e vuole testare FuturItaly.
+
+**La gara, in sé, è ancora attiva** (conferma Carlo 5/5/2026). HeyAI è dentro questa "ripartenza informale" come fornitore proposto da FuturItaly per il sito.
+
+### Tensioni politiche interne lato cliente (raccolte da Elena)
+- **Management Angelini Academy**: pro-FuturItaly (li conosce su altri lavori, vuole testare il loro approccio sul rebranding)
+- **Ufficio acquisti Angelini con persona nuova**: ostile — ha contestato a tavolino, davanti a tutti, "perché far lavorare Futuritaly su questa attività". Vuole tenere i fornitori storici della holding.
+- **Dirigente alleata in stanza** (presumibilmente [[Tiziana Carnicelli]]): "tra un po' cade dalla sedia e sviene" durante la contestazione dell'ufficio acquisti. Ha comunque garantito a FuturItaly la possibilità di fare proposta.
+- **Primo fornitore HeyAI per il design** (esterno): si è ritirato per "rigidità" e tempistiche non compatibili. HeyAI è arrivata come alternativa proposta da Carlo.
+
+## 💰 Quotazione
+
+### Decisione 5/5/2026: opzione B confermata
+
+Carlo ha confermato che **HeyAI rifà il sito** (non aggiornamento contenuti come letteralmente scritto nel brief slide 30). Quindi si parte dall'**opzione B**: sito completo con metodo HeyAI (mockup navigabile invece di wireframe statici), doppia anima istituzionale (ricerca, MBA, Forum) + commerciale (offerta formativa, lead gen Roadshow, candidature MBA).
+
+### Storico tre opzioni (3/4/2026)
+
+| Opzione | Range | Cosa include | Funzione strategica |
+|---|---|---|---|
+| A — entry | €2.000 | Solo progettazione architettura + corporate presentation 15-20 slide (come da brief originale FuturItaly aprile) | Strumento di vendita interna di Elena per dimostrare che spacchettare è inefficiente |
+| **B — medium** | **€4.000-5.000** | **Sito completo metodo HeyAI** | ✅ **Opzione confermata 5/5** |
+| C — premium | €10.000-12.000 | Massima sofisticazione | Ancoraggio psicologico (non utilizzato in gara) |
+
+### Add-on da valutare dopo il Q&A 8/5
+
+- **Bilinguismo IT/EN**: +€1.000-1.500 (da confermare se richiesto — vedi domanda A3 in [[Domande QA]])
+- **Integrazione lead gen** (form MBA, form Roadshow, form Hackathon): +€1.500-2.000 se non basta un form base
+- **Sviluppo e-commerce/payment** (se Angelini vuole gestire dentro il sito la tassa iscrizione MBA 20K€): +€2.500-4.000 — probabilmente da escludere, il flusso resta su IE Madrid
+
+### Numeri da affinare con Michele
+
+I range sopra sono pre-Q&A. Il sito Angelini Academy ha più sezioni (4 pilastri + Engaged Research + Eventi + Blog + MBA Gateway) di un sito mono-target tipico — Michele deve dimensionare le ore prima della proposta formale. Conferma con lui dopo l'8/5 prima di mettere numeri su carta.
+
+## 🏗️ Due brief affiancati
+
+### Brief 1 — quello "vecchio" di Lavinia (3/4/2026)
+
+Titolo: **"PROGETTAZIONE ARCHITETTURA SITO CON DOCUMENTO DI PRESENTAZIONE ISTITUZIONALE"**. Era la richiesta one-shot prima che il quadro reale diventasse chiaro: corporate presentation 15-20 slide + UX/IA/wireframe (no UI) + rework. È il brief su cui era stata fatta la quotazione di aprile, oggi superato.
+
+### Brief 2 — quello "vero" di gara (PDF Academy Evolution_Comm briefing, 4/5/2026)
+
+37 slide con vision, purpose ("Building bridges in education"), 4 pilastri, communication plan 2026, digital ecosystem attuale, scope di gara completo, timing e criteri di valutazione (Strategia 30% · Contenuto 30% · Creatività 15% · Prezzo 10% · Team 10% · Case history 5%).
+
+Lo scope di gara non riguarda solo il sito ma **comunicazione integrata 360°** per il lancio della nuova SRL: Social (piano editoriale, content, advertising, community management), Sito web (aggiornamento contenuti — ma noi rifaremo), Altro (video promo, brochure, gadget), Profilo LinkedIn personale del CEO Marco Morbidelli, KPI/misurazione, **pacchetto ore di Project Management e Operations in outsourcing**.
+
+**Per HeyAI**: ci concentriamo sul sito tenendo il piano comunicazione 2026 come contesto vincolante; le altre attività rientrano nelle competenze HeyAI ma non spingiamo se Angelini ha già fornitori in essere. Vedi analisi completa in [[Analisi Brief]].
+
+## 🎯 Contesto cliente (consolidato post-call 5/5)
+
+- **Angelini Academy** = società di **Angelini Industries** dedicata al Corporate Learning, in evoluzione da business unit a SRL autonoma. Il rebranding "Angelini Academy Evolution" è il driver del piano di comunicazione 2026 e di tutta questa gara.
+- **CEO**: [[Marco Morbidelli]] — il brief gara chiede esplicitamente di costruire/ottimizzare il suo profilo LinkedIn personale.
+- **Vision e purpose**: "Achieve global leadership in corporate learning innovation" / "Building bridges in education".
+- **Architettura**: nucleo Engaged Research + 4 pilastri (Corporate Learning, Innovazione tecnica/manageriale, Educational Think Tanks, MBA Gateway con IE Madrid).
+- **Doppia anima del sito**:
+  - **Istituzionale**: dialogo con ricercatori universitari, partnership accademiche (LBS, IMD, IE, UCL, Royal College of Art, SDA Bocconi, LUISS, etc.), valorizzazione della ricerca su modelli educativi
+  - **Commerciale/lead gen**: lancio e iscrizioni MBA Gateway, Roadshow Università, Hackathon, Angelini Academy Forum, masterclass — il sito è il punto di atterraggio del traffico generato da social + eventi
+- **Brand book**: versione 2024 esiste, ma il rebranding può portare un brand book aggiornato in arrivo. Da chiarire al Q&A (domanda B1-B2 in [[Domande QA]]).
+- **Budget**: cliente non ha condiviso un range. Da provare a sondare al Q&A (domanda G1).
+
+## Stakeholders
+
+### Lato FuturItaly (intermediario)
+- [[Elena Chiti]] — **Key Account del cliente**, owner relazione commerciale · `chiti@futuritaly.com` · +39 342 8513847
+- [[Lavinia Ferrari]] — Strategy, ha introdotto il deal il 3/4/2026 · `ferrari@futuritaly.com`
+- [[Daniele Caporale]] — Communication strategist, gestisce il dialogo diretto con Caterina Caboni · `caporale@futuritaly.com` · +39 347 5985512
+
+### Lato Angelini Academy (cliente finale)
+- [[Caterina Caboni]] — Senior Marketing and Events Manager, gestisce operativamente la gara · `caterina.caboni@angeliniacademy.com` · +39 345 7524214
+- [[Tiziana Carnicelli]] — TBD (in CC sul thread, possibile decisore senior) · `tiziana.carnicelli@angeliniacademy.com`
+
+### Lato HeyAI
+- **Carlo Sanvoisin** — owner deal
+- [[Michele Mattucci]] — owner tecnico/delivery (ha già validato la fattibilità dell'e-commerce integrato per l'opzione B)
+
+## Task aperti
+
+### Pre-Q&A (entro venerdì 8/5) — divisione lavoro consolidata 5/5 post-call con Michele
+
+**Carlo prepara entro stasera (5/5)** 4 deliverable e li gira a Michele:
+1. Wireframe con architettura informativa del sito (sitemap + zone pagina + percorsi utente)
+2. Analisi narrativa/storytelling estratta dal brief (vision tradotta in claim, micro-copy, hooks per i 3 fili rossi)
+3. Documento domande Q&A (già fatto, vedi [[Domande QA]] — eventuale affinamento con scenari di risposta)
+4. Brief originale del cliente (PDF, già disponibile in `/uploads/Academy Evolution_Comm briefing.pdf`)
+
+**Michele lavora mercoledì 6/5** sul mockup navigabile usando i 4 deliverable di Carlo come input completo. Non ha bisogno di un brief separato per il mockup: i 4 documenti sono il mandato.
+
+**Mercoledì sera 6/5**: review congiunta Carlo+Michele sul primo draft mockup.
+**Giovedì 7/5**: rifinitura mockup.
+**Venerdì 8/5 mattina**: pitch al cliente (Carlo presente, Michele non in call — interviene in fase tecnica successiva).
+
+- [x] ~~Scaricare e analizzare il brief di gara~~ → fatto, vedi [[Analisi Brief]]
+- [x] ~~Preparare lista domande/dubbi specifici~~ → fatto, vedi [[Domande QA]]
+- [x] ~~Inviare email Elena (5/5 sera)~~ → fatto, in attesa risposta
+- [x] ~~Recap WhatsApp a Michele post-call 5/5~~ → fatto
+- [x] ~~Carlo produce wireframe architettura informativa entro stasera 5/5~~ → fatto, vedi [[Wireframe e Architettura]]
+- [x] ~~Carlo produce analisi narrativa/storytelling entro stasera 5/5~~ → fatto, vedi [[Analisi Narrativa]] (lunga) + [[Analisi Narrativa Short]] (sintesi operativa per il mockup)
+- [x] ~~**#p1** Carlo gira a Michele i 4 deliverable entro stasera 5/5 (Wireframe, Analisi Narrativa Short, Domande QA, brief PDF)~~ → ✅ chiuso 2026-05-07 (conferma Carlo: file girati, allineamento con Michele fatto, trascrizione call passata in chat)
+- [-] ~~**#p1** Michele produce mockup navigabile mercoledì 6/5~~ → ❌ annullato 2026-05-07 — **mockup non più necessario** (decisione Carlo+Michele post-call 7/5: si va con smoke test Claude Code / metodo "sito vero pre-pitch", non Figma)
+- [-] ~~**#p1** Review congiunta mercoledì 6/5 sera~~ → ❌ annullato 2026-05-07 (legato al mockup, superato)
+- [-] ~~**#p1** Rifinitura giovedì 7/5~~ → ❌ annullato 2026-05-07 (legato al mockup, superato)
+- [ ] **#p1** Recepire (se arriva) brand book Angelini + video AA da Elena prima del Q&A; se non arriva, smoke test costruito su elementi identitari pubblici
+
+### Durante la call 8/5
+
+- [ ] **#p1** Carlo lascia gestire la chiamata a [[Daniele Caporale]] e [[Elena Chiti]]; interviene a supporto sui temi che toccano direttamente HeyAI/sito
+- [ ] **#p1** Porre domande prioritarie da [[Domande QA]] — A1, A2, A3 (scope, sezioni nuove, lingua) come priorità assoluta lato sito; F1, F2 (decisori e modello fornitori) come priorità assoluta lato strategico
+
+### Post-Q&A (8-15/5)
+
+- [ ] **#p1** Debrief interno con Daniele/Elena entro 48h dalla call
+- [ ] **#p1** Decisione finale su scope da quotare (sito puro, sito+altro, sito modulare?)
+- [x] ~~**#p2** Allineamento con Michele su dimensionamento ore reali del sito Angelini Academy (più sezioni del classico FuturItaly Osservatorio, attesa più ore)~~ → ✅ chiuso 2026-05-07 (conferma Carlo: allineato con Michele su Angelini)
+- [ ] **#p2** Decidere se HeyAI partecipa **come delivery di FuturItaly** o come **secondo fornitore autonomo**: dipende dalle risposte a F1-F2 in Q&A
+- [ ] **#p2** Eventuale apertura nuova chat dedicata per pitch ampliato (PPT su gestione strategia comunicazione integrata) — solo se al Q&A emerge spazio
+- [ ] **#p3** Verificare se [[Tiziana Carnicelli]] è effettivamente la dirigente alleata (dalle stories Instagram dell'Hackathon del 17/12/2025 sembra di sì)
+- [ ] **#p3** Capire chi è il fornitore storico holding contestato dal dirigente (per dimensionare la concorrenza)
+
+### Fase proposta (15-22/5, in caso di esito positivo Q&A)
+
+- [ ] Preparazione documento proposta investimento HeyAI (formato standard, layout navy/teal, Aptos)
+- [ ] Allegato mockup navigabile come "prova di esecuzione"
+- [ ] Eventuale invio a Daniele per validazione FuturItaly prima di andare al cliente
+
+### Post-call cliente 8/5 — pitch finale entro fine maggio (NUOVI)
+
+- [ ] **#p1** Carlo: invio email Elena con recap call + docx domande tecniche v1.1 allegato (firma da decidere: Carlo+Elena congiunto vs solo Carlo) — bozza pronta + docx v1.1 in `00 - Inbox/` _aggiornato 8/5 pomeriggio post chiamata Elena, entrambe le fasi sul tavolo_
+- [ ] **#p1** Carlo+Elena: target mapping serio (Insead/Oxford pedagogia, ISEE/ISPE borse MBA, mercato Angelini esteso biotech, network Tiziana ricercatori internazionali) come deliverable pre-pitch — **prima slide del pitch finale** _da Sessione Cowork local_b6619223 8/5 mattina_
+- [x] ~~**#p1** Lunedì 11/5 ore 12:00 — allineamento Carlo+Daniele+Elena: rimettere a terra "laboratorio editoriale permanente" come differenziale pitch finale + ricalibrazione regia (Carlo target ≤30% tempo parlato vs ~70% in call 8/5) + flusso economico margine FuturItaly~~ → ✅ call svolta 11/5; **chiusa parzialmente** — laboratorio editoriale confermato (Daniele: "ce l'hanno chiesto esplicitamente"), Elena prende target + insight editoriale entro 12/5 sera, mockup approvato (Elena: "decisamente più esperto di me, sono favorevole alle simulazioni"); **NON discussi** regia pitch finale, margine FuturItaly, slide del NO, riattivazione Tiziana, tirare corda IT Caterina → portati a prossimo allineamento gio 14/5
+- [ ] **#p1** Elena: consolidare target + insight su laboratorio editoriale → entro **martedì 12/5 sera** _da call 11/5_
+- [ ] **#p1** Elena: invio docx domande tecniche v1.1 a Caterina (bozza email già pronta da Carlo) → **oggi 11/5** _da call 11/5_
+- [ ] **#p1** Carlo: integrare nei doc strategici esistenti i nuovi insight emersi 11/5 (ricerca pedagogica UCL/IE Madrid, edTech, mismatching professionale, lifelong learning over 50, budget €5M su 2 anni a no-profit, mecenatismo famiglia Angelini) → entro 13/5
+- [ ] **#p1** HeyAI (Carlo+Michele): proseguire in autonomia analisi strategica + mockup + presentazione → ongoing fino al 22/5 _da call 11/5_
+- [-] ~~**#p1** Allineamento HeyAI+FuturItaly successivo → **giovedì 14/5** (data da fissare con Elena, Carlo propone)~~ → ❌ rinviato 13/5 — touchpoint riposizionato a **venerdì 15/5 pomeriggio post 16:30** (Elena impegnata con cliente fino a tardo pomeriggio venerdì), fallback lun 18/5 _da call Carlo↔Elena 13/5_
+- [-] ~~**#p1** Touchpoint venerdì 15/5 pomeriggio post 16:30~~ → ❌ rispostato 14/5 mattina su iniziativa Elena — nuovo slot **lunedì 18 maggio ore 11:30** ("prima di quella sul sito", Elena ha altra call cliente quel giorno) _da risposta Elena 14/5 mattina_
+- [-] ~~**#p1** Touchpoint Carlo+Elena+Daniele (?) — **lunedì 18 maggio ore 11:30**~~ → ❌ orario non compatibile con Carlo (14/5 mattina) — Carlo propone a Elena due alternative: **12:30** oppure **dopo le 15** lunedì 18/5
+- [x] ~~**#p1** Touchpoint Carlo+Elena+Daniele (?) lunedì 18/5 — slot da confermare con Elena (12:30 / post 15:00)~~ → ✅ slot confermato 14/5 sera tardo: **lunedì 18/5 ore 15:00**. Elena: "Benissimo per lunedì ore 15! Mandi tu outlook, per favore?". Carlo manda invito Outlook + link Google Meet
+- [ ] **#p1** Touchpoint Carlo+Elena (+Daniele in CC?) — **lunedì 18 maggio 2026 ore 15:00** via Google Meet (link da Carlo). Da preparare entro mattina lunedì: matrice 2x2 cluster popolata, naming "Engaged Industry Network", chiarimento mockup illustrativo, nuova funzionalità personaggio gamificato, proposta video pillole laboratorio editoriale + panel admin LinkedIn (check fattibilità API con Michele entro lunedì mattina), brand book applicato al mockup _da scambio email 13-14/5_
+
+### Punti strategici pendenti per nuova chat (19/5 notte — context window saturazione)
+
+- [x] ~~**#p1** **Collocazione cluster Imprese**~~ → ✅ chiuso 19/5 sera: **Opzione A confermata = percorso autonomo `/percorsi/imprese`** (vedi sezione "Struttura `/percorsi/imprese` (decisione 19/5 sera)" sotto §Iniziative on-site nel Log 19/5). Fonte: trascrizione call 19/5 (3:25-5:12) + cluster 7 documento target Elena v.012 (`80 - Sources/Files/Angelini Academy/Analisi cluster utenti sito v.012 - Elena Chiti FuturItaly.docx`). Funzioni dichiarate: (a) co-design dei corsi di formazione (l'impresa porta il fabbisogno di competenze: *"l'impresa ti viene a dire che cosa gli manca"* — Elena 3:41) + (b) placement dei talenti formati (engagement già quotato da FuturItaly come servizio commerciale: *"loro volevano engagement delle imprese, perché un domani quelli diventano anche il placement"* — Elena 4:39). Differenziale netto vs `/percorsi/hr-business` (target B2B reputazionale cluster 3 Elena: HR Director / CLO che cercano programmi formativi standard) e vs `/percorsi/researcher` (i ricercatori portano ricerca high-tech, le imprese portano fabbisogno + sbocco occupazionale). Naming pagina = `/percorsi/imprese` (italiano) — naming retorico Elena: *"Industry Learning Ecosystem"* / *"Future Skills Consortium"* da valutare come eyebrow/H1 hero
+- [x] ~~**#p1** **Collocazione e composizione hub editoriale Engaged Research**~~ → ✅ decisione Carlo 19/5 sera: **Opzione D1 = doppio livello in-page su `/engaged-research`**. Verbatim Carlo: *"il laboratorio editoriale permanente io lo voglio mettere come a doppio livello con la parte dentro la community che è più sviluppata, con le videopillole e i paper più piccolini e via dicendo, come se engaged research diventa una preview che ti porta a interessarti, entrare poi nella community per vedere tutto il resto"*. Architettura: (a) **livello pubblico** = teaser con titoli paper + abstract 2-3 righe + executive summary + Research Engine concept + Metodologia + LUISS spotlight + Galileo agente in demo mode (4 prompt cliccabili); (b) **livello community-only** dietro login wall LinkedIn OAuth = light white paper integrali + video pillole ricercatore (formato Loops-like 3 min con immagini che si sovrappongono) + paper completi PDF + Paper Discussion Threads contestualizzati per paper (oggi su `/engaged-network`, qui vivono anche per-paper) + Galileo Reading Room full mode + Research Engine demo interattiva. Pending: conferma finale FuturItaly via WhatsApp 20/5 mattina su modello accesso. Da preparare entro touchpoint giovedì/venerdì: patch mockup `/engaged-research` con login wall + componenti video pillole + slot light white paper + patch Pitch Outline Slide 14 OS5bis con label community-only e variante A pubblica come "opzione complementare al closing"
+- [ ] **#p1** Carlo: invio invito Outlook a Elena (CC Daniele?) per lunedì 18/5 ore 15:00 + creazione/inserimento link Google Meet → da fare subito _da richiesta Elena 14/5 sera_
+- [ ] **#p1** Carlo: integrare nel framework strategico (Strategia Website 2026 + Framework Pitch Finale) la **formulazione finale degli assi** consolidata da Carlo nell'email a Elena 13/5 sera — (a) **asse priorità** primaria/secondaria; (b) **asse modalità di engagement** attiva (percorso dedicato + funzionalità + risorse collegate + acquisti online) vs passiva (sito = vetrina). I due assi sono indipendenti. Mappare i 7 cluster su una matrice 2x2 e dichiarare nel Pitch quali sono nelle 4 caselle. Ranking interno consulenziale: media interno → accademia/ricercatori → stakeholder istituzionali → Mondo Angelini → ecosistema startup+filiera. Riconciliare con i 4 percorsi della [[Strategia Website 2026]] _da call 13/5 + email Carlo 13/5 sera_
+- [ ] **#p1** Carlo+Michele: stress test interno (30 min, mercoledì 14/5) — mappare i 7 cluster sulla matrice 2x2 (priorità × modalità di engagement) e validare i quadranti prima del touchpoint con Elena venerdì 15/5 pomeriggio. Output: 1 slide bozza che mostra la matrice popolata _nuovo da email 13/5_
+- [ ] **#p1** Carlo+Michele: rivedere se "acquisti online" (e-commerce) inserito da Carlo nel polo attivo dell'asse engagement implica scope/budget addizionale — chiarire prima della proposta finale 31/5 _da email Carlo 13/5_
+- [ ] **#p1** Carlo: capitalizzare nel pitch finale l'insight Elena 13/5 "engagement aziende territorio ticket >€1M mai attivato" come differenziale narrativo unique. Da inserire nel [[Framework Pitch Finale]] come pillar "riprendiamo le intenzioni inevase del cliente" _da call 13/5_
+- [x] ~~**#p1** Carlo: invio email recap a Elena come proseguo thread scaletta 11/5~~ → ✅ INVIATA 13/5 sera tardi. Versione finale (Carlo, non Claude) preservata in [[2026-05-13 - BOZZA Email Recap Elena post call cluster]] sezione "Versione inviata"
+- [x] ~~**#p2** Elena: feedback su scaletta inviata lun 11/5 ore 16 + sguardo al mockup~~ → ✅ chiuso 14/5 mattina: framework approvato ("Ok anche per i pillar"), mockup approvato ("va benissimo") con 1 domanda residua su scroll sequenziale delle sezioni (Carlo deve chiarire che è single-page narrativo per il pitch, sito reale avrà navigazione strutturata)
+- [x] ~~**#p2** Elena: girare a Carlo il brand book Angelini appena disponibile~~ → ✅ chiuso 14/5 mattina: brand book Angelini 2024 ricevuto (`22042024_Angelini_Academy_Manuale Elementi Base_V1.0.pdf`, 36pp) + bonus inatteso: deliverable strategico FuturItaly 17/2/2026 (`Angelini Academy-presentazione finale_17.02.26.pdf`, 24pp) = mappatura 14 partner accademici + 5 bandi finanza agevolata Horizon/Erasmus+, brand-compliant. Asset di alto valore per il Pitch
+- [ ] **#p1** Carlo+Michele: integrare brand identity Angelini nel mockup (blu istituzionale #003087 + blu chiaro #005EB8 + bianco/nero + 4 secondari verde/viola/rosso/arancio scuro+chiaro; Barlow tutti i titoli digitali H1-H4 SemiBold/Light 22-50px + Body Regular 20px; Merriweather solo per testi lunghi editoriali/serif; principio "Unwavering Care"; pattern Marchio + Abbraccio; stile fotografico iconico curve convergenti). **Specifiche complete consolidate 15/5 in §8 di [[Brief Copy Sito per Claude Code]]**. PDF brand book archiviato in `80 - Sources/Files/Angelini Academy/Brand Book Angelini Academy 2024 - Manuale Elementi Base V1.0.pdf`. Output: nuovo passaggio del mockup brand-compliant da mostrare al touchpoint lun 18/5 _da brand book ricevuto 14/5_
+- [x] ~~Archivio nel vault dei 2 PDF Angelini ricevuti da Elena 14/5~~ → ✅ chiuso 15/5: brand book + presentazione FuturItaly 17/2 archiviati in `80 - Sources/Files/Angelini Academy/`
+- [ ] **#p1** Carlo: studiare il deliverable FuturItaly 17/2/2026 e capitalizzarlo nel Framework Pitch — i 14 partner accademici già mappati (Cambridge/UCL/KU Leuven/RWTH/TUM/CMU/Georgia Tech/Beijing Normal/Tsinghua/Bologna/Padova/Open Univ./Leibniz) + 5 bandi Horizon/Erasmus+ sono asset di continuità con il lavoro storico FuturItaly-Angelini. Da inserire come pillar "rete accademica internazionale già pre-validata" nel pitch + come fondamenta della sezione Engaged Research Lab della [[Strategia Website 2026]] _da bonus 14/5_
+- [ ] **#p2** Integrare nel Framework la proposta Elena 14/5 di video pillole di sintesi del ricercatore/referente Angelini come arricchimento del "laboratorio editoriale permanente". Logica content: ogni white paper / paper / report di R&D pedagogica è accompagnato da video pillola del ricercatore Angelini che lo ha prodotto. Funziona come asset narrativo + scalabile + AI-friendly (trascrizione, search) _da proposta Elena 14/5_
+- [ ] **#p1** 🆕 **Nuova funzionalità mockup: landing con "scelta personaggio" gamificata** (implementata da Michele 14/5). UX: l'utente atterra sulla landing e sceglie un personaggio (logica videogioco), in base alla scelta riceve una sequenza di contenuti differenziata per target. Apre 3 direzioni strategiche: (a) esperienza personalizzata per cluster; (b) raccolta dati comportamentali su scelta utente; (c) calibrazione automatica del tone of voice per profilo. Risponde direttamente all'osservazione Elena 14/5 sullo scroll sequenziale = mockup illustrativo per test, sito reale userà questo pattern. Da capitalizzare come **AI feature differenziante** del Pitch (legato all'asse "modalità di engagement" attivo) _da Carlo 14/5_
+- [ ] **#p1** 🆕 **Panel admin LinkedIn — pipeline paper → post pronto** (consolidato 14/5 sera in email Elena v10). DECISIONE ARCHITETTURALE: admin panel del CMS del sito (visibile solo agli admin, non utente esterno) — Carlo ha scelto questa opzione tra le 4 candidate (admin panel CMS / mini-app standalone / estensione browser / bot Teams) nella stesura email a Elena. **UX**: admin Angelini accede al CMS, clicca "trasforma in post" sulla scheda paper, ottiene immagine + copy auto-generati AI, eventualmente con flusso automatico di pubblicazione su LinkedIn dietro conferma. **Da fare prima del touchpoint 18/5**: check fattibilità tecnica Michele su LinkedIn Marketing API write access (OAuth + approval LinkedIn for Developers per pubblicazione su Company Page). Alternative se complicato: integrazione Buffer/Hootsuite (più rapida, l'admin clicca "invia a Buffer" e Buffer gestisce) o copy+redirect manuale a LinkedIn web (zero API). Da capitalizzare nel Pitch come "strumento di amplificazione del posizionamento accademico", feature di ecosistema digitale unica vs competitor _da Carlo 14/5_
+- [ ] **#p1** Carlo: chiedere a Michele check fattibilità tecnica **LinkedIn API write access** prima del touchpoint lun 18/5 ore 12:30 / post-15. Output atteso: (1) è fattibile nativamente? tempi/costi/approval LinkedIn; (2) alternative pragmatiche (Buffer/Hootsuite integration vs copy+redirect); (3) raccomandazione tecnica per il Pitch finale 31/5. 1-2 ore di analisi sufficienti _da controllo qualità email 14/5_
+- [ ] **#p2** Elena: sente Daniele Caporale per disponibilità venerdì pomeriggio _da call 13/5_
+- [ ] **#p2** Carlo: valuta WhatsApp diretto a Daniele come backup se Elena non sblocca in tempi rapidi _da call 13/5_
+- [ ] **#p2** Michele: rivedere mockup per fruizione mobile (Caterina aprirà il link probabilmente da telefono; gli elementi 3D non rendono) _da call 13/5_
+- [ ] **#p3** Stress test interno HeyAI (Carlo+Michele, 30 min) sul ranking dei target prima di proporlo a Elena ven 15/5 _da call 13/5_
+- [ ] **#p2** Identificare il "professore consulente UCL principe" citato da Elena (consulente Academy per i prossimi anni, "fa il bello e cattivo tempo") — potenziale stakeholder strategico _da call 11/5_
+- [ ] **#p2** Includere nella proposta finale "modulo intelligenza editoriale" (A/B test target-based con cluster UTM/Roadshow) come prova di concretezza AI applicata _da Sessione Cowork local_b6619223 8/5 mattina_
+- [ ] **#p2** Pricing modulare proposta deve dichiarare apertamente flusso economico FuturItaly (markup HeyAI→FuturItaly→Angelini vs fattura separata + % commercializzazione) — chiarire lunedì 11/5 _da Sessione Cowork local_b6619223 8/5 mattina_
+- [ ] **#p2** Verifica con IT Angelini su sviluppo tecnico (Caterina aperta a proposte alternative se interessanti vs fornitore storico gruppo con economie di scala) — dipende da risposta cliente _da Sessione Cowork local_b6619223 8/5 mattina_
+- [ ] **#p2** Pitch finale: UNA sola feature AI ben dimensionata (chatbot ricerca scientifica), NON catalogo. Caterina ha bocciato 3 NO consecutivi quando presentate come shopping list _da Sessione Cowork local_b6619223 8/5 mattina_
+- [ ] **#p3** Chiarire identità "Davide" presente in call cliente 8/5 (typo per Daniele? Altra risorsa FuturItaly?) prima del pitch finale _da Sessione Cowork local_b6619223 8/5 mattina_
+- [ ] **#p3** Architettura sito fase 1 (restyling rapido entro giugno) deve già accogliere fase 2 (ristrutturazione completa) senza rifare la struttura — vincolo tecnico per Michele _da Sessione Cowork local_b6619223 8/5 mattina_
+
+### Post-call FuturItaly 19/5 — modifiche Pitch + mockup entro touchpoint giovedì pom / venerdì mattina
+
+**Decisioni in attesa**
+- [ ] **#p1** Ricezione messaggio FuturItaly entro 9:30 del 20/5 — modello accesso Hub editoriale Engaged Research: sezione pubblica aperta vs ingresso community-only. Impatta architettura sezione + posizionamento commerciale voce *Hub editoriale* nella quotazione FuturItaly _da call 19/5_
+- [ ] **#p1** Decisione operativa hub editoriale post-input FuturItaly. Due opzioni pre-cablate: variante A pubblica con teaser registrazione community, variante B accessibile solo con login waitlist _da call 19/5_
+
+**Mockup sito — modifiche entro pomeriggio 20/5** ✅ ROUND CHIUSO 19-20/5
+- [x] ~~**#p1** Aggiunta del **quinto percorso Imprese** (co-design corsi + placement) nella sitemap + PersonaSelect~~ → ✅ chiuso 19/5 sera tardi: `src/pages/PercorsiImprese.tsx` creato (936 righe), routing aggiunto in App.tsx, voce dropdown header, 5ª persona PersonaSelect con accent viola `#6B2C91`
+- [x] ~~**#p1** Riordino delle quattro/cinque personas nella PersonaSelect con apertura su figure femminili nelle prime due posizioni~~ → ✅ chiuso: pattern F-M-F-M-F applicato (Researcher F → Talent M → HR F → Media M → Imprese F)
+- [x] ~~**#p1** PersonaSelect resa **facoltativa**~~ → ✅ chiuso 19-20/5: intro "Vuoi personalizzare?" + scroll indicator + scrolling normale come fallback
+- [x] ~~**#p1** Anticipazione del **Gateway MBA prima dell'hub Engaged Research**~~ → ✅ chiuso 19-20/5: Gateway anticipato nelle sezioni iniziative homepage
+- [x] ~~**#p1** Rimozione del **calcolatore borse di studio** dalla pagina `/mba-gateway`~~ → ✅ chiuso 19-20/5: ScholarshipCalculator rimosso
+- [x] ~~**#p1** Hub editoriale Engaged Research come **sezione propria, fuori dal blog**~~ → ✅ chiuso 20/5 mattina post-conferma WhatsApp Elena: doppio livello D1 in-page su `/engaged-research` definito. Prompt CC dedicato in vault [[Prompt Claude Code - Hub editoriale doppio livello engaged-research]] da incollare. Login illustrativo demo-fluido (no auth real) + 4 sotto-blocchi community content (paper completi + Lottie video pillole + thread + Galileo full mode)
+- [ ] **#p2** Rinaming "Bilancio Engaged Research" in **"Report annuale Engaged Research"** per evitare ambiguità con bilancio civilistico/sostenibilità _da call 19/5_
+- [ ] **#p2** Eventi interni mostrati con disclaimer *"area riservata"*, non cliccabili — anticipare in copy che la sezione completa è dietro login _da call 19/5_
+- [ ] **#p2** Revisione copy citazioni studenti — il pattern *"ho costruito il ponte"* va riscritto come *"ho attraversato il ponte costruito da Angelini"*. Stesso pattern verificato su Founder Stories + landing percorsi _da call 19/5_
+
+**Round refactor atomo Industry Learning Ecosystem** ✅ CHIUSO 19-20/5
+- [x] ~~**#p1** Refactor atomo Industry Learning Ecosystem in `/percorsi/imprese`: orbite ellittiche statiche + 3 elettroni gialli decorativi che scorrono lungo i path via SVG animateMotion + float idle desincronizzato 12 scritte (4 OpCo + 8 partner)~~ → ✅ chiuso 20/5: prompt CC [[Prompt Claude Code - Refactor atomo Industry Learning Ecosystem]] eseguito da Carlo
+- [x] ~~**#p1** Patch tassonomia OpCo Cross-OpCo Tracker: Tech → Industrial Tech + Ventures → Consumer~~ → ✅ chiuso 20/5: tassonomia allineata al brief 2026 (Pharma · Industrial Tech · Consumer · Fater)
+- [x] ~~**#p1** Patch /percorsi/hr-business v2 asciugata: hero intro CHRO/CLO + sostituzione 2 dei 4 box masterclass con LBS + LUISS BS executive programs + nuova section Future Skills Observatory + callout Forum~~ → ✅ chiuso 20/5: prompt CC [[Prompt Claude Code - Patch HR Business cluster 3]] eseguito da Carlo
+- [x] ~~**#p1** Persona 3D Imprese (Anna Innovation Director manufacturing 45-50)~~ → ✅ chiusa 20/5: asset `public/personas/imprese.png` aggiunto da Carlo via generatore esterno
+
+**Round Pitch Outline + Brief Copy + domanda Elena** ⏳ APERTO
+- [ ] **#p1** Patch [[Pitch Outline 18-5 — Strategia Angelini Academy Short]] post-call 19/5: rinaming Slide 1 "architettura" → "pillar" / "servizi" / "coordinate strategiche" + Slide 6-7 compressione specchietto rapido competitor+SEO + Slide 12-13 Galileo riscrittura 4 capability (eliminare colonna "cosa NON fa", vive solo nel doc lungo) + nuova Slide "Alberatura sito" tra Slide 11 e 12 + Slide 14 aggiunta OS5bis Hub editoriale community-only + Slide 15 spostamento SAT5 Landing eventi a Slide 21 Later + rimozione SAT6 LinkedIn CEO + Slide 17 (slide NO) aggiunta Profilo CEO + Calcolatore borse + verifica tempi parlato 22 slide × 2 min = 44 min _da call 19/5_
+- [ ] **#p2** Patch [[Brief Copy Sito per Claude Code]] §dictionary cluster: capitalizzare naming Elena v.012 (Industry Learning Ecosystem · Future Skills Consortium · evidence-based learning · cognitive augmentation · AI-enhanced education · lifelong learning models · adaptive learning systems · human-AI co-intelligence) come tone of voice per cluster 2 community accademica/ricerca _da doc target Elena v.012_
+- [ ] **#p1** Email/WhatsApp a Elena Chiti prima del touchpoint giovedì 21/5 pom / venerdì 22/5 mattina: domanda specifica su accesso community-only per imprese partner di co-design qualificate (cluster 7 sotto-segmento). Elena 18/5 aveva detto *"neanche imprese"* — verificare se intende imprese generiche o include anche le partner. Distinguere sotto-cluster "impresa partner di co-design qualificata" (con badge Editor invite) vs "impresa cliente commerciale HR&Business cluster 3" _da audit cluster 3/5/7 Carlo 19/5_
+
+**Pitch Outline Short — modifiche entro pomeriggio 20/5**
+- [ ] **#p1** Slide 1: rinaming *"architettura"* in *pillar* / *servizi* / *coordinate strategiche* (il referente FuturItaly *"mi ero persa, architettura di che, del sito?"*) _da call 19/5_
+- [ ] **#p1** Slide 6-7 (analisi competitor + SEO): compressione in versione *specchietto rapido* — racconto strategico breve sul posizionamento unico vs 4 classi di player. Tagliare profondità tecnica _da call 19/5_
+- [ ] **#p1** Slide 12-13 (Galileo): riscrittura delle 4 capability con focus su **cosa fa** + **dove sta nel sito** + **perché sta lì**. **Eliminare colonna *"cosa NON fa"*** — vive solo nel doc lungo, mai in slide cliente _da call 19/5_
+- [ ] **#p1** Nuova slide **"Alberatura sito"** tra slide 11 e 12, scheletro 10 sezioni sitemap + 1 riga descrizione ciascuna. Apre il walk-through del mockup dallo scheletro, non dal dettaglio (il referente FuturItaly *"non ho capito una mazza dell'alberatura"*) _da call 19/5_
+- [ ] **#p2** Slide 14: aggiunta OS5bis **Hub editoriale Engaged Research** come voce standalone con mapping obiettivi cliente _da call 19/5_
+- [ ] **#p2** Slide 15: spostamento SAT5 Landing eventi dalla satellite alla slide 21 *matrice priorizzazione* nella colonna **Later / add-on modulare** _da call 19/5_
+- [ ] **#p2** Slide 15: rimozione SAT6 profilo LinkedIn CEO dalla proposta — citare nella slide del NO come *"era già nel vostro brief, non sovrapponiamo a chi gestisce altrove"* _da call 19/5_
+- [ ] **#p2** Slide 17 (slide del NO): aggiunta righe *Profilo LinkedIn CEO* + *Calcolatore borse complesso* _da call 19/5_
+- [ ] **#p3** Verifica tempi parlato per ogni slide: 22 slide × 2 minuti = 44 min. Slot atteso 45 min. Cronometro in casa prima del touchpoint giovedì/venerdì _da call 19/5_
+
+**Coerenza interna**
+- [ ] **#p1** Verifica naming: il referente cliente / il CEO / il team comunicazione mai per nome nelle slide cliente. Il Key Account FuturItaly / Communication strategist mai nelle slide cliente. Decisione su Carlo Sanvoisin in slide team (firma esplicita o anonima) _da call 19/5_
+- [ ] **#p1** Allineamento Michele su feedback tecnici emersi (15 min) — PersonaSelect facoltativa, gender mix personas, 5° percorso imprese, eventi non cliccabili visibili, calcolatore via, Gateway prima dell'hub _da call 19/5_
+
+**Performance personale (next call)**
+- [ ] **#p1** Esercizio pre-call: scrivere *"Sì, hai ragione"* su foglio + tenerlo sotto gli occhi durante call _da scheda [[2026-05-19 - Carlo Performance — Call FuturItaly Angelini Academy]]_
+- [ ] **#p1** Target tempo parlato ≤40% nella prossima call (rilassato da ≤30% dopo 3 fallimenti consecutivi) _da scheda performance 19/5_
+- [ ] **#p1** Zero auto-disclosure su uso AI/Claude in produzione documenti (regola assoluta post episodio 24:04 call 19/5) _da scheda performance 19/5_
+- [ ] **#p2** Apertura macro-blocchi con mappa esplicita *"ora ti parlo di tre cose: A, B, C"* + chiusura con pausa di 3-5 secondi + domanda aperta *"qualcosa da approfondire prima di proseguire?"* _da scheda performance 19/5_
+
+**Operativo**
+- [ ] **#p1** Invio email recap FuturItaly (bozza pronta in chat 19/5 sera) — destinatari Key Account + Communication strategist, CC Michele _da call 19/5_
+- [ ] **#p1** Fissare slot prossimo touchpoint con FuturItaly (giovedì 21/5 pom o venerdì 22/5 mattina) _da call 19/5_
+- [ ] **#p2** Passare link mockup aggiornato a FuturItaly per review parallela _da call 19/5_
+
+## Eventi calendario
+
+- **2026-05-08 mattina** — ✅ Q&A call cliente Angelini Academy SVOLTA (cambio scope strategico, 6 decisioni cliente, 4 leve pitch finale, performance review pending commit Carlo).
+- **2026-05-11 12:00** — ✅ Allineamento interno Carlo + Michele + Daniele Caporale + Elena Chiti SVOLTO (laboratorio editoriale e mockup confermati, target/editoriale presi da Elena entro 12/5 sera, regia + margine + slide del NO + Tiziana + IT Caterina rinviati a prossimo allineamento).
+- **2026-05-12 sera** — Deadline Elena: consolidare target + insight su laboratorio editoriale.
+- ~~**2026-05-15 pomeriggio (post 16:30)** — Touchpoint Carlo + Elena~~ → rispostato da Elena 14/5
+- ~~**2026-05-18 ore 11:30**~~ → orario rifiutato da Carlo
+- **2026-05-18 ore 15:00** — Touchpoint Carlo + Elena (+ Daniele?) via **Google Meet** (link da Carlo). Conferma Elena 14/5 sera ("Benissimo per lunedì ore 15! Mandi tu outlook, per favore?"). Review matrice 2x2 cluster + naming "Engaged Industry Network" + chiarimento mockup illustrativo + nuova funzionalità personaggio gamificato + panel admin LinkedIn + integrazione brand identity Angelini nel mockup + video pillole laboratorio editoriale + asset partner accademici già mappati.
+- **2026-05-19 ore 15:07** — ✅ Call FuturItaly+HeyAI svolta (Carlo + Michele + Key Account + Communication strategist, 56 min 40 sec via Teams). Walk-through Pitch Outline + mockup. **Outcome**: feedback strutturali raccolti (5° percorso imprese, hub editoriale come principe, PersonaSelect facoltativa, gender mix personas, Gateway prima, calcolatore via, alberatura presentata prima dei dettagli, copy ponte attraversato non costruito). FuturItaly chiude *"vi facciamo plausi, abbiamo sponsorizzato al capo"*. Punto in attesa: modello accesso hub editoriale (messaggio Key Account entro 9:30 del 20/5). Coaching note in [[2026-05-19 - Carlo Performance — Call FuturItaly Angelini Academy]]. Performance Carlo: 6,8/10 (tempo parlato ~60-65% target ≤30%, pattern "sì-però" persistente, episodio basso auto-disclosure Claude 24:04).
+- **2026-05-20 ore 9:30 circa** — Messaggio Key Account FuturItaly su modello accesso hub editoriale (pubblica vs community-only).
+- **Prossimo touchpoint** — giovedì 21/5 pomeriggio o venerdì 22/5 mattina, slot da fissare con FuturItaly. Da preparare: Pitch Outline ristrutturato + mockup aggiornato con tutti i feedback 19/5.
+- **Entro fine maggio 2026** — Consegna concept proposta Angelini Academy (3 settimane post Q&A, stesso tempo dato alle altre agenzie).
+
+## Citazioni testuali da preservare
+
+> "In questo link puoi trovare tutto il materiale condiviso con le agenzie in gara."
+> — **Caterina Caboni** (Angelini Academy), email 4/5/2026 — conferma esplicita che si tratta di una **gara competitiva**.
+
+> "Mi stai sfondando una porta aperta"
+> — **Elena Chiti** (FuturItaly), call 9/4/2026 — risposta dopo che Carlo ha spiegato perché spacchettare design e sviluppo costa più che integrarli.
+
+> "Vediamo che riesco a fare"
+> — **Elena Chiti**, call 9/4/2026 — sul tentativo di convincere internamente la referente Angelini a non spacchettare.
+
+> "Fate voi una proposta, ma siete voi a doverci dire perché."
+> — **Caterina Caboni**, call 8/5/2026 — vuole vedere il ragionamento del fornitore, non sentirsi convincere. Trasla nella regola pitch finale: arrivare con domande, non con tesi.
+
+> "Talmente semplice, non la farei più complicata."
+> — **Caterina Caboni**, call 8/5/2026 — sul calcolatore borse, simbolo della sua diffidenza per l'over-engineering.
+
+> "Di frontiera per noi" + "Ho paura di un boomerang."
+> — **Caterina Caboni**, call 8/5/2026 — su chatbot AI conversazionale e raccomandazione percorsi. Linguaggio del rischio: l'AI non è bocciata in sé, è bocciata per il timing (rischio percepito).
+
+> "Tienete conto della dimensione."
+> — **Caterina Caboni**, call 8/5/2026 — sul form MBA: 45 candidati max post-screening IE Madrid. Carlo aveva sovrastimato 10x. Lezione: prima i numeri, poi la soluzione.
+
+> "Sono gli obiettivi della nostra comunicazione, non fatevi vincolare."
+> — **Caterina Caboni**, call 8/5/2026 — smonta la lettura di Michele dei "fili rossi" come categorie editoriali del sito.
+
+> "Essere coerente, non rifare tutto adesso."
+> — **Caterina Caboni**, call 8/5/2026 — chiave del cambio scope sito (restyling fase 1 + ristrutturazione fase 2).
+
+> "Iniziavamo a far votare il servizio di engagement con le aziende del territorio. [...] Non avevamo attivato più di 1 milione per un anno, non ce l'hanno attivato e ci hanno attivato altre cose, quindi io so che lei questa cosa ci aveva un po' in testa e potremmo aiutarla a stupire."
+> — **Elena Chiti** (FuturItaly), call 13/5/2026 — insight strategico capitalizzabile per il pitch finale: Angelini aveva in testa un servizio di engagement con aziende del territorio (ticket >€1M annui) mai attivato. Reinserirlo come differenziale narrativo "riprendiamo le vostre intenzioni inevase" — angle non riproducibile dai competitor.
+
+> "Grandissimi, vi facciamo plausi, abbiamo anche sponsorizzato al capo la vostra attività."
+> — **Daniele Caporale** (FuturItaly), call 18/5/2026 chiusura — endorsement esplicito che FuturItaly ha **già sponsorizzato HeyAI internamente al management Angelini** (presumibilmente Claudia Bugno o canale superiore). Sale il valore politico della partnership FuturItaly per l'arrivo al pitch finale 31/5.
+
+> "Quando lo dici a braccio sei veloce e si capisce."
+> — **Elena Chiti** (FuturItaly), call 18/5/2026 (53:22) — feedback diretto sulla performance Carlo. Implicazione operativa: pitch 31/5 punta su **parlato + slide minimaliste** (no slide cariche di testo da leggere). Da preservare come direttiva editoriale del Pitch Outline 18-5 Short.
+
+> "È tosta seguirvi."
+> — **Elena Chiti** (FuturItaly), call 18/5/2026 (43:22) — campanello sulla densità informativa del walk-through. Mockup ricco è asset; narrazione in call deve **partire da alberatura prima del dettaglio**, non viceversa.
+
+> "Non ho capito una mazza dell'alberatura."
+> — **Elena Chiti** (FuturItaly), call 18/5/2026 (43:49) — conferma diretta che la nuova slide "alberatura sito" tra Slide 11 (4 pilastri) e Slide 12 (Galileo) è **obbligatoria** per il pitch 31/5. Dare a Caterina lo scheletro prima del dettaglio.
+
+> "Tu mi metti il cosa non fa però, il cosa fa me lo dici a voce. Che me frega scusa?"
+> — **Elena Chiti** (FuturItaly), call 18/5/2026 (24:04) — bocciatura strutturale della disciplina "cosa NON fa" nelle slide Galileo. Quella disciplina **vive nel doc lungo, mai in slide cliente**. Le 4 capability Galileo vanno riscritte focus su cosa fa / dove sta nel sito / perché sta lì.
+
+> "Me lo metti prima dell'hub che piace a noi."
+> — **Elena Chiti** (FuturItaly), call 18/5/2026 (27:18) — segnale politico esplicito: **Gateway MBA va anticipato prima dell'hub Engaged Research** nella sezione iniziative del pitch + nel mockup. L'hub è il principe della proposta lato Angelini ma Elena segnala che il Gateway "piace a noi" (FuturItaly) come voce stand-out per il cliente.
+
+> "Mi dà un'idea un po' preclusiva."
+> — **Daniele Caporale** (FuturItaly), call 18/5/2026 — su PersonaSelect come barriera d'ingresso. Implicazione: **PersonaSelect facoltativa**, primo approccio generico con Hero + pillar, poi possibilità di personalizzare il percorso scegliendo il personaggio (non come gating obbligatorio).
+
+> "Te lo dico con la più grande trasparenza del mondo, ho chiesto a Claude di riassumermi il documento di 70 pagine."
+> — **Carlo Sanvoisin** (HeyAI), call 18/5/2026 (24:36) — auto-disclosure di uso AI **come autolesione operativa**. Regola assoluta consolidata dopo questa call: **mai dichiarare in call con FuturItaly o cliente che un output è stato generato da Claude/AI**. Pattern Carlo da bloccare per call future.
+
+> "Manca le imprese che avevamo deciso poi di mettere."
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (1:26) — apre il punto del 5° cluster mancante nei target.
+
+> "L'impresa si potrebbe andare a proporre come un'impresa della filiera come un soggetto che va a fare il co-design dei corsi di formazione, un po come i ricercatori — ma i ricercatori ti aiutano a inglobare nella formazione elementi di ricerca sulle high tech, mentre l'impresa ti viene a dire che cosa gli manca: vorrebbe che tu formassi i professionali che poi si va a mettere in casa, perché magari gli mancano e non li trova sul mercato del lavoro."
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (3:25-3:41) — definizione operativa del cluster Imprese: **co-design corsi + placement talenti**. Differenziale netto vs cluster ricercatori (loro portano ricerca high-tech, le imprese portano fabbisogno di competenze + sbocco occupazionale).
+
+> "Hanno anche questa attività quotata da FuturItaly, loro volevano engagement delle imprese, perché un domani quelli diventano anche il placement. Si prendono le persone che formano, oltre a fare codesign."
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (4:39) — l'engagement imprese è **già quotato da FuturItaly nel contratto Angelini** come servizio commerciale (lato Bandi & Gare 2026). Il sito deve materializzarlo come funzione — non è opzionale.
+
+> "Pensiamo ai cluster come tra quelli che guardano e non toccano e tra quelli che guardano e poi si mettono in gioco e interagiscono con l'academy."
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (5:01) — framework di segmentazione: media+istituzioni = "guardano e non toccano", imprese+ricercatori+talenti = "guardano e si mettono in gioco". Le imprese vanno nel polo attivo.
+
+> "Diamo un pochino più valore a queste imprese perché difatti vanno a costruire l'ecosistema. Quindi io forse farei un quinto percorso anche per loro."
+> — **Carlo Sanvoisin** (HeyAI), call 19/5/2026 (5:12) — chiusura: 5° percorso `/percorsi/imprese` confermato.
+
+> "L'hub editoriale dovrebbe essere un ambiente in cui loro pubblicano delle cose che non sono solo quelle super di ricerca complesse, ma anche piccoli white paper — light whitepaper si chiamano — o di qualche cosa a cui arrivano in conclusione o che rilanciano che magari qualcun altro nel network sta facendo, e che permette di valorizzare quello che loro fanno. Quindi non lo vedo tanto come un blog. Lì magari se vuoi saperne meglio una cosa in maniera smart c'hai la video pillola del ricercatore che in tre parole con immagini che si sovrappongono tipo Loops ti spiega i tips di quello che poi ti vai a leggere con calma. E siccome è una cosa su cui noi costruiamo l'offerta economica di FuturItaly, deve essere un po' il principe."
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (47:07-47:59) — composizione operativa hub editoriale: **light white paper + video pillole ricercatore (formato Loops-like) + paper completi**. Non blog. Posizionamento "principe" perché su questo FuturItaly costruisce la propria offerta economica nei Bandi & Gare 2026.
+
+> "Io odio il blog."
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (46:59) — eliminato esplicitamente il framing "blog/news" come contenitore dell'hub editoriale.
+
+> "Deve essere un po' il principe, non voglio che sia affogato nel blog o nella sezione dove fanno il download del PDF della qualunque, capito?"
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (47:59) — vincolo di prominenza: l'hub non può vivere come sotto-sezione di una pagina download. Deve avere materializzazione visiva propria.
+
+> "Te lo faccio sapere domattina, sennò ti faccio fare un lavoro a vuoto. Fammi fare un ragionamento. Alle 09:30 ti mando un messaggio."
+> — **Elena Chiti** (FuturItaly), call 19/5/2026 (48:29) — modello accesso hub editoriale (pubblico aperto vs community-only) lasciato in pending per messaggio WhatsApp 20/5 mattina. _Nota: decisione consolidata Carlo 19/5 sera = doppio livello D1, in attesa allineamento finale FuturItaly._
+
+## Log
+
+### 2026-05-20 (icone 3D 27 asset Glass + review status 10 punti aperti CC mockup + handover audit email Sito Futuritaly)
+
+**Trigger**: 1 sessione Cowork user-initiated nuova in window (`local_ae061e23` batch icone 3D) + 2 continuation §2.bis (`local_6cce3cbe` cluster Imprese/Hub editoriale review status post-call FuturItaly 19/5 e `local_b31cd243` handover audit email Sito Futuritaly per nuova chat). Vedi [[2026-05-20 - Indice sessioni]] per dettaglio per-sessione.
+
+**Asset production icone 3D Angelini Academy** (sessione `local_ae061e23` — batch lavoro asset Glass): batch icone esteso da 16 settori a **27 asset totali** (16 settori + 11 extras: time-on-target, bussola, pianeta-puzzle, italia-stripes, freccia-destra, lente, target-freccia, globo, gear, lampadina, grafico-barre-su). Stile output Glass (vetro/cristallo) via Gemini 3 Pro Image. Script `generate_icons.py` aggiornato con `ICON_CONCEPTS` per ogni asset (descrizioni concettuali specifiche che il modello usa per ricostruire il simbolo in Glass mantenendo creative freedom). Cropping ricalibrato: pianeta-puzzle x=350-530, y=235-385 (errore precedente ~40pt). Comando batch consegnato a Carlo per esecuzione locale via Terminale Mac, stima ~4 min e costo ~€1,5. **Output atteso**: `03-Output-Batch/stile-B-glass/`. QA grid complessivo settori + extras = 27 immagini Glass post-batch.
+
+**Continuation `local_6cce3cbe`** (sessione originale 19/5): review di status sui 10 punti aperti del sito Angelini Academy raccolti dopo la call FuturItaly 19/5. I 10 punti: (E) Hub editoriale `/engaged-research` doppio livello D1 — in attesa messaggio WhatsApp Elena 20/5 ~9:30 sul modello accesso (pubblico vs community-only); (A) Patch HR&B cluster 3 v2 asciugata — prompt CC in vault pronto, status execution da chiudere; (B) nuova `/percorsi/imprese` + persona 3D — pagina già creata in `src/pages/PercorsiImprese.tsx` (936 righe), persona 3D `imprese.png` TBD; (C) Refactor atomo Industry Learning Ecosystem — prompt CC in vault pronto; (D) Pillars+Cross-OpCo superseded — non si esegue; (F) tassonomia OpCo Cross-OpCo Tracker oggi `Pharma·Tech·Ventures·Fater` ma brief 2026 richiede `Pharma·Industrial Tech·Consumer·Fater` — patch necessaria, prompt da scrivere; (G) 4 modifiche post-call 19/5 — riordino F-M-F-M già fatto, altre 3 (PersonaSelect facoltativa / calcolatore borse rimosso / Homepage Network strutturata) status da chiudere; (H) Pitch Outline patches da 14 feedback — markdown nel vault non ancora patchato; (I) Dictionary cluster Elena v.012 (Industry Learning Ecosystem, Future Skills Consortium, evidence-based learning, cognitive augmentation, AI-enhanced education, lifelong learning models, adaptive learning systems, human-AI co-intelligence); (L) Domanda strategica Elena: imprese **partner di co-design qualificate** hanno accesso community-only hub editoriale? Carlo non ha ancora dato i feedback di chiusura — sessione in attesa.
+
+**Continuation `local_b31cd243`** (sessione originale 18/5): produzione handover per nuova chat di audit della bozza email recap Sito Futuritaly call 20/5 — chat precedente saturata, output degradati. Riferimenti espliciti: "stamattina 20/5", "pitch del 31/5", trascrizione `Allineamento Proposta Sito Futuritaly.docx`. L'handover è stato poi raccolto dalla sessione `local_b9bd1bcd` (Audit email recap Futuritaly site call) che ha applicato i 3 fix sull'email. Non sono state propagate patch sulle schede da questo handover (è cronistoria, sessione `b9bd1bcd` ha già propagato a [[Sito Futuritaly]] §Log).
+
+**Cose intenzionalmente NON committate dal task**: nessun cambio sui 10 punti aperti CC (sessione `local_6cce3cbe` è solo Q&A di status, Carlo non ha ancora chiuso i feedback) → tutti i task aperti restano `[ ]` nel vault. Aggiornamento status su singoli punti spetta alla prossima sessione interattiva quando Carlo dà i ✅/❌/🔄.
+
+#### Aggiornamento 20/5 sera — chiusura status post-feedback Carlo + handover per nuova chat
+
+**Trigger**: continuazione sessione `local_6cce3cbe`. Carlo ha confermato lo status di tutti i 10 punti aperti + dato conferma WhatsApp Elena 20/5 mattina sul modello accesso hub editoriale (preview pubblica + login per accedere community).
+
+**Status finale 10 punti aperti dopo feedback Carlo 20/5 sera**:
+- **A. Patch HR&Business v2 asciugata** → ✅ ESEGUITA da Carlo (prompt CC incollato + patch applicata)
+- **B. Nuova `/percorsi/imprese` + persona 3D** → ✅ Pagina creata · ✅ persona 3D `imprese.png` aggiunta da Carlo
+- **C. Refactor atomo Industry Learning Ecosystem** → ✅ ESEGUITO da Carlo (prompt CC incollato + patch applicata)
+- **D. Refactor atomo Pillars + Cross-OpCo (v2 superseded)** → ✅ Confermato non eseguito (target sbagliato, marcato superseded in vault)
+- **E. Hub editoriale `/engaged-research` doppio livello D1** → 🔄 Elena ha confermato WhatsApp 20/5 mattina ("va bene preview + login community"). Decisioni Carlo: login illustrativo demo-fluido (no auth real), video pillole come Lottie animation placeholder. Prompt CC dedicato [[Prompt Claude Code - Hub editoriale doppio livello engaged-research]] scritto e in vault → PENDING execution di Carlo
+- **F. Tassonomia OpCo Cross-OpCo Tracker** → ✅ Già patchata da Carlo (Pharma · Industrial Tech · Consumer · Fater allineata al brief 2026)
+- **G. 4 modifiche post-call 19/5** → ✅ ✅ ✅ ✅ tutte e 4 eseguite (PersonaSelect facoltativa + gender mix + Gateway prima dell'hub + calcolatore via + CommunityCallout)
+- **H. Pitch Outline patches** → ❌ NON ANCORA FATTO (task aperto restante)
+- **I. Dictionary cluster Elena v.012 in Brief Copy + Pitch** → ❌ NON ANCORA FATTO (task aperto restante)
+- **L. Domanda Elena su accesso community per imprese partner qualificate** → ❌ NON ANCORA POSTA (task aperto restante per pre-touchpoint 21/22 maggio)
+
+**Patch applicate alla scheda in questo aggiornamento sera 20/5**:
+1. Chiusura `[x]` task §"Mockup sito — modifiche entro pomeriggio 20/5" (6 task chiusi)
+2. Nuovo blocco §"Round refactor atomo Industry Learning Ecosystem" con 4 task chiusi (refactor + tassonomia + HR&B + persona 3D)
+3. Nuovo blocco §"Round Pitch Outline + Brief Copy + domanda Elena" con 3 task aperti residui (H + I + L)
+4. Frontmatter `updated: 2026-05-20` + `last_doc_added` aggiornato al prompt Hub editoriale
+5. 8 citazioni testuali verbatim Elena/Carlo aggiunte a §Citazioni testuali da preservare
+
+**Prossimi passi consolidati per nuova chat handover**:
+1. Carlo incolla [[Prompt Claude Code - Hub editoriale doppio livello engaged-research]] in Claude Code (40-60 min)
+2. Carlo patcha [[Pitch Outline 18-5 — Strategia Angelini Academy Short]] con le 9 modifiche post-call 19/5 (round dedicato chat)
+3. Carlo patcha [[Brief Copy Sito per Claude Code]] §dictionary con 8 termini Elena v.012
+4. Carlo invia messaggio a Elena prima touchpoint 21/22 maggio: domanda sotto-cluster "imprese partner di co-design qualificate" accesso community-only
+5. Touchpoint FuturItaly 21/22 maggio per validazione finale pre-pitch 31/5
+6. PPTX pitch finale costruita su Pitch Outline 18-5 patchato + screenshot mockup aggiornato
+
+**Asset deliverable per pitch 31/5 ready/in-progress**:
+- ✅ Sito mockup navigabile su `angelini-academy.vercel.app` con 5 percorsi + atomo Industry Learning Ecosystem refactored + tutte 4 modifiche post-call 19/5
+- 🔄 `/engaged-research` doppio livello — in attesa execution Hub editoriale prompt CC
+- ❌ Pitch Outline doc patchato — pending
+- ❌ Brief Copy dictionary Elena — pending
+- ✅ Persona 3D Anna Imprese — aggiunta
+- ✅ Trascrizione call 19/5 + doc target Elena v.012 archiviati in `80 - Sources/Files/Angelini Academy/`
+
+### 2026-05-18 (call Elena+Daniele svolta + audit Chrome 29 incoerenze + 5 sessioni Cowork sul pitch 31/5)
+
+**Trigger**: 5 sessioni Cowork user-initiated + 1 continuation in window (vedi [[2026-05-18 - Indice sessioni]] per dettaglio per-sessione). Tutta l'attività in window gravita sul pitch finale 31/5.
+
+**Call FuturItaly svolta 18/5 ore 17:00** (Elena Chiti + Daniele Caporale + Michele Mattucci muto in CC): esito **sostanzialmente positivo** — Daniele in chiusura "grandissimi, vi facciamo plausi, abbiamo anche sponsorizzato al capo la vostra attività". Endorsement Elena (53:22) "quando lo dici a braccio sei veloce e si capisce" → pitch 31/5 punta su parlato + slide minimaliste. **14 feedback strutturali** da integrare nel pitch + mockup entro pom mer 20/5 (lista completa nella Sessione 5 del daily index).
+
+**Decisioni chiave dalla call** (in attesa conferma vault commit Carlo per propagazione formale):
+- **5° percorso utente "Imprese"** (co-design corsi + placement, pari livello a ricercatori) da aggiungere a sitemap + PersonaSelect.
+- Naming slide 1 "architettura" → **"pillar"** o **"servizi"** o **"coordinate strategiche"**.
+- **"Cosa NON fa" Galileo** sostituito con cosa fa / dove sta nel sito / perché sta lì.
+- **Gateway MBA prima dell'hub Engaged Research** nell'ordine iniziative.
+- **Calcolatore borse RIMOSSO** (mantenerlo era errore di metabolizzazione del NO 8/5 Caterina).
+- "Bilancio Engaged Research" → **"Report annuale Engaged Research"**.
+- **Profilo LinkedIn CEO Morbidelli**: tagliato dal nostro scope (era nel brief originale Angelini, non sovrapporre).
+- **Hub editoriale Engaged Research = principe della proposta** (FuturItaly costruisce su questo l'offerta economica) — sezione standalone fuori dal blog, modello accesso pubblica vs community in attesa **messaggio Elena entro 9:30 mar 19/5**.
+- **PersonaSelect facoltativa** + gender mix (due personas femminili nelle prime due posizioni).
+- Copy "lo studente costruisce il ponte" → riscrivere: è Angelini che costruisce, lo studente attraversa.
+- Walk-through mockup: partire da **alberatura sito** prima del dettaglio (nuova slide ponte tra Slide 11 e Slide 12).
+- **SEO + competitor** riposizionati come specchietto rapido (no focus tecnico).
+- **Slide 14 iniziative on-site**: aggiunta **OS5bis Hub editoriale Engaged Research** standalone con mapping obiettivo cliente specifico (Obiettivo 4 ricerca pedagogica + base offerta FuturItaly). Spostamento SAT5 Landing eventi a Slide 21 Later. Rimozione SAT6 LinkedIn CEO.
+
+**Audit Chrome mockup live 18/5** (Sessione 3 — 29 incoerenze classificate per severità):
+- PersonaSelect mostra categorie ("Giovane Talento") non nomi propri (Giulia/Marco/Sofia/Luca del Briefing 14/5).
+- OpCo sito = Pharma · Tech · Ventures · Fater (vs brief: Pharma · Industrial Tech · Consumer · Ventures) → **tassonomia da chiarire con Elena**.
+- `/engaged-network` mancano 2 feature su 6 (Pedagogical Quiz + AI Co-pilot moderation), Tier system senza sfere planet, sezione 4-box partecipazione assente.
+- Marco Morbidelli mai nominato sul sito (assente da `/press` bio CEO).
+- Logo wall partner: mancano LBS + IMD + Stockholm SE.
+- 2 occorrenze CTA vietata "Scopri di più" sulla Home.
+
+**Performance Carlo (audit interno, da migrare in coaching note al commit Carlo)**: tempo parlato **60-65%** (vs target ≤30%, step intermedio realistico ≤40%; vs ~70% 8/5, 50-60% 11/5). Pattern "sì-però" sistematico 7+ occorrenze. Auto-disclosure Claude come autolesione operativa (24:36) → regola assoluta operativa. 6 pattern strutturali confermati su 3 call (8/5, 11/5, 18/5). Densità eccessiva walk-through (56:40 per slot 45 min).
+
+**Output prodotti in window** (`20 - Projects/Futuritaly/Angelini Academy/`):
+- [[Mockup Sito - Struttura e Copy Completo]] (NEW, doc omnicomprensivo 17 route React + dizionario i18n IT/EN + ~1.700 righe — riferimento per pitch 31/5 + audit + handoff Caterina/Morbidelli)
+- [[Pre-call Elena 18-5 — Strategia Angelini Academy]] (NEW, 15 capitoli, 180KB, base call 17:00)
+- [[Pitch Outline 18-5 — Strategia Angelini Academy Short]] (NEW v2, 20 slide ristrutturate in 4 parti, base diretta PPTX pitch finale)
+- [[User Journey Dettagliati 2026-05-18]] (NEW, companion Sintesi Strategica, 6 user journey end-to-end)
+- [[Sintesi Strategica Pre-PPTX 2026-05-18]] (v1.1 patchata sera 18/5: Slide 0 HeroBridge + Slide 6 PersonaSelect carousel + Slide 9 Galileo unico 4 capability + Slide 14a/14b/14c Angelini People/Engaged Network)
+- [[Prompt Claude Code - Galileo Tutor e Research Engine]] (17/5 22:12 IT — v2.0 sostituisce v1.0 AI Tutor, pattern unico agente)
+- [[Prompt Claude Code - Revisioni sito 15-5 v1]] (18/5 00:34 IT — 11 punti refinement chirurgici)
+- [[Prompt Claude Code - Audit modifiche recenti]] (18/5 00:48 IT — audit git regressioni silenziose ultimi 6 commit)
+- [[Prompt Claude Code - Hero scroll effect]] (18/5 00:52 IT — 3 round iterativi)
+- [Video Reel Veo 3.1 - Prompt Pack](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/Angelini%20Academy/Video%20Reel%20Veo%203.1%20-%20Prompt%20Pack.md) (17/5 22:41 IT — test esplorativo reel chiusura pitch, $19.99/mese Veo 3.1 Fast, 4 prompt + workflow)
+- [Video Reel Closing Frame.svg](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/Angelini%20Academy/Video%20Reel%20Closing%20Frame.svg) (17/5 22:40 IT — 1920×1080, palette brand book pag. 23)
+
+**Continuation `local_0b808c8f`** (già indicizzata 15/5 + 17/5): riflessione strategica **metafora visiva pianeti+orbite+Galileo vs sinapsi/cellule/biologico**. Mismatch identificato con DNA pharma+biotech + neuroscienze apprendimento Engaged Research + payoff "Building bridges". Decisione pragmatica: NON toccare per pitch 31/5; aggiungere **slide concept evoluzione fase 2** (post-aggiudicazione, Lug-Ott 2026) verso linguaggio sinaptico-neurale a 3 livelli (Galileo agente AI mantiene pianeti/orbite; Engaged Research Lab + Cross-OpCo + Tier + Career Path passano a sinapsi/network; Hero + landing percorsi passano ad archi/ponti). Galileo come naming resta valido; secondo agente "Cajal" (neuroscienze) possibile per Engaged Research Lab in fase 2. Carlo ha banco prova `/lab/metafora` con 4 mockup (Atomo, Molecola, Sinapsi, Cristallo — commit 42-45).
+
+**Advisory offerta formativa Angelini Academy** (Sessione 1): Academy esiste **dal 2022**, ASFOR-certified. Cuore reale = binario INTERNO (programmi customizzati senior talents, partner LBS/IMD/Bocconi/IE/Luiss BS/H-Farm/Talent Garden + SDA Bocconi young talents). Binario ESTERNO oggi leggero (9 risorse online + MBA Gateway IE Madrid 2026 10 borse €1M). **Distinzione interno/esterno sul sito** = strategicamente sì (area pubblica + accesso riservato Angelini people con login → catalogo programmi LBS/IMD/Bocconi). **2ª feature AI**: contraddizione con NO 8/5 Caterina (3 NO consecutivi in 4 min, "ho paura di un boomerang") → confermata decisione una sola feature AI (chatbot Engaged Research). Alternativa wow non-AI: percorso interattivo personalizzato (3-4 domande → mappa cluster + propone MBA/Forum/video-pill/candidatura).
+
+**Caveat operativi**:
+- Sessione 5 (post-mortem call) ha proposto vault commit a fine sessione ("Confermi che procedo?") ma Carlo **non ha confermato** nella trascrizione letta. La coaching note `30 - Areas/Area - Performance & Coaching/2026-05-18 - Carlo Performance — Call FuturItaly Elena Chiti.md` NON è stata creata da questo task — lasciata all'agente live §15 quando Carlo si esprime. Cronistoria completa (6 pattern + 7 citazioni timecoded + tempo parlato 60-65%) preservata nel daily index Sessione 5.
+- Frontmatter `next_touchpoint: 2026-05-21 pomeriggio o 2026-05-22 mattina (slot da fissare con FuturItaly)` resta stale (call svolta 17:00). Patch atomic-field-change a futura sessione live (regola §15 CLAUDE.md: solo agente live aggiorna frontmatter atomic-changes con conferma Carlo per `last_call_date` + `next_touchpoint`).
+- Open Question candidata: tassonomia OpCo sito (Tech vs Industrial Tech, Fater vs Consumer) — emersa in Sessione 3 audit Chrome. Da aprire in [[99 - System/Open Questions]] dopo verifica Carlo che la discrepanza è effettiva e non già spiegata da brief 2026.
+
+**Schede toccate da questo run**: solo [[_Angelini Academy]] (questo Log entry + 8 nuove citazioni call 18/5). Sessione 1 (consulenza orale, no file), Sessione 2 (test esplorativo no propagazione), Sessione 3 (audit-only, no file), Sessione 4 (live agent §15 ha già propagato in `last_doc_added` + Documenti collegati), Sessione 5 (in attesa conferma Carlo vault commit).
+
+#### Aggiornamento sera tardo 18/5 — decisioni Carlo post-cron-22
+
+_Trigger_: messaggio WhatsApp di Elena Chiti ricevuto poco dopo la call (sera 18/5) + indicazione di Carlo al task `cowork-sessions-index` di committare i contenuti pendenti, applicare patch atomic, NON aprire Open Questions ancora aperte. Patch applicate da `cowork-sessions-index` su input diretto di Carlo:
+
+**1. Frontmatter atomic-field-change** _(sostituisce date errate del live agent in `local_b31cd243`)_:
+- `updated`: 2026-05-19 → **2026-05-18** (data reale del run, call svolta oggi lun 18/5 ore 17:00 non mar 19/5)
+- `last_call_date`: 2026-05-19 → **2026-05-18** (prima riga della history)
+- `next_touchpoint`: confermato 2026-05-21 pomeriggio o 2026-05-22 mattina (slot da fissare con FuturItaly, OK del live agent)
+
+_atomic-field-change_ `updated`: 2026-05-19 → 2026-05-18 (sessione `cowork-sessions-index` cron-22, lastActive 2026-05-18 20:22). Supersede: live-agent `local_b31cd243` date-confusion.
+_atomic-field-change_ `last_call_date`: 2026-05-19 → 2026-05-18 (sessione `cowork-sessions-index` cron-22). Supersede: live-agent `local_b31cd243` date-confusion.
+
+**2. Open Question #35 Hub editoriale Engaged Research — CHIUSA Community-Only**:
+- Elena Chiti via WhatsApp 18/5 sera: *"L'editoriale dovrebbe permanente, dovrebbe essere non visibile a tutti, quindi ha alcuni cluster che potrebbe essere la comunità interna e la parte più di accademici e ricercatori, neanche imprese, non media che si fanno le informazioni, ma gente qualificata. […] Una soluzione potrebbe essere anche che lasciamo decidere a loro, partendo dalla nostra proposta, con quella opzione complementare."*
+- **Decisione consolidata**: Hub editoriale **community-only** (accademici + ricercatori + community interna; NO media, NO imprese non-qualificate). Variante A pubblica resta **opzione complementare** da offrire al cliente al pitch 31/5 — proposta base community-only.
+- **Posizionamento commerciale**: l'hub diventa **gancio principale per qualificare lead community**. CTA differenziate per target in homepage + chiusura percorsi (*"vuoi entrare nel network? vuoi conoscere le aziende? vuoi collaborare con altri ricercatori? vuoi accedere al laboratorio editoriale? → iscriviti alla community"*). Dentro la community: newsletter + community management con moderatore + conversazioni con alumni/talenti del percorso + collaborazione paper.
+- **Sito diventa funnel progressivo a 2 fasi**: parte pubblica = posizionamento comunicativo strategico (siamo network, ponte tra imprese e accademia); parte community = funnel avanzato engagement/conversione/bacino qualificato. Risponde a tutti gli obiettivi Angelini.
+- **Costo**: leggermente più alto vs sito interamente pubblico (gestione community wall + onboarding + moderazione), giustificato dal valore del laboratorio editoriale + obiettivo conversion.
+- Open Question #35 marcata ✅ chiusa in [[99 - System/Open Questions]] con citazione testuale + risoluzione operativa.
+
+**3. Tassonomia OpCo Angelini — decisione Carlo "seguire il brief"**:
+- Audit Chrome 18/5 (Sessione 3 `local_6a0ced23`) aveva segnalato discrepanza: sito mostra Pharma · Tech · Ventures · Fater (4 OpCo) vs brief Pharma · Industrial Tech · Consumer · Ventures.
+- **Decisione Carlo 18/5 sera**: vince il **brief**. Tassonomia corretta sul mockup → **Fater al posto di Ventures**. Cross-OpCo Tracker + scheda OpCo `/percorsi/*` + landing partner devono allinearsi al brief 2026 con **Fater** come 4ª OpCo (manufacturing consumer goods Angelini), non Ventures.
+- Decisione non richiede Open Question — applicazione diretta al mockup nel ciclo di fix entro pom mer 20/5.
+
+**4. Coaching note 18/5 — già creata dal live agent**:
+- File: [[30 - Areas/Area - Performance & Coaching/2026-05-19 - Carlo Performance — Call FuturItaly Angelini Academy|2026-05-19 - Carlo Performance — Call FuturItaly Angelini Academy]] (14KB, voto 6,8/10, 9 episodi diagnosi + 6 pattern strutturali + 4 passaggi macro-narrativi non passati + endorsement parlato a braccio + lezioni operative per touchpoint giovedì/venerdì).
+- ⚠️ **Filename con data 2026-05-19** = errore di dating live agent (call svolta lun 18/5 non mar 19/5). Per coerenza vault il filename dovrebbe essere `2026-05-18 - Carlo Performance — Call FuturItaly Elena Chiti.md`. Rinaming + correzione date interne lasciato all'agente live §15 in prossima sessione (rinominare un file in uso è write azione non in scope di questo task).
+
+**Task aperti nuovi propagati da decisioni Carlo 18/5 sera** (vedi anche §Task aperti del file):
+- [ ] **#p1** Patchare mockup `/engaged-research` con **community-only login wall** (teaser pubblico titoli+2-3 righe, accesso completo dietro registrazione community con verifica LinkedIn OAuth leggera) _da decisione Carlo 18/5 post-WhatsApp Elena_
+- [ ] **#p1** Aggiungere **CTA differenziate per target** in homepage + chiusura singoli percorsi (4 versioni: ricercatore / talento MBA / HR&Business / aziende-partner) → iscriviti alla community _da decisione Carlo 18/5_
+- [ ] **#p1** Patchare mockup **Cross-OpCo Tracker + scheda OpCo + landing partner** sostituendo "Ventures" con "Fater" come 4ª OpCo allineata al brief 2026 _da decisione Carlo 18/5 post-audit Chrome Sessione 3_
+- [ ] **#p1** Patch [[Sintesi Strategica Pre-PPTX 2026-05-18]] v1.2 con community-only Hub editoriale + CTA differenziate per target + funnel progressivo a 2 fasi (pubblico + community) _da decisione Carlo 18/5_
+- [ ] **#p1** Patch [[Pitch Outline 18-5 — Strategia Angelini Academy Short]] Slide 14 OS5bis Hub editoriale → label community-only + variante A pubblica come "opzione complementare al closing" _da decisione Carlo 18/5_
+- [ ] **#p1** Risposta WhatsApp a Elena (bozza pronta in `local_b31cd243` — versione ristrutturata ~330 parole asciugata) — confermare community-only + valore strategico del funnel + entro-stasera modifiche mockup + scaletta sintetica per validazione _da decisione Carlo 18/5_
+- [ ] **#p2** Rinominare coaching note `2026-05-19 - Carlo Performance — Call FuturItaly Angelini Academy.md` → `2026-05-18 - Carlo Performance — Call FuturItaly Elena Chiti.md` + correggere date interne 19/5 → 18/5 (filename + frontmatter + body) _da audit `cowork-sessions-index` 18/5 sera_
+
+**Conteggio finale del run `cowork-sessions-index` 18/5**: 2 schede toccate ([[_Angelini Academy]] Log+Citazioni+frontmatter+atomic-changes · [[99 - System/Open Questions]] chiusura #35), 8 citazioni testuali nuove call 18/5, 7 task aperti nuovi propagati da decisioni Carlo sera 18/5.
+
+### 2026-05-15 pomeriggio — Call interna Carlo↔Michele su stato concept + mockup + agenda
+
+- **Concept e strategia presentati a Michele live**: Carlo ha narrato l'intera strategia Angelini Academy a Michele in chiamata (51 min, 15:12). Cardini condivisi e validati con Michele:
+  - **4 cluster stakeholder con segmentazione forte dal sito**: (a) giovane talento (master/percorso → calcolatore borse, quiz fit, MBA Gateway), (b) ricercatore accademico (cerca finanziamenti → Galileo agente di ricerca + invio idea), (c) HR aziende (cercano talenti → attinge dal bacino Angelini), (d) media/giornalisti (amplificazione posizionamento → eventi + intervista). Ogni cluster ha contenuto + tone of voice + CTA dedicate.
+  - **Posizionamento AI/tech via funzionalità reali**, non slogan: Galileo (agente conversazionale su white paper, non chatbot), calcolatore borse, quiz fit percorso, riassunto automatico paper, generazione post LinkedIn da paper.
+  - **Newsletter modulari per target** (ricercatore → nuovi white paper, HR → nuovi candidati cluster, talento → nuove borse/percorsi, media → prossimi eventi).
+  - **Integrazione LinkedIn ↔ sito** bidirezionale (loro canale principale dichiarato).
+  - **Analisi SEO + UX pattern** già fatte su competitor e già parzialmente implementate nel mockup.
+  - Validazione Michele: "**top, siamo al 15, stiamo siamo top come tempi**" — concept e mockup considerati in linea con il pitch 31/5. Michele sull'approccio segmentazione: "**è top, è un'arma molto vincente, loro fanno 8 miliardi di cose, gli è utile per essere più precisi**".
+- **Mockup sito Angelini Academy**: Carlo lo ha portato avanti significativamente con Claude Code (codice locale in `/Users/carlosanvoisin/code/angelini-academy/`, deploy su `angelini-academy.vercel.app`). Tutte le sezioni del sito sono ora navigabili con: hover preview navigation, pianeti animati che scendono durante scroll (cluster MBA), calcolatore borsa, quiz fit, email integrate moc, founder stories con effetto centratura/zoom, blog, eventi filtrabili. Galileo è moc (dati finti) — andrà collegato in prod a un loro account Anthropic. Effort dichiarato: "**facevo altro e ogni tanto gli dicevo vai avanti — quasi zero revisioni**".
+- **Carry-over Carlo (entro presentazione a Elena martedì 19/5 ore 15)**: (a) sblocco rate limit Claude per dare botta su copy + branding/colori/font + analisi esterna, (b) rifare la quadra del documento strategia (oggi è scheletro, integrare le altre ricerche), (c) trasformarlo in presentazione (formato per call con Elena — Carlo: "sto pensando se proprio Word non è il massimo"; la presentazione Claude la fa "tutta lei" come dimostrato a Michele in call).
+- **Divisione operativa lato Michele su Angelini**: Carlo lo solleva dal sito (lavora "per allenamento" su entrambe le cose strategia + sito). A Michele resta solo la **parte operativa**: privacy, cookie, legale, blog — Michele lo sta già facendo per NOT e altri progetti, nessuna fatica.
+- **Ipotesi di delivery cross-progetto**: Michele può prendere il codice del sito Angelini Academy, darlo a Claude Code e usarlo come base per il nuovo sito FuturItaly (con effetti 3D/animazioni coerenti al concept network). **Sequenza**: prima chiude il concept Futuritaly, poi passaggio in coppia con Carlo per dare il codice a Claude Code. Carlo: "**ci assicuriamo che non ci siano problemi**".
+- **Note pattern Carlo**: usa Claude Code in autonomia con stile "fire-and-forget" (definisce strategia → prompt architettura+effetti wow → handoff a Claude Code per implementazione iterativa, conferme estemporanee).
+
+### 2026-05-15 — Pivot brief: prodotto Mockup Brief Sito v2 (stack reale Vite+React, supersedes parziale Master Brief)
+
+**Trigger**: dopo aver visionato il Master Brief (8.500 parole, Next.js-based), Carlo segnala che è troppo dettagliato e disallineato col lavoro fatto. Ha già sviluppato una landing one-pager su [angelini-academy.vercel.app](https://angelini-academy.vercel.app/) con codebase locale in `/Users/carlosanvoisin/code/angelini-academy/`. Vuole evolverla in mockup multi-pagina partendo da lì, allineata a strategia, con eventuale layer di idee creative grafiche per stupire Caterina al pitch 31/5. Phase 2 successiva: aggiungere mockup illustrative delle 5 AI features di Strategia Website 2026 §5.3.
+
+**Audit codebase**: stack reale = **Vite + React 19 + TypeScript + Tailwind 4 + Framer Motion 12 + Lucide + Radix slot**. NON Next.js. Landing già contiene PersonaSelect (4 personas) + Hero "Building bridges in education" + Pillars (nucleo Engaged Research + 4 pilastri 3D) + sezioni teaser Events/Blog/Partners/Newsletter/Footer. Design tokens già in `src/index.css` (palette ang-/ocra-/ink, Fraunces + Manrope). Anchor navigation, no routing. Implicazione: il Master Brief precedente assumeva stack errato → deprecato come riferimento attivo, resta riserva per fase production post-pitch.
+
+**Output prodotto**: [[Mockup Brief Sito]] (~2.450 parole, 9 sezioni, path: `20 - Projects/Futuritaly/Angelini Academy/`). Scope ristretto a mockup navigabile pitch-ready (non production-ready). Aggiunge solo `react-router-dom` allo stack, preserva tutto il lavoro fatto. Sitemap target: Home (asciugata) + 4 pagine percorsi cluster + Engaged Research + MBA Gateway + Founder Stories + Press + Chi Siamo + Contatti.
+
+**5 idee wow grafiche selezionate** (coerenti con animation pattern già esistenti, no overhaul tecnologico):
+1. **Cross-OpCo Tracker scroll-driven** — riusa sphere 3D Pillars per visualizzare journey rotation Pharma→Industrial Tech→Consumer→Ventures (pattern unico, no comparable)
+2. **PersonaSelect peek-preview** — hover su persona mostra micro-anteprima della landing cluster
+3. **Founder Stories scroll-jacking parallax** — 3 layer (ritratto + sfondo + testo), stile fondazione
+4. **Engaged Research biblioteca galleggiante** — paper cards orbitanti attorno al placeholder chatbot AI-1
+5. **Newsletter intent-driven contestuale** — variant per percorso (researcher / HR / generale)
+
+**Phase 2 hook (post-base)**: 5 AI features illustrative come UI placeholder (AI-1 chatbot su /engaged-research, AI-2 Career Path su /percorsi/talent, AI-4 Scouting Helper su /chi-siamo; AI-3 e AI-5 sono use interno HeyAI quindi non sul sito pubblico). Spec dettagliata in brief separato dopo approvazione base.
+
+**Mismatch personas landing↔Strategia trovati**:
+- "HR & L&D Director" (landing) vs "HR & business community" (Strategia) → rinaming proposto `HR & Business`, slug `/percorsi/hr-business`
+- "Media & Istituzioni" (landing) manca connotato community/advocacy → framing da allargare nella nuova landing
+- Posizionamento "fondazione culturale-scientifica europea mecenatistica" non ancora pieno in landing (gratuità MBA, non-vendita Engaged Research, cross-link Industries) → interventi nelle pagine nuove, non sulla home
+
+**Citazioni e numeri**: nessun numero economico nuovo. Master Facts Sheet non toccato.
+
+**Raccomandazione critica pre-lancio Claude Code**: decidere il rinaming Persona 3 (`HR & L&D Director` → `HR & Business`) **prima** del pass a Claude Code — impatta slug, naming componente, copy. Tutto il resto è iterabile in esecuzione.
+
+**Owner prossimi step**: Carlo (validazione brief + decisione naming persona 3) → Carlo apre sessione Claude Code sul repo `/Users/carlosanvoisin/code/angelini-academy/` con il brief allegato → mockup live entro pitch 31/5.
+
+### 2026-05-15 — Prodotto Master Brief Sito per Claude Code (AI builder handoff)
+
+**Trigger**: Carlo chiede in chat se esiste già un documento unico auto-sufficiente da passare a Claude Code (generatore AI di siti) per fargli costruire l'MVP del sito Angelini Academy entro pitch 31/5, o se va prodotto.
+
+**Audit pre-produzione**: 9 file specialistici nel dossier (Framework Pitch Finale, Strategia Website 2026, Wireframe e Architettura, SEO Specs, Accessibility Specs, Briefing Personaggi Landing Page, Brief Mockup, Analisi Narrativa, Scan Siti Web Comparable) — ottimo materiale ma **non esiste master brief consolidato**. Ogni file è isolato per audience specifica (Carlo interno / FuturItaly / developer / designer 3D). Un AI builder dovrebbe leggere 4-5 file in parallelo, alto rischio incoerenza.
+
+**Output prodotto**: [[Master Brief Sito Angelini Academy]] (~8.500 parole, 16 sezioni, salvato in `20 - Projects/Futuritaly/Angelini Academy/`). Ipotesi di scope dichiarata in §0: **MVP NAVIGABILE da pitch**, non sito production-ready post-aggiudicazione. Stack tecnologico di default: Next.js 14 App Router + Tailwind CSS 3.4 + TypeScript (ribattibile da Carlo prima del lancio Claude Code). 22 `[[TBD]]` dichiarati esplicitamente (concentrati su asset mancanti: logo SVG vettoriale, foto faculty/Morbidelli, foto eventi, video Founder Stories, paper PDF reali, URL LinkedIn Morbidelli, copy curato Engaged Research/FAQ aggiuntive, testo legale Privacy/Cookie).
+
+**Citazioni e numeri**: nessun numero economico nuovo (deliverable interno, non quotazione). Master Facts Sheet non toccato.
+
+**Raccomandazioni operative pre-lancio Claude Code (consegnate a Carlo)**:
+1. Confermare/sostituire i 4 PNG personaggi (Giulia/Marco/Sofia/Luca): allegarli al prompt Claude Code, altrimenti placeholder SVG generati; gerarchia visiva Giulia primaria → Luca quaternaria vincolante
+2. Ribattere o confermare lo stack default Next.js 14+Tailwind+TS: se Michele preferisce Astro/Webflow/plain HTML, il brief va patchato in §12 prima del lancio (pattern App Router/schema JSON-LD/`next/font` sono Next.js-specifici)
+3. Verificare i 3 valori HEX della palette in §6.1 (#1B2D5A navy / #F8F4ED avorio / #C9A961 oro): sono inferenze ragionevoli dal brand book 2024 ricevuto 14/5; se discordanti vanno patchati perché i contrast ratio dichiarati cambiano
+
+**Owner prossimi step**: Carlo (conferma scope/stack/palette) → Michele (allegati asset personaggi + eventuali mockup) → lancio Claude Code (timing da decidere — prima del 31/5).
+
+### 2026-05-13 — Call Carlo↔Elena su cluster destinatari + governance touchpoint venerdì
+
+**Durata**: ~15-20 min. **Presenti**: Carlo + Elena. Daniele assente (impegno familiare).
+
+**Tema 1 — Cluster destinatari**. Elena ha mappato 8 cluster, accorpabili a 7. Il brief Angelini ne menziona 6; la filiera/aziende del territorio non è inclusa ma la teniamo come settima voce consulenziale. Lista emersa: media interno, media esterni, mondo accademico/ricercatori, stakeholder istituzionali (ecosistema istruzionale), Mondo Angelini interno, ecosistema startup, filiera.
+
+**Tema 2 — Due assi (formulazione FINALE consolidata da Carlo nella email inviata a Elena 13/5 sera)**.
+
+Iterazione delle definizioni:
+- In call (mattina 13/5): Carlo propone "primari/secondari" + "vetrina/interattivo".
+- Post-call sera: Carlo ridiscute con Claude, sembra emergere distinzione "priorità (primari/secondari)" + "architettura sito (con percorso / senza)".
+- Email finale a Elena (13/5 sera tardi): Carlo TIENE "primaria/secondaria" sull'asse priorità (le critiche al "secondario riduttivo" sono state superate scegliendo comunque quella denominazione) e RIFORMULA l'asse 2 come **modalità di engagement** che è più ricca e comunicativa.
+
+**Formulazione finale degli assi (citazione testuale dall'email inviata)**:
+
+- **Asse 1 — Priorità**: **primaria / secondaria**
+- **Asse 2 — Modalità di engagement**:
+  - cluster che **interagiscono attivamente** tramite percorso dedicato + funzionalità + risorse collegate + acquisti online
+  - cluster che **interagiscono passivamente** dove il sito ha più una funzione di "vetrina"
+
+**Note critiche per il lavoro interno (NON per cliente)**:
+- "Acquisti online" inserito nel polo attivo: implica che il sito può ospitare e-commerce (iscrizioni MBA, candidature, eventuali pagamenti). Da chiarire con Michele se è una sotto-funzionalità o una linea autonoma di sviluppo.
+- "Vetrina" qui è il polo PASSIVO dell'asse 2 (non una sotto-categoria interna al polo attivo come ipotizzato in iterazioni intermedie). Cluster "vetrina" = chi vede il sito senza interagirvi attivamente, ottiene posizionamento Angelini Academy nella propria mente.
+- I due assi sono indipendenti (un cluster può essere "primaria + vetrina" o "secondaria + attivo").
+- L'ipotesi originale "tre livelli di profondità" (interattivo / vetrina dentro il percorso / posizionamento esterno) è stata abbandonata in favore della formulazione binaria pulita.
+
+**Tema 3 — Ranking**. Decisione condivisa: il ranking lo proponiamo noi consulenzialmente. Il punto di riferimento Angelini "non risponde nemmeno", niente touchpoint intermedio di validazione cliente. Proposta Elena da consolidare: media interno → accademia/ricercatori → stakeholder istituzionali → Mondo Angelini → ecosistema startup+filiera.
+
+**Tema 4 — Insight strategico per il pitch**. Elena ha rivelato che l'engagement con aziende del territorio era opzione che Angelini aveva in testa ma non ha mai attivato (ticket >€1M annui mai partito). Da capitalizzare nel pitch finale come differenziale narrativo unique.
+
+**Tema 5 — Email scaletta 11/5**. Carlo aveva inviato lun 11/5 ore 16 la scaletta + primo mockup illustrativo. Elena non aveva letto la mail ("non ho visto il telefono tipo dalle 6 e mezzo"). Promette feedback entro venerdì.
+
+**Tema 6 — Governance prossimo touchpoint**. Concordato venerdì 15/5 pomeriggio post 16:30 (Elena impegnata col cliente fino a tardo pomeriggio). Daniele probabilmente fuori per impegni famiglia, Elena verifica. Fallback lunedì 18/5.
+
+**Conferme attese da Elena entro ven 15/5 mattina**: (a) feedback scaletta 11/5, (b) review mockup (meglio da desktop), (c) conferma touchpoint.
+
+**Performance Carlo (voto interno 8/10)**: governance chiara, due assi tassonomici estratti dal monologo di Elena, chiusura sintetica con 3 conferme. Da migliorare: in apertura non ha verificato che Elena avesse letto la mail di lunedì (scoperto a fine call), ha perso 4-5 min in più del necessario sul racconto del ticket aziende territorio (bastava annotare), non ha messo in campo il framework cluster 4-percorsi della [[Strategia Website 2026]] / [[Framework Pitch Finale]] che già esisteva.
+
+> "Non è una merda, all'inizio sì."
+> — **Elena Chiti**, debrief post call 8/5/2026 — giudizio onesto sulla performance HeyAI in call (coerente con voto interno 6.5/10 Carlo, 6/10 team).
+
+> "Non manco tecnica e parla così a papera."
+> — **Elena Chiti**, debrief post call 8/5/2026 — lettura su Caterina (poco tecnica, va guidata con fermezza ma chiarezza). Il "non saprei" di Caterina su stack/SEO/hosting va letto come "fate voi, ne capite più di me, mostratemi le opzioni" — non come ostacolo.
+
+## Pattern di negoziazione
+
+- **Elena è alleata interna**, non decisore: trasparente, vuole un partner che la aiuti nella sua vendita interna in Angelini. Trattarla come tale.
+- **Doppia anima del sito = leva premium pricing**: la complessità strutturale (istituzionale + commerciale lead gen) giustifica il top del range, come già usato per il sito FuturItaly Osservatorio (€5K oltre IVA).
+- **Differenziale di pitch = velocità di esecuzione**: il 75% dei criteri di valutazione (Strategia 30% + Contenuto 30% + Creatività 15%) premia la qualità sostanziale. Il messaggio implicito del mockup pre-call è "se in 3 giorni vi facciamo questo, immaginate il sito definitivo in poche settimane".
+- **Porta aperta diplomatica**: HeyAI ha competenze anche su strategia comunicazione, social, content, PM operations. In email/call lo si menziona, ma non si insiste — perché il cliente potrebbe avere già fornitori in essere e perché restare focalizzati sul sito riduce il rischio di sembrare invasivi nei confronti di FuturItaly che è il regista commerciale.
+- **Carlo lascia gestire la call a Daniele e Elena**, interviene a supporto sui temi sito. Posizionamento HeyAI = fornitore tecnico che parla quando chiamato in causa, non co-pitchman.
+
+## Cose da NON fare
+
+- **Non confondere** questo progetto con [[_Futuritaly|Futuritaly]] (Osservatorio AI per studio legale): stesso intermediario, ma cliente, scope, team diversi.
+- **Non bypassare** Elena Chiti scrivendo direttamente a Caterina Caboni o Tiziana Carnicelli senza il suo ok: è l'owner della relazione.
+- **Non riproporre** il documento delle 3 opzioni come listino al cliente finale: era nato come strumento di vendita interna di Elena. La proposta finale sarà calibrata sul brief reale e sulla risposta del cliente al Q&A.
+- **Non insistere sulle altre voci del brief** (social, content, video, brochure, gadget, PM operations) anche se rientrano nelle competenze HeyAI: il cliente potrebbe avere fornitori in essere. Lo menzioniamo una volta in modo diplomatico, non lo ripetiamo.
+- **Non spingere il mockup come "soluzione finita"**: è uno strumento di pitch e prova di velocità, non la proposta. Le decisioni architetturali reali vengono dopo il Q&A.
+- **Non parlare in call di prezzi prima che il cliente lo chieda esplicitamente**: posizionamento di valore prima del numero. Se il cliente chiede prezzo, dare range e rimandare alla proposta formale post-Q&A.
+
+## Sessioni Cowork correlate
+
+- 2026-05-06 — Wireframe e architettura · valutazione metodo Claude Code → [[80 - Sources/Cowork Sessions/2026-05-06 - Indice sessioni#Sessione 1 — Wireframe e architettura Angelini Academy]]
+- 2026-05-06 — Smoke test homepage HTML standalone → [[80 - Sources/Cowork Sessions/2026-05-06 - Indice sessioni#Sessione 2 — Smoke test homepage Angelini Academy]]
+- 2026-05-06 — Q&A docx aggiornato (A3 ribaltata, C5 nuova) → [[80 - Sources/Cowork Sessions/2026-05-06 - Indice sessioni#Sessione 3 — Prepare Q&A response scenarios Angelini Academy]]
+- 2026-05-06 — Prompt unico audit pacchetto 4 file → [[80 - Sources/Cowork Sessions/2026-05-06 - Indice sessioni#Sessione 4 — Review Future Italy website project details]]
+- 2026-05-07 — batch reconciliation 4 deliverable Michele + conferma Elena + chiusura allineamento dimensionamento → [[80 - Sources/Cowork Sessions/2026-05-07 - Indice sessioni#Sessione 1 — Review open tasks summary]]
+- 2026-05-07 sera — Q&A docx sezione J (6 domande iper-necessarie) + bozza email Elena+Daniele → [[80 - Sources/Cowork Sessions/2026-05-08 - Indice sessioni#Sessione 1 — Review Future Italy website project details (re-opened 7/5 sera)]]
+- 2026-05-07 sera — Prep doc 8/5 dedicato call cliente Angelini + path migration note refactoring 6/5 → [[80 - Sources/Cowork Sessions/2026-05-08 - Indice sessioni#Sessione 2 — Wireframe e architettura Angelini Academy (re-opened 7/5 sera)]]
+- 2026-05-08 mattina — Post Q&A call cliente: cambio scope strategico (sito = restyling rapido entro giugno + ristrutturazione fase 2), 6 decisioni cliente, performance review HeyAI/Carlo, 4 leve pitch finale, bozza email Elena → [[80 - Sources/Cowork Sessions/2026-05-08 - Indice sessioni#Sessione 6 — Review Future Italy website project details (re-opened 8/5 mattina, post Q&A call cliente Angelini Academy)]]
+- 2026-05-11 — `local_23977cd6` — Prepare Angelini Academy website proposal strategy: email recap allineamento interno FuturItaly 11/5 con 7 pillar approvati + caveat perimetro off-site + deliverable attesi + allineamento 14/5 + coaching note 11/5 → [[2026-05-11 - Indice sessioni#Sessione 6 — Prepare Angelini Academy website proposal strategy (email recap allineamento interno 11/5)]]
+- 2026-05-15 mattina — `local_66c1006d` — Create Angelini Academy website (Mockup Brief Sito ~2.450 parole, 9 sezioni): audit landing sezione per sezione + sitemap target 10 pagine + spec snella per pagina + 5 idee wow grafiche (Cross-OpCo Tracker scroll-driven sphere 3D · PersonaSelect peek-preview · Founder Stories scroll-jacking parallax · Engaged Research biblioteca galleggiante orbitante AI-1 · Newsletter intent-driven); Layer 4 ricomposto (Mockup Brief = riferimento attivo, Master Brief precedente deprecato per stack sbagliato ma resta riserva specs production); mismatch persona 3 da chiudere PRIMA di Claude Code (HR & L&D Director landing vs HR & business community Strategia → proposta `HR & Business`) → [[80 - Sources/Cowork Sessions/2026-05-15 - Indice sessioni#Sessione 4 — Create Angelini Academy website (Mockup Brief Sito)]]
+- 2026-05-15 mattina — `local_6ac858a6` — Clarify meeting time from email: thread Elena Chiti ricostruita → call lun 18/5 spostamento orario 15:00 → 17:00 (o successivo) richiesto da Elena nella mail 09:02 oggi; nessuna call oggi nella thread; aggiornamento Outlook in capo a Carlo (NON eseguito automaticamente) → [[80 - Sources/Cowork Sessions/2026-05-15 - Indice sessioni#Sessione 6 — Clarify meeting time from email (Elena Chiti call lun 18/5)]]
+- 2026-05-15 pomeriggio — `local_9912ed2f` — Meeting recap call Carlo+Michele 51 min (Angelini divisione lavoro): **sito Angelini Academy = Carlo** (concept narrato a Michele e validato "top, siamo al 15"; mockup Claude Code 10 pagine navigabili pianeti animati Galileo agente ricerca calcolatore borse quiz fit founder stories blog eventi; carry-over Carlo: rate limit Claude + copy + branding + analisi competitor + rifare quadra documento strategia + presentazione per Elena call mar 19/5 ore 15); **Michele = solo operativo** (privacy/cookie/legale/blog, in continuità con NOT); pitch 31/5 confermato → [[80 - Sources/Cowork Sessions/2026-05-15 - Indice sessioni#Sessione 7 — Meeting recap call Carlo+Michele 15/5 (Angelini Academy · Futuritaly · Achipont)]]
+- 2026-05-15 sera — `local_0b808c8f` — Angelini Academy website copy brief (typography swap prompt v1.1 per Claude Code): Merriweather + Barlow già installati, mapping ribaltato (Merriweather Light Italic display + Barlow body/UI vs default brand book Barlow titoli + Merriweather body); step 1 audit grep dove sono usati i font OGGI prima di toccare file con conferma Carlo prima dello swap; sezione "Casi ambigui da segnalare" stop-and-ask su font hard-coded inline; reference esterna `Smoke test font - Variante C.html`; difesa pitch clausola brand book pag. 23 "esigenze compositive" invariata → [[80 - Sources/Cowork Sessions/2026-05-15 - Indice sessioni#Sessione 8 — Angelini Academy website copy brief (typography swap prompt v1.1)]]
+- 2026-05-12 — `local_14deefb9` — Framework strategico Angelini Academy pitch finale: prodotto framework completo ~11.000 parole in 7 pillar + moduli operativi. Tono "fondazione culturale-scientifica europea con propensione mecenatistica" (Fondazione Agnelli/Cariplo, Royal Society UK, MAXXI, UCL). 4 cluster operativi confermati (giovani talenti / HR buyer / ricercatori e innovatori / media e istituzioni). Roadmap 2 fasi modulari: Fase 1 entro giugno (Festival Trento) + Fase 2 luglio-novembre. O5 emergente "ricerca pedagogica/edTech" post-call 11/5 aggiunto ai 3 obiettivi cliente brief. 24 fonti web pubbliche verificate. `Analisi Competitor.md` placeholder esplicito §1.3 con 4 classi competitor da mappare. → [[80 - Sources/Cowork Sessions/2026-05-12 - Indice sessioni#Sessione 1 — Framework strategico Angelini Academy pitch finale]]
+- 2026-05-12 — `local_cc8f7879` — Competitive analysis prompt per Claude Design: prompt 1.500 caratteri per generazione PowerPoint "Roadmap Operativa 2026" (8-12 slide 16:9 .pptx) da inserire nel pitch finale. Posizionamento brand "fondazione culturale-scientifica europea" allineato a framework Sessione 1. Brand book cliente 2024 prevale. Numeri pricing HeyAI segnati "TBD — chiusura 14/5". Niente postambolo (no thank you / Q&A slide). Documento di riferimento per contenuti: `Campagna 2026.md`. → [[80 - Sources/Cowork Sessions/2026-05-12 - Indice sessioni#Sessione 3 — Competitive analysis for Angelini Academy pitch (prompt Claude Design)]]
+- 2026-05-13 — `local_3f4f6fdf` + `local_dab8750f` — Deliverable tecnici sito nuovo: prodotti [[Accessibility Specs Sito Nuovo Angelini Academy]] (WCAG 2.1 AA, ~7.000 parole, 6 sezioni) e [[SEO Specs Sito Nuovo]] (6 capitoli forward-looking, 44 keyword target, 15 priority cross-cluster, 5 siti comparable analizzati via WebFetch IE Insights/UCL/SDA/Bracco/Veronesi, 8 esempi JSON-LD schema markup, KPI baseline 6m+12m, priorità implementazione fase 1/fase 2). Vincolo metodologico SEO: no Ahrefs/Semrush. Revisione interna Carlo 14/5 mattina pre allineamento Daniele/Elena. → [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 1 — WCAG 2.1 AA accessibility specs Angelini Academy]] · [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 2 — SEO specifications for Angelini Academy website]]
+- 2026-05-14 — `local_3d50d690` — Briefing personaggi landing gamificata: prodotto [[Angelini Academy — Briefing Personaggi Landing Page]] (file root) per agente sviluppo sito. 4 nuove schede personaggio (nome, target, descrizione, tratti visivi, accent color, reference image) sostituiscono quelli esistenti. Convenzione naming immagini reference: `persona-1-giulia.png` ecc. Stato attuale landing = solo redirect a sezione home, evoluzione verso vero percorso. → [[80 - Sources/Cowork Sessions/2026-05-14 - Indice sessioni#Sessione 4 — Create AI image prompts for game characters (briefing personaggi landing Angelini Academy)]]
+- 2026-05-14 — `local_018a15f3` — Email Recap Elena post call cluster (iterata v8→v11, pronta invio dopo correzione refuso "pubbliare"→"pubblicare"). Pivot architetturale LinkedIn auto-publish: da v9 "strumento separato dal sito" a v10/v11 Carlo "admin panel CMS sito" (1 di 4 alternative discusse). Paternità separata bullet laboratorio editoriale: video pillole = idea Elena, panel LinkedIn admin = aggiunta HeyAI. Frase aggancio bullet mockup: "Si inserisce nei customer journey che stiamo articolando nell'analisi e nella presentazione". 14 nuove regole stilistiche estratte → prompt completo ottimizzazione skill `email-drafting` (interventi A-F). Task tecnico Michele pre lun 18/5: check fattibilità LinkedIn API write access + alternative Buffer/Hootsuite vs copy+redirect. → [[80 - Sources/Cowork Sessions/2026-05-14 - Indice sessioni#Sessione 6 — Elena call recap and performance analysis (email Recap Elena post call cluster — v8→v11)]]
+- 2026-05-19 — `local_b31cd243` (continuation post-call 19/5) + `local_6cce3cbe` (cluster Imprese & Hub Editoriale): post-mortem call FuturItaly+HeyAI 19/5 ore 15 (56 min, Elena+Daniele) — esito positivo, Daniele *"grandissimi, vi facciamo plausi, abbiamo anche sponsorizzato al capo la vostra attività"*. Prodotti: Prompt Claude Code Modifiche post-call 19-5 (4 modifiche chirurgiche: PersonaSelect facoltativa + riordino F-M-F-M con donna in prima posizione · rimozione calcolatore borse MBA Gateway · sezione network strutturata in homepage · CommunityCallout fine percorsi Researcher e Talent) + nuovo `/percorsi/imprese` come 5° cluster v.012 Elena (accent viola `#6B2C91`, 7 section, network 4 OpCo + 8-10 partner, persona 3D Innovation Director donna manufacturing) + Patch HR&B cluster 3 v2 asciugata (mix executive: LBS Executive Program + LUISS BS Mastery in sostituzione di 2 dei 4 box masterclass + Future Skills Observatory + Callout Forum). Coaching note 19/5: voto 6,8/10, 9 episodi, 6 pattern (tempo parlato 60-65% vs target ≤30%, "sì-però" 7+ occorrenze, auto-disclosure Claude come autolesione operativa). Open Question #35 *Modello accesso Hub editoriale* aperta 18/5 + chiusa 18/5 sera via WhatsApp Elena (variante D1 doppio livello in-page). 14 feedback strutturali da integrare. → [[80 - Sources/Cowork Sessions/2026-05-19 - Indice sessioni|2026-05-19 - Indice sessioni]]
+
+## Log
+
+### 2026-05-11 — Call allineamento interno svolta (Carlo + Michele + Daniele + Elena)
+
+Call di 30-40 minuti via Teams (Daniele problemi tecnici Outlook tenant FuturItaly, collegato via web). Partecipanti: Carlo (HeyAI), Michele Mattucci (HeyAI), Daniele Caporale (FuturItaly), Elena Chiti (FuturItaly). Tono cooperativo.
+
+**Decisioni chiuse (4)**:
+1. **Approccio strategico-analitico confermato** — Caterina vuole vedere capacità di leggere la strategia cliente e tradurla nel sito, non vendita. Elena: *"lei vuole vedere nella proposta utilità e coerenza con la strategia, non ci dobbiamo inventare nulla perché è super dettagliata"*.
+2. **Mockup confermato come parte della proposta** — Elena: *"a me l'idea del mockup piace, è decisamente più esperto di me [Carlo], per me ok sono sempre favorevole alle simulazioni"*. Mai messo in dubbio.
+3. **Divisione lavoro chiusa**: FuturItaly (Elena+Daniele) prende **target operativi + insight laboratorio editoriale** entro mar 12/5 sera. HeyAI (Carlo+Michele) prosegue **strategia + presentazione + mockup** in autonomia.
+4. **Documento Q&A tecniche v1.1**: Elena lo invia oggi 11/5 a Caterina (bozza email già pronta di Carlo, viene mandata sotto firma Elena).
+
+**Insight critici emersi dal cliente (raccolti da Elena, ridefiniscono la mappa obiettivi reali)**:
+- **Budget Academy**: €5M spalmati su 2 anni, **la proprietà non si aspetta di andare in profitto**. Elena: *"hanno un budget di circa 5 milioni, questa attività spacchettata su 2 anni per fare x cose, la proprietà non si aspetta di andare in profitto"*. → L'obiettivo "diversificazione revenue corporate learning" (era O2 nella nostra lettura "Cosa vuole davvero") **si declassa da obiettivo primario a posizionamento per il futuro**: oggi è give-back e brand uplift, non revenue-generation.
+- **Mecenatismo famiglia Angelini**: *"X Angelini a capo, è una figura che vuole comunque innamorarsi dei progetti, essere riconosciuta come mecenate sul territorio, tant'è che loro sono anche molto con la fondazione operativa nella parte delle Marche"*. → Il sito deve avere tonalità da fondazione culturale/istituzionale, non da business school commerciale.
+- **Nuovo obiettivo emergente — Ricerca pedagogica + edTech**: partenariato UCL Inghilterra + IE Madrid + un **"professore consulente principe"** (UCL) che è anche consulente Academy per anni, *"fa il bello e cattivo tempo"*. Porta avanti 2 progetti di ricerca: (a) **innovazione pedagogica** (nuovi metodi di apprendimento con AI), (b) **edTech** (esempio Elena: "aula intelligente del futuro" con dashboard che misura attenzione studenti). → Ridefinisce l'O4 (innovation scouting) della nostra lettura: la ricerca pedagogica/edTech non è scouting di Ventures, è **identità di posizionamento accademico** primaria.
+- **Mismatching professionale + lifelong learning over 50**: due temi specifici di ricerca: ridurre il gap tra formazione universitaria/teorica e fabbisogno aziendale reale; reskilling/upskilling per chi continua a lavorare oltre i 50. → Diventano possibili content pillar del sito e topic per il laboratorio editoriale.
+- **Conferma pacchetto editoriale come voce esplicita richiesta**: Daniele: *"quella è una cosa che ci hanno chiesto esplicitamente anche in altre interlocuzioni"*. → Conferma che inserire il laboratorio editoriale nella proposta è coerente con quanto il cliente sta chiedendo.
+
+**Target operativi proposti da Carlo in call (presi nota da Elena per evoluzione)**:
+1. Giovani talenti (giovani manager, neo laureati) → capire se Angelini è il posto giusto per candidarsi
+2. HR buyer di altre aziende
+3. Ricercatori
+4. Media, istituzioni, community in generale
+
+Elena: *"Devo fare un ragionamento, però va bene, questi mi sono appuntati, assolutamente"*. Da consolidare con cluster di 3 max 4 percorsi utente differenziati.
+
+**Decisioni NON discusse (parcheggiate a giovedì 14/5)**:
+- Regia pitch finale (chi apre, chi chiude, target Carlo ≤30% tempo)
+- Modello margine FuturItaly (A markup / B fattura+% / ibrido)
+- Slide del NO come pattern-break
+- Riattivazione Tiziana sul concept editoriale
+- Chi tira la corda con Caterina su IT Angelini
+- Identità "Davide" presente in call cliente 8/5
+
+**Citazioni testuali da preservare**:
+
+> "Lei vuole vedere nella vostra proposta che ci sia utilità e coerenza con la strategia, quindi non ci dobbiamo inventare nulla perché è super dettagliata."
+> — **Elena Chiti**, call 11/5
+
+> "Hanno un budget di circa 5 milioni, questa attività spacchettata su 2 anni per fare x cose, e la proprietà non si aspetta di andare in profitto."
+> — **Elena Chiti**, call 11/5 — ridefinisce il modello business reale Academy.
+
+> "X Angelini a capo... è una figura che vuole comunque innamorarsi dei progetti, essere riconosciuta come mecenate sul territorio."
+> — **Elena Chiti**, call 11/5 — conferma natura mecenatistico-istituzionale, non commerciale.
+
+> "Un professore principe, è anche consulente loro per i prossimi x anni proprio dell'Academy, che fa un po' il bello e cattivo tempo."
+> — **Elena Chiti**, call 11/5 — figura UCL chiave da identificare per la nostra mappa stakeholder.
+
+> "A me l'idea del mockup piace, è decisamente più esperto di me Carlo, non ci vede controindicazioni... per me ok sono sempre favorevole alle simulazioni."
+> — **Elena Chiti**, call 11/5 — mockup approvato.
+
+> "Quella è una cosa che ci hanno chiesto esplicitamente anche in altre interlocuzioni."
+> — **Daniele Caporale**, call 11/5 — conferma pacchetto editoriale come richiesta esplicita cliente.
+
+**Performance review interna (sintesi)**:
+- Carlo ha guidato bene la struttura strategica (framework obiettivi → target → percorso → funzionalità → dato → retention) ma ha parlato ~50-60% del tempo (target era ≤30%). Performance trap 8/5 si è ripresentata in forma attenuata.
+- Daniele largamente silente (problemi tecnici + lettura documento in corso). La promessa "Daniele apre il pitch finale" è da rinforzare urgentemente nei prossimi 7 giorni perché la sua poca proattività in call è un campanello.
+- Michele silente, una sola intervento di sostegno al mockup. Coerente con suo ruolo tecnico.
+- Elena ha portato l'insight di valore (5M budget, no profit, mecenatismo, ricerca pedagogica UCL, edTech) — confermato suo ruolo di owner della relazione politica cliente.
+- Carlo gestione correzioni di Elena: bene. Ha accolto, riformulato, non si è difeso. Lezione applicata da coaching 8/5.
+- Decisioni operative chiuse 4/8 (mockup, divisione lavoro, doc tecniche invio, allineamento gio 14/5). Le 4 non chiuse (regia, margine, slide NO, Tiziana, IT) sono parcheggiate ma scivolano se non sblocchiamo gio.
+
+### 2026-05-10 — Fase 3 v5 prep call sintesi operativa (singolo riferimento per Carlo)
+
+Richiesta Carlo: documento conciso e davvero utilizzabile per condurre la call lunedì 11/5 12:00. Vincoli: numero limitato di argomenti, FuturItaly guida sui target (loro asset esclusivo), HeyAI guida su strategia/architettura/output. Output: [[50 - Archive/Inbox/2026-05/2026-05-10 - Prep call 11-5 — guida operativa Carlo|2026-05-10 - Prep call 11-5]] in `00 - Inbox/` — 100 righe, agenda 6 punti (5'+25-30'+10'+10'+10'+5-10'), per ogni punto come intavolarlo (script verbale di apertura) + risultato atteso, tabella esplicita "cosa NON discutere in call" con motivazione e timing, 3 anti-pattern Carlo da rompere (no tesi pre-confezionata, ≤30% tempo parlato, video on), recap WhatsApp modello a fine call, fallback 3 cose minime se call si dilunga (target mapping > regia pitch > modello margine). Diventa il singolo riferimento Carlo per la call — gli altri 4 doc del 10/5 restano come background di approfondimento.
+
+### 2026-05-10 — Fase 3 v4 lettura obiettivi reali del cliente (ricerca pubblica + sintesi strategica)
+
+Domanda Carlo: qual è il vero obiettivo economico/strategico latente di Angelini Academy oltre il piano comunicazione dichiarato, ricavabile da ricerca pubblica? Output: [[50 - Archive/Inbox/2026-05/2026-05-10 - Cosa vuole davvero Angelini Academy|2026-05-10 - Cosa vuole davvero Angelini]]. Ricerca web 10/5/2026 ha consolidato 5 set di fatti verificati: (1) Angelini Industries €1,6 mld fatt 2024, +30% net income, 5.600 dipendenti in 21 paesi, 3 BU (Healthcare 77%, Industrial Tech 14% con Fameccanica ordini +49%, Consumer 9%), Marullo doppio cappello CEO Industries+Pharma da gennaio 2026, lancio Angelini Ventures CVC €300 mln biotech/medtech; (2) Academy fondata 2018, 500+ dipendenti formati 2025 + 10K ore, lancio Gateway con IE Madrid febbraio 2026 (€1 mln per 10 borse), evoluzione SRL autonoma in corso, CEO Morbidelli background HR/talent, logica "open education"; (3) Festival Trento 20-24 maggio 2026 main partner Angelini Pharma, tema "hope of young people", 4 Nobel + 16 ministri = lancio strategico; (4) mercato corporate learning Italia $6,4 mld in crescita +20%, modelli benchmark ENI/Generali; (5) citazioni Marullo+Morbidelli pubbliche su talent come crescita. Sintesi: 4 obiettivi reali latenti rangati per centralità — **talent pipeline life sciences/industrial robotics** (Marullo nomina i 2 settori), **diversificazione revenue mercato corporate learning aperto**, **brand uplift internazionale holding** (50% Pharma + 92% Fameccanica fatturano estero, brand meno noto), **innovation scouting per Ventures + 4 OpCo**. Il sito è "hub di ingresso 4 flussi" (talento giovane / HR buyer corporate / ricercatore-innovatore / media-istituzioni), non "sito di comunicazione". 6 sezioni nuove obbligatorie nel prototipo (Talent Hub, Corporate Clients, Engaged Research Lab, profilo Morbidelli, Insights potenziata, linkage portafoglio Angelini). 4 metriche di successo strategiche (candidature qualificate, lead corporate, deal flow, reach internazionale). Psicologia pitch: la lettura deve essere presentata come **rispecchiamento di fatti pubblici del management cliente**, mai come deduzione nostra, per evitare effetto spionaggio.
+
+### 2026-05-10 — Fase 3 v3 analisi 360° + piano lavoro condiviso
+
+Feedback Carlo su v1+v2: troppo enfasi su "laboratorio editoriale" come tesi totale. Quello è un pezzo, non la strategia. Richiesta: analisi 360° degli obiettivi di comunicazione e del posizionamento cliente, tradotti in strategia web design + content creation (più larga della sola proposta editoriale), che produca prossimi passi operativi per dividere il lavoro con FuturItaly nelle 3 settimane fino al pitch finale, includendo aspetti extra-pitch (economico, contrattuale, governance, cliente, rischi). Prodotto [[50 - Archive/Inbox/2026-05/2026-05-10 - Analisi 360 Angelini e piano lavoro con FuturItaly|2026-05-10 - Analisi 360 Angelini]] in `00 - Inbox/`: 5 parti — (1) analisi 360° del cliente (3 obiettivi comunicazione, posizionamento, digital ecosystem, 6 cluster target → 3 percorsi utente, 3 fili rossi come metadati strategici, calendar 2026); (2) strategia 5-dimensionale (web design / content creation / AI applicata / SEO + bilinguismo / lead gen 4 funnel); (3) divisione lavoro matrice 21 attività × owner con zone grigie; (4) punti extra-pitch (modello economico, contrattuale, governance, interazione cliente, risk management 6 scenari); (5) prossimi passi — 8 decisioni da chiudere lunedì + 10 attività con owner e deadline al 31/5 + output atteso recap scritto post-call. Cheat sheet 11/5 mantenuto come appendice tattica con disclaimer in cima.
+
+### 2026-05-10 — Fase 3 v2 cheat sheet operativo Carlo (ridestinazione)
+
+Feedback Carlo sul docx v1: destinazione errata — non serve un documento per Elena, serve uno **strumento operativo per Carlo** che acceleri la sua capacità di portare la strategia a FuturItaly e testarne l'accordo, con tutte le dinamiche politiche e di performance. Prodotto [[50 - Archive/Inbox/2026-05/2026-05-10 - Cheat sheet call interna Carlo+Daniele+Elena 11-5|2026-05-10 - Cheat sheet call interna]] in `00 - Inbox/` (replica il pattern del cheat sheet 7/5 ma con enfasi su vendita interna): obiettivo call in 1 frase, 3 cose minime, tesi 30 secondi per Carlo, 4 pilastri telegrafici, 5 decisioni con matrici opzioni + raccomandazione + rischi, anticipazione obiezioni Elena/Daniele con risposte, domande per testare accordo, dove cedere/tenere/negoziare, 5 anti-pattern Carlo dalla coaching 8/5, numeri/citazioni chiave, fallback se la call si dilunga. Docx v1 archiviato come fonte secondaria — non eliminato.
+
+### 2026-05-10 — Fase 3 documento docx per Elena
+
+Prodotto [Strategia Pitch Finale per Elena.docx](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/Angelini%20Academy/Strategia%20Pitch%20Finale%20per%20Elena.docx) — versione docx condivisibile con FuturItaly della strategia di Fase 2. Format: A4 Aptos 11pt, palette HeyAI (#074F6A title, #156082 H2), 9 pagine. Struttura: Premessa, Tesi di vincita (1 frase + 60 secondi), Lettura problema cliente (3 fatti + gap), 4 pilastri proposta, Cosa NON proponiamo (tabella 9 voci), Traduzione strategia→sito (tabella 10 righe), Modello economico modulare + 2 modelli margine FuturItaly tabellati, Linkage criteri valutazione, 5 decisioni operative per call lunedì 11/5, Sintesi. Documento di lavoro, non proposta cliente — destinatario Elena+Daniele per allineamento interno. 9 pagine vs target 4-6 (giustificate dalle 4 tabelle decisionali) — Carlo da decidere se accorciare prima di girarlo a Elena.
+
+### 2026-05-10 — Fase 2 strategia pitch finale (framework working HeyAI)
+
+Prodotto framework strategico working in [[Strategia Pitch Finale]] — tesi di vincita: HeyAI non "fa il sito", costruisce un **laboratorio editoriale permanente** che converte la ricerca scientifica Angelini in posizionamento digitale, in due fasi modulari, sui target reali del piano 2026. Quattro pilastri proposta: (1) laboratorio editoriale permanente come differenziale principale, (2) sito modulare su 2 fasi (restyling coerente entro giugno + ristrutturazione completa post-Trento), (3) UNA feature AI strategica (chatbot ricerca scientifica), (4) target mapping serio come prima slide pitch (Insead/Oxford, ISEE/ISPE, biotech, network Tiziana, Alumni Hackathon). Anti-tesi tabellata (9 "no" espliciti) per dimostrare discernimento. Linkage 75% criteri qualità sostanziale (Strategia+Contenuto+Creatività). Modello economico modulare con 2 modelli margine FuturItaly da scegliere lunedì (A markup / B fattura+%). Sei decisioni da chiudere allineamento Carlo+Daniele+Elena 11/5 ore 12:00 (regia pitch, margine, IT tech, laboratorio editoriale, identità "Davide", slide del NO). Documento working interno — diventa spina dorsale di Fase 3 (docx per Elena), Fase 4 (pptx cliente), Fase 5 (prototipo sito).
+
+### 2026-05-10 — Audit pre-Elena (Fase 1 percorso pitch finale)
+
+Avviato percorso strutturato a 5 fasi per il pitch finale (audit → strategia → documento → presentazione → prototipo). Fase 1 completata: prodotto memo di audit consolidato in [[50 - Archive/Inbox/2026-05/2026-05-10 - Audit Angelini pre-Elena|2026-05-10 - Audit Angelini pre-Elena]] che fissa stato dei fatti al 10/5 — cambio scope post-Q&A 8/5, 14 paletti cliente, 4 leve strategiche, 4 punti aperti che la call interna 11/5 12:00 deve chiudere (chi tira la corda IT, regia pitch, margine FuturItaly, laboratorio editoriale come differenziale). Materiale già prodotto mappato come asset riusabili (Analisi Brief, Wireframe, Analisi Narrativa, Domande QA, smoke test HTML, docx domande tecniche v1.1, coaching note 8/5). Nessuna decisione strategica presa in Fase 1 — strategia nasce nella Fase 2.
+
+### 2026-05-08 pomeriggio — Chiarimento perimetro post-Q&A
+
+- **Telefonata Carlo↔Elena**: Elena conferma che **entrambe le fasi restano aperte** nella nostra proposta (restyling rapido + ristrutturazione completa). Il succo dell'offerta sarà sulla ristrutturazione, ma anche il restyling è perimetro proponibile. La fase 1 potrebbe alternativamente restare al fornitore tecnico di gruppo Angelini — la proposta sarà **modulare** per permettere ad Angelini di scegliere.
+- **Audit docx domande tecniche** (file `Angelini_Academy_Domande_tecniche_IT.docx` originale, 23 domande): identificate **8 domande premature** in fase di proposta (A5 staging/credenziali, A6 workflow deploy/CI-CD/repo, B2 certificazioni provider, B3 WAF/anti-DDoS, B5 matrice ruoli/2FA, C3 SharePoint integration, D2 inventario tag GTM, D4 Cookie Management Platform — quest'ultima fuori scope per indicazione esplicita Caterina sulla parte legal/GDPR gestita internamente). Tagliate dalla v1.1.
+- **Prodotta v1.1** del docx domande tecniche: 13 domande con matrice di pertinenza per fase (Fase 1 / Fase 2 / Entrambe), 7 alte + 6 medie. File salvato in `00 - Inbox/2026-05-08 - Angelini Academy - Domande tecniche IT.{md,docx}`. Distribuzione: 7 domande "entrambe le fasi", 6 solo fase 2, 0 solo fase 1.
+- **Bozza email Elena** aggiornata: "Direzione di lavoro" riformulata per dichiarare proposta articolata su due fasi distinte con modularità esplicita ("possiate decidere quali fasi affidarci direttamente e quali far gestire al fornitore in essere"). Bullet "Funzionalità AI" pulito di esempi specifici già bocciati da Caterina (chatbot conversazionale, agente percorsi). Bullet "Domande tecniche" arricchito con menzione esplicita matrice per fase. Email pronta per invio Carlo→Elena con docx v1.1 in allegato.
+- **Da fare prima dell'invio**: rivedere il docx aperto in Word per verificare rendering tabella matrice, decidere firma email (congiunta Carlo+Elena vs solo Carlo), eventualmente generare PDF accompagnatorio.
+
+### 2026-05-08 mattina — Q&A call cliente svolta (cambio scope strategico)
+
+**Call partecipanti**: Carlo + Daniele Caporale + Elena Chiti + Caterina Caboni + Michele Mattucci + "Davide" (TBD identità — possibile typo per Daniele, oppure altra risorsa FuturItaly da chiarire). Cliente single point: Caterina. Non in call: Tiziana Carnicelli.
+
+**Cambio scope strategico (singola informazione che ribalta >50% delle ipotesi pre-call)**: il sito non è più "ristrutturazione completa" ma **restyling rapido entro giugno** per allinearsi al lancio comunicazione in atto + **ristrutturazione completa in fase 2**. Caterina: "essere coerente, non rifare tutto adesso". L'architettura della fase 1 va già pensata per accogliere la fase 2.
+
+**Decisioni cliente prese in call**:
+- E-commerce: NON nel 2026, ma architettura predisposta + oscurata, accendibile fase 2. Proposta deve includere **due opzioni** (custom integrato vs gateway separato) con pro/contro.
+- Eventi: NO area pubblica (80-90% interni); eventualmente area riservata oscurabile in futuro.
+- MBA candidature: form sì, ma dimensionato sui volumi reali (**45 candidati max post-screening IE Madrid** — Caterina: "tienete conto della dimensione"). Calcolatore borse semplificato a singolo parametro reddito (Caterina: "talmente semplice, non la farei più complicata").
+- AI bocciate per ora (chatbot conversazionale + agente percorsi + calcolatore complesso → 3 NO consecutivi in 4 minuti). Caterina: "di frontiera per noi", "ho paura di un boomerang". Resta spazio per **una sola feature AI** ben dimensionata (chatbot ricerca scientifica) — non di più.
+- Brand book 2024 confermato, logo invariato, no rebranding.
+- Bilinguismo IT/EN mantenuto (analisi SEO consulenziale lato HeyAI).
+- Library foto: usate quelle autorizzate già sul sito (no library strutturata).
+- Copywriting e contenuti: HeyAI nel perimetro proposta.
+- Sviluppo tecnico: oggi è agenzia IT del gruppo Angelini con economie di scala — **Caterina apre a valutare proposte alternative se interessanti** (verifica con IT da fare). Spazio possibile.
+- Fili rossi del brief: NON tassonomia editoriale ma concetti di posizionamento — Caterina ha smontato la lettura di Michele ("sono gli obiettivi della nostra comunicazione, non fatevi vincolare").
+- Approccio richiesto: strategia prima, effetti speciali dopo. Caterina ha esplicitamente bocciato "il full optional con i video". Vuole vedere come **la loro strategia già definita** si traduce nell'architettura sito — non nuova analisi strategica.
+- Tempistiche: 3 settimane per concept proposta, **entro fine maggio**, stesso tempo dato alle altre agenzie.
+- Budget: nessun paletto. Proposta modulare per scaglioni.
+
+**Punto delicato dal debrief Elena**: "comunicazione su ricerca pedagogica / laboratorio editoriale permanente" (concordata Elena↔Tiziana) NON è venuta fuori in call per confusione di Caterina sui contenuti (ha 2 fornitori già attivi: agenzia tecnica gruppo + creator content esterno). Strategia: **pacchetto congiunto sito + editorial pedagogico** da riproporre **al pitch finale** come differenziale forte, NON al Q&A.
+
+**Margine FuturItaly**: Elena chiede esplicitamente che la proposta HeyAI permetta a FuturItaly di marginare. Da dimensionare nel pricing fin dall'inizio (markup HeyAI→FuturItaly→Angelini vs fattura separata + % commercializzazione). Da chiarire lunedì 11/5.
+
+**4 leve strategiche per pitch finale (entro fine maggio)**:
+1. **Target mapping serio** — istituti accademici di ricerca tipo Insead/Oxford già attivi su pedagogia, studenti ISEE/ISPE per borse MBA, mercato Angelini esteso (biotech, non solo farma), ricercatori internazionali del network di Tiziana. Costruire con Elena nei prossimi giorni come deliverable pre-pitch (NON al pitch). **Prima slide del pitch finale**.
+2. **Laboratorio editoriale permanente** (ricerca + content creator + AI per fruibilità) come differenziale forte: HeyAI non è "agenzia che fa il sito" ma **infrastruttura editoriale-tecnica che converte la ricerca in posizionamento**. Da riproporre al pitch finale, da rimettere a terra lunedì 11/5 con Daniele.
+3. **A/B test target-based sul sito** ("modulo intelligenza editoriale" che varia contenuti/CTA per cluster target — UTM da campagna LinkedIn, segmento Roadshow, etc.). Prova di concretezza dell'AI applicata al loro contesto.
+4. **Pricing modulare con margine FuturItaly esplicito** — flusso economico dichiarato apertamente. Da chiudere lunedì 11/5 con Daniele+Elena.
+
+**Performance review HeyAI/Carlo (commit consensual: pending — sessione chiusa con "Pronto a committare appena mi dai ok")**:
+- Voto sintetico: Carlo 6.5/10, HeyAI team 6/10. "Avete tenuto la stanza, non avete brillato. Caterina vi sta valutando, non vi ha né scelto né scartato".
+- 5 pattern Carlo da migliorare: (1) apertura con tesi pre-confezionata invece di testare la richiesta; (2) tre NO AI consecutivi in 4 minuti; (3) sovrastima dimensionamenti (10x il volume reale MBA); (4) video off in pitch competitivo; (5) Carlo ha portato avanti la maggior parte delle domande, Daniele rimasto in sfondo, FuturItaly come capofila quasi sparito.
+- 3 lezioni operative pitch finale: arrivare con domande non con tesi; AI come leva strategica non shopping list (UNA feature ben dimensionata); ricalibrare rapporto Carlo/Daniele/Elena (Carlo target ≤30% tempo parlato vs ~70% in call 8/5).
+
+**Posizioni del rapporto cliente**: Caterina è single point of contact lato cliente fase gara — non bypassare. Elena è single point of contact verso Caterina — non bypassare nemmeno tu. In pitch finale Daniele apre con regia strategica, Carlo subentra solo sul tecnico-sito quando chiamato in causa.
+
+**Bozza email Elena pronta in chat**: cover breve per Elena + summary scritto in modo da poter essere copiato/inoltrato a Caterina così com'è. Non ancora inviata — Carlo decide firma (congiunto Carlo+Elena vs solo Carlo) e timing (subito vs dopo allineamento lunedì 11/5).
+
+### 2026-05-07
+- **Cambio di metodo (post-call Carlo+Michele 7/5)**: si abbandona il piano mockup Figma di Michele a favore dello **smoke test Claude Code / sito vero pre-pitch**. Trascrizione della call passata in chat 7/5. Conseguenze: 3 task annullati (Michele produce mockup mercoledì 6/5, Review congiunta mercoledì sera, Rifinitura giovedì 7/5). I 4 deliverable di Carlo (Wireframe, Analisi Narrativa Short, Domande QA, brief PDF) sono comunque stati girati a Michele come input.
+- **Conferma a Elena Chiti video call 7/5 16:30**: confermata da Carlo (gestita in chat 7/5).
+- **Allineamento Carlo+Michele su dimensionamento ore**: chiuso (conferma Carlo).
+- **Batch reconciliation (conferma Carlo chat 7/5)**: 4 task chiusi, 3 annullati per cambio di metodo.
+
+### 2026-05-06
+- **Sessione Cowork `local_24e7ed38`**: valutato bivio tra mockup Figma di Michele e sito React vero generato con stack Claude Code + UI/UX Pro Max + 21st.dev Magic + Framer Motion. Decisione: smoke test stasera, scelta strategica giovedì 7/5 sera prima del kickoff con Michele. Costo paid 21st.dev: $20/mese (free 5 gen/mese non basta).
+- **Sessione Cowork `local_d92e3457`**: prodotto HTML standalone full-width responsive [Angelini Academy - Smoke test homepage.html](computer:///Users/carlosanvoisin/claude/80%20-%20Sources/Files/Angelini%20Academy/Smoke%20test%20homepage.html) come primo output del metodo "sito vero pre-pitch".
+- **Sessione Cowork `local_7be9828b`**: aggiornato Q&A docx — A3 bilinguismo ribaltata (sito esistente già bilingue IT/EN, domanda diventa "manteniamo entrambe le lingue al lancio della nuova SRL?"), C5 nuova su programmi OpCo (Pharma/Tech/Ventures/Fater) pubblicabili o riservati, note rinumerate 9→10. Output: [Angelini_Academy_QA_preparatorio_8_maggio.docx](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/Angelini%20Academy/Angelini_Academy_QA_preparatorio_8_maggio.docx) + allineata versione `.md`.
+- **Sessione Cowork `local_b6619223`**: applicato prompt unico che inglobava i 4 prompt incrementali precedenti + modifica 5 (bilinguismo). Edit additivi su 4 file: Wireframe (4 punti), Analisi Narrativa (3 punti), Domande QA (2 punti), Brief Mockup (1 punto).
+- **Decisioni nuove**: smoke test Claude Code da fare stasera/domani; review congiunta con Michele giovedì 7/5 sera; opzione strategica A/B/C da scegliere prima del pitch venerdì 8/5.
+
+### 2026-05-05
+- **Mattina**: Elena Chiti chiama Carlo (trascrizione `elena chini update.txt`) per aggiornarlo sull'incontro di persona avuto con Angelini. Emergono: tensioni interne lato cliente (management pro-FuturItaly vs ufficio acquisti ostile), ritiro del primo fornitore HeyAI per il design, gara originale formalmente chiusa ma **gara ancora attiva** in modalità informale, brief di gara pieno (37 slide PDF) condiviso con Carlo, conferma che il cliente è aperto al metodo HeyAI mockup-navigabile.
+- **Pomeriggio**: Carlo legge il brief integrale "Academy Evolution_Comm briefing.pdf". Lettura strutturata in [[Analisi Brief]].
+- **Sera (call con Michele Mattucci)**: allineamento operativo. Confermata la divisione del lavoro: Carlo produce i 4 deliverable (wireframe + analisi narrativa + domande Q&A + brief originale cliente) entro stasera; Michele lavora al mockup navigabile mercoledì 6/5; review congiunta mercoledì sera; rifinitura giovedì; pitch venerdì mattina. Michele non in call venerdì, interviene in fase tecnica post-pitch.
+- **Decisioni prese**:
+  - Carlo partecipa al pitch
+  - Posizionamento HeyAI: focus sul sito (rifacimento, opzione B), porta aperta diplomatica sulle altre attività
+  - In call lascia gestire a FuturItaly, interviene sui temi sito
+  - Si porta mockup navigabile come prova di esecuzione
+  - Si chiede brand book + video AA via email a Elena
+- **Output prodotti**: [[Analisi Brief]] · [[Domande QA]] · email Elena (inviata da Carlo) · recap WhatsApp a Michele
+- Schede stakeholder aggiornate: [[Marco Morbidelli]] aggiunto come CEO Angelini Academy
+- **Sera tardi (5/5)**: prodotti gli altri due deliverable ([[Wireframe e Architettura]] con architettura informativa, sitemap, schede pagine, wireframe testuali low-fi delle 5 pagine prioritarie, mappatura sito↔piano comunicazione 2026, sette raccomandazioni progettuali; [[Analisi Narrativa]] versione lunga + [[Analisi Narrativa Short]] versione operativa per Michele). Aggiunto al Wireframe il §0 "Punto di partenza — sito esistente" dopo verifica diretta di `angeliniacademy.com` via WebSearch (sito già bilingue IT/EN nativo, struttura più articolata di quanto dichiarato in slide 24, asset riusabili: Future Leaders Program, AngeliniNextGeneration, Master Business and People Management Istud, Mentoring LUISS BS, Essential Toolkit, ~1.200 partecipanti/anno). Applicate cinque modifiche concordate (claim hero brief slide 8, menu primario a 6 voci con dropdown "L'Academy", pilastro 2 vetrina pubblica con domanda C5 P2 in [[Domande QA]], calcolatore borse come simulazione UI nel mockup con valori statici, riformulazione A3 bilinguismo). Audit cross-file completato: corretti riferimento incrociato Brief Mockup→Domande QA, rimossa frase "almeno tre anni di esperienza" non confermata dal brief, sostituito "8 partner accademici" con formula non ambigua, allineata Analisi Narrativa Short alla decisione hero (homepage non più "asse azione puro" ma doppia anima), uniformato "#FuoriFestival", normalizzato `Angelini Academy S.p.A.` → `Angelini Academy` (è in costituzione come SRL autonoma, non è già una S.p.A.) in tutti gli 8 file di progetto + 4 schede persona (Morbidelli, Caboni, Carnicelli, Chiti).
+
+### Eventi precedenti del 5/5
+- Elena Chiti gira a Carlo l'invito Teams per Q&A brief/sito Academy fissato venerdì 8 maggio mattina.
+- Forward del thread con Caboni: brief di gara accessibile via link SharePoint.
+
+### 2026-05-04
+- Daniele Caporale (FuturItaly) chiede a Caterina Caboni il brief in anticipo per ottimizzare il Q&A. Caboni risponde inviando link SharePoint con tutto il materiale di gara.
+
+### 2026-04-09
+- Call Carlo + Elena Chiti: condiviso il contesto cliente, validate le 3 opzioni di prezzo come strumento di vendita interna di Elena. Carlo ha spiegato perché spacchettare progettazione e sviluppo è economicamente svantaggioso.
+- Email follow-up di Carlo a Elena con il documento 3 opzioni A/B/C come supporto alla riunione di Elena con la referente cliente.
+
+### 2026-04-07
+- Elena Chiti propone call vocale per chiarire le domande di Carlo sulla "corporate presentation" (intesa come pitch o come documento di lavoro?).
+
+### 2026-04-03
+- **Lavinia Ferrari** introduce la richiesta a Carlo via email, in CC Elena Chiti come Key Account del cliente. Brief: "PROGETTAZIONE ARCHITETTURA SITO CON DOCUMENTO DI PRESENTAZIONE ISTITUZIONALE" (corporate presentation 15-20 slide + UX/IA/Wireframe, no UI).
+- Carlo risponde lo stesso giorno con domande di chiarimento + proposta del metodo HeyAI (mockup navigabile invece di wireframe) + allegato preventivo. CC Michele Mattucci.

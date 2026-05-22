@@ -1,0 +1,1 @@
+python3 /mnt/skills/public/docx/scripts/office/validate.py /home/claude/Brief_Avvocato_Wave2_Noloop_v3.docx 2>&1 && cp /home/claude/Brief_Avvocato_Wave2_Noloop_v3.docx /mnt/user-data/outputs/Brief_Avvocato_Wave2_Noloop_v3.docx

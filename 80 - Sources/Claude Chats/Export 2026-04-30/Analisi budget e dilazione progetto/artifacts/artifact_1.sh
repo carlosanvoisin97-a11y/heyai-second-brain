@@ -1,0 +1,1 @@
+cp /home/claude/gantt_v3.png /mnt/user-data/outputs/Figura3_Gantt_Roadmap_v3.png

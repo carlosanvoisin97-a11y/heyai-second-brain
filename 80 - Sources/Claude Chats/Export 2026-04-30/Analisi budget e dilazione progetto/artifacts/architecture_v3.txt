@@ -1,0 +1,288 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100" width="1600" height="1100">
+  <defs>
+    <filter id="shadow" x="-3%" y="-3%" width="106%" height="108%">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#1E2A3A" flood-opacity="0.07"/>
+    </filter>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E2A3A"/>
+      <stop offset="100%" stop-color="#2A3F55"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2E75B6"/>
+      <stop offset="100%" stop-color="#3A8BD4"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B7A6D"/>
+      <stop offset="100%" stop-color="#2BA08F"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1E2A3A" opacity="0.55"/>
+    </marker>
+    <marker id="arrBlue" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2E75B6" opacity="0.5"/>
+    </marker>
+    <marker id="arrGray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#999999" opacity="0.5"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="1100" fill="white"/>
+
+  <!-- Title -->
+  <text x="800" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" fill="#1E2A3A">Architettura Ecosistema Noloop — Come Parlano gli Applicativi</text>
+  <text x="800" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#666666">Ogni dato ha una casa. Gli altri applicativi lo leggono, non lo duplicano.</text>
+
+  <!-- ============================================ -->
+  <!-- SALLY — Transversal layer (top banner) -->
+  <!-- ============================================ -->
+  <rect x="60" y="88" width="1480" height="56" rx="10" fill="url(#tealGrad)" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="92" cy="116" r="16" fill="white" opacity="0.25"/>
+  <text x="92" y="121" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white">S</text>
+  <text x="118" y="110" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="white">Sally — Layer AI Trasversale</text>
+  <text x="118" y="130" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="white" opacity="0.85">Legge da tutti gli applicativi, scrive su nessuno. Knowledge base procedure, NLP in-app, compilazione documenti.</text>
+
+  <!-- ============================================ -->
+  <!-- INPUT SOURCES -->
+  <!-- ============================================ -->
+  <text x="80" y="178" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#888888" letter-spacing="2">INPUT</text>
+
+  <rect x="60" y="192" width="100" height="32" rx="6" fill="white" stroke="#CCCCCC" stroke-width="1.2"/>
+  <text x="110" y="213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#555555">Call</text>
+
+  <rect x="174" y="192" width="100" height="32" rx="6" fill="white" stroke="#CCCCCC" stroke-width="1.2"/>
+  <text x="224" y="213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#555555">Email</text>
+
+  <rect x="288" y="192" width="115" height="32" rx="6" fill="white" stroke="#CCCCCC" stroke-width="1.2"/>
+  <text x="345" y="213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#555555">Note vocali</text>
+
+  <rect x="417" y="192" width="100" height="32" rx="6" fill="white" stroke="#CCCCCC" stroke-width="1.2"/>
+  <text x="467" y="213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#555555">Brief</text>
+
+  <rect x="531" y="192" width="115" height="32" rx="6" fill="white" stroke="#CCCCCC" stroke-width="1.2"/>
+  <text x="588" y="213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#555555">Transcript</text>
+
+  <rect x="660" y="192" width="100" height="32" rx="6" fill="white" stroke="#CCCCCC" stroke-width="1.2"/>
+  <text x="710" y="213" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#555555">Foto / file</text>
+
+  <!-- Arrows from inputs to Minutes -->
+  <path d="M400,224 L400,256" stroke="#999" stroke-width="1.5" fill="none" marker-end="url(#arrGray)"/>
+
+  <!-- ============================================ -->
+  <!-- MINUTES — Central router -->
+  <!-- ============================================ -->
+  <rect x="220" y="260" width="480" height="60" rx="10" fill="url(#blueGrad)" filter="url(#shadow)"/>
+  <text x="460" y="286" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="white">Minutes</text>
+  <text x="460" y="306" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="white" opacity="0.85">Raccoglie · Trascrive · Analizza · Estrae e categorizza → smista ai moduli</text>
+
+  <!-- Arrows from Minutes to LeadMe and Link -->
+  <path d="M340,320 L240,380" stroke="#1E2A3A" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <text x="265" y="350" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1E2A3A" font-weight="bold">Task commerciali</text>
+  <text x="265" y="363" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">+ dati contatto</text>
+
+  <path d="M580,320 L900,380" stroke="#1E2A3A" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <text x="750" y="350" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#1E2A3A" font-weight="bold">Dati COM + task operativi</text>
+  <text x="750" y="363" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">(budget, cliente, date, logistica)</text>
+
+  <!-- ============================================ -->
+  <!-- LEADME — Mondo Commerciale (left) -->
+  <!-- ============================================ -->
+  <rect x="60" y="390" width="640" height="430" rx="14" fill="white" stroke="#2E75B6" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <rect x="60" y="390" width="640" height="50" rx="14" fill="url(#blueGrad)"/>
+  <rect x="60" y="420" width="640" height="20" fill="url(#blueGrad)"/>
+  <text x="380" y="422" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="white">LeadMe — Mondo Commerciale</text>
+
+  <!-- Subtitle -->
+  <text x="380" y="462" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#555555">L'account lavora qui · Possiede: contatti, aziende, pipeline, relazione</text>
+
+  <!-- POSSIEDE badge -->
+  <rect x="80" y="480" width="82" height="22" rx="4" fill="#2E75B6"/>
+  <text x="121" y="495" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="white">POSSIEDE</text>
+
+  <!-- Pipeline NB -->
+  <rect x="85" y="510" width="590" height="52" rx="8" fill="#F0F6FA" stroke="#D5E8F0" stroke-width="1"/>
+  <text x="380" y="532" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Pipeline New Business</text>
+  <text x="380" y="550" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">Prospect → Primo contatto → Follow-up → Incontro → Brief/Gara → Chiuso</text>
+
+  <!-- Pipeline Clienti -->
+  <rect x="85" y="572" width="590" height="52" rx="8" fill="#F0F6FA" stroke="#D5E8F0" stroke-width="1"/>
+  <text x="380" y="594" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Pipeline Clienti</text>
+  <text x="380" y="612" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">Attivo → Fermo → Inattivo → Da riattivare · Referenti · Alias · Storico commesse</text>
+
+  <!-- Attività commerciali + Task -->
+  <rect x="85" y="634" width="590" height="52" rx="8" fill="#F0F6FA" stroke="#D5E8F0" stroke-width="1"/>
+  <text x="380" y="656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Attività commerciali + Task per commessa</text>
+  <text x="380" y="674" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">Kanban task · Follow-up · Semafori · Alert · Calendario · Input da Minutes</text>
+
+  <!-- LEGGE badge -->
+  <rect x="80" y="700" width="62" height="22" rx="4" fill="#E8E8E8"/>
+  <text x="111" y="715" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#666666">LEGGE</text>
+
+  <!-- Vista commesse da Link -->
+  <rect x="85" y="730" width="590" height="40" rx="8" fill="white" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="380" y="750" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#888888">Vista commesse da Link (budget, avanzamento, fatturato — dati letti, NON duplicati)</text>
+
+  <!-- Dashboard -->
+  <rect x="85" y="778" width="590" height="32" rx="8" fill="#F0F6FA" stroke="#D5E8F0" stroke-width="1"/>
+  <text x="380" y="800" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#1E2A3A">Dashboard Direzione — Pipeline NB + Clienti</text>
+
+  <!-- ============================================ -->
+  <!-- LINK — Mondo Operativo (right) -->
+  <!-- ============================================ -->
+  <rect x="760" y="390" width="780" height="430" rx="14" fill="white" stroke="#1E2A3A" stroke-width="2" filter="url(#shadow)"/>
+
+  <!-- Header -->
+  <rect x="760" y="390" width="780" height="50" rx="14" fill="url(#navyGrad)"/>
+  <rect x="760" y="420" width="780" height="20" fill="url(#navyGrad)"/>
+  <text x="1150" y="422" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" fill="white">Link — Mondo Operativo</text>
+
+  <!-- Subtitle -->
+  <text x="1150" y="462" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#555555">L'operativo e la direzione lavorano qui · Possiede: commesse, budget, PDP, fatture</text>
+
+  <!-- POSSIEDE badge -->
+  <rect x="780" y="480" width="82" height="22" rx="4" fill="#1E2A3A"/>
+  <text x="821" y="495" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="white">POSSIEDE</text>
+
+  <!-- Commesse -->
+  <rect x="785" y="510" width="730" height="42" rx="8" fill="#F0F4F8" stroke="#D5DEE8" stroke-width="1"/>
+  <text x="1150" y="530" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Commesse + apertura COM</text>
+  <text x="1150" y="544" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">Gatekeeper → Resp. Controllo conferma → push BC · Gestione gare</text>
+
+  <!-- Budget -->
+  <rect x="785" y="560" width="730" height="42" rx="8" fill="#F0F4F8" stroke="#D5DEE8" stroke-width="1"/>
+  <text x="1150" y="580" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Budget a 3 stadi + snapshot</text>
+  <text x="1150" y="594" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">In gara → Pre-chiusura → Consuntivo · Approvazione gate Garbarino</text>
+
+  <!-- PDP -->
+  <rect x="785" y="610" width="730" height="42" rx="8" fill="#F0F4F8" stroke="#D5DEE8" stroke-width="1"/>
+  <text x="1150" y="630" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">PDP + task operativi (via Flow)</text>
+  <text x="1150" y="644" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">Template fatture · Upload contratti · Estrazione scadenze · Kanban/Gantt operativo</text>
+
+  <!-- Quadratura -->
+  <rect x="785" y="660" width="730" height="42" rx="8" fill="#F0F4F8" stroke="#D5DEE8" stroke-width="1"/>
+  <text x="1150" y="680" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Quadratura + blocco chiusura</text>
+  <text x="1150" y="694" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">Cross-check fatture · Workflow approvazioni BC · Fatt. attiva e passiva</text>
+
+  <!-- Progress Dashboard (highlighted) -->
+  <rect x="785" y="710" width="730" height="42" rx="8" fill="#E8F0F8" stroke="#2E75B6" stroke-width="1.5"/>
+  <text x="1150" y="730" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Progress digitale (Dashboard Garbarino)</text>
+  <text x="1150" y="744" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#666666">Status per BU · Margini · Previsto vs consuntivo · Carichi di lavoro</text>
+
+  <!-- LEGGE badge -->
+  <rect x="780" y="764" width="62" height="22" rx="4" fill="#E8E8E8"/>
+  <text x="811" y="779" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#666666">LEGGE</text>
+
+  <!-- Vista da LeadMe -->
+  <rect x="785" y="794" width="730" height="32" rx="8" fill="white" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="5,3"/>
+  <text x="1150" y="815" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#888888">Dati cliente/contatto da LeadMe (commerciale, stato relazione, settore — letti, NON duplicati)</text>
+
+  <!-- ============================================ -->
+  <!-- BIDIRECTIONAL ARROWS LeadMe ↔ Link -->
+  <!-- ============================================ -->
+  <!-- LeadMe → Link: Apertura COM -->
+  <path d="M700,560 L760,560" stroke="#1E2A3A" stroke-width="2" fill="none" marker-end="url(#arr)"/>
+  <rect x="708" y="540" width="45" height="15" rx="2" fill="white"/>
+  <text x="730" y="551" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A" font-weight="bold">COM →</text>
+
+  <!-- Link → LeadMe: Status COM (read-only, dashed) -->
+  <path d="M760,700 L700,700" stroke="#999999" stroke-width="1.5" stroke-dasharray="5,3" fill="none" marker-end="url(#arrGray)"/>
+  <rect x="705" y="685" width="55" height="14" rx="2" fill="white"/>
+  <text x="730" y="696" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#888888">← status</text>
+
+  <!-- ============================================ -->
+  <!-- ONSITE + CROWD (bottom left, compact) -->
+  <!-- ============================================ -->
+  <rect x="60" y="852" width="300" height="56" rx="10" fill="white" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="60" y="852" width="300" height="28" rx="10" fill="url(#blueGrad)"/>
+  <rect x="60" y="868" width="300" height="12" fill="url(#blueGrad)"/>
+  <text x="210" y="873" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white">OnSite — App Partecipanti</text>
+  <text x="210" y="896" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#666666">Assistenza evento · Feedback · Networking</text>
+
+  <rect x="390" y="852" width="310" height="56" rx="10" fill="white" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="390" y="852" width="310" height="28" rx="10" fill="url(#blueGrad)"/>
+  <rect x="390" y="868" width="310" height="12" fill="url(#blueGrad)"/>
+  <text x="545" y="873" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white">Crowd — Gestione Eventi</text>
+  <text x="545" y="896" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#666666">Registrazioni · Comunicazioni · Incassi integrati</text>
+
+  <!-- OnSite ↔ Crowd connection -->
+  <path d="M360,880 L390,880" stroke="#2E75B6" stroke-width="1.2" fill="none" stroke-dasharray="4,3"/>
+
+  <!-- Crowd → Link connection -->
+  <path d="M700,875 L780,875 L780,830 L900,830" stroke="#1E2A3A" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+  <text x="810" y="848" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A">dati evento</text>
+
+  <!-- ============================================ -->
+  <!-- FLOW (between LeadMe/Link and BC) -->
+  <!-- ============================================ -->
+  <rect x="760" y="852" width="300" height="56" rx="10" fill="white" stroke="#1E2A3A" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="760" y="852" width="300" height="28" rx="10" fill="url(#navyGrad)"/>
+  <rect x="760" y="868" width="300" height="12" fill="url(#navyGrad)"/>
+  <text x="910" y="873" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white">Flow — Orchestratore</text>
+  <text x="910" y="896" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#666666">Task da Minutes → Link · Coordinamento reparti</text>
+
+  <!-- Flow → Link -->
+  <path d="M910,852 L910,830 L1000,830" stroke="#1E2A3A" stroke-width="1.5" fill="none" stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <text x="958" y="843" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A">dati PDP</text>
+
+  <!-- ============================================ -->
+  <!-- VENUE FINDER (top right, compact) -->
+  <!-- ============================================ -->
+  <rect x="820" y="260" width="280" height="60" rx="10" fill="white" stroke="#2E75B6" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="820" y="260" width="280" height="28" rx="10" fill="url(#blueGrad)"/>
+  <rect x="820" y="278" width="280" height="10" fill="url(#blueGrad)"/>
+  <text x="960" y="282" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="white">Venue Finder Evolution</text>
+  <text x="960" y="306" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#666666">Scouting location · Presentazioni automatiche</text>
+
+  <!-- ============================================ -->
+  <!-- BUSINESS CENTRAL (bottom) -->
+  <!-- ============================================ -->
+  <rect x="1120" y="852" width="420" height="56" rx="10" fill="url(#navyGrad)" filter="url(#shadow)"/>
+  <text x="1330" y="878" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" fill="white">Microsoft Business Central</text>
+  <text x="1330" y="896" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10.5" fill="#D5E8F0">Contabilità · Fatturazione · Cash flow</text>
+
+  <!-- Link ↔ BC -->
+  <path d="M1200,820 L1200,852" stroke="#1E2A3A" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <path d="M1230,852 L1230,820" stroke="#1E2A3A" stroke-width="2.5" fill="none" marker-end="url(#arr)"/>
+  <rect x="1240" y="828" width="72" height="16" rx="3" fill="white" stroke="#1E2A3A" stroke-width="0.8"/>
+  <text x="1276" y="840" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A" font-weight="bold">API sync ↕</text>
+
+  <!-- ============================================ -->
+  <!-- Sally dashed read lines to both worlds -->
+  <!-- ============================================ -->
+  <path d="M200,144 L200,390" stroke="#1B7A6D" stroke-width="1.2" stroke-dasharray="3,4" fill="none" opacity="0.3"/>
+  <path d="M1100,144 L1100,390" stroke="#1B7A6D" stroke-width="1.2" stroke-dasharray="3,4" fill="none" opacity="0.3"/>
+
+  <!-- ============================================ -->
+  <!-- LEGEND -->
+  <!-- ============================================ -->
+  <rect x="60" y="940" width="1480" height="60" rx="8" fill="#FAFBFC" stroke="#E8E8E8" stroke-width="1"/>
+
+  <line x1="90" y1="970" x2="130" y2="970" stroke="#1E2A3A" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="142" y="975" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Flusso dati (scrittura)</text>
+
+  <line x1="320" y1="970" x2="360" y2="970" stroke="#999" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrGray)"/>
+  <text x="372" y="975" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Lettura dati (read-only)</text>
+
+  <line x1="560" y1="970" x2="600" y2="970" stroke="#1B7A6D" stroke-width="1.2" stroke-dasharray="3,4" opacity="0.4"/>
+  <text x="612" y="975" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Sally legge</text>
+
+  <rect x="730" y="960" width="72" height="20" rx="4" fill="#2E75B6"/>
+  <text x="766" y="974" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="white">POSSIEDE</text>
+  <text x="816" y="975" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Il modulo è owner dei dati</text>
+
+  <rect x="1010" y="960" width="52" height="20" rx="4" fill="#E8E8E8"/>
+  <text x="1036" y="974" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" fill="#666666">LEGGE</text>
+  <text x="1076" y="975" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Dati letti da altro modulo, mai duplicati</text>
+
+  <!-- Dashed box = finestra -->
+  <rect x="1330" y="960" width="40" height="20" rx="4" fill="white" stroke="#CCCCCC" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="1384" y="975" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Finestra su altro applicativo</text>
+
+  <!-- ============================================ -->
+  <!-- KEY PRINCIPLE (bottom) -->
+  <!-- ============================================ -->
+  <text x="800" y="1040" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#1E2A3A">LeadMe possiede il mondo commerciale. Link possiede il mondo operativo. Sally legge da tutti senza possedere nulla.</text>
+  <text x="800" y="1062" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#888888">Nessun dato duplicato tra i sistemi. Ogni informazione ha una sola fonte di verità.</text>
+
+</svg>

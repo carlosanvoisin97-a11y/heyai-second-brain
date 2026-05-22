@@ -1,0 +1,25 @@
+:root {
+  /* Dark theme matching existing slide */
+  --color-surface: #111111;
+  --color-surface-foreground: #ffffff;
+  
+  /* Accent colors - violet/purple */
+  --color-primary: #A855F7;
+  --color-primary-foreground: #ffffff;
+  
+  /* Secondary - muted */
+  --color-secondary: #1a1a1a;
+  --color-secondary-foreground: #e5e5e5;
+  
+  --color-muted: #262626;
+  --color-muted-foreground: #a1a1a1;
+  
+  --color-accent: #A855F7;
+  --color-accent-foreground: #ffffff;
+  
+  --color-border: #333333;
+  
+  /* Typography */
+  --font-family-display: Arial, sans-serif;
+  --font-family-content: Arial, sans-serif;
+}

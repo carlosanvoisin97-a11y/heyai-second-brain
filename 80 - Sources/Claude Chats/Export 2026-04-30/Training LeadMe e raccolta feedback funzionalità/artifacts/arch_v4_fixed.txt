@@ -1,0 +1,181 @@
+<svg width="100%" viewBox="0 0 900 920" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, 'Segoe UI', sans-serif;">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M2 1.5L8 5L2 8.5" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round"/>
+  </marker>
+</defs>
+
+<rect width="900" height="920" fill="#FAFAF8"/>
+
+<!-- Title -->
+<text x="450" y="30" text-anchor="middle" font-size="18" font-weight="600" fill="#1a1a1a">Architettura Ecosistema Noloop — Proposta</text>
+<text x="450" y="48" text-anchor="middle" font-size="11" fill="#8C8C8A">3 applicativi + 1 layer AI trasversale · Nessun applicativo Flow separato</text>
+
+<!-- SALLY layer -->
+<rect x="20" y="62" width="860" height="40" rx="20" fill="#F5F0FF" stroke="#7C6BC4" stroke-width="0.7" stroke-dasharray="4 3"/>
+<circle cx="42" cy="82" r="11" fill="#7C6BC4"/>
+<text x="42" y="82" text-anchor="middle" dominant-baseline="central" font-size="9" font-weight="600" fill="white">S</text>
+<text x="60" y="78" font-size="11" font-weight="600" fill="#4C3D99">Sally — Layer AI trasversale</text>
+<text x="60" y="92" font-size="9" fill="#7C6BC4">KB procedure · Notifiche proattive · Supporto in-app in ogni modulo · Compilazione documenti · Portali fornitori</text>
+
+<!-- INPUT label -->
+<text x="30" y="126" font-size="9" font-weight="600" fill="#8C8C8A" letter-spacing="1">INPUT</text>
+
+<!-- Input boxes -->
+<rect x="30" y="136" width="82" height="30" rx="6" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="71" y="151" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#5F5E5A">Call / meeting</text>
+
+<rect x="120" y="136" width="70" height="30" rx="6" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="155" y="151" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#5F5E5A">Email</text>
+
+<rect x="198" y="136" width="80" height="30" rx="6" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="238" y="151" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#5F5E5A">Note vocali</text>
+
+<rect x="286" y="136" width="82" height="30" rx="6" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="327" y="151" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#5F5E5A">Brief cliente</text>
+
+<rect x="376" y="136" width="100" height="30" rx="6" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="426" y="151" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#5F5E5A">Teams transcript</text>
+
+<rect x="484" y="136" width="72" height="30" rx="6" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="520" y="151" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#5F5E5A">Foto / file</text>
+
+<rect x="564" y="136" width="90" height="30" rx="6" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="609" y="151" text-anchor="middle" dominant-baseline="central" font-size="9" fill="#5F5E5A">Appunti liberi</text>
+
+<!-- Arrows to Minutes -->
+<line x1="71" y1="166" x2="280" y2="196" stroke="#9C9B97" stroke-width="0.8" marker-end="url(#arr)"/>
+<line x1="155" y1="166" x2="310" y2="196" stroke="#9C9B97" stroke-width="0.8" marker-end="url(#arr)"/>
+<line x1="238" y1="166" x2="340" y2="196" stroke="#9C9B97" stroke-width="0.8" marker-end="url(#arr)"/>
+<line x1="327" y1="166" x2="370" y2="196" stroke="#9C9B97" stroke-width="0.8" marker-end="url(#arr)"/>
+<line x1="426" y1="166" x2="400" y2="196" stroke="#9C9B97" stroke-width="0.8" marker-end="url(#arr)"/>
+<line x1="520" y1="166" x2="430" y2="196" stroke="#9C9B97" stroke-width="0.8" marker-end="url(#arr)"/>
+<line x1="609" y1="166" x2="460" y2="196" stroke="#9C9B97" stroke-width="0.8" marker-end="url(#arr)"/>
+
+<!-- MINUTES -->
+<rect x="180" y="196" width="420" height="58" rx="12" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.7"/>
+<text x="390" y="217" text-anchor="middle" font-size="14" font-weight="600" fill="#3C3489">Minutes</text>
+<text x="390" y="234" text-anchor="middle" font-size="9.5" fill="#534AB7">Raccoglitore universale · Trascrive · Analizza · Estrae task editabili · Categorizza per cliente/commessa</text>
+
+<!-- Three arrows from Minutes -->
+<!-- Left: Task commerciali -->
+<line x1="270" y1="254" x2="180" y2="310" stroke="#534AB7" stroke-width="1" marker-end="url(#arr)"/>
+<text x="200" y="278" font-size="9" fill="#3D3D3A">Task commerciali</text>
+
+<!-- Center: Task operativi (to Attività section) -->
+<line x1="390" y1="254" x2="220" y2="660" stroke="#534AB7" stroke-width="0.8" marker-end="url(#arr)" stroke-dasharray="4 3"/>
+<text x="280" y="400" font-size="9" fill="#534AB7">Task operativi ↓</text>
+
+<!-- Right: Dati COM -->
+<line x1="510" y1="254" x2="620" y2="310" stroke="#534AB7" stroke-width="1" marker-end="url(#arr)"/>
+<text x="590" y="276" font-size="9" fill="#3D3D3A">Dati COM</text>
+<text x="590" y="287" font-size="8" fill="#8C8C8A">(budget, cliente, date)</text>
+
+<!-- ======= LEADME ======= -->
+<rect x="25" y="310" width="400" height="520" rx="14" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text x="225" y="332" text-anchor="middle" font-size="13" font-weight="600" fill="#085041">LeadMe — CRM Operativo</text>
+<text x="225" y="346" text-anchor="middle" font-size="9" fill="#0F6E56">Il commerciale lavora qui · Prospect → Cliente → Commesse → Task</text>
+
+<!-- NB -->
+<rect x="40" y="358" width="370" height="110" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.4"/>
+<text x="225" y="376" text-anchor="middle" font-size="11" font-weight="600" fill="#0C447C">New Business</text>
+<rect x="52" y="388" width="346" height="24" rx="4" fill="white" stroke="#B8D4EE" stroke-width="0.3"/>
+<text x="225" y="400" text-anchor="middle" font-size="8.5" fill="#185FA5">Pipeline Kanban: Prospect → Primo contatto → Follow-up → Incontro → Brief / Gara</text>
+<rect x="52" y="418" width="346" height="24" rx="4" fill="white" stroke="#B8D4EE" stroke-width="0.3"/>
+<text x="225" y="430" text-anchor="middle" font-size="8.5" fill="#185FA5">Semafori temporali · Status attività · Scraping lead · Icebreaker AI</text>
+<text x="225" y="460" text-anchor="middle" font-size="9" fill="#0F6E56">↓ Gara vinta / Brief ricevuto</text>
+
+<!-- Clienti -->
+<rect x="40" y="476" width="370" height="120" rx="8" fill="#DFF0E8" stroke="#0F6E56" stroke-width="0.4"/>
+<text x="225" y="494" text-anchor="middle" font-size="11" font-weight="600" fill="#085041">Clienti</text>
+<rect x="52" y="506" width="346" height="24" rx="4" fill="white" stroke="#A8D5BE" stroke-width="0.3"/>
+<text x="225" y="518" text-anchor="middle" font-size="8.5" fill="#0F6E56">Pipeline: Attivazione → Attivo → Fermo → Inattivo → Da riattivare</text>
+<rect x="52" y="536" width="346" height="24" rx="4" fill="white" stroke="#A8D5BE" stroke-width="0.3"/>
+<text x="225" y="548" text-anchor="middle" font-size="8.5" fill="#0F6E56">Referenti multipli · Commesse con stati Progress · Gara vs Aff. diretto</text>
+<rect x="52" y="566" width="346" height="24" rx="4" fill="white" stroke="#A8D5BE" stroke-width="0.3"/>
+<text x="225" y="578" text-anchor="middle" font-size="8.5" fill="#0F6E56">Aziende: alias · madre-figlia · settori · stato aggregato</text>
+
+<!-- Task section (ex Flow) -->
+<rect x="40" y="608" width="370" height="62" rx="8" fill="#FFF8E1" stroke="#E6A817" stroke-width="0.6" stroke-dasharray="5 3"/>
+<text x="225" y="626" text-anchor="middle" font-size="11" font-weight="600" fill="#8B6914">Attività + Calendario + Notifiche</text>
+<text x="225" y="642" text-anchor="middle" font-size="8.5" fill="#A67D1A">Task per contatto/commessa · Follow-up · Alert semaforo · Vista calendario</text>
+<text x="225" y="656" text-anchor="middle" font-size="8" fill="#C4980A" font-style="italic">Componenti riutilizzabili dalla pipeline (Kanban, status, assegnazioni)</text>
+
+<!-- Dashboard Direzione -->
+<rect x="40" y="682" width="370" height="44" rx="8" fill="#F3E8FF" stroke="#7C6BC4" stroke-width="0.4"/>
+<text x="225" y="699" text-anchor="middle" font-size="11" font-weight="600" fill="#4C3D99">Dashboard Direzione</text>
+<text x="225" y="714" text-anchor="middle" font-size="8.5" fill="#7C6BC4">KPI pipeline · Performance commerciali · Allarmi · Settori</text>
+
+<!-- Closing bracket LeadMe -->
+
+<!-- ======= LINK ======= -->
+<rect x="475" y="310" width="400" height="520" rx="14" fill="#FAECE7" stroke="#993C1D" stroke-width="0.7"/>
+<text x="675" y="332" text-anchor="middle" font-size="13" font-weight="600" fill="#712B13">Link — Gestionale Centralizzato</text>
+<text x="675" y="346" text-anchor="middle" font-size="9" fill="#993C1D">Hub dati finanziari · Integrazione BC · Sostituisce il Progress</text>
+
+<rect x="490" y="360" width="370" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="675" y="376" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Apertura commessa</text>
+<text x="675" y="390" text-anchor="middle" font-size="8.5" fill="#993C1D">Gatekeeper + notifica → Resp. Controllo conferma → push BC</text>
+
+<rect x="490" y="410" width="370" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="675" y="426" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Budget a 3 stadi + snapshot</text>
+<text x="675" y="440" text-anchor="middle" font-size="8.5" fill="#993C1D">In gara → Pre-chiusura → Consuntivo · Alert aggiornamento</text>
+
+<rect x="490" y="460" width="370" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="675" y="476" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Quadratura + blocco chiusura</text>
+<text x="675" y="490" text-anchor="middle" font-size="8.5" fill="#993C1D">Cross-check fatture SDI + non-SDI · Blocca se incompleto</text>
+
+<rect x="490" y="510" width="370" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="675" y="526" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Template fatturazione attiva</text>
+<text x="675" y="540" text-anchor="middle" font-size="8.5" fill="#993C1D">Compilazione → push a BC via API · Codici IVA</text>
+
+<rect x="490" y="560" width="370" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="675" y="576" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Progress digitale</text>
+<text x="675" y="590" text-anchor="middle" font-size="8.5" fill="#993C1D">Margini · Costi · Risorse · Carichi di lavoro</text>
+
+<rect x="490" y="610" width="370" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="675" y="626" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Dashboard Garbarino</text>
+<text x="675" y="640" text-anchor="middle" font-size="8.5" fill="#993C1D">Status per BU · Facing · Previsto vs consuntivo</text>
+
+<!-- BC box -->
+<rect x="560" y="700" width="220" height="46" rx="8" fill="#F3F4F6" stroke="#6B7280" stroke-width="0.6" stroke-dasharray="4 3"/>
+<text x="670" y="718" text-anchor="middle" font-size="10" font-weight="600" fill="#4B5563">Business Central</text>
+<text x="670" y="732" text-anchor="middle" font-size="8" fill="#6B7280">Microsoft Dynamics · Contabilità</text>
+
+<!-- Link → BC -->
+<line x1="650" y1="656" x2="650" y2="696" stroke="#6B7280" stroke-width="1" marker-end="url(#arr)"/>
+<text x="628" y="678" font-size="8" fill="#6B7280">API OAuth</text>
+
+<!-- BC → Link -->
+<line x1="700" y1="696" x2="700" y2="656" stroke="#6B7280" stroke-width="0.8" marker-end="url(#arr)" stroke-dasharray="3 2"/>
+<text x="720" y="678" font-size="8" fill="#6B7280">Check fatture</text>
+
+<!-- ======= CROSS ARROWS ======= -->
+<!-- LeadMe → Link (dati budget) -->
+<line x1="427" y1="560" x2="488" y2="435" stroke="#D85A30" stroke-width="1" marker-end="url(#arr)"/>
+<text x="468" y="512" font-size="8" fill="#993C1D">Dati per budget →</text>
+
+<!-- Link → LeadMe (status COM) -->
+<line x1="488" y1="390" x2="427" y2="530" stroke="#0F6E56" stroke-width="1" marker-end="url(#arr)"/>
+<text x="448" y="448" font-size="8" fill="#0F6E56">← Status COM</text>
+
+<!-- ======= LEGEND ======= -->
+<rect x="25" y="855" width="850" height="50" rx="8" fill="white" stroke="#E5E7EB" stroke-width="0.4"/>
+
+<rect x="40" y="868" width="14" height="10" rx="3" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.4"/>
+<text x="60" y="876" font-size="8" fill="#5F5E5A">Minutes = input</text>
+
+<rect x="160" y="868" width="14" height="10" rx="3" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.4"/>
+<text x="180" y="876" font-size="8" fill="#5F5E5A">LeadMe = CRM operativo</text>
+
+<rect x="320" y="868" width="14" height="10" rx="3" fill="#FFF8E1" stroke="#E6A817" stroke-width="0.4" stroke-dasharray="2 1"/>
+<text x="340" y="876" font-size="8" fill="#5F5E5A">Task (ex Flow) = dentro LeadMe</text>
+
+<rect x="510" y="868" width="14" height="10" rx="3" fill="#FAECE7" stroke="#993C1D" stroke-width="0.4"/>
+<text x="530" y="876" font-size="8" fill="#5F5E5A">Link = gestionale + Progress</text>
+
+<rect x="680" y="868" width="14" height="10" rx="3" fill="#F5F0FF" stroke="#7C6BC4" stroke-width="0.4"/>
+<text x="700" y="876" font-size="8" fill="#5F5E5A">Sally = AI trasversale</text>
+
+<text x="450" y="896" text-anchor="middle" font-size="8" fill="#B0AFA8" font-style="italic">Bordo tratteggiato = componenti riutilizzabili / esterni</text>
+</svg>

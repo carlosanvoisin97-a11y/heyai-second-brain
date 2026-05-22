@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LeadMe — Pipeline New Business</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#fff;padding:24px;color:#1a1a1a}
+.title-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.title-bar h2{font-size:18px;font-weight:500}
+.badge{font-size:11px;padding:3px 10px;border-radius:8px;background:#dbeafe;color:#1e40af}
+.filter-row{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.filter-row select,.filter-row input{font-size:12px;padding:4px 8px;height:28px;border:1px solid #e5e7eb;border-radius:6px}
+.kanban{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px}
+.col{min-width:135px;flex:1;background:#f8fafc;border-radius:8px;padding:8px}
+.col-head{font-size:12px;font-weight:500;color:#6b7280;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between}
+.col-count{background:#f3f4f6;font-size:10px;padding:1px 6px;border-radius:10px}
+.card{background:#fff;border:0.5px solid #e5e7eb;border-radius:8px;padding:8px;margin-bottom:6px;font-size:12px}
+.card-name{font-weight:500;margin-bottom:2px;font-size:12px}
+.card-company{color:#6b7280;font-size:11px;margin-bottom:4px}
+.card-meta{display:flex;align-items:center;justify-content:space-between;font-size:10px;color:#9ca3af}
+.sem{width:8px;height:8px;border-radius:50%;display:inline-block}
+.sem-g{background:#22c55e}.sem-y{background:#eab308}.sem-r{background:#ef4444}
+.status-pill{font-size:9px;padding:1px 5px;border-radius:6px}
+.st-corso{background:#dbeafe;color:#1e40af}.st-pos{background:#dcfce7;color:#166534}.st-neg{background:#fee2e2;color:#991b1b}
+.tbc{margin-top:12px}
+.tbc-box{background:#FCE4EC;border:1.5px dashed #E91E63;border-radius:8px;padding:8px 10px;font-size:11px;color:#880E4F;line-height:1.5;margin-bottom:8px}
+.tbc-tag{display:inline-block;background:#E91E63;color:#fff;font-size:9px;font-weight:500;padding:1px 6px;border-radius:4px;margin-bottom:4px}
+.card.highlight{border:1.5px solid #3b82f6}
+.rep{font-size:10px;color:#3b82f6}
+</style></head><body>
+<div class="title-bar"><h2>Pipeline new business</h2><span class="badge">Vista Kanban</span></div>
+<div class="filter-row">
+<select><option>Tutti i commerciali</option><option>Simona Marani</option><option>Ilia Gardelli</option><option>Matteo Cosma</option><option>Luca Candiani</option></select>
+<select><option>Tutti i settori</option><option>Automotive</option><option>Fashion & luxury</option><option>Bancario assicurativo</option></select>
+<input type="date" style="width:110px" value="2025-09-01"><span style="font-size:12px;color:#9ca3af;line-height:28px">→</span><input type="date" style="width:110px" value="2026-03-13">
+</div>
+<div class="kanban">
+<div class="col"><div class="col-head">Prospect <span class="col-count">4</span></div><div class="card"><div class="card-name">Marco Bellini</div><div class="card-company">Enel</div><div class="card-meta"><span class="rep">Simona M.</span><span class="sem sem-g"></span></div></div><div class="card"><div class="card-name">Giulia Ferretti</div><div class="card-company">Unicredit</div><div class="card-meta"><span class="rep">Ilia G.</span><span class="sem sem-y"></span></div></div><div class="card"><div class="card-name">Andrea Colombo</div><div class="card-company">Barilla</div><div class="card-meta"><span class="rep">Matteo C.</span><span class="sem sem-g"></span></div></div></div>
+<div class="col"><div class="col-head">Primo contatto <span class="col-count">3</span></div><div class="card"><div class="card-name">Valentina Ricci</div><div class="card-company">Mastercard</div><div class="card-meta"><span class="rep">Simona M.</span><span class="sem sem-g"></span></div><div style="margin-top:4px;font-size:10px;color:#9ca3af">Email inviata 05/03</div></div><div class="card"><div class="card-name">Lorenzo Galli</div><div class="card-company">Campari</div><div class="card-meta"><span class="rep">Ilia G.</span><span class="sem sem-y"></span></div><div style="margin-top:4px;font-size:10px;color:#9ca3af">LinkedIn msg 18/02</div></div></div>
+<div class="col"><div class="col-head">Follow-up <span class="col-count">5</span></div><div class="card"><div class="card-name">Chiara Bianchi</div><div class="card-company">Luxottica</div><div class="card-meta"><span class="rep">Luca C.</span><span class="sem sem-r"></span></div><div style="margin-top:4px"><span class="status-pill st-corso">in corso</span></div><div style="margin-top:2px;font-size:10px;color:#9ca3af">Da richiamare — fermo da 45gg</div></div><div class="card"><div class="card-name">Paolo Marchetti</div><div class="card-company">Ferrari</div><div class="card-meta"><span class="rep">Simona M.</span><span class="sem sem-g"></span></div><div style="margin-top:4px"><span class="status-pill st-pos">positivo</span></div><div style="margin-top:2px;font-size:10px;color:#9ca3af">Interessato, risentire lunedì</div></div></div>
+<div class="col"><div class="col-head">Incontro / call <span class="col-count">2</span></div><div class="card highlight"><div class="card-name">Silvia Cantini</div><div class="card-company">Pirelli</div><div class="card-meta"><span class="rep">Ilia G.</span><span class="sem sem-g"></span></div><div style="margin-top:4px"><span class="status-pill st-pos">positivo</span></div><div style="margin-top:2px;font-size:10px;color:#9ca3af">Pres. fatta 10/03 — ottimo feedback</div></div></div>
+<div class="col"><div class="col-head">Brief / gara <span class="col-count">1</span></div><div class="card highlight"><div class="card-name">Roberto Conti</div><div class="card-company">Nissan</div><div class="card-meta"><span class="rep">Simona M.</span><span class="sem sem-g"></span></div><div style="margin-top:4px"><span class="status-pill st-pos">positivo</span></div><div style="margin-top:2px;font-size:10px;color:#9ca3af">Brief ricevuto 11/03 — gara attiva</div></div></div>
+<div class="col" style="min-width:110px"><div class="col-head" style="color:#166534">Chiuso + <span class="col-count">2</span></div><div class="card" style="border-left:2px solid #22c55e"><div class="card-name">Elisa Moretti</div><div class="card-company">Gucci</div><div class="card-meta"><span class="rep">Luca C.</span></div><div style="margin-top:2px;font-size:10px;color:#166534">→ diventa Cliente</div></div></div>
+<div class="col" style="min-width:105px;background:#f3f4f6"><div class="col-head">Freddo <span class="col-count">8</span></div><div class="card" style="opacity:.7"><div class="card-name">Davide Russo</div><div class="card-company">TIM</div><div class="card-meta"><span class="rep">Matteo C.</span><span class="sem sem-r"></span></div></div></div>
+<div class="col" style="min-width:105px;background:#f3f4f6"><div class="col-head" style="color:#991b1b">Chiuso − <span class="col-count">3</span></div><div class="card" style="opacity:.6;border-left:2px solid #ef4444"><div class="card-name">Sara Lombardi</div><div class="card-company">Vodafone</div><div class="card-meta"><span class="rep">Ilia G.</span></div></div></div>
+</div>
+<div class="tbc"><div class="tbc-box"><span class="tbc-tag">TBC 1</span> Gli stadi proposti (Prospect → Primo Contatto → Follow-up → Incontro/Call → Brief/Gara → Chiuso +/−, Freddo) sono corretti? Ne mancano? Ne togliamo?</div></div>
+<div class="tbc"><div class="tbc-box"><span class="tbc-tag">TBC 2</span> "Brief/Gara" è uno stadio unico o vanno separati "Invito a gara", "Invio brief", "Registrazione portale fornitori"?</div></div>
+<div class="tbc"><div class="tbc-box"><span class="tbc-tag">TBC 3</span> Quando un contatto passa da "Brief/Gara" a "Chiuso +" e diventa Cliente — chi effettua il cambio? Automatico al primo brief o manuale dal commerciale?</div></div>
+<div class="tbc"><div class="tbc-box"><span class="tbc-tag">TBC 4</span> Un contatto può tornare indietro negli stadi? Es. da Follow-up a Freddo dopo mesi di silenzio?</div></div>
+</body></html>

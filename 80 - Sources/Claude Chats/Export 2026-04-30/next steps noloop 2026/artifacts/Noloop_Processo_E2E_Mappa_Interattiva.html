@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Noloop — Processo Operativo E2E</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 100%);
+    font-family: 'DM Sans', sans-serif;
+    color: #212529;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .header {
+    background: #1A1A2E;
+    padding: 28px 24px 22px;
+    color: #fff;
+  }
+  .header-inner { max-width: 800px; margin: 0 auto; }
+  .header-tag {
+    font-size: 11px; font-weight: 700; letter-spacing: 2px;
+    color: #7C8DB0; margin-bottom: 6px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .header-title { font-size: 24px; font-weight: 700; margin-bottom: 4px; }
+  .header-sub { font-size: 13px; color: #ADB5BD; }
+
+  .controls {
+    max-width: 800px; margin: 0 auto; padding: 16px 24px 0;
+    display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 12px;
+  }
+  .legend { display: flex; gap: 12px; flex-wrap: wrap; }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #6C757D; }
+  .legend-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+  .btn-toggle {
+    font-size: 12px; font-weight: 600; color: #495057;
+    background: #fff; border: 1px solid #DEE2E6;
+    border-radius: 6px; padding: 6px 14px; cursor: pointer;
+    transition: all 0.2s; font-family: 'DM Sans', sans-serif;
+  }
+  .btn-toggle:hover { background: #F8F9FA; }
+
+  .phases { max-width: 800px; margin: 0 auto; padding: 16px 24px 40px; display: flex; flex-direction: column; gap: 12px; }
+
+  .phase-card {
+    border-radius: 12px; overflow: hidden;
+    border: 1px solid #DEE2E6; background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    transition: all 0.3s ease;
+  }
+  .phase-card.open { box-shadow: 0 4px 20px rgba(0,0,0,0.07); }
+
+  .phase-header {
+    display: flex; align-items: center; gap: 14px; padding: 16px 20px;
+    cursor: pointer; background: #FAFAFA; transition: background 0.2s;
+    user-select: none;
+  }
+  .phase-card.open .phase-header { }
+
+  .phase-icon {
+    width: 44px; height: 44px; border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; flex-shrink: 0;
+  }
+  .phase-meta { flex: 1; }
+  .phase-meta-top { display: flex; align-items: baseline; gap: 8px; }
+  .phase-num {
+    font-size: 11px; font-weight: 700; letter-spacing: 1.2px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .phase-name { font-size: 17px; font-weight: 700; }
+  .phase-subtitle { font-size: 13px; color: #6C757D; margin-top: 2px; }
+  .phase-duration {
+    font-size: 11px; color: #868E96; background: #F1F3F5;
+    padding: 3px 10px; border-radius: 20px; font-weight: 500; white-space: nowrap;
+  }
+  .phase-arrow {
+    font-size: 18px; font-weight: 700; transition: transform 0.3s;
+  }
+  .phase-card.open .phase-arrow { transform: rotate(180deg); }
+
+  .phase-body { padding: 0 20px 20px; display: none; }
+  .phase-card.open .phase-body { display: block; }
+
+  .section-label {
+    font-size: 11px; font-weight: 700; color: #868E96;
+    letter-spacing: 1.5px; margin-bottom: 10px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .timeline { display: flex; flex-direction: column; margin-top: 16px; }
+  .timeline-item { display: flex; gap: 12px; }
+  .timeline-line { display: flex; flex-direction: column; align-items: center; width: 24px; flex-shrink: 0; }
+  .timeline-dot {
+    width: 12px; height: 12px; border-radius: 50%;
+    flex-shrink: 0; margin-top: 4px;
+  }
+  .timeline-dot.pain { box-shadow: 0 0 8px #DC354540; }
+  .timeline-connector { width: 2px; flex: 1; background: #DEE2E6; min-height: 20px; }
+  .timeline-content { flex: 1; padding-bottom: 14px; }
+  .step-header { display: flex; align-items: flex-start; gap: 8px; flex-wrap: wrap; }
+  .step-label { font-size: 14px; font-weight: 600; color: #212529; }
+  .step-pain-badge {
+    font-size: 10px; background: #FFF5F5; color: #DC3545;
+    padding: 1px 7px; border-radius: 4px; font-weight: 600;
+    border: 1px solid #DC354520;
+  }
+  .step-detail { font-size: 13px; color: #495057; margin-top: 3px; line-height: 1.5; }
+  .step-actor { font-size: 11px; color: #868E96; margin-top: 3px; font-style: italic; }
+  .step-keyinfo {
+    margin-top: 6px; font-size: 12px; padding: 5px 10px;
+    border-radius: 6px; font-weight: 500; border-left-width: 3px; border-left-style: solid;
+  }
+
+  .tools-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-top: 18px; }
+  .tools-section { border-radius: 8px; padding: 14px; }
+  .tools-current { background: #F8F9FA; }
+  .tools-proposed { background: #F0F7FF; }
+  .tool-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 10px; border-radius: 6px; font-size: 12px;
+    font-weight: 500; margin-bottom: 6px;
+  }
+  .tool-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+
+  .questions-box {
+    margin-top: 18px; background: #FFFBEB; border-radius: 8px;
+    padding: 14px; border: 1px solid #F59E0B30;
+  }
+  .questions-label {
+    font-size: 11px; font-weight: 700; color: #92400E;
+    letter-spacing: 1.2px; margin-bottom: 10px;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .question-item { display: flex; gap: 8px; align-items: flex-start; margin-bottom: 8px; }
+  .question-item:last-child { margin-bottom: 0; }
+  .question-num {
+    background: #F59E0B; color: #fff; border-radius: 4px;
+    min-width: 20px; height: 20px; display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; flex-shrink: 0; margin-top: 1px;
+  }
+  .question-text { font-size: 13px; color: #78350F; line-height: 1.5; }
+
+  .footer-note {
+    margin-top: 12px; padding: 16px; background: #fff; border-radius: 10px;
+    border: 1px dashed #CED4DA; font-size: 12px; color: #6C757D; line-height: 1.6;
+  }
+  .footer-note strong { color: #495057; }
+
+  @media (max-width: 600px) {
+    .tools-grid { grid-template-columns: 1fr; }
+    .header-title { font-size: 20px; }
+    .phase-name { font-size: 15px; }
+    .phase-duration { display: none; }
+  }
+
+  @media print {
+    .phase-body { display: block !important; }
+    .btn-toggle { display: none; }
+    .phase-card { break-inside: avoid; page-break-inside: avoid; border: 1px solid #CED4DA !important; }
+    .phase-arrow { display: none; }
+    body { background: #fff; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <div class="header-tag">NOLOOP — PROCESSO OPERATIVO E2E</div>
+    <div class="header-title">Mappatura Ciclo di Vita Evento</div>
+    <div class="header-sub">v2 — Basata su interviste Cavecchi, Zaghi, Cichello, Merli · Guida per call 11/02/2026</div>
+  </div>
+</div>
+
+<div class="controls">
+  <div class="legend">
+    <div class="legend-item"><span class="legend-dot" style="background:#40916C"></span> Operativo</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#E6A817"></span> In lavorazione</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#3A7CA5"></span> Proposto Wave 2</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#868E96"></span> Pre-esistente</div>
+    <div class="legend-item"><span class="legend-dot" style="background:#DC3545"></span> Pain Point</div>
+  </div>
+  <button class="btn-toggle" onclick="toggleAll()">▾ Espandi tutto</button>
+</div>
+
+<div class="phases" id="phases"></div>
+
+<script>
+const phases = [
+  {
+    id: 1, title: "ACQUISIZIONE", subtitle: "Scouting e Primo Contatto",
+    icon: "🔍", color: "#1B4332", light: "#D8F3DC", accent: "#40916C", duration: "Continuativo",
+    steps: [
+      { label: "Ricerca prospect", detail: "LinkedIn Sales Navigator — profili marketing, eventi, HR", actor: "New Business (Marani, Candiani, Bresciani, Cosma)" },
+      { label: "Studio profilo", detail: "L'azienda fa eventi? Ha divisione interna? → PASSAGGIO PIÙ TIME-CONSUMING", actor: "Commerciale", pain: true },
+      { label: "Primo contatto", detail: "Messaggio LinkedIn o email — la scrittura in sé è rapida", actor: "Commerciale" },
+      { label: "Follow-up e nurturing", detail: "Interazioni successive, invio presentazione aziendale", actor: "Commerciale" },
+      { label: "Qualificazione", detail: "Lead tracciato con status in LeadMe", actor: "Commerciale" },
+    ],
+    tools: [
+      { name: "LinkedIn Sales Navigator", status: "existing" },
+      { name: "LeadMe", status: "delivered" },
+    ],
+    proposed: [
+      { name: "LeadMe Evolution — AI Scouting + Lead Scoring", status: "proposed" },
+      { name: "Minutes — trascrizione call esplorative", status: "wip" },
+    ],
+    questions: [
+      "Nella tua BU come funziona l'acquisizione? Campari vi contatta direttamente o fate anche scouting attivo?",
+      "Per i clienti nuovi (non Campari), come li trovate? Usate LinkedIn?",
+      "Quanto tempo dedica il tuo team alla fase pre-vendita rispetto alla gestione?",
+    ],
+  },
+  {
+    id: 2, title: "PROPOSTA", subtitle: "Brief → Brainstorming → Budget → Gara",
+    icon: "📋", color: "#1A3A5C", light: "#D0E2F2", accent: "#3A7CA5", duration: "2-6 settimane",
+    steps: [
+      { label: "Arrivo brief", detail: "99,9% via gare (portali acquisto), brief diretto da fidelizzati, o telefonico", actor: "Cliente → Commerciale" },
+      { label: "Apertura COM", detail: "Email a Calaiò: cliente, evento, data, destinazione, budget, margine → Business Central", actor: "Commerciale → Calaiò", key: "COM si apre AL BRIEF, non alla conferma" },
+      { label: "Brainstorming interno", detail: "Analisi brief + budget cliente + desiderate → destinazioni alternative → divisione compiti per reparto", actor: "Commerciale + reparti coinvolti" },
+      { label: "Programmazione", detail: "Ricerca destinazioni, disponibilità hotel, piante/foto sale → budget Excel complessivo", actor: "Osmetti (Programmazione)" },
+      { label: "Lavoro parallelo multi-reparto", detail: "Biglietteria chiede proposte voli · PM valuta sale per scenotecnica · Creativo produce claim/render", actor: "Biglietteria + PM + Creativo" },
+      { label: "Costruzione budget Excel", detail: "Programmazione ha la totalità; Biglietteria e PM inviano i loro costi → budget complessivo", actor: "Programmazione", key: "Budget RESTA su Excel — troppo variabile per piattaforma" },
+      { label: "Iterazioni", detail: "Fino a 7 attivazioni diverse per COM (cambio destinazione, sala inadeguata, budget...)", actor: "Tutti", pain: true },
+      { label: "Approvazione + Invio", detail: "Garbarino approva per top client → invio proposta", actor: "Garbarino → Commerciale" },
+    ],
+    tools: [
+      { name: "AI Venue Finder (Gem Gemini)", status: "delivered" },
+      { name: "Excel", status: "existing" },
+      { name: "Business Central", status: "existing" },
+    ],
+    proposed: [
+      { name: "Minutes → estrazione action item → Flow", status: "wip" },
+      { name: "Task Management (Flow) — task per reparto", status: "proposed" },
+      { name: "Modulo Creativo — analisi brief + contenuti", status: "proposed" },
+    ],
+    questions: [
+      "Nella tua BU il brief come arriva? Sempre da Campari direttamente?",
+      "Aprite anche voi la COM via email a Calaiò? O avete un processo diverso?",
+      "Quante iterazioni di budget fai in media prima dell'approvazione?",
+      "Chi approva nella tua BU? (\"Chicco\"? — da verificare)",
+      "Quanto tempo impiega in media il creativo (Romano) a darvi output? Media reale.",
+      "Quante delle 280 COM/anno coinvolgono il reparto creativo?",
+    ],
+  },
+  {
+    id: 3, title: "CONVERSIONE", subtitle: "Conferma e Passaggio Pratica",
+    icon: "✅", color: "#5C1A1A", light: "#F2D0D0", accent: "#B83A3A", duration: "1-2 settimane",
+    steps: [
+      { label: "Comunicazione esito", detail: "Gara vinta/cliente conferma → inserimento condizioni di pagamento", actor: "Commerciale", key: "Senza condizioni di pagamento, l'operativo NON può procedere" },
+      { label: "Inserimento Progress (apertura)", detail: "Zaghi inserisce budget di apertura (il più basso) + marginalità per TUTTE le COM aziendali", actor: "Zaghi", pain: true },
+      { label: "Passaggio pratica", detail: "Call a 3: Programmazione + Operativo + Commerciale. Transfer completo: fornitori, contratti, budget", actor: "Programmazione → Operativo", key: "Da qui la Programmazione SI DISIMPEGNA completamente" },
+      { label: "Assegnazione operativo", detail: "Cuzzocrea decide quale operativo assegnare in base a carichi", actor: "Cuzzocrea" },
+      { label: "Presentazione al cliente", detail: "Commerciale presenta l'operativo → da ora è il riferimento logistico", actor: "Commerciale + Operativo" },
+    ],
+    tools: [
+      { name: "Email", status: "existing" },
+      { name: "Excel Progress", status: "existing" },
+    ],
+    proposed: [
+      { name: "Minutes — trascrizione passaggio pratica", status: "wip" },
+      { name: "LeadMe CRM — conversione lead→cliente", status: "proposed" },
+      { name: "Tally — ricezione commessa + baseline budget", status: "proposed" },
+      { name: "Flow — generazione task da call", status: "proposed" },
+    ],
+    questions: [
+      "Nella tua BU esiste un 'passaggio pratica'? O chi propone gestisce anche l'esecuzione?",
+      "Chi compila il Progress per le tue COM? Tu? Zaghi? Entrambi?",
+      "Per i 5-6 progetti complessi, come avviene il passaggio consegne tra persone?",
+    ],
+  },
+  {
+    id: 4, title: "ESECUZIONE", subtitle: "Gestione Operativa dell'Evento",
+    icon: "⚙️", color: "#3D1A5C", light: "#E8D0F2", accent: "#7B3AA5", duration: "1-6 mesi",
+    steps: [
+      { label: "4A. Conferma fornitori + contratti", detail: "Negoziazione, conferma, firma (condizioni cancellazione, pagamento, rooming list)", actor: "Operativo" },
+      { label: "4A. Gestione variazioni quotidiane", detail: "Cliente aggiunge camere, cambia menù → budget da 10 a 11 a 15...", actor: "Operativo + Cliente", pain: true, key: "Gestito su Excel + email/call — molto volatile" },
+      { label: "4A. Sopralluoghi + raccolta fatture", detail: "Site inspection · Fatture arrivano alla fine (anche mesi dopo)", actor: "Operativo", pain: true },
+      { label: "4B. PM/Comunicazione", detail: "Allestimento sala, scenotecnica, render 3D · Budget comunicazione separato", actor: "PM (se convention)", key: "Solo se c'è componente convention" },
+      { label: "4C. Biglietteria", detail: "Acquisto biglietti, gestione variazioni · Deadline critiche (nominativi, emissione)", actor: "Biglietteria" },
+      { label: "4D. Segreteria", detail: "Contatto partecipanti, liste, documenti, form Crowd, rooming list · NO budget", actor: "Segreteria", key: "SEPARATA dal sistema centrale per GDPR" },
+      { label: "Coordinamento", detail: "Commerciale = lato cliente · Operativo = lato interno · Lorena = vista su 3 reparti", actor: "Multi-reparto", pain: true, key: "Nessun task management — coordinamento via email/call" },
+    ],
+    tools: [
+      { name: "Excel (preventivo + Gantt)", status: "existing" },
+      { name: "Crowd (form partecipanti)", status: "wip" },
+    ],
+    proposed: [
+      { name: "Flow — task × reparto, vista admin, alert", status: "proposed" },
+      { name: "Flow — Upload contratti → AI estrae scadenze", status: "proposed" },
+      { name: "Flow — Upload fatture → alimentano consuntivo", status: "proposed" },
+      { name: "Sally in-context — domande su contratti", status: "proposed" },
+    ],
+    questions: [
+      "Nel tuo team one-man-show: la stessa persona fa tutto (fornitori, contratti, variazioni, fatture)?",
+      "Come tracciate le variazioni di budget? Excel singolo o versioni multiple?",
+      "Per i 5-6 progetti complessi: come vi coordinate? Email? WhatsApp? File condivisi?",
+      "Quanto tempo perdi in coordinamento quando più persone lavorano sullo stesso progetto?",
+      "Come raccogli le fatture? Quanto spesso mancano o arrivano tardi?",
+      "Usi un Gantt per i progetti complessi?",
+    ],
+  },
+  {
+    id: 5, title: "CHIUSURA", subtitle: "Consuntivo → Progress → Fatturazione",
+    icon: "📊", color: "#5C4A1A", light: "#F2EAD0", accent: "#C4960A", duration: "2-4 sett. post-evento",
+    steps: [
+      { label: "Consuntivo lato interno", detail: "Raccolta TUTTE le fatture, verifica costi effettivi per fornitore", actor: "Operativo", pain: true, key: "Operativi dimenticano fatture o le inviano incomplete (Cavecchi)" },
+      { label: "Consuntivo lato cliente", detail: "Budget nel format Excel del cliente con prezzo venduto", actor: "Commerciale" },
+      { label: "Template chiusura contabile", detail: "Template unico Excel per tutta l'azienda → invio a Calaiò", actor: "Responsabile COM" },
+      { label: "Aggiornamento Progress", detail: "Budget confermato + consuntivo + marginalità effettiva, diviso per reparto", actor: "Zaghi (per TUTTE le COM)", pain: true, key: "PAIN POINT #1 — \"tantissimo tempo\", \"da impazzire\" — ricostruzione da email e preventivi" },
+      { label: "Aggiornamento settimanale", detail: "Prima linea commerciale aggiorna il Progress SETTIMANALMENTE", actor: "Zaghi, Candiani, Bresciani", key: "Frequenza obbligatoria (Cavecchi 09/02)" },
+      { label: "Analisi Garbarino", detail: "GM verifica costi, margini, scostamenti preventivo vs consuntivo", actor: "Garbarino" },
+      { label: "Fatturazione", detail: "Ciclo attivo (al cliente) e passivo (da fornitori)", actor: "Calaiò / Commerciale" },
+    ],
+    tools: [
+      { name: "Excel Progress (Zaghi)", status: "existing" },
+      { name: "Excel Preventivo (avanzamenti)", status: "existing" },
+      { name: "Template chiusura contabile", status: "existing" },
+    ],
+    proposed: [
+      { name: "Tally — Progress digitale pre-popolato", status: "proposed" },
+      { name: "Tally — Alert dati mancanti", status: "proposed" },
+      { name: "Tally — Dashboard BI per Garbarino", status: "proposed" },
+      { name: "Tally — Fatturazione + scadenzario", status: "proposed" },
+    ],
+    questions: [
+      "Il template chiusura contabile è lo stesso per la tua BU?",
+      "Quanto tempo ci metti a chiudere una singola COM? (semplice vs complessa)",
+      "Per i progetti con 4-5 persone, come riconcili i costi? Quanto tempo in più?",
+      "Le 280 COM finiscono TUTTE nel Progress o solo sopra una certa soglia?",
+      "Quanto tempo dedichi al Progress in un mese?",
+      "Integrazione Revolut: usate la carta aziendale? Reinserite manualmente i dati?",
+    ],
+  },
+];
+
+const statusStyles = {
+  delivered: { bg: "#D8F3DC", text: "#1B4332", dot: "#40916C" },
+  wip:       { bg: "#FFF3CD", text: "#664D03", dot: "#E6A817" },
+  proposed:  { bg: "#D0E2F2", text: "#1A3A5C", dot: "#3A7CA5" },
+  existing:  { bg: "#E9ECEF", text: "#495057", dot: "#868E96" },
+};
+
+function renderToolBadge(t) {
+  const s = statusStyles[t.status];
+  return `<div class="tool-badge" style="background:${s.bg};color:${s.text};border:1px solid ${s.dot}22">
+    <span class="tool-dot" style="background:${s.dot}"></span>${t.name}</div>`;
+}
+
+function renderPhase(p) {
+  const stepsHtml = p.steps.map((s, i) => {
+    const isLast = i === p.steps.length - 1;
+    const dotStyle = s.pain
+      ? `background:#DC3545;border:2px solid #DC354540`
+      : `background:${p.accent};border:2px solid ${p.accent}40`;
+    return `
+    <div class="timeline-item">
+      <div class="timeline-line">
+        <div class="timeline-dot ${s.pain ? 'pain' : ''}" style="${dotStyle}"></div>
+        ${!isLast ? '<div class="timeline-connector"></div>' : ''}
+      </div>
+      <div class="timeline-content">
+        <div class="step-header">
+          <span class="step-label">${s.label}</span>
+          ${s.pain ? '<span class="step-pain-badge">⚠ PAIN POINT</span>' : ''}
+        </div>
+        <div class="step-detail">${s.detail}</div>
+        <div class="step-actor">→ ${s.actor}</div>
+        ${s.key ? `<div class="step-keyinfo" style="color:${p.color};background:${p.light};border-left-color:${p.accent}">📌 ${s.key}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+
+  const questionsHtml = p.questions.map((q, i) => `
+    <div class="question-item">
+      <span class="question-num">${i + 1}</span>
+      <span class="question-text">${q}</span>
+    </div>`).join('');
+
+  return `
+  <div class="phase-card" id="phase-${p.id}" data-id="${p.id}">
+    <div class="phase-header" onclick="togglePhase(${p.id})" style="">
+      <div class="phase-icon" style="background:${p.color}">${p.icon}</div>
+      <div class="phase-meta">
+        <div class="phase-meta-top">
+          <span class="phase-num" style="color:${p.accent}">FASE ${p.id}</span>
+          <span class="phase-name" style="color:${p.color}">${p.title}</span>
+        </div>
+        <div class="phase-subtitle">${p.subtitle}</div>
+      </div>
+      <div class="phase-duration">⏱ ${p.duration}</div>
+      <div class="phase-arrow" style="color:${p.accent}">▾</div>
+    </div>
+    <div class="phase-body">
+      <div class="section-label" style="margin-top:16px">STEP DEL PROCESSO</div>
+      <div class="timeline">${stepsHtml}</div>
+
+      <div class="tools-grid">
+        <div class="tools-section tools-current">
+          <div class="section-label">STRUMENTI ATTUALI</div>
+          ${p.tools.map(renderToolBadge).join('')}
+        </div>
+        <div class="tools-section tools-proposed">
+          <div class="section-label">PROPOSTI / IN LAVORAZIONE</div>
+          ${p.proposed.map(renderToolBadge).join('')}
+        </div>
+      </div>
+
+      <div class="questions-box">
+        <div class="questions-label">🎯 DOMANDE PER ANTONIO CICHELLO</div>
+        ${questionsHtml}
+      </div>
+    </div>
+  </div>`;
+}
+
+// Render all
+document.getElementById('phases').innerHTML =
+  phases.map(renderPhase).join('') +
+  `<div class="footer-note">
+    <strong>📝 Nota per la call:</strong> Questo processo è mappato dalla BU Garbarino. 
+    La BU Cichello opera in modalità <strong>one-man-show</strong> (280 eventi/anno, solo 5-6 complessi). 
+    L'obiettivo è capire dove il flusso è analogo e dove diverge.
+    <br><br>
+    <strong>Strumenti trasversali</strong> (tutte le fasi): 
+    <strong>Minutes</strong> 🟡 (trascrizione call → action item) · <strong>Sally</strong> 🔵 (agente AI conversazionale) · 
+    <strong>Crowd</strong> 🟡 (gestione partecipanti, GDPR-separato)
+  </div>`;
+
+// Update header backgrounds for open cards
+function updateHeaderBg(id, open) {
+  const card = document.getElementById('phase-' + id);
+  const p = phases.find(x => x.id === id);
+  const header = card.querySelector('.phase-header');
+  header.style.background = open ? p.light : '#FAFAFA';
+}
+
+function togglePhase(id) {
+  const card = document.getElementById('phase-' + id);
+  const isOpen = card.classList.contains('open');
+  const p = phases.find(x => x.id === id);
+  if (isOpen) {
+    card.classList.remove('open');
+    card.style.borderColor = '#DEE2E6';
+    card.style.borderWidth = '1px';
+  } else {
+    card.classList.add('open');
+    card.style.borderColor = p.accent;
+    card.style.borderWidth = '2px';
+  }
+  updateHeaderBg(id, !isOpen);
+}
+
+let allOpen = false;
+function toggleAll() {
+  allOpen = !allOpen;
+  const btn = document.querySelector('.btn-toggle');
+  btn.textContent = allOpen ? '▴ Chiudi tutto' : '▾ Espandi tutto';
+  phases.forEach(p => {
+    const card = document.getElementById('phase-' + p.id);
+    const isOpen = card.classList.contains('open');
+    if (allOpen && !isOpen) togglePhase(p.id);
+    if (!allOpen && isOpen) togglePhase(p.id);
+  });
+}
+</script>
+</body>
+</html>

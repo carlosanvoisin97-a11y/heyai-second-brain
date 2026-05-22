@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LeadMe — Card Contatto: 3 Indicatori</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#fff;padding:24px;color:#1a1a1a}
+.title-bar{margin-bottom:16px}.title-bar h2{font-size:18px;font-weight:500}.title-bar p{font-size:12px;color:#6b7280;margin-top:4px}
+.example-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+.ex-card{background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;padding:12px}
+.ex-card-head{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.avatar{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:500;flex-shrink:0}
+.name{font-size:13px;font-weight:500}.company{font-size:11px;color:#6b7280}
+.indicators{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+.ind-row{display:flex;align-items:center;gap:6px;font-size:11px}
+.ind-label{color:#9ca3af;width:62px;flex-shrink:0}
+.pill{font-size:10px;padding:2px 8px;border-radius:6px;font-weight:500}
+.sem-ind{display:flex;align-items:center;gap:4px}.sem-dot{width:8px;height:8px;border-radius:50%}.sem-txt{font-size:10px}
+.last-act{background:#f8fafc;border-radius:8px;padding:8px;font-size:11px;color:#6b7280;margin-top:4px}
+.last-act strong{color:#1a1a1a;font-weight:500}
+.scenario-label{font-size:10px;padding:2px 8px;border-radius:4px;display:inline-block;margin-bottom:6px}
+.legend-section{margin-top:16px;padding:16px;background:#f8fafc;border-radius:12px}
+.legend-title{font-size:13px;font-weight:500;margin-bottom:10px}
+.legend-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+.leg-col-title{font-size:11px;font-weight:500;color:#6b7280;margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px}
+.leg-item{font-size:11px;color:#6b7280;line-height:1.8}.leg-item em{font-style:normal;color:#1a1a1a}
+</style></head><body>
+<div class="title-bar">
+<h2>Scheda contatto — 3 indicatori separati</h2>
+<p>Pipeline (dove sei) + Status attività (come va) + Semaforo (quanto tempo è passato) — nessuna ridondanza.</p>
+</div>
+<div class="example-grid">
+<div class="ex-card">
+<span class="scenario-label" style="background:#dbeafe;color:#1e40af">Scenario tipico</span>
+<div class="ex-card-head"><div class="avatar" style="background:#dbeafe;color:#1e40af">SC</div><div><div class="name">Silvia Cantini</div><div class="company">Pirelli · Ilia G.</div></div></div>
+<div class="indicators">
+<div class="ind-row"><span class="ind-label">Pipeline</span><span class="pill" style="background:#ede9fe;color:#5b21b6">Incontro / call</span></div>
+<div class="ind-row"><span class="ind-label">Ultimo esito</span><span class="pill" style="background:#dcfce7;color:#166534">positivo</span></div>
+<div class="ind-row"><span class="ind-label">Freschezza</span><div class="sem-ind"><div class="sem-dot" style="background:#22c55e"></div><span class="sem-txt">3 giorni fa</span></div></div>
+</div>
+<div class="last-act"><strong>Presentazione aziendale</strong> — 10/03 · Ottimo feedback, ci risentono la prossima settimana per il brief</div>
+</div>
+<div class="ex-card">
+<span class="scenario-label" style="background:#fef2f2;color:#991b1b">Allarme: positivo ma fermo</span>
+<div class="ex-card-head"><div class="avatar" style="background:#fce7f3;color:#9d174d">CB</div><div><div class="name">Chiara Bianchi</div><div class="company">Luxottica · Luca C.</div></div></div>
+<div class="indicators">
+<div class="ind-row"><span class="ind-label">Pipeline</span><span class="pill" style="background:#ede9fe;color:#5b21b6">Follow-up</span></div>
+<div class="ind-row"><span class="ind-label">Ultimo esito</span><span class="pill" style="background:#dcfce7;color:#166534">positivo</span></div>
+<div class="ind-row"><span class="ind-label">Freschezza</span><div class="sem-ind"><div class="sem-dot" style="background:#ef4444"></div><span class="sem-txt">45 giorni fa</span></div></div>
+</div>
+<div class="last-act"><strong>Follow-up telefonico</strong> — 28/01 · Era interessata, doveva richiamare. Da allora silenzio.</div>
+</div>
+<div class="ex-card">
+<span class="scenario-label" style="background:#fefce8;color:#854d0e">Primo contatto in attesa</span>
+<div class="ex-card-head"><div class="avatar" style="background:#dcfce7;color:#166534">LG</div><div><div class="name">Lorenzo Galli</div><div class="company">Campari · Ilia G.</div></div></div>
+<div class="indicators">
+<div class="ind-row"><span class="ind-label">Pipeline</span><span class="pill" style="background:#ede9fe;color:#5b21b6">Primo contatto</span></div>
+<div class="ind-row"><span class="ind-label">Ultimo esito</span><span class="pill" style="background:#dbeafe;color:#1e40af">in corso</span></div>
+<div class="ind-row"><span class="ind-label">Freschezza</span><div class="sem-ind"><div class="sem-dot" style="background:#eab308"></div><span class="sem-txt">23 giorni fa</span></div></div>
+</div>
+<div class="last-act"><strong>Messaggio LinkedIn</strong> — 18/02 · Inviato, nessuna risposta. Da risentire via email.</div>
+</div>
+<div class="ex-card">
+<span class="scenario-label" style="background:#fee2e2;color:#991b1b">Chiuso negativo</span>
+<div class="ex-card-head"><div class="avatar" style="background:#fee2e2;color:#991b1b">SL</div><div><div class="name">Sara Lombardi</div><div class="company">Vodafone · Ilia G.</div></div></div>
+<div class="indicators">
+<div class="ind-row"><span class="ind-label">Pipeline</span><span class="pill" style="background:#fee2e2;color:#991b1b">Chiuso negativo</span></div>
+<div class="ind-row"><span class="ind-label">Ultimo esito</span><span class="pill" style="background:#fee2e2;color:#991b1b">negativo</span></div>
+<div class="ind-row"><span class="ind-label">Freschezza</span><div class="sem-ind"><div class="sem-dot" style="background:#9ca3af"></div><span class="sem-txt">non rilevante</span></div></div>
+</div>
+<div class="last-act"><strong>Esito</strong> — 05/01 · Hanno un reparto marketing interno, non esternalizzano eventi. Chiuso.</div>
+</div>
+</div>
+<div class="legend-section">
+<div class="legend-title">Come leggere i 3 indicatori</div>
+<div class="legend-grid">
+<div><div class="leg-col-title">Pipeline</div><div class="leg-item"><em>Dove sei nel funnel?</em></div><div class="leg-item">Prospect → Primo contatto → Follow-up → Incontro → Brief → Chiuso</div><div class="leg-item">Si sposta manualmente o con regole</div></div>
+<div><div class="leg-col-title">Status attività</div><div class="leg-item"><em>Come è andata l'ultima interazione?</em></div><div class="leg-item">Positivo · In corso · Negativo</div><div class="leg-item">Lo mette il commerciale</div></div>
+<div><div class="leg-col-title">Semaforo</div><div class="leg-item"><em>Quanto tempo è passato?</em></div><div class="leg-item">Verde (&lt;30gg) · Giallo (30-90gg) · Rosso (&gt;90gg)</div><div class="leg-item">Automatico — nessuno lo tocca</div></div>
+</div>
+</div>
+</body></html>

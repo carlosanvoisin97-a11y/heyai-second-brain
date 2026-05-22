@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { 
+    width: 1500px; 
+    height: 700px; 
+    font-family: -apple-system, 'Segoe UI', sans-serif; 
+    background: #fff; 
+    color: #2d3748;
+    padding: 28px 36px;
+  }
+  .title { text-align: center; font-size: 22px; font-weight: 700; color: #1a202c; margin-bottom: 4px; }
+  .subtitle { text-align: center; font-size: 11px; color: #a0aec0; margin-bottom: 22px; }
+
+  .gantt { width: 100%; }
+  
+  /* Header months */
+  .months-row {
+    display: flex;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    background: #f7fafc;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .month-cell {
+    flex: 1;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 11px;
+    font-weight: 700;
+    color: #4a5568;
+    border-right: 1px solid #e2e8f0;
+  }
+  .month-cell:last-child { border-right: none; }
+  .month-cell.pause { background: #edf2f7; color: #a0aec0; }
+
+  /* Priority groups */
+  .priority-group { margin-bottom: 14px; }
+  .priority-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 4px 0 6px 0;
+    border-left: 3px solid;
+    padding-left: 10px;
+    margin-bottom: 6px;
+  }
+  .priority-1 { color: #3182ce; border-color: #3182ce; }
+  .priority-2 { color: #2d3748; border-color: #2d3748; }
+  .priority-3 { color: #38a169; border-color: #38a169; }
+
+  /* Task rows */
+  .task-row {
+    display: flex;
+    align-items: center;
+    height: 36px;
+    margin-bottom: 4px;
+  }
+  .task-info {
+    width: 200px;
+    flex-shrink: 0;
+    padding-left: 16px;
+  }
+  .task-name { font-size: 12px; font-weight: 600; color: #2d3748; }
+  .task-detail { font-size: 9px; color: #a0aec0; }
+  
+  .task-bar-area {
+    flex: 1;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .task-bar {
+    position: absolute;
+    height: 18px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bar-quickwin { background: linear-gradient(135deg, #4299e1, #63b3ed); }
+  .bar-strategic { background: linear-gradient(135deg, #2d3748, #4a5568); }
+  .bar-followup { background: linear-gradient(135deg, #48bb78, #68d391); }
+  .bar-pause { background: #edf2f7; border: 1px dashed #cbd5e0; }
+
+  .bar-label { font-size: 8px; color: white; font-weight: 600; letter-spacing: 0.5px; }
+
+  /* Milestones */
+  .milestone {
+    position: absolute;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    top: 50%; transform: translateY(-50%);
+  }
+  .ms-start { background: white; border: 2px solid #4a5568; }
+  .ms-mvp { background: #bee3f8; border: 2px solid #63b3ed; }
+  .ms-final { background: #2d3748; }
+
+  .ms-label {
+    position: absolute;
+    top: -14px;
+    font-size: 8px;
+    font-weight: 700;
+    color: #718096;
+    white-space: nowrap;
+  }
+
+  /* Sally special */
+  .sally-dots {
+    position: absolute;
+    height: 4px;
+    background: repeating-linear-gradient(90deg, #68d391 0, #68d391 6px, transparent 6px, transparent 12px);
+    top: 50%; transform: translateY(-50%);
+    border-radius: 2px;
+  }
+  .sally-note {
+    position: absolute;
+    bottom: -12px;
+    font-size: 8px;
+    font-style: italic;
+    color: #a0aec0;
+  }
+
+  /* Grid lines */
+  .grid-line {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: #f0f0f0;
+  }
+
+  /* Legend */
+  .legend-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 16px;
+    padding-top: 10px;
+    border-top: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .legend-item {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 10px; color: #718096;
+  }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .legend-bar { width: 24px; height: 10px; border-radius: 5px; }
+
+  .highlight-text {
+    font-size: 11px;
+    font-weight: 700;
+    color: #2d3748;
+  }
+  .footer-note {
+    text-align: center;
+    font-size: 9px;
+    color: #cbd5e0;
+    margin-top: 8px;
+  }
+
+  /* Month percentages for positioning: MAR=0, APR=11.1, MAG=22.2, GIU=33.3, LUG=44.4, AGO=55.5, SET=66.6, OTT=77.7, NOV=88.8, end=100 */
+</style>
+</head>
+<body>
+
+<div class="title">Roadmap di Sviluppo — 2026</div>
+<div class="subtitle">Timeline indicativa con rilasci incrementali. Partenza: ultima settimana di marzo. Pausa: agosto.</div>
+
+<!-- Month headers -->
+<div class="months-row">
+  <div class="month-cell">MAR</div>
+  <div class="month-cell">APR</div>
+  <div class="month-cell">MAG</div>
+  <div class="month-cell">GIU</div>
+  <div class="month-cell">LUG</div>
+  <div class="month-cell pause">AGO<br><span style="font-size:8px;font-weight:400;">PAUSA</span></div>
+  <div class="month-cell">SET</div>
+  <div class="month-cell">OTT</div>
+  <div class="month-cell">NOV</div>
+</div>
+
+<!-- Priority 1 -->
+<div class="priority-group">
+  <div class="priority-label priority-1">PRIORITÀ 1 — QUICK WINS</div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">Venue Finder Evo</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="milestone ms-start" style="left: 2%;"></div>
+      <div class="task-bar bar-quickwin" style="left: 4%; width: 12%;">
+        <span class="bar-label">DEV</span>
+      </div>
+      <div class="milestone ms-final" style="left: 17%;"></div>
+    </div>
+  </div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">Minutes Ext</div>
+      <div class="task-detail">+40% copertura</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="milestone ms-start" style="left: 2%;"></div>
+      <div class="task-bar bar-quickwin" style="left: 4%; width: 16%;"></div>
+      <div class="milestone ms-final" style="left: 21%;"></div>
+    </div>
+  </div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">Crowd Incassi</div>
+      <div class="task-detail">Revenue ricorrente</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="milestone ms-start" style="left: 0%;"></div>
+      <div class="task-bar bar-quickwin" style="left: 2%; width: 36%;"></div>
+      <div class="milestone ms-mvp" style="left: 18%;"></div>
+      <div class="milestone ms-final" style="left: 39%;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Priority 2 -->
+<div class="priority-group">
+  <div class="priority-label priority-2">PRIORITÀ 2 — STRATEGICHE</div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">LeadMe Evolution</div>
+      <div class="task-detail">Pipeline + CRM + Task</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="milestone ms-start" style="left: 0%;"></div>
+      <div class="task-bar bar-strategic" style="left: 2%; width: 42%;"></div>
+      <div class="milestone ms-mvp" style="left: 30%;"></div>
+      <div class="ms-label" style="left: 28%;">MVP</div>
+      <div class="milestone ms-final" style="left: 45%;"></div>
+      <div class="ms-label" style="left: 43%;">FINAL</div>
+    </div>
+  </div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">Link Gestionale</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="milestone ms-start" style="left: 6%;"></div>
+      <div class="task-bar bar-strategic" style="left: 8%; width: 50%;"></div>
+      <div class="milestone ms-mvp" style="left: 38%;"></div>
+      <div class="ms-label" style="left: 36%;">MVP</div>
+      <div class="milestone ms-final" style="left: 59%;"></div>
+      <div class="ms-label" style="left: 57%;">FINAL</div>
+    </div>
+  </div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">Flow Task Mgmt</div>
+      <div class="task-detail">Orchestratore</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="milestone ms-start" style="left: 18%;"></div>
+      <div class="task-bar bar-strategic" style="left: 20%; width: 40%;"></div>
+      <div class="milestone ms-mvp" style="left: 48%;"></div>
+      <div class="ms-label" style="left: 46%;">MVP</div>
+      <div class="task-bar bar-followup" style="left: 62%; width: 24%; opacity: 0.6;"></div>
+      <div class="milestone ms-final" style="left: 87%;"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Priority 3 -->
+<div class="priority-group">
+  <div class="priority-label priority-3">PRIORITÀ 3 — A SEGUIRE</div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">OnSite App</div>
+      <div class="task-detail">Up-sell per evento</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="milestone ms-start" style="left: 32%;"></div>
+      <div class="task-bar bar-followup" style="left: 34%; width: 54%;"></div>
+      <div class="milestone ms-mvp" style="left: 60%;"></div>
+      <div class="milestone ms-mvp" style="left: 78%;"></div>
+      <div class="milestone ms-final" style="left: 89%;"></div>
+    </div>
+  </div>
+
+  <div class="task-row">
+    <div class="task-info">
+      <div class="task-name">Sally 360°</div>
+    </div>
+    <div class="task-bar-area">
+      <div class="sally-dots" style="left: 0%; width: 92%;"></div>
+      <div class="milestone ms-mvp" style="left: 12%;"></div>
+      <div class="milestone ms-mvp" style="left: 34%;"></div>
+      <div class="milestone ms-mvp" style="left: 48%;"></div>
+      <div class="milestone ms-mvp" style="left: 60%;"></div>
+      <div class="milestone ms-final" style="left: 92%;"></div>
+      <div class="sally-note" style="left: 10%;">Sally cresce con ogni rilascio — si completa con l'ultimo modulo</div>
+    </div>
+  </div>
+</div>
+
+<!-- Legend -->
+<div class="legend-row">
+  <div class="legend-item"><div class="legend-dot ms-start"></div> Avvio progetto</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#bee3f8;border:2px solid #63b3ed;"></div> MVP rilasciato</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#2d3748;"></div> Consegna finale</div>
+  <div class="legend-item"><div class="legend-bar bar-quickwin"></div> Quick Win</div>
+  <div class="legend-item"><div class="legend-bar bar-strategic"></div> Strategica</div>
+  <div class="legend-item"><div class="legend-bar bar-followup"></div> A seguire</div>
+  <div class="legend-item"><div class="legend-bar" style="background:#edf2f7;border:1px dashed #cbd5e0;"></div> Pausa agosto</div>
+  <span style="margin-left: 20px;" class="highlight-text">3 Quick Wins in 5 settimane</span>
+  <span style="color:#a0aec0;font-size:10px;">| Ecosistema completo: novembre 2026</span>
+</div>
+
+<div class="footer-note">Timeline indicativa soggetta a validazione tecnica. Rilasci incrementali con test utente tra le fasi. Ogni tranche di pagamento è legata a un rilascio.</div>
+
+</body>
+</html>

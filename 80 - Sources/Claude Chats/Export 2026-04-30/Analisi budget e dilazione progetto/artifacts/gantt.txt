@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 820" width="1800" height="820">
+  <defs>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E2A3A"/>
+      <stop offset="100%" stop-color="#2A3F55"/>
+    </linearGradient>
+    <linearGradient id="blueBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E75B6"/>
+      <stop offset="100%" stop-color="#4A9AD9"/>
+    </linearGradient>
+    <linearGradient id="navyBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E2A3A"/>
+      <stop offset="100%" stop-color="#3A5570"/>
+    </linearGradient>
+    <linearGradient id="tealBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B7A6D"/>
+      <stop offset="100%" stop-color="#2BA08F"/>
+    </linearGradient>
+    <filter id="shadow" x="-2%" y="-4%" width="104%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#1E2A3A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <rect width="1800" height="820" fill="white"/>
+
+  <!-- Title -->
+  <text x="900" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#1E2A3A">Roadmap di Sviluppo — 2026</text>
+  <text x="900" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#666666">Timeline indicativa con rilasci incrementali. Partenza: ultima settimana di marzo. Pausa: agosto.</text>
+
+  <!-- === GRID SETUP === -->
+  <!-- Months: Mar, Apr, Mag, Giu, Lug, Ago, Set, Ott, Nov = 9 months -->
+  <!-- Label area: 0-310px. Chart area: 320-1750px = 1430px / 9 months = ~159px each -->
+  <!-- Month positions: -->
+  <!-- Mar: 320, Apr: 479, Mag: 638, Giu: 797, Lug: 956, Ago: 1115, Set: 1274, Ott: 1433, Nov: 1592, End: 1750 -->
+
+  <!-- Month header bar -->
+  <rect x="320" y="90" width="1430" height="36" rx="6" fill="#F5F6F7"/>
+
+  <!-- Month labels -->
+  <text x="399" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">MAR</text>
+  <text x="558" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">APR</text>
+  <text x="717" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">MAG</text>
+  <text x="876" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">GIU</text>
+  <text x="1035" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">LUG</text>
+  <text x="1194" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#888888">AGO</text>
+  <text x="1353" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">SET</text>
+  <text x="1512" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">OTT</text>
+  <text x="1671" y="114" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">NOV</text>
+
+  <!-- Vertical grid lines (month boundaries) -->
+  <line x1="479" y1="90" x2="479" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="638" y1="90" x2="638" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="797" y1="90" x2="797" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="956" y1="90" x2="956" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="1115" y1="90" x2="1115" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="1274" y1="90" x2="1274" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="1433" y1="90" x2="1433" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+  <line x1="1592" y1="90" x2="1592" y2="700" stroke="#E8E8E8" stroke-width="1"/>
+
+  <!-- August pause highlight -->
+  <rect x="1115" y="126" width="159" height="574" fill="#F8F8F8" opacity="0.8"/>
+  <text x="1194" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#BBBBBB" letter-spacing="1">PAUSA</text>
+
+  <!-- === PRIORITY 1: QUICK WINS === -->
+  <rect x="30" y="140" width="10" height="155" rx="5" fill="#2E75B6"/>
+  <text x="55" y="155" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#2E75B6" letter-spacing="1">PRIORITÀ 1 — QUICK WINS</text>
+
+  <!-- Row 1: Venue Finder (Mar → Apr) -->
+  <text x="100" y="192" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Venue Finder Evo</text>
+  <text x="100" y="207" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€8.000 · €36.400/anno</text>
+  <rect x="340" y="182" width="218" height="24" rx="4" fill="url(#blueBar)" filter="url(#shadow)"/>
+  <circle cx="340" cy="194" r="5" fill="white" stroke="#2E75B6" stroke-width="2"/>
+  <circle cx="479" cy="194" r="5" fill="#2E75B6"/>
+  <circle cx="558" cy="194" r="5" fill="#2E75B6"/>
+  <text x="399" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="white">DEV</text>
+  <text x="522" y="198" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="bold" fill="white">✓</text>
+
+  <!-- Row 2: Minutes Ext (Mar → Apr) -->
+  <text x="100" y="242" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Minutes Ext</text>
+  <text x="100" y="257" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€9.000 · +40% copertura</text>
+  <rect x="340" y="232" width="218" height="24" rx="4" fill="url(#blueBar)" filter="url(#shadow)"/>
+  <circle cx="340" cy="244" r="5" fill="white" stroke="#2E75B6" stroke-width="2"/>
+  <circle cx="479" cy="244" r="5" fill="#2E75B6"/>
+  <circle cx="558" cy="244" r="5" fill="#2E75B6"/>
+
+  <!-- Row 3: Crowd (Mar → Mag) -->
+  <text x="100" y="292" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Crowd Incassi</text>
+  <text x="100" y="307" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€15.000 · Revenue ricorrente</text>
+  <rect x="340" y="282" width="378" height="24" rx="4" fill="url(#blueBar)" filter="url(#shadow)"/>
+  <circle cx="340" cy="294" r="5" fill="white" stroke="#2E75B6" stroke-width="2"/>
+  <circle cx="558" cy="294" r="5" fill="#2E75B6"/>
+  <circle cx="718" cy="294" r="5" fill="#2E75B6"/>
+
+  <!-- === PRIORITY 2: STRATEGIC === -->
+  <rect x="30" y="340" width="10" height="205" rx="5" fill="#1E2A3A"/>
+  <text x="55" y="355" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#1E2A3A" letter-spacing="1">PRIORITÀ 2 — STRATEGICHE</text>
+
+  <!-- Row 4: LeadMe (Mar → Giu) -->
+  <text x="100" y="392" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">LeadMe Evolution</text>
+  <text x="100" y="407" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€45.000 · Pipeline + CRM + Task</text>
+  <rect x="340" y="382" width="537" height="24" rx="4" fill="url(#navyBar)" filter="url(#shadow)"/>
+  <circle cx="340" cy="394" r="5" fill="white" stroke="#1E2A3A" stroke-width="2"/>
+  <circle cx="638" cy="394" r="5" fill="#D5E8F0"/>
+  <text x="635" y="375" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A" font-weight="bold">MVP</text>
+  <circle cx="877" cy="394" r="5" fill="#1E2A3A"/>
+  <text x="877" y="375" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A" font-weight="bold">FINAL</text>
+
+  <!-- Row 5: Link (Apr → Lug) -->
+  <text x="100" y="442" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Link Gestionale</text>
+  <text x="100" y="457" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€80.000 · €60.000/anno</text>
+  <rect x="479" y="432" width="557" height="24" rx="4" fill="url(#navyBar)" filter="url(#shadow)"/>
+  <circle cx="479" cy="444" r="5" fill="white" stroke="#1E2A3A" stroke-width="2"/>
+  <circle cx="797" cy="444" r="5" fill="#D5E8F0"/>
+  <text x="797" y="425" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A" font-weight="bold">MVP</text>
+  <circle cx="1036" cy="444" r="5" fill="#1E2A3A"/>
+  <text x="1036" y="425" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A" font-weight="bold">FINAL</text>
+
+  <!-- Row 6: Flow (Mag → Set) -->
+  <text x="100" y="492" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Flow Task Mgmt</text>
+  <text x="100" y="507" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€50.000 · Orchestratore</text>
+  <rect x="638" y="482" width="636" height="24" rx="4" fill="url(#navyBar)" filter="url(#shadow)"/>
+  <circle cx="638" cy="494" r="5" fill="white" stroke="#1E2A3A" stroke-width="2"/>
+  <circle cx="956" cy="494" r="5" fill="#D5E8F0"/>
+  <text x="956" y="475" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1E2A3A" font-weight="bold">MVP</text>
+  <circle cx="1274" cy="494" r="5" fill="#1E2A3A"/>
+  <!-- Aug pause: bar continues through but paused -->
+  <rect x="1115" y="482" width="159" height="24" fill="#F8F8F8" opacity="0.5"/>
+  <text x="1194" y="498" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#AAA">pausa</text>
+
+  <!-- === PRIORITY 3: A SEGUIRE === -->
+  <rect x="30" y="540" width="10" height="155" rx="5" fill="#1B7A6D"/>
+  <text x="55" y="555" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" fill="#1B7A6D" letter-spacing="1">PRIORITÀ 3 — A SEGUIRE</text>
+
+  <!-- Row 7: OnSite (Giu → Ott) -->
+  <text x="100" y="592" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">OnSite App</text>
+  <text x="100" y="607" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€35.000 · Up-sell per evento</text>
+  <rect x="797" y="582" width="636" height="24" rx="4" fill="url(#tealBar)" filter="url(#shadow)"/>
+  <circle cx="797" cy="594" r="5" fill="white" stroke="#1B7A6D" stroke-width="2"/>
+  <circle cx="1274" cy="594" r="5" fill="#D5E8F0"/>
+  <circle cx="1433" cy="594" r="5" fill="#1B7A6D"/>
+  <rect x="1115" y="582" width="159" height="24" fill="#F8F8F8" opacity="0.5"/>
+  <text x="1194" y="598" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#AAA">pausa</text>
+
+  <!-- Row 8: Sally (Mar → Nov, trasversale) -->
+  <text x="100" y="642" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#1E2A3A">Sally 360°</text>
+  <text x="100" y="657" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#888888">€85.000 · €77.486/anno</text>
+  <rect x="340" y="632" width="1332" height="24" rx="4" fill="url(#tealBar)" opacity="0.7" filter="url(#shadow)"/>
+  <!-- Sally milestone dots at each module completion -->
+  <circle cx="340" cy="644" r="5" fill="white" stroke="#1B7A6D" stroke-width="2"/>
+  <circle cx="558" cy="644" r="4" fill="#1B7A6D" opacity="0.5"/>
+  <circle cx="877" cy="644" r="4" fill="#1B7A6D" opacity="0.5"/>
+  <circle cx="1036" cy="644" r="4" fill="#1B7A6D" opacity="0.5"/>
+  <circle cx="1433" cy="644" r="5" fill="#D5E8F0"/>
+  <circle cx="1672" cy="644" r="5" fill="#1B7A6D"/>
+  <rect x="1115" y="632" width="159" height="24" fill="#F8F8F8" opacity="0.5"/>
+  <text x="1194" y="648" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="8" fill="#AAA">pausa</text>
+  <text x="340" y="669" font-family="Arial, Helvetica, sans-serif" font-size="9" fill="#1B7A6D" font-style="italic">Sally cresce con ogni rilascio — si completa con l'ultimo modulo</text>
+
+  <!-- === LEGEND === -->
+  <rect x="30" y="710" width="1725" height="50" rx="8" fill="#F8F9FA" stroke="#E8E8E8" stroke-width="1"/>
+
+  <circle cx="60" cy="735" r="5" fill="white" stroke="#1E2A3A" stroke-width="2"/>
+  <text x="75" y="740" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Avvio progetto</text>
+
+  <circle cx="210" cy="735" r="5" fill="#D5E8F0"/>
+  <text x="225" y="740" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">MVP rilasciato</text>
+
+  <circle cx="360" cy="735" r="5" fill="#1E2A3A"/>
+  <text x="375" y="740" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Consegna finale</text>
+
+  <rect x="520" y="728" width="40" height="14" rx="3" fill="url(#blueBar)"/>
+  <text x="570" y="740" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Quick Win</text>
+
+  <rect x="660" y="728" width="40" height="14" rx="3" fill="url(#navyBar)"/>
+  <text x="710" y="740" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Strategica</text>
+
+  <rect x="800" y="728" width="40" height="14" rx="3" fill="url(#tealBar)"/>
+  <text x="850" y="740" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">A seguire</text>
+
+  <rect x="970" y="726" width="50" height="18" rx="3" fill="#F8F8F8" stroke="#DDD" stroke-width="1"/>
+  <text x="1030" y="740" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#444444">Pausa agosto</text>
+
+  <!-- Delivery summary -->
+  <text x="1350" y="740" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" fill="#1E2A3A">3 Quick Wins in 5 settimane</text>
+  <text x="1555" y="740" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#666666">|  Ecosistema completo: novembre 2026</text>
+
+  <!-- Footer note -->
+  <text x="900" y="790" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#AAAAAA">Timeline indicativa soggetta a validazione tecnica. Rilasci incrementali con test utente tra le fasi. Ogni tranche di pagamento è legata a un rilascio.</text>
+
+</svg>

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard progetto Achipoint — PM</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1a1a1a;
+    background: #f7f6f2;
+    margin: 0;
+    padding: 24px;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 26px; font-weight: 600; margin: 0 0 4px; color: #074F6A; }
+  h2 { font-size: 18px; font-weight: 500; margin: 0 0 12px; }
+  h3 { font-size: 15px; font-weight: 500; margin: 0 0 8px; }
+  p { margin: 0; }
+  .muted { color: #666; font-size: 14px; }
+  .hint { color: #999; font-size: 13px; font-style: italic; }
+  .card { background: #fff; border: 1px solid #e5e3dc; border-radius: 10px; padding: 16px 20px; margin-bottom: 12px; }
+  .card-muted { background: #f0ede4; border-radius: 10px; padding: 14px 18px; margin-bottom: 12px; }
+  .header {
+    background: #fff; border: 1px solid #e5e3dc; border-radius: 12px;
+    padding: 20px 24px; margin-bottom: 20px;
+  }
+  .header .brand { font-size: 11px; text-transform: uppercase; letter-spacing: 1.5px; color: #666; margin-bottom: 8px; }
+  .intro-box {
+    background: #f0ede4; border-radius: 8px; padding: 14px 16px; margin-bottom: 20px;
+    font-size: 13.5px; line-height: 1.7;
+  }
+  .intro-box strong { color: #1a1a1a; }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+  .stat { background: #fff; border: 1px solid #e5e3dc; border-radius: 8px; padding: 14px 16px; }
+  .stat-label { font-size: 12px; color: #666; text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-val { font-size: 28px; font-weight: 500; margin-top: 4px; color: #074F6A; }
+  .bar { height: 6px; background: #e5e3dc; border-radius: 3px; overflow: hidden; margin-top: 8px; }
+  .bar-fill { height: 100%; background: #1D9E75; border-radius: 3px; transition: width 0.3s; }
+  .tab-bar { display: flex; gap: 0; margin-bottom: 20px; border-bottom: 1px solid #e5e3dc; align-items: center; }
+  .tab {
+    padding: 10px 18px; font-size: 14px; cursor: pointer; border: none; background: transparent;
+    color: #666; border-bottom: 2px solid transparent; margin-bottom: -1px; font-family: inherit;
+  }
+  .tab.active { color: #074F6A; border-bottom-color: #074F6A; font-weight: 500; }
+  .tab:hover { color: #1a1a1a; }
+  .save-indicator { margin-left: auto; font-size: 12px; color: #999; padding-right: 4px; }
+  .view { display: none; }
+  .view.active { display: block; }
+  .toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 14px; }
+  .toolbar button {
+    font-size: 12.5px; padding: 6px 12px; border: 1px solid #d0cec5; background: #fff;
+    border-radius: 6px; cursor: pointer; font-family: inherit; color: #1a1a1a;
+  }
+  .toolbar button:hover { background: #f5f3ed; }
+  .toolbar button.active { background: #E6F1FB; color: #0C447C; border-color: #B5D4F4; }
+  .stream { margin-bottom: 14px; }
+  .stream-head {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 12px 14px; background: #f0ede4; border-radius: 8px; cursor: pointer;
+    margin-bottom: 8px; user-select: none;
+  }
+  .stream-head:hover { background: #e9e6da; }
+  .stream-title { font-size: 15px; font-weight: 500; }
+  .stream-progress { font-size: 12px; color: #666; }
+  .stream-chev { display: inline-block; width: 12px; margin-right: 8px; transition: transform 0.15s; font-size: 11px; }
+  .stream.open .stream-chev { transform: rotate(90deg); }
+  .stream-body { padding-left: 8px; display: none; }
+  .stream.open .stream-body { display: block; }
+  .task {
+    border: 1px solid #e5e3dc; border-radius: 8px; padding: 12px 14px;
+    margin-bottom: 8px; background: #fff;
+  }
+  .task.done-task { background: #f9f8f4; border-color: #e5e3dc; }
+  .task-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; cursor: pointer; user-select: none; }
+  .task-title { font-size: 14.5px; font-weight: 500; flex: 1; line-height: 1.4; }
+  .task.done-task .task-title { text-decoration: line-through; color: #888; }
+  .task-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 6px; font-size: 12px; color: #666; }
+  .task-meta > span.stream-ref { font-style: italic; }
+  .toggle-icon { font-size: 18px; color: #999; font-weight: 300; }
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 6px;
+    font-size: 11.5px; font-weight: 500; border: 1px solid;
+  }
+  .badge-todo { background: #f5f3ed; color: #666; border-color: #d0cec5; }
+  .badge-doing { background: #E6F1FB; color: #0C447C; border-color: #B5D4F4; }
+  .badge-blocked { background: #FAEEDA; color: #633806; border-color: #FAC775; }
+  .badge-done { background: #E1F5EE; color: #085041; border-color: #9FE1CB; }
+  .prio {
+    padding: 2px 6px; border-radius: 4px; font-size: 10.5px;
+    font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px;
+  }
+  .prio-high { background: #FCEBEB; color: #791F1F; }
+  .prio-med { background: #FAEEDA; color: #633806; }
+  .prio-low { background: #f5f3ed; color: #666; }
+  .task-body { margin-top: 14px; padding-top: 14px; border-top: 1px solid #e5e3dc; display: none; }
+  .task.open .task-body { display: block; }
+  .why-box {
+    background: #EEEDFE; border-left: 3px solid #7F77DD;
+    padding: 12px 14px; margin: 10px 0; font-size: 13.5px;
+    color: #26215C; line-height: 1.65; border-radius: 4px;
+  }
+  .why-box strong { color: #3C3489; }
+  .warn-box {
+    background: #FCEBEB; border-left: 3px solid #E24B4A;
+    padding: 12px 14px; margin: 10px 0; font-size: 13.5px;
+    color: #791F1F; line-height: 1.65; border-radius: 4px;
+  }
+  .warn-box strong { color: #501313; }
+  .section-label {
+    font-size: 11.5px; margin: 14px 0 6px; color: #666;
+    text-transform: uppercase; letter-spacing: 0.8px; font-weight: 600;
+  }
+  .checklist { margin: 8px 0 14px; }
+  .check-item {
+    display: flex; align-items: flex-start; gap: 10px;
+    padding: 5px 0; font-size: 13.5px; line-height: 1.55;
+  }
+  .check-item input[type="checkbox"] { margin-top: 3px; flex-shrink: 0; cursor: pointer; width: 15px; height: 15px; }
+  .check-item label { cursor: pointer; flex: 1; }
+  .check-item.checked label { text-decoration: line-through; color: #999; }
+  .notes-area textarea {
+    width: 100%; min-height: 70px; font-family: inherit; font-size: 13px;
+    padding: 10px; box-sizing: border-box; border: 1px solid #d0cec5;
+    border-radius: 6px; resize: vertical; background: #fefdfa;
+  }
+  .notes-area textarea:focus { outline: none; border-color: #074F6A; }
+  .controls { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 12px; padding-top: 12px; border-top: 1px solid #f0ede4; }
+  .controls select {
+    font-size: 13px; padding: 6px 10px; border: 1px solid #d0cec5;
+    border-radius: 6px; font-family: inherit; background: #fff; cursor: pointer;
+  }
+  .controls select:focus { outline: none; border-color: #074F6A; }
+  .cheat-item {
+    font-size: 13.5px; padding: 12px 14px; background: #fff;
+    border: 1px solid #e5e3dc; border-radius: 8px; line-height: 1.6; margin-bottom: 8px;
+  }
+  .cheat-item strong { color: #074F6A; }
+  .timeline-week { margin-bottom: 14px; }
+  .timeline-week h3 { color: #074F6A; margin-bottom: 10px; font-size: 15px; }
+  .timeline-item {
+    font-size: 13.5px; padding: 10px 14px; background: #fff; border: 1px solid #e5e3dc;
+    border-radius: 6px; margin-bottom: 6px; line-height: 1.5;
+  }
+  .timeline-item strong { color: #1a1a1a; }
+  .small { font-size: 12.5px; color: #666; }
+  @media (max-width: 700px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    body { padding: 16px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="header">
+  <div class="brand">HeyAI S.r.l. — gestione progetto</div>
+  <h1>Dashboard progetto Achipoint</h1>
+  <p class="muted">Guida operativa per portare a casa la proposta commerciale di Achipoint. Ogni task ha il suo "perché", una checklist e uno spazio note. I dati si salvano automaticamente nel browser.</p>
+</div>
+
+<div class="intro-box" id="intro">
+  <strong>Come usarla ogni mattina:</strong> apri la dashboard, guarda la tab "Oggi" — sono i task prioritari da affrontare. Clicca su un task per espanderlo: troverai il contesto, la checklist e uno spazio per appuntarti dubbi. Se un task non è chiaro, scrivi la domanda nello spazio note e parliamone.
+  <br><br>
+  <strong>Convenzioni:</strong> <span class="prio prio-high">Alta</span> task che sbloccano altri o hanno scadenza vicina. <span class="prio prio-med">Media</span> importanti ma non bloccanti. <span class="badge badge-blocked">Bloccato</span> significa che stai aspettando un input esterno — segnalamelo subito, non restare fermo.
+  <br><br>
+  <strong>Backup:</strong> usa il pulsante "Esporta JSON" nella vista completa per salvare lo stato. Riportamelo almeno una volta a settimana così vedo dove sei.
+  <button onclick="document.getElementById('intro').style.display='none'" style="float: right; font-size: 11px; padding: 3px 10px; margin-top: -4px; border: 1px solid #d0cec5; background: #fff; border-radius: 4px; cursor: pointer;">Nascondi</button>
+</div>
+
+<div class="stats" id="stats"></div>
+
+<div class="tab-bar">
+  <button class="tab active" data-view="today">Oggi</button>
+  <button class="tab" data-view="all">Vista completa</button>
+  <button class="tab" data-view="cheat">Cheat-sheet</button>
+  <button class="tab" data-view="timeline">Timeline</button>
+  <span class="save-indicator" id="save-ind">salvato automaticamente</span>
+</div>
+
+<div class="view active" id="view-today">
+  <div class="toolbar">
+    <span class="muted">Priorità alta aperti, in corso o bloccati — è qui che devi concentrare l'attenzione oggi:</span>
+  </div>
+  <div id="today-list"></div>
+</div>
+
+<div class="view" id="view-all">
+  <div class="toolbar">
+    <span class="muted">Filtra per stato:</span>
+    <button class="active" data-filter="all">Tutti</button>
+    <button data-filter="todo">Da fare</button>
+    <button data-filter="doing">In corso</button>
+    <button data-filter="blocked">Bloccati</button>
+    <button data-filter="done">Fatti</button>
+    <span style="margin-left: auto; display: flex; gap: 6px;">
+      <button onclick="exportJSON()">Esporta JSON</button>
+      <button onclick="document.getElementById('import-file').click()">Importa</button>
+      <input type="file" id="import-file" accept=".json" style="display:none" onchange="importJSON(event)" />
+      <button onclick="resetAll()">Reset</button>
+    </span>
+  </div>
+  <div id="all-list"></div>
+</div>
+
+<div class="view" id="view-cheat">
+  <h2 style="margin-bottom: 14px;">Cose da non dimenticare mai</h2>
+  <div id="cheat-list"></div>
+</div>
+
+<div class="view" id="view-timeline">
+  <h2 style="margin-bottom: 6px;">Vista settimanale</h2>
+  <p class="muted" style="margin-bottom: 18px;">Indicativa — si aggiorna man mano che i task vengono completati. Le settimane sono dal momento in cui ricevi il brief degli sviluppatori.</p>
+  <div id="timeline-list"></div>
+</div>
+
+</div>
+
+<script>
+const STORAGE_KEY = 'achipoint-pm-dashboard-v1';
+
+const STREAMS = [
+  { id: 's1', name: 'Stream 1 — Quotazione sviluppatori', week: 1, tasks: [
+    { id: 't1_1', title: 'Invio brief sviluppatori a Federico, Simone, Andrea', prio: 'high',
+      why: "Questo è il task che sblocca tutto il resto. Senza le quotazioni non puoi costruire il prezzo commerciale. Presenta il brief a voce durante la call di passaggio consegne — ti permette di leggere le reazioni e capire se qualcuno sta per gonfiare il prezzo.",
+      checklist: [
+        "Preparare email di invio brief con deadline risposta (7-10 giorni lavorativi)",
+        "Schedulare call di passaggio consegne di 45 minuti con Federico e Simone",
+        "Call separata o email a Andrea Pasquali (benchmark indipendente)",
+        "Confermare che il brief è considerato riservato e non condivisibile",
+        "Annotare eventuali domande o obiezioni emerse in call"
+      ],
+      warn: "Non mandare il brief in copia a nessuno oltre ai 3 destinatari. Contiene nome cliente e dettagli di progetto." },
+    { id: 't1_2', title: 'Raccolta e triangolazione delle quotazioni', prio: 'high',
+      why: "Tre stime separate (Federico+Simone insieme, Andrea in autonomia) ti permettono di vedere dove i numeri divergono. È il meccanismo anti-gonfiaggio principale: se su una voce specifica la differenza è sopra il 30%, chiedi chiarimento scritto.",
+      checklist: [
+        "Ricevere quotazione Federico/Simone per MVP (moduli A+B)",
+        "Ricevere quotazione Federico/Simone per opzionali MVP",
+        "Ricevere quotazione Federico/Simone per Fase 2 (C+D+ADR)",
+        "Ricevere quotazione Andrea Pasquali equivalente",
+        "Costruire tabella di confronto voce per voce in un foglio Excel",
+        "Identificare voci con divergenza oltre il 30% e chiedere giustificazione scritta",
+        "Condividere tabella di confronto con Carlo prima di consolidare"
+      ] },
+    { id: 't1_3', title: 'Consolidamento costo interno baseline', prio: 'high',
+      why: "Una volta triangolate le quotazioni, arrivi al numero che effettivamente ti costa il progetto. Da qui parte il pricing al cliente. Tieni questo numero in un file riservato, non condividerlo mai oltre te e Carlo.",
+      checklist: [
+        "Sommare giornate consolidate per modulo",
+        "Applicare tariffa interna (chiedi a Carlo il riferimento)",
+        "Aggiungere costi ricorrenti (licenze LLM, servizi terzi)",
+        "Salvare il file in cartella riservata su Drive HeyAI",
+        "Non condividere con il cliente né con gli sviluppatori"
+      ],
+      warn: "Informazione interna top-secret. Neanche per sbaglio mandarla al cliente." }
+  ]},
+
+  { id: 's2', name: 'Stream 2 — Business case per la proposta', week: 3, tasks: [
+    { id: 't2_1', title: 'Proiezione economica del ritorno per il cliente', prio: 'high',
+      why: "Il cliente deve vedere che l'investimento si ripaga. La formula è semplice: bandi intercettati all'anno × probabilità aggiudicazione × importo medio × margine % = ritorno annuo. Diviso per il prezzo della proposta ti dà il payback in mesi. Senza questo, la proposta è solo un preventivo.",
+      checklist: [
+        "Recuperare margini dichiarati dal questionario (risposta 5.1)",
+        "Recuperare interesse economico dal questionario (risposta 3.2)",
+        "Attendere stima volumi da analisi BDNCP (stream 3)",
+        "Ipotizzare tasso di aggiudicazione prudenziale (10-20% primi tentativi)",
+        "Calcolare ritorno annuo atteso in tre scenari",
+        "Calcolare payback in mesi per ciascuno scenario"
+      ] },
+    { id: 't2_2', title: 'Analisi di sensibilità a tre scenari', prio: 'med',
+      why: "Quando il cliente leggerà la proposta si chiederà 'e se vinciamo meno di quanto dite?'. Devi avere pronta la risposta: anche nello scenario conservativo il payback è accettabile. Non avere questa analisi = perdi credibilità commerciale.",
+      checklist: [
+        "Scenario conservativo: bandi intercettati dimezzati, aggiudicazione 5%",
+        "Scenario realistico: valori medi",
+        "Scenario ottimistico: valori alti coerenti con capacity del cliente",
+        "Verificare che anche scenario conservativo mostri ritorno positivo entro 18-24 mesi"
+      ] },
+    { id: 't2_3', title: 'Definizione del pricing commerciale', prio: 'high',
+      why: "Qui devi tenere insieme tre cose: copertura del costo interno con margine, percezione di valore (il cliente ha come alternativa un apprendista a ~15K euro anno), e sensibilità del cliente. Il prezzo è una scelta strategica, non una formula meccanica.",
+      checklist: [
+        "Applicare markup 2x su costo interno (metodologia HeyAI)",
+        "Confrontare con ancoraggio cliente (15K euro anno apprendista)",
+        "Decidere struttura: fee una-tantum + mantenimento annuo, o solo una-tantum",
+        "Proporre milestone di pagamento (tipico: 35/30/35)",
+        "Allineare con Carlo prima di finalizzare"
+      ],
+      warn: "Se il prezzo MVP anno 1 supera 1,5 volte il costo annuo dell'apprendista, parlane con Carlo prima di procedere." }
+  ]},
+
+  { id: 's3', name: 'Stream 3 — Analisi tecnica fonti BDNCP', week: 1, tasks: [
+    { id: 't3_1', title: 'Analisi campione BDNCP per stima volumi', prio: 'high',
+      why: "Il cliente non sa quanti bandi al mese il sistema intercetterà: non lo ha mai misurato. Dobbiamo dirglielo noi con dati certi. Questa analisi alimenta il business case (stream 2) e difende la proposta se gli sviluppatori tentano di gonfiare.",
+      checklist: [
+        "Accedere al portale dati.anticorruzione.it",
+        "Esplorare dataset aperti BDNCP e struttura dei campi disponibili",
+        "Scaricare campione ultimo trimestre filtrato per CPV edilizia",
+        "Filtrare manualmente per fascia 40K-250K euro, geografia Lazio + 4 regioni target",
+        "Applicare filtri parole chiave Achipoint (ponteggi, opere strutturali, ecc.)",
+        "Conteggiare bandi/mese in target",
+        "Produrre foglio di sintesi per Carlo con numeri e metodologia"
+      ] },
+    { id: 't3_2', title: 'Validazione tecnica dei campi esposti da BDNCP', prio: 'med',
+      why: "Prima di firmare il contratto dobbiamo essere sicuri che l'API ANAC esponga tutti i dati necessari per il matching: oggetto del bando, importo, stazione appaltante, documenti allegati, requisiti SOA. Se manca qualcosa dobbiamo saperlo prima, non dopo la firma.",
+      checklist: [
+        "Verificare presenza campi critici nell'API",
+        "Verificare accessibilità dei documenti di gara allegati",
+        "Verificare frequenza di aggiornamento reale dei dataset",
+        "Segnalare a Carlo eventuali gap prima della firma del contratto"
+      ] }
+  ]},
+
+  { id: 's4', name: 'Stream 4 — Requirement Log contrattuale', week: 3, tasks: [
+    { id: 't4_1', title: 'Costruzione del Requirement Log', prio: 'high',
+      why: "Il Requirement Log è un allegato vincolante del contratto. Ogni cosa che il cliente si aspetta deve essere qui. Se non c'è, il cliente può chiederla come change request pagata; se c'è ma è vaga, la paga HeyAI. Essere precisi ora = protezione commerciale dopo.",
+      checklist: [
+        "Requisiti funzionali MVP moduli A e B (15-20 voci stimate)",
+        "Requisiti funzionali opzionali MVP (notifiche, aggiornamento automatico)",
+        "Requisiti funzionali Fase 2 (moduli C e D)",
+        "Requisiti non funzionali (performance, sicurezza, GDPR, volumi)",
+        "Esclusioni esplicite (portali proprietari non ADR, TED, Incentivi.gov.it, app mobile, CRM esterni)",
+        "Ipotesi e vincoli tecnici",
+        "Ogni requisito ha: ID stabile, descrizione, fase, stato, priorità",
+        "Review con Carlo prima di allegarlo al contratto"
+      ],
+      warn: "L'ID del requisito non cambia più una volta assegnato. Se aggiungi nuovi requisiti, continua la numerazione — non rinumerare mai quelli esistenti." }
+  ]},
+
+  { id: 's5', name: 'Stream 5 — Proposta commerciale', week: 4, tasks: [
+    { id: 't5_1', title: 'Stesura proposta di investimento Achipoint', prio: 'high',
+      why: "È il documento che il cliente leggerà per decidere se firmare. Deve essere chiaro, credibile, ben impaginato. Il contenuto principale lo produci dagli altri stream: qui li metti insieme in un narrativo coerente.",
+      checklist: [
+        "Recuperare template Proposta di Investimento HeyAI da Drive",
+        "Executive summary (cosa, quanto, ritorno atteso)",
+        "Contesto e obiettivi (dal brief sviluppatori + call cliente)",
+        "Soluzione proposta descrittiva (non tecnica)",
+        "Perimetro MVP e Fase 2",
+        "Proiezione economica (da stream 2)",
+        "Investimento proposto e modalità di pagamento",
+        "Tempistiche e governance",
+        "Termini e condizioni",
+        "Prossimi passi per il cliente",
+        "Review con Carlo"
+      ] },
+    { id: 't5_2', title: 'Preparazione mini-demo per la call di presentazione', prio: 'med',
+      why: "Il cliente ha un livello di alfabetizzazione digitale basso. Una demo vale mille slide di descrizione. Anche solo uno screenshot statico dell'interfaccia prevista comunica il valore molto meglio di una descrizione testuale.",
+      checklist: [
+        "Screenshot di esempio dell'interfaccia prevista",
+        "Oppure: prototipo FuturItaly in forma anonimizzata (chiedi a Carlo se usabile)",
+        "Preparare scaletta della call di presentazione (30-45 minuti)"
+      ] }
+  ]},
+
+  { id: 's6', name: 'Stream 6 — Contratto e formalizzazione', week: 5, tasks: [
+    { id: 't6_1', title: 'Stesura contratto di sviluppo', prio: 'med',
+      why: "Una volta approvata la proposta, il contratto chiude formalmente l'accordo. Parti dal template HeyAI e adatta. Gli errori qui costano tantissimo: non modificare clausole IP o responsabilità senza farle validare da Carlo.",
+      checklist: [
+        "Recuperare template contratto HeyAI da Drive",
+        "Adattare a Achipoint (controparti, importi, milestone)",
+        "Allegare Requirement Log come parte integrante",
+        "Milestone di pagamento coerenti con quelle della proposta",
+        "Clausole IP standard HeyAI",
+        "GDPR e DPA se applicabili",
+        "Review legale (se Carlo lo ritiene necessario)",
+        "Firma controparti"
+      ],
+      warn: "Non improvvisare sulle clausole. Tutto ciò che modifichi rispetto al template standard lo fai validare a Carlo." }
+  ]},
+
+  { id: 's7', name: 'Stream 7 — Coordinamento dual-project', week: 2, tasks: [
+    { id: 't7_1', title: 'Allineamento con Federico/Simone su componenti condivisi', prio: 'high',
+      why: "Achipoint e FuturItaly hanno lo stesso team sviluppo e componenti architetturali comuni (ingestion BDNCP, motore scoring, profilo configurabile). Se non coordini, rischi che un cliente paghi per sviluppo che beneficia anche all'altro, oppure che sviluppino la stessa cosa due volte. Entrambi scenari pessimi.",
+      checklist: [
+        "Definire quali componenti sono condivisi tra i due progetti",
+        "Definire cosa è specifico di ciascun progetto",
+        "Decidere modello economico di ripartizione (proporzionale al valore contratti, o investimento HeyAI)",
+        "Definire repository/codebase comune se applicabile",
+        "Calendario coordinato tra i due progetti per evitare colli di bottiglia",
+        "Documento di governance condiviso con il team"
+      ] }
+  ]},
+
+  { id: 's8', name: 'Stream 8 — Gestione relazione cliente', week: 1, tasks: [
+    { id: 't8_1', title: 'Email di conferma ricezione questionario', prio: 'high',
+      why: "Questa è la prima cosa da fare. Il cliente ha compilato il questionario e ora aspetta. Dieci giorni di silenzio significano cliente che pensa che non ci interessa. Una conferma di ricezione di 3 righe evita mesi di tensione.",
+      checklist: [
+        "Email breve al cliente confermando ricezione",
+        "Indicare timeline indicativa per la proposta (entro settimana X)",
+        "Lasciare aperta porta a domande intermedie"
+      ] },
+    { id: 't8_2', title: 'Comunicazione intermedia a metà percorso', prio: 'med',
+      why: "Dopo 10-14 giorni dal questionario, se ancora non hai la proposta pronta, il cliente va aggiornato. Anche solo 'stiamo finalizzando l'analisi fonti e la proposta, torniamo entro X' è meglio del silenzio. Mai saltare questa comunicazione.",
+      checklist: [
+        "Email breve a metà percorso",
+        "Aggiornamento onesto sullo stato (senza dettagli interni)",
+        "Conferma della prossima scadenza"
+      ] },
+    { id: 't8_3', title: 'Programmazione call di presentazione proposta', prio: 'high',
+      why: "La proposta non si manda via email e basta. Si presenta in call o di persona, si risponde alle obiezioni, si porta a casa la firma. Email con PDF = alta probabilità di 'ci pensiamo e ti sappiamo dire' che diventa mesi di limbo.",
+      checklist: [
+        "Proporre 2-3 slot di call al cliente una volta pronta la proposta",
+        "Meeting di persona se geograficamente fattibile (Roma)",
+        "Durata 45-60 minuti",
+        "Preparare mini-demo e scaletta (vedi stream 5)",
+        "Post-call: follow-up scritto con prossimi passi concordati"
+      ] },
+    { id: 't8_4', title: 'Gestione iterazioni commerciali post-presentazione', prio: 'med',
+      why: "È raro che una proposta venga accettata al primo colpo senza modifiche. Prepara la testa a iterazioni su pricing, perimetro, tempistiche. Non è un fallimento: è il processo commerciale normale.",
+      checklist: [
+        "Raccogliere feedback cliente dopo la call di presentazione",
+        "Valutare con Carlo quali modifiche accettare e quali no",
+        "Iterare la proposta (max 2-3 round, poi si chiude)",
+        "Stabilire un termine massimo di validità dell'offerta"
+      ] }
+  ]}
+];
+
+const CHEAT = [
+  { t: "Se sei bloccato più di 24 ore su un task, scrivimi.", b: "Non esiste che tu perda una giornata su qualcosa che io potrei sbloccare in 10 minuti." },
+  { t: "Ogni informazione sul cliente è riservata.", b: "Non condividere dettagli aziendali (fatturato, qualificazioni, contatti) con persone fuori HeyAI senza conferma." },
+  { t: "Le quotazioni degli sviluppatori vanno triangolate, non accettate.", b: "Se Federico/Simone e Andrea divergono più del 30% su una voce, chiedi giustificazione scritta." },
+  { t: "Il Requirement Log è un allegato contrattuale.", b: "Ogni voce ha un ID che non cambia più: servirà per gestire le change request durante lo sviluppo." },
+  { t: "Il cliente non deve rimanere senza notizie più di 10 giorni.", b: "Anche un messaggio 'stiamo lavorando alla proposta, torniamo entro X' è meglio del silenzio." },
+  { t: "Il markup di pricing standard HeyAI è 2x sul costo interno.", b: "Se la proposta si avvicina o supera il costo annuo dell'alternativa del cliente (apprendista ~15K euro/anno), discutiamone prima di mandarla." },
+  { t: "Achipoint e FuturItaly condividono il team sviluppo.", b: "Attenzione a non far pagare a un cliente componenti che beneficiano anche all'altro. Coordina con Carlo." },
+  { t: "Non promettere date che non controlli.", b: "Se Federico dice 'in 3 settimane', aggiungi sempre un buffer prima di dirlo al cliente." },
+  { t: "La dashboard si salva automaticamente nel browser che stai usando.", b: "Se cambi computer perdi lo stato. Usa 'Esporta JSON' almeno una volta a settimana e mandalo a Carlo come backup." }
+];
+
+let state = {};
+
+function loadState() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (raw) {
+      state = JSON.parse(raw);
+      return;
+    }
+  } catch(e) {}
+  state = {};
+  STREAMS.forEach(s => {
+    s.tasks.forEach(t => {
+      state[t.id] = { status: 'todo', checks: new Array(t.checklist.length).fill(false), notes: '', open: false };
+    });
+  });
+  state._streamsOpen = {};
+}
+
+function saveState() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    const ind = document.getElementById('save-ind');
+    if (ind) {
+      ind.textContent = 'salvato ' + new Date().toLocaleTimeString('it-IT', {hour:'2-digit', minute:'2-digit'});
+    }
+  } catch(e) {
+    const ind = document.getElementById('save-ind');
+    if (ind) ind.textContent = 'errore salvataggio!';
+  }
+}
+
+function computeStats() {
+  let total = 0, done = 0, doing = 0, blocked = 0, highOpen = 0;
+  STREAMS.forEach(s => s.tasks.forEach(t => {
+    total++;
+    const st = state[t.id] || {};
+    if (st.status === 'done') done++;
+    if (st.status === 'doing') doing++;
+    if (st.status === 'blocked') blocked++;
+    if (t.prio === 'high' && st.status !== 'done') highOpen++;
+  }));
+  return { total, done, doing, blocked, highOpen };
+}
+
+function renderStats() {
+  const s = computeStats();
+  const pct = s.total ? Math.round((s.done / s.total) * 100) : 0;
+  document.getElementById('stats').innerHTML =
+    '<div class="stat"><div class="stat-label">Completamento</div><div class="stat-val">' + pct + '%</div>' +
+    '<div class="bar"><div class="bar-fill" style="width:' + pct + '%"></div></div></div>' +
+    '<div class="stat"><div class="stat-label">Task in corso</div><div class="stat-val">' + s.doing + '</div></div>' +
+    '<div class="stat"><div class="stat-label">Bloccati</div><div class="stat-val" style="color:' + (s.blocked > 0 ? '#791F1F' : 'inherit') + '">' + s.blocked + '</div></div>' +
+    '<div class="stat"><div class="stat-label">Alta priorità aperti</div><div class="stat-val">' + s.highOpen + '</div></div>';
+}
+
+function prioLabel(p) {
+  return { high: 'Alta', med: 'Media', low: 'Bassa' }[p] || 'Media';
+}
+function statusLabel(s) {
+  return { todo: 'Da fare', doing: 'In corso', blocked: 'Bloccato', done: 'Fatto' }[s] || 'Da fare';
+}
+
+function renderTask(t, streamName) {
+  const st = state[t.id] || { status: 'todo', checks: [], notes: '', open: false };
+  if (!st.checks) st.checks = new Array(t.checklist.length).fill(false);
+
+  const checksHtml = t.checklist.map(function(item, idx) {
+    const checked = st.checks[idx] ? 'checked' : '';
+    const doneClass = st.checks[idx] ? 'checked' : '';
+    return '<div class="check-item ' + doneClass + '">' +
+      '<input type="checkbox" id="ch_' + t.id + '_' + idx + '" ' + checked + ' data-task="' + t.id + '" data-idx="' + idx + '" />' +
+      '<label for="ch_' + t.id + '_' + idx + '">' + item + '</label></div>';
+  }).join('');
+
+  const warnBlock = t.warn ? '<div class="warn-box"><strong>Attenzione —</strong> ' + t.warn + '</div>' : '';
+  const streamRef = streamName ? '<span class="stream-ref">' + streamName + '</span>' : '';
+  const doneClass = st.status === 'done' ? 'done-task' : '';
+  const openClass = st.open ? 'open' : '';
+
+  return '<div class="task ' + openClass + ' ' + doneClass + '" data-task="' + t.id + '">' +
+    '<div class="task-head" data-toggle="' + t.id + '">' +
+      '<div style="flex:1;">' +
+        '<div class="task-title">' + t.title + '</div>' +
+        '<div class="task-meta">' +
+          streamRef +
+          '<span class="prio prio-' + t.prio + '">' + prioLabel(t.prio) + '</span>' +
+          '<span class="badge badge-' + st.status + '">' + statusLabel(st.status) + '</span>' +
+        '</div>' +
+      '</div>' +
+      '<div class="toggle-icon">' + (st.open ? '−' : '+') + '</div>' +
+    '</div>' +
+    '<div class="task-body">' +
+      '<div class="why-box"><strong>Perché è importante:</strong> ' + t.why + '</div>' +
+      warnBlock +
+      '<div class="section-label">Checklist operativa</div>' +
+      '<div class="checklist">' + checksHtml + '</div>' +
+      '<div class="section-label">Note e domande</div>' +
+      '<div class="notes-area"><textarea data-notes="' + t.id + '" placeholder="Appunti, dubbi da chiedere a Carlo, decisioni prese...">' + (st.notes || '') + '</textarea></div>' +
+      '<div class="controls">' +
+        '<span class="small">Stato del task:</span>' +
+        '<select data-status="' + t.id + '">' +
+          '<option value="todo"' + (st.status==='todo'?' selected':'') + '>Da fare</option>' +
+          '<option value="doing"' + (st.status==='doing'?' selected':'') + '>In corso</option>' +
+          '<option value="blocked"' + (st.status==='blocked'?' selected':'') + '>Bloccato</option>' +
+          '<option value="done"' + (st.status==='done'?' selected':'') + '>Fatto</option>' +
+        '</select>' +
+      '</div>' +
+    '</div>' +
+  '</div>';
+}
+
+function renderTodayView() {
+  const container = document.getElementById('today-list');
+  const today = [];
+  STREAMS.forEach(s => s.tasks.forEach(t => {
+    const st = state[t.id] || {};
+    if ((t.prio === 'high' && st.status !== 'done') || st.status === 'doing' || st.status === 'blocked') {
+      today.push({ task: t, streamName: s.name });
+    }
+  }));
+  if (today.length === 0) {
+    container.innerHTML = '<div class="card-muted">Nessun task urgente aperto. Ottimo lavoro, passa alla vista completa per pianificare il prossimo stream.</div>';
+    return;
+  }
+  container.innerHTML = today.map(x => renderTask(x.task, x.streamName)).join('');
+}
+
+function renderAllView() {
+  const container = document.getElementById('all-list');
+  const filter = document.querySelector('#view-all .toolbar button.active') ? document.querySelector('#view-all .toolbar button.active').dataset.filter : 'all';
+  container.innerHTML = STREAMS.map(s => {
+    const total = s.tasks.length;
+    const done = s.tasks.filter(t => (state[t.id]||{}).status === 'done').length;
+    const streamOpen = state._streamsOpen && state._streamsOpen[s.id];
+    const filteredTasks = s.tasks.filter(t => filter === 'all' || (state[t.id]||{}).status === filter);
+    const tasksHtml = filteredTasks.length ?
+      filteredTasks.map(t => renderTask(t, null)).join('') :
+      '<div class="hint" style="padding:8px 0;">Nessun task in questo filtro.</div>';
+    return '<div class="stream ' + (streamOpen ? 'open' : '') + '">' +
+      '<div class="stream-head" data-stream-toggle="' + s.id + '">' +
+        '<div><span class="stream-chev">▶</span><span class="stream-title">' + s.name + '</span></div>' +
+        '<div class="stream-progress">' + done + '/' + total + ' · settimana ' + s.week + '</div>' +
+      '</div>' +
+      '<div class="stream-body">' + tasksHtml + '</div>' +
+    '</div>';
+  }).join('');
+}
+
+function renderCheatView() {
+  document.getElementById('cheat-list').innerHTML = CHEAT.map(c =>
+    '<div class="cheat-item"><strong>' + c.t + '</strong><br>' + c.b + '</div>'
+  ).join('');
+}
+
+function renderTimelineView() {
+  const container = document.getElementById('timeline-list');
+  const byWeek = {};
+  STREAMS.forEach(s => {
+    if (!byWeek[s.week]) byWeek[s.week] = [];
+    byWeek[s.week].push(s);
+  });
+  const weeks = Object.keys(byWeek).sort((a,b) => Number(a) - Number(b));
+  container.innerHTML = weeks.map(w => {
+    const streamsHtml = byWeek[w].map(s => {
+      const total = s.tasks.length;
+      const done = s.tasks.filter(t => (state[t.id]||{}).status === 'done').length;
+      return '<div class="timeline-item"><strong>' + s.name + '</strong> — ' + done + '/' + total + ' task completati</div>';
+    }).join('');
+    return '<div class="timeline-week"><h3>Settimana ' + w + '</h3>' + streamsHtml + '</div>';
+  }).join('');
+}
+
+function renderAll() {
+  renderStats();
+  renderTodayView();
+  renderAllView();
+  renderCheatView();
+  renderTimelineView();
+  wireEvents();
+}
+
+function wireEvents() {
+  document.querySelectorAll('[data-toggle]').forEach(el => {
+    el.onclick = () => {
+      const id = el.dataset.toggle;
+      state[id] = state[id] || {};
+      state[id].open = !state[id].open;
+      saveState();
+      renderAll();
+    };
+  });
+
+  document.querySelectorAll('[data-stream-toggle]').forEach(el => {
+    el.onclick = () => {
+      const id = el.dataset.streamToggle;
+      state._streamsOpen = state._streamsOpen || {};
+      state._streamsOpen[id] = !state._streamsOpen[id];
+      saveState();
+      renderAll();
+    };
+  });
+
+  document.querySelectorAll('[data-task][data-idx]').forEach(el => {
+    el.onchange = () => {
+      const taskId = el.dataset.task;
+      const idx = Number(el.dataset.idx);
+      state[taskId] = state[taskId] || { checks: [] };
+      state[taskId].checks = state[taskId].checks || [];
+      state[taskId].checks[idx] = el.checked;
+      saveState();
+      renderAll();
+    };
+  });
+
+  document.querySelectorAll('[data-notes]').forEach(el => {
+    el.oninput = () => {
+      const taskId = el.dataset.notes;
+      state[taskId] = state[taskId] || {};
+      state[taskId].notes = el.value;
+      clearTimeout(el._saveTimer);
+      el._saveTimer = setTimeout(saveState, 500);
+    };
+  });
+
+  document.querySelectorAll('[data-status]').forEach(el => {
+    el.onchange = () => {
+      const taskId = el.dataset.status;
+      state[taskId] = state[taskId] || {};
+      state[taskId].status = el.value;
+      saveState();
+      renderAll();
+    };
+  });
+}
+
+document.querySelectorAll('.tab').forEach(t => {
+  t.onclick = () => {
+    document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(x => x.classList.remove('active'));
+    t.classList.add('active');
+    document.getElementById('view-' + t.dataset.view).classList.add('active');
+  };
+});
+
+document.querySelectorAll('#view-all .toolbar button[data-filter]').forEach(b => {
+  b.onclick = () => {
+    document.querySelectorAll('#view-all .toolbar button[data-filter]').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    renderAllView();
+    wireEvents();
+  };
+});
+
+function exportJSON() {
+  const data = JSON.stringify(state, null, 2);
+  const blob = new Blob([data], {type: 'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'achipoint-dashboard-' + new Date().toISOString().slice(0,10) + '.json';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+function importJSON(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      state = JSON.parse(e.target.result);
+      saveState();
+      renderAll();
+      alert('Stato importato correttamente');
+    } catch(err) {
+      alert('File non valido: ' + err.message);
+    }
+  };
+  reader.readAsText(file);
+}
+
+function resetAll() {
+  if (!confirm('Sicuro di voler azzerare tutti i progressi? Questa azione non è reversibile.')) return;
+  try { localStorage.removeItem(STORAGE_KEY); } catch(e) {}
+  state = {};
+  STREAMS.forEach(s => s.tasks.forEach(t => {
+    state[t.id] = { status: 'todo', checks: new Array(t.checklist.length).fill(false), notes: '', open: false };
+  }));
+  state._streamsOpen = {};
+  saveState();
+  renderAll();
+}
+
+loadState();
+renderAll();
+</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+ESTRATTO CALL MARCO PASQUALI — GERMANO + PROGETTI IT
+=====================================================
+
+1. GERMANO — RUOLO E DINAMICHE
+-------------------------------
+
+- Marco conferma che il committente è Paolo, non Germano. Germano agisce da intermediario ma si comporta da committente.
+
+- Paolo ha dato un messaggio chiaro (tramite Marco) da riferire a Germano: "Non voglio che si decida al mio posto. La creatività la decido io. L'immagine è della mia azienda. Tutti gli aspetti tecnici che servono per la costruzione del sito è cura sua e di Massimiliano, glieli desse, ma per il resto no, perché decido io."
+
+- Paolo, in un incontro con Bruno, ha detto a muso duro: "Più rotto i coglioni quello?" — riferendosi a Germano. Dopo il messaggio recapitato, Germano era sparito per un periodo, ma con Carlo è tornato molto presente e insistente.
+
+- Marco definisce Germano come uno che "fa il galletto" quando non ha davanti figure con più autorità, ma non ha il coraggio di confrontarsi direttamente con Paolo.
+
+- Il disallineamento di ruoli ha avuto un impatto concreto: sul sito, le informazioni di business date da Germano (tante, dettagliate) hanno finito per togliere spazio al concept creativo approvato da Paolo e Alessio.
+
+
+2. GERMANO — CALL DI DOMANI (CANCELLAZIONE)
+--------------------------------------------
+
+- Marco dà indicazione esplicita: "Cancellala subito. Facciamo un cazzo di casino adesso."
+
+- Istruzione operativa di Marco: dire a Germano "purtroppo non sono disponibile più, dobbiamo rimandarla" — senza dare motivazioni legate al contenuto. Niente messaggio tipo "la parte comunicazione se la vuole vedere Paolo". Solo: "ci sono dei problemi, poi ti dico quando la posso riprogrammare."
+
+- Marco si occupa lui di chiamare Paolo per capire quando è disponibile a vedere il sito. Carlo aspetta il feedback di Marco per fissare la nuova call.
+
+- Nota di Carlo (post-call): anche Massimiliano ha accettato l'invite della call di domani → serve muoversi per tempo sulla cancellazione.
+
+
+3. GERMANO — RICHIESTE TECNICHE (LOGISTICA, ACUSTICA)
+------------------------------------------------------
+
+- Germano ha mandato email con richieste di dettaglio tecnico sui progetti IT (logistica, acustica).
+
+- Carlo chiede a Marco come gestire: rispondere con le info che può dare e segnalare che il resto non è producibile in questa fase? Oppure bloccare del tutto le comunicazioni?
+
+- Marco suggerisce un approccio diretto: "Questo genere di dettaglio che tu mi stai chiedendo non sono dettagli che ti posso fornire a questa fase. Te li posso fornire nel momento in cui abbiamo firmato il contratto."
+
+- Marco vuole che Carlo chieda anche a Germano se sta portando avanti la cosa insieme a Paolo, perché dall'altra parte Paolo preme per partire velocemente — quindi c'è una contraddizione.
+
+- Carlo ha il via libera a essere diretto con Germano ("Posso essere così diretto? — Sì, volentieri").
+
+- Marco suggerisce di usare la leva della pressione di Paolo: "Da parte della direzione c'è la pressione che dobbiamo sbrigarci il prima possibile. Da parte tua vedo che mi chiedi determinate cose — che succede?"
+
+
+4. PROGETTI IT — STATO E URGENZA
+---------------------------------
+
+- Marco alla fine della call conferma: "Ci sono 2 progetti grossi di sviluppo da far partire, analisi è pronta."
+
+- Carlo: "I tecnici sono pronti. Che facciamo, partiamo?"
+
+- Marco: "Dai."
+
+- Contesto implicito: i progetti IT (logistica + acustica/Eye Cookies) sono pronti lato HeyAI ma bloccati dalla mancanza di firma contrattuale e dalle dinamiche Germano che rallentano invece di sbloccare.
+
+- La strategia di Marco sembra essere: prima risolvere la questione Germano e riallineare con Paolo, poi far partire i progetti IT con il via libero diretto di Paolo.
+
+
+5. STRATEGIA COMPLESSIVA DI MARCO
+-----------------------------------
+
+- Passo 1: Carlo cancella la call di domani con Germano (fatto)
+- Passo 2: Marco chiama Paolo, cerca di capire quando è disponibile per vedere il sito
+- Passo 3: Marco dice a Paolo/Laura che Germano sta mettendo "passioni fra le ruote" e vuole capire se si va avanti, con che tempi
+- Passo 4: Una volta approvata la proposta, Marco comunicherà a Laura e Paolo che il comportamento di Germano è un problema
+- Passo 5: Rischedulare la presentazione sito con Paolo (+ eventualmente Laura e Alessio)
+- Passo 6: Far partire i progetti IT
+
+Marco vuole "rompere il loop" — fare qualcosa che la gente non si aspetta per sbloccare la situazione.

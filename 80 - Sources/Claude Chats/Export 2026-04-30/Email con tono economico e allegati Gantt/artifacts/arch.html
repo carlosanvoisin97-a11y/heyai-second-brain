@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { 
+    width: 1400px; 
+    height: 1000px; 
+    font-family: -apple-system, 'Segoe UI', sans-serif; 
+    background: #fff; 
+    color: #2d3748;
+    padding: 30px 40px;
+  }
+  .title { 
+    text-align: center; 
+    font-size: 22px; 
+    font-weight: 700; 
+    color: #1a202c;
+    margin-bottom: 4px;
+  }
+  .subtitle { 
+    text-align: center; 
+    font-size: 12px; 
+    color: #718096;
+    margin-bottom: 24px;
+  }
+
+  /* Sally banner */
+  .sally-banner {
+    background: #2d3748;
+    color: white;
+    border-radius: 10px;
+    padding: 14px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .sally-icon {
+    width: 36px; height: 36px;
+    background: #48bb78;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: 700; font-size: 16px; flex-shrink: 0;
+  }
+  .sally-banner h3 { font-size: 14px; font-weight: 600; }
+  .sally-banner p { font-size: 11px; color: #cbd5e0; margin-top: 2px; }
+
+  /* Input section */
+  .input-section { margin-bottom: 16px; }
+  .input-label { font-size: 10px; font-weight: 700; color: #a0aec0; letter-spacing: 2px; margin-bottom: 8px; }
+  .input-chips { display: flex; gap: 10px; }
+  .chip { 
+    border: 1px solid #e2e8f0; 
+    border-radius: 6px; 
+    padding: 6px 14px; 
+    font-size: 11px; 
+    color: #4a5568;
+    background: #f7fafc;
+  }
+
+  /* Minutes box */
+  .minutes-box {
+    background: #3182ce;
+    color: white;
+    border-radius: 10px;
+    padding: 16px 20px;
+    text-align: center;
+    width: 340px;
+    margin: 0 auto 8px auto;
+  }
+  .minutes-box h3 { font-size: 15px; font-weight: 700; }
+  .minutes-box p { font-size: 10px; color: #bee3f8; margin-top: 3px; }
+
+  /* Arrow down */
+  .arrow-down {
+    text-align: center;
+    margin: 4px 0;
+    color: #a0aec0;
+    font-size: 18px;
+  }
+  .arrow-split {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin: 6px 0 10px 0;
+    position: relative;
+  }
+  .arrow-split .branch {
+    text-align: center;
+    font-size: 10px;
+    color: #718096;
+  }
+  .arrow-split .branch .label { font-weight: 600; color: #4a5568; }
+
+  /* Main two columns */
+  .columns {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 16px;
+  }
+  .col {
+    flex: 1;
+    border: 2px solid;
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .col-leadme { border-color: #3182ce; }
+  .col-link { border-color: #2d3748; }
+
+  .col h2 { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+  .col .col-sub { font-size: 10px; color: #718096; margin-bottom: 10px; }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 9px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .badge-owns { background: #3182ce; color: white; }
+  .badge-owns-dark { background: #2d3748; color: white; }
+  .badge-reads { background: #edf2f7; color: #4a5568; border: 1px solid #cbd5e0; }
+
+  .module-card {
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+  }
+  .module-card h4 { font-size: 12px; font-weight: 600; color: #2d3748; }
+  .module-card p { font-size: 10px; color: #718096; margin-top: 2px; }
+
+  .read-section {
+    border-top: 1px dashed #cbd5e0;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  .read-section p { font-size: 10px; color: #718096; font-style: italic; }
+
+  /* Bottom row */
+  .bottom-row {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+  }
+  .bottom-box {
+    border-radius: 10px;
+    padding: 12px 18px;
+    text-align: center;
+    min-width: 220px;
+  }
+  .bottom-flow { background: #2d3748; color: white; }
+  .bottom-bc { background: #f7fafc; border: 2px dashed #cbd5e0; color: #4a5568; }
+  .bottom-box h4 { font-size: 13px; font-weight: 600; }
+  .bottom-box p { font-size: 10px; margin-top: 2px; }
+  .bottom-flow p { color: #a0aec0; }
+  .bottom-bc p { color: #718096; }
+
+  /* COM arrow */
+  .com-arrow {
+    position: absolute;
+    font-size: 10px;
+    font-weight: 600;
+    color: #3182ce;
+  }
+
+  /* Footer */
+  .footer-legend {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+  }
+  .legend-item {
+    display: flex; align-items: center; gap: 6px;
+    font-size: 10px; color: #718096;
+  }
+  .legend-line { width: 20px; height: 2px; }
+  .legend-line.solid { background: #2d3748; }
+  .legend-line.dashed { background: repeating-linear-gradient(90deg, #a0aec0 0, #a0aec0 4px, transparent 4px, transparent 8px); height: 2px; }
+  .legend-line.dotted { background: repeating-linear-gradient(90deg, #a0aec0 0, #a0aec0 2px, transparent 2px, transparent 5px); height: 2px; }
+  .legend-badge { padding: 1px 6px; border-radius: 3px; font-size: 8px; font-weight: 700; }
+
+  .principle {
+    text-align: center;
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1a202c;
+  }
+  .principle-sub {
+    text-align: center;
+    font-size: 10px;
+    color: #718096;
+    margin-top: 2px;
+  }
+
+  /* Connector lines via SVG overlay */
+  .connector-area {
+    position: relative;
+    height: 50px;
+    margin: 0 0 10px 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="title">Architettura Ecosistema Noloop — Come Parlano gli Applicativi</div>
+<div class="subtitle">Ogni dato ha una casa. Gli altri applicativi lo leggono, non lo duplicano.</div>
+
+<!-- Sally -->
+<div class="sally-banner">
+  <div class="sally-icon">S</div>
+  <div>
+    <h3>Sally — Layer AI Trasversale</h3>
+    <p>Legge da tutti gli applicativi. Knowledge base procedure, NLP in-app, compilazione documenti.</p>
+  </div>
+</div>
+
+<!-- Input -->
+<div class="input-section">
+  <div class="input-label">INPUT</div>
+  <div class="input-chips">
+    <div class="chip">Call</div>
+    <div class="chip">Email</div>
+    <div class="chip">Note vocali</div>
+    <div class="chip">Brief</div>
+    <div class="chip">Transcript</div>
+    <div class="chip">Foto / file</div>
+  </div>
+</div>
+
+<!-- Minutes -->
+<div class="arrow-down">▼</div>
+<div class="minutes-box">
+  <h3>Minutes</h3>
+  <p>Raccoglie · Trascrive · Analizza · Estrae e categorizza → smista ai moduli</p>
+</div>
+
+<!-- Split arrows -->
+<div class="arrow-split">
+  <div class="branch">
+    <div>▼</div>
+    <div class="label">Task commerciali</div>
+    <div>(dati contatto)</div>
+  </div>
+  <div class="branch">
+    <div>▼</div>
+    <div class="label">Dati COM + task operativi</div>
+    <div>(budget, scadenze, date, logistica)</div>
+  </div>
+</div>
+
+<!-- Two columns -->
+<div class="columns" style="position: relative;">
+  <!-- LeadMe -->
+  <div class="col col-leadme">
+    <h2>LeadMe — Mondo Commerciale</h2>
+    <div class="col-sub">L'account lavora qui · Possiede: contatti, aziende, pipeline, relazione</div>
+    <div class="badge badge-owns">POSSIEDE</div>
+    
+    <div class="module-card">
+      <h4>Pipeline New Business</h4>
+      <p>Prospect → Primo contatto → Follow-up → Incontro → Brief/Gara → Chiuso</p>
+    </div>
+    <div class="module-card">
+      <h4>Pipeline Clienti</h4>
+      <p>Attivo → Fermo → Inattivo → Da riattivare → Referenti → Alias → Storico commesse</p>
+    </div>
+    <div class="module-card">
+      <h4>Attività commerciali + Task per commessa</h4>
+      <p>Kanban task · Follow-up · Semafori · Alert · Calendario · Input da Minutes</p>
+    </div>
+
+    <div class="read-section">
+      <div class="badge badge-reads">LEGGE</div>
+      <p>Vista commesse da Link (budget, avanzamento, fatturato — dati letti, NON duplicati)</p>
+    </div>
+
+    <div style="margin-top: 10px;">
+      <div class="module-card" style="background: #ebf8ff; border-color: #90cdf4;">
+        <h4>Dashboard Direzione — Pipeline NB + Clienti</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- COM arrow in between -->
+  <div style="position: absolute; left: 50%; top: 38%; transform: translateX(-50%); z-index: 10; background: white; padding: 4px 8px; border: 1px solid #e2e8f0; border-radius: 4px;">
+    <span style="font-size: 10px; font-weight: 600; color: #3182ce;">COM →</span>
+  </div>
+  <div style="position: absolute; left: 50%; bottom: 22%; transform: translateX(-50%); z-index: 10; background: white; padding: 4px 8px; border: 1px solid #e2e8f0; border-radius: 4px;">
+    <span style="font-size: 10px; font-weight: 600; color: #718096;">← status</span>
+  </div>
+
+  <!-- Link -->
+  <div class="col col-link">
+    <h2>Link — Mondo Operativo</h2>
+    <div class="col-sub">L'operativo e la direzione lavorano qui · Possiede: commesse, budget, PDP, fatture</div>
+    <div class="badge badge-owns-dark">POSSIEDE</div>
+    
+    <div class="module-card">
+      <h4>Commesse + apertura COM</h4>
+      <p>Gatekeeper → Resp. Controllo conferma → push BC → Gestione gare</p>
+    </div>
+    <div class="module-card">
+      <h4>Budget a 3 stadi + snapshot</h4>
+      <p>In gara → Pre-chiusura → Consuntivo → Approvazione gate Garbarino</p>
+    </div>
+    <div class="module-card">
+      <h4>PDP + task operativi (via Flow)</h4>
+      <p>Template fatture · Upload contratti · Estrazione scadenze · Kanban/Gantt operativo</p>
+    </div>
+    <div class="module-card">
+      <h4>Quadratura + blocco chiusura</h4>
+      <p>Cross-check fatture · Workflow approvazioni BC · Fatt. attiva e passiva</p>
+    </div>
+    <div class="module-card">
+      <h4>Progress digitale (Dashboard Garbarino)</h4>
+      <p>Status per BU · Margini · Previsto vs consuntivo · Carichi di lavoro</p>
+    </div>
+
+    <div class="read-section">
+      <div class="badge badge-reads">LEGGE</div>
+      <p>Dati cliente/contatto da LeadMe (commerciale, stato relazione, settore — letti, NON duplicati)</p>
+    </div>
+  </div>
+</div>
+
+<!-- Bottom row -->
+<div class="bottom-row">
+  <div class="bottom-box bottom-flow">
+    <h4>Flow — Orchestratore</h4>
+    <p>Task da Minutes → Link · Coordinamento reparti</p>
+  </div>
+  <div class="bottom-box bottom-bc">
+    <h4>Microsoft Business Central</h4>
+    <p>Contabilità · Fatturazione · Cash flow</p>
+    <p style="font-size: 9px; margin-top: 4px; color: #a0aec0;">API sync ↔</p>
+  </div>
+</div>
+
+<!-- Legend -->
+<div class="footer-legend">
+  <div class="legend-item"><div class="legend-line solid"></div> Flusso dati (scrittura)</div>
+  <div class="legend-item"><div class="legend-line dashed"></div> Lettura dati (read-only)</div>
+  <div class="legend-item"><div class="legend-line dotted"></div> Sally legge</div>
+  <div class="legend-item"><span class="legend-badge" style="background:#3182ce;color:white;">POSSIEDE</span> Il modulo è owner dei dati</div>
+  <div class="legend-item"><span class="legend-badge" style="background:#edf2f7;color:#4a5568;border:1px solid #cbd5e0;">LEGGE</span> Dati letti da altro modulo, mai duplicati</div>
+</div>
+
+<!-- Principle -->
+<div class="principle">LeadMe possiede il mondo commerciale. Link possiede il mondo operativo. Sally legge da tutti senza possedere nulla.</div>
+<div class="principle-sub">Nessun dato duplicato tra i sistemi. Ogni informazione ha una sola fonte di verità.</div>
+
+</body>
+</html>

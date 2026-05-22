@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <!-- Angelini Academy — Video Reel Closing Frame -->
+  <!-- 16:9 · 1920x1080 · brand color #003087 -->
+  <!-- Fonts: Merriweather (serif display) + Barlow (sans kicker) per brand book post-swap 15/5/2026 -->
+
+  <rect width="1920" height="1080" fill="#003087"/>
+
+  <!-- Abstract bridge motif (subtle, lower third) -->
+  <g opacity="0.18" fill="none" stroke="#ffffff">
+    <path d="M 0,800 Q 960,640 1920,800" stroke-width="2.5"/>
+    <path d="M 0,820 Q 960,660 1920,820" stroke-width="1.5"/>
+  </g>
+  <g opacity="0.55" fill="#ffffff">
+    <circle cx="200" cy="780" r="4"/>
+    <circle cx="560" cy="708" r="4"/>
+    <circle cx="960" cy="668" r="6"/>
+    <circle cx="1360" cy="708" r="4"/>
+    <circle cx="1720" cy="780" r="4"/>
+  </g>
+
+  <!-- Main title -->
+  <text x="960" y="500" text-anchor="middle"
+        font-family="Merriweather, Georgia, serif"
+        font-size="128" font-weight="700"
+        fill="#ffffff" letter-spacing="-2">Angelini Academy</text>
+
+  <!-- Tagline -->
+  <text x="960" y="600" text-anchor="middle"
+        font-family="Merriweather, Georgia, serif"
+        font-size="52" font-style="italic" font-weight="300"
+        fill="#ffffff" opacity="0.94">Building bridges in education.</text>
+
+  <!-- Divider -->
+  <line x1="900" y1="880" x2="1020" y2="880"
+        stroke="#ffffff" stroke-width="1.5" opacity="0.45"/>
+
+  <!-- Kicker -->
+  <text x="960" y="940" text-anchor="middle"
+        font-family="Barlow, Helvetica, sans-serif"
+        font-size="22" font-weight="400" letter-spacing="6"
+        fill="#ffffff" opacity="0.65">A CULTURE-LED RESEARCH ACADEMY</text>
+</svg>

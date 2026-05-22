@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>LeadMe — Pipeline Clienti con Dettaglio Commesse</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#fff;padding:24px;color:#1a1a1a}
+h2{font-size:18px;font-weight:500}
+.badge{font-size:11px;padding:3px 10px;border-radius:8px;display:inline-block}
+.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.breadcrumb{font-size:12px;color:#6b7280;margin-bottom:12px;display:flex;align-items:center;gap:4px}
+.breadcrumb a{color:#3b82f6;text-decoration:none;cursor:pointer}
+.breadcrumb a:hover{text-decoration:underline}
+.view-toggle{display:flex;gap:6px;margin-bottom:16px}
+.view-btn{font-size:12px;padding:5px 14px;border-radius:6px;border:0.5px solid #e5e7eb;background:#fff;color:#6b7280;cursor:pointer}
+.view-btn.active{background:#dbeafe;color:#1e40af;border-color:transparent}
+.kanban{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px}
+.col{min-width:155px;flex:1;border-radius:8px;padding:10px}
+.col-head{font-size:12px;font-weight:500;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between}
+.col-count{font-size:10px;padding:1px 6px;border-radius:10px;background:rgba(0,0,0,.05)}
+.card{background:#fff;border:0.5px solid #e5e7eb;border-radius:8px;padding:10px;margin-bottom:6px;font-size:12px;cursor:pointer;transition:box-shadow .15s;position:relative;padding-left:14px}
+.card:hover{box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.card-bar{position:absolute;left:0;top:0;width:4px;height:100%;border-radius:4px 0 0 4px}
+.card-name{font-weight:500;font-size:13px}
+.card-sub{font-size:11px;color:#6b7280;margin-top:2px}
+.card-meta{display:flex;align-items:center;justify-content:space-between;margin-top:6px;font-size:10px}
+.card-rep{color:#3b82f6}
+.card-kpi{display:flex;gap:8px;margin-top:6px;font-size:10px;color:#9ca3af}
+.card-kpi span{background:#f8fafc;padding:1px 6px;border-radius:4px}
+.detail{background:#fff;border:0.5px solid #e5e7eb;border-radius:12px;overflow:hidden}
+.detail-header{padding:16px;border-bottom:0.5px solid #e5e7eb;display:flex;align-items:center;gap:12px}
+.avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;flex-shrink:0}
+.detail-info{flex:1}
+.detail-name{font-size:16px;font-weight:500}
+.detail-sub{font-size:12px;color:#6b7280;margin-top:2px}
+.detail-pills{display:flex;gap:6px;margin-top:6px}
+.pill{font-size:10px;padding:2px 8px;border-radius:6px;font-weight:500}
+.detail-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:14px 16px;border-bottom:0.5px solid #e5e7eb;background:#f8fafc}
+.dk{text-align:center}
+.dk-val{font-size:18px;font-weight:500}
+.dk-label{font-size:10px;color:#6b7280;margin-top:2px}
+.commesse-title{padding:14px 16px 8px;font-size:13px;font-weight:500;display:flex;align-items:center;justify-content:space-between}
+.com-filter{font-size:11px;color:#6b7280;font-weight:400}
+table{width:100%;font-size:11px;border-collapse:collapse}
+th{text-align:left;padding:6px 12px;color:#6b7280;font-weight:500;font-size:10px;border-bottom:0.5px solid #e5e7eb;background:#f8fafc}
+td{padding:8px 12px;border-bottom:0.5px solid #f3f4f6}
+.com-id{font-family:monospace;font-size:10px;color:#9ca3af}
+.stato-pill{font-size:9px;padding:2px 7px;border-radius:5px;font-weight:500;display:inline-block}
+.st-corso{background:#dbeafe;color:#1e40af}
+.st-consegnato{background:#dcfce7;color:#166534}
+.st-lavorazione{background:#f3e8ff;color:#6b21a8}
+.st-terminato{background:#f3f4f6;color:#4b5563}
+.st-void{background:#fee2e2;color:#991b1b}
+.st-fatturato{background:#fef9c3;color:#854d0e}
+.cat-pill{font-size:9px;padding:1px 6px;border-radius:4px;background:#f3f4f6;color:#6b7280}
+tr:hover{background:#f8fafc}
+.note{font-size:11px;color:#6b7280;padding:12px 16px;background:#f8fafc;border-top:0.5px solid #e5e7eb;line-height:1.6}
+</style></head><body>
+<div id="app">
+<div class="top"><h2 id="page-title">Pipeline clienti</h2><span class="badge" style="background:#dcfce7;color:#166534" id="page-badge">67 clienti</span></div>
+<div id="breadcrumb-area" style="display:none" class="breadcrumb"><a onclick="showKanban()">← Pipeline clienti</a> <span>›</span> <span id="bc-name"></span></div>
+<div id="toggle-area" class="view-toggle">
+<button class="view-btn active" id="btn-kanban" onclick="showKanban()">Kanban</button>
+<button class="view-btn" id="btn-lista">Lista</button>
+</div>
+<div id="kanban-view">
+<div class="kanban">
+<div class="col" style="background:#f0fdf4">
+<div class="col-head" style="color:#166534">Attivo <span class="col-count">42</span></div>
+<div class="card" onclick="showDetail('campari')"><div class="card-bar" style="background:#22c55e"></div><div class="card-name">Campari</div><div class="card-sub">Laura Neri · Event Mgr</div><div class="card-meta"><span class="card-rep">Luca C.</span><span style="color:#22c55e;font-size:10px">● 8gg</span></div><div class="card-kpi"><span>3 gare attive</span><span>Ultimo brief: feb '26</span></div></div>
+<div class="card" onclick="showDetail('luxottica')"><div class="card-bar" style="background:#22c55e"></div><div class="card-name">Luxottica</div><div class="card-sub">Marco Trevisan · Mktg Dir</div><div class="card-meta"><span class="card-rep">Luca C.</span><span style="color:#22c55e;font-size:10px">● 12gg</span></div><div class="card-kpi"><span>Cannes confermato</span></div></div>
+<div class="card" onclick="showDetail('pirelli')"><div class="card-bar" style="background:#22c55e"></div><div class="card-name">Pirelli</div><div class="card-sub">Giacomo Landi · Procurement</div><div class="card-meta"><span class="card-rep">Luca C.</span><span style="color:#22c55e;font-size:10px">● 5gg</span></div><div class="card-kpi"><span>Accordo quadro</span></div></div>
+<div style="text-align:center;font-size:10px;color:#9ca3af;padding:4px">+39 altri</div>
+</div>
+<div class="col" style="background:#f8fafc">
+<div class="col-head" style="color:#6b21a8">Attivazione <span class="col-count">3</span></div>
+<div class="card"><div class="card-bar" style="background:#8b5cf6"></div><div class="card-name">Nissan</div><div class="card-sub">Roberto Conti · Brand Mgr</div><div class="card-meta"><span class="card-rep">Simona M.</span><span style="color:#22c55e;font-size:10px">● 2gg</span></div><div class="card-kpi"><span>Primo brief ricevuto</span></div></div>
+<div class="card"><div class="card-bar" style="background:#8b5cf6"></div><div class="card-name">Gucci</div><div class="card-sub">Elisa Moretti · Events</div><div class="card-meta"><span class="card-rep">Luca C.</span><span style="color:#22c55e;font-size:10px">● 14gg</span></div><div class="card-kpi"><span>Gara vinta, kick-off</span></div></div>
+</div>
+<div class="col" style="background:#fefce8">
+<div class="col-head" style="color:#854d0e">Fermo <span class="col-count">11</span></div>
+<div class="card" onclick="showDetail('acea')"><div class="card-bar" style="background:#eab308"></div><div class="card-name">ACEA</div><div class="card-sub">Alessia Greco · Resp. Eventi</div><div class="card-meta"><span class="card-rep">Simona M.</span><span style="color:#eab308;font-size:10px">● 6 mesi</span></div><div class="card-kpi"><span>Ultimo brief: set '25</span></div></div>
+<div class="card"><div class="card-bar" style="background:#eab308"></div><div class="card-name">Intesa Sanpaolo</div><div class="card-sub">Giovanni Ferri · Corp Events</div><div class="card-meta"><span class="card-rep">Ilia G.</span><span style="color:#eab308;font-size:10px">● 4 mesi</span></div></div>
+</div>
+<div class="col" style="background:#fef2f2">
+<div class="col-head" style="color:#991b1b">Inattivo <span class="col-count">8</span></div>
+<div class="card"><div class="card-bar" style="background:#ef4444"></div><div class="card-name">Ferrovie dello Stato</div><div class="card-sub">Davide Colombo</div><div class="card-meta"><span class="card-rep">Luca C.</span><span style="color:#ef4444;font-size:10px">● 14 mesi</span></div></div>
+<div class="card"><div class="card-bar" style="background:#ef4444"></div><div class="card-name">Enel</div><div class="card-sub">Elena Basso</div><div class="card-meta"><span class="card-rep">Simona M.</span><span style="color:#ef4444;font-size:10px">● 11 mesi</span></div></div>
+</div>
+<div class="col" style="background:#eff6ff">
+<div class="col-head" style="color:#1e40af">Da riattivare <span class="col-count">5</span></div>
+<div class="card"><div class="card-bar" style="background:#3b82f6"></div><div class="card-name">Vorwerk</div><div class="card-sub">Paola Vitale</div><div class="card-meta"><span class="card-rep">Non assegnato</span><span style="color:#ef4444;font-size:10px">● 18 mesi</span></div></div>
+</div>
+</div>
+</div>
+<div id="detail-view" style="display:none"></div>
+</div>
+<script>
+const clients={campari:{name:"Campari",contact:"Laura Neri",role:"Event Manager",rep:"Luca Candiani",sector:"Food & beverage",stato:"Attivo",semColor:"#22c55e",semLabel:"8gg fa",avatar:{bg:"#dcfce7",color:"#166534",initials:"CA"},kpis:{commesse:8,attive:3,consegnate:4,fatturato:"1"},commesse:[{id:"26N00017",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Viaggio",mese:"Maggio",evento:"ANAGINA VIAGGIO",stato_lav:"IN CORSO",inizio:"24/05/26",fine:"28/05/26",luogo:"EGITTO"},{id:"26N00156",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Evento",mese:"Aprile",evento:"ASSEMBLEA AZIONISTI",stato_lav:"In Corso",inizio:"28/04/26",fine:"28/04/26",luogo:"BRESCIA"},{id:"26N00164",tipo:"Fidelizzato",stato_cl:"Gara",cat:"Meeting",mese:"Maggio",evento:"ApproFONDIamo 2026",stato_lav:"CONSEGNATO",inizio:"13/05/26",fine:"15/05/26",luogo:"VENEZIA"},{id:"26N00213",tipo:"Fidelizzato",stato_cl:"Gara",cat:"Meeting",mese:"Giugno",evento:"EVENTO EXPO",stato_lav:"CONSEGNATO",inizio:"10/06/26",fine:"12/06/26",luogo:"SICILIA"},{id:"26N00215",tipo:"Fidelizzato",stato_cl:"Gara",cat:"Meeting",mese:"Settembre",evento:"VIAGGIO FORMATIVO",stato_lav:"IN LAVORAZIONE",inizio:"24/09/26",fine:"27/09/26",luogo:"ISTANBUL"},{id:"26N00245",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Evento",mese:"Aprile",evento:"MEETING DIRETTORI",stato_lav:"IN CORSO",inizio:"21/04/26",fine:"21/04/26",luogo:"ROMA"},{id:"26N00147",tipo:"Fidelizzato",stato_cl:"Gara",cat:"Viaggio",mese:"Maggio",evento:"ASSICURATI LA VITTORIA",stato_lav:"IN CORSO",inizio:"13/05/26",fine:"15/05/26",luogo:"BILBAO"},{id:"25N00320",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Evento",mese:"Dicembre",evento:"CENA DI NATALE CORPORATE",stato_lav:"Terminato",inizio:"18/12/25",fine:"18/12/25",luogo:"MILANO"}]},luxottica:{name:"Luxottica",contact:"Marco Trevisan",role:"Marketing Director",rep:"Luca Candiani",sector:"Fashion & luxury",stato:"Attivo",semColor:"#22c55e",semLabel:"12gg fa",avatar:{bg:"#dbeafe",color:"#1e40af",initials:"LX"},kpis:{commesse:3,attive:2,consegnate:1,fatturato:"0"},commesse:[{id:"26N00089",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Exhibition",mese:"Giugno",evento:"CANNES LIONS STAND",stato_lav:"IN LAVORAZIONE",inizio:"16/06/26",fine:"20/06/26",luogo:"CANNES"},{id:"26N00102",tipo:"Fidelizzato",stato_cl:"Gara",cat:"Evento",mese:"Settembre",evento:"CONVENTION ANNUALE",stato_lav:"IN CORSO",inizio:"18/09/26",fine:"19/09/26",luogo:"MILANO"},{id:"25N00298",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Meeting",mese:"Novembre",evento:"BOARD MEETING Q4",stato_lav:"Terminato",inizio:"22/11/25",fine:"22/11/25",luogo:"AGORDO"}]},pirelli:{name:"Pirelli",contact:"Giacomo Landi",role:"Procurement Manager",rep:"Luca Candiani",sector:"Automotive",stato:"Attivo",semColor:"#22c55e",semLabel:"5gg fa",avatar:{bg:"#fce7f3",color:"#9d174d",initials:"PI"},kpis:{commesse:2,attive:1,consegnate:1,fatturato:"0"},commesse:[{id:"26N00178",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Evento",mese:"Maggio",evento:"LANCIO PNEUMATICO P ZERO",stato_lav:"IN CORSO",inizio:"15/05/26",fine:"15/05/26",luogo:"MONZA"},{id:"26N00045",tipo:"Fidelizzato",stato_cl:"Gara",cat:"Meeting",mese:"Marzo",evento:"KICK-OFF COMMERCIALE 2026",stato_lav:"CONSEGNATO",inizio:"06/03/26",fine:"07/03/26",luogo:"MILANO"}]},acea:{name:"ACEA",contact:"Alessia Greco",role:"Resp. Eventi",rep:"Simona Marani",sector:"Energy & utilities",stato:"Fermo",semColor:"#eab308",semLabel:"6 mesi fa",avatar:{bg:"#fefce8",color:"#854d0e",initials:"AC"},kpis:{commesse:2,attive:0,consegnate:1,fatturato:"1"},commesse:[{id:"25N00187",tipo:"Fidelizzato",stato_cl:"Gara",cat:"Evento",mese:"Settembre",evento:"CONVENTION MANAGER 2025",stato_lav:"Terminato",inizio:"24/09/25",fine:"25/09/25",luogo:"ROMA"},{id:"25N00112",tipo:"Fidelizzato",stato_cl:"Affidamento Diretto",cat:"Meeting",mese:"Giugno",evento:"BOARD STRATEGICO H2",stato_lav:"Fatturato",inizio:"12/06/25",fine:"12/06/25",luogo:"ROMA"}]}};
+const statoClass=s=>{const m={"IN CORSO":"st-corso","In Corso":"st-corso","CONSEGNATO":"st-consegnato","Consegnato":"st-consegnato","IN LAVORAZIONE":"st-lavorazione","In Lavorazione":"st-lavorazione","Terminato":"st-terminato","VOID":"st-void","Void":"st-void","Fatturato":"st-fatturato","fatturato":"st-fatturato"};return m[s]||"st-corso"};
+function showDetail(key){const c=clients[key];if(!c)return;document.getElementById('kanban-view').style.display='none';document.getElementById('toggle-area').style.display='none';document.getElementById('breadcrumb-area').style.display='flex';document.getElementById('bc-name').textContent=c.name;document.getElementById('page-title').textContent=c.name;document.getElementById('page-badge').textContent=c.stato;document.getElementById('page-badge').style.background=c.stato==='Attivo'?'#dcfce7':c.stato==='Fermo'?'#fefce8':'#fef2f2';document.getElementById('page-badge').style.color=c.stato==='Attivo'?'#166534':c.stato==='Fermo'?'#854d0e':'#991b1b';let rows=c.commesse.map(cm=>`<tr><td><span class="com-id">${cm.id}</span></td><td><span class="cat-pill">${cm.cat}</span></td><td style="font-weight:500">${cm.evento}</td><td>${cm.stato_cl}</td><td><span class="stato-pill ${statoClass(cm.stato_lav)}">${cm.stato_lav}</span></td><td>${cm.mese}</td><td>${cm.inizio}</td><td>${cm.fine}</td><td>${cm.luogo}</td></tr>`).join('');document.getElementById('detail-view').innerHTML=`<div class="detail"><div class="detail-header"><div class="avatar" style="background:${c.avatar.bg};color:${c.avatar.color}">${c.avatar.initials}</div><div class="detail-info"><div class="detail-name">${c.name}</div><div class="detail-sub">${c.contact} · ${c.role} · ${c.sector}</div><div class="detail-pills"><span class="pill" style="background:${c.stato==='Attivo'?'#dcfce7':c.stato==='Fermo'?'#fefce8':'#fef2f2'};color:${c.stato==='Attivo'?'#166534':c.stato==='Fermo'?'#854d0e':'#991b1b'}">${c.stato}</span><span class="pill" style="background:#dbeafe;color:#1e40af">${c.rep}</span><span style="display:flex;align-items:center;gap:3px;font-size:11px;color:#9ca3af"><span style="width:8px;height:8px;border-radius:50%;background:${c.semColor};display:inline-block"></span>${c.semLabel}</span></div></div></div><div class="detail-kpis"><div class="dk"><div class="dk-val">${c.kpis.commesse}</div><div class="dk-label">Commesse totali</div></div><div class="dk"><div class="dk-val">${c.kpis.attive}</div><div class="dk-label">Attive</div></div><div class="dk"><div class="dk-val">${c.kpis.consegnate}</div><div class="dk-label">Consegnate</div></div><div class="dk"><div class="dk-val">${c.kpis.fatturato}</div><div class="dk-label">Fatturate</div></div></div><div class="commesse-title">Commesse <span class="com-filter">${c.commesse.length} risultati</span></div><table><tr><th>COM</th><th>Categoria</th><th>Evento</th><th>Tipo</th><th>Stato lavorazione</th><th>Mese</th><th>Inizio</th><th>Fine</th><th>Luogo</th></tr>${rows}</table><div class="note">Questa vista mostra le commesse collegate al cliente. Gli stati di lavorazione (In Corso, Consegnato, In Lavorazione, Fatturato, Void) seguono il flusso operativo di Noloop e vengono aggiornati dal team di progetto.</div></div>`;document.getElementById('detail-view').style.display='block'}
+function showKanban(){document.getElementById('kanban-view').style.display='block';document.getElementById('detail-view').style.display='none';document.getElementById('toggle-area').style.display='flex';document.getElementById('breadcrumb-area').style.display='none';document.getElementById('page-title').textContent='Pipeline clienti';document.getElementById('page-badge').textContent='67 clienti';document.getElementById('page-badge').style.background='#dcfce7';document.getElementById('page-badge').style.color='#166534'}
+</script>
+</body></html>

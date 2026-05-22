@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smoke test homepage Angelini Academy</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #F5F5F0;
+  color: #1F2937;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-decoration: none; }
+.disclaimer {
+  background: #FFF8E1;
+  border-bottom: 1px solid #F0C04E;
+  padding: 12px 24px;
+  font-size: 13px;
+  color: #5C4400;
+  text-align: center;
+  line-height: 1.5;
+}
+.site {
+  background: #FFFFFF;
+  max-width: 1280px;
+  margin: 0 auto;
+  border-left: 1px solid #E5E7EB;
+  border-right: 1px solid #E5E7EB;
+}
+
+/* Header sticky */
+.header {
+  position: sticky;
+  top: 0;
+  background: #FFFFFF;
+  border-bottom: 1px solid #E5E7EB;
+  padding: 16px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  z-index: 10;
+}
+.logo { display: flex; align-items: center; gap: 12px; }
+.logo-mark {
+  width: 40px; height: 40px;
+  background: #064D8C;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: #FFF; font-weight: 700; font-size: 15px;
+}
+.logo-name { font-weight: 700; font-size: 16px; color: #064D8C; letter-spacing: -0.2px; }
+.nav { display: flex; align-items: center; gap: 28px; font-size: 14px; color: #374151; }
+.nav .dropdown { display: flex; align-items: center; gap: 5px; cursor: pointer; }
+.nav .dropdown::after { content: '▾'; font-size: 10px; }
+.nav .active { font-weight: 600; }
+.header-right { display: flex; align-items: center; gap: 18px; }
+.lang { font-size: 13px; color: #6B7280; }
+.lang .on { color: #064D8C; font-weight: 600; }
+.cta-pill {
+  background: #F39200;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* Hero */
+.hero {
+  padding: 96px 40px 112px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F6FB 100%);
+}
+.hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 64px;
+  align-items: center;
+}
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  color: #F39200;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.hero h1 {
+  font-size: 60px;
+  line-height: 1.05;
+  font-weight: 700;
+  color: #064D8C;
+  margin-bottom: 24px;
+  letter-spacing: -1.4px;
+}
+.hero p.lead {
+  font-size: 18px;
+  line-height: 1.55;
+  color: #374151;
+  margin-bottom: 36px;
+  max-width: 540px;
+}
+.hero-ctas { display: flex; gap: 14px; flex-wrap: wrap; }
+.btn-primary {
+  background: #F39200;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 26px;
+  border-radius: 6px;
+  display: inline-block;
+}
+.btn-secondary {
+  background: #FFFFFF;
+  color: #064D8C;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 15px 26px;
+  border-radius: 6px;
+  border: 1.5px solid #064D8C;
+  display: inline-block;
+}
+.placeholder {
+  background: #D1D5DB;
+  border: 1px dashed #9CA3AF;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  color: #4B5563;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.hero .placeholder { height: 420px; }
+
+/* Section base */
+section { padding: 112px 40px; }
+.section-inner { max-width: 1200px; margin: 0 auto; }
+.section-head { text-align: center; margin-bottom: 56px; }
+.section-head h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #064D8C;
+  margin: 14px 0;
+  letter-spacing: -0.7px;
+}
+.section-head p {
+  font-size: 16px;
+  color: #6B7280;
+  max-width: 680px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.section-head-row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.section-head-row h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #064D8C;
+  margin: 8px 0 0;
+  letter-spacing: -0.7px;
+}
+.see-all {
+  font-size: 15px;
+  font-weight: 600;
+  color: #064D8C;
+}
+
+/* Pilastri */
+.pillars-bg { background: #FFFFFF; }
+.pillars-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+.pillar-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 32px;
+  position: relative;
+}
+.pillar-card.lead {
+  border: 1.5px solid #F39200;
+}
+.pillar-tag {
+  position: absolute;
+  top: -10px;
+  left: 28px;
+  background: #F39200;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+.pillar-num {
+  font-size: 13px;
+  font-weight: 600;
+  color: #064D8C;
+  margin: 10px 0 8px;
+}
+.pillar-card.lead .pillar-num { color: #F39200; }
+.pillar-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #064D8C;
+  margin-bottom: 12px;
+}
+.pillar-card p {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+.pillar-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #064D8C;
+}
+.pillar-card.lead .pillar-link { color: #F39200; }
+
+.research-banner {
+  background: linear-gradient(135deg, #064D8C 0%, #0B6BBF 100%);
+  border-radius: 12px;
+  padding: 36px 40px;
+  margin: 0 0 20px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 32px;
+  align-items: center;
+  color: #FFFFFF;
+}
+.research-icon {
+  width: 72px; height: 72px;
+  border: 2px solid #F39200;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.5px;
+  color: #F39200; text-align: center; line-height: 1.1;
+}
+.research-banner .eyebrow { color: #F39200; margin-bottom: 8px; }
+.research-banner h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+.research-banner p {
+  font-size: 15px;
+  line-height: 1.55;
+  color: #D9E5F2;
+}
+.btn-on-blue {
+  background: #FFFFFF;
+  color: #064D8C;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+/* People-first */
+.people-bg { background: #F8FAFC; }
+.people-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+.people-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 28px;
+}
+.people-card .placeholder { height: 200px; margin-bottom: 22px; font-size: 11px; }
+.people-tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: #F39200;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.people-card .quote {
+  font-size: 15px;
+  color: #1F2937;
+  line-height: 1.55;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+.people-card .author {
+  font-size: 13px;
+  color: #6B7280;
+}
+
+/* Eventi */
+.events-bg { background: #FFFFFF; }
+.events-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 24px; }
+.event-feature {
+  background: linear-gradient(135deg, #F39200 0%, #E07A00 100%);
+  color: #FFFFFF;
+  border-radius: 12px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 320px;
+}
+.event-pill {
+  display: inline-block;
+  background: #FFFFFF;
+  color: #F39200;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-bottom: 22px;
+}
+.event-feature .date { font-size: 14px; color: #FFE5C4; margin-bottom: 10px; }
+.event-feature h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  line-height: 1.15;
+  color: #FFFFFF;
+}
+.event-feature p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #FFE5C4;
+}
+.btn-on-orange {
+  background: #FFFFFF;
+  color: #F39200;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 13px 22px;
+  border-radius: 6px;
+  align-self: flex-start;
+  margin-top: 28px;
+}
+.event-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.event-card .pill {
+  display: inline-block;
+  background: #EBF2FA;
+  color: #064D8C;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 5px 11px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  align-self: flex-start;
+}
+.event-card .date { font-size: 13px; color: #6B7280; margin-bottom: 8px; }
+.event-card h3 {
+  font-size: 19px;
+  font-weight: 700;
+  color: #064D8C;
+  margin-bottom: 10px;
+  line-height: 1.25;
+}
+.event-card p {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.5;
+}
+.event-card .link {
+  font-size: 14px;
+  font-weight: 600;
+  color: #064D8C;
+  margin-top: 22px;
+}
+
+/* Blog */
+.blog-bg { background: #F8FAFC; }
+.blog-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 28px; }
+.blog-card {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.blog-card .placeholder {
+  border: none;
+  border-bottom: 1px dashed #9CA3AF;
+  border-radius: 0;
+  height: 180px;
+  font-size: 11px;
+}
+.blog-body { padding: 26px; }
+.blog-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 5px 11px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+.tag-yellow { background: #FEF3C7; color: #92400E; }
+.tag-red { background: #FEE2E2; color: #991B1B; }
+.tag-green { background: #D1FAE5; color: #065F46; }
+.blog-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #064D8C;
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+.blog-card p {
+  font-size: 14px;
+  color: #6B7280;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.blog-meta {
+  font-size: 12px;
+  color: #9CA3AF;
+}
+
+/* Partnership */
+.partners-bg {
+  background: #FFFFFF;
+  border-top: 1px solid #F3F4F6;
+  border-bottom: 1px solid #F3F4F6;
+}
+.partners-bg .section-head h2 { font-size: 30px; }
+.partners-bg .section-head { margin-bottom: 40px; }
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.logo-placeholder {
+  background: #F3F4F6;
+  border: 1px dashed #D1D5DB;
+  border-radius: 6px;
+  padding: 22px 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #6B7280;
+  text-align: center;
+}
+.partners-link { text-align: center; }
+.partners-link a { font-size: 14px; font-weight: 600; color: #064D8C; }
+
+/* Newsletter */
+.newsletter {
+  background: #064D8C;
+  color: #FFFFFF;
+}
+.newsletter .section-inner { max-width: 800px; text-align: center; }
+.newsletter .eyebrow { color: #F39200; }
+.newsletter h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+}
+.newsletter p.lead {
+  font-size: 16px;
+  color: #D9E5F2;
+  line-height: 1.6;
+  margin-bottom: 36px;
+}
+.newsletter form {
+  display: flex;
+  gap: 12px;
+  max-width: 540px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.newsletter input {
+  flex: 1;
+  min-width: 260px;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: inherit;
+  color: #1F2937;
+  background: #FFFFFF;
+}
+.newsletter button {
+  background: #F39200;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 16px 28px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+.newsletter .privacy {
+  font-size: 13px;
+  color: #9DB4CC;
+  margin-top: 16px;
+}
+
+/* Footer */
+footer {
+  background: #0A2540;
+  color: #D9E5F2;
+  padding: 72px 40px 32px;
+}
+.footer-inner { max-width: 1200px; margin: 0 auto; }
+.footer-cols {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 56px;
+}
+.footer-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+.footer-brand .mark {
+  width: 36px; height: 36px;
+  background: #F39200;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  color: #FFFFFF; font-weight: 700; font-size: 14px;
+}
+.footer-brand .name { font-weight: 700; font-size: 15px; color: #FFFFFF; }
+.tagline {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #9DB4CC;
+  margin-bottom: 16px;
+  font-style: italic;
+}
+.footer-addr {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #9DB4CC;
+}
+.col-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #FFFFFF;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.col-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 14px;
+  color: #9DB4CC;
+}
+.col-list a { color: #9DB4CC; }
+.col-divider { margin-top: 24px; }
+.footer-bottom {
+  border-top: 1px solid #1A3B5C;
+  padding-top: 28px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 13px;
+  color: #9DB4CC;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .header { padding: 14px 20px; gap: 16px; flex-wrap: wrap; }
+  .nav { gap: 16px; font-size: 13px; order: 3; width: 100%; justify-content: center; padding-top: 8px; border-top: 1px solid #F3F4F6; }
+  .hero { padding: 56px 24px 72px; }
+  .hero-inner { grid-template-columns: 1fr; gap: 40px; }
+  .hero h1 { font-size: 38px; letter-spacing: -0.8px; }
+  .hero p.lead { font-size: 16px; }
+  .hero .placeholder { height: 260px; }
+  section { padding: 72px 24px; }
+  .section-head h2, .section-head-row h2 { font-size: 28px; }
+  .pillars-grid { grid-template-columns: 1fr; }
+  .research-banner { grid-template-columns: 1fr; gap: 18px; padding: 28px; text-align: center; }
+  .research-icon { margin: 0 auto; }
+  .people-grid, .blog-grid { grid-template-columns: 1fr; }
+  .events-grid { grid-template-columns: 1fr; }
+  .event-feature { min-height: 240px; padding: 28px; }
+  .event-feature h3 { font-size: 24px; }
+  .partners-grid { grid-template-columns: repeat(4, 1fr); }
+  .footer-cols { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .newsletter h2 { font-size: 24px; }
+}
+@media (max-width: 520px) {
+  .partners-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-cols { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<div class="disclaimer">
+<strong>Smoke test homepage Angelini Academy</strong> — palette provvisoria, non brand book finale. Riferimento: Wireframe §4.1. Foto = placeholder grigi etichettati. No bilinguismo, no calcolatore funzionante, no JS.
+</div>
+
+<div class="site">
+
+<header class="header">
+<div class="logo">
+<div class="logo-mark">AA</div>
+<div class="logo-name">Angelini Academy</div>
+</div>
+<nav class="nav">
+<a>Chi siamo</a>
+<a class="dropdown">L'Academy</a>
+<a class="active">MBA Gateway</a>
+<a>Eventi</a>
+<a>Blog</a>
+<a>Contatti</a>
+</nav>
+<div class="header-right">
+<div class="lang"><span class="on">IT</span> · EN</div>
+<a class="cta-pill">Candidati al MBA Gateway</a>
+</div>
+</header>
+
+<section class="hero">
+<div class="hero-inner">
+<div>
+<div class="eyebrow">Angelini Academy — in evoluzione</div>
+<h1>Building bridges<br>in education.</h1>
+<p class="lead">Costruiamo ponti tra competenze richieste e offerte, scuola e mondo del lavoro, talento e carriera.</p>
+<div class="hero-ctas">
+<a class="btn-primary">Scopri il MBA Gateway →</a>
+<a class="btn-secondary">Esplora la ricerca</a>
+</div>
+</div>
+<div class="placeholder">[FOTO HERO PEOPLE-FIRST<br>HACKATHON BBS 17/12/2025<br>oppure FUTURE LEADERS PROGRAM<br>— PLACEHOLDER]</div>
+</div>
+</section>
+
+<section class="pillars-bg">
+<div class="section-inner">
+<div class="section-head">
+<div class="eyebrow">Cosa facciamo</div>
+<h2>Quattro pilastri, un nucleo di ricerca</h2>
+<p>Engaged Research come motore. Quattro programmi che traducono la ricerca in formazione, esperienze e carriera.</p>
+</div>
+
+<div class="pillars-grid">
+<div class="pillar-card lead">
+<div class="pillar-tag">PILASTRO 4 · LEAD GEN</div>
+<div class="pillar-num">MBA Gateway</div>
+<h3>Magnete di talenti</h3>
+<p>Dieci giovani selezionati per merito, un MBA full-time a Madrid con IE Business School, sei mesi nelle aziende Angelini. Borsa totale per ISEE-ISPE sotto i 50.000 €.</p>
+<a class="pillar-link">Scopri di più →</a>
+</div>
+<div class="pillar-card">
+<div class="pillar-num">Pilastro 1</div>
+<h3>Corporate Learning</h3>
+<p>Masterclass internazionali per leader e talent: scienze del comportamento, arti, IA e discipline umanistiche. Vocabolari nuovi per chi guida domani.</p>
+<a class="pillar-link">Scopri di più →</a>
+</div>
+</div>
+
+<div class="research-banner">
+<div class="research-icon">NUCLEO</div>
+<div>
+<div class="eyebrow">Engaged Research</div>
+<h3>Il nucleo da cui parte tutto</h3>
+<p>Studiamo come le persone imparano per costruire come dovranno imparare domani. Neuroscienze, EdTech, pedagogia, skill mismatch.</p>
+</div>
+<a class="btn-on-blue">Esplora la ricerca →</a>
+</div>
+
+<div class="pillars-grid">
+<div class="pillar-card">
+<div class="pillar-num">Pilastro 3</div>
+<h3>Educational Think Tanks</h3>
+<p>Una volta all'anno apriamo Casa Angelini ad accademici, istituzioni e talenti che ridisegnano i confini tra umano e IA. Forum, workshop, hackathon.</p>
+<a class="pillar-link">Scopri di più →</a>
+</div>
+<div class="pillar-card">
+<div class="pillar-num">Pilastro 2</div>
+<h3>Innovazione tecnica e manageriale</h3>
+<p>Programmi su misura per Pharma, Tech, Ventures e Fater. Dalle competenze che servono lunedì mattina alle skill dei prossimi cinque anni.</p>
+<a class="pillar-link">Scopri di più →</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="people-bg">
+<div class="section-inner">
+<div class="section-head">
+<div class="eyebrow">People-first</div>
+<h2>Chi attraversa i nostri ponti</h2>
+<p>Volti reali — studenti, ricercatori, manager. Le persone che fanno succedere Angelini Academy ogni giorno.</p>
+</div>
+
+<div class="people-grid">
+<div class="people-card">
+<div class="placeholder">[FOTO STUDENTE MBA<br>GATEWAY — PLACEHOLDER]</div>
+<div class="people-tag">Studente MBA</div>
+<p class="quote">"Sono entrato pensando a un master, sono uscito con un'azienda che mi aspettava il lunedì."</p>
+<div class="author">Nome Cognome — MBA Gateway 2025/26</div>
+</div>
+<div class="people-card">
+<div class="placeholder">[FOTO RICERCATORE<br>UCL/LUISS — PLACEHOLDER]</div>
+<div class="people-tag">Ricercatrice</div>
+<p class="quote">"Qui la ricerca non resta in un cassetto: diventa metodo per chi insegna e per chi impara."</p>
+<div class="author">Nome Cognome — Cattedra Engaged Research</div>
+</div>
+<div class="people-card">
+<div class="placeholder">[FOTO MANAGER OPCO<br>HACKATHON BBS 17/12 — PLACEHOLDER]</div>
+<div class="people-tag">Manager OpCo</div>
+<p class="quote">"Le masterclass mi hanno dato vocabolari che non avevo. Ora li uso ogni giorno con il mio team."</p>
+<div class="author">Nome Cognome — Pharma Operations</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="events-bg">
+<div class="section-inner">
+<div class="section-head-row">
+<div>
+<div class="eyebrow">Prossimi eventi</div>
+<h2>Dove ci trovi nel 2026</h2>
+</div>
+<a class="see-all">Vedi calendario completo →</a>
+</div>
+
+<div class="events-grid">
+<div class="event-feature">
+<div>
+<div class="event-pill">FESTIVAL · IN EVIDENZA</div>
+<div class="date">22-25 maggio 2026 · Trento</div>
+<h3>Festival dell'Economia<br>#FuoriFestival</h3>
+<p>Lancio ufficiale di Angelini Academy. Speaking opportunities, comunicato stampa, possibile media partnership.</p>
+</div>
+<a class="btn-on-orange">Iscriviti all'evento →</a>
+</div>
+
+<div class="event-card">
+<div>
+<div class="pill">ROADSHOW</div>
+<div class="date">Giugno-dicembre 2026</div>
+<h3>Roadshow Università</h3>
+<p>Tour nelle università italiane per intercettare candidati MBA Gateway.</p>
+</div>
+<a class="link">Tappe →</a>
+</div>
+
+<div class="event-card">
+<div>
+<div class="pill">HACKATHON</div>
+<div class="date">Dicembre 2026 · Bologna</div>
+<h3>Hackathon BBS — sequel</h3>
+<p>Sequel della prima edizione 17/12/2025 con Bologna Business School.</p>
+</div>
+<a class="link">Candidature →</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="blog-bg">
+<div class="section-inner">
+<div class="section-head-row">
+<div>
+<div class="eyebrow">Insight dal Blog</div>
+<h2>Tre fili rossi, una conversazione</h2>
+</div>
+<a class="see-all">Esplora il blog →</a>
+</div>
+
+<div class="blog-grid">
+<div class="blog-card">
+<div class="placeholder">[IMG ARTICOLO<br>POSIZIONAMENTO — PLACEHOLDER]</div>
+<div class="blog-body">
+<div class="blog-tag tag-yellow">FILO GIALLO · POSIZIONAMENTO</div>
+<h3>Perché parliamo di ponti, non di trasformazione digitale</h3>
+<p>Il purpose di Angelini Academy in una parola: collegare. Cosa vuol dire e cosa esclude.</p>
+<div class="blog-meta">5 min di lettura · maggio 2026</div>
+</div>
+</div>
+
+<div class="blog-card">
+<div class="placeholder">[IMG ARTICOLO<br>RICERCA — PLACEHOLDER]</div>
+<div class="blog-body">
+<div class="blog-tag tag-red">FILO ROSSO · RICERCA</div>
+<h3>Neuroscienze dell'apprendimento: tre evidenze che cambiano l'aula</h3>
+<p>Cosa abbiamo imparato dalla nostra cattedra UCL e come lo stiamo portando nei programmi.</p>
+<div class="blog-meta">8 min di lettura · aprile 2026</div>
+</div>
+</div>
+
+<div class="blog-card">
+<div class="placeholder">[IMG ARTICOLO<br>UNIQUE PROPOSITION — PLACEHOLDER]</div>
+<div class="blog-body">
+<div class="blog-tag tag-green">FILO VERDE · UNIQUE PROPOSITION</div>
+<h3>Borsa totale per ISEE-ISPE sotto i 50K: come decidiamo</h3>
+<p>Trasparenza sul meccanismo di accesso al MBA Gateway. Niente paternalismo, solo regole.</p>
+<div class="blog-meta">6 min di lettura · aprile 2026</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="partners-bg">
+<div class="section-inner">
+<div class="section-head">
+<div class="eyebrow">Partnership accademiche</div>
+<h2>Una rete internazionale</h2>
+<p>Per costruire ponti tra ricerca, mercato e talento.</p>
+</div>
+
+<div class="partners-grid">
+<div class="logo-placeholder">LBS</div>
+<div class="logo-placeholder">IMD</div>
+<div class="logo-placeholder">Stockholm SE</div>
+<div class="logo-placeholder">IE</div>
+<div class="logo-placeholder">UCL</div>
+<div class="logo-placeholder">RCA</div>
+<div class="logo-placeholder">SDA Bocconi</div>
+<div class="logo-placeholder">LUISS</div>
+</div>
+<div class="partners-link"><a>Tutte le collaborazioni →</a></div>
+</div>
+</section>
+
+<section class="newsletter">
+<div class="section-inner">
+<div class="eyebrow">Newsletter</div>
+<h2>Resta aggiornato sui ponti che stiamo costruendo</h2>
+<p class="lead">Ricerca, eventi, candidature MBA Gateway. Una mail al mese, niente di più.</p>
+<form onsubmit="return false;">
+<input type="email" placeholder="La tua email">
+<button type="button">Iscriviti</button>
+</form>
+<p class="privacy">Iscrivendoti accetti la nostra privacy policy.</p>
+</div>
+</section>
+
+<footer>
+<div class="footer-inner">
+<div class="footer-cols">
+<div>
+<div class="footer-brand">
+<div class="mark">AA</div>
+<div class="name">Angelini Academy</div>
+</div>
+<p class="tagline">Building bridges in education.</p>
+<p class="footer-addr">Viale Amelia 70<br>00181 Roma</p>
+</div>
+<div>
+<div class="col-title">Naviga</div>
+<div class="col-list">
+<a>Chi siamo</a>
+<a>Engaged Research</a>
+<a>MBA Gateway</a>
+<a>Eventi</a>
+<a>Blog</a>
+</div>
+</div>
+<div>
+<div class="col-title">Contatti</div>
+<div class="col-list">
+<span>info@angeliniacademy.com</span>
+<span>Press &amp; media</span>
+<span>Lavora con noi</span>
+<span>Partnership accademiche</span>
+</div>
+</div>
+<div>
+<div class="col-title">Seguici</div>
+<div class="col-list">
+<a>LinkedIn</a>
+<a>Instagram</a>
+<a>YouTube</a>
+</div>
+<div class="col-title col-divider">Legali</div>
+<div class="col-list">
+<a>Privacy</a>
+<a>Cookie</a>
+<a>Whistleblowing</a>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<div>© 2026 Angelini Academy — società di Angelini Industries (in costituzione come SRL)</div>
+<div>P.IVA TBD · REA TBD</div>
+</div>
+</div>
+</footer>
+
+</div>
+</body>
+</html>

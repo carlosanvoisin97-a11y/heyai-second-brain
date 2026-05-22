@@ -1,0 +1,196 @@
+<svg width="100%" viewBox="0 0 940 780" xmlns="http://www.w3.org/2000/svg" style="font-family: -apple-system, 'Segoe UI', sans-serif;">
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M2 1.5L8 5L2 8.5" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round"/>
+  </marker>
+  <marker id="arr-dash" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M2 1.5L8 5L2 8.5" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round"/>
+  </marker>
+</defs>
+
+<rect width="940" height="780" fill="#FAFAF8"/>
+
+<!-- Title -->
+<text x="470" y="28" text-anchor="middle" font-size="17" font-weight="600" fill="#1a1a1a">Architettura Ecosistema Noloop — Proprietà dei dati</text>
+<text x="470" y="46" text-anchor="middle" font-size="10" fill="#8C8C8A">Ogni dato ha UNA casa · Gli altri applicativi lo leggono, non lo duplicano</text>
+
+<!-- SALLY layer -->
+<rect x="20" y="58" width="900" height="36" rx="18" fill="#F5F0FF" stroke="#7C6BC4" stroke-width="0.6" stroke-dasharray="4 3"/>
+<circle cx="40" cy="76" r="10" fill="#7C6BC4"/>
+<text x="40" y="76" text-anchor="middle" dominant-baseline="central" font-size="8" font-weight="600" fill="white">S</text>
+<text x="56" y="72" font-size="10" font-weight="600" fill="#4C3D99">Sally — Layer AI trasversale</text>
+<text x="56" y="84" font-size="8.5" fill="#7C6BC4">Legge da tutti, scrive su nessuno senza conferma · KB procedure · Notifiche proattive · NLP in-app</text>
+
+<!-- INPUT ROW -->
+<text x="30" y="116" font-size="9" font-weight="600" fill="#8C8C8A" letter-spacing="1">INPUT</text>
+<rect x="30" y="126" width="72" height="26" rx="5" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="66" y="139" text-anchor="middle" font-size="8.5" fill="#5F5E5A">Call</text>
+<rect x="108" y="126" width="72" height="26" rx="5" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="144" y="139" text-anchor="middle" font-size="8.5" fill="#5F5E5A">Email</text>
+<rect x="186" y="126" width="72" height="26" rx="5" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="222" y="139" text-anchor="middle" font-size="8.5" fill="#5F5E5A">Note vocali</text>
+<rect x="264" y="126" width="72" height="26" rx="5" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="300" y="139" text-anchor="middle" font-size="8.5" fill="#5F5E5A">Brief</text>
+<rect x="342" y="126" width="82" height="26" rx="5" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="383" y="139" text-anchor="middle" font-size="8.5" fill="#5F5E5A">Transcript</text>
+<rect x="430" y="126" width="72" height="26" rx="5" fill="#F1EFE8" stroke="#9C9B97" stroke-width="0.4"/>
+<text x="466" y="139" text-anchor="middle" font-size="8.5" fill="#5F5E5A">Foto / file</text>
+
+<!-- Arrows to Minutes -->
+<line x1="66" y1="152" x2="310" y2="176" stroke="#9C9B97" stroke-width="0.7" marker-end="url(#arr)"/>
+<line x1="144" y1="152" x2="330" y2="176" stroke="#9C9B97" stroke-width="0.7" marker-end="url(#arr)"/>
+<line x1="222" y1="152" x2="360" y2="176" stroke="#9C9B97" stroke-width="0.7" marker-end="url(#arr)"/>
+<line x1="300" y1="152" x2="390" y2="176" stroke="#9C9B97" stroke-width="0.7" marker-end="url(#arr)"/>
+<line x1="383" y1="152" x2="420" y2="176" stroke="#9C9B97" stroke-width="0.7" marker-end="url(#arr)"/>
+<line x1="466" y1="152" x2="450" y2="176" stroke="#9C9B97" stroke-width="0.7" marker-end="url(#arr)"/>
+
+<!-- MINUTES -->
+<rect x="200" y="176" width="380" height="50" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.7"/>
+<text x="390" y="195" text-anchor="middle" font-size="13" font-weight="600" fill="#3C3489">Minutes</text>
+<text x="390" y="210" text-anchor="middle" font-size="9" fill="#534AB7">Raccoglie · Trascrive · Analizza · Estrae e categorizza → smista ai moduli</text>
+
+<!-- Arrow Minutes → LeadMe (task commerciali + dati contatto) -->
+<line x1="300" y1="226" x2="175" y2="276" stroke="#534AB7" stroke-width="1" marker-end="url(#arr)"/>
+<text x="210" y="248" font-size="8.5" fill="#534AB7">Task commerciali</text>
+<text x="210" y="258" font-size="8" fill="#9C9B97">+ dati contatto</text>
+
+<!-- Arrow Minutes → Link (dati COM + task operativi) -->
+<line x1="480" y1="226" x2="640" y2="276" stroke="#534AB7" stroke-width="1" marker-end="url(#arr)"/>
+<text x="580" y="248" font-size="8.5" fill="#534AB7">Dati COM + task operativi</text>
+<text x="580" y="258" font-size="8" fill="#9C9B97">(budget, cliente, date, logistica)</text>
+
+<!-- ============================================ -->
+<!-- LEADME — Left -->
+<!-- ============================================ -->
+<rect x="25" y="276" width="410" height="450" rx="14" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.7"/>
+<text x="230" y="296" text-anchor="middle" font-size="13" font-weight="600" fill="#085041">LeadMe — Mondo Commerciale</text>
+<text x="230" y="310" text-anchor="middle" font-size="8.5" fill="#0F6E56">L'account lavora qui · Possiede: contatti, aziende, pipeline, relazione</text>
+
+<!-- POSSIEDE label -->
+<rect x="38" y="322" width="66" height="16" rx="8" fill="#085041"/>
+<text x="71" y="332" text-anchor="middle" font-size="7.5" font-weight="600" fill="white">POSSIEDE</text>
+
+<!-- NB Pipeline -->
+<rect x="42" y="344" width="380" height="72" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.4"/>
+<text x="232" y="360" text-anchor="middle" font-size="11" font-weight="500" fill="#0C447C">Pipeline New Business</text>
+<rect x="54" y="370" width="356" height="20" rx="4" fill="white" stroke="#B8D4EE" stroke-width="0.3"/>
+<text x="232" y="381" text-anchor="middle" font-size="8" fill="#185FA5">Prospect → Primo contatto → Follow-up → Incontro → Brief/Gara → Chiuso</text>
+<rect x="54" y="394" width="356" height="16" rx="4" fill="white" stroke="#B8D4EE" stroke-width="0.3"/>
+<text x="232" y="403" text-anchor="middle" font-size="7.5" fill="#185FA5">Semafori temporali · Status attività · Scraping · Filtri evoluti · Dashboard NB</text>
+
+<!-- Clienti Pipeline -->
+<rect x="42" y="424" width="380" height="72" rx="8" fill="#DFF0E8" stroke="#0F6E56" stroke-width="0.4"/>
+<text x="232" y="440" text-anchor="middle" font-size="11" font-weight="500" fill="#085041">Pipeline Clienti</text>
+<rect x="54" y="450" width="356" height="20" rx="4" fill="white" stroke="#A8D5BE" stroke-width="0.3"/>
+<text x="232" y="461" text-anchor="middle" font-size="8" fill="#0F6E56">Attivazione → Attivo → Fermo → Inattivo → Da riattivare</text>
+<rect x="54" y="474" width="356" height="16" rx="4" fill="white" stroke="#A8D5BE" stroke-width="0.3"/>
+<text x="232" y="483" text-anchor="middle" font-size="7.5" fill="#0F6E56">Referenti multipli · Alias/madre-figlia · Settori · Stato aggregato</text>
+
+<!-- Attività commerciali -->
+<rect x="42" y="504" width="380" height="52" rx="8" fill="#FFF8E1" stroke="#E6A817" stroke-width="0.5" stroke-dasharray="5 3"/>
+<text x="232" y="522" text-anchor="middle" font-size="11" font-weight="500" fill="#8B6914">Attività commerciali</text>
+<text x="232" y="536" text-anchor="middle" font-size="8" fill="#A67D1A">Follow-up · Call · Presentazioni · Ricontatti · Alert · Calendario</text>
+<text x="232" y="548" text-anchor="middle" font-size="7" fill="#C4980A" font-style="italic">Kanban task del commerciale · Input da Minutes editabili · Sally vocale</text>
+
+<!-- LEGGE label -->
+<rect x="38" y="568" width="52" height="16" rx="8" fill="#993C1D"/>
+<text x="64" y="578" text-anchor="middle" font-size="7.5" font-weight="600" fill="white">LEGGE</text>
+
+<!-- Finestra su Link -->
+<rect x="42" y="590" width="380" height="56" rx="8" fill="white" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="4 3"/>
+<text x="232" y="608" text-anchor="middle" font-size="10" font-weight="500" fill="#993C1D">👁 Vista commesse da Link</text>
+<text x="232" y="622" text-anchor="middle" font-size="8" fill="#B0724A">Stato commesse · Budget · Avanzamento · Fatturato — dati letti in tempo reale, NON duplicati</text>
+<text x="232" y="634" text-anchor="middle" font-size="7.5" fill="#B0724A" font-style="italic">Click su commessa → porta l'utente direttamente su Link nella scheda giusta</text>
+
+<!-- Dashboard Direzione LM -->
+<rect x="42" y="658" width="380" height="44" rx="8" fill="#F3E8FF" stroke="#7C6BC4" stroke-width="0.4"/>
+<text x="232" y="674" text-anchor="middle" font-size="10" font-weight="500" fill="#4C3D99">Dashboard Direzione — Pipeline</text>
+<text x="232" y="688" text-anchor="middle" font-size="8" fill="#7C6BC4">KPI pipeline NB+Clienti · Performance commerciali · Allarmi · Settori</text>
+
+<!-- ============================================ -->
+<!-- LINK — Right -->
+<!-- ============================================ -->
+<rect x="505" y="276" width="410" height="450" rx="14" fill="#FAECE7" stroke="#993C1D" stroke-width="0.7"/>
+<text x="710" y="296" text-anchor="middle" font-size="13" font-weight="600" fill="#712B13">Link — Mondo Operativo</text>
+<text x="710" y="310" text-anchor="middle" font-size="8.5" fill="#993C1D">L'operativo e la direzione lavorano qui · Possiede: commesse, budget, PDP, fatture</text>
+
+<!-- POSSIEDE label -->
+<rect x="518" y="322" width="66" height="16" rx="8" fill="#712B13"/>
+<text x="551" y="332" text-anchor="middle" font-size="7.5" font-weight="600" fill="white">POSSIEDE</text>
+
+<!-- Commesse -->
+<rect x="522" y="344" width="376" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="710" y="360" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Commesse + apertura COM</text>
+<text x="710" y="374" text-anchor="middle" font-size="8" fill="#993C1D">Gatekeeper → Resp. Controllo conferma → push BC · Gestione gare</text>
+
+<!-- Budget -->
+<rect x="522" y="392" width="376" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="710" y="408" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Budget a 3 stadi + snapshot</text>
+<text x="710" y="422" text-anchor="middle" font-size="8" fill="#993C1D">In gara → Pre-chiusura → Consuntivo · Approvazione gate Garbarino</text>
+
+<!-- PDP -->
+<rect x="522" y="440" width="376" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="710" y="456" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">PDP + task operativi</text>
+<text x="710" y="470" text-anchor="middle" font-size="8" fill="#993C1D">Template, upload fatture/contratti, estrazione scadenze, Kanban/Gantt operativo</text>
+
+<!-- Quadratura -->
+<rect x="522" y="488" width="376" height="42" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="710" y="504" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Quadratura + blocco chiusura</text>
+<text x="710" y="518" text-anchor="middle" font-size="8" fill="#993C1D">Cross-check fatture SDI + non-SDI · Workflow approvazioni BC · Template fatt. attiva</text>
+
+<!-- Cash flow BC -->
+<rect x="522" y="536" width="376" height="36" rx="6" fill="white" stroke="#D4A08C" stroke-width="0.3"/>
+<text x="710" y="556" text-anchor="middle" font-size="10" font-weight="500" fill="#712B13">Integrazione cash flow BC</text>
+
+<!-- Progress digitale -->
+<rect x="522" y="582" width="376" height="46" rx="6" fill="#FFF3E0" stroke="#E65100" stroke-width="0.4"/>
+<text x="710" y="600" text-anchor="middle" font-size="11" font-weight="600" fill="#BF360C">Progress digitale (Dashboard Garbarino)</text>
+<text x="710" y="614" text-anchor="middle" font-size="8" fill="#E65100">Status per BU · Margini · Facing · Previsto vs consuntivo · Carichi di lavoro</text>
+
+<!-- LEGGE label -->
+<rect x="518" y="640" width="52" height="16" rx="8" fill="#085041"/>
+<text x="544" y="650" text-anchor="middle" font-size="7.5" font-weight="600" fill="white">LEGGE</text>
+
+<!-- Finestra su LeadMe -->
+<rect x="522" y="662" width="376" height="42" rx="8" fill="white" stroke="#0F6E56" stroke-width="0.5" stroke-dasharray="4 3"/>
+<text x="710" y="678" text-anchor="middle" font-size="10" font-weight="500" fill="#0F6E56">👁 Dati cliente/contatto da LeadMe</text>
+<text x="710" y="692" text-anchor="middle" font-size="8" fill="#5A9C80">Chi è il commerciale · Stato relazione · Settore · Referenti — letti, NON duplicati</text>
+
+<!-- ============================================ -->
+<!-- CROSS ARROWS -->
+<!-- ============================================ -->
+
+<!-- LeadMe → Link: apertura COM -->
+<line x1="437" y1="460" x2="520" y2="360" stroke="#993C1D" stroke-width="1.2" marker-end="url(#arr)"/>
+<text x="490" y="396" font-size="8" fill="#993C1D" text-anchor="middle">Apertura COM</text>
+
+<!-- Link → LeadMe: status COM (read) -->
+<line x1="520" y1="410" x2="437" y2="480" stroke="#0F6E56" stroke-width="0.8" marker-end="url(#arr)" stroke-dasharray="4 2"/>
+<text x="490" y="458" font-size="8" fill="#0F6E56" text-anchor="middle">Status COM</text>
+<text x="490" y="468" font-size="7" fill="#9C9B97" text-anchor="middle">(read-only)</text>
+
+<!-- BC Box -->
+<rect x="600" y="724" width="200" height="40" rx="8" fill="#F3F4F6" stroke="#6B7280" stroke-width="0.6" stroke-dasharray="4 3"/>
+<text x="700" y="740" text-anchor="middle" font-size="10" font-weight="600" fill="#4B5563">Business Central</text>
+<text x="700" y="752" text-anchor="middle" font-size="7.5" fill="#6B7280">Contabilità · Fatturazione · Cash flow</text>
+
+<!-- Link ↔ BC -->
+<line x1="680" y1="630" x2="680" y2="720" stroke="#6B7280" stroke-width="1" marker-end="url(#arr)"/>
+<text x="660" y="680" font-size="7.5" fill="#6B7280">Push API</text>
+<line x1="720" y1="720" x2="720" y2="630" stroke="#6B7280" stroke-width="0.8" marker-end="url(#arr)" stroke-dasharray="3 2"/>
+<text x="740" y="680" font-size="7.5" fill="#6B7280">Check</text>
+
+<!-- ============================================ -->
+<!-- LEGEND -->
+<!-- ============================================ -->
+<rect x="25" y="738" width="500" height="32" rx="6" fill="white" stroke="#E5E7EB" stroke-width="0.4"/>
+<line x1="42" y1="754" x2="72" y2="754" stroke="#534AB7" stroke-width="1.2"/>
+<text x="78" y="757" font-size="7.5" fill="#5F5E5A">Flusso dati (scrittura)</text>
+<line x1="168" y1="754" x2="198" y2="754" stroke="#0F6E56" stroke-width="0.8" stroke-dasharray="4 2"/>
+<text x="204" y="757" font-size="7.5" fill="#5F5E5A">Lettura dati (read-only)</text>
+<rect x="296" y="748" width="14" height="10" rx="3" fill="white" stroke="#993C1D" stroke-width="0.5" stroke-dasharray="3 2"/>
+<text x="316" y="757" font-size="7.5" fill="#5F5E5A">Finestra su altro applicativo</text>
+<rect x="424" y="748" width="14" height="10" rx="3" fill="#FFF8E1" stroke="#E6A817" stroke-width="0.5" stroke-dasharray="4 2"/>
+<text x="444" y="757" font-size="7.5" fill="#5F5E5A">Componenti condivisi</text>
+
+</svg>

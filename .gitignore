@@ -1,0 +1,30 @@
+# === Vault /claude — esclusioni git ===
+
+# macOS / OS
+.DS_Store
+Thumbs.db
+
+# Obsidian — solo stato UI volatile
+# (app.json, appearance.json, core-plugins.json, graph.json restano versionati)
+.obsidian/workspace*
+.obsidian/cache/
+.trash/
+
+# Office / LibreOffice — lock file temporanei
+~$*
+.~lock.*#
+
+# Python — virtualenv e cache
+.venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Editor / backup / temp
+.vscode/
+*.swp
+*.swo
+*.tmp
+*~

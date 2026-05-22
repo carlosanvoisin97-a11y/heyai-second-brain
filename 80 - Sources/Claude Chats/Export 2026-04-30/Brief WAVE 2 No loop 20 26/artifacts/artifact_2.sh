@@ -1,0 +1,1 @@
+python3 /mnt/skills/public/docx/scripts/office/validate.py /home/claude/Brief_Avvocato_Wave2_Noloop.docx 2>&1
