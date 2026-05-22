@@ -1,18 +1,36 @@
 ---
 type: system
 created: 2026-05-05
-updated: 2026-05-19
-status: operational (post-refactoring 6/5/2026)
+updated: 2026-05-22
+status: operational — refactoring M3 22/5/2026 (routing table + consolidamento; versioning git attivo)
 purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 ---
-<!-- auto-updated by cowork-sessions-index 2026-05-19 20:22 (cron-22) | source-session: local_b2af374e + autorizzazione esplicita Carlo cascata §10bis Luigiandrea Scaramuzzi -->
-<!-- atomic-change updated: 2026-05-16 → 2026-05-19 | session: cron-22 19/5 | trigger: cascata §10bis nuova scheda persona Jakala Manager -->
-
 # CLAUDE.md — Istruzioni per ogni chat Cowork su questo vault
 
-> ✅ **Refactoring 6/5/2026 completato**: vault riorganizzato in sottocartelle cliente (vedi §3.1), `70 - Meetings/` deprecata (minute assorbite via §15), 4 nuovi template in `90 - Templates/`, scheduled task `cowork-sessions-index` attivo (cron `22 20 * * *` 1x al giorno + trigger manuale on-demand). Snapshot pre-refactoring: [[50 - Archive/System Snapshots/Vault Snapshot 2026-05-06|Vault Snapshot 2026-05-06]].
+> Primo file che ogni nuova chat Cowork legge. Sintesi operativa del secondo cervello di [[60 - People/Carlo Sanvoisin|Carlo Sanvoisin]] (HeyAI Digital). Non sostituisce le fonti autoritative (in particolare [[99 - System/Master Facts Sheet]]); le condensa per orientamento immediato.
+>
+> Storico delle modifiche a questo file e al sistema: `git log` (versioning attivo dal 22/5/2026) + [[99 - System/CLAUDE Changelog Archive]].
 
-> Questo file è il primo che ogni nuova chat Cowork deve leggere. È la sintesi operativa del secondo cervello di [[60 - People/Carlo Sanvoisin|Carlo Sanvoisin]] (HeyAI Digital). Non sostituisce le fonti autoritative (in particolare [[99 - System/Master Facts Sheet]]); le condensa per orientamento immediato.
+## 0. Routing — cosa leggere per ogni task
+
+Tabella di instradamento: per ogni tipo di task leggi prima i file indicati e fermati lì. Serve a non ingerire l'intero vault a ogni sessione.
+
+| Task | Leggi prima | Poi, se serve |
+|---|---|---|
+| Apertura di ogni chat | questo `CLAUDE.md` + pre-flight §10ter | — |
+| Numeri / pricing / fatti commerciali | [[99 - System/Master Facts Sheet]] | scheda progetto in `20 - Projects/` |
+| Lavoro su un progetto | `20 - Projects/<Cliente>/_<Cliente>.md` + scheda progetto | Master Facts Sheet, schede persona collegate |
+| Lavoro su una persona | scheda in `60 - People/` | schede progetto collegate |
+| Bozza email | **Read** `.claude/skills/email-drafting/SKILL.md` (obbligo §2.1) | 2-3 email recenti via Outlook |
+| Proposta di Investimento / memo strutturato | **Read** `.claude/skills/investment-proposal-drafting/SKILL.md` (obbligo §2.2) | Master Facts Sheet + scheda progetto |
+| Trascrizione caricata / recap call | **Read** `.claude/skills/transcript-processing/SKILL.md` (obbligo §15.bis) | schede dei presenti |
+| Deliverable (proposta, brief, recap, presentazione) | `Glob` su `90 - Templates/`, `40 - Resources/`, `80 - Sources/Files/`, `20 - Projects/<Cliente>/` | template o esempio trovato |
+| Navigazione / "dov'è X" | [[99 - System/MOC - Home]] | — |
+| Stato task aperti | [[99 - System/Open Tasks]] | — |
+| Dubbi / ambiguità irrisolte | [[99 - System/Open Questions]] | — |
+| Aggiornare il vault con un fatto nuovo | §15 (protocollo vault-live) | scheda/e impattata/e |
+
+Regola d'oro: prima di chiedere "che formato vuoi?", verifica se il vault ha già un template o un esempio.
 
 ## 1. Identità utente
 
@@ -53,7 +71,7 @@ Se Carlo chiede esplicitamente "spiegami in dettaglio", "fai analisi completa", 
 
 **OBBLIGO**: prima di scrivere qualsiasi bozza email, l'agente **DEVE leggere** il file `.claude/skills/email-drafting/SKILL.md` con il tool `Read`. Il file contiene tutti i pattern email di Carlo (cliente + interno Federico+Simone). Senza quella lettura, la bozza sarà generica e non nel suo stile. Regole critiche sempre attive (anche senza leggere la skill):
 
-- **MAI citare per nome i fornitori HeyAI** nelle email ai clienti (Soolutions, Silencio, Jakala, Tokio Studio) → scrivere `team di sviluppo` / `team tecnico` / `il nostro team`
+- **Mai nominare i fornitori HeyAI al cliente** — regola completa in §13 Riservatezze
 - **Formato consegna**: testo pulito copia-incolla diretto in Outlook, no code block, no tag formattazione
 - **Verbi sostantivati** nei bullet di recap/prossimi passi (forma impersonale, no prima/seconda persona)
 - **Prima di scrivere**: controllare 2-3 email recenti di Carlo via Outlook search per calibrare il tono
@@ -64,7 +82,7 @@ Se Carlo chiede esplicitamente "spiegami in dettaglio", "fai analisi completa", 
 
 - **Layout obbligatorio**: A4 portrait, margini top 2.50 / R/B/L 2.00 cm, header con logo HeyAI + dati legali, footer con bordo #156082 + ornamento + testo legale (NON numerazione pagine)
 - **Tipografia obbligatoria**: Aptos 11pt body, Aptos 16pt nero bold per Heading 1, Aptos 20pt #2B8C96 bold per titolo, override inline esplicito (non lasciare default Normale=Arial)
-- **MAI citare per nome i fornitori HeyAI** (Soolutions, Silencio, Jakala, Tokio Studio, Aegiscore) → `team di sviluppo` / `team tecnico`
+- **Mai nominare i fornitori HeyAI al cliente** — regola completa in §13 Riservatezze
 - **MAI inventare numeri**: verificare sempre su [[99 - System/Master Facts Sheet]] + scheda progetto
 - **Regola pricing (BLOCCANTE)**: il costo fornitore non deve mai superare il **60% del prezzo cliente**. Target sano 40-45%, accettabile 50%, limite tattico 55-60%, oltre 60% non si va. Riferimento esteso: [[99 - System/Master Facts Sheet]] §"Regola pricing HeyAI". _[Aggiornata 15/5/2026 — sostituisce "Floor margine €15K hard" che era una semplificazione fuorviante per progetti grandi e piccoli]_
 - **Audit numerico §02** obbligatorio prima della consegna
@@ -254,24 +272,16 @@ Fonte autoritativa: [[99 - System/Open Questions]]. Critiche aperte: #19 (contra
 
 ## 13. Riservatezze
 
+- **Mai citare per nome i fornitori HeyAI** (Soolutions, Silencio, Jakala, Tokio Studio, Aegiscore) in nulla di rivolto al cliente — email, proposte, presentazioni: scrivere sempre `team di sviluppo` / `team tecnico` / `il nostro team`. Richiamata da §2.1 (email) e §2.2 (proposte).
 - Flusso fatture attive NoLoop (operativi → email → Elisa Remigi → BC manuale) = **classificato**, non menzionare apertamente con il cliente.
 - Credenziali rotate ✅ il 30/04 (Carlo); password storiche citate in [[99 - System/Open Questions]] §Sicurezza vanno trattate come compromesse e mai ricondivise.
 - Marco Pasquali (NoLoop) ↔ Andrea Pasquali (Jakala): relazione padre-figlio, evitare di mettere Marco in posizione conflittuale; coltivare la relazione direttamente.
 
-## 14. Ultima review e prossimo handoff
+## 14. Storico
 
-> Storico completo in [[99 - System/CLAUDE Changelog Archive]]. Rolling window: solo ultime 24-48h qui.
+> La cronologia delle modifiche (ex changelog rolling §14) è stata rimossa da questo file il 22/5/2026: lo storico vive ora in `git log` (versioning attivo) e in [[99 - System/CLAUDE Changelog Archive]]. Così CLAUDE.md non cresce a ogni patch.
 
-- **14/5/2026**: ottimizzazione token CLAUDE.md (~60% riduzione) — §2.1/§2.1.bis spostati in skill `email-drafting`, §15.bis in skill `transcript-processing`, sezioni §3-§5-§8-§9-§12 compattate a puntatori. Backup pre-ottimizzazione in `50 - Archive/System/`.
-- **14/5/2026**: soluzione wikilink underscore-prefix via `aliases:` frontmatter su 13 schede + patch `vault-link-checker` v4 alias-aware **applicata da Carlo stessa giornata** (verifica via lettura SKILL.md vivo — patch v4 in produzione, prossimo run scheduled dom 17/5 21:00 girerà alias-aware). Reference: [[99 - System/Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware]].
-- **14/5/2026 sera tardo (audit comprensivo Carlo richiesto)**: eseguito audit + 4 fix applicati: (a) Vault Link Audit info stale corretta; (b) `system-consistency-check` eseguito → drift critico `weekly-review-interactive` cron Sab + 4 minori risolti (CLAUDE.md §9 ora coerente); (c) scheda [[60 - People/Stefano Mambrin (Avanta)|Stefano Mambrin]] creata; (d) convenzione `meeting_context:` aggiunta in §4. Dettaglio in [[99 - System/CLAUDE Changelog Archive]] §14.archive 14/5/2026.
-- **14/5/2026**: nuovo pattern in §2.1 "Reminder mail — pattern compatto" appreso da rewrite Carlo durante drafting email reminder Justin+Carmen+Laila (Operation Transformation). Pattern catturati: apertura `vi scrivo solo per un reminder veloce`, parentesi corte `(qui sotto)`, append topic con `+ tema X in capo a Y`, taglio doppia offerta `supporto/call`, chiusura condensata, `!` finale come spinta operativa.
-- **14/5/2026 sera tardo (post-mortem patch a/b)**: 2 fail intercettati da Carlo (PM Digest patch dichiarata "FUNZIONATA" su metric "41 task migrati" senza ispezione strutturale → ricreava stratificazione "Aggiunte X/5" che doveva eliminare · 35/52 wikilink ATTIVI residui post-Batch B+C archive non propagati per memory-only grep). Fix applicati live (Open Tasks flat list + re-patch SKILL `pm-digest-mattutino` con 3 regole bloccanti + sed batch wikilink residui). **Lezioni operative consolidate come regola permanente in §15.quinquies** (verifica strutturale post-action). Dettaglio post-mortem completo in [[99 - System/CLAUDE Changelog Archive]] §14.archive 14/5/2026.
-- **14/5/2026 sera (audit second brain Carlo richiesto)**: i 18 broken wikilink residui sono stati **tutti chiusi** in sessione audit: Analisi Competitor ×8 → puntati a [[Scan Siti Web Comparable]] / [[Analisi Competitor (v2 archiviata)]] o testo (deliverable non prodotto, decisione Carlo); Brand Review ×3 → eliminati nei 3 doc Angelini (decisione Carlo: non utile per pitch); crm-velocity ×3 → convertiti a backtick (era nome scheduled task, non file); Aegiscore Luca Fratini ×3 → risolti via creazione scheda [[60 - People/Luca Fratini (Aegiscore)|Luca Fratini]] + [[30 - Areas/Area - Partnership Fornitori/Aegiscore|Aegiscore]] (cascata §10bis applicata; scheda persona poi consolidata 14/5 sera con la pre-esistente `Luca (Silencio)` — stessa persona, dual affiliation Aegiscore + Silencio). Atteso K=0 wikilink rotti reali al prossimo `vault-link-checker` (dom 17/5 21:00). Audit completo session report nel chat-log della giornata.
-- **14/5/2026 sera**: creata skill `investment-proposal-drafting` (`.claude/skills/investment-proposal-drafting/SKILL.md`, 387 righe) per produrre Proposte di Investimento HeyAI con design system coerente. Token grafici estratti da `Futuritaly_Proposta Investimento AI_Bandi e Gare_2026.docx` (caricato 14/5, salvato in `80 - Sources/Files/Reference - Proposta Investimento Futuritaly Bandi Gare 2026.docx`). Nuova §2.2 in CLAUDE.md con obbligo Read SKILL.md prima di redigere proposte. Template legacy `90 - Templates/Proposta Investimento.md` archiviato in `50 - Archive/System Snapshots/2026-05-14 - Template Proposta Investimento (deprecato).md` — contenuti utili assorbiti nella skill (struttura sezioni, regole pricing, pattern stilistici). `90 - Templates/Quotazione Cliente.md` resta valido (ambito diverso: progetti minori senza layout grafico). Prompt 01 (Senior Strategy Finance Consultant) e 02 (Audit Numerico Presentazione) restano validi e sono richiamati dalla skill. Aggiornato `40 - Resources/Prompts/00 - Index Prompt Library.md` con nota di redirect.
-- **16/5/2026 (patch continuation scan `cowork-sessions-index`)**: scheduled run 16/5 ha intercettato che `local_d7b38090` (Achipont, Draft investment proposal email) era stata riaperta in window con lavoro vault-worthy substanziale (finalizzazione Proposta v6 file datati `15-5-26`, nuova regola pricing % BLOCCANTE propagata a CLAUDE.md §2.2 + Master Facts Sheet + skill `investment-proposal-drafting`), ma il filtro "Skip sessioni già indicizzate" la escludeva → cronistoria del 16/5 vuota nonostante §15 CLAUDE.md avesse propagato live al vault. Patch applicata al SKILL `cowork-sessions-index` (file path canonical `/Users/.../Scheduled/cowork-sessions-index/SKILL.md`): nuovo step 2.bis Continuation scan (top 10 user-initiated già indicizzate × `read_transcript` limit=3 → trigger su date in window/verbi-passato/file-prodotti-in-window/patch-vault menzionate → sezione `## Continuation sessions` H2 nel daily index, no re-patch schede, no entry indice consolidato, no checkbox reconciliation — solo cronistoria). Entry Log §7 estesa con `· {C} continuations` opzionale. §9 description aggiornata. Prossimo run dom 17/5 20:22 testerà la patch end-to-end. **Caveat**: description scheduler-side NON aggiornata via `update_scheduled_task` MCP (tool richiede supervisione user, non disponibile in unsupervised run) → se vuoi sidebar "+ continuation scan" devi triggerare l'update manualmente.
-- **Prossimi eventi critici**: `weekly-review-interactive` **sab 16/5 17:30** (in esecuzione), `cowork-sessions-index` continuation scan primo test **dom 17/5 20:22**, `vault-link-checker` v4 alias-aware primo run **dom 17/5 21:00**, `crm-velocity` **lun 18/5 9:00**, invio Proposta Achipont a Luigi **lun 18/5**, OnSite MVP **20/5**, pitch Angelini Academy **31/5**, test Crowd + saldo Wave 1 **fine maggio**, HoReCa **metà giugno**.
-- Per decisioni su numeri ufficiali: aggiornare [[99 - System/Master Facts Sheet]] **e** la scheda progetto, mai una sola.
+- Regola operativa (era in coda al vecchio §14, mantenuta): per ogni decisione su numeri ufficiali aggiornare [[99 - System/Master Facts Sheet]] **e** la scheda progetto, mai una sola.
 
 ## 15. Vault-live update — aggiornamento del second brain durante la sessione
 
@@ -357,7 +367,7 @@ Prima di scrivere su una scheda, controlla:
 4. Il frontmatter `updated:` è recente (ultime 6h) di un autore diverso? Se sì, leggi il delta e fai append solo del tuo contributo, mai sovrascrivi.
 5. Quello che stai per scrivere duplica qualcosa già presente? Se sì, salta.
 6. Stai per esporre dati riservati (CLAUDE.md §13) in un posto sbagliato? Se sì, riconsidera la destinazione.
-7. **🔴 Refactoring di file (rename/move/split) — propagazione obbligatoria dei wikilink** (NUOVO 8/5/2026, regola bloccante). Ogni volta che rinomini, sposti o splitti un file nel vault, **prima di chiudere il commit di sessione** esegui un grep globale del vecchio identificatore e rinomina TUTTE le occorrenze. Comando di riferimento: `grep -rn "<vecchio_filename>" /Users/carlosanvoisin/claude --include="*.md"`. Trigger di rinominazione: (a) wikilink `[[Vecchio]]` → `[[Nuovo|Display]]`; (b) frontmatter `parent_project: Vecchio` → `parent_project: Nuovo`; (c) frontmatter `projects: [Vecchio]` → `projects: [Nuovo]`; (d) path string in prep doc / 00-Inbox. **Chiusura del commit non è ammessa con residui non rinominati**: se il grep torna match dopo le rinomine, fissarle prima di scrivere la risposta in chat. Lesson appresa 8/5/2026 (incidente refactoring 6/5): 26 occorrenze di `[[Angelini Academy - Sito]]` su 14 file sono rimaste rotte per 2 giorni perché il refactoring del 6/5 ha spostato i file in sottocartelle cliente senza propagare i wikilink. Obsidian le mostra come link grigi, non visibili in chat ma rotti nella navigazione vault. Senza questa regola la stessa classe di errori si ripresenta a ogni futuro refactoring.
+7. **🔴 Refactoring di file (rename/move/split) — propagazione obbligatoria dei wikilink** (NUOVO 8/5/2026, regola bloccante). Ogni volta che rinomini, sposti o splitti un file nel vault, **prima di chiudere il commit di sessione** esegui un grep globale del vecchio identificatore e rinomina TUTTE le occorrenze. Comando di riferimento: `grep -rn "<vecchio_filename>" /Users/carlosanvoisin/claude --include="*.md"`. Trigger di rinominazione: (a) wikilink `[[Vecchio]]` → `[[Nuovo|Display]]`; (b) frontmatter `parent_project: Vecchio` → `parent_project: Nuovo`; (c) frontmatter `projects: [Vecchio]` → `projects: [Nuovo]`; (d) path string in prep doc / 00-Inbox. **Chiusura del commit non è ammessa con residui non rinominati**: se il grep torna match dopo le rinomine, fissarle prima di scrivere la risposta in chat.
 
 ### Cosa segnalare in chat
 
@@ -390,13 +400,6 @@ Ogni claim di "verificato / risolto / fixed / completato / FUNZIONATA" dell'agen
 **Per archive/refactoring batch multi-file**: `find + grep` su OGNI basename interessato PRIMA del commit, non solo sui file ricordati a memoria. Estende §15 voce 7 (grep globale di un singolo identificatore in caso di rename) al caso di archive batch di N file simultanei.
 
 **Per creazione di nuove schede persona/progetto/fornitore** (cascata §10bis): PRIMA di `Write`, `find + grep` su OGNI alias plausibile dell'entità — non solo sul nome canonico atteso. Esempi: per una persona controllare nome + cognome + soprannome + azienda + brand affiliato (es. "Luca" + "Fratini" + "Aegiscore" + "Silencio"); per un progetto controllare nome + cliente + sigla + alias chat. Cascata §10bis non è solo "aggiungi a Master Facts/CLAUDE.md/MOC dopo creazione", è anche "check duplicati PRIMA della creazione".
-
-Lesson appresa 14/5/2026 (3 fail intercettati da Carlo):
-1. PM Digest patch "FUNZIONATA" dichiarata leggendo solo "41 task migrati" senza verificare struttura → ricreava stratificazione "Aggiunte X/5"
-2. 35/52 wikilink ATTIVI residui non propagati post-Batch B+C archive perché propagati a memoria invece che via grep globale
-3. Scheda `Aegiscore (Luca Fratini)` creata senza grep su "Luca" o "Fratini" → duplicata pre-esistente `Luca (Silencio).md` (stessa persona, dual affiliation), consolidata 14/5 sera dopo segnalazione Carlo
-
-Post-mortem completo in [[99 - System/CLAUDE Changelog Archive]] §14.archive 14/5/2026.
 
 ## 16. Glossario "task" — disambiguazione (importante)
 
