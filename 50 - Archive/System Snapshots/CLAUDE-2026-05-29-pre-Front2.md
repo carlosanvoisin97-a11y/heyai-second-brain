@@ -1,8 +1,8 @@
 ---
 type: system
 created: 2026-05-05
-updated: 2026-05-29
-status: operational — refactoring M4 29/5/2026 (§15 vault-live + §10bis → skill vault-live-protocol; core sempre-attivo in CLAUDE.md; versioning git attivo) + Front 3 29/5 (§9bis due-scheduler Cowork-vs-Code + campanello digest-staleness hook)
+updated: 2026-05-22
+status: operational — refactoring M3 22/5/2026 (routing table + consolidamento; versioning git attivo)
 purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 ---
 # CLAUDE.md — Istruzioni per ogni chat Cowork su questo vault
@@ -12,7 +12,6 @@ purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 > Storico delle modifiche a questo file e al sistema: `git log` (versioning attivo dal 22/5/2026) + [[99 - System/CLAUDE Changelog Archive]].
 
 <!-- updated: 2026-05-24 — patch §4 aliases (regola consolidata "un nome canonico, alias solo per varianti operative diffuse") -->
-<!-- updated: 2026-05-29 — refactoring M4: corpo §15 (vault-live) + §10bis estratti in skill .claude/skills/vault-live-protocol/; core blocking resta sempre-attivo in CLAUDE.md. Diet hot-path: ~95 righe → ~22. -->
 
 ## 0. Routing — cosa leggere per ogni task
 
@@ -31,7 +30,7 @@ Tabella di instradamento: per ogni tipo di task leggi prima i file indicati e fe
 | Navigazione / "dov'è X" | [[99 - System/MOC - Home]] | — |
 | Stato task aperti | [[99 - System/Open Tasks]] | — |
 | Dubbi / ambiguità irrisolte | [[99 - System/Open Questions]] | — |
-| Aggiornare il vault con un fatto nuovo | §15 core (precedenza + append-only) | **Read** `.claude/skills/vault-live-protocol/SKILL.md` se commit non banale (refactoring/archive/nuove schede) |
+| Aggiornare il vault con un fatto nuovo | §15 (protocollo vault-live) | scheda/e impattata/e |
 
 Regola d'oro: prima di chiedere "che formato vuoi?", verifica se il vault ha già un template o un esempio.
 
@@ -126,7 +125,7 @@ Hub navigazione: [[99 - System/MOC - Home]]. Fonte autoritativa numeri: [[99 - S
 - **Wikilinks dentro esempi/template**: SEMPRE wrappare in backtick singolo per evitare che Obsidian li parsi come link reali. I placeholder usati nei template (formato testuale `Persona 1`, `Progetto 1`, `Nome Progetto`, `Nota collegata`, `scheda1`, `Vecchio`) sono "rotti per design" se non backtickati e inquinano il report `vault-link-checker`. Esempio corretto: scrivere `[[NomeFile]]` (con backtick attorno) anziché senza.
 - **Frontmatter YAML** standard: `type`, `status`, `priority`, `client`, `created`, `updated`, `stakeholders`. Vedi `90 - Templates/Project.md` come riferimento.
 - **Frontmatter `projects:`/`stakeholders:`**: i valori devono matchare ESATTAMENTE i basename dei file (incluso `_` prefix dove esiste, oppure un alias registrato in `aliases:` di quel file). `projects: [Futuritaly]` ora funziona perché `_Futuritaly.md` ha `aliases: [Futuritaly]`. Stesso per stakeholders: `Federico Saladino (Soolutions)` resta il basename, ma con un alias nel frontmatter di quel file anche `Federico Saladino` o `Federico` risolverebbero.
-- **Aliases — quando registrarli e quando NO (regola consolidata 24/5/2026)**: ogni entità (persona, progetto, doc, concetto) ha **un solo nome canonico** = il basename del file. Gli `aliases:` sono un redirect tecnico per la risoluzione Obsidian, **non** una scorciatoia per duplicare l'identità sotto nomi diversi. Per persone, **il canonico è sempre `Nome Cognome`** (mai cognome-solo né nome-solo, anche se disambiguanti). Quando emerge una forma alternativa che non risolve: (1) verificare se è la stessa entità di una scheda esistente; (2) se c'è il minimo dubbio, **chiedere a Carlo prima di committare** ("la forma X si riferisce all'entità Y?"); (3) fix preferito = rinominare la forma alternativa al canonico nel file sorgente via §15 core grep-on-rename (dettaglio: skill `vault-live-protocol` §5 voce 7 — grep+rinomina batch); (4) registrare alias **solo se** la variante è uso operativo diffuso e ricorrente (es. forma corta usata spontaneamente in 5+ file di prosa, sigla riconosciuta come `NoLoop`/`NOT`, brand alternativo della stessa entità come `Tokio Studio = Simone Montanari`). **NON registrare alias per**: (a) errori di battitura (bonificare con grep+rinomina, mai mascherare con alias); (b) coprire 1-2 occorrenze isolate generate da indexer/script auto (fix il sorgente che le ha prodotte); (c) varianti cognome-solo o nome-solo di persone (canonico = sempre Nome Cognome). Lesson 24/5/2026: typo "Verrangelo" registrato come alias di "Verrengia" → sbagliato (mascherava errore invece di bonificarlo). Wikilink auto-generati con suffisso azienda non canonico (`Marta Garrafa (Eldis)` per scheda `Marta Garrafa`) → fix all'output dell'indexer, non alias di copertura.
+- **Aliases — quando registrarli e quando NO (regola consolidata 24/5/2026)**: ogni entità (persona, progetto, doc, concetto) ha **un solo nome canonico** = il basename del file. Gli `aliases:` sono un redirect tecnico per la risoluzione Obsidian, **non** una scorciatoia per duplicare l'identità sotto nomi diversi. Per persone, **il canonico è sempre `Nome Cognome`** (mai cognome-solo né nome-solo, anche se disambiguanti). Quando emerge una forma alternativa che non risolve: (1) verificare se è la stessa entità di una scheda esistente; (2) se c'è il minimo dubbio, **chiedere a Carlo prima di committare** ("la forma X si riferisce all'entità Y?"); (3) fix preferito = rinominare la forma alternativa al canonico nel file sorgente via §15 voce 7 (grep+rinomina batch); (4) registrare alias **solo se** la variante è uso operativo diffuso e ricorrente (es. forma corta usata spontaneamente in 5+ file di prosa, sigla riconosciuta come `NoLoop`/`NOT`, brand alternativo della stessa entità come `Tokio Studio = Simone Montanari`). **NON registrare alias per**: (a) errori di battitura (bonificare con grep+rinomina, mai mascherare con alias); (b) coprire 1-2 occorrenze isolate generate da indexer/script auto (fix il sorgente che le ha prodotte); (c) varianti cognome-solo o nome-solo di persone (canonico = sempre Nome Cognome). Lesson 24/5/2026: typo "Verrangelo" registrato come alias di "Verrengia" → sbagliato (mascherava errore invece di bonificarlo). Wikilink auto-generati con suffisso azienda non canonico (`Marta Garrafa (Eldis)` per scheda `Marta Garrafa`) → fix all'output dell'indexer, non alias di copertura.
 - **Frontmatter `related_meeting:` vs `meeting_context:` — convenzione 14/5/2026**: usare `related_meeting:` SOLO per call con file separato (legacy pre-6/5/2026 o eccezioni esplicite). Per le call POST-6/5/2026 assorbite nelle schede (convenzione §4 "Nuove minute meeting: NON creare file separato"), usare il campo `meeting_context:` con testo libero descrittivo — es. `meeting_context: 2026-05-13 — Allineamento interno HeyAI+Soolutions (call assorbita nelle schede)`. Il SKILL `vault-link-checker` controlla `related_meeting:` come wikilink ma ignora `meeting_context:` (testo libero). Questo evita falsi positivi sistematici sulle bozze email/whatsapp che ricapitolano call assorbite.
 - **"Data più recente vince"** su qualsiasi conflitto di valori. Se una scheda ha `updated:` più recente del Master Facts Sheet, vince la scheda — segnalare la discrepanza per riallineare il Master.
 - **Nuove minute meeting**: NON creare file separato. Quando incolli una trascrizione di call, estrai decisioni/citazioni/numeri/task e fai append nelle schede pertinenti (progetto, persone presenti) — vedi §15 Vault-live update. Prep doc pre-call → `00 - Inbox/`. Performance post-call → `30 - Areas/Area - Performance & Coaching/`.
@@ -224,16 +223,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 | `system-consistency-check` | Lun 7:30 | Audit doc-vs-scheduler-vs-SKILL → `99 - System/System Consistency Audit.md` |
 | `dashboard-refresh-manual` | Manuale | Refresh PM Dashboard HeyAI |
 
-Disabilitati: `friday-wrap-up`, `weekly-digest`, `claude-chats-sync`. Per storia patch → [[99 - System/CLAUDE Changelog Archive]]. Ogni task è triggerabile manualmente dal pannello Scheduled.
-
-### 9bis. DUE scheduler separati — leggere prima di fidarsi di `list_scheduled_tasks` (Front 3, 29/5/2026)
-
-Le automazioni di questa tabella vivono nello **scheduler di Cowork** (`~/Documents/Claude/Scheduled/`) e **girano SOLO quando l'app Cowork è aperta**. Claude **Code** (CLI) ha uno scheduler **separato** (`~/.claude/scheduled-tasks/`) con un solo task: `code-sessions-index` (indicizzazione sessioni Code, cron 20:35). Conseguenze operative:
-
-- Lavorando **solo in Code** senza aprire Cowork, il PM Digest mattutino e tutti gli audit (link-checker, moc-refresh, crm-velocity, ...) **NON partono — in silenzio**. Nessuno se ne accorge finché non manca una daily note.
-- Il tool `mcp__scheduled-tasks__list_scheduled_tasks` (disponibile in Code) vede **SOLO lo scheduler di Code** → mostra `code-sessions-index` e basta. **NON è lo stato reale dei task Cowork** di questa tabella. Per quelli: aprire il pannello Scheduled dentro Cowork.
-- **Campanello automatico**: l'hook `SessionStart` in `.claude/settings.json` lancia `.claude/hooks/digest-staleness-check.sh` a ogni apertura sessione. Se l'ultima daily note è ferma da ≥2 giorni mostra un avviso (digest probabilmente non girato perché Cowork non è stato aperto). Per recuperare: aprire Cowork e lasciar girare il digest, o lanciarlo a mano.
-- **Regola pratica**: per *lavorare* sul vault (note, bozze, analisi) Code e Cowork sono equivalenti e sicuri — si può switchare liberamente. Per le *automazioni* no: sono legate a Cowork. Se passi giorni in Code, apri Cowork ogni tanto per far girare digest+audit.
+Disabilitati: `friday-wrap-up`, `weekly-digest`, `claude-chats-sync`. Per storia patch → [[99 - System/CLAUDE Changelog Archive]]. Ogni task è triggerabile manualmente dal pannello Scheduled. Per lo stato reale dello scheduler → `mcp__scheduled-tasks__list_scheduled_tasks`.
 
 ## 10. Procedura standard per ogni nuova chat
 
@@ -250,11 +240,18 @@ Le automazioni di questa tabella vivono nello **scheduler di Cowork** (`~/Docume
 
 ### 10bis. Cascata su nuove schede progetto/persona
 
-Quando crei una nuova scheda in `20 - Projects/` o `60 - People/`, propaga subito (stessa sessione) le info essenziali a **Master Facts Sheet**, **CLAUDE.md** (§6 se progetto P1/P2, §7 se persona cluster cliente/fornitore), **MOC - Home** (wikilink + tag 🆕), **Open Questions** (se apre dubbi non risolti). Senza cascata la scheda resta invisibile ai file di sistema e ogni nuova chat parte cieca su quel progetto/persona. **Procedura completa + check-duplicati-PRIMA-di-`Write`** nella skill `vault-live-protocol` §7 (la regola "`updated:` più recente vince" del §4 è una toppa, non sostituisce la cascata).
+Quando crei una nuova scheda in `20 - Projects/` o `60 - People/`, propaga subito (stessa sessione, non a fine giornata) le info essenziali:
+
+- **Master Facts Sheet** (`99 - System/Master Facts Sheet.md`): aggiungi una riga sintetica nella sezione "💰 Pricing target altri progetti" (per progetti) o nella tabella cluster appropriata (per persone). Aggiorna `updated:` nel frontmatter.
+- **CLAUDE.md** (questo file): se è un progetto attivo P1/P2, aggiungi riga in §6; se è una persona del cluster cliente/fornitore, aggiungi bullet in §7. Aggiorna `updated:` nel frontmatter.
+- **MOC - Home** (`99 - System/MOC - Home.md`): wikilink alla scheda con tag 🆕 per facilitare il prossimo audit.
+- **Open Questions** (`99 - System/Open Questions.md`): se la scheda apre dubbi non risolti (decision maker, scope, modello partnership), nuova entry numerata.
+
+Senza questa cascata, una scheda nuova resta invisibile ai file di sistema e ogni nuova chat parte cieca su quel progetto/persona. La regola "data `updated:` più recente vince" del §4 è una toppa, non sostituisce la cascata.
 
 ### 10ter. Pre-flight check di apertura chat
 
-**Obbligatorio prima di rispondere alla prima domanda in ogni nuova sessione.** Sequenza: (1) verificare ultimo run PM Digest in [[99 - System/Digest Log]] — se l'ultima daily note in `10 - Daily Notes/` è ferma da ≥2 giorni, **segnalare e ricordare la causa probabile**: digest non girato perché Cowork non è stato aperto (vedi §9bis — automazioni Cowork-bound). In Code l'hook `digest-staleness-check.sh` lo flagga già da solo; (2) leggere indice sessioni Cowork del giorno precedente (`80 - Sources/Cowork Sessions/{ieri}.md`); (3) cross-reference prosa vs checkbox sulle 3-5 schede progetto più rilevanti — segnalare incoerenze con "🔍 Pre-flight check".
+**Obbligatorio prima di rispondere alla prima domanda in ogni nuova sessione.** Sequenza: (1) verificare ultimo run PM Digest in [[99 - System/Digest Log]] — se stale, segnalare; (2) leggere indice sessioni Cowork del giorno precedente (`80 - Sources/Cowork Sessions/{ieri}.md`); (3) cross-reference prosa vs checkbox sulle 3-5 schede progetto più rilevanti — segnalare incoerenze con "🔍 Pre-flight check".
 
 ### 10ter.1 Pre-flight per task di produzione
 
@@ -291,18 +288,99 @@ Fonte autoritativa: [[99 - System/Open Questions]]. Critiche aperte: #19 (contra
 
 ## 15. Vault-live update — aggiornamento del second brain durante la sessione
 
-Il vault si aggiorna **durante** la sessione, non a fine giornata: il task notturno `cowork-sessions-index` è solo un safety net, non il motore. Il motore è il comportamento dell'agente in sessione. Qui sotto il **core sempre attivo**; il protocollo operativo completo è nella skill dedicata.
+Questa è la regola operativa più importante per garantire che il vault sia "sempre aggiornato e indicizzato" come Carlo richiede. Il task notturno `cowork-sessions-index` è un safety net, non il motore. Il motore è il comportamento dell'agente in sessione, qui sotto.
 
-**OBBLIGO**: prima di un vault commit **non banale** (refactoring/rename/move di file, archive batch multi-file, creazione di nuove schede, sessione densa con molti fatti, o dubbi su path/destinazione), l'agente **DEVE leggere** `.claude/skills/vault-live-protocol/SKILL.md` con il tool `Read`. La skill contiene: lista completa di cosa è vault-worthy, regole append-only dettagliate, modalità di commit A/B, **checklist pre-commit a 7 voci** (path → Glob → underscore → updated → dedup → riservatezze → grep-rename), formato del messaggio di vault commit, cascata §10bis su nuove schede.
+### 🔴 Regola di precedenza (NUOVA — bloccante)
 
-**Core sempre attivo (anche senza leggere la skill):**
+**Ogni numero, decisione o fatto vault-worthy nuovo che emerge in chat va committato sulle schede PRIMA di scrivere la risposta finale all'utente.** Non a fine topic, non a fine sessione. Prima di chiudere il messaggio.
 
-- 🔴 **Precedenza (bloccante)**: ogni numero/decisione/fatto vault-worthy nuovo va committato sulle schede impattate **PRIMA** di scrivere la risposta finale in chat — mai l'inverso. Trigger immediato: nuovo numero economico, decisione esplicita ("andiamo con X"), cambio di stato ("ha accettato/rifiutato/mandato"), citazione strategica, call svolta, action item assegnato.
-- **Append-only**: mai rewrite di sezioni esistenti, mai rimuovere contenuto, mai spuntare/rimuovere `- [ ]` esistenti senza istruzione esplicita di Carlo. Si arricchisce **in append** (`## Log`, `## Citazioni testuali da preservare`, `## Task aperti`…) aggiornando `updated:` nel frontmatter.
-- **Confini**: mai modificare numeri ufficiali del Master Facts Sheet senza conferma esplicita di Carlo (§5); mai creare schede progetto/persona senza chiedere (segnalare "Da triagiare").
-- **🔍 Glob prima di ogni Edit/Write** sul path atteso (§3.1): non fidarsi della memoria; se il file non c'è, cercare `**/<filename>.md` e in caso segnalare invece di improvvisare.
-- **Refactoring (rename/move/split)**: grep globale del vecchio identificatore e rinomina di **tutte** le occorrenze prima di chiudere il commit — `grep -rn "<vecchio>" /Users/carlosanvoisin/claude --include="*.md"`.
-- **Vault commit in chat** a fine topic: schede toccate (wikilink) + sintesi 1 riga ciascuna; dichiarare schede ovvie saltate. Se nessun fatto vault-worthy, silenzio.
+In pratica:
+1. Carlo manda informazione nuova (es. "Andrea mi ha mandato la quotazione finale 35+25+15 = 75K")
+2. Riconosci subito che è vault-worthy
+3. Apri tool, fai gli edit sulle schede impatti (Jakala-Proposta, PresidIA, Achipont, Futuritaly, Andrea Pasquali, decisione fornitori se applicabile)
+4. **Solo dopo** scrivi la risposta in chat
+
+Se la risposta in chat richiede analisi nuova basata su quei numeri, l'analisi va dopo il commit, perché il commit fissa lo stato e l'analisi è effimera. Mai l'inverso.
+
+**Trigger di commit immediato (nessuna eccezione)**:
+- Nuovo numero economico (quotazione, sconto, prezzo cliente, FTE, ore)
+- Decisione esplicita ("ok, andiamo con X")
+- Cambio di stato di un progetto/persona ("ha accettato", "ha rifiutato", "ha mandato")
+- Citazione testuale strategica (cliente o fornitore)
+- Nuova call svolta (anche solo verbale, prima della trascrizione)
+- Action item assegnato a Carlo o a un terzo
+
+### Quando aggiornare il vault (live, durante la chat)
+
+Mentre lavori con Carlo, identifica i momenti **vault-worthy** — cioè informazioni che valgono come fatto persistente, non solo come passaggio conversazionale. Sono vault-worthy:
+
+- Una **decisione esplicita** ("ok, andiamo con €4-5K opzione B", "Carlo conferma X", "decidiamo di rifare il sito invece di aggiornarlo")
+- Un **numero/cifra nuovo** o aggiornato (pricing, timeline, FTE, %)
+- Una **citazione testuale** del cliente o di Carlo che vale come fact strategico
+- Un **cambio di stato** di progetto, persona, fornitore (status, ruolo, fase)
+- Un **task operativo** che Carlo (o tu) avete deciso di portare avanti
+- Un **evento calendario** nuovo (call, deadline)
+- Una **nuova persona** che è diventata stakeholder rilevante
+- Un **output prodotto** (file creato/editato nel vault)
+
+Non sono vault-worthy: fatica conversazionale (chiarimenti, ipotesi scartate, micro-dettagli tattici), TodoList di sessione effimere (vedi §11), ragionamenti che non hanno prodotto una decisione.
+
+### Come aggiornare (regole rigide — append-only e patch chirurgica)
+
+**Cosa puoi fare**:
+
+- Aggiornare `updated: YYYY-MM-DD` nel frontmatter delle schede toccate
+- Append nei blocchi `## Log`, `## Sessioni Cowork correlate`, `## Citazioni testuali da preservare`, `## Eventi calendario`, `## Task aperti`
+- Aggiungere nuovi `- [ ]` task (mai spuntare o rimuovere quelli esistenti senza istruzione esplicita di Carlo)
+- Aggiornare campi atomici nel frontmatter (`status`, `priority`) SE cambia esplicitamente nella sessione, sempre lasciando audit nel `## Log`
+- Creare nuove note volatili in `00 - Inbox/`, prep doc pre-call sempre lì
+- Promuovere informazioni dal Log al Master Facts Sheet (§5 numeri ufficiali, §pricing) se la decisione è di portata strategica e Carlo ha confermato esplicitamente
+
+**Cosa NON puoi fare**:
+
+- Mai rewrite di sezioni esistenti — solo append
+- Mai rimuovere contenuto da una scheda
+- Mai modificare numeri ufficiali del Master Facts Sheet senza conferma esplicita di Carlo nella sessione corrente (§5)
+- Mai creare schede progetto/persona senza chiedere a Carlo (segnalare "Da triagiare" se emerge una persona/progetto nuovo)
+
+### Quando committare (timing)
+
+**Modalità A — incrementale**: aggiorna le schede mano a mano che emergono i fatti, senza aspettare la fine. Vantaggio: se la chat si interrompe, il vault è già consistente. Svantaggio: rumore in chat se commit-by-commit.
+
+**Modalità B — batch a fine topic**: prima di passare al topic successivo (Carlo cambia argomento o chiude la chat), fai un "vault commit" che riepiloga in una breve risposta:
+
+> Vault commit: ho aggiornato [[Eldis Compilatore]] (sezione Log con sintesi call + nuovo task #p1 su bug TIFF), [[Stefania Solidoro]] (Log + citazione "Marta non ha ultimato i test"). Master Facts non toccato. Procediamo.
+
+Default: **Modalità B** (meno rumorosa, più chiara). Modalità A solo per sessioni lunghe e dense (es. recap di una call) dove rinviare tutto a fine ha rischio di perdersi qualcosa.
+
+### Verifica pre-commit (audit interno)
+
+Prima di scrivere su una scheda, controlla:
+
+1. **Path corretto?** Verifica in §3.1 (architettura `20 - Projects/` e `30 - Areas/`) la destinazione attesa per il file. Esempi:
+   - Modulo Wave 2 (es. Crowd) → `20 - Projects/NoLoop/Wave 2/Crowd.md`, NON `40 - Resources/`
+   - Progetto NOT (es. Eye Cookies) → `20 - Projects/NOT/Eye Cookies.md`, NON `20 - Projects/Eye Cookies.md`
+   - Negoziazione fornitore (es. Jakala) → `30 - Areas/Area - Partnership Fornitori/Jakala.md`, NON `20 - Projects/`
+   - Minute meeting → NON creare file separato; assorbi nelle schede progetto/persona via `## Log`
+   - Post-mortem call performance Carlo → `30 - Areas/Area - Performance & Coaching/`
+   - Prep doc pre-call → `00 - Inbox/YYYY-MM-DD - Titolo.md`
+   - Se la destinazione non rientra in nessuna categoria → "Da triagiare" + chiedere a Carlo, mai improvvisare.
+2. **🔍 Glob esecutivo del path** (NON basarsi sulla memoria dell'agente o su path usati in chat precedenti): prima di ogni `Edit` o `Write`, eseguire `Glob` sul path attesto in voce 1 per **verificare che il file esista davvero**. In caso di refactoring del vault avvenuto durante la sessione (Carlo sposta/rinomina file), un Edit su path obsoleto fallisce silenziosamente o crea un file fantasma. Se il Glob non torna match → cerca con pattern più ampio (`**/<filename>.md`) per individuare il nuovo path; se ancora non trovi → segnala "scheda non più nel path atteso" e chiedi a Carlo invece di improvvisare.
+3. **La scheda esiste in `_<filename>.md` (con prefix underscore)?** Convenzione del refactoring 6/5: per le schede overview cliente o scheda principale di un cluster, il filename inizia con `_` per ordinare prima nella vista Obsidian (es. `_Wave 2 NoLoop.md`, `_Futuritaly.md`, `_Angelini Academy.md`). I wikilink **non** vanno scritti come `[[Wave 2 NoLoop]]` (broken — Obsidian non risolve), ma come `[[_Wave 2 NoLoop|Wave 2 NoLoop]]` (path con alias di display). Verifica con Glob.
+4. Il frontmatter `updated:` è recente (ultime 6h) di un autore diverso? Se sì, leggi il delta e fai append solo del tuo contributo, mai sovrascrivi.
+5. Quello che stai per scrivere duplica qualcosa già presente? Se sì, salta.
+6. Stai per esporre dati riservati (CLAUDE.md §13) in un posto sbagliato? Se sì, riconsidera la destinazione.
+7. **🔴 Refactoring di file (rename/move/split) — propagazione obbligatoria dei wikilink** (NUOVO 8/5/2026, regola bloccante). Ogni volta che rinomini, sposti o splitti un file nel vault, **prima di chiudere il commit di sessione** esegui un grep globale del vecchio identificatore e rinomina TUTTE le occorrenze. Comando di riferimento: `grep -rn "<vecchio_filename>" /Users/carlosanvoisin/claude --include="*.md"`. Trigger di rinominazione: (a) wikilink `[[Vecchio]]` → `[[Nuovo|Display]]`; (b) frontmatter `parent_project: Vecchio` → `parent_project: Nuovo`; (c) frontmatter `projects: [Vecchio]` → `projects: [Nuovo]`; (d) path string in prep doc / 00-Inbox. **Chiusura del commit non è ammessa con residui non rinominati**: se il grep torna match dopo le rinomine, fissarle prima di scrivere la risposta in chat.
+
+### Cosa segnalare in chat
+
+Ogni vault commit deve includere in chat:
+
+- Lista delle schede toccate con wikilinks
+- Sintesi 1 riga di cosa è stato aggiunto per ciascuna
+- Se hai saltato schede ovvie (perché in pausa, perché updated recente di altro autore), dichiararlo
+
+Se la sessione non ha prodotto fatti vault-worthy, non scrivere niente nel vault e non fare il commit. Va bene anche silenzio.
 
 ### 🎯 §15.bis — Protocollo "trascrizione caricata" → skill `transcript-processing`
 
@@ -322,7 +400,7 @@ Formato vault commit obbligatorio (due liste): **Prosa appendata** + **Checkbox 
 
 Ogni claim di "verificato / risolto / fixed / completato / FUNZIONATA" dell'agente deve dichiarare ESPLICITAMENTE: (a) il path/file controllato, (b) il criterio specifico applicato. Sintesi metric-driven (es. "41 task migrati", "K=0 broken wikilink", "patch FUNZIONATA") senza ispezione strutturale del risultato → **trattare come UNVERIFIED**. La verifica vera è lettura del contenuto strutturale risultante (sezioni, format, gerarchia dei file toccati), non solo il numero finale.
 
-**Per archive/refactoring batch multi-file**: `find + grep` su OGNI basename interessato PRIMA del commit, non solo sui file ricordati a memoria. Estende la regola grep-on-rename del §15 core (checklist pre-commit completa a 7 voci nella skill `vault-live-protocol` §5) al caso di archive batch di N file simultanei.
+**Per archive/refactoring batch multi-file**: `find + grep` su OGNI basename interessato PRIMA del commit, non solo sui file ricordati a memoria. Estende §15 voce 7 (grep globale di un singolo identificatore in caso di rename) al caso di archive batch di N file simultanei.
 
 **Per creazione di nuove schede persona/progetto/fornitore** (cascata §10bis): PRIMA di `Write`, `find + grep` su OGNI alias plausibile dell'entità — non solo sul nome canonico atteso. Esempi: per una persona controllare nome + cognome + soprannome + azienda + brand affiliato (es. "Luca" + "Fratini" + "Aegiscore" + "Silencio"); per un progetto controllare nome + cliente + sigla + alias chat. Cascata §10bis non è solo "aggiungi a Master Facts/CLAUDE.md/MOC dopo creazione", è anche "check duplicati PRIMA della creazione".
 

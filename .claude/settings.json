@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"/Users/carlosanvoisin/claude/.claude/hooks/digest-staleness-check.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}
