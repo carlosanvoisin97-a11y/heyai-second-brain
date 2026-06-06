@@ -63,3 +63,24 @@ tags: [system, second-brain, F2, ingest, kb-solidity]
 - ✅ Desktop folder → portata nel vault (`80-Sources`, gitignored) per messa in salvo.
 - 🟡 AI Venue Finder scheda dedicata → da confermare con Carlo (§10bis).
 - 🟡 "Altro" eventi/competitor → triage con decisione Carlo su cosa diventa scheda.
+
+## 6. Stato esecuzione (sessione Code 6-7/6/2026)
+
+> Eseguito su `main` direttamente (non worktree: Obsidian vede solo main). Commit: `d32fb77` (F0) → `2aadc45` (F1) → `d94aa83` (F2) → `001fe6f` (F3) → questo. **Push a carico di Carlo.** `.obsidian/graph.json` lasciato non committato (UI-noise).
+
+- **Fase 0 ✅** — `Desktop/_OBSIDIAN-VAULT` (35 file) → `80 - Sources/Files/_import-2026-06-06/`, gitignored (PII), integrità verificata.
+- **Fase 1 ✅** — riconciliate 3/4 note "Contesto Strategico Completo": `_NOT` (contesto aziendale), `_Eldis` (contesto + 9 iniziative), `Venue Finder` (spec tecnica agente — **AI Venue Finder accorpata, no scheda separata, confermato Carlo**). Angelini SKIP (nota identica a `Analisi Brief.md`).
+- **Fase 2 ✅** — harvest worktree `nervous`+`nice`: solo net-new reale (OT call 1/6+4/6, Carmen 1/6, Germano 4/6); main aveva già ~90% via backlog `8435d2b`. Worktree+branch **prunati**. 4 checkbox OT reconciliati (`[reconciled — verificare]`).
+- **Fase 3 ✅** — fan-out 8 subagent read-only. NESSUN NET-NEW: NOT/NoLoop/Achipont/Angelini. Net-new applicato: PresidIA (call 9/4 mai loggata), Futuritaly (CRM ~€90K + Claudia Invitalia + ANAC), Metodologia (clausole/benchmark/formato), Eldis (Alyante). Numeri = **PROPOSTA da confermare**.
+
+### Da fare ancora
+- **Fase 5** — triage "Altro" (49 file Downloads): NON fatto.
+- **Fase 6** — KB Solidity Report: NON fatto.
+- **Archiviazione grezzi**: `_DA_DOWNLOADS_2026-06-06/` + `_import-2026-06-06/` **lasciati in sede** (safety net, gitignored) — Carlo decide se archiviare/rimuovere a ingest confermato.
+
+### Flag per Carlo
+- **Numeri da confermare** (flaggati PROPOSTA): PresidIA €15-20K integrazione pagamenti · €7K/agente pattern-detection · ~96-98% accuracy OCR; Futuritaly CRM ~€90K.
+- **Conflitti pre-esistenti** (NON toccati, §5): Master Facts Revenue Share PresidIA €40K vs €44K; PresidIA Jakala €25K vs €27K (già notato in scheda).
+- **Persone "Da triagiare"** (non create): Andrea (lead-gen NOT), Chiara Giuliani + Renato Savastano (Eldis); scartati dai subagent: Milena Stucchi (NoLoop), Salvatore/Roberto (Eldis).
+- **File corrotto**: `HeyAI/HeyAI Job descriptions.txt` vuoto (8KB di spazi) → ri-esportare se serve.
+- **Worktree residue**: `quizzical-faraday` (prunabile), `funny-shannon`, `blissful-heyrovsky` (non nell'handover) — non toccate.
