@@ -74,7 +74,7 @@ tags: [system, second-brain, F2, ingest, kb-solidity]
 - **Fase 3 ✅** — fan-out 8 subagent read-only. NESSUN NET-NEW: NOT/NoLoop/Achipont/Angelini. Net-new applicato: PresidIA (call 9/4 mai loggata), Futuritaly (CRM ~€90K + Claudia Invitalia + ANAC), Metodologia (clausole/benchmark/formato), Eldis (Alyante). Numeri = **PROPOSTA da confermare**.
 
 ### Da fare ancora
-- **Fase 5** — triage "Altro" (49 file Downloads): NON fatto.
+- **Fase 5 ✅** (7/6) — triage "Altro" (48 file, 3 subagent): 0 net-new su NoLoop/HeyAI (tutto già distillato). Committato: competitive intelligence NOT → `_NOT` §Landscape competitivo (§13 interno). **Decisioni Carlo** (non committati): `axel.txt` (🔴 §13 conflitto retributivo soci + exit-advice); i 7 "eventi" Banco Desio/Fineco/ING/Dealer/ELCO = output-sample Venue Finder (archiviare come test-case o scartare?); competitor → tenuto in `_NOT` (opzione A) vs atomic note (B).
 - **Fase 6** — KB Solidity Report: NON fatto.
 - **Archiviazione grezzi**: `_DA_DOWNLOADS_2026-06-06/` + `_import-2026-06-06/` **lasciati in sede** (safety net, gitignored) — Carlo decide se archiviare/rimuovere a ingest confermato.
 

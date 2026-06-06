@@ -3,7 +3,7 @@ type: client
 status: active
 priority: p1
 created: 2026-05-06
-updated: 2026-06-06
+updated: 2026-06-07
 aliases:
   - NOT
   - NoLoop on Trade
@@ -35,6 +35,15 @@ aliases:
 - **GTM/Marketing**: tutti gli asset digitali da creare ex novo (no sito, no LinkedIn pubblico). Priorità 12 mesi: lead qualificati → sales enablement (case study/pitch/sito) → awareness → social. Canali: LinkedIn B2B + in-store.
 
 > 🔺 **Da triagiare** (§15): "Andrea" (lead gen interno NOT, junior→senior) non ha scheda persona dedicata — creare solo su conferma Carlo.
+
+## Landscape competitivo (dettaglio) 🔒
+
+> 🔒 **§13 USO INTERNO — mai nel pitch al cliente NOT.** Competitive intelligence (F2 ingest, da analisi HeyAI "Field Marketing IT 2025" + scoring maturità digitale, derivate da `NOLOOP ON TRADE ita.pdf`). Numeri = analisi/PROPOSTA; fatturati = dati di mercato.
+
+- **Segmentazione mercato (4 livelli)**: L1 Staffing (Adecco/Randstad/Manpower) · L2 Merchandising (CPM) · L3 Field tattico (agenzie BTL) · L4 **Full Service end-to-end** (Pardgroup + NOT). NOT si posiziona nel quadrante "boutique full-service" (scala gestionale tipo Pardgroup + anima sartoriale da agenzia eventi).
+- **Benchmark maturità digitale** (scoring 1-10, capability interne + servizi digitali ai clienti): CPM Italy €37.2M **9.5** · Free-Way €6M **8.5** (ecosistema proprietario PromoterNet/Cares/Analytics — *benchmark mid-market replicabile per NOT*) · Pardgroup €78.7M **7.5** · Beready €2.8M **5.5** · Trade SRL €21M **4.5**. Insight: l'investimento tech non è correlato alla dimensione (Free-Way €6M batte Pardgroup €78.7M sulle capability). Gap NOT stimato ~15%, target post-trasformazione ~70%.
+- **Gap interni NOT da colmare** (audit): middleware mancante (tripla registrazione BAT/Sharpend/PARD), logistica "hero-based" (Justin single point of failure), app recruitment obsoleta, brand awareness inbound ≈ 0. Benchmark da imitare = **Free-Way** (moat tecnologico mid-market).
+- 📎 Fonte: `_DA_DOWNLOADS_2026-06-06/Altro/Analisi Competitor Field Marketing Italia.txt` + `maturita_digitale_competitor.md`.
 
 ## Riferimenti
 - Master Facts: [[99 - System/Master Facts Sheet]] §"NOT (Noloop on Trade)"
