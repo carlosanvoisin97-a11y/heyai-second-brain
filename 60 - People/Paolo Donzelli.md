@@ -51,7 +51,7 @@ Paolo gestisce il fronte finanziario delle decisioni: budget, flussi cassa, form
 ## Eventi indiretti (Paolo non in contatto diretto, attivato terzi)
 
 ### 2026-05-21 — Attivato commercialista esterno per agevolazioni fiscali Wave 1/2
-- Paolo ha mandato [[Paolo Verrangelo (commercialista NoLoop)|Paolo Verrangelo]] (commercialista esterno, 40+ anni esperienza, Roma) a contattare Carlo per **audit di forma sui contratti** Wave 1 (retroattivo — fatture già emesse, quasi tutte pagate) e Wave 2 (prospettico — in partenza).
+- Paolo ha mandato [[Paolo Verrengia (commercialista NoLoop)|Paolo Verrangelo]] (commercialista esterno, 40+ anni esperienza, Roma) a contattare Carlo per **audit di forma sui contratti** Wave 1 (retroattivo — fatture già emesse, quasi tutte pagate) e Wave 2 (prospettico — in partenza).
 - **Obiettivo dichiarato**: individuare agevolazioni fiscali applicabili. Non è il piano di iperammortamento L. 199/2025 ("quella agevolazione fiscale che noi avevamo pensato probabilmente non sarebbe stata quella poi presa in considerazione") — sta valutando altro
 - **Touchpoint NoLoop side**: Verrangelo lavora con "Roberto" ("l'uomo di Paolo") + [[Elisa Remigi]]. Da verificare se "Roberto" = [[Marco Merli|Roberto Simbestini]] o nuova figura
 - **Action Carlo**: ⚠️ verifica WhatsApp a Paolo (o Roberto) prima dell'invio dei contratti integrali, per conferma esplicita autorizzazione a condividere — anche solo "Paolo, ti gira bene se mando i contratti integrali Wave 1/2 a Verrangelo?". Trattandosi di documenti con clausole commerciali, IP, pricing, è prudente avere il green light esplicito

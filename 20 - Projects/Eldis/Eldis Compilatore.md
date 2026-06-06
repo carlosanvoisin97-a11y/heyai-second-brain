@@ -5,10 +5,11 @@ priority: p2
 client: Eldis Net
 product: AI Product Catalogue
 created: 2026-04-30
-updated: 2026-05-20
+updated: 2026-05-24
 last_call_date: 2026-05-08
 stakeholders: [Stefania Solidoro, Marta Garrafa, Alessandra Aprile, Giovanna Cecchi, Simone Montanari (Soolutions), Federico Saladino (Soolutions)]
 ---
+<!-- auto-updated by cowork-sessions-index 2026-05-24 20:22 (cron-22) | source-session: local_07624f1b-4b2b-4edf-971a-1fbe04fe96e2 | source-lastActive: 2026-05-22 -->
 
 # 📁 Eldis — Compilatore + Builder Catalogo
 
@@ -250,11 +251,23 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 
 ## Sessioni Cowork correlate
 
+- 2026-05-22 — `local_07624f1b` — Eldis services and evolutive quotes: audit indipendente email + PDF `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`; **chiarimento policy zero-markup su evolutive Eldis** (Carlo verbatim: *"su questa specifica quotazione non applico markup"*) — €1.800 + €2.100 = prezzo cliente = costo Soolutions passato as-is, eccezione esplicita alla regola §2.2 CLAUDE.md 60%; data emissione PDF NON necessaria per quotazione di questa entità (Carlo verbatim: *"non serve la data di emissione del PDF per una cosa così banale"*); bullet evolutive riformulato + terminologia "consuntivo→tariffa oraria" uniformata email↔PDF; oggetto "Eldis × HeyAI — Servizi continuativi e attività evolutive"; Builder PDF Canva escluso dal perimetro con motivazione effort-vs-valore. → [[80 - Sources/Cowork Sessions/2026-05-24 - Indice sessioni#Sessione 3 — `local_07624f1b-4b2b-4edf-971a-1fbe04fe96e2` — Eldis services and evolutive quotes]]
 - 2026-05-11 — `local_2ca67c8d` — Write Eldis client meeting recap email: vault commit completo §15.bis post call formativa Builder 8/5 (CLAUDE.md §6/§7/§14 + 4 schede persona toccate + email recap consegnata) → [[2026-05-11 - Indice sessioni#Sessione 7 — Write Eldis client meeting recap email (vault commit post call formativa Builder 8/5)]]
 - 2026-05-11 — `local_d7e9c71f` — Request access to call recording: bozza email a Marta Garrafa per richiesta permessi/file trascrizione call Eldis (call 8/5) → [[2026-05-11 - Indice sessioni#Sessione 4 — Request access to call recording and transcript (Marta Garrafa Eldis)]]
 - 2026-05-21 — `local_832269f2` — Process call transcript Federico+Simone: prezzi Eldis evolutive consolidati (**€1.800** descrizioni con campi extra + **€2.100** export logica semiautomatica) + Builder PDF Canva fuori scope con motivazione formale (assorbito in §Log 20/5 sera già live). Mancanti: prezzi ricorrenti Consulenza operativa + Hosting+manutenzione (storico email 29/04 = €130/mese + €180/h da riconfermare). Alert: **Marta tace lato Soolutions** ("Marta non ha più risposto, tu l'hai sentita?") — da contattare direttamente. → [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni#Sessione 7 — `local_832269f2-036d-4b0f-89f6-b804bb1586d2` — Process call transcript with Federico and Simone]]
 
 ## Log
+
+### 2026-05-22 — Audit pre-invio email + PDF + chiarimento policy markup
+- **Audit indipendente sull'email accompagnamento e sul PDF `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`** in sessione Cowork. Email letta integralmente, PDF rivisto pagina per pagina.
+- **Chiarimento markup evolutive Eldis (Carlo conferma 22/5)**: su questa quotazione **NON viene applicato markup HeyAI** sui prezzi evolutive — €1.800 (descrizioni con campi extra) e €2.100 (export semiautomatica) sono **prezzi cliente = costo Soolutions** passato as-is. Eccezione esplicita rispetto alla regola pricing 60% di §2.2 CLAUDE.md / Master Facts, decisa per le evolutive di mantenimento su prodotto già in produzione. Le voci ricorrenti (€130/mese hosting + €180/h consulenza) restano con la dinamica pricing standard. **Conseguenza per il vault**: la regola pricing 60% NON è violata in questo PDF perché si tratta di eccezione consapevole, non di errore. Ambiguità del Log 20/5 sera ("prezzi ricevuti da Simone") chiusa: prezzi cliente diretti.
+- **Data di emissione sul PDF**: non aggiunta — Carlo conferma 22/5 che per un documento "banale" di servizi continuativi + 2 evolutive non serve datare esplicitamente; la validità 30 giorni si applica orientativamente alla data di invio email.
+- **Correzioni email accolte (3 su 6 flag dell'audit)**:
+  - Bullet n°3 riformulato: *"Attività evolutive in valutazione (descrizioni con campi extra ed export semiautomatico)"* (era *"Evolutive applicativo per cui è stata richiesta quotazione"*)
+  - Terminologia uniformata col PDF: *"Consulenza operativa a tariffa oraria"* (era *"a consuntivo"*)
+  - Oggetto email suggerito a Carlo per Outlook: *"Eldis × HeyAI — Servizi continuativi e attività evolutive"*
+- **Riservatezza fornitori — passaggio**: ✅ nessun nome fornitore (Soolutions/Federico/Simone/Tokio/Canva) né in email né in PDF. Layout PDF skill-compliant verificato.
+- **Stato invio**: bozza email corretta consegnata a Carlo in sessione, **invio ancora da fare** (TO Stefania + CC Marta/Alessandra/Giovanna/Simone/Federico atteso).
 
 ### 2026-05-20 sera — Messaggio Simone: voci di dettaglio evolutive + descrizioni + alert Marta
 - **Simone (Soolutions) manda a Carlo le voci di dettaglio richieste in call pomeriggio**. Contenuto:

@@ -5,7 +5,7 @@ priority: p1
 client: FuturItaly
 projects: [Sito Futuritaly]
 stakeholders: [Claudia Bugno, Daniele Caporale, Elena Chiti, Lavinia Ferrari, Michele Mattucci]
-related_meeting: 2026-05-22 — Call follow-up Communication strategist post-feedback Claudia
+meeting_context: 2026-05-22 — Call follow-up Communication strategist post-feedback Claudia (call assorbita nelle schede)
 created: 2026-05-20
 updated: 2026-05-20
 ---

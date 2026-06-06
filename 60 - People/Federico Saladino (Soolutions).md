@@ -4,8 +4,11 @@ role: Sviluppatore Senior Front-end
 company: Soolutions
 email: federico@soolutions.io
 created: 2026-04-30
-updated: 2026-05-20
+updated: 2026-05-28
 aliases: [Federico, "Fede"]
+emails_historical:
+  - federico@soolutions.io (attuale)
+  - info@federicosaladino.it (storico, pre-Soolutions, usato fino almeno 10/9/2025)
 last_contact: 2026-05-20
 next_touchpoint: 2026-05-21
 cadence_days: 7
@@ -93,6 +96,9 @@ top_quotes:
 > "se questa necessità di pagamenti fatti in questo modo nasce da un'esigenza di cash flow vostra o loro, non c'è problema. Quello che non voglio è che i pagamenti siano poi a questo punto collegati allo stato di andamento dei lavori"
 > — Call interna HeyAI+Soolutions 20/5/2026 (sui pagamenti Wave 2: accetta dilazione mensile ma chiede cadenza fissa e bidirezionalità). Pattern di negoziazione "accetto la dilazione, voglio una clausola di garanzia chiara".
 
+> "io voglio più soldi per iCookie [Eye Cookies] comunque, adesso non è finita qua… non sono per niente d'accordo. E poi anche per Minutes… ma te devi pagare dei soldi"
+> — Nota vocale WhatsApp 28/5/2026, subito dopo la prima call bisettimanale [[Eye Cookies]] (Simone presente). Federico apre esplicitamente una rinegoziazione **al rialzo** del compenso Soolutions su Eye Cookies e lega gli enhancement Minutes (desktop, automatch partecipanti) a un pagamento aggiuntivo. Estende la pressione upward dai prezzi cliente ai pagamenti HeyAI→Soolutions sui singoli progetti. ⚠️ Sensibile §13.
+
 ## 🎯 Pattern di interazione (aggiornati 20/5)
 
 - **Negoziazione pricing bidirezionale**: accetta dilazione/concessioni cash flow se controbilanciate da clausole simmetriche (se Soolutions consegna prima, HeyAI paga prima; se Soolutions consegna in ritardo, max 1 mese saltato + doppio mese successivo).
@@ -123,6 +129,7 @@ top_quotes:
 - **Aspetta feedback utenti reali prima di toccare** _[emerso 6/5/2026]_: pattern ricorrente di rinvio decisioni — "aspettiamo che ci dicano che fa troppe domande, poi vediamo". Rallenta delibere ma protegge da reversioni costose. Carlo deve mediare: o accetta il rinvio, o porta evidenze utente concrete prima di chiedere modifiche.
 - **Strumenti strutturati e persistenti vs canali volatili** _[emerso 6/5/2026]_: ama "la bella carta" e Wrike. Email = "le perdo". WhatsApp = "rumoroso". Per task tracking serve **strutturato + ricercabile** — è il motivo per cui la Microsoft Lists ha senso per lui (compromesso su "strutturato come Wrike, ma dentro stack che già usa").
 - **Comunicazione diretta, anche aspra** _[emerso 6/5/2026]_: in disaccordo dice "***** tuoi", "non ha senso", "ma perché te ne frega così tanto?". È il suo registro confidenziale, non personale. Carlo lo accetta e media. **Mai prenderla come offesa o rispondere allo stesso registro in chat scritte** (rischio interpretazione esterna).
+- **Disciplina delivery-prima-del-test** _[emerso 27/5/2026, Crowd]_: rifiuta di esporre i tester a lavorazioni non finite. Preferisce completare la **delivery finale** e poi aprire la finestra di test, invece di chiudere il ciclo mentre integra ancora. Motivo: i report su feature incomplete/integrazioni mancanti generano falsi bug e gli scaricano lavoro di interpretazione ("perdo tempo su robe che non si capiscono / non erano ancora terminate"). **Come gestirlo**: Carlo dovrebbe sequenziare i cicli di test a valle delle delivery di Federico e **filtrare/strutturare i bug report** prima di inoltrarglieli (Federico si offre di fixare a valle e di affiancare gli utenti live sui dubbi).
 
 ## Sensibilità
 

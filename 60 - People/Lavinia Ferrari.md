@@ -5,9 +5,9 @@ company: FuturItaly
 email: ferrari@futuritaly.com
 phone: +393334886580
 created: 2026-04-30
-updated: 2026-05-19
-last_contact: 2026-05-13
-next_touchpoint: 2026-05-19
+updated: 2026-06-03
+last_contact: 2026-06-03
+next_touchpoint: 2026-06-09
 cadence_days: 21
 relationship_strength: warm
 top_quotes: []
@@ -34,6 +34,9 @@ Pattern di negoziazione: low-disclose sul budget, approccio incrementale/MVP gra
 - [[_Angelini Academy|Angelini Academy]] — ha introdotto il deal a Carlo il 3/4/2026, ora gestito operativamente da [[Elena Chiti]] e [[Daniele Caporale]]
 
 ## Interazioni recenti
+
+### 2026-06-03
+- **Scambio WhatsApp Carlo ↔ Lavinia** a valle della call conoscitiva ai vertici [[Bruno Mattucci]] ↔ [[Claudia Bugno]] (avvenuta oggi, esito positivo). Carlo riporta l'esito a caldo e rinvia il discorso modello di collaborazione/delivery alla settimana prossima ("mi porto avanti io e ti aggiorno"). Risposta Lavinia: **allineata e calorosa** ("sì molto bene… a presto su tutto, un saluto!"), **reattiva sui tempi** ("con i tempi adatti e secondo le priorità, a disposizione quando sei pronto"). Lettura: mirroring dell'understatement di Carlo (la battuta "o quella dopo in base al carico di lavoro") + suo pattern low-disclose documentato — non un raffreddamento. Ritmo e iniziativa in mano a Carlo. Filone in [[_Futuritaly|FuturItaly]] §Partnership bidirezionale.
 
 ### 2026-05-19
 - **Bozza email Carlo → Lavinia in preparazione** (follow-up al 13/5): (a) proposta Osservatorio pronta, proposto allineamento Carlo↔Lavinia (call 30 min) prima di girarla a Claudia, come da workflow concordato 13/5; (b) **incontro Bruno↔Claudia** ai vertici — Bruno disponibile **lun 25/5 pomeriggio** oppure **mer 27/5 mattina**, in attesa slot Claudia da Lavinia; (c) reminder soft sul sito Futuritaly (deadline condivise pendenti dal 13/5). Bozza preparata in sessione, attesa approvazione Carlo prima di invio.

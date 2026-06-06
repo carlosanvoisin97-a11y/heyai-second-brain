@@ -2,9 +2,9 @@
 type: audit
 status: active
 created: 2026-05-08
-updated: 2026-05-17
+updated: 2026-05-24
 ---
-<!-- auto-updated by vault-link-checker 2026-05-17 (rolling-window applicata: audit 2026-05-15 spostato in 50 - Archive/Vault Audits/2026-05.md) -->
+<!-- auto-updated by vault-link-checker 2026-05-24 (rolling-window applicata: audit 2026-05-17 spostato in 50 - Archive/Vault Audits/2026-05.md) -->
 
 ## Sessioni Cowork correlate
 
@@ -34,109 +34,167 @@ Vedi CLAUDE.md §15 voce 7 per il protocollo di rinominazione manuale.
 | 2026-05-14 (run iniziale) | scheduled giov off-cadence | 26 | 3 | 5 | ALERT: K +420% vs 5-12 · refactoring Angelini Academy + nuovi doc non ancora creati |
 | 2026-05-14 (verifica post-fix) | manuale, in chat con Carlo | 18 | 0 | 5 | Stato post-batch fix: 7 fix sicuri + 13 alias frontmatter + patch SKILL v4 + 4 frontmatter rinominati + scheda Stefano Mambrin |
 | 2026-05-15 (run scheduled, off-cadence ven) | scheduled ven off-cadence | 0 | 0 | 5 | 🟢 Vault clean: 18 residui 14/5 rientrati. Patch v4 alias-aware confermata in produzione · 49 alias registrati |
-| **2026-05-17 (run scheduled, on-cadence domenica)** | **cron dom 21:00** | **5** | **0** | **5** | **⚠️ ALERT crescita 0→5 (∞%)**: 3 nuovi residui Angelini Academy (`[[Briefing Personaggi Landing Page]]` ×3 + `[[Verificare]]` ×1) + 1 nuovo stakeholder Jakala non scheduled (`[[Luigiandrea Scaramuzzi (Jakala)]]`). Cascata §10bis mancante su 2 entità. 55 alias / 27 file proprietari |
+| 2026-05-17 (run scheduled, on-cadence domenica) | cron dom 21:00 | 5 | 0 | 5 | ⚠️ ALERT crescita 0→5 (∞%): 3 nuovi residui Angelini Academy (`[[Briefing Personaggi Landing Page]]` ×3 + `[[Verificare]]` ×1) + 1 nuovo stakeholder Jakala non scheduled. Cascata §10bis mancante su 2 entità. 55 alias / 27 file proprietari |
+| 2026-05-24 (run scheduled, on-cadence domenica) | cron dom 21:00 | 15 | 4 | 5 | ⚠️ ALERT crescita 5→15 (+200%): debt cluster Angelini 17/5 + typo cognome Verrangelo→Verrengia diffuso + nuovi stakeholder senza cascata. 70 alias / 31 file proprietari. **Batch fix in chat 24/5 sera ↓** |
+| **2026-05-24 sera (batch fix in chat con Carlo)** | **manuale post-audit** | **1** | **0** | **5** | **✅ Cleanup completo**: 7 cluster fissati in batch (Verrengia rinomina massiva + cluster Angelini root spostato+frontmatter + Marta alias Eldis + Germano typo + Veo rimosso + LinkedIn agents da FM + related_meeting→meeting_context + bonus alias Brief Copy). K 15→1 (-93%), J 4→0. Solo `[[Verificare]]` lasciato per scelta esplicita Carlo. 75 alias / 34 file proprietari |
 
 _(Detail completo dei singoli audit archiviato in `50 - Archive/Vault Audits/2026-05.md`. La tabella viene aggiornata ad ogni audit con la riga sintetica del run.)_
 
 ---
 
-## 2026-05-17 - Audit settimanale (run scheduled, on-cadence domenica 21:00)
+## 2026-05-24 - Audit settimanale (run scheduled, on-cadence domenica 21:00)
 
-> **Cadenza ripristinata**: dopo 3 audit off-schedule consecutivi (lun 11, giov 14, ven 15), il run odierno è tornato sulla finestra canonica domenica 21:00 (cron `0 21 * * 0`). Pattern off-cadence sembra rientrato. Niente azione richiesta sullo scheduler.
+> **Cadenza stabile**: secondo run consecutivo on-schedule (cron `0 21 * * 0`). Pattern off-cadence apr-mag è rientrato definitivamente. Nessun intervento sullo scheduler richiesto.
 
 ### Numeri sintetici
 
-- **File `.md` scansionati**: 364 (escludendo EXCLUDE_PATHS)
-- **File `.md` totali nel vault**: 395
-- **File totali nel vault** (md + attachment + altri): 571
-- **Wikilink totali estratti**: 2926 (esclusi spans inline-code e codeblock)
-- **Wikilink rotti rilevati**: **5** ⚠️
-- **Riferimenti frontmatter rotti**: **0** ✅
-- **Path string rotti**: **5** (invariato, cronistoria volutamente non propagata)
-- **Alias registrati nel vault**: **55 alias** su **27 file proprietari** ← v4 alias-aware
-- **Δ vs audit precedente (2026-05-15)**: K 0 → 5 (Δ +5, **crescita ∞% — alert SKILL "K >50%" attivo per natura del rapporto, non per assoluto**) · J 0 → 0 (invariato) · P 5 → 5 (invariato) · alias 49 → 55 (+6 da nuove schede Angelini Academy: `Master Brief Sito Angelini Academy` + `Mockup Brief Sito`)
-- **Rolling-window applicato**: 1 audit (2026-05-15) spostato in `50 - Archive/Vault Audits/2026-05.md` — file vivo torna alla baseline ~130 righe
+- **File `.md` scansionati**: 413 (escludendo EXCLUDE_PATHS)
+- **File `.md` totali nel vault**: 444
+- **File totali nel vault** (md + attachment + altri): 777
+- **Wikilink rotti rilevati**: **15** ⚠️
+- **Riferimenti frontmatter rotti**: **4** ⚠️
+- **Path string rotti**: **5** (invariato — cronistoria volutamente non propagata)
+- **Alias registrati nel vault**: **70 alias** su **31 file proprietari** ← v4 alias-aware
+- **Δ vs audit precedente (2026-05-17)**: K 5 → 15 (Δ +10, **crescita +200% — alert SKILL "K >50%" ATTIVO**) · J 0 → 4 (Δ +4) · P 5 → 5 (invariato) · alias 55 → 70 (+15) · owners 27 → 31 (+4 da nuove schede `Paolo Verrengia (commercialista NoLoop)`, `LinkedIn Sales Navigator NoLoop`, `Germano Marano`, e re-export aliases altre schede)
+- **Rolling-window applicato**: audit 2026-05-17 spostato in `50 - Archive/Vault Audits/2026-05.md` — file vivo torna alla baseline operativa
 
-### ⚠️ Wikilink rotti — 5 residui in 3 file
+### ⚠️ Wikilink rotti — 15 residui in 10 file
 
-| Sorgente (mtime) | Wikilink rotto | Diagnosi | Fix suggerito |
+#### Cluster 1 — Typo cognome "Verrangelo" vs "Verrengia" (7 occorrenze in 6 file) 🆕 PRIORITÀ ALTA
+
+Il 21/5/2026 sera Carlo ha ricevuto via WhatsApp dal contatto stesso conferma del cognome corretto: **"Verrengia"** (non "Verrangelo" come trascritto dalla call iniziale 21/5 mattina). La scheda persona è stata correttamente rinominata `60 - People/Paolo Verrengia (commercialista NoLoop).md` con aliases `[Paolo Verrangelo · Verrangelo · Paolo Verrengia]`. **Tuttavia** 7 wikilink scritti PRIMA o intorno alla scoperta puntano ancora alla forma `[[Paolo Verrangelo (commercialista NoLoop)|...]]` (con suffisso completo, che NON è registrato negli aliases — gli aliases coprono solo le forme corte). Obsidian non risolve.
+
+| Sorgente (mtime) | Wikilink rotto | Fix |
+|---|---|---|
+| `00 - Inbox/2026-05-21 - Lead biotech medical device via Verrangelo.md` (21/5 13:50) | `[[Paolo Verrangelo (commercialista NoLoop)\|Paolo Verrangelo]]` | Riscrivere come `[[Paolo Verrengia (commercialista NoLoop)\|Paolo Verrangelo]]` (mantiene display alias) |
+| `20 - Projects/NOT/Eye Cookies.md` (22/5 20:09) | `[[Paolo Verrangelo (commercialista NoLoop)\|Paolo Verrangelo]]` | idem |
+| `20 - Projects/NoLoop/Wave 1/_Wave 1 NoLoop.md` (21/5 13:50) | `[[Paolo Verrangelo (commercialista NoLoop)\|Paolo Verrangelo]]` | idem |
+| `20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop.md` (21/5 18:21) | `[[Paolo Verrangelo (commercialista NoLoop)\|Paolo Verrangelo]]` ×1 + `[[Paolo Verrangelo (commercialista NoLoop)\|scheda persona §Performance flag]]` ×1 | idem ×2 |
+| `60 - People/Paolo Donzelli.md` (21/5 18:21) | `[[Paolo Verrangelo (commercialista NoLoop)\|Paolo Verrangelo]]` | idem |
+| `99 - System/Open Questions.md` (22/5 18:13) | `[[Paolo Verrangelo (commercialista NoLoop)\|Verrangelo]]` | idem |
+
+**Fix alternativo radicale** (raccomandato): aggiungere `Paolo Verrangelo (commercialista NoLoop)` all'array `aliases:` della scheda — risolve tutti i 7 wikilink + il J=1 frontmatter Verrangelo in un colpo (vedi sezione "Riferimenti frontmatter").
+
+#### Cluster 2 — Angelini Academy: 4 residui non fissati dal 17/5 + 1 nuovo
+
+| Sorgente (mtime) | Wikilink rotto | Diagnosi | Fix |
 |---|---|---|---|
-| `20 - Projects/Futuritaly/Angelini Academy/Brief Copy Sito per Claude Code.md` (15/5 14:32) | `[[Briefing Personaggi Landing Page]]` ×1 | Il file target esiste a vault-root come `Angelini Academy — Briefing Personaggi Landing Page.md` (creato 14/5 12:56) ma senza frontmatter / senza `aliases:` → Obsidian non risolve la forma corta che Carlo scrive naturalmente | (a) Aggiungere frontmatter con `aliases: [Briefing Personaggi Landing Page]` al file root, oppure (b) riscrivere wikilink come `[[Angelini Academy — Briefing Personaggi Landing Page\|Briefing Personaggi Landing Page]]`. Bonus: valutare spostamento del file da vault-root a `20 - Projects/Futuritaly/Angelini Academy/` per coerenza con la struttura cluster (vedi CLAUDE.md §3.1) |
-| `20 - Projects/Futuritaly/Angelini Academy/Mockup Brief Sito.md` (14/5 23:53) | `[[Briefing Personaggi Landing Page]]` ×2 | Stesso pattern del precedente (riferimento nelle sezioni intro + dettaglio personas) | Lo stesso fix (a) o (b) risolve tutte e 3 le occorrenze in un colpo |
-| `20 - Projects/Futuritaly/Angelini Academy/Mockup Brief Sito.md` (14/5 23:53) | `[[Verificare]]` ×1 | Riga 43: placeholder testuale "Lì serve aggiungere [[Verificare]] (Carlo) la lista nomi e ruoli". Carlo voleva un TODO/segnaposto, non un wikilink | Riscrivere come `[Verificare]` (testo) o `**[VERIFICARE]**` o backtickare. Convenzione vault: i placeholder vanno in backtick o `**TODO**` |
-| ~~`10 - Daily Notes/2026-05-15.md` (15/5 12:02)~~ | ~~`[[60 - People/Luigiandrea Scaramuzzi (Jakala)\|Luigiandrea Scaramuzzi]]` ×1~~ | ✅ **RISOLTO 2026-05-19 sera** — scheda persona creata su autorizzazione esplicita Carlo dopo §15.quinquies anti-duplicazione check (5 alias verificati, nessun pre-esistente). Cascata §10bis applicata: scheda `60 - People/Luigiandrea Scaramuzzi (Jakala).md` con frontmatter completo + aliases [Luigiandrea Scaramuzzi · Luigi Andrea Scaramuzzi · Luigi Scaramuzzi · Luigi Andrea · Luigi (Jakala) · Scaramuzzi] · entry tabella `## Pattern di negoziazione` di Master Facts (sotto Andrea Pasquali Jakala) · riga in CLAUDE.md §7 sotto bullet Jakala fornitori · wikilink 🆕 in MOC - Home cluster "Fornitori potenziali in valutazione" | Atteso K=4 al prossimo run vault-link-checker (dom 24/5/2026 21:00) — riduzione 5→4 wikilink rotti |
+| `20 - Projects/Futuritaly/Angelini Academy/Brief Copy Sito per Claude Code.md` (15/5 14:32) | `[[Briefing Personaggi Landing Page]]` | Già rilevato 17/5 — NON fissato. File target esiste a vault-root come `Angelini Academy — Briefing Personaggi Landing Page.md` ma senza frontmatter né aliases | Aggiungere `aliases: [Briefing Personaggi Landing Page]` al file root, oppure spostarlo in cluster cluster Angelini Academy |
+| `20 - Projects/Futuritaly/Angelini Academy/Mockup Brief Sito.md` (14/5 23:53) | `[[Briefing Personaggi Landing Page]]` ×2 | Già rilevato 17/5 — NON fissato | idem (fix singolo risolve entrambe) |
+| `20 - Projects/Futuritaly/Angelini Academy/Mockup Brief Sito.md` (14/5 23:53) | `[[Verificare]]` | Già rilevato 17/5 — NON fissato. Placeholder testuale "Lì serve aggiungere [[Verificare]]" | Riscrivere come `**[VERIFICARE]**` o backtickare |
+| `20 - Projects/Futuritaly/Angelini Academy/Sintesi Strategica Pre-PPTX 2026-05-18.md` (17/5 22:38) | `[[Briefing Personaggi Landing Page]]` | Nuovo dal 18/5 — stesso pattern del cluster | Stesso fix root |
+| `20 - Projects/Futuritaly/Angelini Academy/Sintesi Strategica Pre-PPTX 2026-05-18.md` (17/5 22:38) | `[[Video Reel Veo 3.1 - Prompt Pack]]` | Nuovo: documento riferito ma mai creato nel vault | Creare scheda, o riscrivere come segnaposto testuale, o backtickare |
 
-**Composizione per cluster**: 4/5 broken wikilink (80%) sono in cluster Angelini Academy — coerente con l'attività intensa sulla preparazione pitch 31/5 nelle ultime 72h (nuovi doc creati senza propagazione completa wikilink/alias). 1/5 è cascata §10bis mancante su nuovo stakeholder Jakala.
+#### Cluster 3 — Stakeholder NOT/Eldis con suffisso variante (2 nuove)
 
-### 🟢 Riferimenti frontmatter — nessuno rotto
+| Sorgente (mtime) | Wikilink rotto | Diagnosi | Fix |
+|---|---|---|---|
+| `80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni.md` (21/5 18:38) | `[[60 - People/Marta Garrafa (Eldis)\|Marta Garrafa]]` | File target è `60 - People/Marta Garrafa.md` (senza "(Eldis)") | Riscrivere come `[[Marta Garrafa]]` oppure aggiungere alias `Marta Garrafa (Eldis)` alla scheda |
+| `80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni.md` (21/5 18:38) | `[[60 - People/Germano Mortillaro (NOT)\|Germano Mortillaro]]` | Nessuna scheda `Germano Mortillaro` nel vault. NB: esiste `60 - People/Germano Marano.md` (cognome diverso) — verificare se sono la stessa persona | Decisione richiesta a Carlo: (a) creare scheda Germano Mortillaro con cascata §10bis se persona reale; (b) se è typo per Germano Marano, fix wikilink |
 
-Stato `J=0` confermato. Verificata persistenza dell'effetto patch 14/5: nessun nuovo `related_meeting:` rotto né `stakeholders:` orfano. Le 3 occorrenze precedentemente rilevate `stakeholders: Luca (Silencio)` (Osservatorio Strategico, PresidIa, Achipoint) ora risolvono via alias `Luca (Silencio)` registrato su `Luca Fratini (Aegiscore).md` — patch v4 alias-aware funziona end-to-end anche per il frontmatter check.
+### ⚠️ Riferimenti frontmatter — 4 broken
+
+| Sorgente | Key | Valore | Fix |
+|---|---|---|---|
+| `00 - Inbox/2026-05-21 - Lead biotech medical device via Verrangelo.md` | `stakeholders:` | `Paolo Verrangelo (commercialista NoLoop)` | Riscrivere come `Paolo Verrengia (commercialista NoLoop)` (cognome corretto) — oppure aggiungere alias completo come descritto in Cluster 1 |
+| `00 - Inbox/2026-05-20 - Piano Azione Sito Futuritaly post-call 20-5.md` | `related_meeting:` | `2026-05-22 — Call follow-up Communication strategist post-feedback Claudia` | ⚠️ Violazione convenzione CLAUDE.md §4 (14/5/2026): le call POST-6/5/2026 assorbite nelle schede devono usare `meeting_context:` (testo libero) invece di `related_meeting:` (wikilink). Riscrivere il campo come `meeting_context:` con stesso testo |
+| `30 - Areas/Area - Partnership Fornitori/LinkedIn Sales Navigator NoLoop.md` | `stakeholders:` | `Elena Gamberini (LinkedIn)` | Sales rep LinkedIn senza scheda. Opzioni: (a) creare scheda persona se rilevante per cadenza touchpoint; (b) rimuovere dal frontmatter stakeholders e citare solo in prosa; (c) rinominare con suffisso es. `Elena Gamberini (LinkedIn — contatto)` se serve mantenere visibilità ma senza scheda |
+| `30 - Areas/Area - Partnership Fornitori/LinkedIn Sales Navigator NoLoop.md` | `stakeholders:` | `Angela Ritrovato (LinkedIn)` | idem |
 
 ### ⚫ Path string rotti (5 invariati — cronistoria intenzionale)
 
-Identici al run 15/5 — decisione 13/5 sera tardo confermata. Backlinks STORICI negli indici giornalieri `80 - Sources/Cowork Sessions/` post Batch B+C lasciati invariati per non falsificare cronistoria.
-
-| Sorgente | Path rotto | Path target attuale |
-|---|---|---|
-| `80 - Sources/Cowork Sessions/2026-05-06 - Indice sessioni.md` | `…/00 - Inbox/2026-05-05 - Decisione finale fornitori.md` | `50 - Archive/Inbox/2026-05/2026-05-05 - Decisione finale fornitori.md` |
-| `80 - Sources/Cowork Sessions/2026-05-08 - Indice sessioni.md` | `…/00 - Inbox/2026-05-07 - Angelini Academy - Domande QA.docx` | `50 - Archive/Inbox/2026-05/2026-05-07 - Angelini Academy - Domande QA.docx` |
-| `80 - Sources/Cowork Sessions/2026-05-08 - Indice sessioni.md` | `…/00 - Inbox/2026-05-08 - Prep call cliente Angelini Academy.md` | `50 - Archive/Inbox/2026-05/2026-05-08 - Prep call cliente Angelini Academy.md` |
-| `80 - Sources/Cowork Sessions/2026-05-08 - Indice sessioni.md` | `…/99 - System/SKILL cowork-sessions-index POST-PATCH UNIFICATA.md` | `50 - Archive/System Patches/SKILL cowork-sessions-index POST-PATCH UNIFICATA.md` |
-| `80 - Sources/Cowork Sessions/2026-05-08 - Indice sessioni.md` | `…/99 - System/Patch SKILL cowork-sessions-index 2026-05-08 sera — falle ordinamento e conflitti.md` | `50 - Archive/System Patches/Patch SKILL cowork-sessions-index 2026-05-08 sera — falle ordinamento e conflitti.md` |
+Identici al run 17/5 e 15/5 — decisione 13/5 sera tardo confermata. Backlinks STORICI negli indici giornalieri `80 - Sources/Cowork Sessions/` post Batch B+C lasciati invariati per non falsificare cronistoria. Stato `P=5` confermato come baseline accettata.
 
 ### 🟢 Verifica patch v4 SKILL alias-aware
 
 Patch v4 (14/5/2026) continua a essere in produzione e funzionante:
 
-- **Alias-index attivo**: 55 alias registrati nell'indice del vault (vs 49 nel run 15/5) — +6 da nuove schede create 15-17/5: `Master Brief Sito Angelini Academy` (alias `Master Brief Sito`, `Master Brief Angelini`, `Brief Claude Code Angelini`) + `Mockup Brief Sito` (alias `Mockup Brief`, `Brief Mockup v2`, `Mockup Brief Sito Angelini`) + 1 alias aggiuntivo su scheda Stefano Mambrin (`Mambrin`).
-- **27 file proprietari** di alias (vs 25 nel 15/5): `_Achipont`, `_Angelini Academy`, `_Area - Partnership Fornitori`, `_Area - Performance & Coaching`, `_Eldis`, `_Futuritaly`, `_Matteo Cosma`, `_NOT`, `_NoLoop`, `_Studio Murolo`, `_Wave 1 NoLoop`, `_Wave 2 NoLoop`, `Accessibility Specs Sito Nuovo Angelini Academy`, `Achipoint`, `Aegiscore`, `Crowd`, `Eye Cookies`, `Federico Saladino (Soolutions)`, `Luca Fratini (Aegiscore)`, `Massi Sinigaglia`, `Master Brief Sito Angelini Academy`, `Minutes`, `Mockup Brief Sito`, `OnSite`, `Simone Montanari (Soolutions)`, `Stefano Mambrin (Avanta)`, `2026-05-14 - Template Proposta Investimento (deprecato)`.
-- **Wikilink risolti via alias confermati**: `[[Eldis]]`, `[[Wave 2 NoLoop]]`, `[[Accessibility Specs Sito Nuovo]]`, `[[Stefano Mambrin]]`, `[[Luca Fratini]]`, `[[Luca (Silencio)]]` (risolve via alias di `Luca Fratini (Aegiscore)`), `[[Futuritaly]]`, `[[FuturItaly]]`, `[[Angelini Academy]]`, `[[NoLoop]]`, `[[NOT]]`, `[[Achipont]]`, `[[Matteo Cosma]]`, `[[Studio Murolo]]`, `[[Eye Cookies]]`, `[[Crowd]]`, `[[OnSite]]`, `[[Federico Saladino]]`, `[[Simone Montanari]]`, `[[Master Brief Sito]]`, `[[Mockup Brief]]`.
-- **Lesson sulla cascata alias**: Carlo ha applicato proattivamente `aliases:` sulle 2 nuove schede Angelini Academy (`Master Brief Sito Angelini Academy`, `Mockup Brief Sito`) — buona pratica da continuare. La scheda root `Angelini Academy — Briefing Personaggi Landing Page.md` invece NON ha frontmatter ⇒ causa diretta dei 3/5 broken wikilink di questo run.
+- **Alias-index attivo**: 70 alias registrati nell'indice del vault (vs 55 nel run 17/5, +15) — dovuti a nuove schede 18-22/5 con frontmatter `aliases:` proattivo: `Paolo Verrengia (commercialista NoLoop)` (3 alias), `LinkedIn Sales Navigator NoLoop` (3 alias), oltre a re-export di alias preesistenti su altre schede toccate dal refactoring 18-22/5.
+- **31 file proprietari** di alias (vs 27 nel 17/5): nuovi entrati `Paolo Verrengia (commercialista NoLoop)`, `LinkedIn Sales Navigator NoLoop`, `Germano Marano`, + 1 altro. Tutti i 27 precedenti permangono.
+- **Patch funziona end-to-end**: nessun falso positivo identificato in questo run. I 15 wikilink rotti sono tutti reali (typo cognome, nuove schede non create, placeholder testuali, refactoring incompleto).
 
 ### ⚠️ Alert globali
 
-- **K = 5** → soglia SKILL "K > 20" NON attiva (siamo a 1/4 della soglia). Niente alert "vault degraded".
-- **K crescita +∞% vs settimana scorsa** (0 → 5) → soglia SKILL "K cresce >50%" tecnicamente attiva, ma è un effetto matematico del partire da 0: qualsiasi nuovo broken link genera crescita infinita. Contestualizzare: 4/5 sono nuovo lavoro Angelini Academy (cascata alias parziale), 1/5 è stakeholder nuovo (cascata §10bis non applicata). Nessuno è regressione strutturale o orfano da refactoring non propagato.
-- **Nuovo broken in `20 - Projects/`**: SÌ — 4/5 broken sono in `20 - Projects/Futuritaly/Angelini Academy/`. Tuttavia i 3 file sorgenti (`Brief Copy Sito per Claude Code.md` modificato 15/5 14:32, `Mockup Brief Sito.md` modificato 14/5 23:53) NON sono in finestra ultime 24h (taglio: 16/5 19:02 UTC). La soglia di alert SKILL "modificato nelle ultime 24h" quindi non si attiva. Resta priorità ALTA perché Carlo sta lavorando attivamente sul cluster Angelini per pitch 31/5.
-- **Cadenza on-schedule** ✅: cron dom 21:00 ripristinato dopo 3 run off-cadence.
+- **K = 15** → soglia SKILL "K > 20" NON attiva (siamo a 3/4 della soglia). Niente alert "vault degraded", ma trend in deterioramento.
+- **K crescita +200% vs settimana scorsa** (5 → 15) → soglia SKILL "K cresce >50%" **ATTIVA**. La crescita NON è effetto matematico del partire da 0 (come nel 17/5): è una crescita reale +10 broken in 7 giorni. Decomposizione: +7 typo Verrangelo (cluster nuovo), +2 stakeholder NOT/Eldis (cluster nuovo), +1 Sintesi Strategica Angelini (estensione cluster esistente), +0 nessun fix applicato sui 4 residui Angelini del 17/5 (debt non smaltito), -0 nessuna regressione persa.
+- **Nuovo broken in `60 - People/` o `20 - Projects/` modificato nelle ultime 24h**: NO. Solo `00 - Inbox/2026-05-24 - Weekly Review.md` è in finestra 24h, e non contiene wikilink rotti. Tutti i 10 sorgenti broken hanno mtime tra 14/5 23:53 e 22/5 20:09 (più recente: Eye Cookies del 22/5).
+- **Cadenza on-schedule** ✅: secondo cron consecutivo on-time dom 21:00.
 
-### 📌 File modificati nelle ultime 24h (16/5 19:02 → 17/5 19:02 UTC)
+### 📌 File modificati nelle ultime 24h (23/5 19:00 → 24/5 19:00 UTC)
 
-9 file modificati nelle ultime 24h, tutti con wikilink risolti ✅:
+1 solo file modificato nelle ultime 24h (vault tipicamente quiete domenica):
 
-- `80 - Sources/Cowork Sessions/2026-05-17 - Indice sessioni.md` (indice giornaliero auto-generato)
-- `20 - Projects/Futuritaly/Angelini Academy/Analisi Competitor (v2 archiviata).md`
-- `20 - Projects/Futuritaly/Angelini Academy/Concept - Engaged Network Community.md`
-- `20 - Projects/Futuritaly/Angelini Academy/Prompt Claude Code - Pagina Engaged Network Preview.md`
-- `20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy.md`
-- `99 - System/MOC Refresh Log.md`
-- `99 - System/MOC - Home.md`
-- `99 - System/Cowork Sessions Log.md`
-- `00 - Inbox/2026-05-16 - Weekly Review.md`
+- `00 - Inbox/2026-05-24 - Weekly Review.md` (auto-generato weekly review)
 
-Notevole concentrazione su cluster Angelini Academy (5 file su 9 — Carlo sta lavorando intensamente al pitch finale 31/5) e refresh sistema (MOC Home + MOC Refresh Log via task `moc-refresh` sabato).
+Nessun wikilink rotto introdotto. La concentrazione di broken viene da attività 18-22/5 (cluster Verrangelo + nuovi stakeholder NOT) che non è stata seguita da propagazione completa dei wikilink.
 
 ### Prossimo run
 
-Cron canonico domenica 21:00 = prossimo run **dom 24/5/2026 ~21:00**. Aspettative:
-- Se Carlo fixa i 3 wikilink `[[Briefing Personaggi Landing Page]]` (via alias o rinomina) → K -3
-- Se Carlo crea scheda `60 - People/Luigiandrea Scaramuzzi (Jakala).md` con cascata §10bis → K -1
-- Se Carlo riscrive `[[Verificare]]` come placeholder testuale → K -1
-- Target plausibile: ritorno K=0 entro fine settimana
+Cron canonico domenica 21:00 = prossimo run **dom 31/5/2026 ~21:00**. Aspettative se Carlo applica i fix proposti:
+- Cluster 1 (Verrangelo): aggiungere `Paolo Verrangelo (commercialista NoLoop)` agli aliases della scheda Verrengia → -7 K + -1 J in un singolo edit
+- Cluster 2 (Angelini): aggiungere frontmatter con `aliases: [Briefing Personaggi Landing Page]` al file root → -4 K. Riscrivere `[[Verificare]]` → -1 K. Decidere su `[[Video Reel Veo 3.1 - Prompt Pack]]` → -1 K
+- Cluster 3 (NOT/Eldis): fix wikilink `Marta Garrafa` (rimuovere suffisso "(Eldis)") → -1 K. Decidere su Germano Mortillaro → -1 K
+- J residui: convertire `related_meeting:` → `meeting_context:` (-1 J), decidere su LinkedIn agents (-2 J)
+- **Target plausibile post-fix completo: K=0, J=0**
+- **Target plausibile post-fix solo Cluster 1** (più economico, 1 singola modifica): K=8, J=3
 
 ### 🔵 Decisioni richieste a Carlo
 
-1. **Scheda `Luigiandrea Scaramuzzi (Jakala)`** — nuovo Manager Jakala identificato 15/5, decisore-chiave per la quotazione bundle Osservatorio+Achipoint €50K. Cascata §10bis suggerita (Master Facts cluster Jakala, CLAUDE.md §7, MOC Home 🆕, eventuale Open Question su ruolo decisionale vs Andrea Pasquali).
-2. **Frontmatter `Angelini Academy — Briefing Personaggi Landing Page.md`** — file a vault-root creato 14/5 senza frontmatter né alias. Aggiungere almeno `aliases: [Briefing Personaggi Landing Page]` + considerare spostamento in cluster `20 - Projects/Futuritaly/Angelini Academy/` per coerenza struttura §3.1.
-3. **Placeholder `[[Verificare]]`** in `Mockup Brief Sito.md` riga 43 — riscrivere come testo o backtick.
+1. **🔴 PRIORITÀ ALTA — Aliases scheda Verrengia**: aggiungere `Paolo Verrangelo (commercialista NoLoop)` all'array `aliases:` di `60 - People/Paolo Verrengia (commercialista NoLoop).md`. Singolo edit di 1 riga che risolve 7 K + 1 J = **8 broken link in un colpo**. ROI massimo.
+2. **🔴 PRIORITÀ ALTA — Cluster Angelini debt non smaltito dal 17/5**: 4 broken `[[Briefing Personaggi Landing Page]]` ancora aperti dopo 7 giorni. Suggerimento: aggiungere frontmatter con `aliases: [Briefing Personaggi Landing Page]` al file root `Angelini Academy — Briefing Personaggi Landing Page.md` (creato 14/5 12:56, attualmente senza frontmatter), risolve tutte e 4 le occorrenze. Valutare anche spostamento in cluster `20 - Projects/Futuritaly/Angelini Academy/` per coerenza struttura §3.1.
+3. **Germano Mortillaro (NOT) vs Germano Marano**: chiarire se sono la stessa persona (typo cognome) o due persone distinte. Se distinte, creare scheda Germano Mortillaro con cascata §10bis (NOT cluster).
+4. **`[[Video Reel Veo 3.1 - Prompt Pack]]`**: documento riferito ma mai creato. Decidere: (a) creare scheda, (b) backtickare come riferimento esterno, (c) rimuovere il riferimento.
+5. **LinkedIn agents (Elena Gamberini, Angela Ritrovato)**: sono contatti commerciali di LinkedIn Sales Navigator. Decidere se creare schede persona (cadenza touchpoint significativa?) o se rimuoverli dal frontmatter stakeholders e citarli solo in prosa.
+6. **Convenzione `related_meeting:` vs `meeting_context:`**: il file `2026-05-20 - Piano Azione Sito Futuritaly post-call 20-5.md` usa `related_meeting:` per una call assorbita post-6/5 — violazione convenzione CLAUDE.md §4 (14/5/2026). Fix banale: rinominare campo a `meeting_context:`.
+7. **Placeholder `[[Verificare]]`** in `Mockup Brief Sito.md` riga 43 — ancora aperto dal 17/5. Riscrivere come testo o backtick.
 
-### 🟢 Stato finale
+### 🟢 Stato finale (post-batch fix in chat con Carlo, 24/5 sera)
 
-- **K = 5** ⚠️ (4 cluster Angelini Academy + 1 cascata §10bis Jakala)
+- **K = 1** ✅ (solo `[[Verificare]]` in Mockup Brief Sito — placeholder esplicitamente lasciato da Carlo)
 - **J = 0** ✅
-- **P = 5** (cronistoria intenzionalmente non propagata)
-- **55 alias** registrati (27 file proprietari)
-- **3 decisioni richieste a Carlo** (vedi sezione precedente)
-- Niente di bloccante. Tutti i broken hanno fix deterministici già descritti.
+- **P = 5** (cronistoria intenzionalmente non propagata — baseline accettata)
+- **75 alias** registrati (34 file proprietari, +4 vs run iniziale: Verrengia ripulita, Marta Garrafa, Briefing Personaggi root, Brief Copy)
+
+### 🔧 Fix applicati in batch (24/5 sera, in chat con Carlo)
+
+| # | Fix | File toccati | Δ |
+|---|---|---|---|
+| 1 | Cleanup alias scheda Verrengia (rimossi `Paolo Verrangelo`, `Verrangelo` — Carlo: "deve usare solo Verrengia") + rinomina `Paolo Verrangelo (commercialista NoLoop)` → `Paolo Verrengia (commercialista NoLoop)` in 9 occorrenze (8 wikilink + 1 frontmatter) su 6 file (Inbox 21/5, Eye Cookies, _Wave 1, _Wave 2, Paolo Donzelli, Open Questions) | 7 (scheda + 6 sorgenti) | -7 K, -1 J |
+| 2 | Spostato `Angelini Academy — Briefing Personaggi Landing Page.md` da vault-root a `20 - Projects/Futuritaly/Angelini Academy/` + aggiunto frontmatter con `aliases: [Briefing Personaggi Landing Page, Briefing Personaggi]` | 1 (file moved + frontmattered) | -4 K |
+| 3a | Aggiunto alias `Marta Garrafa (Eldis)` + `Marta (Eldis)` a `60 - People/Marta Garrafa.md` (Carlo conferma: Marta è operativa Eldis su progetto Compilatore AI) | 1 | -1 K |
+| 3b | Fix wikilink `[[Germano Mortillaro (NOT)]]` → `[[Germano Marano]]` in indice sessioni 21/5 (Carlo conferma typo cognome: è Marano, Mortillaro non esiste) | 1 | -1 K |
+| 4 | Rimosso `[[Video Reel Veo 3.1 - Prompt Pack]]` da Sintesi Strategica Pre-PPTX 2026-05-18 (Carlo: non importante) | 1 | -1 K |
+| 5 | Rimossi `Elena Gamberini (LinkedIn)` + `Angela Ritrovato (LinkedIn)` da `stakeholders:` frontmatter di LinkedIn Sales Navigator NoLoop, riferimento spostato in commento (Carlo: contatti vecchi non rilevanti) | 1 | -2 J |
+| 6 | Rinominato campo `related_meeting:` → `meeting_context:` in `00 - Inbox/2026-05-20 - Piano Azione Sito Futuritaly post-call 20-5.md` (conforme CLAUDE.md §4 convenzione 14/5/2026: call post-6/5 assorbite usano `meeting_context:` testo libero) | 1 | -1 J |
+| 7 | `[[Verificare]]` in Mockup Brief Sito riga 43 — Carlo: "lasciamo placeholders" → NESSUNA azione | 0 | 0 |
+| Bonus | Aggiunto alias `Brief Copy` + `Brief Copy Sito` a `Brief Copy Sito per Claude Code.md` (risolve nuovo broken `[[Brief Copy]]` emerso in indice sessioni 24/5 auto-generato) | 1 | -1 K |
+
+**Totale Δ**: K 15 → 1 (-14, -93%) · J 4 → 0 (-4, -100%) · alias +5 (75/34)
+
+### 🔄 Cleanup post-riallineamento principio "un nome canonico" (24/5 sera tardo)
+
+Carlo segnala che il principio di gestione frontmatter/alias che ho applicato nei fix precedenti non rispetta pienamente la regola di sistema sottostante: **ogni entità ha un solo nome canonico, gli alias sono redirect tecnici per varianti operativamente diffuse, non scorciatoie per coprire output bacati di indexer o varianti isolate**. Rerun cleanup applicato:
+
+| # | Azione | Rationale | Δ alias |
+|---|---|---|---|
+| (a) | Rimossi alias `Marta Garrafa (Eldis)` + `Marta (Eldis)` da scheda Marta Garrafa; rinominato wikilink `[[60 - People/Marta Garrafa (Eldis)\|Marta Garrafa]]` → `[[Marta Garrafa]]` in indice sessioni 21/5 | Fix all'output dell'indexer invece di mascherarlo con alias di copertura | -2 |
+| (b) | Rimossi alias `Brief Copy` + `Brief Copy Sito` da scheda Brief Copy Sito per Claude Code; rinominato wikilink `[[Brief Copy]]` → `[[Brief Copy Sito per Claude Code\|Brief Copy]]` in indice sessioni 24/5 | Idem | -2 |
+| (c) | Rimossi alias `Briefing Personaggi Landing Page` + `Briefing Personaggi` da scheda Angelini Academy — Briefing Personaggi Landing Page; rinominate 5 occorrenze forma corta `[[Briefing Personaggi Landing Page]]` → `[[Angelini Academy — Briefing Personaggi Landing Page\|Briefing Personaggi Landing Page]]` in 3 file (Brief Copy Sito ×2, Sintesi Strategica ×1, Mockup Brief Sito ×2) | Canonico maggioritario (8/13) era già la forma estesa; riallineamento alla maggioranza, no rename file | -2 |
+| (d) | Rimosso alias `Verrengia` (cognome-solo) da scheda Paolo Verrengia; mantenuto solo `Paolo Verrengia` | Principio "canonico = sempre Nome Cognome", mai cognome-solo né nome-solo | -1 |
+| (e) | Patch CLAUDE.md §4 — aggiunto bullet esplicito "Aliases — quando registrarli e quando NO (regola consolidata 24/5/2026)" + commento HTML di marker pre-§0 | Consolidare apprendimento in regola operativa permanente per le prossime sessioni | n/a |
+
+**Δ alias post-cleanup**: 75 → 68 (-7, -9.3%). Owner files: 34 → 31 (-3: Marta Garrafa, Brief Copy Sito, Angelini Briefing Personaggi non più owner di alias). K resta = 1 (Verificare placeholder), J resta = 0.
+
+**Δ K/J invariato (cleanup era refactoring qualitativo, non quantitativo)**: il principio "un nome canonico" non riduce K/J ma riduce il rumore semantico nel vault — gli alias residui ora coprono solo varianti operativamente diffuse reali (forme corte usate in 5+ file di prosa, sigle riconosciute, brand alternativi).
+
+### 📊 Confronto debt 17/5 vs 24/5 post-fix
+
+- 5 residui aperti al 17/5 → 4/5 fissati (3 `[[Briefing Personaggi Landing Page]]` + 1 `[[Luigiandrea Scaramuzzi]]` già risolto 19/5) · 1 residuo persistente per scelta (`[[Verificare]]`).
+- 10 nuovi broken introdotti 18-22/5 → 10/10 fissati.
+- Cascata §10bis applicata su 3 nuove schede toccate (Verrengia frontmatter ripulito, Marta alias, Briefing root spostato+frontmatter).
+
+### Prossimo run
+
+Cron canonico domenica 21:00 = **dom 31/5/2026 ~21:00**. Aspettativa K=1 stabile (placeholder Verificare), J=0, P=5.
 
 ---

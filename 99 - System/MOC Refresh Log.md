@@ -1,13 +1,61 @@
 ---
 type: system-log
 created: 2026-05-15
-updated: 2026-05-16
-last_run: 2026-05-16 20:00 (cron sab — primo run scheduled effettivo)
+updated: 2026-05-24
+last_run: 2026-05-24 19:19 (run dom, trigger manuale o scheduler slip dal sab 23/5)
 ---
 
 # MOC Refresh Log
 
 Log degli audit settimanali del [[99 - System/MOC - Home]] (task `moc-refresh`, cron sab 16:00).
+
+---
+
+## 2026-05-24 19:19 — 2 auto-patches · 1 flag
+
+Run eseguito domenica 24/5 (slot cron sab 16:00 saltato — no entry log sab 23/5; trigger manuale o scheduler slip). MOC parzialmente stale dall'ultimo run scheduled (16/5 20:00), 8 giorni senza refresh.
+
+### Auto-patches applicati
+
+- `updated:` frontmatter MOC: `2026-05-20` → `2026-05-24`
+- Versione Master Facts in §"Da leggere subito": `**v1.2 (14/5)**` → `**v1.2 (21/5)**` (frontmatter Master Facts: `updated: 2026-05-21`; versione 1.2 invariata, solo data label allineata)
+
+### Stato sezioni verificate (no patch necessaria)
+
+- "Progetti attivi (12 totali)" — coerente con policy 15/5 (FutureKids `status: prospect` resta fuori dal conteggio attivi). 5 NoLoop cluster + 7 altri clienti = 12. NO patch.
+- "Altri clienti (7 progetti)" — coerente. NO patch.
+- "Cluster NoLoop — Wave 2 + NOT (5 progetti)" — coerente (Wave 1 storico + Wave 2 + 3 NOT = 5). NO patch.
+
+### Flag to triage (Carlo decide)
+
+**Nuova persona non in MOC (1):**
+- `[[60 - People/Paolo Verrengia (commercialista NoLoop)]]` 🆕 — Commercialista/consulente fiscale esterno NoLoop, scheda creata 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo del MOC oppure tenere solo in `60 - People/` finché due diligence non chiusa.
+
+### Flag NON ri-segnalati (convenzione consolidata, vedi entry 15/5 + 16/5)
+
+Skippati per scelta Carlo (one-shot consumati nelle entry precedenti, NON ri-flaggare per evitare noise):
+- `[[20 - Projects/Futuritaly/FutureKids]]` (prospect, p3 — non in conteggio attivi)
+- `[[99 - System/Vault Architecture Audit 2026-05-13]]` (one-shot, non in §Sistema vault)
+- `[[99 - System/Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware]]` (one-shot)
+- `[[99 - System/MOC Refresh Log]]` (auto-generato, discrezionale)
+- `[[60 - People/Gabriella Airaghi]]` (decisione Carlo 15/5: tenere solo in `60 - People/`)
+
+### Wikilink broken
+
+Nessuno nuovo rilevato. I 32 wikilink presenti nel MOC verificati come da run 16/5 — nessuna rinominazione/spostamento di target dall'ultimo audit. Spot-check eseguito su path critici (40 - Resources, 80 - Sources, 30 - Areas, 20 - Projects principali): tutti risolti.
+
+### Note operative
+
+- Slot cron sab 23/5 16:00 NON ha prodotto entry in questo log: scheduler ha saltato (drift già noto, Open Questions #34) oppure cron è scattato ma run è fallito silenziosamente. Da indagare se ricorre il prossimo sab 30/5.
+- Convenzione `MOC Refresh Log` auto-rolling: prossimo archive entry > 8 settimane (orientativamente ~10/7/2026).
+- No alert in Daily Note 2026-05-23/24 (no daily note esistente per sab/dom, ultima daily 2026-05-22).
+- Prossimo run scheduled: sab 30/5 16:00 (se scheduler ripreso).
+
+### Stato finale
+
+- Auto-patches: 2
+- Flag aperti per Carlo: 1 (Paolo Verrengia, decisione cluster MOC)
+- Wikilink broken: 0
 
 ---
 

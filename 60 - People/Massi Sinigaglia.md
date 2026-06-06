@@ -4,7 +4,7 @@ role: Managing Partner — Divisione On Trade (NOT)
 company: NoLoop
 email: massi.sinigaglia@noloop.eu
 created: 2026-04-30
-updated: 2026-05-13
+updated: 2026-05-28
 aliases: [Massimiliano, Massi]
 last_contact: 2026-05-07
 next_touchpoint: 
@@ -49,6 +49,12 @@ Massi è il **co-founder/Managing Partner della divisione NOT** (Noloop on Trade
 - Si coordina internamente con Germano Marano e Marco Merli
 
 ## Interazioni recenti
+
+### 2026-05-28 — Sponsor commerciale Eye Cookies aggiornato via Germano post call bisettimanale
+- **Massi NON era presente alla prima call bisettimanale Eye Cookies 28/5**. Germano in chiusura: *"io comunque aggiorno Massi che sicuramente sarà contento del degli sviluppi perché si intravede anche un bel potenziale. una volta che avremo diciamo raggiunto un certo livello di maturità poi lo potremo presentare al cliente che abbiamo sempre nella retrocamera del cervello, che è il nostro cliente principale, che è il nostro target, no, che è BAT"*.
+- **Decisione strategica BAT (riguarda Massi direttamente)**: Germano sente Massi per stato relazione BAT — Massi ha già toccato BAT a livello manageriale, "dimostrazione di interesse" ma BAT impegnati su nuovi pop-up. HeyAI produce **materiale di supporto presentazione** (demo dashboard + 2 render Totem + analisi tag valore aggiunto) per supportare Massi/Germano nella pitch BAT.
+- **Domanda aperta a Massi via Germano**: se Germano deve seguire anche **Operation Transformation lato tecnico** (per multi-SIM/connettività, utile in Operation più che in Eye Cookies). Apertura potenziale unico tech-point-of-contact NoLoop per entrambi i progetti NOT. Massi decision-maker.
+- **Bisettimanale Operation Transformation**: condizionato a conferma Massi su Germano-as-tech-Operation.
 
 ### 2026-05-13
 - **CC su bozza email Carlo→Germano** "R: EYE cookie" (in [[00 - Inbox/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]) per notifica partenza ufficiale sviluppi Eye Cookies + richieste operative Microlog. Massi resta sponsor commerciale del progetto, l'aggiornamento serve anche a chiudere il loop del suo sollecito 29/04 "a che punto siamo con lo sviluppo?".

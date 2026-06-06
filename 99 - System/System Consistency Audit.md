@@ -1,7 +1,48 @@
 ---
 type: system-audit
 created: 2026-05-14
-updated: 2026-05-18
+updated: 2026-05-25
+---
+
+## Audit 2026-05-25 (lun 7:30, run automatico canonico)
+
+✅ Sistema consistente — 0 drift rilevati. Task attivi: 8. Task disabilitati coerenti: 3.
+
+### Stato verificato
+
+**Active (8)** — tutti `enabled=true`, cron ↔ doc ↔ SKILL allineati:
+- `pm-digest-mattutino` — cron `0 8 * * 1-5` ↔ doc "Lun-Ven 8:00" ↔ SKILL "lun-ven 8:02" (jitter coerente)
+- `cowork-sessions-index` — cron `22 20 * * *` ↔ doc "Ogni giorno 20:22" ↔ SKILL "20:22 ogni giorno"
+- `vault-link-checker` — cron `0 21 * * 0` ↔ doc "Dom 21:00" ↔ SKILL "domenica sera 21:00"
+- `crm-velocity` — cron `0 9 * * 1` ↔ doc "Lun 9:00" ↔ SKILL "lunedì mattina 9:00"
+- `moc-refresh` — cron `0 16 * * 6` ↔ doc "Sab 16:00" ↔ SKILL "sabato 16:00"
+- `weekly-review-interactive` — cron `30 17 * * 6` ↔ doc "Sab 17:30" ↔ SKILL "sabato 17:30"
+- `system-consistency-check` — cron `30 7 * * 1` ↔ doc "Lun 7:30" ↔ SKILL "lunedì 7:30"
+- `dashboard-refresh-manual` — manual ↔ doc "Manuale" ↔ SKILL "on-demand"
+
+**Disabled (3)** — tutti `enabled=false`, description scheduler con marker `[DISABILITATO …]` coerente con CLAUDE.md §9 "Disabilitati":
+- `friday-wrap-up` — `[DISABILITATO 13/5/2026]`
+- `weekly-digest` — `[DISABILITATO 13/5/2026]`
+- `claude-chats-sync` — `[DISABILITATO 6/5/2026]`
+
+### Verifica strutturale §15.quinquies
+
+- Frontmatter SKILL files (8 attivi letti): nessun duplicato `---`/`---`. Fix 15/5 su `pm-digest-mattutino` / `cowork-sessions-index` / `vault-link-checker` ancora in place, nessuna regressione.
+- Path deprecato `70 - Meetings/`: 0 occorrenze nei SKILL letti.
+- Riferimenti incrociati a task disabilitati: 0. `weekly-review-interactive` continua a citare `friday-wrap-up` solo come storico disabilitato (consistente con patch 13/5).
+- Descriptions scheduler ↔ description frontmatter SKILL: allineati per tutti gli 8 attivi.
+- Riferimenti temporali nella prosa SKILL ↔ cron reale: tutti coerenti (display schedule riflette cron+jitter, cron base resta autoritativo).
+
+### Delta vs audit 2026-05-18
+
+- **Risolti**: 0 (non c'erano drift al 18/5).
+- **Nuovi**: 0.
+- **Persistenti**: 0.
+
+### Trigger di alert
+
+✅ `system-consistency-check`: sistema consistente. Nessuna azione richiesta prima di `pm-digest-mattutino` 8:02.
+
 ---
 
 ## Audit 2026-05-18 (lun 7:30, run automatico canonico)

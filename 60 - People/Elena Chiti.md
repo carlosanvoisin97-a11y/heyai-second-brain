@@ -6,9 +6,9 @@ email: chiti@futuritaly.com
 phone: +393428513847
 office_phone: 0644290891
 created: 2026-05-05
-updated: 2026-05-15
-last_contact: 2026-05-15
-next_touchpoint: 2026-05-18
+updated: 2026-06-03
+last_contact: 2026-06-03
+next_touchpoint: 2026-06-03
 next_touchpoint_time_proposed: 17:00 (richiesto da Elena 15/5 09:02 — call lun 18 spostata da 15:00 → 17:00; aggiornamento Outlook in capo a Carlo)
 cadence_days: 7
 relationship_strength: warm
@@ -47,8 +47,41 @@ Elena è la collega di [[Lavinia Ferrari]] in FuturItaly che gestisce direttamen
 - **Legge il cliente con accuratezza**: ha dato a Carlo la chiave su come trattare Caterina ("non manco tecnica e parla così a papera" = poco tecnica, va guidata con fermezza ma chiarezza, "non saprei" = "fate voi"). Da fidarsi delle sue letture politiche.
 - **Vincolo strutturale di partnership — margine FuturItaly**: ha chiesto esplicitamente in debrief 8/5 che la proposta HeyAI permetta a FuturItaly di marginare. **Da dimensionare nel pricing fin dall'inizio** (markup HeyAI→FuturItaly→Angelini vs fattura separata + % commercializzazione). Da chiarire lunedì 11/5 12:00.
 - **Visione strategica pitch finale**: ha apprezzato l'idea Carlo dell'A/B test target-based sul sito ("modulo intelligenza editoriale"). Vuole riprendere il **laboratorio editoriale permanente** (concordato con Tiziana) come differenziale forte al pitch finale, dato che non è venuto fuori in call cliente per confusione di Caterina sui contenuti.
+- **Cede a voce ma archivia il dissenso (è proxy del cliente)**: dry-run 3/6, su 2 slide (market-analysis, 3-iniziative) dice *"non sono convinta / non la metterei, però lasciala, mi fido di voi"*. Non è approvazione: è dissenso registrato. Carlo deve **pesarlo** — Elena legge il cliente meglio di noi. Sotto pressione italianizza il lessico e chiede di **cronometrarsi** (ansia tempo, pitch da 1h).
+- **Esperta di dominio su ricerca/accademia**: TTO (Technology Transfer Office), complessità reale delle collaborazioni di ricerca, scouting atenei (~80 mappati + sua rete). Su questi temi va seguita, non corretta (in call ha riscritto il flusso collaborazione ricercatore).
+- **Sotto sovraccarico catastrofizza — è sfogo, non valutazione strategica** (telefonata 3/6 sera): con 3 eventi addosso e notti in bianco arriva a *"pagliacciata"*, *"me ne cacciano"*, e già rivende il concept ad altri. Va letto come **stress venting** → Carlo deve fare **l'ancora calma** (il ruolo di [[Daniele Caporale]]): validare il sentimento, non adottare la conclusione pessimista.
+- **Si scusa / si mostra vulnerabile = fiducia, non debolezza**: *"sono fatta così, pecco nei modi"*, *"Claudia mi ha ripresa"* — è **riparazione relazionale** + accesso intimo (ti racconta perfino di essere stata sgridata dal capo a causa tua). Va accolto con calore (Carlo l'ha fatto).
+- **Quando si fida è generosa e attiva**: manda lead *"col cuore"*, tira HeyAI dentro l'opportunità finanza agevolata, combatte il prezzo internamente con [[Claudia Bugno]]. È alleata, non gatekeeper.
+- ⚠️ **Ego fragile dopo il rimprovero del capo (3/6)**: Claudia l'ha ripresa su come aveva gestito il dry-run. È insicura → **NON farla sentire scavalcata** né allinearsi con Claudia "sopra di lei". Tienila come canale primario, falla fare bella figura con Claudia.
 
 ## Citazioni testuali
+
+> "Ogni volta che c'è 'editoriale' va tolto [hub], dev'essere Laboratorio Editoriale Permanente... è stata la prima parolina chiave dalla primissima riunione."
+> — **Elena Chiti**, dry-run 3/6/2026 — 🔴 **NAMING FLIP**: ribalta il lock 2/6 "Hub Editoriale Permanente" (citazione sotto). Nome client-facing = **"Laboratorio Editoriale Permanente"**. Elena stessa aveva scritto "hub" nella prima mail → ora corregge. Find&replace deck + sito.
+
+> "Abbiamo pochissimi asset che ci possono differenziare da qualsiasi altro fornitore molto più grande... sto lottando con i denti e le unghie [per venderla], sennò me ne cacciano."
+> — **Elena Chiti**, dry-run 3/6/2026 — stato emotivo/posta in gioco: stressata, pessimista sul differenziale, gioca la credibilità interna sul Laboratorio. I 4 differenziatori per lei: target/personas · Laboratorio · uso smart AI · team+governance ("le uniche cose che non trovano in un altro fornitore").
+
+> "Io faccio origination, gli porto il cliente, loro fanno execution, di solito ci prendiamo un 10% sul prezzo finale al cliente. Se riusciamo a stare in questo, Claudia non fa problemi."
+> — **Elena Chiti**, dry-run 3/6/2026 — modello commerciale FuturItaly esplicitato: **10% origination sul prezzo finale**. Manda Excel sensitivity a [[Claudia Bugno]]. €49.500 = floor HeyAI, client-facing = + markup.
+
+> "Perché gli dobbiamo riconfermare l'analisi che hanno fatto loro?... non sono convinta di questa cosa, però vabbè, mi fido di voi."
+> — **Elena Chiti**, dry-run 3/6/2026 — dissenso esplicito sulla slide market-analysis. Pattern: cede a voce ma archivia dissenso → da pesare. Stesso registro su slide 3-iniziative (*"non la metterei, però lasciala"*).
+
+> "Le proposte di collaborazione [di ricerca] sono complicatissime da attivare, non è così che ti mando 1-2 pagine... ti dà la sensazione che non abbiamo capito come gira il fumo."
+> — **Elena Chiti**, dry-run 3/6/2026 — competenza di dominio: ha riscritto il flusso collaborazione ricercatore in 3 step (proposta → review Academy → negoziazione).
+
+> "Deve emergere la sezione Hub editoriale permanente (chiamiamolo sempre così... che sarà curata da Futuritaly)."
+> — **Elena Chiti**, email 2/6/2026 — **lock del naming client-facing** del Pilastro 02 (supera il nome interno "Regia editoriale" deciso 2/6). FuturItaly si intesta esplicitamente l'Hub editoriale.
+
+> "Noto un po' di lentezza nel caricare e navigare le pagine... sia da pc sia da cellulare... in sede di presentazione è fondamentale che non sia più fluido [sic: sia più fluido]."
+> — **Elena Chiti**, email 2/6/2026 — blocco tecnico #1 per la demo live del 5/6. Performance del mockup prima della grafica.
+
+> "Cambierei il nome Percorsi in Percorsi utente (so che ti sembra antico, ma percorsi davvero mi porta in confusione)."
+> — **Elena Chiti**, email 2/6/2026 — coerente col pattern "target di utenti" (26/5): Elena italianizza/esplicita il lessico per il cliente Angelini.
+
+> "La slide dei prezzi va modificata con il nostro mark up, che vi fornisco nelle prossime giornate."
+> — **Elena Chiti**, email 2/6/2026 — modello commerciale: FuturItaly applica il proprio markup sopra il core HeyAI (€49.500 floor), controlla il numero client-facing.
 
 > "Hanno un budget di circa 5 milioni, questa attività spacchettata su 2 anni per fare x cose, e la proprietà non si aspetta di andare in profitto."
 > — **Elena Chiti**, call interna 11/5/2026 — informazione strategica capitale: ridefinisce il modello business reale Academy (mecenatismo + posizionamento, NON revenue corporate learning a breve). Cambia la priorità degli obiettivi reali nella nostra lettura: O2 (corporate learning aperto) si declassa da primario a evolutivo-futuro.
@@ -61,6 +94,12 @@ Elena è la collega di [[Lavinia Ferrari]] in FuturItaly che gestisce direttamen
 
 > "Lei [Caterina] vuole vedere nella vostra proposta che ci sia utilità e coerenza con la strategia, quindi non ci dobbiamo inventare nulla perché è super dettagliata."
 > — **Elena Chiti**, call 11/5/2026 — conferma del framing strategico-analitico del pitch.
+
+> "Se vedo così mi confondo perché tu parli con proprietà eccetera però dici tanto, tante, tante, tante cose."
+> — **Elena Chiti**, call interna allineamento pitch 26/5/2026 (~23:17) — feedback diretto a Carlo sull'executive summary. **Pattern ripetuto**: stesso registro di *"è tosta seguirvi"* (19/5). Elena è il proxy del cliente — se lei non segue, Caterina non seguirà. Implicazione per pitch 29/5 o 3/6: comprimere strategia a ≤20 min, mappa esplicita all'apertura di ogni macro-blocco.
+
+> "Ma persona, se io ti giuro sono antica, ma non vi possiamo chiamare target di utenti?"
+> — **Elena Chiti**, call 26/5/2026 (~40') — Elena dichiara esplicitamente di rappresentare un'audience "antica" sui termini di marketing/UX. Lessico anglofono (personas, pain point, Content Direction) da italianizzare per il cliente Angelini.
 
 > "A me l'idea del mockup piace, è decisamente più esperto di me Carlo, non ci vede controindicazioni... per me ok sono sempre favorevole alle simulazioni."
 > — **Elena Chiti**, call 11/5/2026 — approvazione esplicita inclusione mockup nella proposta.
@@ -93,6 +132,24 @@ Elena è la collega di [[Lavinia Ferrari]] in FuturItaly che gestisce direttamen
 - [[_Angelini Academy|Angelini Academy]] — Key Account FuturItaly del progetto
 
 ## Interazioni recenti
+
+### 2026-06-03 (sera) — Telefonata pricing + riparazione relazionale
+
+Telefonata con Carlo (post dry-run). **Pricing**: accetta cliente **€49.500 col 10% FuturItaly dentro** (sotto €50K); avverte che **Claudia vuole >10%** (*"più win-win"*) e che il totale pacchetto deve stare **<€90K**; prezzi **"a corpo"** non mensili (convenzione offerte). **Relazione**: si scusa più volte per i modi/intensità, rivela che **Claudia l'ha ripresa** sulla gestione del dry-run e che *"ci tiene a HeyAI"*. **Politica**: chiama il **capo di [[Tiziana Carnicelli]]** domattina (d'accordo con [[Claudia Bugno]]) perché Tiziana non risponde; pessimista ma combattiva. **🆕** apre l'opportunità **agente AI finanza agevolata**. Lettura relazionale completa + dettaglio in [[_Angelini Academy]] §Log 3/6 (sera).
+
+### 2026-06-03 — Dry-run pre-pitch slide-by-slide (1h56m, Teams)
+
+Revisione integrale deck + demo sito con Carlo + [[Daniele Caporale]] (+ Michele parz., Federico fine call). Dettaglio in [[_Angelini Academy]] §Log 3/6 (mattina) + §Task "Dry-run 3/6". Punti Elena-side: 🔴 **naming flip → "Laboratorio Editoriale Permanente"** (ribalta il "Hub" del 2/6); **modello pricing FuturItaly 10%** + manda Excel a [[Claudia Bugno]]; **riscrive** il flusso collaborazione ricercatore (3 step) e i 4 output del Laboratorio; **dissente (ma cede)** su market-analysis + 3-iniziative; stress sul differenziale (*"me ne cacciano"*). Logistica: in viaggio 4/6 (finestra solo mattina), Tiziana confermata al pitch ma non risponde a Elena. Performance Carlo: [[2026-06-03 - Carlo Performance — Dry run pre-Pitch Angelini]].
+
+### 2026-06-02 — Email feedback su deck + mockup (pre-pitch 5/6)
+
+Elena ha preso visione di pitch + mockup e mandato feedback strutturato. Mockup "piace molto" (non ancora confrontata con Daniele). **Sessione di lavoro insieme 3/6** per riorganizzare testo deck + sito. Punti chiave (dettaglio operativo in [[_Angelini Academy]] §Log + §Task aperti 2/6):
+- Naming client-locked: **"Hub Editoriale Permanente"** (*"chiamiamolo sempre così, curata da FuturItaly"*) — supera "Regia editoriale". 3 pilastri rinominati.
+- Divisione del lavoro: HeyAI = infrastruttura/evoluzione/manutenzione; FuturItaly = Hub editoriale + coordinamento (Key Account coordina). **Reframing che restringe HeyAI** — da valutare con Carlo.
+- Pricing: slide prezzi con **markup FuturItaly** (lo manda "nelle prossime giornate") → €49.500 = floor HeyAI.
+- Blocco: mockup **lento PC+mobile**, *"fondamentale sia più fluido"* in sede di presentazione.
+- Sito: "Percorsi" → "Percorsi utente"; far emergere Hub editoriale; togliere autovalutazione MBA; sezione Site Map.
+- Deck: 11 punti (indice 3 sezioni, de-densify slide 6/15, esempio slide 14, divisione lavoro slide 19, team). Focus richiesto: pilastri, target, Hub, Gateway MBA, ToV, AI.
 
 ### 2026-05-14 mattina
 
@@ -133,6 +190,7 @@ Elena è la collega di [[Lavinia Ferrari]] in FuturItaly che gestisce direttamen
 
 ## Sessioni Cowork correlate
 
+- 2026-05-26 — `local_8d4d8e40` — Carlo call performance analysis (post-mortem call interna FuturItaly+HeyAI pre-pitch 26/5 1h09'): 2 nuove citazioni Elena (segnale ricorrente di sovraccarico narrativo *"dici tante, tante, tante cose"* — identico al 19/5 *"è tosta seguirvi"*; momento di stacco al minuto 44'). Pattern Elena confermato: si disconnette quando il flusso supera la sua capacità di ricalibrare in tempo reale. Live commit §15 su sezione "Pattern di interazione". → [[80 - Sources/Cowork Sessions/2026-05-26 - Indice sessioni#Sessione 1 — `local_8d4d8e40-f3f1-45f5-b0f8-305a0b64121b` — Carlo call performance analysis (call interna FuturItaly Angelini Academy pre-pitch 26/5)]]
 - 2026-05-07 — ✅ Carlo conferma video call Angelini Academy del 7/5 ore 16:30 (max 30', con [[Daniele Caporale]]). Calibrazione interna pre-Q&A cliente di domani 8/5 mattina. Task chiuso in batch reconciliation 7/5. → [[80 - Sources/Cowork Sessions/2026-05-07 - Indice sessioni#Sessione 1 — Review open tasks summary]]
 - 2026-05-06 — Pacchetto 4 file Angelini consolidato (Wireframe + Analisi Narrativa + Q&A + Brief Mockup) post call con Michele del 5/5; Q&A docx aggiornato (A3 ribaltata su bilinguismo, C5 nuova su programmi OpCo); valutato metodo Claude Code come smoke test pre-pitch → [[80 - Sources/Cowork Sessions/2026-05-06 - Indice sessioni]]
 - 2026-05-15 mattina — `local_6ac858a6` — Clarify meeting time from email: thread Elena ricostruita (5 mail dal 14/5 10:58 al 15/5 09:02). Elena chiede di **spostare l'orario della call lun 18/5 dalle 15:00 alle 17:00** (o successivo). Stessa thread, stesso evento — non c'è nessuna call prevista oggi. Azione Outlook in capo a Carlo, NON eseguita in sessione → [[80 - Sources/Cowork Sessions/2026-05-15 - Indice sessioni#Sessione 6 — Clarify meeting time from email (Elena Chiti call lun 18/5)]]

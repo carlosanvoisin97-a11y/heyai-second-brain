@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-05-06
-updated: 2026-05-21
+updated: 2026-05-26
 ---
 
 # Cowork Sessions Log
@@ -12,6 +12,10 @@ updated: 2026-05-21
 
 ## 2026
 
+- 2026-05-26 20:22 — 2 sessioni · 4 schede · 5 citazioni · 2 continuations · trigger: cron-22 · [[80 - Sources/Cowork Sessions/2026-05-26 - Indice sessioni|→ indice giornaliero]]
+- 2026-05-25 20:22 — 0 sessioni · 0 schede · 0 citazioni · 2 continuations · trigger: cron-22 · [[80 - Sources/Cowork Sessions/2026-05-25 - Indice sessioni|→ indice giornaliero]]
+- 2026-05-24 20:22 — 7 sessioni · 5 schede · 2 citazioni · trigger: cron-22 + gap-recovery 23/5 · [[80 - Sources/Cowork Sessions/2026-05-24 - Indice sessioni|→ indice giornaliero]]
+- 2026-05-22 20:22 — 1 sessioni · 2 schede · 3 citazioni · 1 continuations · trigger: cron-22 · [[80 - Sources/Cowork Sessions/2026-05-22 - Indice sessioni|→ indice giornaliero]]
 - 2026-05-21 20:22 — 7 sessioni · 8 schede · 2 citazioni · 1 continuations · cron-22 + 🔴 OQ#36 Verrengia red flag · [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni|→ indice giornaliero]]
 - 2026-05-20 20:22 — 5 sessioni · 5 schede · 0 citazioni · 2 continuations · trigger: cron-22 · [[80 - Sources/Cowork Sessions/2026-05-20 - Indice sessioni|→ indice giornaliero]]
 - 2026-05-19 20:22 — 2 sessioni · 5 schede · 1 citazioni · 3 continuations · cron-22 + cascata §10bis Luigiandrea Scaramuzzi (Jakala Manager) · [[80 - Sources/Cowork Sessions/2026-05-19 - Indice sessioni|→ indice giornaliero]]

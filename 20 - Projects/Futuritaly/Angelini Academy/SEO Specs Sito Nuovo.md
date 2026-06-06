@@ -3,7 +3,7 @@ type: technical-spec
 parent_project: _Angelini Academy
 client: Angelini Academy
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-30
 purpose: specifica SEO operativa per il sito NUOVO Angelini Academy proposto da HeyAI nella gara via FuturItaly (deadline 31/5/2026). Forward-looking, non audit del sito attuale (obsoleto e fuori dal nuovo posizionamento). Deliverable tecnico complementare alla [[Strategia Website 2026]], evidenza concreta della VP3 (AI Layer dimensionato sui contenuti reali) e VP4 (Accessibility-first + Design system documentato) del pitch finale
 audience: Carlo (uso interno + base operativa per pitch finale a Caterina Caboni); ammissibile condivisione asciutta a Daniele/Elena previo allineamento 14/5. Allegabile come anexo tecnico alla proposta cliente
 status: working — completo nei 5 capitoli richiesti (keyword research, content architecture, benchmark, schema markup, KPI baseline); revisione finale 14/5 con Carlo prima del consolidamento nel pitch
@@ -881,6 +881,31 @@ Spec SEO che si concretizzano solo nel sito nuovo nativo. Hand-over completo al 
 - **Brand book aggiornato** (cliente Angelini): blocca title pattern e visual coerence di componenti UI SEO-relevant tipo breadcrumb + related links. Da chiedere a Elena entro 17/5 (allineato con rischio 2 di [[Strategia Website 2026]] §9.3).
 - **Paper Engaged Research disponibili al go-live**: blocca §6.2 punto 6. Mitigation in [[Strategia Website 2026]] §9.3 rischio 3 (paper UCL/IE riformulati come applied research + case study Hackathon dic 2025 + interviste editoriali per copertura iniziale).
 - **Decisione fornitore tecnico fase 2** (HeyAI vs fornitore IT gruppo Angelini): blocca §6.2 punti 1-3 sull'allocazione concreta delle ore-uomo. Il deliverable SEO Specs è scritto in modo da essere implementabile da qualsiasi fornitore.
+
+---
+
+## 7. Lettura tecnica del sito attuale — opportunità da cogliere
+
+> Prima lettura mirata del sito `angeliniacademy.com` sui dati reali, complementare alla specifica forward-looking dei capitoli 1-6. Registro: opportunità e aree di miglioramento, non criticità. Nessun dato di volume (vincolo dichiarato); le rilevazioni tecniche sono ri-verificabili in pochi minuti. Tre opportunità ad alto impatto e basso sforzo, più una sintesi competitor.
+
+### 7.1 Visibilità sui motori AI (quick win, priorità 1)
+Il `robots.txt` attuale non apre ancora l'accesso ai crawler degli assistenti AI (ChatGPT, Perplexity, Claude) e si esclude dal grounding di Gemini (Google-Extended). Aprirli è una modifica di configurazione a costo quasi nullo e ad alta coerenza con il posizionamento (cointelligenza umano-IA tra i 4 ambiti). I crawler di ricerca tradizionali (Google, Bing) accedono regolarmente; le AI Overviews di Google restano raggiungibili al migliorare del posizionamento. `llms.txt` assente — valutabile in Fase 2 (peso oggi marginale).
+
+### 7.2 Fondamenta SEO on-page (quick win, priorità 1)
+Margini di ottimizzazione immediati su title delle pagine, meta description, Open Graph per le anteprime social e dati strutturati (lo schema `Organization` presente è minimale). Correzioni rapide con impatto diretto su ranking, CTR e anteprime — abilitano da subito gli interventi schema del capitolo 4 al go-live (day-1).
+
+### 7.3 Valorizzazione del patrimonio per motori e AI (priorità 2)
+Asset d'autorità reali — Cattedra LUISS, 8 business school internazionali, accreditamento ASFOR, white paper con Harvard Business Review Italia — oggi non sono marcati con dati strutturati né collegati come entità (`sameAs`, `Person`, `memberOf` ASFOR, `parentOrganization` Angelini Industries). Marcarli trasforma il patrimonio esistente in autorevolezza percepita da Google e citabilità da parte delle AI. Le mention guadagnate (Symbola, Affaritaliani, Sole 24 Ore) sono leve di brand-entity da capitalizzare.
+
+### 7.4 Sintesi competitor (insight utili alla tesi)
+Tra i player di riferimento: nessuno offre un assistente AI interrogabile sui propri contenuti editoriali, né un hub unico che aggrega ricerca + eventi + programmi; foundation IT-only vs research-lab EN-only confermano il vantaggio del bilinguismo paritetico. Questi spazi confluiscono negli insight strategici del pitch (dimensione umana + AI sul contenuto come spazio bianco europeo).
+
+### 7.5 Priorità sintetica
+1. Aprire la visibilità AI nel `robots.txt` (configurazione, costo ~0).
+2. Sistemare title/meta/Open Graph + schema `EducationalOrganization` + `WebSite` day-1.
+3. Marcare patrimonio (`Person`, `sameAs`, `memberOf`, `parentOrganization`) e contenuti (`Article`/`ScholarlyArticle`, `Course`, `Event`).
+
+L'analisi tecnica completa (performance, accessibilità WCAG, schema esteso, visibilità SEO/AI, benchmark competitor) con piano di attivazione prioritizzato è il primo deliverable della Fase 2.
 
 ---
 

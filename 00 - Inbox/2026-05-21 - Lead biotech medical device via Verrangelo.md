@@ -2,10 +2,10 @@
 type: lead
 status: early-discovery
 priority: p3
-client: TBD (cliente di [[Paolo Verrangelo (commercialista NoLoop)|Paolo Verrangelo]], non NoLoop)
+client: TBD (cliente di [[Paolo Verrengia (commercialista NoLoop)|Paolo Verrangelo]], non NoLoop)
 created: 2026-05-21
 updated: 2026-05-21
-stakeholders: [Paolo Verrangelo (commercialista NoLoop)]
+stakeholders: [Paolo Verrengia (commercialista NoLoop)]
 sources: [call telefonica Carlo↔Verrangelo 21/5/2026]
 ---
 
@@ -13,7 +13,7 @@ sources: [call telefonica Carlo↔Verrangelo 21/5/2026]
 
 ## Cosa è emerso
 
-[[Paolo Verrangelo (commercialista NoLoop)|Paolo Verrangelo]] ha un cliente (suo, non NoLoop) che ha **immaginato un applicativo medical device che entra in contatto col corpo umano**. Cerca chi possa progettare prototipo + IP + software AI.
+[[Paolo Verrengia (commercialista NoLoop)|Paolo Verrangelo]] ha un cliente (suo, non NoLoop) che ha **immaginato un applicativo medical device che entra in contatto col corpo umano**. Cerca chi possa progettare prototipo + IP + software AI.
 
 - Idea **già disegnata artigianalmente** dal cliente
 - **Necessità del cliente**: certificazioni mediche (è un dispositivo che entra in contatto col corpo umano), designer industriale, prototipazione hardware ("uniamo questo tessuto, queste sono le prove, questi sono i test, questo è il prototipo, lo possiamo produrre qui, lo disegniamo")

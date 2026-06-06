@@ -4,9 +4,9 @@ role: Socio
 company: HeyAI Digital
 email: bmattucci63@gmail.com
 created: 2026-04-30
-updated: 2026-05-19
-last_contact: 2026-05-19
-next_touchpoint: 2026-05-25
+updated: 2026-06-03
+last_contact: 2026-06-03
+next_touchpoint: 2026-05-26
 cadence_days: 14
 relationship_strength: warm
 top_quotes:
@@ -27,7 +27,8 @@ top_quotes:
 
 - Invitato come "Allineamento di Team" del 24/04 (con Michele e Andrea)
 - Approccio strategico, non operativo
-- **Disponibilità per incontro Bruno↔[[Claudia Bugno]] (FuturItaly)** comunicata a Carlo il 19/5: **lun 25/5 pomeriggio** oppure **mer 27/5 mattina**. Setup del meeting in mano a Carlo, in attesa slot Claudia via Lavinia. Scope: primo punto strategico ai vertici sui temi in costruzione con FuturItaly (Osservatorio + partnership commerciale futura).
+- **Disponibilità per incontro Bruno↔[[Claudia Bugno]] (FuturItaly)** — versione finale 25/5 (lunedì, dopo parlata diretta Carlo↔Bruno): **mar 26/5 pomeriggio dopo le 16:30** oppure **gio 28/5 pomeriggio dopo le 16:30**. Setup del meeting in mano a Carlo, da girare via messaggio breve a [[Lavinia Ferrari]] per coordinare slot Claudia. Scope: primo punto di conoscenza ai vertici sui temi in costruzione con FuturItaly (Osservatorio + partnership commerciale futura). _Storico iterazioni disponibilità: (1) 19/5 lun 25/5 PM o mer 27/5 AM → superata (lun 25 è oggi); (2) 25/5 mattina mer 27 PM o gio 28 PM → superata; (3) 25/5 dopo parlata Bruno = **mar 26 PM o gio 28 PM** ← versione attuale._
+- **→ 3/6/2026: incontro Bruno↔[[Claudia Bugno]] AVVENUTO (esito positivo).** Bruno ha chiamato Carlo a valle, contento di aver conosciuto Claudia. In call è emerso un **business model sinergico bidirezionale** HeyAI ↔ FuturItaly (FuturItaly partner HeyAI su agevolazioni fiscali ↔ HeyAI partner FuturItaly su AI + marketing). Follow-up operativo Carlo ↔ [[Lavinia Ferrari]] per definire il go-to-market, poi presentazione a Claudia + Bruno e possibile incontro in sede. Dettaglio in [[Claudia Bugno]] + [[_Futuritaly|FuturItaly]].
 
 ## 💬 Posizioni e proposte significative
 

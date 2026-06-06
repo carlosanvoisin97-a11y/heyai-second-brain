@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-04-30
-updated: 2026-05-21
+updated: 2026-06-01
 ---
 
 > **Cleanup 14/5/2026**: archiviate 27 domande risolte (#1-#18 + #20-#28) in [[50 - Archive/System/Open Questions Archive 2026-04-05|Open Questions Archive 2026-04-05]]. In vivo restano solo le domande con follow-up attivo: #19 + #29 (IP Soolutions, workflow Longo aperto), #31-#33 (Angelini Academy), #34 (scheduler drift) + sezione 🔐 SICUREZZA. Risposte storiche preservate verbatim in archive per consultazione.
@@ -11,6 +11,46 @@ updated: 2026-05-21
 # ❓ Open Questions — Domande aperte (e con follow-up attivo)
 
 ## 🆕 Domande con follow-up attivo (al 14/5/2026)
+
+### 38. 🆕 Angelini Academy: 3 verifiche aperte pre-pitch 5/6 (claim AI · Forum Nobel · pricing) _[aperta 1/6/2026]_
+
+Emerse durante il redesign delle slide pitch (sessione 1/6 — dettaglio nel Log di [[_Angelini Academy|Angelini Academy]]):
+1. **Claim SEO "gli assistenti AI (ChatGPT/Perplexity/Gemini/Claude) non accedono ai contenuti del sito"** — verificato sul sito reale (robots.txt/crawl) o da calibrare in "non leggono ancora pienamente"? Come assoluto in sala è smentibile (MIT/IE hanno tutor AI; i vendor LMS pure).
+2. **"Forum con Premi Nobel"** — ricorre in più slide ma NON è tra i dati confermati da Carlo: verificare esistenza/format o rimuoverlo ovunque.
+3. **Pricing definitivo** — working 48.500 vs 49.500, non ancora blessato: fissare prima della stampa (regola costo fornitore ≤60%).
+
+NB fact-check 1/6: partner accademici (UCL · SDA Bocconi · IMD · LBS · IE · RCA · Stockholm SSE · LUISS · H-Farm · Talent Garden) MAI come competitor; tesi "quadrante libero" ristretta a "poco presidiato tra le academy industriali".
+
+**Aggiornamento 1/6 (verifiche):**
+- ✅ **Item 1 — claim AI VERIFICATO VERO**: `angeliniacademy.com/robots.txt` blocca esplicitamente GPTBot, ChatGPT-User, PerplexityBot, ClaudeBot/anthropic-ai/Claude-Web, Google-Extended, CCBot (`Disallow: /`). I quattro assistenti citati non accedono davvero ai contenuti → claim difendibile e verificabile; fix = riaprire il robots.txt (quick win). **TENERE il claim** (rafforzabile). NB: distinto dal claim competitor "nessuno HA un assistente AI" (quello resta calibrato — MIT/IE ce l'hanno).
+- ⚠️ **Item 2 — Forum Premi Nobel = VISIONE, non asset**: nel brief come "forum annuale con premi Nobel" (visione/4 pilastri) e, nel piano, "Angelini Academy Forum… **da valutare partecipazione di un Premio Nobel**". Online nessun evento Angelini con Nobel annunciato. → NON presentarlo come asset realizzato; usarlo come elemento della loro visione/piano o toglierlo dalle liste asset (BMC, valore exec-sum, ecc.).
+- **Item 3 — pricing**: lo chiude Carlo.
+
+### 37. ✅ Audit confidentiality: forward Germano Marano → Federico/Simone — verifica leak prezzi cliente _[aperta e chiusa 22/5/2026]_
+
+Carlo ha richiesto audit meticoloso di tutti i forward inviati a Federico Saladino e Simone Montanari (Soolutions) originati da email di Germano Marano (NoLoop), per dubbio di aver esposto inavvertitamente prezzi cliente al team di sviluppo.
+
+**Indirizzi controllati**: `federico@soolutions.io` + `info@federicosaladino.it` (storico pre-Soolutions, usato fino almeno 10/9/2025) + `simone@soolutions.io` + `simone@tokiostudio.it` + `simone.montanari97@gmail.com` (personale, usato fino almeno 10/9/2025).
+
+**Forward identificati con origine Germano Marano** (Outlook Sent Items):
+
+1. **10/9/2025** — `I: opportunità AI` → `simone.montanari97@gmail.com` + `info@federicosaladino.it`. Body = sintesi tecnica use case Eye Cookies (no cifre). Attach: `NOT EYE cookie requisiti.doc` (requisiti tecnici, no prezzi).
+2. **2/3/2026** — `I: EYE cookie` (Risposte germano) → `info@federicosaladino.it` + `simone.montanari97@gmail.com`. Body = credenziali Microlog + risposte tecniche. Attach: solo image001.png.
+3. **29/4/2026** — `I: EYE cookie` → `federico@soolutions.io` + `simone@soolutions.io`. Body = thread tecnico. Attach: `Esposizione Kippun I Gigli_28 apr 06.xlsx` (dati operativi visite I Gigli, NOT proposta economica HeyAI).
+4. **20/5/2026** — `I: eye cook..next step` → `simone@soolutions.io`. Body = spostamento sensori + roadmap request + credenziali. No cifre, no attach commerciali.
+5. **22/5/2026** — `R: EYE cookie` ("Raga vi giro email germano con nuove credenziali per microlog") → `federico@soolutions.io` + `simone@soolutions.io`. Body = sole credenziali Microlog aggiornate.
+
+**Esito audit** (verifica programmatica grep `€`, `EUR`, cifre numeriche 3-6 digit vicino a keyword monetarie su tutti e 5 i body decodificati da HTML):
+
+- ✅ **NESSUNA CIFRA EURO REALE** nei body dei forward. Parole "quotazione"/"preventivo"/"proposta economica" presenti ma sempre come riferimento generico ("discutere la quotazione del modulo", "dal vostro preventivo vorremmo conferma...") **senza importi numerici**.
+- ✅ **NESSUN ALLEGATO PRICING HeyAI** propagato a Soolutions. I PDF `NOT_Quotazione...` / `NOT_Proposta di Investimento...` sono stati inviati SOLO al cliente (Marco Pasquali NoLoop, 5/3/2026 e 6/3/2026), MAI a Federico/Simone.
+- ✅ I numeri ufficiali Wave 2 €300K, NOT Eye Cookies €75K, NOT Operation Transformation €109K **non compaiono in nessun forward al supplier**.
+
+**Rischio residuo (LOW)**: Federico/Simone deducono dall'esistenza dei thread che esiste una negoziazione commerciale con NoLoop, ma questa è informazione strutturalmente nota (sono fornitori che producono le stime per le quotazioni stesse). Nessuna esposizione del **margine HeyAI** né delle **cifre cliente**.
+
+**Conferma regola §13 CLAUDE.md (Riservatezze) preservata**.
+
+Cascata applicata: aliases `emails_historical` aggiunti alle schede [[Federico Saladino (Soolutions)]] e [[Simone Montanari (Soolutions)]] per non perdere il mapping `info@federicosaladino.it` e `simone.montanari97@gmail.com` in audit futuri.
 
 ### 19. ✅ Federico/Simone Soolutions: IP Wave 2 accettato verbalmente _[ri-confermato Carlo 5/5/2026]_
 
@@ -61,7 +101,7 @@ Aperta 21/5/2026 a valle della rettifica Andrea Pazienza → Carlo → vault. Il
 
 Da chiarire/decidere:
 
-1. **Stato del rapporto contrattuale**: HeyAI ha fatturato acconti senza contratto firmato/prodotto. È prassi accettata col cliente (pattern Wave 2 Art. 1.4 efficacia retroattiva su attività propedeutiche), ma resta una **zona grigia operativa** che diventa critica con l'arrivo dell'audit fiscale di [[Paolo Verrangelo (commercialista NoLoop)|Verrangelo]]
+1. **Stato del rapporto contrattuale**: HeyAI ha fatturato acconti senza contratto firmato/prodotto. È prassi accettata col cliente (pattern Wave 2 Art. 1.4 efficacia retroattiva su attività propedeutiche), ma resta una **zona grigia operativa** che diventa critica con l'arrivo dell'audit fiscale di [[Paolo Verrengia (commercialista NoLoop)|Verrangelo]]
 2. **Comunicazione a Verrangelo**: cosa dire nella scheda tecnica e nell'email del 21/5? L'attuale bozza dice "due progetti contrattualizzati" — formulazione **errata** alla luce dei fatti, da rivedere in "progetti in essere in fase di formalizzazione contrattuale"
 3. **Strategia di formalizzazione**: produrre adesso i contratti ex novo con efficacia retroattiva (pattern Wave 2 Art. 1.4) o continuare a operare su email di approvazione + fatture emesse?
 4. **Tempistica**: Donzelli ha bisogno di chiusura formale **prima** che Verrangelo qualifichi gli investimenti AI ai fini fiscali — altrimenti l'agevolazione potrebbe essere indebolita dalla mancanza di documento sottoscritto a base della spesa
@@ -80,6 +120,8 @@ Apertosi 5/5/2026 quando Caterina Caboni (Angelini) ha condiviso il brief con "l
 - **Decision maker reale lato Angelini**: [[Caterina Caboni]] o [[Tiziana Carnicelli]]? Elena parlava di "una donna referente" — TBD
 
 Vedi [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|Angelini Academy]].
+
+**🔴 Aggiornamento 5/6/2026 (pitch svolto, confermato Carlo 6/6)** — gran parte dello scope era **già aggiudicata a un fornitore concorrente** (gara comunicazione feb→giu: social + restyling + editoriale/blog + stile, contratto lug'26→lug'27). Risolve in parte la domanda scope/concorrenti, ma apre: (a) **identità del concorrente** ignota; (b) **economia FuturItaly** — editoriale (loro margine) bloccato fino ~2027, da ridefinire cosa si vende nel 2026; (c) **decision maker** confermato Caterina operativa + Tiziana gate a valle; (d) **"Francesco"** (area ricerca Angelini) nuovo stakeholder da triagiare. Dettaglio: [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|scheda madre]] §Log 2026-06-05.
 
 ### 32. 🆕 Angelini Academy: ruolo di Daniele Caporale lato FuturItaly
 

@@ -5,7 +5,7 @@ company: FuturItaly
 email: caporale@futuritaly.com
 phone: +393475985512
 created: 2026-05-05
-updated: 2026-05-11
+updated: 2026-06-03
 projects: [_Angelini Academy]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-08 13:00 -->
@@ -28,8 +28,13 @@ Tono email: diretto, organizzativo, attento all'efficienza ("ottimizzare i tempi
 ## Implicazioni operative
 
 - Carlo lo trova in CC/copia su tutto il thread Angelini Academy. È un altro punto di contatto interno FuturItaly.
+- **3/6**: più proattivo del solito (inverte parz. il pattern passività 8/5–11/5). Il suo frame *"non è questione di qualità"* è il segnale strategico più importante della call: tratta i **fattori politici come decisivi** → fiducia di Daniele+Elena e regia condivisa pesano più della profondità tecnica del lavoro HeyAI.
 
 ## Log
+
+### 2026-06-03 — Dry-run pre-pitch slide-by-slide (1h56m, Teams)
+
+Collegamento instabile (crash ripetuti) ma **più attivo del solito** — inverte parzialmente il pattern "non si attiva spontaneamente" (8/5, 11/5). Interventi sostanziali: (a) principio-guida ripetuto — *"l'esposizione è una cosa, la completezza del documento un'altra"*: la spiegazione di cosa fa il sito va data **mentre il sito scorre**, non come lunga premessa teorica; il documento completo serve a circolazione interna + leva post-esito (*"se accettano 50% / rifiutano, abbiamo la base per chiedere perché"*); (b) co-author/tier community: ha spiegato gamification + logica del filtro Angelini; (c) disciplina tempi (*"siamo a slide 5 e parliamo da un po'"*, cronometrarsi); (d) 🔴 frame realista: *"non è questione di qualità [il vostro lavoro è ottimo], ma come succede in tanti campi non è quello che decide"* — a decidere saranno fattori politici, non il merito. Domani 4/6 in viaggio (guida lui, pomeriggio out). Dettaglio in [[_Angelini Academy]] §Log 3/6 (mattina).
 
 ### 2026-05-11 — Call allineamento interno HeyAI+FuturItaly
 

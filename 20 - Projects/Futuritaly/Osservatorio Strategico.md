@@ -4,7 +4,7 @@ status: active
 priority: p2
 client: Futuritaly (studio legale)
 created: 2026-04-30
-updated: 2026-05-21
+updated: 2026-05-22
 deadline: 2026-05-02
 stakeholders: [Lavinia Ferrari, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali, Claudia Bugno]
 ---
@@ -131,6 +131,17 @@ Jakala (vedi [[Jakala]]) ha proposto l'Osservatorio Strategico a **€38.000** (
 
 ## Log
 
+### 2026-05-22 (merge bozza email Claudia + setup incontro Bruno)
+
+- **Bozza email diretta Carlo→Claudia (CC Lavinia)** preparata: merge tra mail di condivisione proposta Osservatorio v2 e mail di richiesta slot incontro Bruno↔Claudia (lun 25/5 PM o mer 27/5 AM). Asciugata su richiesta Carlo per sensibilità "Claudia non legge email lunghe". 5 bullet invariati dalla bozza Carlo originale, prosa di raccordo accorciata. Allegato: proposta v2 €45K.
+- **Workflow shift vs concordato 13/5**: la mail va direttamente a Claudia (TO) con Lavinia in CC, **salta** il passaggio intermedio di allineamento Carlo↔Lavinia prima dell'inoltro. Lavinia mantiene il raccordo via CC ma non gate più il messaggio.
+- **Email Claudia ancora TBD**: da chiedere a Lavinia prima dell'invio (campo frontmatter `email:` di [[Claudia Bugno]] vuoto).
+- Bozza in attesa di approvazione Carlo per invio. File: [[2026-05-22 - BOZZA Email Claudia Bugno Proposta Osservatorio + Incontro Bruno]].
+- **22/5 sera — Asciugatura v2 su feedback Carlo**: apertura passata da "come anticipato tramite Lavinia" a "come da accordi" (pattern Carlo SKILL email-drafting §2026-05-20); rimossa "Prenditi pure il tempo che ti serve" (non in registro Carlo) e sostituita con "Fammi sapere quando avresti un momento la settimana prossima"; ultimo paragrafo Bruno riformulato "come discusso con Lavinia... avremmo disponibilità... fisso un meeting su Teams" (tolto "punto strategico ai vertici sui temi che stiamo costruendo insieme", semplificato a "primo incontro per conoscere"); bullet INVARIATI.
+- **Avviata revisione tecnica approfondita docx v2 su richiesta Carlo** — output: [[2026-05-22 - Audit Pre-Invio Proposta Osservatorio v2]].
+- **25/5 (lunedì) — correzione date v3 bozza email Claudia**: la v2 (22/5) era scritta come se fosse ancora venerdì, quindi proponeva l'incontro per "la settimana prossima". Oggi è lunedì 25 → la proposta passa a "questa settimana" e gli slot Bruno↔Claudia diventano **mercoledì 27 oppure giovedì 28 pomeriggio dopo le 16:30** (vs precedente lun 25/5 PM o mer 27/5 AM). Aggiornare anche scheda [[Bruno Mattucci]] (disponibilità nuove) prima dell'invio email.
+- **25/5 (lunedì) sera — nuova rettifica disponibilità Bruno dopo parlata diretta Carlo↔Bruno**: Bruno conferma **mar 26/5 PM dopo 16:30** oppure **gio 28/5 PM dopo 16:30** (vs v3 mail Claudia che diceva mer 27 o gio 28). Carlo decide di passare il riferimento a Lavinia via **messaggio breve** (WhatsApp/Teams) per coordinare slot Claudia in modo informale, mentre la mail formale a Claudia resta in bozza in attesa di chiusura slot. **Discrepanza da risolvere**: la v3 bozza mail Claudia in [[2026-05-22 - BOZZA Email Claudia Bugno Proposta Osservatorio + Incontro Bruno]] ha ancora "mer 27 o gio 28". Se la mail parte dopo il messaggio Lavinia, va aggiornata con gli slot finali (probabilmente solo lo slot confermato da Claudia, non più 2 opzioni).
+
 ### 2026-05-21 (analisi preventivo Soolutions RIDOTTO def ricevuto da Simone)
 
 **File ricevuto e archiviato in vault**: [Preventivo Soolutions Osservatorio RIDOTTO 21-5-26.xlsx](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/Preventivo%20Soolutions%20Osservatorio%20RIDOTTO%2021-5-26.xlsx) — chiude il carry-over Carlo 20/5 *"la quotazione Soolutions adesso la vado a lavorare"*.
@@ -223,6 +234,7 @@ Jakala (vedi [[Jakala]]) ha proposto l'Osservatorio Strategico a **€38.000** (
 
 ## Sessioni Cowork correlate
 
+- 2026-05-22 — `local_d3f9499f` — Osservatorio AI proposal support: **audit pre-invio Proposta v2** (3 bloccanti: B1 §11 Governance vuota / B2 color titolo `#074F6A` invece di palette HeyAI `#2B8C96` / B3 payback 14-20 mesi NON quadra con worst-case math 31,8 mesi; 4 high H1-H4 contraddizioni interne 80-90% vs €12-14K / non-circumvention senza durata / "MEF" scivoloso / "drasticamente ridotti" da metricare; 4 medium + 3 low; effort fix bloccanti+high ~30 min, completo ~45-60 min; 12 check superati layout/header/footer/Aptos/no fornitori/tranche math/validità 30gg/foro Roma); **email v2 a Claudia Bugno** (CC Lavinia) merge dei due draft separati → email unica con (a) consegna Proposta v2 + richiesta call discussione, (b) richiesta slot incontro strategico Bruno↔Claudia (lun 25/5 PM o mer 27/5 AM); patch retoriche: *"stamattina→ieri"*, plurali singolarizzati per Claudia diretta, cognome esteso "Bruno Mattucci" alla prima citazione, ponte narrativo *"Colgo l'occasione per un altro punto..."*. Output: [[00 - Inbox/2026-05-22 - Audit Pre-Invio Proposta Osservatorio v2|Audit Pre-Invio Proposta Osservatorio v2]] + email paste-ready Outlook. → [[80 - Sources/Cowork Sessions/2026-05-24 - Indice sessioni#Sessione 4 — `local_d3f9499f-b218-4b2f-8f20-43d225fa0f0b` — Osservatorio AI proposal support (audit Pre-Invio Proposta v2 + email Claudia)]]
 - 2026-05-06 — quotazione Jakala finale Oss €35K sbilanciata + richiesta rebalance + framework margine×probabilità → [[80 - Sources/Cowork Sessions/2026-05-06 - Indice sessioni#Sessione 8 — Analyze call performance and update vault]]
 - 2026-05-15 — `local_6e91bbc8` — Review emails and decide on suppliers: confronto strutturale 3 versioni docx Osservatorio FuturItaly → `FINAL_1 2.docx` ≡ `def 2.docx` testualmente identici (14.939 char, diff=0); `vfinal 3.docx` versione precedente -17% snella; numeri economici identici (€38K MVP, €58K mercato, tranche); differenze qualitative in v finale (più matura): scoring pertinenza→coerenza, copertura incentivi 90-95→85-90% prudente, ANAC accreditato confermato, manutenzione 6→3 mesi, tranche 4→3 front-load 45/30/25, non-circumvention +retroattiva 18 mesi, RBAC 3→2 profili. **Proposta operativa pendente conferma Carlo**: caricare `FINAL_1 2.docx` come v1 di lavoro + archive `vfinal 3` → [[80 - Sources/Cowork Sessions/2026-05-15 - Indice sessioni#Sessione 5 — Review emails and decide on suppliers (confronto 3 versioni docx Osservatorio)]]
 - 2026-05-15 pomeriggio — `local_9912ed2f` — Meeting recap call Carlo+Michele 51 min (Osservatorio collaterale): mossa tattica Carlo per allocare Achipont a Soolutions tiene **Silencio libero come leva su PresidIA + Osservatorio** (decisione fornitore Osservatorio non chiusa in call, attende invio Achipont lun 18/5 + risposta cliente Futuritaly su materiali pendenti) → [[80 - Sources/Cowork Sessions/2026-05-15 - Indice sessioni#Sessione 7 — Meeting recap call Carlo+Michele 15/5 (Angelini Academy · Futuritaly · Achipont)]]

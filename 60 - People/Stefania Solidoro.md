@@ -5,10 +5,10 @@ company: Eldis Net Srl
 email: stefania.solidoro@eldisnet.it
 phone: +39 327 7770724
 created: 2026-04-30
-updated: 2026-05-12
+updated: 2026-05-28
 last_call_date: 2026-05-08
-last_contact: 2026-05-08
-next_touchpoint: 
+last_contact: 2026-05-28
+next_touchpoint: 2026-06-03
 cadence_days: 14
 relationship_strength: warm
 top_quotes:
@@ -51,6 +51,12 @@ top_quotes:
 > — 8/5/2026, chiusura call formativa Builder — applicazione spontanea del modello commerciale 3 tipologie concordato 24/04
 
 ## Interazioni recenti
+
+### 2026-05-28
+- Carlo prova chiamata WhatsApp ore 17:52 ("ciao Stefania, se sei libera ti chiamo adesso, fammi sapere !") — presumibilmente per anticipare verbalmente il documento `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf` prima dell'invio formale via email
+- Stefania risponde alle 18:03: "Niente...lavori di fine mese. Non ce la faccio. Al più tardi ci sentiamo il 3 dopo la festa" → **rinvio call al 3 giugno 2026** (dopo Festa della Repubblica 2/6)
+- **Pattern confermato**: pragmatica con orari ristretti, comunica vincoli diretti (coerente con citazione 23/04 "non domani pomeriggio sono in permesso")
+- **Implicazione operativa**: invio documento via email ancora **non bloccato dalla call** — Carlo può scegliere di anticiparlo via mail per non perdere la finestra di fine mese / inizio giugno, o aspettare la call del 3 per allineamento verbale prima dell'invio formale
 
 ### 2026-05-08
 - Presente alla call formativa Builder catalogo (15:30-16:30, organizzata da lei). In trascrizione appare con voce attiva nei passaggi in cui guida la chiusura della call e chiede a Simone le quotazioni residue.

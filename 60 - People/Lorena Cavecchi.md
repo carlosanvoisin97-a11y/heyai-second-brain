@@ -4,7 +4,7 @@ role: Responsabile MICE / Capo reparto logistica
 company: NoLoop
 email: lorena.cavecchi@noloop.eu
 created: 2026-04-30
-updated: 2026-05-20
+updated: 2026-05-22
 sources: [Organigramma NoLoop 17/03/2025, conferma Carlo 5/5/2026, call Crowd Sessione Finale 12/5/2026 (assente)]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-06 21:43 -->
@@ -66,6 +66,7 @@ Stakeholder operativo chiave per: registrazioni, liste, comunicazioni, rooming, 
 - [ ] **#p2 Carlo**: chiedere a Lorena se esistono casistiche aggiuntive oltre "doppia con 1 persona = DUS" sull'export hotel (es. triple con 2 persone, suite/junior/master con N persone) — input per Federico per estendere la regola di conversione export
 - **06/05/2026** — Sessione finale test Crowd → **spostata a 12/5** (Lorena rientrata da Singapore, decisione di farla con tutti i decisori in stanza)
 - **12/05/2026** — Sessione finale test Crowd, **Lorena assente in call**. David ha guidato il giro test e ha esplicitamente deferito a Lorena su (1) email automatica di conferma post-registrazione (necessità reale) e (2) editabilità pop-up di conferma. Carlo manda email recap a David **mettendo Lorena in CC** come decisore per dare il punto unico da cui Lorena possa allinearsi prima di dare l'OK formale.
+- **21/05/2026 17:22** — Lorena si aggancia al thread "R: Crowd | Sessione Finale Test" (mail Arianna del 19/5 con feedback bug post-test) chiedendo esplicitamente il **video tutorial** promesso: ha fatto fatica da sola a tentativi nelle parti dove aveva saltato call. Propone inoltre call di formazione al reparto a chiusura progetto. Carlo risponde 22/5 confermando push interno al team di sviluppo + apertura sulla call formazione.
 
 ## Sessioni Cowork correlate
 

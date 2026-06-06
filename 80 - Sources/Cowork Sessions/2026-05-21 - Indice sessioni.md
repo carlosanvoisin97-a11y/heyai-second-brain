@@ -204,7 +204,7 @@ Nessuna patch (descrizione coerente con [[20 - Projects/NoLoop/Wave 2/Crowd — 
 ## Sessione 7 — `local_832269f2-036d-4b0f-89f6-b804bb1586d2` — Process call transcript with Federico and Simone
 
 **Progetti**: [[20 - Projects/Eldis/Eldis Compilatore|Eldis Compilatore]], [[20 - Projects/NOT/Operation Transformation|Operation Transformation]], [[20 - Projects/NOT/Eye Cookies|Eye Cookies]], [[20 - Projects/NoLoop/Wave 2/Crowd|Crowd]]
-**Persone**: [[60 - People/Federico Saladino (Soolutions)|Federico Saladino]], [[60 - People/Simone Montanari (Soolutions)|Simone Montanari]], [[60 - People/Marta Garrafa (Eldis)|Marta Garrafa]], [[60 - People/Stefania Solidoro|Stefania Solidoro]], [[60 - People/Justin Lauro]], [[60 - People/Carmen Compare|Carmen Compare]], [[60 - People/Germano Mortillaro (NOT)|Germano Mortillaro]], [[60 - People/Massi Sinigaglia|Massi Sinigaglia]]
+**Persone**: [[60 - People/Federico Saladino (Soolutions)|Federico Saladino]], [[60 - People/Simone Montanari (Soolutions)|Simone Montanari]], [[Marta Garrafa]], [[60 - People/Stefania Solidoro|Stefania Solidoro]], [[60 - People/Justin Lauro]], [[60 - People/Carmen Compare|Carmen Compare]], [[60 - People/Germano Marano|Germano Marano]], [[60 - People/Massi Sinigaglia|Massi Sinigaglia]]
 
 ### Decisioni
 - **Eldis evolutive — prezzi ricevuti**: (i) **"Descrizioni con campi extra" = €1.800** (campo descrittivo affiancato a quella tecnica, generato da system prompt unico con esempi dalle descrizioni AI già presenti); (ii) **"Export con nuova logica semiautomatica" = €2.100** (revisione bridge export, export parziali su selezione prodotti + Excel dedicato + cartella file multimediali). Builder PDF stile Canva confermato fuori scope con motivazione formale costo/valore.

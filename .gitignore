@@ -28,3 +28,7 @@ node_modules/
 *.swo
 *.tmp
 *~
+
+# Raw transcript dumps — dati grezzi clienti (PII): NON sul cloud, ingest selettivo nel vault (F2)
+00 - Inbox/_DA_DOWNLOADS_2026-06-06/
+_DA_DOWNLOADS_*/

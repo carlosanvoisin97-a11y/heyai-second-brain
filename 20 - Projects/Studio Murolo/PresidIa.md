@@ -4,7 +4,7 @@ status: active
 priority: p2
 client: Studio Murolo
 created: 2026-04-30
-updated: 2026-05-15
+updated: 2026-05-28
 stakeholders: [Marco Murolo, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-15 20:22 (cron-22) | source-session: local_9912ed2f-67e2-4965-a04a-d6fc60b841e4 | source-lastActive: 2026-05-15 pomeriggio -->
@@ -124,6 +124,11 @@ Jakala ha quotato €27.000 (50 FTE). Carlo decide se delegare a Jakala (che pag
 - 29/04 — Jakala (Andrea Pasquali) ha proposto **outsourcing PresidIA a €27.000** (50 fte)
 
 ## Log
+
+### 2026-05-28
+- **WhatsApp [[Lavinia Ferrari]] ↔ Carlo 16:10-16:11**: Marco Murolo è in Giappone, **operativo dalla prossima settimana**. Lavinia tiene vivo il fronte rilanciando due domande aperte sul preventivo PresidIA per portare avanti: (a) il preventivo comprende anche l'**adattamento successivo agli altri CCNL**? (b) la piattaforma può supportare fino a un **numero massimo di dipendenti**, se sì quale? In parallelo Lavinia attende da Confcommercio **i parametri per il dimensionamento ideale delle strutture da inserire in piattaforma**.
+- Slot operativo **Carlo ↔ Lavinia fissato 3/6 16:30 video** (Lavinia ha proposto di non aspettare l'incontro in sede del 5/6 visto il periodo intenso, "rischiamo di rimandare ancora").
+- **Domande di risposta tecnica TBD da consolidare con team prima di formalizzare**: (a) la prima release è naturalmente impostata sul CCNL Commercio (coerente col canale Confcommercio), gli altri CCNL sono nel roadmap come scope incrementale a parte; (b) architettura multi-tenant + batch su cedolini scala senza tetto duro, dimensionamento ideale si tara sui parametri Confcommercio in arrivo.
 
 ### 2026-05-15
 - **Call interna Carlo+Michele 15:12**: chiarito il triangolo quotazioni fornitori su PresidIA → **Silencio €35K**, **Soolutions €40K** (numero nuovo emerso in call), **Jakala/Pasquali €25K** (già noto). Vincoli: (a) Jakala richiede floor bundle €50K, quindi €25K standalone non basta a fargli prendere il progetto; (b) Soolutions a €40K compressa margine HeyAI a €15K (al floor). **Inclinazione Carlo**: PresidIA verso Silencio (Danilo) — margine €20K, allineato al target. **Apertura tattica**: se assegna anche Achipont a Silencio (oltre PresidIA + Osservatorio), può chiedere a Danilo un abbattimento PresidIA per recuperare margine. Decisione finale fornitore PresidIA non ancora chiusa — dipende dal pacchetto Silencio complessivo.

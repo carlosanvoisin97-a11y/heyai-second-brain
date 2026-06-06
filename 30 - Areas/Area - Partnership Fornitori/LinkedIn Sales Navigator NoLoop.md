@@ -4,15 +4,13 @@ status: ongoing
 priority: p3
 client: NoLoop
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-24
 aliases:
   - LinkedIn Sales Navigator
   - Sales Navigator NoLoop
   - LinkedIn NoLoop
 stakeholders:
   - Laura Zaghi
-  - Elena Gamberini (LinkedIn)
-  - Angela Ritrovato (LinkedIn)
 sources:
   - Email thread "R: LinkedIn Sales Solutions x No Loop | Call" 25-26/03/2025 (Elena Gamberini)
   - Fattura 78112957638 05/05/2026

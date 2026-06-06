@@ -4,7 +4,7 @@ role: Amministratore Unico (CEO)
 company: FuturItaly
 email: 
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-03
 projects: [_Futuritaly]
 stakeholders: []
 tags: [client, decision-maker, futuritaly]
@@ -37,11 +37,15 @@ Discussione aperta tra **[[Bruno Mattucci]] ↔ Claudia Bugno** su collaborazion
 
 Action item storico: organizzare incontro Bruno ↔ Claudia (riferimento chat 30/04, "Riepilogo meeting Andrea e prossimi passi"). Stato attuale: TBD — verificare con Bruno se incontro avvenuto.
 
+**AGGIORNAMENTO 3/6/2026 — incontro AVVENUTO (esito positivo).** Bruno ha chiamato Carlo a valle, contento di aver conosciuto Claudia. In call è emerso il filone **business model sinergico bidirezionale** (FuturItaly come partner HeyAI sulle agevolazioni fiscali ↔ HeyAI come partner FuturItaly su AI + marketing). Dettaglio e prossimi passi nel Log.
+
 ## Pattern di interazione (documentati da chat strategiche)
 
 - **Standard alti**: rifiuta proposte se non sono al livello atteso
 - **Tono richiesto in pitching**: professionale, diretto, focalizzato sul valore di business e sul risparmio di tempo. Evitare tecnicismi LLM/API. Parlare di "il sistema analizza", "l'AI filtra", "lo scoring indica"
 - **Sensibile ai numeri**: una volta circolato un numero (es. €38K Osservatorio), aumentarlo secco è rischioso. Meglio strutturare opzioni e protezioni
+- **Ingaggiata personalmente e protettiva verso HeyAI (gara Angelini, 3/6)**: ha "sentito" la conversazione Carlo↔[[Elena Chiti]], dichiara di *"tenere a HeyAI"*, e ha **ripreso Elena** sulla gestione del dry-run (troppo dura/negativa). Traduzione: **il vertice FuturItaly è schierato a favore di HeyAI**; il pessimismo di Elena nel dry-run NON era posizione istituzionale ma stress individuale. **Upgrade di stakeholder**: il canale non è più solo Elena. Sul fee origination Angelini vuole **>10%** (*"più win-win"*).
+- ⚠️ **Maneggiare**: assume che ascolti / le vengano riferite le conversazioni → essere deliberati. Coltivarla *attraverso* [[Elena Chiti]], **mai scavalcandola**, né usando il rimprovero del capo a Elena come leva.
 
 ## Progetti in comune
 
@@ -74,4 +78,7 @@ Action item storico: organizzare incontro Bruno ↔ Claudia (riferimento chat 30
 
 ## Log
 
+- 2026-06-03 (sera) — **Segnale relazionale forte sulla gara Angelini** (via telefonata Carlo↔[[Elena Chiti]]): Claudia personalmente ingaggiata, ha "sentito" la conversazione, dichiara di tenere a HeyAI e **riprende Elena** sulla gestione del dry-run (a favore di HeyAI). Vuole **>10%** di fee origination sull'Angelini (*"più win-win"*). Pattern + handling in §Pattern di interazione. Nota: l'**agente AI finanza agevolata** proposto da Carlo prodottizza ciò che Paolo Passaro / Lidia Boccanera (esperti finanza agevolata FuturItaly) fanno a mano → si lega all'[[Osservatorio Strategico]].
+- 2026-06-03 — **Call conoscitiva Bruno↔Claudia avvenuta** (vertici HeyAI ↔ FuturItaly). Esito positivo: Bruno ha chiamato Carlo a valle, contento/entusiasta della conoscenza. Emerso filone strategico **business model sinergico bidirezionale**: HeyAI propone FuturItaly come partner per agevolazioni fiscali ai propri clienti; FuturItaly propone HeyAI come partner per servizi AI + marketing ai propri clienti. Prossimo passo operativo: Carlo ↔ [[Lavinia Ferrari]] per mappare i servizi reciproci e definire business model / go-to-market / delivery, da presentare poi a Claudia e Bruno; possibile prossimo incontro in sede. Nessun numero discusso in call.
+- 2026-05-22 — **Prima bozza email diretta Carlo→Claudia preparata** (CC Lavinia): merge tra condivisione proposta Osservatorio v2 €45K e richiesta slot incontro Bruno↔Claudia (lun 25/5 PM o mer 27/5 AM). Asciugata per sensibilità "non legge email lunghe". Email Claudia ancora TBD — da chiedere a Lavinia prima dell'invio. Bozza in attesa approvazione Carlo: [[2026-05-22 - BOZZA Email Claudia Bugno Proposta Osservatorio + Incontro Bruno]].
 - 2026-05-08 — Scheda creata da [[Carlo Sanvoisin]] post audit `vault-link-checker` (broken link rilevato in [[Leonardo Delbufalo]]). Contenuto estratto da chat storiche 30/04 (Sources). Da espandere quando emergerà la prima interazione diretta documentata.

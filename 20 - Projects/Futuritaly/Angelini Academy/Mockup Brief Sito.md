@@ -14,7 +14,7 @@ supersedes_partial: Master Brief Sito Angelini Academy (stack assunto Next.js �
 
 # Angelini Academy — Mockup Brief Sito (v2, stack reale)
 
-> Brief operativo per evolvere la landing one-pager già esistente in `/Users/carlosanvoisin/code/angelini-academy/` in un mockup navigabile multi-pagina pronto per il pitch del 31/5/2026. Destinatario: Claude Code in sessione sul repo. Per la strategia di posizionamento → [[Strategia Website 2026]]. Per la cornice del pitch → [[Framework Pitch Finale]]. Per voce e toni → [[Analisi Narrativa]] + [[Briefing Personaggi Landing Page]]. Per la sitemap originale → [[Wireframe e Architettura]].
+> Brief operativo per evolvere la landing one-pager già esistente in `/Users/carlosanvoisin/code/angelini-academy/` in un mockup navigabile multi-pagina pronto per il pitch del 31/5/2026. Destinatario: Claude Code in sessione sul repo. Per la strategia di posizionamento → [[Strategia Website 2026]]. Per la cornice del pitch → [[Framework Pitch Finale]]. Per voce e toni → [[Analisi Narrativa]] + [[Angelini Academy — Briefing Personaggi Landing Page|Briefing Personaggi Landing Page]]. Per la sitemap originale → [[Wireframe e Architettura]].
 
 ## 0. Scope e premesse
 
@@ -261,7 +261,7 @@ Step ordinati per portare il brief a esecuzione.
 - **Strategia**: [[Strategia Website 2026]] — fonte autoritativa per le 4 personas, le 9 OS (Opportunità Strategiche), le 5 funzionalità AI Layer
 - **Cornice pitch**: [[Framework Pitch Finale]] — posizionamento "fondazione culturale-scientifica europea con propensione mecenatistica"
 - **Voce & toni**: [[Analisi Narrativa]] — archetipi Sage + Magician, claim alternativi homepage, hooks per i 3 fili rossi
-- **Personas dettaglio**: [[Briefing Personaggi Landing Page]]
+- **Personas dettaglio**: [[Angelini Academy — Briefing Personaggi Landing Page|Briefing Personaggi Landing Page]]
 - **Sitemap originale**: [[Wireframe e Architettura]] — utile per verifica completezza pagine
 - **Master Brief tech** (riserva per fase production post-pitch, stack Next.js sbagliato — da patchare se mai riutilizzato): [[Master Brief Sito Angelini Academy]]
 - **SEO + Accessibility** (fase post-pitch): [[SEO Specs Sito Nuovo]] + [[Accessibility Specs Sito Nuovo Angelini Academy]]

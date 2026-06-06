@@ -1,3 +1,14 @@
+---
+type: brief
+status: active
+priority: p2
+client: Angelini (via FuturItaly)
+parent_project: _Angelini Academy
+projects: [_Angelini Academy]
+created: 2026-05-14
+updated: 2026-05-24
+---
+
 # Angelini Academy — Briefing Personaggi Landing Page
 **Destinatario**: agente di sviluppo sito
 **Componente**: Character Selection Screen — sezione iniziale della landing page

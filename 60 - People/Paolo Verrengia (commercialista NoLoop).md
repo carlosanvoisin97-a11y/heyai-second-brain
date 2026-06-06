@@ -17,8 +17,6 @@ top_quotes:
   - "Abbiamo una certa necessità di partire per rispettare poi questa roadmap"
 sources: [call telefonica 21/5/2026 (~12 min, organizzativa), due diligence web 21/5/2026]
 aliases:
-  - Paolo Verrangelo
-  - Verrangelo
   - Paolo Verrengia
 ---
 

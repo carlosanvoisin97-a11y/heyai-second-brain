@@ -3,7 +3,7 @@ type: client
 status: active
 priority: p2
 created: 2026-05-06
-updated: 2026-05-14
+updated: 2026-06-03
 aliases:
   - Futuritaly
   - FuturItaly
@@ -23,6 +23,16 @@ note: FuturItaly è sia cliente diretto (Osservatorio Strategico per loro studio
 
 - [[_Angelini Academy]] (sotto `Futuritaly/Angelini Academy/`) — gara competitiva sito Angelini Academy, Q&A 8/5
 - [[FutureKids]] — potenziale, prospect (status: prospect, no commit)
+
+## Partnership commerciale bidirezionale (filone attivo dal 3/6/2026)
+
+Emerso nella call conoscitiva ai vertici [[60 - People/Bruno Mattucci|Bruno Mattucci]] ↔ [[60 - People/Claudia Bugno|Claudia Bugno]] (3/6/2026, esito positivo — Bruno a valle ha chiamato Carlo, contento). Modello sinergico a due vie:
+- **HeyAI → propri clienti**: propone FuturItaly come partner per agevolazioni fiscali / finanza agevolata
+- **FuturItaly → propri clienti**: propone HeyAI come partner per servizi AI + marketing
+
+Canale operativo per costruirlo: Carlo ↔ [[60 - People/Lavinia Ferrari|Lavinia Ferrari]] — mapping reciproco dei servizi → bozza business model / go-to-market / delivery → presentazione a Claudia + Bruno → possibile incontro in sede. Distinto dalla relazione di delivery sui progetti (Osservatorio, Sito, Angelini). Nessun numero discusso in call.
+
+- [ ] Sentire [[60 - People/Lavinia Ferrari|Lavinia]] per mappare i servizi reciproci e buttare giù la prima bozza di business model / go-to-market della partnership bidirezionale FuturItaly ↔ HeyAI
 
 ## Stakeholder FuturItaly
 

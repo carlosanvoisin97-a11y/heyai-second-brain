@@ -4,8 +4,12 @@ role: Sviluppatore Senior Back-end
 company: Soolutions
 email: simone@soolutions.io
 created: 2026-04-30
-updated: 2026-05-21
+updated: 2026-05-28
 aliases: [Simone, "Simone M", "SM", "Simo"]
+emails_historical:
+  - simone@soolutions.io (attuale, back-end)
+  - simone@tokiostudio.it (attuale, design — stesso individuo, brand Tokio Studio)
+  - simone.montanari97@gmail.com (personale, usato fino almeno 10/9/2025)
 last_contact: 2026-05-21
 next_touchpoint: 2026-05-21
 out_of_office:
@@ -91,6 +95,10 @@ top_quotes:
 - **Tokio Studio ≠ secondo fornitore**: nelle email/documenti formali esterni, attenzione a non far emergere l'esistenza dei due brand come se fossero due fornitori diversi (rischio confusione cliente). HeyAI ↔ Soolutions è la relazione contrattuale; Tokio Studio è solo la "voce design" dello stesso individuo.
 
 ## Log
+
+### 2026-05-25 — Consegna versione DESKTOP Minutes (DMG) per beta-test
+- Durante il viaggio (*"oggi è la giornata di viaggio, internet a singhiozzo"* — coerente con OOO Marocco 22-26/5 in frontmatter) ha caricato a Carlo il **DMG firmato della versione desktop di [[Minutes]]**, costruita da lui. Ci ha lavorato **solo in dev mode** → chiede a Carlo di fare da **beta tester** su macchina pulita e di **registrare un video della prima installazione** (diventa tutorial di onboarding a costo zero, o video-bug se qualcosa non va). Rientro operativo "al 100%" annunciato per la sera del 26/5. Fonte: [[2026-05-28 - Trascrizioni vocali WhatsApp (batch 25-28 mag)]] note 01-02.
+- Quote: *"ti ho caricato il DMG firmato, provalo perché io ci ho lavorato solo in dev mode… mi stai facendo la beta tester, se vedi qualcosa che non ti torna mandami pure un video"*. Pattern confermato: consegna funzionante + delega il test, asciutto e operativo.
 
 ### 2026-05-21
 - **Inviato a Carlo preventivo Osservatorio "RIDOTTO def"** (file `Preventivo_Osservatorio_Strategico_AI_RIDOTTO def.xlsx` consegnato il 21/5, chiude carry-over Carlo 20/5). Struttura modulare 5 tier (Base €14K → +Multi-tenant €7.8K → +Team €3.5K → +Stripe/Fatturazione €7.6K → +Chat/Push €9.5K = €42.4K core full) + 5 add-on opzionali capitolo 4 brief (€26.6K se tutti). Sconto uniforme 23% (1/1.3). Range €14K–€69K. Pattern Simone confermato: "foglio condiviso editabile" che abilita negoziazione bottom-up Carlo, coerente con citazione 13/5 ("Facciamoci un foglio condiviso Carlone"). Analisi completa + confronto fornitori in [[20 - Projects/Futuritaly/Osservatorio Strategico|Osservatorio Strategico]] §Log 21/5.

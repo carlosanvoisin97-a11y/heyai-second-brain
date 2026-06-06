@@ -4,7 +4,7 @@ product: Minutes
 client: NoLoop
 status: in-production-evolving
 created: 2026-04-30
-updated: 2026-05-20
+updated: 2026-05-28
 aliases: ["Meet Assistant"]
 ---
 
@@ -60,8 +60,18 @@ Minutes è il **raccoglitore universale** di input. Tutti i nuovi dati passano d
 - [ ] **#p1** Simone: chiusura registrazione call esterne entro **21/5** (se possibile) → permette a Carlo di annunciarla nella plenaria utenti senza fare una seconda call dedicata
 - [ ] **#p1** Federico: costruzione sistema centralizzato di usage LLM (tutti gli applicativi) in Wave 2 — Carlo lo richiede esplicitamente, Federico lo include nel Wave 2 backlog
 - [ ] **#p1 Carlo**: inviare email a Garbarino "Minutes tutto in produzione" + reminder consumi token + richiesta data plenaria. Bozza già pronta dal 14/5 (vedi Sessioni Cowork correlate)
+- [ ] **#p2 Carlo**: testare l'app **desktop Minutes** (`Minutes Desktop.dmg`) su macchina pulita e **registrare lo schermo** durante la prima installazione → il video diventa il tutorial di onboarding per tutti (richiesta Simone 25/5)
+- [ ] **#p3 Carlo**: in Impostazioni Minutes → Trascrizione, valutare di **disattivare "chiedi conferma prima di registrare"** per auto-trascrizione di tutte le call in bozza (suggerimento Federico 28/5)
 
 ## Log
+
+### 2026-05-28 — Versione DESKTOP Minutes consegnata + auto-record (note vocali Soolutions 25-28/5)
+- **App desktop Minutes esiste**: Simone ha costruito una **versione desktop** (file `Minutes Desktop.dmg`, "DMG firmato") consegnata a Carlo il **25/5** per beta-test mentre Simone era in viaggio/Marocco. Built in dev mode → possibili bug su macchina diversa dallo sviluppatore (Simone: *"mi stai facendo la beta tester"*). **Già collegata alle Minutes online** (conferma Federico 28/5: *"è già collegata con le Minutes online"*). Fonte: [[2026-05-28 - Trascrizioni vocali WhatsApp (batch 25-28 mag)]] note 01, 05, 06.
+- **Auth flow desktop (prima installazione)**: Minutes ambiente dev/test "solutions" → Dispositivi → "+" Aggiungi dispositivo → copia/incolla link (oppure apertura app da Chrome/Safari con auth propagata) → concedere tutti i permessi.
+- **Auto-record (setting chiave)**: in Impostazioni Minutes → Trascrizione c'è **"chiedi conferma prima di registrare"**; disattivandolo, Minutes **registra e trascrive automaticamente tutte le call** e le pusha in **bozza** (gestibili o cancellabili a posteriori) — niente più rischio di dimenticare di registrare, nessuna icona di registrazione visibile (note 07, 08). Già usato live per registrare la **call bisettimanale Eye Cookies del 28/5** (Federico l'aveva avviata prima che Carlo se ne dimenticasse).
+- **Workflow enrichment minuta (desktop)**: post-call serve un passaggio manuale di "enrichment" — andare sul desktop ("01 desktop"), "modifica minuta", assegnare **chi era presente** + **cliente/commessa** (note 06). La trascrizione esce già con partecipanti mappati come su Teams, rimappabili da "gestisci speaker".
+- **UX matitina**: l'icona matita diventa **rossa quando sta registrando/scrivendo** (note 06).
+- **Roadmap enhancements dichiarata (Federico 28/5)**: (a) **automatch partecipanti** automatico; (b) a fine minuta, prompt "ok nuova minuta, come la chiamiamo" con UI di selezione partecipanti inline. Federico lega esplicitamente questi enhancement a un **pagamento aggiuntivo** (*"ma te devi pagare dei soldi"*) → coerente con la pressione upward sui prezzi già a profilo di [[Federico Saladino (Soolutions)]].
 
 ### 2026-05-20 sera 23:15 — ✅ Sblocco dipendenza AWS sul password reset
 - **Approvazione AWS SES uscita sandbox arrivata in serata** (vedi [[Crowd]] Log 20/5 sera 23:15): noloop.eu è fuori dalla sandbox con quote produzione, DKIM/SPF/DMARC pass.

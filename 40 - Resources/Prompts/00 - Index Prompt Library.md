@@ -1,6 +1,7 @@
 ---
 type: index
 created: 2026-04-30
+updated: 2026-06-02
 ---
 
 # 🎁 Prompt Library — Index
@@ -28,6 +29,16 @@ created: 2026-04-30
 ### Operational
 - [[09 - Generazione Fattura Cortesia]] — Pattern fatture NoLoop/NOT con intestazione corretta
 - [[10 - Roadmap di Progetto]] — Gantt timeline + milestone + tranche pagamento
+
+### Qualità & Metodo di lavoro (guardrail di processo) 🆕
+- [[11 - Ancoraggio Fonti di Verità]] — Elenca e conferma le fonti di verità PRIMA di editare (anti "fonte sbagliata")
+- [[12 - Piano e Scope Prima del Lavoro]] — Piano 1-3 righe + formato/lunghezza, poi aspetta OK (anti over-engineering)
+- [[13 - Deliverable a Sezioni]] — Output lunghi spezzati su file, ripartibili (anti limite token)
+- [[14 - Fact-Check Pre-Consegna]] — Verifica nomi/numeri/attribuzioni vs vault prima di consegnare al cliente
+- [[15 - Audit Parallelo con Workspace Isolati]] — N agenti, file separati, agente di sintesi (anti collisioni)
+- [[16 - Pipeline Deliverable Auto-Verificante]] — Sezione → fact-check → tono → propaga sorgente→output
+
+> Derivati dai pattern del report `/insights` del 2/6/2026. Standardizzati cliente-agnostici (placeholder `{NOME_CLIENTE}`/`{NOME_PROGETTO}`) e customizzabili al volo: ognuno ha la sezione "Come customizzarlo".
 
 ## Come usarli
 

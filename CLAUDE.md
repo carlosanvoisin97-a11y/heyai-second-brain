@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-05-05
-updated: 2026-05-29
+updated: 2026-06-06
 status: operational — refactoring M4 29/5/2026 (§15 vault-live + §10bis → skill vault-live-protocol; core sempre-attivo in CLAUDE.md; versioning git attivo) + Front 3 29/5 (§9bis due-scheduler Cowork-vs-Code + campanello digest-staleness hook)
 purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 ---
@@ -35,6 +35,18 @@ Tabella di instradamento: per ogni tipo di task leggi prima i file indicati e fe
 
 Regola d'oro: prima di chiedere "che formato vuoi?", verifica se il vault ha già un template o un esempio.
 
+## 0bis. Skill routing — quale skill per quale task
+
+> Enforcement già attivo via SessionStart hook (`using-superpowers`): **prima di rispondere, se una skill matcha il task, invocala e annuncia "Using [skill]"; in dubbio, invoca.** Lavoro creativo/strategico → `brainstorming` o `management-consulting` prima di implementare. Più task indipendenti senza stato condiviso → `dispatching-parallel-agents`. *(Namespaci da rifinire se un'invocazione fallisce.)*
+
+- **Documenti**: email → `email-drafting` · proposta/quotazione strutturata → `investment-proposal-drafting` · Word → `docx` · Excel/pricing/modelli → `xlsx` · PDF (leggi/compila/unisci/OCR) → `pdf` · slide/pitch/.pptx → `pptx` · comunicazioni interne (status/leadership/FAQ) → `internal-comms` · doc lungo co-authoring → `doc-coauthoring`
+- **Strategia & PM**: analisi/decisione/matrice/memo MECE → `management-consulting` · brainstorm idea → `brainstorming` / `product-management:product-brainstorming` · spec-PRD → `product-management:write-spec` · competitive brief/battlecard → `product-management:competitive-brief` / `marketing-skills:competitor-profiling` · sprint/roadmap/metrics/stakeholder update → `product-management:*` · sintesi ricerca utente → `design:research-synthesis`
+- **Vendita (HeyAI)**: pitch/one-pager/objection/demo/playbook → `marketing-skills:sales-enablement` · outreach freddo B2B → `marketing-skills:cold-email` · liste prospect ICP → `marketing-skills:prospecting` · pricing/packaging → `marketing-skills:pricing` · pagine "vs"/alternative → `marketing-skills:competitors`
+- **Marketing clienti**: piano/GTM → `marketing-skills:marketing-plan` · strategia contenuti → `marketing-skills:content-strategy` · scrittura (blog/landing/PR/case) → `marketing-skills:content-creation`/`copywriting` · email drip → `marketing-skills:emails` · social/short-video → `marketing-skills:social`/`video` · ads/creatività → `marketing-skills:ads`/`ad-creative` · CRO/landing/popup/signup/onboarding/paywall → le rispettive `marketing-skills:*` · analytics/A-B test → `marketing-skills:analytics`/`ab-testing` · brand/copy review → `marketing-skills:brand-review`/`copy-editing` · VOC/ricerca clienti → `marketing-skills:customer-research`
+- **SEO / AI-search**: audit completo → `claude-seo:seo-audit` · tecnico/schema/sitemap/hreflang/immagini → `claude-seo:seo-technical`/`seo-schema`/`seo-sitemap`/`seo-hreflang`/`seo-images` · locale/maps/GBP → `claude-seo:seo-local`/`seo-maps` · GEO/AI Overviews/citazioni LLM → `claude-seo:seo-geo` / `marketing-skills:ai-seo` · piano/cluster/brief/pagina → `claude-seo:seo-plan`/`seo-cluster`/`seo-content-brief`/`seo-page` · dati live SERP/keyword/backlink → `claude-seo:seo-dataforseo`/`seo-google`/`seo-backlinks`
+- **Build / web / prodotti**: sito/UI/artifact → `frontend-design` / `web-artifacts-builder` / `theme-factory` · Next.js/React/shadcn → `vercel:nextjs`/`shadcn`/`react-best-practices` · deploy/env/bootstrap → `vercel:deploy`/`env`/`bootstrap` · app AI/agenti/AI SDK/API Claude → `vercel:ai-sdk`/`ai-architect`/`claude-api` · test webapp/accessibilità WCAG → `webapp-testing` / `design:accessibility-review` · immagini/grafica → `marketing-skills:image`/`canvas-design`/`algorithmic-art`
+- **Sistema / vault / meta**: trascrizione call → `transcript-processing` · vault-live commit non banale → `vault-live-protocol` · memoria (persone/progetti/shorthand) → `productivity:memory-management`/`consolidate-memory` · config/hook/permessi → `update-config` · loop/scheduled agents → `loop`/`schedule` · review/security → `verify`/`code-review`/`security-review` · creare skill/connettore MCP/plugin Cowork → `skill-creator`/`mcp-builder`/`cowork-plugin-management:*`
+
 ## 1. Identità utente
 
 Carlo Sanvoisin — founder e PM di **HeyAI Srl** (B2B AI consulting, Roma). Italiano nativo. Lavora come PM su progetti AI per clienti enterprise e PMI; opera in modo rigoroso, audit-driven, con forte attenzione a contratti, IP, numeri.
@@ -51,6 +63,7 @@ Carlo Sanvoisin — founder e PM di **HeyAI Srl** (B2B AI consulting, Roma). Ita
 - Niente emoji nei titoli di nuovi documenti, salvo eccezioni dichiarate. Tag visivi minimi (📁, 💰, ⚠️, ✅, ❌, 🟢, 🔴) ammessi solo se replicano lo stile delle schede esistenti.
 - Mostrare il dito sui rischi anche scomodi: Carlo preferisce essere contraddetto in privato che imbarazzato in call cliente.
 - Audit-first: prima di proporre numeri o quotazioni, verificare il [[99 - System/Master Facts Sheet]] e le schede progetto. Errori di math = bocciatura cliente.
+- **Explain-after (R2, regola Carlo 6/6/2026)**: a fine di ogni lavoro non banale, spiegare in chat *cosa* è stato fatto e *come* va usato il risultato. La regola gemella R1 "skill-first" (usa in autonomia la skill più adatta prima di ogni task) è operativa via §0bis + hook `using-superpowers`.
 
 ### 2.0 Lunghezza risposte chat — REGOLA OPERATIVA
 
@@ -155,7 +168,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 | [[20 - Projects/Eldis/Eldis Compilatore]] | Eldis Net | Carlo | 🟢 P2 — Builder evolutive |
 | [[20 - Projects/Matteo Cosma/HoReCa\|HoReCa]] | Matteo Cosma | Carlo | 🟢 P3 — early stage |
 | [[30 - Areas/Area - Partnership Fornitori/Jakala\|Jakala]] | Jakala (fornitore) | Carlo | 🟢 evaluating — allocazione 4 progetti |
-| [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy\|Angelini Academy]] | Angelini (via FuturItaly) | Carlo+Michele | 🟢 P2 — gara, pitch finale 31/5 |
+| [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy\|Angelini Academy]] | Angelini (via FuturItaly) | Carlo+Michele | 🟡 P2 — pitch 5/6 fatto, esito **soft-defer**: restyling+editoriale già a fornitore concorrente (gara feb→giu); apertura = workshop architettura H2'26 → build 2027 |
 
 ## 7. Persone chiave — decisori per progetto (lista completa in `60 - People/`)
 
@@ -205,7 +218,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 
 ## 8. Workflow ricorrenti — prompt library
 
-10 prompt template in `40 - Resources/Prompts/` ([[40 - Resources/Prompts/00 - Index Prompt Library|Index]]). Carlo invoca con: *"applica prompt 03 + contesto"* o *"recap call → email"*.
+16 prompt template in `40 - Resources/Prompts/` ([[40 - Resources/Prompts/00 - Index Prompt Library|Index]]). Carlo invoca con: *"applica prompt 03 + contesto"* o *"recap call → email"*.
 
 ### 8bis. Delivery board Soolutions
 
