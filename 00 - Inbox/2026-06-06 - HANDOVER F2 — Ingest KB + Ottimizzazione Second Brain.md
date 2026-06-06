@@ -37,7 +37,7 @@ numeri/prezzi/stati = proposta da confermare, §13 riservatezze, MAI git add -A.
 2. **F2 (ingest KB grezza) = il prossimo fronte**, scope confermato, piano + inventario pronti nel doc F2.
 3. **Materia prima da ingerire**: 2 aggregazioni Desktop Commander, **171 file** (`Desktop/_OBSIDIAN-VAULT` 36 + `00-Inbox/_DA_DOWNLOADS_2026-06-06` 135).
 4. **Tail aperti**: harvest worktree `nervous`/`nice` → poi prune; copia di sicurezza cartella Desktop; prune `funny-shannon` + `quizzical-faraday`.
-5. ⚠️ **Carlo deve**: ri-pushare (ci sono commit locali non pushati), **riavviare Claude Code** (scarica hook ruflo), valutare rotazione credenziali §SICUREZZA.
+5. ⚠️ **Carlo deve**: **riavviare Claude Code** (scarica hook ruflo) + valutare rotazione credenziali §SICUREZZA. *(Push: già fatto.)*
 
 ---
 
@@ -54,7 +54,7 @@ numeri/prezzi/stati = proposta da confermare, §13 riservatezze, MAI git add -A.
 ## 3. Stato git/vault VERIFICATO (non ri-fare, non contraddire)
 - **Branch verità = `main`** a `/Users/carlosanvoisin/claude`.
 - **Commit (dal più recente):** `<HEAD finale = il commit di questo handover>` → `567ab0c` (redazione segreti) → `8435d2b` (backlog 22/5→6/6) → `a4912cf` (pre-sessione).
-- **Remote:** `origin` = `https://github.com/carlosanvoisin97-a11y/heyai-second-brain` — **PRIVATE**, default `main`. **Pushato fino a `567ab0c`**. ⚠️ I commit successivi (doc F2 + questo handover) sono **locali, NON ancora pushati** → Carlo: `git -C ~/claude push`.
+- **Remote:** `origin` = `https://github.com/carlosanvoisin97-a11y/heyai-second-brain` — **PRIVATE**, default `main`. ✅ **Tutto pushato** (incl. doc F2 + questo handover): local == `origin/main`, in sync. *(Push incrementali ok dall'agente; era bloccata solo la creazione-remote iniziale.)*
 - **Working tree:** pulito a parte il dump gitignored.
 - **`.gitignore`:** esclude `00 - Inbox/_DA_DOWNLOADS_2026-06-06/` + `_DA_DOWNLOADS_*/`.
 - **Backup tar (stato pre-F0):** `/Users/carlosanvoisin/vault-backup-pre-F0-20260606-200955.tgz` (156M).
@@ -111,7 +111,7 @@ GitHub privato ✅ · runtime **ibrido** (audit cloud / digest locale) ✅ · co
 - Audit toolstack precedente (di Carlo): `00 - Inbox/2026-06-02 - Audit Toolstack — skill, plugin, connettori vs lavoro.md`
 
 ## 10. Cose che DEVE fare Carlo (fuori dall'agente)
-- [ ] **`git -C ~/claude push`** — ci sono commit locali (doc F2 + handover) non ancora su GitHub.
+- [x] **`git push`** — ✅ FATTO dall'agente 6/6: tutti i commit (incl. questo handover) sono su `origin/main`, in sync.
 - [ ] **Riavviare Claude Code** — per scaricare gli hook ruflo (config già a posto).
 - [ ] **Valutare rotazione credenziali** §SICUREZZA (se qualcuna ancora viva) — i valori sono comunque in history `8435d2b`.
 - [ ] **Rimuovere worktree `funny-shannon`** a sessione chiusa (o lasciar fare all'agente nella nuova sessione).
