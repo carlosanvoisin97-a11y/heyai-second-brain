@@ -75,7 +75,7 @@ tags: [system, second-brain, F2, ingest, kb-solidity]
 
 ### Da fare ancora
 - **Fase 5 ✅** (7/6) — triage "Altro" (48 file, 3 subagent): 0 net-new su NoLoop/HeyAI (tutto già distillato). Committato: competitive intelligence NOT → `_NOT` §Landscape competitivo (§13 interno). **Decisioni Carlo** (non committati): `axel.txt` (🔴 §13 conflitto retributivo soci + exit-advice); i 7 "eventi" Banco Desio/Fineco/ING/Dealer/ELCO = output-sample Venue Finder (archiviare come test-case o scartare?); competitor → tenuto in `_NOT` (opzione A) vs atomic note (B).
-- **Fase 6** — KB Solidity Report: NON fatto.
+- **Fase 6 ✅** (7/6) — KB Solidity Report prodotto → `99 - System/KB Solidity Report.md`. Completezza ALTA · Fedeltà ALTA (3 cluster alto-rischio confermati al back-tracing avversariale) · Coerenza MEDIA (3 errori fattuali 🔴 + conflitti numerici 🟡 da bonificare — §4 del report). **F2 COMPLETA.**
 - **Archiviazione grezzi**: `_DA_DOWNLOADS_2026-06-06/` + `_import-2026-06-06/` **lasciati in sede** (safety net, gitignored) — Carlo decide se archiviare/rimuovere a ingest confermato.
 
 ### Flag per Carlo
