@@ -3,7 +3,7 @@ type: resource
 product: Venue Finder
 status: in-development
 created: 2026-04-30
-updated: 2026-05-20
+updated: 2026-06-06
 ---
 
 # 📚 Venue Finder
@@ -30,6 +30,17 @@ In sviluppo avanzato. **MVP in prod atteso entro 6-7/5/2026** (Federico in call 
 - **Domande iniziali Sally (chat)**: **prompt in sola visualizzazione** passato a Carlo per studio. Setting NON editabile da cliente. Mitigazione del rischio "utente cancella per sbaglio". Da rivedere con feedback utenti reali prima di toccare la logica delle domande (oggi Carlo proporrebbe l'accorpamento, Federico è contrario perché "castra" l'agente).
 - **Tasto SALTA** già presente per bypassare le domande Sally; Federico propone **tooltip** del tipo "se hai delle domande per te e non rispondi, i risultati saranno di scarto".
 - **Enhancement presentazione graficamente accattivante**: fuori dall'MVP iniziale.
+
+## Architettura tecnica agente (KB import 6/6)
+
+> Spec tecnica dell'agente GPT, da KB import (`80 - Sources/Files/_import-2026-06-06/AI Venue Finder/` — master prompt, outline, sections, schema dati). Net-new rispetto alla scheda: il "come funziona" dell'agente. Dedup: **non** creata scheda "AI Venue Finder" separata — è lo stesso prodotto; spec confluita qui per evitare frammentazione (conferma Carlo se preferisce split).
+
+- **Ruolo**: agente GPT consulente per eventi corporate — seleziona/confronta location, servizi, trasporti, attività extra; produce analisi, tabelle comparative, outline presentazioni. **NON** fa prenotazioni/contatti commerciali. Lingua default IT, tono professionale conciso.
+- **File di progetto**: `Master prompt.txt` (system role/principi/regole non negoziabili) · `outline.txt` (workflow generatore outline PPT) · `sections.txt` (sezioni deliverable) · `dati_per_servizi_e_strutture.txt` (schema colonne tabelle) · `tour.operator.txt` (dati/logica tour operator) · `VenueFinder_ReqLog_v2.xlsx` (req log).
+- **Workflow generatore outline (3 fasi)**: (1) Outline Descriptions — descrizioni promozionali + tagline + tabelle comparative, chiude con richiesta approvazione; (2) Scelta struttura — Convention con pernotto / Incentive Trip / Convention senza pernotto, chiede conferma; (3) Text block tab-indented — blocco testo (tab = livelli bullet) pronto per import PPT.
+- **Schema tabella comparativa venue** (colonne mai rinominare/rimuovere): Name · Location (City/Region/Country) · Geographic setting (sea/mountain/city/lake/countryside) · Category ★ · TripAdvisor Score · Rooms · Airport Distance.
+- **Import PowerPoint**: text block → incolla in Word → salva `.txt` encoding "Occidentale (Windows Latin 1)" su Mac → PPT: nuova diapositiva in presentazione vuota → "struttura" → seleziona il `.txt`.
+- **Requirement log** (`VenueFinder_ReqLog_v2.xlsx`, legato al contratto Wave 2): 3 fogli — Esigenze da UAT e Feedback (23 righe) · Requisiti Evolutivi (16 righe) · Documentazione Allegata (11 righe).
 
 ## Stakeholder NoLoop
 
