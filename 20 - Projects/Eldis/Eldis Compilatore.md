@@ -5,7 +5,7 @@ priority: p2
 client: Eldis Net
 product: AI Product Catalogue
 created: 2026-04-30
-updated: 2026-05-24
+updated: 2026-06-07
 last_call_date: 2026-05-08
 stakeholders: [Stefania Solidoro, Marta Garrafa, Alessandra Aprile, Giovanna Cecchi, Simone Montanari (Soolutions), Federico Saladino (Soolutions)]
 ---
@@ -96,6 +96,8 @@ TEST_ENV_SMB_XLSX  = //172.16.20.8/Archivio/DATI/Company/IMPORTLISTINI_NONTOCCAR
 PROD_ENV_SMB_MEDIA = //172.16.20.8/Archivio/DATI/ImmaginiB2B
 ```
 > Server interno Eldis: `172.16.20.8` — accesso SMB. Da TEST a PROD si cambia path della share. _Conferma Stefania 12/02/2026: PROD usa W:\\ImmaginiB2B (immagini/PDF) e W:\\Company\\IMPORTLISTINI_NONTOCCARE\\COMPILATORE (excel)._
+
+- **ERP/gestionale Eldis = Alyante** (Gruppo TeamSystem): il catalogo unificato dal Compilatore alimenta a valle il gestionale; stock/logistica gestiti lato Alyante con forecast manuale. _[fonte: doc discovery 2025 "Struttura di Mercato, Processi & Implicazioni"; F2 ingest — PROPOSTA da confermare]_
 
 ### Flusso operativo target
 ```

@@ -4,7 +4,7 @@ status: active
 priority: p2
 client: Studio Murolo
 created: 2026-04-30
-updated: 2026-05-28
+updated: 2026-06-07
 stakeholders: [Marco Murolo, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-15 20:22 (cron-22) | source-session: local_9912ed2f-67e2-4965-a04a-d6fc60b841e4 | source-lastActive: 2026-05-15 pomeriggio -->
@@ -68,6 +68,10 @@ Jakala ha quotato €27.000 (50 FTE). Carlo decide se delegare a Jakala (che pag
 - [ ] **#p2** Analizzare format cedolini ricevuti da Marco (29/04) prima del prossimo incontro
 - [ ] Validare fattibilità tecnica scraping siti (per modello consulente Senato)
 - [ ] Definire partnership modello con agenzie subappalto
+- [ ] **#p2** Reperire format cedolini SBIANCATI dei principali software paghe (Zucchetti, TeamSystem, Pago) — split con Marco _[da call 9/4]_
+- [ ] **#p2** Marco: estrarre casistiche "inghippo" (3-4 voci: indennità transfertista, trasferte, rimborsi) dai cedolini reali come gold standard training _[da call 9/4]_
+- [ ] **#p2** Verificare con referente compliance la liceità della trasmissione dati aggregati a Confcommercio (informativa/consenso in accreditamento sufficiente?) _[da call 9/4]_
+- [ ] **#p2** Predisporre doppia proposta a Marco: Full Ownership vs Revenue Share (base per il suo business plan / break-even) _[da call 9/4]_
 
 ## Note importanti
 
@@ -164,6 +168,17 @@ Jakala ha quotato €27.000 (50 FTE). Carlo decide se delegare a Jakala (che pag
 
 ### 2026-04-14
 - Federico invia "Presidia ReqLog 40k" (versione spezzata semplificata)
+
+### 2026-04-09 — Call allineamento tecnico Carlo ↔ Marco Murolo (registrazione 1h6m, pre-quotazione)
+> Call mai loggata finora, recuperata in **F2 ingest 6/6** (fonte: trascrizione "PresidIa | Allineamento marco" 9/4/2026). Pre-decisione fornitore Silencio/Jakala (4-5/5) → la parte server/infra è storica. I numeri sono stime tecniche dette da Carlo in call → **PROPOSTA da confermare**.
+- **Modello commerciale**: cliente iniziale = **azienda (PMI)**, NON il consulente del lavoro (Carlo aveva ipotizzato il canale consulenti; Marco corregge). Rete vendita su aziende via Confcommercio. Consulenti = step 2 (in fase 1 bypassati: l'azienda non chiede il loro permesso).
+- **Pagamenti**: prima release SENZA integrazione pagamenti → flusso manuale richiesta→bonifico→fattura→credenziali; landing page lead. Integrazione (Stripe/Nexi) rinviata al 2° rilascio, stima Carlo **€15.000-20.000 [PROPOSTA]**. Marco: "il bonifico è il miglior modo di pagamento che esista".
+- **Metodo OCR cedolini**: training su **format sbiancati** dei principali software paghe (Zucchetti, TeamSystem, Pago…) + mappatura voci cross-template (le voci-chiave si chiamano uguali, cambia posizione/struttura). Rischio "inghippo" su 3-4 voci (indennità transfertista detassata, trasferte, rimborsi). Lavoro in parallelo: HeyAI sviluppa, Marco estrae casistiche dai propri cedolini.
+- **Error handling**: accuratezza stimata **~96-98% [PROPOSTA]**; architettura anti-errore inclusa = **due agenti in competizione + scoring**, su disaccordo → notifica admin (HeyAI) + Marco che corregge (human-in-the-loop, la correzione rientra nel training). Il cliente finale NON corregge.
+- **Infra (storico, pre-Silencio)**: Carlo consiglia server fisico dedicato + disaster recovery (copia fisica + cloud). _[Superato dalla cessione hosting a Silencio 4-5/5.]_
+- **Dashboard Confcommercio (3° livello)**: vista aggregata controller (es. assenteismo per territorio) = costo extra (un livello di segregazione dati in più). **Nodo legale aperto**: autorizzazione trasmissione dati a Confcommercio → Carlo gira a referente compliance.
+- **Pattern-detection comportamentale → rinviato a FASE 2** (≈**€7.000/agente [PROPOSTA]**, da rifare senza dati storici). In fase 1 resta il KPI percentuale in dashboard; l'interpretazione la fa l'umano.
+- **Negoziazione**: Marco exit-oriented confermato (finanziatori già pronti, vuole flessibilità contrattuale/change-of-control, nessun budget in testa: "ragioniamo sulla fattibilità, poi sui soldi").
 
 ### 2026-04-09
 - Email "PresidIa | Richiesta supporto 2 temi" — definizione cliente come "consulente del lavoro 20 anni esperienza"

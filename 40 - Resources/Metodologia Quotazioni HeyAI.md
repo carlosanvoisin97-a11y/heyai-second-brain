@@ -1,7 +1,8 @@
 ---
 type: resource
 created: 2026-04-30
-sources: [chat "Recupero metodologia quotazioni IT/tecniche", chat "Audit critico quotazione", artifacts Lotto 2]
+updated: 2026-06-07
+sources: [chat "Recupero metodologia quotazioni IT/tecniche", chat "Audit critico quotazione", artifacts Lotto 2, chat "Miglioramenti brief pricing" 9/4→4/5/2026]
 ---
 
 # 📚 Metodologia Quotazioni HeyAI
@@ -35,6 +36,15 @@ Costo orario = RAL × 1.40 / 1.720h
 ### Value-based check
 - Prezzo target = **60-75% del saving annuo stimato**
 - Payback < 12 mesi = sempre favorevole al cliente
+
+### Benchmark di mercato per ancoraggio (Italia 2026)
+Per dimensionare il listino e capire se un prezzo "comunica prototipo o piattaforma":
+- **Sito istituzionale boutique** (SPA React/Vite, animazioni, copy strategico): €8-15K da agenzia/freelance senior.
+- **MVP SaaS B2B media complessità** (multi-tenant, AI/RAG, integrazioni): €60-120K da boutique, €150-250K da system integrator mid-size.
+Uso: un prezzo molto sotto range comunica "progetto piccolo" e legittima contestazioni di change request. Ancorare il **listino** al valore di mercato, mostrare lo **sconto** in chiaro. _[fonte: chat pricing brief 9/4→4/5/2026, F2 ingest — valori di mercato indicativi]_
+
+### Formato sintesi pricing (memoria comparabile)
+Per ogni quotazione registrare una riga standard: *Progetto — costo interno €Y — listino €Z — markup W% — sconto V% — finale €K — margine €M*. Senza formato fisso la memoria pricing non è confrontabile tra progetti.
 
 ## ⚠️ Matrice rischi quotazioni
 
@@ -76,6 +86,13 @@ Costo orario = RAL × 1.40 / 1.720h
 - Fornire storico dati (es. 5 anni vendite per NOT)
 - Verifica disponibilità API esterne entro 15gg firma
 - Account/credenziali piattaforme esterne
+
+### Buyout / Change of Control / anti-aggiramento (da chat pricing 4/5/2026, F2 ingest)
+> Wording e parametri esatti = PROPOSTA da confermare; i numeri specifici per progetto restano nelle schede progetto.
+- **Buyout (revenue share)**: *maggiore tra* (a) prezzo full-ownership meno revenue share cumulata versata [pavimento anti-arbitrage: impedisce di usare la RS come rateazione mascherata della full ownership], e (b) un multiplo **2,5-3,5×** della RS degli ultimi 12 mesi [cattura l'upside se il prodotto performa].
+- **Change of control**: attivazione automatica su evento straordinario (acquisizione/cessione/fusione); pagamento minimo = maggiore tra una soglia fissa e una % del valore della transazione. Distinto dal buyout (il buyout è opzione del *cliente*; il CoC scatta da solo).
+- **Anti-aggiramento**: se entro **18 mesi** (range 12-24) dal buyout il cliente cede attività/IP a terzi, il CoC si applica retroattivamente con conguaglio.
+- **Definizione "ricavi netti" per royalty**: calcolare su ricavi lordi al netto **solo** di IVA e storni documentati — non lasciare "netti" indefinito.
 
 ## 🎨 Pattern prompt riusabili
 
