@@ -233,7 +233,7 @@ Per memoria: la **prima bozza Germano** (febbraio 2026) conteneva **6 clausole v
 - **Aggiunto riferimento «Documentazione API XDC.pdf»** (allegato Germano 03/02 + 25/02) in Fonti documentali — **DA RECUPERARE via Outlook**, non ancora in `80 - Sources/Files/Eye Cookies/`.
 - **Tempistiche semplificate** (decisione Carlo): rimosse settimane da Piano di lavoro e Info progetto. Mantenuto unico riferimento: «go-live target settembre 2026».
 - **Fedeltà testo Germano preservata**: 0 differenze colonna Requisito (B) tra v2.2 e v2.3 — verifica programmatica passata. 0 differenze su Tipo (C) e Modulo (D).
-- File: `Eye Cookies - Requirement Log MVP.xlsx` (root, working) + archivio v2.3 in `80 - Sources/Files/Eye Cookies/`.
+- File: `Eye Cookies - Requirement Log MVP.xlsx` (working, spostato dalla root a `80 - Sources/Files/Eye Cookies/` il 6/6/2026) + archivio v1/v2/v2.3 nella stessa cartella.
 - **Task #p1 Carlo**: recuperare via Outlook l'allegato `Documentazione API XDC.pdf` (email Germano 03/02 + 25/02, thread «Focus EYE cookie») e salvarlo in `80 - Sources/Files/Eye Cookies/`.
 
 ### 2026-05-22 sera — Requirement Log v1 prodotto + 3 PDF archiviati nel vault

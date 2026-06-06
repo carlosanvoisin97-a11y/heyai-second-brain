@@ -537,6 +537,8 @@ Lo scope di gara non riguarda solo il sito ma **comunicazione integrata 360°** 
 
 Carlo conferma (6/6) l'esito **soft-defer** della call 5/6 (vedi entry 5/6 sotto, prima marcata "PROPOSTA NON APPLICATA"): l'esito è ora **ufficiale**. Propagato: [[99 - System/Master Facts Sheet]] (status + §delta Angelini), [[99 - System/Open Questions]] #31, `CLAUDE.md` §6 (riga Angelini → soft-defer). Report autorevole: [[00 - Inbox/2026-06-05 - Report Call Angelini Academy (pitch finale)|Report call 5/6]] · coaching [[30 - Areas/Area - Performance & Coaching/2026-06-05 - Carlo Performance — Pitch Finale Angelini Academy|Performance pitch finale]]. _(Harvest da worktree `wizardly-rhodes` durante F0 second-brain optimization.)_
 
+- [ ] **#p2** Carlo/Elena: chiedere a [[Elena Chiti]]/[[Caterina Caboni]] l'**identità del fornitore concorrente** Angelini (gara comunicazione feb→giu: social+restyling+editoriale) — dimensiona la concorrenza per il build 2027. Rif: [[99 - System/Open Questions]] #31.
+
 ### 2026-06-05 — Code sessions giornaliere (cron `code-sessions-index` 20:35) — backlog settimana pitch + post-pitch
 
 Indicizzate **10** sessioni Code della finestra 24h, tutte sul progetto Angelini Academy: il backlog dell'intensa settimana di pitch prep multi-worktree (2-5/6) più la sessione **post-pitch** di oggi. Recap individuali in `80 - Sources/Cowork Sessions/code-recap/` (indice: [[80 - Sources/Cowork Sessions/code-recap/2026-06-05 - Indice code sessions]]). Workstream coperti: rifinitura deck v2 slide-per-slide, validazione avversariale Matrice di posizionamento, revisione KPI "bombproof" (% uplift vs baseline), assemblaggio deck DEF/LEAN, sviluppo sito (componenti .tsx), modalità demo sito.
