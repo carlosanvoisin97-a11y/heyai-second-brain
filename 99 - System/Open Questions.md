@@ -175,10 +175,10 @@ Il Key Account FuturItaly dichiara che l'Hub editoriale Engaged Research è il *
 
 ## 🔐 SICUREZZA — da rotare/sistemare
 
-- `Sabinocollalto40!` su SharePoint NolooponTrade/Generale/Password.docx
+- `[credenziale rimossa per sicurezza — vedi §13, ruotata 30/4]` su SharePoint NolooponTrade/Generale/Password.docx
 - 2 token onboarding LeadMe esposti in chat Teams
-- `NoloopAI2026!` condivisa post-demo
-- SMB path interni Eldis (`172.16.20.8`) in chiaro Teams
+- `[credenziale rimossa per sicurezza — vedi §13, ruotata 30/4]` condivisa post-demo
+- SMB path interni Eldis (`[host interno rimosso — vedi §13]`) in chiaro Teams
 - **Azione**: rotare credenziali, spostare in password manager
 
 ## 📚 Storico
