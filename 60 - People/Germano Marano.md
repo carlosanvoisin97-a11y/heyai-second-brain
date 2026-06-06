@@ -4,8 +4,8 @@ role: Consultant
 company: NoLoop
 email: germanomarano.consultant@noloop.eu
 created: 2026-04-30
-updated: 2026-05-28
-last_contact: 2026-05-28
+updated: 2026-06-04
+last_contact: 2026-06-04
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-22 20:22 (cron-22) | source-session: local_972c4d6a-07a7-4781-a853-468093d6a858 | source-lastActive: 2026-05-22 -->
 
@@ -14,13 +14,16 @@ last_contact: 2026-05-28
 - **Ruolo**: Consultant NoLoop, lato delivery
 - **Azienda**: NoLoop
 - **Email**: germanomarano.consultant@noloop.eu
-- **Ultimo contatto**: 2026-05-28 (prima call bisettimanale Eye Cookies — Carlo + Germano + team di sviluppo, 42 min)
+- **Ultimo contatto**: 2026-06-04 (call bisettimanale Operation Transformation — Carlo + Federico, Massi assente, 30 min)
 
 ## Progetti in comune
 
 - [[Eye Cookies|Eye Cook]] — fornisce file/asset operativi (Excel cookie aggiornato), interfaccia con Microlog
 
 ## Interazioni recenti
+
+### 2026-06-04 — Call allineamento bisettimanale [[Operation Transformation]] (con Carlo + Federico; Massi assente)
+- Germano confermato **referente tecnico NoLoop** sul progetto Operation, ma non aggiornato sulle discussioni pregresse con Carmen/Massi (_"mi è stato solo detto occupati del progetto"_) → Carlo lo allinea via email (RL + brief + architettura). **Pattern**: pragmatico, domande tecniche puntute (esistenza/ownership API BAT), ragiona in ottica prodotto (propone di esporre noi le API → vendibile a BAT; valuta tracking prodotti per i tabacchini). Chiude da alleato (_"sono parte del team"_). **Si prende**: verifica interna stato API BAT + interesse BAT al modulo tracking. **Decisione**: I Love Ric (sua attivazione make-up ad Arese, in chiusura) fuori perimetro. Dettaglio call → [[Operation Transformation]] Log 4/6.
 
 ### 2026-05-28 — Prima call bisettimanale Eye Cookies (42 min)
 - **Call svolta 13:35-14:17**. Partecipanti: Carlo, Germano, team di sviluppo. Demo dashboard amministrazione HeyAI live a Germano (zone, tag, prodotti, utenti, tracks mocked, carrelli con tag profile + matrice pesi). Germano impressed: *"mi aspettavo una presentazione, invece voi mi avete fatto vedere già"* + *"ma figurati e come potevo crederlo? cioè sarebbe stato un pregiudizio il mio"*. Loop comunicazione "siamo partiti" chiuso live (non più via email).

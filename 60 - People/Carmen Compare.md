@@ -3,7 +3,7 @@ type: person
 role: Data Analyst (On Trade — NOT)
 company: NoLoop
 created: 2026-04-30
-updated: 2026-05-29
+updated: 2026-06-01
 sources: [Organigramma NoLoop 17/03/2025]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-08 20:30 | source-session: local_4c933da1-0348-4ef3-8a6d-de4a6bc1b514 | source-lastActive: 2026-05-08 ~20:00 -->
@@ -25,6 +25,9 @@ Data Analyst NOT (counterpart Maria Elena Poso). Stakeholder importante per:
 In chat è citata come riferimento per "Carmen deep dive" (Wave 2 NoLoop test 3).
 
 ## Interazioni recenti
+
+### 2026-06-01
+- **Call "NOT | Allineamento richieste tecniche"** (Carmen + Justin + Carlo, 50 min). Carmen porta la **richiesta di automatizzare l'inserimento delle vendite** (eliminare la tripla registrazione manuale che blocca le sue risorse da remoto), con **mandato di Massi a darle priorità** sul modello predittivo — *"mi interessa più il risultato finale"*. Concordata soluzione **form unico + utenza admin Carmen + invio via RPA** (dettaglio in [[Operation Transformation]] Log 1/6). **Confermata referente per l'ingestion dello storico** dati NOT/BAT (storico per anno/mese/settimana su codice univoco vendita; possibili errori su modello/colore/data). Descrive il proprio workflow di riconciliazione (scarico Excel da app NOT, confronto BAT/PARD via formule doppioni/ricerca verticale). Conferma che senza blocco campi obbligatori "è certezza matematica" che i promoter saltino campi. Aggiorna Carlo **lunedì 8/6** sull'escalation API in sede BAT.
 
 ### 2026-05-29
 - **Email diretta a Carlo (CC Justin) — oggetto "Richieste tecniche"** (29/5 16:21). Carmen apre il primo canale proattivo lato cliente: *"Io e Justin stavamo riflettendo su alcune questioni tecniche intorno alla piattaforma di cui vi state occupando, mi piacerebbe parlartene. Noi lunedì siamo operative... se avevi in programma un weekend lungo, rimetto a te la scelta della data."* Richiesta call su [[Operation Transformation]] (lei + Justin). Carlo conferma disponibilità lunedì 1/6 pomeriggio (niente ponte Festa della Repubblica), dalle 15:00 — bozza risposta preparata 29/5, Justin in CC. **Carmen passa da stakeholder reattivo a richiedente attivo di un confronto tecnico.** Temi probabili: stato API BAT/PARD (switch a Piano B proposto 19/5 mai confermato), ingestion storico dati (suo dominio da Data Analyst), mappatura campi delle 3 piattaforme.

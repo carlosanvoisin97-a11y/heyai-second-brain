@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop (divisione NOT)
 created: 2026-04-30
-updated: 2026-06-02
+updated: 2026-06-04
 contract_status: emesso_non_firmato
 stakeholders: [Massi Sinigaglia, Justin Lauro, Roberta Calajò, Paolo Donzelli, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
 ---
@@ -132,9 +132,19 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - [ ] **#p1** Carlo: gestire chain setup tecnico NOT (call Germano live Microlog per Eye Cookies + call Microlog payload/API per Eye Cookies + call team operativo Carmen Compare per ingestion dati storici NOT/BAT base modello predittivo — entro questa settimana/prossima)
 - [ ] **#p1** Attesa conferma Justin su shift deadline switch API native → Piano B da 15/5 a martedì **19/5** (proposta Carlo nell'email 14/5)
 - [ ] **#p2** Attesa risposta Laila su organizzazione call shipping (indirizzo spedizione già fornito in email 14/5: Via Fratelli Solari 65, 29027 Gariga di Podenzano PC - destinatario Federico Saladino)
-- [ ] **#p1** Attesa indicazione referente NoLoop per ingestion storico dati (chiesto a Justin+Carmen+Laila nell'email 14/5 per call con team tech HeyAI sulla taratura modello predittivo)
-- [ ] **#p1** Carlo: rispondere a email Carmen (CC Justin) 29/5 "Richieste tecniche" e fissare call **lunedì 1/6 pomeriggio dalle 15:00** su questioni tecniche piattaforma (probabili: stato API BAT/PARD + switch Piano B mai confermato dal 19/5, ingestion storico dati lato Carmen, mappatura campi 3 piattaforme) — _[29/5: risposta inviata con recap dei 3 punti + proposta invito Teams; orario confermato da Carmen (lun 1/6 dalle 15:00); resta solo da inviare l'invito Teams]_
-- [ ] **#p1** Carlo: inquadrare l'opportunità **"strumento di automazione per l'inserimento dati"** anticipata da Carmen 29/5 — verificare se è dentro lo scope Operation già contrattualizzato (PDP/RPA, tripla registrazione) o nuovo perimetro/Change Request; preparare la lettura per la call 1/6 e decidere se coinvolgere il team tecnico
+- [x] ~~**#p1** Attesa indicazione referente NoLoop per ingestion storico dati (chiesto a Justin+Carmen+Laila nell'email 14/5 per call con team tech HeyAI sulla taratura modello predittivo)~~ → ✅ chiuso 2026-06-01: **[[Carmen Compare]] confermata referente ingestion dati** (call 1/6); Federico+Simone fanno riferimento a lei _[reconciled 6/6 da harvest worktree — verificare]_
+- [x] ~~**#p1** Carlo: rispondere a email Carmen (CC Justin) 29/5 "Richieste tecniche" e fissare call **lunedì 1/6 pomeriggio dalle 15:00**~~ → ✅ chiuso 2026-06-01: call svolta (50 min, Carmen+Justin+Carlo) _[reconciled 6/6]_
+- [x] ~~**#p1** Carlo: inquadrare l'opportunità **"strumento di automazione per l'inserimento dati"** anticipata da Carmen 29/5~~ → ✅ chiuso 2026-06-01: chiarito in call — automazione inserimento vendite = **form unico dentro roadmap €109K** (no effort/costo extra, no Change Request), con mandato Massi a darle priorità sul modello predittivo _[reconciled 6/6]_
+- [ ] **#p1** Federico+Simone: valutazione tecnica preliminare della **richiesta Carmen+Justin** (strumento automazione inserimento dati) — candidata a priorità di partenza sviluppi
+- [ ] **#p1** Carlo: inviare a Federico+Simone il **form con tutti i campi per la maschera unica** (mappatura campi form attuali App NOT + CRM BAT Sharpend + PARD)
+- [ ] **#p1** Carlo: email follow-up recap a [[Germano Marano|Germano]] (call 4/6) — RL + brief + slide architettura + punto API BAT + domanda prioritizzazione registrazione vs predittivo + soluzione connettività
+- [ ] **#p1** [[Federico Saladino (Soolutions)|Federico]]: validare architettura/brief prima dell'invio a Germano
+- [ ] **#p1** Carlo: organizzare call con [[Carmen Compare|Carmen]] (settimana prossima) per **ingestion dati storici** (Carmen sta già pulendo i dati) — copre anche modello predittivo [[Eye Cookies]]
+- [ ] **#p1** Carlo ↔ [[Carmen Compare|Carmen]]: re-sync lunedì 8/6 su esito **visita BAT in sede (venerdì 5/6)** + escalation [[Massi Sinigaglia|Massi]] per sblocco API BAT/PARD
+- [ ] **#p1** Carlo + [[Massi Sinigaglia|Massi]]: conferma formale prioritizzazione **registrazione dati** vs modello predittivo (via email a Germano+Massi)
+- [ ] **#p2** [[Carmen Compare|Carmen]] (NoLoop): preparare 2-3 dubbi sulla struttura dati dello storico da esporre a Fed+Simone per l'ingestion
+- [ ] **#p2** [[Germano Marano|Germano]] (NoLoop): verifica interna stato API BAT (esistono / perché non esposte) + interesse BAT al modulo tracking prodotti per i tabacchini
+- [x] ~~**#p2** "I Love Ric" — nuovo pop-up nel perimetro NOT~~ → ✅ chiuso 2026-06-04: Germano conferma è attivazione make-up ad Arese in chiusura tra ~1 mese → **fuori dal perimetro di progetto**
 
 ## Eventi chiave
 
@@ -145,6 +155,8 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - 30/04 — Justin: "concreto rischio che non ce le diano (le API)"
 - **2026-05-07** — Carlo: email Justin (API/piano B) inviata, push BAT API fatto, allineamento via Carmen Compare completato (conferma chat 7/5; task chiusi in batch reconciliation)
 - **2026-05-14** — Email reminder Carlo a Justin (CC Carmen+Laila) inviata; Justin risponde stesso giorno confermando 15/5 e pressing BAT; Carlo controreplica proponendo shift a martedì 19/5 + condivide indirizzo spedizione prodotti Operation Transformation
+- **2026-06-01** — Call "Allineamento richieste tecniche" Carlo↔[[Carmen Compare]] (50 min): Carmen confermata referente ingestion dati; **API BAT/PARD ancora 0** → escalation visita BAT in sede ven 5/6 + [[Massi Sinigaglia|Massi]]; impostato approccio prototipo "form unico" su app NOT esistente (no effort extra, dentro €109K)
+- **2026-06-04** — Prima call ricorrente bisettimanale OT (Carlo + Federico + [[Germano Marano]]; Massi assente): Germano referente tecnico NoLoop; POC dev mostrato; **prioritizzazione registrazione dati > predittivo** (da confermare via email Germano+Massi); I Love Ric fuori perimetro; deadline settembre, delivery unica con Eye Cookies
 
 ## Sessioni Cowork correlate
 
@@ -153,9 +165,36 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - 2026-05-14 — `local_e235b7fe` — Email reminder Justin (CC Laila+Carmen) inviata: thread 3 round (Carlo→Justin reminder · Justin risposta conferma deadline 15/5 + pressing API · Carlo controreplica shift a 19/5 + indirizzo spedizione + ingestion storico in capo a Carmen). Pattern stile "Reminder mail — pattern compatto" estratto da rewrite Carlo → propagato in CLAUDE.md §2.1 (apertura `vi scrivo solo per un reminder veloce`, parentesi corte `(qui sotto)`, append topic con `+ tema X in capo a Y`, taglio doppia offerta supporto/call, chiusura condensata, `!` finale). 3 nuovi task pending: attesa conferma shift 19/5 (#p1) · attesa Laila (#p2) · attesa referente ingestion storico (#p1). → [[80 - Sources/Cowork Sessions/2026-05-14 - Indice sessioni#Sessione 5 — Draft reminder email to Justin and team (Operation Transformation API BAT/PARD)]]
 - 2026-05-21 — `local_832269f2` — Process call transcript Federico+Simone: messaggio Simone su NOT/Microlog — scheletro applicativo + struttura base in **fase avanzata**, backup dati pregresso già fatto, alert tempistico esplicito *"a breve serviranno indicazioni più puntuali per procedere correttamente con l'implementazione"*. Sequenza-call HeyAI+On Trade NoLoop+Microlog+team dev passa da intenzione Carlo a **richiesta operativa del team di sviluppo**. → [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni#Sessione 7 — `local_832269f2-036d-4b0f-89f6-b804bb1586d2` — Process call transcript with Federico and Simone]]
 - 2026-05-21 — `local_51b0ba93` — Paolo project recap and contract review (collaterale): rettifica frontmatter status Operation Transformation — **"contratto emesso ma NON firmato da Donzelli + acconto fatturato e incassato comunque"** (era erroneamente "contratto firmato" fino al 20/5). Anomalia analoga a pattern Wave 2 Art. 1.4 efficacia retroattiva. Da formalizzare sottoscrizione prima delle tranche successive. → [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni#Sessione 5 — `local_51b0ba93-be43-4c2e-a396-4ba3546819fc` — Paolo project recap and contract review]]
-- 2026-06-01 — `0593b7a7` (Code) — processata call NOT "Allineamento richieste tecniche" (1/6, referente Carmen Compare): recap PM + nota performance Carlo. Decisioni locked: Carmen referente ingestion dati (sblocca attesa 14/5), documento campi Form completo/invariato, prototipo "form unico" su app NOT esistente dentro €109K senza extra, blocco campi obbligatori al submit, no email recap post-call. Prossimi: mer 3/6 allineare dev (priorità #1 integrazione piattaforme), call dati con Carmen (copre anche Eye Cookies), ven 5/6 visita BAT + escalation Massi API, lun 8/6 re-sync → se API ferme attivare RPA (manutenzione esclusa = Change Request). Decisioni in capo a Carlo: tagliare VoIP, valutare riempimento dati randomici (degrada modello), "I Love Ric" stand-by. _Edit nel worktree nervous-shannon — merge nel main vault da verificare._ → [[80 - Sources/Cowork Sessions/code-recap/2026-06-01 - claude-wt-nervous-shannon-0593b7a7|claude-wt-nervous-shannon (0593b7a7)]]
+- 2026-06-01 — `0593b7a7` (Code) — processata call NOT "Allineamento richieste tecniche" (1/6, referente Carmen Compare): recap PM + nota performance Carlo. Decisioni locked: Carmen referente ingestion dati (sblocca attesa 14/5), documento campi Form completo/invariato, prototipo "form unico" su app NOT esistente dentro €109K senza extra, blocco campi obbligatori al submit, no email recap post-call. Prossimi: mer 3/6 allineare dev (priorità #1 integrazione piattaforme), call dati con Carmen (copre anche Eye Cookies), ven 5/6 visita BAT + escalation Massi API, lun 8/6 re-sync → se API ferme attivare RPA (manutenzione esclusa = Change Request). Decisioni in capo a Carlo: tagliare VoIP, valutare riempimento dati randomici (degrada modello), "I Love Ric" stand-by. _Edit nel worktree nervous-shannon — ✅ merge effettuato nel main 6/6/2026 (F2 Fase 2)._ → [[80 - Sources/Cowork Sessions/code-recap/2026-06-01 - claude-wt-nervous-shannon-0593b7a7|claude-wt-nervous-shannon (0593b7a7)]]
 
 ## Log
+
+### 2026-06-04 — Call allineamento bisettimanale OT (Carlo + Federico + [[Germano Marano]]; Massi assente)
+- **Prima call della ricorrente bisettimanale "Operation Transformation | Allineamento"** (mer 15:30-16:15, Teams; previsti Germano+Massi lato NOT, Federico+Simone lato dev, Carlo organizer). 30 min. Germano è il **referente tecnico NoLoop** ma "nuovo": non aggiornato sulle discussioni pregresse con Carmen/Massi (_"mi è stato solo detto occupati del progetto"_) → Carlo lo allinea via email.
+- **Approccio soluzione**: generica, dinamica, **future-proof e agnostica ai prodotti** (oggi MyGlow/sigarette elettroniche, domani altri brand/categorie senza nuove integrazioni). Federico ha chiesto più materiale possibile del catalogo.
+- **API BAT/PARD (bloccante)**: non risultano API pubbliche; secondo Federico esistono solo a uso interno BAT. BAT raccoglie i dati di vendita, PARD i dati statistici → da qui la tripla compilazione. Push finora solo via Justin, senza esito. Germano: _"se ci mettiamo nelle mani di BAT… ci finiamo fra due anni e mezzo"_. **Idea Germano**: valutare se esporre NOI le API (piattaforma agnostica + potenziale prodotto vendibile a BAT). La registrazione prodotto è legata alla scontistica BAT → interesse del cliente a registrare (leva).
+- **POC / demo Federico**: primo prototipo funzionante (web app/PWA installabile): dashboard prodotti (scrape dal sito), inventario/giacenze, carico con codice univoco prodotto (anti-furto, seriale tipo IMEI → blocca furti personale part-time), **vendita con riconoscimento prodotto via computer vision** (modello fine-tuned, gira in locale sul telefono) + scansione seriale + blocco doppia vendita. Per prodotti con barcode standard (make-up) gestione semplice senza AI. Touch point venditori = l'app, con login → tracciamento performance/orari + possibile timbratura.
+- **Documentazione**: Carlo gira a Germano Requirement Log + brief discorsivo + (se la trova) slide architettura, così Germano riporta a Massi/Carmen. **Federico valida l'architettura prima dell'invio**.
+- **Prioritizzazione registrazione vs predittivo**: su indicazione Carmen/Massimiliano la **registrazione/inserimento dati (form unico)** passa davanti all'**ingestion storico 5 anni → modello predittivo** (era la Fase 1 pensata). Da **confermare formalmente via email da Germano + Massi**.
+- **Ingestion dati**: call con Carmen settimana prossima; Carmen sta già **pulendo i dati** così Fed+Simone procedono subito dopo.
+- **Connettività (multisim)**: Germano valuta con Carmen quanto è impattante; gli mandiamo la soluzione.
+- **DECISIONE — I Love Ric fuori perimetro**: Germano chiarisce che è un'attivazione make-up ad Arese, iniziata 2 mesi fa, in chiusura tra ~1 mese → **non si implementa nel progetto** (supera lo "stand-by" del 1/6).
+- **Opportunità**: il modulo tracking prodotti anti-furto è agnostico → Germano verifica interesse interno BAT per estenderlo ai tabacchini.
+- **Deadline**: settembre, delivery unica Eye Cookies + Operation Transformation in parallelo.
+- **Perimetro Totem**: la proposta Totem (kit multi-SIM) è ragionata nello stesso tavolo Germano+Massi ma resta **scope [[Eye Cookies]], NON Operation Transformation** (solo cross-ref).
+- **Logistica spedizione prodotti**: coordinamento delegato al contatto diretto **Federico ↔ Laila** (Carlo presenta Federico come ricevente all'indirizzo già condiviso, no naming fornitore).
+- 📎 Fonte: trascrizione `Operation Transformation _ Allineamento bisettimanale.docx` (call 4/6, 30 min). Performance → [[30 - Areas/Area - Performance & Coaching/2026-06-04 - Carlo Performance — Call Operation Transformation bisettimanale]].
+
+### 2026-06-01 — Call "Allineamento richieste tecniche" Carlo ↔ [[Carmen Compare]] (50 min, Teams)
+- Allineamento tecnico Modulo Vendite + ingestion dati. Sintesi (parte non riservata):
+  - **Carmen confermata referente ingestion dati** per [[Federico Saladino (Soolutions)|Federico]]+[[Simone Montanari (Soolutions)|Simone]]: possono fare riferimento a lei per la parte dati. Carlo organizza la call dati col team dev. → chiude l'attesa "referente NoLoop per ingestion storico" aperta dal 14/5.
+  - **Documento campi Form confermato completo e invariato** (screen inviati da Carmen): riferimento per lo sviluppo.
+  - **Qualità dati storici**: vendite ancorate a codice univoco (1 codice = 1 vendita) → affidabili sul totale; possibili errori su modello/colore/data. Carmen prepara 2-3 dubbi sulla struttura cartelle per Fed+Simone.
+  - **API BAT/PARD ancora 0** — Justin non ha sbloccato nulla; BAT "è come un ministero". Nuova leva: NOT in sede da BAT **venerdì 5/6** → pressing in loco + **escalation via [[Massi Sinigaglia|Massi]]**. HeyAI disponibile a spiegare a BAT l'uso dati in ambienti protetti. **Lunedì 8/6 re-sync** Carlo↔Carmen. Senza API si procede con RPA (più fragile) → conviene a NOT ottenere le API.
+  - **Approccio prototipo "form unico" (dentro roadmap €109K, senza effort extra)**: partire dall'**app NOT esistente** (Excel a step) come base, aggiungendo i campi Form BAT+PARD → registrazione su **una sola piattaforma** invece di tre. Poi: (1) alert campi mancanti allo scarico; (2) [[Carmen Compare|Carmen]] admin corregge e lancia; (3) riconciliazione magazzino↔POS. **Step successivo**: app HeyAI con **scansione prodotto** (computer vision online/offline) sostituirà l'app NOT. Posizione Carlo: tenere la roadmap, niente costi extra.
+  - **Blocco campi obbligatori** al submit. Carmen: senza blocco è "certezza matematica" che i promoter saltino campi.
+  - **Prossimo passo Carlo**: mercoledì 3/6 allinea Federico+Simone (priorità integrazione piattaforme); comunica Carmen come referente. **Nessuna email di recap inviata** (scelta Carlo).
+- ⚠️ **Nota riservatezza**: la call ha toccato temi operativi riservati, esclusi dal log su scelta esplicita di Carlo (no recap, no registrazione). Analisi gestione rischio (senza how-to) → [[30 - Areas/Area - Performance & Coaching/2026-06-01 - Carlo Performance — Call NOT Allineamento richieste tecniche (Carmen)]].
 
 ### 2026-05-29 — Carmen Compare (CC Justin) chiede call su "questioni tecniche" della piattaforma
 - **Email inbound Carmen→Carlo (CC Justin), oggetto "Richieste tecniche"** (29/5 16:21): *"Io e Justin stavamo riflettendo su alcune questioni tecniche intorno alla piattaforma di cui vi state occupando... lunedì siamo operative... se avevi in programma un weekend lungo, rimetto a te la scelta della data."* Primo canale proattivo lato cliente sul thread dopo ~2 settimane di silenzio (ultimo scambio sostanziale 14/5).
@@ -196,6 +235,18 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 
 > "concreto rischio che non ce le diano (le API), anche se stiamo lavorando ai fianchi per insistere"
 > — **Justin Lauro**, 30/04/2026 (status API BAT/PARD; conferma necessità piano B RPA)
+
+> "se ci mettiamo nelle mani di BAT che deve sviluppare delle API, se non ce le hanno ci finiamo fra due anni e mezzo"
+> — **[[Germano Marano]]**, 04/06/2026 (rischio dipendenza da BAT sulle API → spinge per un'alternativa nostra)
+
+> "io sono parte del team, dai"
+> — **[[Germano Marano]]**, 04/06/2026 (chiusura call — si posiziona come alleato interno)
+
+> "voi che siete magici con la tecnologia, secondo te si potrebbe automatizzare questo inserimento?"
+> — **[[Carmen Compare]]**, 01/06/2026 (richiesta automazione inserimento vendite)
+
+> "l'integrazione con le piattaforme esterne e quindi la possibilità di fare un'unica compilazione e poi automatizzare il resto, è la priorità in assoluto. E partiamo da quello"
+> — **Carlo**, 01/06/2026 (priorità sviluppi NOT, con mandato di Massi)
 
 ## Pattern operativi NOT
 
