@@ -51,3 +51,30 @@ aliases: [Handover chiusura F1, Handover sync QA 7-6]
 
 ## 7. Lezione (per onestà di processo)
 F1 è stato chiuso a metà: routine **fatte partire** ma **loop di ritorno (sync) non pianificato come step esplicito** + bug push-branch. Carlo l'ha intercettato. La prossima volta: una nuova automazione non è "fatta" finché il suo output non **atterra nella fonte dati primaria** (il vault/Obsidian) ed è **provata end-to-end**, non solo creata.
+
+## 8. ✅ Cross-check completezza (7/6) — verificato contro tutte le fonti, NIENTE perso
+> Incrociato: Roadmap (6 fronti) · F2 plan §6 · KB Solidity Report §4-6 · F2 handover §7/§10 · Open Questions · questo handover. Sotto, TUTTO ciò che resta con la fonte canonica.
+
+### A) Lavoro di SISTEMA (i fronti) — focus delle prossime sessioni
+- **F1 chiusura**: i 7 gap §3 + Mac-off §4 + piano §5.
+- **F3 — Skill custom** (Roadmap §F3): (a) skill **`vault-health`** (consolida link-checker+moc+system-consistency); (b) skill **ingest "raw→vault"** generica (oltre `transcript-processing`); (c) **`wiki-lint`** + **`obsidian-cli orphans/unresolved`** + accendere **`episodic-memory`**; (d) **`ruflo` confermato OFF** ma serve **riavvio Code** per scaricare gli hook; (e) raccogliere le **skill custom che Carlo ha in mente** + le lezioni di **"Insight"**.
+- **"Insight" — 6 raccomandazioni PKM aperte** (Roadmap §7, sessione 11/5) → confluiscono in F3/F6: pattern-scan "vault generativo", MOC tematici, Progressive Summarization L4, resurfacing, tagging concettuale, distill-before-archive.
+- **F4 — Sessioni/worktree Code**: convenzione worktree (1/task, naming, lifecycle, pruning) + come `recap`/`code-sessions-index` alimentano il vault + **pulizia 33 branch `claude/*`** (verificati 0 commit unici → safe) + worktree residue.
+- **F5 — CLAUDE.md Code-first**: incipit "ogni chat Cowork"→Code + **§9 tabella scheduled** (chi gira dove, cloud/local) + R1/R2 già dentro ✅.
+- **F6 — Cadenza ricorrente**: meta-loop weekly-review *del sistema* (routine cloud) + assorbe le raccomandazioni Insight.
+- **Git history** (F2 handover §7): opzione `git filter-repo` per ripulire i segreti redatti dal commit `8435d2b` PRIMA del prossimo push, **se** vuoi history pulita (repo privato + credenziali ruotate = già accettabile).
+- `dashboard-refresh-manual` resta **on-demand** (non migrato a routine, intenzionale).
+
+### B) Azioni operative Carlo pending
+- **Riavviare Claude Code** → scarica hook ruflo-off (config a posto) — F2 handover §10.
+- **🔐 SICUREZZA** (Open Questions): rotazione credenziali = fatta ✅ (Carlo 7/6) → verificare copra anche i **2 token onboarding LeadMe** + gli **SMB path Eldis** in chiaro su Teams; spostare in password manager.
+- I punti del §6: 4 checkbox OT da confermare · PDF Wave2 copertina €315K→€300K · numeri `[PROPOSTA]` PresidIA · #16 grezzi + `axel.txt` da cancellare a mano · `HeyAI Job descriptions.txt` vuoto (ri-esporta solo se serve, minore).
+
+### C) Open items PROGETTO/governance — vivono in `99 - System/Open Questions` (tracciati lì + dal PM Digest; NON sono lavoro di sistema, ma da NON perdere)
+- **#19/#29** IP Soolutions Wave 2: accettazione verbale ✅, **contratto interno HeyAI↔Soolutions da formalizzare** prima firma cliente (avv. Longo).
+- **#35** Stato contrattuale NOT: non firmati ✅ bonificato 7/6; restano **strategia di formalizzazione** + cosa comunicare a Verrangia + sollecitare Donzelli + **recuperare i documenti primari** (email approvazione 03/04 + fatture acconti, oggi non a vault — gap probatorio Solidity §5) per l'audit fiscale.
+- **#36** 🔴 Due diligence **"Paolo Verrangia"** (possibile background frode fiscale): invio documenti **SOSPESO** finché non chiude la verifica (Roberta + ODCEC + CCIAA).
+- **#31-33, #38** Angelini Academy: soft-defer ✅; restano identità concorrente, economia FuturItaly 2026, **Forum-Nobel = visione non asset** (non presentarlo come realizzato), pricing da blessare.
+
+### Catena canonica dei doc (ordine di lettura)
+`CLAUDE.md` → **questo handover** → `KB Solidity Report` → `Routines/_README` → (fronti) `Roadmap Second Brain Code-era` → (progetto/governance) `Open Questions`. Gli altri handover in inbox (Angelini *) = lavoro-progetto, non sistema.
