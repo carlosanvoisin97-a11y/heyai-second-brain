@@ -34,7 +34,7 @@ aliases:
 - **Posizionamento**: leva = full service scalabile end-to-end (operations+allestimenti+vendite+formazione+dati). Competitor diretto **Pardgroup** (anche partner su BAT); indiretti agenzie eventi/promozione.
 - **GTM/Marketing**: tutti gli asset digitali da creare ex novo (no sito, no LinkedIn pubblico). Priorità 12 mesi: lead qualificati → sales enablement (case study/pitch/sito) → awareness → social. Canali: LinkedIn B2B + in-store.
 
-> 🔺 **Da triagiare** (§15): "Andrea" (lead gen interno NOT, junior→senior) non ha scheda persona dedicata — creare solo su conferma Carlo.
+> 🔺 **Da triagiare** (§15): "Andrea" (lead gen interno NOT, junior→senior) non ha scheda persona dedicata. _(7/6: Carlo → **NON creare**.)_
 
 ## Landscape competitivo (dettaglio) 🔒
 

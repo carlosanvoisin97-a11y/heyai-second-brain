@@ -44,23 +44,23 @@ tags: [system, kb-solidity, audit, F2]
 
 ### 🔴 Alta (errori fattuali / documento cliente)
 
-1. **`20 - Projects/NOT/Operation Transformation.md` — sezione "Materiali e contratto"** riporta ancora *"📄 Contratto firmato (03/04/2026 — Paolo Donzelli) — €109.000"*. **Contraddice** la rettifica 21/5 dello stesso file ("emesso NON firmato"). → Residuo append-only mai bonificato. **Bonifica**: allineare/barrare quella riga.
-2. **`99 - System/Master Facts Sheet.md` — tabella Eye Cookies** ha ancora una riga *"Firma | 03/04/2026 (Paolo Donzelli)"*. **Contraddice** le righe "documento contrattuale MAI prodotto / approvazione commerciale (≠ firma)" dello stesso file. **Bonifica**: "Firma" → "Approvazione commerciale via email 03/04". *(Tocca Master Facts → §5, fallo tu o dammi l'ok.)*
-3. **PDF ufficiale Wave 2** `Noloop_Wave2_..._updated_5_2026-04-13.pdf`: la **copertina (pag. 1) dice €315K**, il corpo (pag. 2+10) dice **€300K**. È il documento che va a cliente/Verrangia → **difetto da correggere prima di qualsiasi invio**. Inoltre il file `...updated 2105.pdf` citato nel Log 21/5 di `_Wave 2 NoLoop` **non esiste nel vault** (solo l'updated_5): riferimento da riconciliare.
+1. ✅ **BONIFICATO 7/6** — OT "Contratto firmato 03/04" → riga allineata a "emesso NON firmato" (riconf. Carlo).
+2. ✅ **BONIFICATO 7/6** — Master Facts "Firma 03/04" (Eye Cookies) → "Approvazione (NON firma)" (Carlo).
+3. **PDF Wave 2 copertina €315K vs €300K** — €300K **confermato canonico** (Carlo 7/6). Resta da **rigenerare la copertina PDF** prima di invio esterno (difetto già flaggato in `_Wave 2` Log 21/5). Il file "updated 2105.pdf" citato = probabile refuso per `updated_5`. ⏳ azione aperta (PDF).
 
 ### 🟡 Media (incoerenze numeriche / da confermare)
 
-4. **PresidIA Revenue Share**: Master Facts riga 143 = **€40K**, righe 169/180 = **€44K**. Stesso file, due valori. → Decidere quale vince.
-5. **PresidIA Jakala**: **€25K** (quotazione finale, righe 169/180) vs **€27K** (scenario split righe 198/199). Allineare o marcare lo scenario split come superato.
-6. **Eye Cookies margine 73%** oltre il limite §2.2 (60%): compromesso consapevole già a vault, ma **fragile** (Federico "più soldi" 28/5). Da chiudere il numero prima di contrattualizzare.
+4. ✅ **RISOLTO 7/6** — PresidIA Revenue Share: canonico provvisorio **€44K** (MF riga 143 aggiornata; NON definitivo).
+5. ✅ **RISOLTO 7/6** — PresidIA Jakala: canonico provvisorio **€27K** (righe storiche 169/180/198 restano come analisi-scenario datata).
+6. ✅ **CORRETTO 7/6** — Eye Cookies: il costo €55K del verifier era errato; **costo reale €36K** (Carlo) su €75K → margine **€39K / cost-ratio 48% ✅** (entro §2.2). Watch: Federico "più soldi" 28/5 potrebbe alzarlo.
 7. **4 checkbox OT** chiusi in F2 Fase 2 marcati `[reconciled — verificare]` (call 1/6 avvenuta) → confermare le chiusure.
 8. **Framing Angelini "gara ancora attiva"** (CLAUDE.md §6 / Master Facts): impreciso post-5/6. Realtà = la **gara comunicazione** (social+restyling+editoriale) è **PERSA** (concorrente, contratto lug'26→lug'27); resta solo uno **spiraglio separato sull'architettura**, deferito al **2027** e condizionato al budget. → Sharpening raccomandato.
 
 ## 5. Item aperti / non verificabili (per "la parte di Carlo")
 
 - **Gap probatorio**: email approvazione Donzelli 03/04 (Eye Cookies) + fatture/acconti NOT non esistono come documenti primari nel vault — solo conferma verbale (rettifica 21/5) + scambio Calajò 27/4. Se servono a fini fiscali/Verrangia, recuperarli.
-- **Numeri `[PROPOSTA]`** da confermare (F2 Fase 3): PresidIA €15-20K integrazione pagamenti · €7K/agente pattern-detection · 96-98% accuracy OCR; Futuritaly **CRM ~€90K**.
-- **`axel.txt`** (🔴 §13, F2 Fase 5): conflitto retributivo soci + exit-advice → non committato, decisione Carlo.
+- **Numeri `[PROPOSTA]`** da confermare (F2 Fase 3): PresidIA €15-20K integrazione pagamenti · €7K/agente pattern-detection · 96-98% accuracy OCR. _(Futuritaly CRM ~€90K **ritirato 7/6**: Carlo non lo riconosce → rimosso da `_Futuritaly`/Claudia, probabile sovra-estrazione del subagent dalla call 7/4.)_
+- _(voce sensibile §13 rimossa su richiesta Carlo 7/6.)_
 - **Persone "Da triagiare"**: Andrea (NOT), Chiara Giuliani + Renato Savastano (Eldis).
 
 ## 6. Raccomandazioni

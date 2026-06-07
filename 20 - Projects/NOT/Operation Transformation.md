@@ -96,7 +96,7 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 ## Materiali e contratto
 
 - 📄 NOT_Proposta di Investimento_Moduli Logistica & Vendite.pdf (03/03/2026, su SharePoint)
-- 📄 Contratto firmato (03/04/2026 — Paolo Donzelli) — **Importo €109.000** (Logistica + Vendite)
+- 📄 Contratto **emesso NON firmato** da Donzelli (03/04/2026 — rettifica 21/5, riconfermato Carlo 7/6) — **Importo €109.000** (Logistica + Vendite); acconto incassato comunque
 - 📄 Aggiornamento proposta investimento (10/04 — Andrea a Paolo)
 - 📊 requirement log NOT.xlsx (02/03/2026, fasi F0 setup + F1+ features)
 - ✅ **9 correzioni critiche applicate al contratto** (IP, GDPR, obblighi cliente, integrazioni condizionate)

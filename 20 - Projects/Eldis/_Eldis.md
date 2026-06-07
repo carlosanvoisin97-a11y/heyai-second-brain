@@ -34,7 +34,7 @@ aliases:
 - **Canali comunicazione**: Newsletter Mailchimp (4-5/mese), cataloghi cartacei Selection/Reset, sito (rifatto feb 2025), portale B2B "Eldis Shop", Instagram, LinkedIn, YouTube (lancio 2025). No WhatsApp/paid ads.
 - **Timeline discovery (date dal doc fondativo, anno 2025)**: kick-off 22/5 · workshop processi 27/5 · proposta Marketing&AI 16/6 · deep dive Compilatore 26/6 · allineamento Fase 1 2/7 · roll-out progressivo estate; Loyalty mobilieri Q1 2026.
 
-> 🔺 **Da triagiare** (§15): "Chiara Giuliani" (Marketing Specialist, liaison operativo) e "Renato Savastano" (vendite) non hanno scheda persona — creare solo su conferma Carlo. ("Antonio & Giovanna" Project Sponsor = [[60 - People/Antonio Cecchi]] / [[60 - People/Giovanna Cecchi]] già presenti.)
+> 🔺 **Da triagiare** (§15): "Chiara Giuliani" (Marketing Specialist, liaison operativo) e "Renato Savastano" (vendite) non hanno scheda persona. _(7/6: Carlo → **NON creare**.)_ ("Antonio & Giovanna" Project Sponsor = [[60 - People/Antonio Cecchi]] / [[60 - People/Giovanna Cecchi]] già presenti.)
 
 ## Riferimenti
 - Master Facts: [[99 - System/Master Facts Sheet]] §"Eldis"

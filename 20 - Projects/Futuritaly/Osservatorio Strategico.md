@@ -106,7 +106,7 @@ Jakala (vedi [[Jakala]]) ha proposto l'Osservatorio Strategico a **€38.000** (
 - **AI agent**: scoring applicabilità 0-100% sul profilo cliente
 - **Output**: dashboard riepilogo + dettaglio bando con suggestion AI + template procurement/grants
 - **MVP**: ANAC accreditamento 3-8 settimane (esterno) NON blocca MVP — go-live con fonti pronte, ANAC al completamento
-  - _[Da call 7/4/2026, F2 ingest — PROPOSTA da confermare con Carlo/Giulia]_ FuturItaly dichiara di essere **probabilmente già accreditata ANAC** (firma digitale già risolta): se confermato, rimuove lo scoglio "3-8 settimane" sopra e anticipa il go-live a fonti complete.
+  - ✅ _[confermato Carlo 7/6]_ FuturItaly è **già accreditata ANAC** (firma digitale risolta) → lo scoglio "3-8 settimane accreditamento" sopra **NON si applica**: go-live anticipabile a fonti complete.
 
 ## ⚠️ Vincolo IP bando MEF
 

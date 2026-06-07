@@ -23,7 +23,6 @@ note: FuturItaly è sia cliente diretto (Osservatorio Strategico per loro studio
 
 - [[_Angelini Academy]] (sotto `Futuritaly/Angelini Academy/`) — gara competitiva sito Angelini Academy, Q&A 8/5
 - [[FutureKids]] — potenziale, prospect (status: prospect, no commit)
-- **CRM avanzato strategico** (filone emerso call 7/4/2026, distinto dall'Osservatorio) — gestionale proattivo/intelligente che [[60 - People/Claudia Bugno|Claudia Bugno]] "cerca da una vita, dai tempi di Invitalia" (vista direzionale proattiva, non solo task/memo). Cifra orientativa data da Carlo in call: **~€90K ±10 [PROPOSTA da confermare]**. Modello **proprietario** (no subscription), ~10 interviste pre-sviluppo; l'[[Osservatorio Strategico]] (modulo ricerca) alimenterebbe il CRM (ecosistema unico, viste per ruolo). Prossimo passo: presentarlo a Claudia. Stato: filone aperto, non quotato formalmente. _[fonte: trascrizione call 7/4, F2 ingest]_
 
 ## Partnership commerciale bidirezionale (filone attivo dal 3/6/2026)
 

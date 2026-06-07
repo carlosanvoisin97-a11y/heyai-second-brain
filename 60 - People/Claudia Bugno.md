@@ -28,8 +28,6 @@ Profilo: **esigente, ha standard alti, ha già rifiutato proposte in passato**. 
 
 Doppio canale di protezione: [[Lavinia Ferrari]] è co-founder informale di [[PresidIa]] (referral di [[Marco Murolo]]), quindi il rapporto FuturItaly va preservato anche per il canale Studio Murolo.
 
-Background (da call FuturItaly 7/4/2026, F2 ingest): **ex Invitalia** (Paolo Passaro e collega lavoravano con lei lì da ~10 anni). Ha in testa fin dai tempi di Invitalia l'idea di un **CRM strategico proattivo** (allora cartaceo/PowerPoint, pre-AI): vista direzionale su andamento società, prossimi passi, opportunità perse per inazione. Le soluzioni di mercato non le sono mai bastate ("gestionali statici, non proattivi") → si lega al filone **CRM avanzato ~€90K** (vedi [[_Futuritaly|FuturItaly]]).
-
 ## Partnership agevolazioni fiscali (in lavorazione)
 
 Discussione aperta tra **[[Bruno Mattucci]] ↔ Claudia Bugno** su collaborazione bidirezionale:
