@@ -47,3 +47,35 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 - Sorgente originale (non più autoritativa): `~/Documents/Claude/Scheduled/<task>/SKILL.md` (scheduler Cowork).
 - **ruflo**: spento (decisione Carlo) — niente cron/loop worker ruflo.
 - Quando attivi il cloud, aggiorna CLAUDE.md §9 (tabella scheduled) per riflettere chi gira dove (regola §15.quater).
+
+## 🔄 Sync Obsidian ↔ GitHub — plugin Obsidian Git (ATTIVO dal 7/6/2026)
+
+> Chiude il **gap #1** del handover F1: le routine cloud pushano su GitHub ma, senza auto-pull, l'output non tornava in Obsidian. Plugin **Git** (Vinzent03) **v2.38.3**, installato+abilitato da Carlo 7/6 (22:10); `data.json` configurato dall'agente Code 7/6 (~22:5x).
+
+**Direzioni coperte**
+- **Obsidian → GitHub** (backup + propagazione): auto *commit-and-sync* ogni 10 min. ✅ **PROVATO** 7/6 22:56 — commit `4dbb73c "vault auto-sync (Obsidian)…"` committato e **pushato** su `origin/main`, rispettando `.gitignore` (nessun segreto plugin — vedi blindatura).
+- **GitHub → Obsidian** (output routine cloud): auto-*pull* ogni 10 min + pull-on-boot. ⏳ Configurato; **prova end-to-end** col primo "Run now" di una routine cloud (Step 2 handover): la sua push deve comparire in Obsidian entro ≤10 min.
+
+**Config `data.json`** — il file è **gitignorato** (può contenere PAT) → questa tabella è il record di ripristino. Ricrearlo in `.obsidian/plugins/obsidian-git/data.json`:
+
+| Campo | Valore | Perché |
+|---|---|---|
+| `autoSaveInterval` | `10` | commit-and-sync ogni 10 min (Obsidian→GitHub) |
+| `autoPullInterval` | `10` | pull ogni 10 min (GitHub→Obsidian) — il pezzo che chiude il gap #1 |
+| `autoPullOnBoot` | `true` | all'apertura di Obsidian recupera subito l'output routine cloud |
+| `pullBeforePush` | `true` | evita reject non-fast-forward quando il cloud ha pushato prima |
+| `syncMethod` | `merge` | non distruttivo (no rebase/reset) |
+| `autoCommitMessage` | `vault auto-sync (Obsidian): {{date}}` | rende riconoscibili i commit di backup locale |
+| `listChangedFilesInMessageBody` | `true` | i file toccati nel corpo del commit → auditabilità (compensa la perdita del review per-file sui commit auto) |
+| `disablePopups` / `…ForNoChanges` | `false` / `true` | popup solo quando sincronizza davvero; silenzio sui tick a vuoto |
+
+**Blindatura sicurezza `.gitignore`** (fatta PRIMA di accendere l'auto-push, l'auto-sync fa `stage-all`): ignorata l'intera `.obsidian/plugins/` (i `data.json` dei plugin possono contenere segreti: Copilot→API key, Git→PAT) + `copilot/` (prompt+indice plugin = PII derivata dal vault). La lista plugin resta in `.obsidian/community-plugins.json` (ripristinabile). Verificato 7/6: il commit auto `4dbb73c` non contiene `plugins/`/`copilot/`/`data.json`.
+
+**Tre tipi di commit nel repo** (per la tabella "chi gira dove" → CLAUDE.md §9):
+1. `vault auto-sync (Obsidian): …` = backup locale di Carlo (plugin, `stage-all`, ogni 10 min, solo ad app aperta).
+2. commit con messaggio descrittivo per-file = lavoro di sistema dell'agente Code.
+3. commit delle **routine cloud** = output digest/audit (push diretto su `main`, vedi §"Attivazione").
+
+**Interazione col lavoro agente**: l'auto commit-and-sync fa `stage-all` ogni 10 min → quando l'agente Code lavora su `main`, deve committare i propri cambi **per-file e prontamente** (entro la finestra) per non farli assorbire in un commit generico. Non è rischio dati (il contenuto è comunque salvato+pushato), solo di provenienza/messaggio.
+
+**Azioni Carlo**: (1) quando il sync è validato, opz. `disablePopups: true` per togliere i popup; (2) tenere Obsidian aperto ogni tanto perché il sync (come gli audit) è app-bound finché non si valida la pull dal cloud.
