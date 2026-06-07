@@ -36,3 +36,14 @@ _DA_DOWNLOADS_*/
 # Import KB grezza F2 — semi-distillata Desktop (PII): messa in salvo, ingest selettivo nel vault
 80 - Sources/Files/_import-2026-06-06/
 _import-*/
+
+# === Obsidian community plugins (aggiunto 7/6 — attivazione sync Obsidian Git) ===
+# Codice/binari dei plugin: ricaricabili dallo store, non sono knowledge → fuori dal repo.
+# 🔴 CRITICO sicurezza: i data.json dei plugin possono contenere SEGRETI (Copilot → API key; Git → PAT).
+# L'auto-commit-and-sync fa stage-all+push ogni 10 min: ignorando l'intera cartella, nessun segreto
+# finisce su GitHub in automatico. La lista plugin resta versionata in .obsidian/community-plugins.json
+# (= ripristinabile). La config di Obsidian Git è documentata in 99 - System/Routines/_README.md.
+.obsidian/plugins/
+
+# Copilot plugin — prompt custom + eventuale indice/chat (PII derivata dal vault) → fuori dal repo
+copilot/

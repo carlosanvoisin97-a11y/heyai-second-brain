@@ -192,3 +192,52 @@ Primo run del task `system-consistency-check` (file `System Consistency Audit.md
 - 🟡 `crm-velocity` SKILL riga 103: rimosso riferimento stale a `weekly-digest`, riformulato.
 - 🟡 `crm-velocity` labeling: CLAUDE.md §9 allineato su cron base "Lun 9:00" (era "Lun 9:08").
 - 🟡 `pm-digest-mattutino`: CLAUDE.md §9 allineato su cron base "Lun-Ven 8:00"; frontmatter YAML duplicato rimosso nel SKILL.
+
+---
+
+## Audit 2026-06-07 (run automatico — architettura dual cloud+local)
+
+> Primo run dopo l'adattamento F1 7/6 (scheduler dual). Task LOCALE best-effort. Audit scheduler locali + file routine; le routine cloud (claude.ai) NON sono introspezionabili da locale. **Non committato** — lasciato per review Carlo (§15).
+
+### 🔴 CRITICO — il "battito" è fermo (PM Digest flatline)
+
+- **Ultima daily note: `2026-05-27` → 11 giorni fa** (oggi 7/6). Il PM Digest non produce output da prima dell'intervento F1.
+- Stato reale dei due possibili motori:
+  - **Bridge Code-locale `pm-digest-mattutino`**: `enabled=false` (disabilitato 7/6, "sostituito dalla routine Remota cloud"). → non gira.
+  - **Routine cloud su claude.ai**: presunta attiva nel `_README` ("sostituito dalla routine Remota cloud unattended"), ma **nessuna daily note prodotta in 11gg** → o non è ancora stata creata su claude.ai (l'attivazione è un'azione browser di Carlo, ~5min, descritta come istruzione nel `_README` §"Attivazione"), oppure gira ma fallisce headless (token M365 scaduto, vedi `_README` ⚠️).
+- **Azione Carlo (verificare a mano su claude.ai)**: (a) confermare che la routine cloud `pm-digest-mattutino` esista e sia schedulata; (b) verificare auth connettori M365 (Outlook/SharePoint) nel pannello; (c) se il cloud non è ancora attivo, ri-abilitare temporaneamente il bridge locale (`pm-digest-mattutino` enabled=true) per non restare scoperti.
+
+### 🟡 Drift CLAUDE.md §9bis vs scheduler Code reale (3)
+
+| # | Doc §9bis dice | Realtà (live `list_scheduled_tasks`) | Fix |
+|---|---|---|---|
+| 1 | "scheduler separato con **due task**" (code-sessions-index + pm-digest bridge) | **Tre task**: `code-sessions-index` (on), `pm-digest-mattutino` (off), `system-consistency-check` (on, cron `30 7 * * 1`) | Aggiornare §9bis: 3 task, citare anche `system-consistency-check` come task locale. |
+| 2 | bridge pm-digest "gira quando Code è aperto" (best-effort **attivo**) | bridge `enabled=false` (disabilitato 7/6, superato da cloud) | Correggere §9bis: il bridge è dormiente/fallback, non attivo. Coerente con la description del task e col `_README` §"Bridge attivo" (da rinominare "Bridge fallback"?). |
+| 3 | bridge cron "**8:02** Lun-Ven" | cron reale `0 8 * * 1-5` = **8:00** (jitter 145s) | Allineare §9bis a 8:00 (cron base) — coerente con `_README` che già dice `0 8 * * 1-5`. |
+
+### 🟡 Drift CLAUDE.md §9 (tabella) — non aggiornata per lo split cloud/local (2)
+
+| # | Drift | Fix |
+|---|---|---|
+| 4 | §9 elenca `cowork-sessions-index` (Ogni giorno 20:22) come **attivo**, ma il `_README` lo dà **RITIRATO** (sostituito da `code-sessions-index` nello scheduler Code). | Rimuovere/segnare ritirato `cowork-sessions-index` in §9; aggiungere `code-sessions-index` (cron `35 20 * * *`, scheduler Code). |
+| 5 | §9 non riflette lo split cloud/local: non indica chi gira dove (cloud claude.ai vs Code-locale vs Cowork legacy). Il `_README` §49 prescrive esplicitamente "Quando attivi il cloud, aggiorna CLAUDE.md §9". | Riscrivere §9 con colonna "dove gira" (cloud / Code-locale / manuale). Azione legata all'attivazione cloud. |
+
+### ✅ Consistente
+
+- **File routine** (`99 - System/Routines/`): tutti i 6 file dichiarati nell'inventario `_README` presenti (`vault-link-checker`, `moc-refresh`, `system-consistency-check`, `crm-velocity`, `weekly-review-interactive`, `pm-digest-mattutino`) + `_README`.
+- **Cron `_README` ↔ CLAUDE.md §9**: coincidono per tutti e 6 i task (vault-link-checker Dom 21:00 / moc-refresh Sab 16:00 / crm-velocity Lun 9:00 / weekly-review Sab 17:30 / pm-digest Lun-Ven 8:00 / system-consistency Lun 7:30).
+- **Disabilitati** §9 (`friday-wrap-up`, `weekly-digest`, `claude-chats-sync`) ↔ `_README` §29: coerente.
+- **Code scheduler**: `code-sessions-index` (cron `35 20 * * *`, on, ultimo run 6/6) e `system-consistency-check` (cron `30 7 * * 1`, on) coerenti con `_README`.
+
+### 🔵 Da verificare a mano su claude.ai (routine cloud — non introspezionabili da locale)
+
+Elenco atteso da attivare/verificare nel pannello Scheduled di claude.ai: `pm-digest-mattutino` (🔴 prioritario, vedi sopra), `vault-link-checker`, `moc-refresh`, `crm-velocity`, `weekly-review-interactive`. (`system-consistency-check` resta locale — audita gli scheduler locali, non portabile in cloud.)
+
+### 🟠 Cowork scheduler legacy (`~/Documents/Claude/Scheduled/`) — in dismissione
+
+- 11 cartelle ancora presenti (claude-chats-sync, cowork-sessions-index, crm-velocity, dashboard-refresh-manual, friday-wrap-up, moc-refresh, pm-digest-mattutino, system-consistency-check, vault-link-checker, weekly-digest, weekly-review-interactive). Contengono solo `SKILL.md`; lo stato `enabled` vive nel DB dell'app Cowork → **non introspezionabile da filesystem**.
+- **Rischio doppio-run**: se Carlo apre Cowork, i task legacy ancora abilitati (pm-digest, audit) possono partire e **duplicare** l'output delle routine cloud/local. Raccomandazione: una volta confermato il cloud, **disabilitare in blocco i task nel pannello Cowork** per evitare doppioni, lasciando solo `dashboard-refresh-manual` (on-demand).
+
+### Delta vs audit precedente (2026-05-14)
+
+I drift 14/5 erano tutti su scheduler **Cowork** (allora unico motore). Architettura cambiata radicalmente il 7/6 (dual cloud+local): l'audit precedente è ormai storico. I drift 1-5 di oggi sono **nuovi**, generati dalla transizione F1 non ancora completamente riflessa nella doc (§9/§9bis) — atteso per una transizione in corso, ma il punto 🔴 CRITICO (digest fermo) richiede azione immediata.
