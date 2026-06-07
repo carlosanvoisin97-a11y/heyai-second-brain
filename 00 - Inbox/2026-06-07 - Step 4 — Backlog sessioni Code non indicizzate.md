@@ -10,6 +10,15 @@ status: diagnosi — recovery + hardening da decidere
 
 > Prodotto in sessione 7/6 (notturna), Step 4 del [[2026-06-07 - HANDOVER — chiusura F1 (sync vault + QA + cattura Code)|handover F1]] — gap #5 "rischio knowledge persa". Diagnosi **read-only**: incrocio dei 57 JSONL vault-related (`~/.claude/projects/-Users-carlosanvoisin-claude*`) con i recap (`80 - Sources/Cowork Sessions/code-recap/`) + [[Code Sessions Log]].
 
+## ✅ ESEGUITO 8/6/2026 — recovery completo + hardening (Carlo: "recupero completo")
+
+- **Recovery**: 16 recap creati (16 subagent paralleli) in `code-recap/`. Esito chiave: **nessuna knowledge persa** — il contenuto era già nelle schede (cascata live in-sessione); mancavano solo i recap-indice. Classificazione: 11 vault-worthy · 2 technical-only (`83b3c5f7` skill /recap, `49df8298` run indexer) · 3 low-content/dedup (`7d763885`+`31b35b1d` copie di sessioni già indicizzate · `3dfa5063` personale §11 → stub). 9 piccole <300KB = skip-sotto-soglia. Run nel [[Code Sessions Log]] (8/6 00:54). Ri-conferma la cert. KB Solidity F2.
+- **Cascata = 0** (già in vault). **PROPOSTA per Carlo** (non applicate): drift pricing Angelini €47.5K floor/€52.7K cliente vs €49.5K core (→ Open Q #38); segnale rinegoziazione Eye Cookies al rialzo (Federico).
+- **Hardening — catch-up mode APPLICATO** al SKILL `code-sessions-index` (`~/.claude/scheduled-tasks/`, locale): ogni run fa un gap-scan di tutte le sessioni vault non rappresentate (recap o log) e le processa → **self-heal**, le sessioni fuori-finestra rientrano da sole (bound ~15/run).
+- **Hook on-session-end — NON implementato (rationale onesto)**: uno Stop hook è una shell, non può fare l'indicizzazione (richiede un LLM); accodare sarebbe **ridondante** col gap-scan (che trova comunque ogni JSONL non indicizzato). Il catch-up mode risolve l'identico obiettivo di reliability ("non dipendere dal cron best-effort 20:35") in modo più semplice e robusto. Se in futuro serve l'immediatezza a fine sessione, l'unica via sarebbe un hook che lancia `claude -p` headless (costoso, scartato ora).
+
+---
+
 ## 🔴 Finding
 **16 sessioni GROSSE (>300KB) del vault mai indicizzate** — né recap né traccia nel log — datate **2-6/6** (esclusa la sessione live `8af55255`). + 9 piccole (<300KB, probabile skip-soglia, priorità bassa).
 
