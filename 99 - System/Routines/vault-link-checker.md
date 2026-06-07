@@ -19,13 +19,13 @@ Lesson appresa 14/5/2026 (patch v4 alias-aware): il vault ha schede underscore-p
 
 ## Cosa puoi fare
 
-- Leggere tutti i file .md del vault (/Users/carlosanvoisin/claude/)
+- Leggere tutti i file .md del vault ()
 - Estrarre wikilink in formato [[<target>]] o [[<target>|<alias>]] o [[<target>#<heading>]]. Strip \\| (escape-pipe) dal target prima dello split alias.
 - Verificare che ciascun <target> esista come file del vault (qualsiasi estensione: .md, .png, .xlsx, .docx, .pdf, …) — basename match, Obsidian risolve ovunque sia.
 - (v4, 14/5/2026) Costruire un alias-index oltre al basename-index: per ogni .md del vault leggere il frontmatter YAML e, se contiene il campo aliases: (lista di stringhe), aggiungere ciascun alias all'indice come voce risolvibile verso il basename del file proprietario. L'indice alias va costruito DOPO l'indice basename e PRIMA del check dei wikilink. Leggere aliases: da TUTTI i .md del vault, anche dai file in EXCLUDE_PATHS (gli alias devono risolvere come TARGET ovunque siano definiti).
 - Estrarre riferimenti frontmatter parent_project:, projects: [...], related_project:, related_meeting:, stakeholders: [...] e verificare che puntino a file esistenti. Strippare quote YAML ("..." o '...') attorno al valore E wrapper [[ ]] prima del basename match.
-- Estrarre path string assoluti /Users/carlosanvoisin/claude/<path>.<ext> e verificare esistenza. Richiedere estensione esplicita nella regex. Scansionare i path string DOPO il code-stripping. Decodificare URL-encoding. Normalizzare i filename in NFC.
-- Creare/append al file /Users/carlosanvoisin/claude/99 - System/Vault Link Audit.md
+- Estrarre path string assoluti <path>.<ext> e verificare esistenza. Richiedere estensione esplicita nella regex. Scansionare i path string DOPO il code-stripping. Decodificare URL-encoding. Normalizzare i filename in NFC.
+- Creare/append al file 99 - System/Vault Link Audit.md
 - Eseguire rolling-window degli audit storici nel file vivo: prima di append del nuovo audit, sposta in archive mensile gli audit >7gg dalla data odierna.
 
 ## Cosa NON puoi fare mai
@@ -51,7 +51,7 @@ Lesson appresa 14/5/2026 (patch v4 alias-aware): il vault ha schede underscore-p
 
 # Algoritmo
 
-1. find /Users/carlosanvoisin/claude -name "*.md" -not -path "*/.*" — lista tutti i .md; applicare EXCLUDE_PATHS solo per la scansione
+1. find . -name "*.md" -not -path "*/.*" — lista tutti i .md; applicare EXCLUDE_PATHS solo per la scansione
 2. Costruire indice completo del vault (qualsiasi estensione, NFC-normalized)
 3. (v4) Costruire alias-index: per ogni .md del vault (TUTTI), parsare frontmatter YAML e leggere aliases:. Se presente, aggiungere ciascun alias normalizzato NFC a basenames_noext. Conservare mapping alias → owner_basename per logging.
 4. Per ogni file .md scansionato:

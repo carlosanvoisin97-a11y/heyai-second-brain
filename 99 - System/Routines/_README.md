@@ -33,10 +33,10 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 1. Su **claude.ai** → verifica che il connettore **GitHub** veda il repo privato `heyai-second-brain`, e che i **connettori M365** (Outlook/SharePoint) siano autenticati (servono al digest).
 2. Crea un **agente schedulato / routine** per ogni riga della tabella.
 3. **Prompt template** da incollare:
-   > *"Lavori in un clone del repo `heyai-second-brain` (cwd = root del repo). Esegui integralmente la routine definita in `99 - System/Routines/<FILE>.md`, trattando tutti i path del vault come **relativi alla root del repo** (i path assoluti `/Users/carlosanvoisin/claude/...` nel file sono Cowork-era: usali come relativi dalla root). Append-only §15, riservatezze §13. Al termine committa e pusha le modifiche."*
+   > *"Lavori in un clone del repo `heyai-second-brain` (cwd = root del repo). Esegui integralmente la routine definita in `99 - System/Routines/<FILE>.md` (i path del vault nel file sono **già relativi alla root del repo**, normalizzati 7/6). Append-only §15, riservatezze §13. Al termine committa e pusha le modifiche."*
 4. Imposta il **cron** della colonna (consigliato spostarlo di qualche minuto off `:00`/`:30` per non sovraccaricare il fleet, es. `7 21 * * 0`).
 
-⚠️ **Adattamento path**: i file portati contengono ancora path assoluti `/Users/...` (logica Cowork-era). Il template prompt sopra istruisce a leggerli come relativi; in alternativa si normalizzano i file in una sessione dedicata (chiedimelo).
+✅ **Path normalizzati** 7/6 (relativi alla root del repo) → i 6 file routine sono cloud-ready. _Restano riferimenti esterni `~/Documents/Claude/...` / `~/.claude/...` solo in `system-consistency-check` (audita lo scheduler locale): in cloud quella routine va ripensata o tenuta locale._
 ⚠️ **M365 in cloud**: il digest dipende dall'auth dei connettori su claude.ai; se il token scade il run headless fallisce (niente browser per ri-loggarsi). Il bridge locale (sotto) è la rete di sicurezza.
 
 ## Bridge attivo (interim)

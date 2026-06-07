@@ -13,7 +13,7 @@ CLAUDE.md §15 / §16 + ricerca best practices PKM 12/5/2026 raccomandazione #5.
 
 ### Cosa puoi fare
 
-- Leggere tutti i file `.md` del vault (`/Users/carlosanvoisin/claude/`)
+- Leggere tutti i file `.md` del vault (``)
 - Leggere il template `90 - Templates/Weekly Review.md` come base
 - Creare un nuovo file `00 - Inbox/YYYY-MM-DD - Weekly Review.md` (data = sabato del run, in caso di trigger manuale = oggi)
 - Pre-popolare sezione 1 (Inbox processing): lista dei file in `00 - Inbox/` con età >7gg, oggi - frontmatter `created:`

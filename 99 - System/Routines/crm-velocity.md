@@ -13,7 +13,7 @@ Vault Obsidian con 56+ schede persona in `60 - People/`. Frontmatter esteso incl
 
 ### Cosa puoi fare
 
-- Leggere tutti i file `.md` di `60 - People/` (`/Users/carlosanvoisin/claude/60 - People/`)
+- Leggere tutti i file `.md` di `60 - People/` (`60 - People/`)
 - Estrarre frontmatter campi: `last_contact`, `cadence_days`, `relationship_strength`, `next_touchpoint`, `top_quotes`, `role`, `company`
 - Calcolare `days_since_last_contact = today - last_contact`
 - Classificare in 3 bucket:
@@ -34,7 +34,7 @@ Vault Obsidian con 56+ schede persona in `60 - People/`. Frontmatter esteso incl
 
 ## Algoritmo
 
-1. `find /Users/carlosanvoisin/claude/60 - People -name "*.md" -not -path "*/.*"` — lista tutte le schede persona
+1. `find 60 - People -name "*.md" -not -path "*/.*"` — lista tutte le schede persona
 2. Per ogni file: estrai frontmatter (YAML parser standard)
 3. Skip se `last_contact` mancante o non parseable → registra in lista "schede da popolare manualmente"
 4. Calcola `days_since_last_contact` (oggi - last_contact in giorni)

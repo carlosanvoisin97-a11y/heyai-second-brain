@@ -15,10 +15,10 @@ CLAUDE.md §15.quater (NUOVO 13/5/2026) richiede che ogni cambio di scheduled ta
 
 ## Cosa puoi fare
 
-- Leggere CLAUDE.md (`/Users/carlosanvoisin/claude/CLAUDE.md`)
+- Leggere CLAUDE.md (`CLAUDE.md`)
 - Chiamare `mcp__scheduled-tasks__list_scheduled_tasks`
 - Leggere ogni SKILL file in `/Users/carlosanvoisin/Documents/Claude/Scheduled/<taskId>/SKILL.md`
-- Creare/append a `/Users/carlosanvoisin/claude/99 - System/System Consistency Audit.md`
+- Creare/append a `99 - System/System Consistency Audit.md`
 
 ## Cosa NON puoi fare mai
 
@@ -31,7 +31,7 @@ CLAUDE.md §15.quater (NUOVO 13/5/2026) richiede che ogni cambio di scheduled ta
 ## Algoritmo
 
 **Step 1 — Read CLAUDE.md §9**
-Apri `/Users/carlosanvoisin/claude/CLAUDE.md` e localizza la sezione §9 (Scheduled tasks attivi). Per ogni task documentato, estrai:
+Apri `CLAUDE.md` e localizza la sezione §9 (Scheduled tasks attivi). Per ogni task documentato, estrai:
 - Nome task (es. `pm-digest-mattutino`)
 - Stato atteso: ATTIVO vs DISABILITATO (marker: ~~strikethrough~~ o testo "[DISABILITATO]")
 - `cronExpression` attesa (cerca pattern cron in backtick o descrizione testuale tipo "Lun-Ven 8:02", "Domenica 21:00", ecc.)
@@ -62,7 +62,7 @@ Per ogni task nello scheduler, leggi il corrispondente SKILL file:
 
 **Step 5 — Build report**
 
-Apri `/Users/carlosanvoisin/claude/99 - System/System Consistency Audit.md`.
+Apri `99 - System/System Consistency Audit.md`.
 - Se il file non esiste, crealo con frontmatter YAML:
 ```yaml
 ---

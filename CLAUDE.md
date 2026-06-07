@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-05-05
-updated: 2026-06-06
+updated: 2026-06-07
 status: operational — refactoring M4 29/5/2026 (§15 vault-live + §10bis → skill vault-live-protocol; core sempre-attivo in CLAUDE.md; versioning git attivo) + Front 3 29/5 (§9bis due-scheduler Cowork-vs-Code + campanello digest-staleness hook)
 purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 ---
@@ -241,10 +241,10 @@ Disabilitati: `friday-wrap-up`, `weekly-digest`, `claude-chats-sync`. Per storia
 
 ### 9bis. DUE scheduler separati — leggere prima di fidarsi di `list_scheduled_tasks` (Front 3, 29/5/2026)
 
-Le automazioni di questa tabella vivono nello **scheduler di Cowork** (`~/Documents/Claude/Scheduled/`) e **girano SOLO quando l'app Cowork è aperta**. Claude **Code** (CLI) ha uno scheduler **separato** (`~/.claude/scheduled-tasks/`) con un solo task: `code-sessions-index` (indicizzazione sessioni Code, cron 20:35). Conseguenze operative:
+Le automazioni di questa tabella vivono nello **scheduler di Cowork** (`~/Documents/Claude/Scheduled/`) e **girano SOLO quando l'app Cowork è aperta**. Claude **Code** (CLI) ha uno scheduler **separato** (`~/.claude/scheduled-tasks/`) con **due task**: `code-sessions-index` (indicizzazione sessioni Code, cron 20:35) + `pm-digest-mattutino` (**bridge F1** 7/6/2026, cron 8:02 Lun-Ven, best-effort). ⚠️ Anche il Code scheduler gira **solo ad app Code aperta** (mai a Mac spento): l'unattended vero richiede **routine cloud su claude.ai** → vedi `99 - System/Routines/_README.md`. Conseguenze operative:
 
-- Lavorando **solo in Code** senza aprire Cowork, il PM Digest mattutino e tutti gli audit (link-checker, moc-refresh, crm-velocity, ...) **NON partono — in silenzio**. Nessuno se ne accorge finché non manca una daily note.
-- Il tool `mcp__scheduled-tasks__list_scheduled_tasks` (disponibile in Code) vede **SOLO lo scheduler di Code** → mostra `code-sessions-index` e basta. **NON è lo stato reale dei task Cowork** di questa tabella. Per quelli: aprire il pannello Scheduled dentro Cowork.
+- Lavorando **solo in Code** senza aprire Cowork, il PM Digest mattutino e tutti gli audit (link-checker, moc-refresh, crm-velocity, ...) **NON partono — in silenzio**. Nessuno se ne accorge finché non manca una daily note. _(update F1 7/6: il PM Digest ora ha un **bridge best-effort** nel Code scheduler → gira quando Code è aperto; gli audit restano Cowork-bound finché non attivi le routine cloud, vedi `99 - System/Routines/_README.md`.)_
+- Il tool `mcp__scheduled-tasks__list_scheduled_tasks` (disponibile in Code) vede **SOLO lo scheduler di Code** → mostra i suoi task (`code-sessions-index` + `pm-digest-mattutino` bridge) e basta. **NON è lo stato reale dei task Cowork** di questa tabella. Per quelli: aprire il pannello Scheduled dentro Cowork.
 - **Campanello automatico**: l'hook `SessionStart` in `.claude/settings.json` lancia `.claude/hooks/digest-staleness-check.sh` a ogni apertura sessione. Se l'ultima daily note è ferma da ≥2 giorni mostra un avviso (digest probabilmente non girato perché Cowork non è stato aperto). Per recuperare: aprire Cowork e lasciar girare il digest, o lanciarlo a mano.
 - **Regola pratica**: per *lavorare* sul vault (note, bozze, analisi) Code e Cowork sono equivalenti e sicuri — si può switchare liberamente. Per le *automazioni* no: sono legate a Cowork. Se passi giorni in Code, apri Cowork ogni tanto per far girare digest+audit.
 

@@ -7,7 +7,7 @@ Sei l'assistente di Carlo Sanvoisin (HeyAI Digital). Esegui audit settimanale de
 
 ## Razionale
 
-Il MOC - Home (`/Users/carlosanvoisin/claude/99 - System/MOC - Home.md`) è la dashboard di navigazione del vault Obsidian + entry-point del pre-flight check di ogni chat Cowork. È stato osservato driftare (data `updated:` stale, conteggi progetti errati, schede nuove non aggiunte ai cluster, wikilink broken). Questo audit rileva i delta e applica auto-patch sui sicuri, flagga i rischi a Carlo.
+Il MOC - Home (`99 - System/MOC - Home.md`) è la dashboard di navigazione del vault Obsidian + entry-point del pre-flight check di ogni chat Cowork. È stato osservato driftare (data `updated:` stale, conteggi progetti errati, schede nuove non aggiunte ai cluster, wikilink broken). Questo audit rileva i delta e applica auto-patch sui sicuri, flagga i rischi a Carlo.
 
 ## Vincoli operativi
 
@@ -42,7 +42,7 @@ Il MOC - Home (`/Users/carlosanvoisin/claude/99 - System/MOC - Home.md`) è la d
 
 ## Algoritmo
 
-1. `Read /Users/carlosanvoisin/claude/99 - System/MOC - Home.md` — file vivo
+1. `Read 99 - System/MOC - Home.md` — file vivo
 2. Scansionare via Glob/find:
    - Progetti attivi: `Glob 20 - Projects/**/*.md`, filtro fuori i file con "archiviata" nel nome o `status: archived` nel frontmatter
    - Persone: `Glob 60 - People/*.md`
@@ -57,7 +57,7 @@ Il MOC - Home (`/Users/carlosanvoisin/claude/99 - System/MOC - Home.md`) è la d
    - Cluster persone (estrai i nomi citati)
    - Cluster progetti (estrai i progetti citati)
    - Sezione "🔧 Sistema vault — file di setup e log" (estrai i file system citati)
-4. Verificare Master Facts: `Read /Users/carlosanvoisin/claude/99 - System/Master Facts Sheet.md` solo riga 1 (titolo) per estrarre versione + frontmatter per `updated:`
+4. Verificare Master Facts: `Read 99 - System/Master Facts Sheet.md` solo riga 1 (titolo) per estrarre versione + frontmatter per `updated:`
 5. Calcolare delta + identificare auto-patch vs flag
 6. APPLY auto-patch direttamente sul MOC (Edit chirurgico):
    - Frontmatter `updated:` → oggi YYYY-MM-DD
