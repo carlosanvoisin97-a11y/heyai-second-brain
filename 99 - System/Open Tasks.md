@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-05-29
+updated: 2026-06-07
 ---
 
 # ✅ Open Tasks
@@ -8,6 +8,8 @@ updated: 2026-05-29
 Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente PM Digest (8:02 lun-ven).
 
 > **Nota reconcile manuale 29/5 (audit vault — Front 1)**: ripuliti i **41 task chiusi** (`- [x]`/`- [-]`) che erano rimasti nelle sezioni Priorità #p1/#p2 (residuo accumulato perché il PM Digest, che fa questo reconcile allo step 5e, non gira da 26/5). 11 erano duplicati già presenti in "Recentemente chiusi" → rimossi; 30 relocati lì preservando testo+provenienza. Le sezioni Priorità ora elencano **solo task realmente aperti**. Nessun checkbox cambiato di stato, nessun task aperto toccato. I task chiusi >7gg verranno archiviati in `50 - Archive/Open Tasks/2026-05.md` al prossimo run del Digest.
+
+> **Nota PM Digest 7/6/2026 GAP (27/5→7/6)**: ⚠️ **GAP 11gg coperti in retrospettiva**: 20 email rilevanti (su 89 lorde), 7 meeting avvenuti nel gap, 4 file SP, 1 chat Teams. **10 task nuovi aggiunti** (7 in #p1, 3 in #p2). **Alert critici**: 🔴 F24 maggio DA VERSARE ENTRO 16/06 (Simona Velotta 5/6, NON LETTA); 🔴 Avv. Longo email Wave 2 (4/6, NON LETTA) sblocco pagamento + accordo sviluppatori; 🔴 contratto Carlo+Mattucci+Pazienza richiesti da Velotta (5/6, NON LETTA); 🟠 pitch Angelini Academy avvenuto 5/6 (slittato da 31/5) — feedback Caterina "molto buono, perimetro minato" — allineamento Elena lun 8/6 prima di pranzo; 🟠 Laila El Zieny NON raggiunta (attende WhatsApp Carlo da 26/5, ribadito 3/6); 🟠 scope OT ristretto a solo BAT (Laila 4/6).
 
 > **Nota PM Digest 27/5 08:00**: 4 email rilevanti, 1 meeting oggi (Angelini Review Economics 16:30), 1 file SP (Company Presentation aggiornata ieri sera), Teams N/D (timeout). **+9 task nuovi aggiunti** (5 in #p1, 4 in #p2). **Alert critici**: 🔴 Economics Angelini Academy a ZERO a 4gg dal pitch 31/5; 🟠 Laila El Zieny (laila.elzieny@noloop.eu) — persona nuova NOT/Modulo Gestione Vendite, DA TRIAGIRE; 🟡 segnale positivo Eldis — IT interno coinvolto valutazione installazione Compilatore.
 
@@ -27,6 +29,13 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità alta (#p1)
 
+- [ ] **#p1** 🔴 **F24 MAGGIO 2026 DA VERSARE ENTRO 16/06/2026** — Simona Velotta FMA (5/6 10:04, NON LETTA): LUL+F24 maggio inviati, scadenza versamento 16/6 — coordinare con [[Andrea Pazienza]] _da PM Digest gap 27/5-7/6_
+- [ ] **#p1** Carlo: **leggere email Avv. [[Marco Longo (Morbinati & Longo)|Longo]] (4/6 08:07, NON LETTA)** su Wave 2 — "Re: [64508] HeyAI / Noloop (Wave 2)" — allineamento sblocco pagamento fattura inizio lavori NoLoop + accordo sviluppatori; rispondere _da PM Digest gap 27/5-7/6_
+- [ ] **#p1** Carlo: **inviare contratto Carlo firmato + contratti Michele+Andrea a Simona Velotta (FMA)** — richiesta 5/6 09:56 NON LETTA — blocca pratiche HR _da email Velotta 5/6 — PM Digest gap 27/5-7/6_
+- [ ] **#p1** Carlo + [[Elena Chiti]]: **allineamento lun 8/6 prima di pranzo** — revisione deck modifiche post-pitch 5/6 + invio definitivo a [[Caterina Caboni]] (Angelini Academy) — feedback Caterina: *"molto buono, seppur all'interno di un perimetro minato"* _da email Elena 5/6 — PM Digest gap 27/5-7/6_
+- [ ] **#p1** Carlo: **rispondere Laila El Zieny su WhatsApp** — ha ribadito 3/6 09:07 di non avere il numero Carlo; attende da 26/5 su "questione logistica" NOT/Modulo Gestione Vendite _da email Laila 3/6 — PM Digest gap 27/5-7/6_
+- [ ] **#p1** Carlo: **leggere email "Lista prodotti" Laila El Zieny (4/6 14:09, NON LETTA)** — ha inviato a Federico allegato lista prodotti BAT per LeadMe/Modulo Vendite; Carlo in CC — verificare con Federico _da email Laila 4/6 — PM Digest gap 27/5-7/6_
+- [ ] **#p1** Carlo: **follow-up call automazione NOT** (Carmen Compare+Justin Lauro, avvenuta 4/6) — verificare esito e prossimi passi tool automazione BAT/PARD _da calendar 4/6 — PM Digest gap 27/5-7/6_
 - [ ] **#p1** Carlo: partecipare + prepararsi call **"Angelini | Review Economics" OGGI ore 16:30** con [[Elena Chiti]] via Teams — 4 giorni al pitch 31/5; in agenda: Economics, slot pitch da bloccare, format quotazione cliente _da calendar 27/5 — PM Digest 27/5_
 - [ ] **#p1** Carlo: chiudere **Economics Angelini Academy** (numeri Silencio+Jakala+Soolutions sul tavolo + scelta fornitore tecnico definitiva) **entro stanotte 27/5** — a zero a 4gg dal pitch _da Sessione Cowork 26/5 — PM Digest 27/5_
 - [ ] **#p1** Carlo: chiamata 1-to-1 [[Daniele Caporale]] **oggi 27/5** per chiarire benchmark *"altro piglio, altra sicurezza"* (1:02:13 call 26/5) — benchmark opaco, impatta impostazione pitch finale _da Sessione Cowork 26/5 — PM Digest 27/5_
@@ -106,6 +115,9 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità media (#p2)
 
+- [ ] **#p2** Carlo: **dichiarazioni detassazione da firmare e rimandare a Simona Velotta (FMA)** — richiesta 5/6 09:47 NON LETTA — coordinare con [[Andrea Pazienza]] _da email Velotta 5/6 — PM Digest gap 27/5-7/6_
+- [ ] **#p2** Carlo+Simone: **verifica risposta a Luciano Pecorella (ONCE SRL, IT Eldis)** — ha chiesto specs VM il 28/5 per installare Builder su infrastruttura Eldis (Simone in CC) — se non risposto, rispondere con specifiche _da email Luciano 28/5 — PM Digest gap 27/5-7/6_
+- [ ] **#p2** Carlo: **scope update [[Operation Transformation]]** — Laila El Zieny (4/6 13:54): "procediamo solo su BAT, gli altri clienti sono inattivi" — aggiornare scheda progetto + riallineare aspettative interne _da email Laila 4/6 — PM Digest gap 27/5-7/6_
 - [ ] **#p2** Carlo: **recap WhatsApp/email post-call** ad [[Elena Chiti]]+[[Daniele Caporale]] con sintesi decisioni operative + versione pitch aggiornata **entro mercoledì 27/5 sera** _da Sessione Cowork 26/5 — PM Digest 27/5_
 - [ ] **#p2** Carlo: leggere integralmente email [[Elena Chiti]] "Re: Follow up video call 8.05" (26/5 17:24) — Elena propone a [[Caterina Caboni]] sito+hinterland editoriale Angelini; valutare contenuto + coordinarsi con Elena pre-call oggi se necessario _da email Elena 26/5 — PM Digest 27/5_
 - [ ] **#p2** Carlo: **patch grafica pitch slide 1-3** Angelini (cover + differenziare premesse/pilastri) + tagliare slide trend + rinominare lessico (pain point, personas, Content Direction) _da Sessione Cowork 26/5 — PM Digest 27/5_

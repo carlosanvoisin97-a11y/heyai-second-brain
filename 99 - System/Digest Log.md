@@ -1,12 +1,13 @@
 ---
 type: log
-updated: 2026-05-29
+updated: 2026-06-07
 ---
 
 # 📊 Digest Log
 
 > Storico esecuzioni del PM Digest mattutino.
 
+- 2026-06-07 GAP (27/5→7/6) — ⚠️ **GAP 11gg coperti in retrospettiva (run manuale routine cloud)**: 20 email rilevanti (su 89 lorde), 7 meeting nel gap, 4 file SP, 1 chat Teams, 0 sessioni Cowork dal 28/5. **10 task nuovi aggiunti** (+7 #p1, +3 #p2). Alert critici: 🔴 F24 maggio DA VERSARE ENTRO 16/6 (Velotta NON LETTA); 🔴 Avv. Longo email Wave 2 (4/6 NON LETTA) sblocco pagamento + accordo sviluppatori; 🔴 contratti Carlo+Mattucci+Pazienza richiesti (Velotta NON LETTA); 🟠 pitch Angelini avvenuto 5/6 (slittato da 31/5) — feedback "molto buono, perimetro minato" — next Elena lun 8/6; 🟠 scope OT → solo BAT (Laila 4/6).
 - 2026-05-29 14:50 — ⚠️ **GAP 28-29/5 (nessun run, nessuna daily note)**. Causa: lavoro migrato su Claude Code; `pm-digest-mattutino` vive nello scheduler **Cowork**, che parte solo con l'app Cowork aperta — rimasta chiusa 28+29/5. Non è un bug del digest: è il digest che non è proprio partito. Diagnosi nell'audit vault Front 3. **Mitigazione installata**: hook `SessionStart` → `.claude/hooks/digest-staleness-check.sh` che a ogni apertura di Claude Code avvisa se l'ultima daily note è ferma ≥2 giorni. Per recuperare 28-29: aprire Cowork e lanciare il digest a mano (attenzione al doppio-run se poi Cowork lo rigira da solo). Rif: CLAUDE.md §9bis.
 - 2026-05-27 08:00 — 4 email rilevanti, 1 meeting (Angelini Review Economics 16:30), 1 file SP (Company Presentation), chat Teams N/D (timeout). **+9 task nuovi aggiunti** (+5 in #p1, +4 in #p2). Alert: 🔴 Economics Angelini Academy zero a 4gg pitch 31/5; Laila El Zieny nuova persona NOT da triagire; segnale Eldis IT interno valutazione installazione Compilatore.
 - 2026-05-04 23:27 — 2 email rilevanti, 2 meeting, 0 file SharePoint, 0 chat Teams, 9 task P1 aperti
