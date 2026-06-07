@@ -91,3 +91,6 @@ Aprilo e fai la review con Cowork (30 min stimati).
 - Cron sabato 17:30 = fine settimana, momento naturale per la retrospettiva. NB: `friday-wrap-up` (era disabilitato dal 13/5/2026) era il digest automatico antecedente di 30 min; non più presente, l'agente NON deve cercare di linkarlo né presupporne l'output.
 - **Patch 13/5/2026 sera tardo**: rimossi riferimenti operativi a `friday-wrap-up` ora disabilitato. Funzione di digest settimanale completamente assorbita in questo task.
 - **Patch 14/5/2026**: weekly review spostata da venerdì a sabato (decisione Carlo). Cron `30 17 * * 6`, conferma drift critico audit `system-consistency-check` del 14/5/2026.
+
+## ⚙️ Push finale (routine cloud, F1)
+Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`.

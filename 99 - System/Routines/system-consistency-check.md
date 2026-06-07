@@ -120,3 +120,6 @@ Elenca sempre esplicitamente i task in drift (🔴 e 🟡) con il delta specific
 - Non narrate il processo — scrivete solo i risultati.
 - Trigger manuale on-demand sempre ammesso (utile dopo cambi grossi come token reduction o refactoring vault).
 - Questo task gira PRIMA del pm-digest-mattutino (8:02): se rileva drift critici, Carlo li vede nella notifica di questo task prima che il digest parta — può intervenire nello stesso slot mattutino.
+
+## ⚙️ Push finale (routine cloud, F1)
+Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`.

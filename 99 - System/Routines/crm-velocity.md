@@ -101,3 +101,6 @@ Se 🔴 = 0 e 🟡 = 0 → "✅ CRM pulito, nessuna velocity issue".
 - Output minimo se 0 critici e 0 warning: append blocco con "✅ CRM pulito questa settimana"
 - Trigger manuale on-demand sempre ammesso
 - Cron lunedì 9:00 — scrive su Daily Note del lunedì, no conflitto con altri task attivi
+
+## ⚙️ Push finale (routine cloud, F1)
+Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`.

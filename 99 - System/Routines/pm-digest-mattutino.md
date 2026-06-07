@@ -163,3 +163,6 @@ Output in chat con:
 - NON creare schede progetto/persona automaticamente; segnala in "Da triagiare"
 - Tono: asciutto, da PM, italiano
 - **REGOLA BLOCCANTE**: mai sezioni `## 🆕 Aggiunte dal PM Digest del giorno X` né sotto-headings `### Mergerati da Aggiunte X/5` né `### Esistenti Priorità alta`. Le sezioni Priorità sono flat list. La provenienza vive nel marker `_da {fonte}_` in coda al singolo task.
+
+## ⚙️ Push finale (routine cloud, F1)
+Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`.

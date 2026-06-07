@@ -112,3 +112,6 @@ Se 0 patch e 0 flag (MOC pulito):
 - File `MOC Refresh Log.md` auto-rolling: entry >8 settimane → archive in `50 - Archive/System/MOC Refresh Log {YYYY-MM}.md` (regola rolling-window standard)
 - NON sovrascrivere: scrivere sempre come append in `MOC Refresh Log.md`
 - Idempotenza: 2 run nello stesso giorno producono 2 entry, ma gli auto-patch sono no-op se MOC è già allineato (l'Edit fallirà silenziosamente se old_string == new_string)
+
+## ⚙️ Push finale (routine cloud, F1)
+Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`.

@@ -17,14 +17,14 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 
 ## Inventario routine
 
-| File | Cron (local) | Tipo | Connettori |
-|---|---|---|---|
-| `vault-link-checker.md` | `0 21 * * 0` (Dom 21) | audit vault | nessuno |
-| `moc-refresh.md` | `0 16 * * 6` (Sab 16) | audit vault | nessuno |
-| `system-consistency-check.md` | `30 7 * * 1` (Lun 7:30) | audit vault | nessuno |
-| `crm-velocity.md` | `0 9 * * 1` (Lun 9) | audit vault | nessuno |
-| `weekly-review-interactive.md` | `30 17 * * 6` (Sab 17:30) | prep doc | nessuno |
-| `pm-digest-mattutino.md` | `0 8 * * 1-5` (Lun-Ven 8) | digest | **M365** (Outlook/cal/SharePoint/Teams) |
+| File                          | Cron (local)              | Tipo        | Connettori                              |
+| ----------------------------- | ------------------------- | ----------- | --------------------------------------- |
+| `vault-link-checker.md`       | `0 21 * * 0` (Dom 21)     | audit vault | nessuno                                 |
+| `moc-refresh.md`              | `0 16 * * 6` (Sab 16)     | audit vault | nessuno                                 |
+| `system-consistency-check.md` | `30 7 * * 1` (Lun 7:30)   | audit vault | nessuno                                 |
+| `crm-velocity.md`             | `0 9 * * 1` (Lun 9)       | audit vault | nessuno                                 |
+| weekly-review-interactive.md` | `30 17 * * 6` (Sab 17:30) | prep doc    | nessuno                                 |
+| `pm-digest-mattutino.md`      | `0 8 * * 1-5` (Lun-Ven 8) | digest      | **M365** (Outlook/cal/SharePoint/Teams) |
 
 (`cowork-sessions-index` **ritirata**: in Code c'è già `code-sessions-index` nello scheduler locale. `claude-chats-sync`/`friday-wrap-up`/`weekly-digest` disabilitate. `dashboard-refresh-manual` resta on-demand.)
 
@@ -33,7 +33,7 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 1. Su **claude.ai** → verifica che il connettore **GitHub** veda il repo privato `heyai-second-brain`, e che i **connettori M365** (Outlook/SharePoint) siano autenticati (servono al digest).
 2. Crea un **agente schedulato / routine** per ogni riga della tabella.
 3. **Prompt template** da incollare:
-   > *"Lavori in un clone del repo `heyai-second-brain` (cwd = root del repo). Esegui integralmente la routine definita in `99 - System/Routines/<FILE>.md` (i path del vault nel file sono **già relativi alla root del repo**, normalizzati 7/6). Append-only §15, riservatezze §13. Al termine committa e pusha le modifiche."*
+   > *"Lavori in un clone del repo `heyai-second-brain` (cwd = root del repo). Esegui integralmente la routine definita in `99 - System/Routines/<FILE>.md` (i path del vault nel file sono **già relativi alla root del repo**, normalizzati 7/6). Append-only §15, riservatezze §13. Al termine committa e pusha **direttamente su `main`** (`git push origin HEAD:main`), **niente branch né PR**."*
 4. Imposta il **cron** della colonna (consigliato spostarlo di qualche minuto off `:00`/`:30` per non sovraccaricare il fleet, es. `7 21 * * 0`).
 
 ✅ **Path normalizzati** 7/6 (relativi alla root del repo) → i 6 file routine sono cloud-ready. _Restano riferimenti esterni `~/Documents/Claude/...` / `~/.claude/...` solo in `system-consistency-check` (audita lo scheduler locale): in cloud quella routine va ripensata o tenuta locale._

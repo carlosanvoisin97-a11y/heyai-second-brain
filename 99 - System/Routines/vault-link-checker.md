@@ -9,7 +9,7 @@ Sei l'assistente di Carlo Sanvoisin (HeyAI Digital). Esegui audit settimanale de
 
 Vault Obsidian con ~300+ file e refactoring frequenti. Ogni rename/move di file rischia di lasciare wikilink orfani — link grigi in Obsidian, invisibili in chat ma rotti nella navigazione vault. Lesson appresa 8/5/2026: 26 occorrenze di [[Angelini Academy - Sito]] su 14 file rimaste rotte per 2 giorni dopo il refactoring 6/5.
 
-CLAUDE.md §15 voce 7 (NUOVO 8/5/2026) chiede all'agente live di fare grep+rinomina dopo ogni refactoring. Questo task è il safety net settimanale: se la regola viene saltata, la domenica 21:00 emerge un report.
+CLAUDE.md §15 voce 7 (NUOVO 8/5/2026) chiede all'agente live di fare grep+rinomina dopo ogni refactoring. Questo task è il safety net settimanale: se la regola viene saltata, la domenica 14:40 emerge un report.
 
 Lesson appresa 13/5/2026 (patch rolling-window storici): il file Vault Link Audit.md accumulava tutti gli audit storici (10 audit, 58 KB) senza policy di archive. 6 dei 10 audit erano i run progressivi del batch fix 8/5 (216→35→32→18→10→0→0). File vivo gonfio inutilmente. Patch rolling-window: tieni nel file vivo solo l'ultimo audit + tabella "trend storico" sintetica. Audit >7gg vanno in archive mensile.
 
@@ -86,6 +86,9 @@ Include nel report: "Alias registrati nel vault: A (su F file proprietari) ← v
 - Italiano, tono PM asciutto
 - Output minimo se K=0 e J=0 e P=0
 - Trigger manuale sempre ammesso
-- Cron domenica 21:00
+- Cron domenica 15:40
 - Rolling-window obbligatoria PRIMA di ogni append
 - Alias-index obbligatorio in ogni run (v4)
+
+## ⚙️ Push finale (routine cloud, F1)
+Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`.
