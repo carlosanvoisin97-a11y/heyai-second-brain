@@ -1,7 +1,7 @@
 ---
 type: moc
 created: 2026-04-30
-updated: 2026-05-24
+updated: 2026-06-07
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-08 20:30 | source-session: local_4c933da1-0348-4ef3-8a6d-de4a6bc1b514 | source-lastActive: 2026-05-08 ~20:00 -->
 
@@ -161,6 +161,8 @@ Cartella `40 - Resources/Concetti/` — knowledge operativo riusabile (pattern d
 - [[99 - System/Setup MOC refresh]] 🆕 — guida setup task scheduler `moc-refresh` (cron `0 16 * * 6`, Sab 16:00, auto-patch counters/frontmatter MOC + flag-only su nuove entità non-in-MOC). Setup doc scritto 14/5/2026 durante audit second brain. ⏳ **Task scheduled da CREARE in chat Cowork supervised** (richiede approvazione dialogo MCP non disponibile in run unsupervised).
 - [[99 - System/CLAUDE Changelog Archive]] 🆕 — archivio storico delle voci §14 CLAUDE.md pre-11/5/2026 (operazione token reduction 13/5/2026, -4-5K token per ogni lettura del system prompt).
 - [[99 - System/System Consistency Audit]] 🆕 — output del task `system-consistency-check` (lun 7:30, creato 13/5/2026): audit settimanale doc-vs-scheduler-vs-SKILL per intercettare drift della classe che ha causato l'incidente 13/5 (decisioni documentate ma non eseguite sullo scheduler).
+- [[99 - System/KB Solidity Report]] 🆕 — prima certificazione KB (F2 Fase 6, 7/6/2026): completezza/fedeltà/coerenza via coverage-diff + back-tracing avversariale + registro contraddizioni/bonifiche (§4).
+- [[99 - System/Code Sessions Log]] 🆕 — log delle run del task `code-sessions-index` (sessioni Claude Code CLI, cron 20:35; gemello di Cowork Sessions Log). Creato 30/5/2026.
 
 ## Fonti collegate
 
