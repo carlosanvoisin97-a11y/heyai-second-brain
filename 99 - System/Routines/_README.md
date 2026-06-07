@@ -54,7 +54,7 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 
 **Direzioni coperte**
 - **Obsidian → GitHub** (backup + propagazione): auto *commit-and-sync* ogni 10 min. ✅ **PROVATO** 7/6 22:56 — commit `4dbb73c "vault auto-sync (Obsidian)…"` committato e **pushato** su `origin/main`, rispettando `.gitignore` (nessun segreto plugin — vedi blindatura).
-- **GitHub → Obsidian** (output routine cloud): auto-*pull* ogni 10 min + pull-on-boot. ⏳ Configurato; **prova end-to-end** col primo "Run now" di una routine cloud (Step 2 handover): la sua push deve comparire in Obsidian entro ≤10 min.
+- **GitHub → Obsidian** (output routine cloud): auto-*pull* ogni 10 min + pull-on-boot. ✅ **PROVATO** 7/6 ~23:16 (vedi §"Step 2" sotto): la push della routine PM Digest (`79fc48a`) è comparsa in Obsidian via pull del plugin (merge `94007b6`, daily note `2026-06-07.md` nel working tree).
 
 **Config `data.json`** — il file è **gitignorato** (può contenere PAT) → questa tabella è il record di ripristino. Ricrearlo in `.obsidian/plugins/obsidian-git/data.json`:
 
@@ -79,3 +79,33 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 **Interazione col lavoro agente**: l'auto commit-and-sync fa `stage-all` ogni 10 min → quando l'agente Code lavora su `main`, deve committare i propri cambi **per-file e prontamente** (entro la finestra) per non farli assorbire in un commit generico. Non è rischio dati (il contenuto è comunque salvato+pushato), solo di provenienza/messaggio.
 
 **Azioni Carlo**: (1) quando il sync è validato, opz. `disablePopups: true` per togliere i popup; (2) tenere Obsidian aperto ogni tanto perché il sync (come gli audit) è app-bound finché non si valida la pull dal cloud.
+
+## ✅ Step 2 — Routine cloud PROVATE end-to-end (7/6/2026, ~23:1x)
+
+> Le 5 routine cloud erano già create da Carlo su claude.ai (7/6 13:3x). Questo step le ha **provate** e ha scoperto che sono **pilotabili da Claude Code** — supera la nota "azione browser di Carlo, nessun tool da CLI" del §"Attivazione" sopra.
+
+**Pilotaggio da Code — tool `RemoteTrigger`** (non serve più il browser per gestirle):
+- `action: list` → elenca · `get {trigger_id}` → dettaglio · `run {trigger_id}` → **Run now** · `update`/`create` → modifica/crea.
+- ⚠️ Un `run` **manuale NON aggiorna `last_fired_at`** (solo i fire da cron lo fanno) → non usare quel campo per sapere se una run manuale è andata; guardare il commit su `origin/main`.
+
+**Trigger ID (reference per Run now futuri):**
+
+| Routine | trigger_id | cron (UTC) | M365 |
+|---|---|---|---|
+| pm-digest-mattutino | `trig_01UivDEeqge8sfEYeHM9RpBL` | `2 6 * * 1-5` | ✅ |
+| crm-velocity | `trig_01Vaae83mADn7pNgnPoBNDtJ` | `0 7 * * 1` | — |
+| moc-refresh | `trig_01LtknAQfEwDPPgoSD7MsRGd` | `0 14 * * 6` | — |
+| weekly-review-interactive | `trig_01PwXWK8fgjmjvbv3a5f6PL5` | `0 15 * * 6` | — |
+| vault-link-checker | `trig_01SMEJPZFUvqMGEFPR7DADob` | `40 13 * * 0` | — |
+
+**Cosa è stato PROVATO (7/6):**
+- ✅ **Push diretto su `main`** — nessun bug branch orfano (#2 handover): la run del **PM Digest** (manuale, Carlo) ha committato+pushato su `main` (`79fc48a`), zero `claude/*` su origin. Il push-su-main viene dal `## Push finale` **dentro il file routine** (`git push origin HEAD:main`), NON dal prompt del trigger (generico "committa e pusha le modifiche").
+- ✅ **PM Digest con M365 headless** (il pezzo fragile, #6 handover): ha letto Outlook/cal/SharePoint via connettore M365 su claude.ai → daily note `2026-06-07.md` (20 email, 7 meeting, 10 task), gap 27/5→7/6 coperto.
+- ✅ **GitHub → Obsidian (pull)**: `79fc48a` tirato in Obsidian (merge `94007b6`), daily note nel working tree.
+- ✅ **Convergenza con writer paralleli**: Code (io) + claude.ai (Carlo) + cloud + plugin in parallelo → merge pulito, `local ≡ origin`. Chiude anche #7 (divergenza).
+
+🔴 **Regola permanente (F1)**: ogni file `99 - System/Routines/*.md` **DEVE** contenere `## Push finale` con `git push origin HEAD:main` (no branch, no PR). È lì — non nel prompt del trigger — che vive il fix #2. Non rimuoverla in edit futuri.
+
+**Restano (minori, non bloccanti):**
+- crm-velocity, moc-refresh, weekly-review + vault-link-checker non ancora provate **singolarmente** (pattern identico già provato; `RemoteTrigger run` on-demand o primo cron). La run vault-link-checker 7/6 non ha lasciato commit (probabile K=0; sabato ≠ cron domenica).
+- Doc drift per **Step 5/F5**: CLAUDE.md §9/§9bis ("due task"→3; bridge pm-digest local ora `enabled=false` = fallback dormiente) + §"Bridge attivo" sopra → rinominare "fallback". Già nel `System Consistency Audit` 7/6.
