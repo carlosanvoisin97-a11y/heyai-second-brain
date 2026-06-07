@@ -248,6 +248,18 @@ Le automazioni di questa tabella vivono nello **scheduler di Cowork** (`~/Docume
 - **Campanello automatico**: l'hook `SessionStart` in `.claude/settings.json` lancia `.claude/hooks/digest-staleness-check.sh` a ogni apertura sessione. Se l'ultima daily note è ferma da ≥2 giorni mostra un avviso (digest probabilmente non girato perché Cowork non è stato aperto). Per recuperare: aprire Cowork e lasciar girare il digest, o lanciarlo a mano.
 - **Regola pratica**: per *lavorare* sul vault (note, bozze, analisi) Code e Cowork sono equivalenti e sicuri — si può switchare liberamente. Per le *automazioni* no: sono legate a Cowork. Se passi giorni in Code, apri Cowork ogni tanto per far girare digest+audit.
 
+## 9ter. Git, sync e branch (era Code-first) — disciplina anti-errori
+
+> Aggiunta 7/6 a chiusura del loop di sync. Garantisce: niente branch spuri, niente duplicazioni, niente commit sbagliati. Dettaglio operativo + record di ripristino: [[99 - System/Routines/_README]] §Sync / §Step 2. *(Le automazioni "battito" ora girano come **routine cloud unattended** su claude.ai, pilotabili da Code via `RemoteTrigger` — §9/§9bis "Cowork-bound" da aggiornare in F5.)*
+
+- **Lavora sempre su `main`** in `/Users/carlosanvoisin/claude` (= cartella Obsidian). La worktree per-sessione (`.claude/worktrees/...`) è creata in automatico dall'harness: il lavoro VERO deve atterrare su `main`, non restare in worktree.
+- **`git pull` PRIMA di scrivere.** Scrivono in parallelo: agenti Code, routine cloud, e il plugin Obsidian Git (auto-sync ogni 10'). Pullare evita divergenze e push rifiutati.
+- **Commit per-file/gruppi dopo review — MAI `git add -A`.** Messaggi descrittivi. (I commit `vault auto-sync (Obsidian)` sono il backup automatico del plugin, riconoscibili e distinti.)
+- **Push solo su `main`** (`git push origin HEAD:main`). **MAI creare branch o aprire PR** per il vault.
+- **Branch/worktree `claude/*` che si accumulano** = creati 1-per-sessione dall'isolamento harness. **Innocui** (0 commit unici; tutto il lavoro va su main); si ripuliscono periodicamente (`git worktree remove` + `git branch -D`). Non sono bug né perdita dati.
+- **`.gitignore` = barriera di sicurezza**: ignora `.obsidian/plugins/` (i `data.json` plugin possono contenere API key/PAT), `copilot/`, e i grezzi PII (`_import-*`, `_DA_DOWNLOADS_*`). **Mai un-ignorarli**: l'auto-sync fa `stage-all` → finirebbero su GitHub.
+- **Routine cloud → solo `main`**: ogni file `99 - System/Routines/*.md` DEVE mantenere `## Push finale` (`git push origin HEAD:main`, no branch/PR); i prompt dei 5 trigger cloud sono ora espliciti uguale (allineati 7/6).
+
 ## 10. Procedura standard per ogni nuova chat
 
 1. Leggere questo `CLAUDE.md` **all'inizio della chat**.

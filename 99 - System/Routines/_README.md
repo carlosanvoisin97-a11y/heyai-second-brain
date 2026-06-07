@@ -104,7 +104,7 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 - ✅ **GitHub → Obsidian (pull)**: `79fc48a` tirato in Obsidian (merge `94007b6`), daily note nel working tree.
 - ✅ **Convergenza con writer paralleli**: Code (io) + claude.ai (Carlo) + cloud + plugin in parallelo → merge pulito, `local ≡ origin`. Chiude anche #7 (divergenza).
 
-🔴 **Regola permanente (F1)**: ogni file `99 - System/Routines/*.md` **DEVE** contenere `## Push finale` con `git push origin HEAD:main` (no branch, no PR). È lì — non nel prompt del trigger — che vive il fix #2. Non rimuoverla in edit futuri.
+🔴 **Regola permanente (F1)**: ogni file `99 - System/Routines/*.md` **DEVE** contenere `## Push finale` con `git push origin HEAD:main` (no branch, no PR). È lì che vive il fix #2. Non rimuoverla in edit futuri. _(7/6: anche i **5 prompt trigger cloud** sono stati resi espliciti uguale — "push su `main`, no branch/PR" — via `RemoteTrigger update` → **doppia barriera** file-routine + prompt-trigger; M365 di pm-digest preservato.)_
 
 **Restano (minori, non bloccanti):**
 - vault-link-checker ✅ **provata** (la mia run 7/6 ha prodotto l'audit `b23d1d8` su `main` → **2ª routine confermata**, audit no-M365 pilotata da Code via `RemoteTrigger run`; atterrata anche in Obsidian via pull). Restano crm-velocity, moc-refresh, weekly-review (pattern identico; `RemoteTrigger run` on-demand o al primo cron).
