@@ -5,9 +5,9 @@ updated: 2026-06-07
 status: operational — refactoring M4 29/5/2026 (§15 vault-live + §10bis → skill vault-live-protocol; core sempre-attivo in CLAUDE.md; versioning git attivo) + Front 3 29/5 (§9bis due-scheduler Cowork-vs-Code + campanello digest-staleness hook)
 purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 ---
-# CLAUDE.md — Istruzioni per ogni chat Cowork su questo vault
+# CLAUDE.md — Istruzioni per ogni chat (Cowork o Claude Code) su questo vault
 
-> Primo file che ogni nuova chat Cowork legge. Sintesi operativa del secondo cervello di [[60 - People/Carlo Sanvoisin|Carlo Sanvoisin]] (HeyAI Digital). Non sostituisce le fonti autoritative (in particolare [[99 - System/Master Facts Sheet]]); le condensa per orientamento immediato.
+> Primo file che ogni nuova chat (Cowork o Claude Code) legge. Sintesi operativa del secondo cervello di [[60 - People/Carlo Sanvoisin|Carlo Sanvoisin]] (HeyAI Digital). Non sostituisce le fonti autoritative (in particolare [[99 - System/Master Facts Sheet]]); le condensa per orientamento immediato.
 >
 > Storico delle modifiche a questo file e al sistema: `git log` (versioning attivo dal 22/5/2026) + [[99 - System/CLAUDE Changelog Archive]].
 
@@ -224,33 +224,47 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 
 **Microsoft Lists "Soolutions Delivery Board"** sostituisce Wrike. Dettagli in [[99 - System/Workflow Delivery Soolutions]]. Regole per le chat Cowork: (1) task con owner Federico/Simone → aggiornare Lists via MCP + vault; (2) **mai esporre sulla Lists** numeri commerciali sensibili, citazioni Garbarino/Donzelli, esposizione finanziaria HeyAI; (3) prima di call, leggere Lists e fare digest a Carlo.
 
-## 9. Scheduled tasks attivi
+## 9. Scheduled tasks attivi — chi gira dove (rev. 8/6, era Code-first)
 
-| Task | Cron | Funzione |
-|---|---|---|
-| `pm-digest-mattutino` | Lun-Ven 8:00 | Digest email/meeting/SharePoint → Daily Note + Open Tasks + Digest Log |
-| `cowork-sessions-index` | Ogni giorno 20:22 | Indicizzazione sessioni Cowork + continuation scan (16/5/2026) → `80 - Sources/Cowork Sessions/` |
-| `vault-link-checker` | Dom 21:00 | Audit wikilink/frontmatter rotti → `99 - System/Vault Link Audit.md` |
-| `crm-velocity` | Lun 9:00 | Audit velocity stakeholder → CRM warnings nella Daily Note |
-| `moc-refresh` | Sab 16:00 | Audit MOC - Home → auto-patch counters/frontmatter, flag-only nuove entità → `99 - System/MOC Refresh Log.md` |
-| `weekly-review-interactive` | Sab 17:30 | Prep doc weekly review → `00 - Inbox/` |
-| `system-consistency-check` | Lun 7:30 | Audit doc-vs-scheduler-vs-SKILL → `99 - System/System Consistency Audit.md` |
-| `dashboard-refresh-manual` | Manuale | Refresh PM Dashboard HeyAI |
+> Tre runtime distinti. **Verità su cosa gira**: cloud → `RemoteTrigger action:list` (da Code) o pannello claude.ai; Code-locale → `mcp__scheduled-tasks__list_scheduled_tasks`; plugin → Obsidian. Logica routine versionata in [[99 - System/Routines/_README]].
 
-Disabilitati: `friday-wrap-up`, `weekly-digest`, `claude-chats-sync`. Per storia patch → [[99 - System/CLAUDE Changelog Archive]]. Ogni task è triggerabile manualmente dal pannello Scheduled.
+**A) Routine CLOUD** (claude.ai, **unattended — girano a Mac spento**): clonano il repo, eseguono `99 - System/Routines/<nome>.md`, pushano su `main` → tornano in Obsidian via plugin (§9ter). Pilotabili da Code con `RemoteTrigger` (`list`/`get`/`run`/`update`).
 
-### 9bis. DUE scheduler separati — leggere prima di fidarsi di `list_scheduled_tasks` (Front 3, 29/5/2026)
+| Routine | Cron (UTC) | Funzione | Conn. |
+|---|---|---|---|
+| `pm-digest-mattutino` | `2 6 * * 1-5` (~8:02 CEST) | digest → daily note + Open Tasks + Digest Log | **M365** |
+| `crm-velocity` | `0 7 * * 1` | audit velocity stakeholder | — |
+| `vault-link-checker` | `40 13 * * 0` | audit wikilink/frontmatter → Vault Link Audit | — |
+| `moc-refresh` | `0 14 * * 6` | audit MOC-Home | — |
+| `weekly-review-interactive` | `0 15 * * 6` | prep weekly review → `00 - Inbox/` | — |
 
-Le automazioni di questa tabella vivono nello **scheduler di Cowork** (`~/Documents/Claude/Scheduled/`) e **girano SOLO quando l'app Cowork è aperta**. Claude **Code** (CLI) ha uno scheduler **separato** (`~/.claude/scheduled-tasks/`) con **due task**: `code-sessions-index` (indicizzazione sessioni Code, cron 20:35) + `pm-digest-mattutino` (**bridge F1** 7/6/2026, cron 8:02 Lun-Ven, best-effort). ⚠️ Anche il Code scheduler gira **solo ad app Code aperta** (mai a Mac spento): l'unattended vero richiede **routine cloud su claude.ai** → vedi `99 - System/Routines/_README.md`. Conseguenze operative:
+**B) Code-locale** (`~/.claude/scheduled-tasks/`, **best-effort: solo ad app Code aperta / al prossimo avvio**):
 
-- Lavorando **solo in Code** senza aprire Cowork, il PM Digest mattutino e tutti gli audit (link-checker, moc-refresh, crm-velocity, ...) **NON partono — in silenzio**. Nessuno se ne accorge finché non manca una daily note. _(update F1 7/6: il PM Digest ora ha un **bridge best-effort** nel Code scheduler → gira quando Code è aperto; gli audit restano Cowork-bound finché non attivi le routine cloud, vedi `99 - System/Routines/_README.md`.)_
-- Il tool `mcp__scheduled-tasks__list_scheduled_tasks` (disponibile in Code) vede **SOLO lo scheduler di Code** → mostra i suoi task (`code-sessions-index` + `pm-digest-mattutino` bridge) e basta. **NON è lo stato reale dei task Cowork** di questa tabella. Per quelli: aprire il pannello Scheduled dentro Cowork.
-- **Campanello automatico**: l'hook `SessionStart` in `.claude/settings.json` lancia `.claude/hooks/digest-staleness-check.sh` a ogni apertura sessione. Se l'ultima daily note è ferma da ≥2 giorni mostra un avviso (digest probabilmente non girato perché Cowork non è stato aperto). Per recuperare: aprire Cowork e lasciar girare il digest, o lanciarlo a mano.
-- **Regola pratica**: per *lavorare* sul vault (note, bozze, analisi) Code e Cowork sono equivalenti e sicuri — si può switchare liberamente. Per le *automazioni* no: sono legate a Cowork. Se passi giorni in Code, apri Cowork ogni tanto per far girare digest+audit.
+| Task | Cron (local) | Stato | Funzione |
+|---|---|---|---|
+| `code-sessions-index` | `35 20 * * *` | ✅ on | indicizza sessioni Code → `code-recap/` + cascata sicura + **catch-up self-heal** |
+| `system-consistency-check` | `30 7 * * 1` | ✅ on | audit scheduler/doc (LOCALE per forza: audita gli scheduler) |
+| `pm-digest-mattutino` (bridge) | `0 8 * * 1-5` | ⏸️ **off** | fallback dormiente se la cloud M365 fallisce (token scaduto) |
+
+**C) Locale ad app aperta**: plugin **Obsidian Git** — commit-and-sync + auto-pull ogni ~10' (§9ter + [[99 - System/Routines/_README]]).
+
+**Manuale**: `dashboard-refresh-manual` (refresh PM Dashboard, on-demand).
+**Ritirati/disabilitati**: `cowork-sessions-index` (ritirato 7/6 → sostituito da `code-sessions-index`); `friday-wrap-up`, `weekly-digest`, `claude-chats-sync`. Storia patch → [[99 - System/CLAUDE Changelog Archive]].
+
+### 9bis. I runtime e come verificarli — non fidarsi di un solo `list` (rev. 8/6/2026)
+
+Esistono **tre** runtime (cron + stato nella tabella §9). Implicazioni operative:
+
+- **Cloud (claude.ai)**: le 5 routine audit/digest girano **unattended, anche a Mac spento** (server-side, clonano il repo). È il "battito" vero, ripristinato in F1 (7/6) e provato end-to-end. Verifica / "Run now" da Code con `RemoteTrigger action:list|run`, o dal pannello claude.ai. ⚠️ Il PM Digest dipende dall'auth **M365 su claude.ai**: se il token scade, il run headless fallisce → il bridge locale (sotto) è la rete di sicurezza.
+- **Code-locale** (`~/.claude/scheduled-tasks/`, visto da `mcp__scheduled-tasks__list_scheduled_tasks`): **3 task** — `code-sessions-index` (on), `system-consistency-check` (on, locale per forza), `pm-digest-mattutino` bridge (**off**, fallback dormiente). Best-effort: girano solo ad **app Code aperta** (se chiusa → al prossimo avvio), **mai a Mac spento**.
+- **Plugin Obsidian Git**: gira ad **app Obsidian aperta** (§9ter) — è ciò che tira l'output cloud dentro Obsidian.
+- ⚠️ `list_scheduled_tasks` vede **SOLO** lo scheduler Code-locale (i 3 task sopra), **NON** le routine cloud. Per quelle: `RemoteTrigger action:list` o pannello claude.ai. Non confondere i due (errore storico Front 3).
+- **Campanello automatico**: l'hook `SessionStart` lancia `.claude/hooks/digest-staleness-check.sh`: se l'ultima daily note è ferma da ≥2 giorni avvisa — di norma significa che la **cloud routine M365 ha fallito** (token), non più "Cowork non aperto". Recupero: controllare auth M365 su claude.ai o ri-abilitare il bridge locale + `RemoteTrigger run` del digest.
+- **Regola pratica**: per *lavorare* sul vault, Code e Obsidian sono equivalenti (il sync li allinea, §9ter). Le *automazioni* girano in **cloud** (Mac spento ok); tieni Obsidian aperto ogni tanto perché il plugin tiri in locale l'output.
 
 ## 9ter. Git, sync e branch (era Code-first) — disciplina anti-errori
 
-> Aggiunta 7/6 a chiusura del loop di sync. Garantisce: niente branch spuri, niente duplicazioni, niente commit sbagliati. Dettaglio operativo + record di ripristino: [[99 - System/Routines/_README]] §Sync / §Step 2. *(Le automazioni "battito" ora girano come **routine cloud unattended** su claude.ai, pilotabili da Code via `RemoteTrigger` — §9/§9bis "Cowork-bound" da aggiornare in F5.)*
+> Aggiunta 7/6 a chiusura del loop di sync. Garantisce: niente branch spuri, niente duplicazioni, niente commit sbagliati. Dettaglio operativo + record di ripristino: [[99 - System/Routines/_README]] §Sync / §Step 2. *(Le automazioni "battito" girano come **routine cloud unattended** su claude.ai, pilotabili da Code via `RemoteTrigger` — vedi §9/§9bis aggiornati 8/6.)*
 
 - **Lavora sempre su `main`** in `/Users/carlosanvoisin/claude` (= cartella Obsidian). La worktree per-sessione (`.claude/worktrees/...`) è creata in automatico dall'harness: il lavoro VERO deve atterrare su `main`, non restare in worktree.
 - **`git pull` PRIMA di scrivere.** Scrivono in parallelo: agenti Code, routine cloud, e il plugin Obsidian Git (auto-sync ogni 10'). Pullare evita divergenze e push rifiutati.
