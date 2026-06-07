@@ -11,6 +11,47 @@ aliases: [Handover chiusura F1, Handover sync QA 7-6]
 > Leggi in ordine: `CLAUDE.md` → questo → `99 - System/KB Solidity Report` → `99 - System/Routines/_README`.
 > Regola: lavora su **`main`** (`/Users/carlosanvoisin/claude` = cartella Obsidian). MAI `git add -A`. Push dall'agente: **funziona** (verificato). §13/§15. Numeri `[PROPOSTA]` = da confermare.
 
+## 0. 📋 PROMPT DA INCOLLARE nella nuova sessione
+
+```
+Riprendiamo l'ottimizzazione del second brain (era Claude Code). Leggi in quest'ordine:
+(1) CLAUDE.md, (2) "00 - Inbox/2026-06-07 - HANDOVER — chiusura F1 (sync vault + QA + cattura
+Code).md" — è la mappa completa, il §8 ha il cross-check di TUTTO ciò che resta, (3) "99 -
+System/KB Solidity Report", (4) "99 - System/Routines/_README"; per il "dopo" (5) "00 - Inbox/
+2026-06-06 - Roadmap Second Brain Code-era" + "99 - System/Open Questions". Con questi hai tutto.
+
+METODO (Roadmap §6): per ogni fronte → spec → piano (skill writing-plans) → esecuzione (skill
+executing-plans; subagent in parallelo dove i task sono indipendenti, skill dispatching-parallel-
+agents) → verifica strutturale (CLAUDE.md §15.quinquies) → vault commit esplicito. R1 skill-first:
+prima di ogni task invoca la skill giusta e annuncia "Using [skill]"; in dubbio, invoca. R2
+explain-after: a fine lavoro spiega cosa hai fatto e come si usa.
+
+SKILL da usare dove pertinenti: vault-live-protocol (ogni commit vault non banale) · update-config
+(hook/settings, es. hook on-session-end per irrobustire la cattura sessioni Code) · schedule
+(routine/cron) · skill-creator + brainstorming (per costruire le skill di F3: vault-health e
+raw→vault) · obsidian-cli (orphans/unresolved, base per wiki-lint) · pm-method (deliverable/PM) ·
+verify.
+
+ORDINE DI LAVORO (handover §5): 1) SYNC GitHub↔Obsidian — plugin Obsidian Git (Carlo installa, tu
+configuri .obsidian/plugins/obsidian-git/data.json: auto-pull + commit-and-sync ~10 min) → chiude
+il buco principale; 2) "Run now" sulle 5 routine Remota per provarle end-to-end (specie pm-digest
+con M365); 3) QA branch (rivedi origin/add-claude-github-actions-…, pulisci i 33 branch claude/*
+verificati safe + worktree residue); 4) CATTURA sessioni Code — catch-up del backlog E verifica
+quali sessioni STORICHE non sono mai state indicizzate (= knowledge persa) + irrobustisci; 5)
+chiusura doc (CLAUDE.md §9 tabella "chi gira dove" + F5 incipit Code-first); poi F3 → F4 → F6
+(vedi §8 per il dettaglio completo, incl. skill raw→vault, le 6 raccomandazioni "Insight",
+git filter-repo).
+
+REGOLE DURE: lavora su main (/Users/carlosanvoisin/claude = la cartella di Obsidian, NON in
+worktree); MAI git add -A (commit per file/gruppi dopo review); push dall'agente OK ma fai
+git pull PRIMA di lavorare (Carlo edita in sessioni parallele → rischio divergenza); §13
+riservatezze (mai fornitori al cliente); §15 append-only; numeri/prezzi/stati contrattuali =
+PROPOSTA da confermare, mai auto-applicati; una nuova automazione NON è "fatta" finché il suo
+output non ATTERRA in Obsidian ed è PROVATA end-to-end, non solo creata.
+
+Parti dallo step 1 (sync): prima spiegami il piano, poi esegui.
+```
+
 ## 1. Stato (verità git)
 - `main` su `/Users/carlosanvoisin/claude`, **in sync** con `origin` (GitHub privato `heyai-second-brain`).
 - ✅ **F0** (git+remote+backup) · ✅ **F2** (Fasi 0-6: KB ingerita, deduplicata, bonificata, certificata — vedi KB Solidity Report) · 🟡 **F1** (routine create ma loop sync non chiuso).
@@ -26,7 +67,7 @@ aliases: [Handover chiusura F1, Handover sync QA 7-6]
 2. **Bug routine push su branch orfani** → **già FIXATO da Carlo** (commit `861859f`, prompt routine ora "push su main"). Verificare che i prossimi run lo rispettino.
 3. **`origin/add-claude-github-actions-1780844688300`**: branch dell'integrazione Claude↔GitHub (setup workflow per far girare le routine sul repo) → rivedere: serve mergiarlo? è ciò che fa funzionare le Remota?
 4. **33 branch `claude/*` stale** (clutter, 0 commit unici → safe). Pulizia: rimuovere worktree residue poi `git branch -D` i branch vuoti. NON toccare il branch della sessione attiva.
-5. **Cattura sessioni Code fragile**: `code-sessions-index` è **LOCALE per forza** (legge `~/.claude/projects/*.jsonl`, file sul Mac NON nel repo → un agente cloud non li vede) + best-effort (gira 20:35 ad app aperta). **Backlog probabile** (sessioni di oggi non ancora indicizzate). → trigger catch-up + valutare robustezza (es. hook on-session-end). Questo è il "le sessioni Code non aggiornano la memoria del vault".
+5. **🔴 Cattura sessioni Code fragile — RISCHIO KNOWLEDGE PERSA**: `code-sessions-index` è **LOCALE per forza** (legge `~/.claude/projects/*.jsonl`, file sul Mac NON nel repo → un agente cloud non li vede) + best-effort (gira 20:35 solo ad app aperta). **Non solo il backlog di oggi: possibili sessioni STORICHE mai indicizzate** = knowledge che NON è mai arrivata nel vault (precedente concreto: il "Recovery Code sessions backlog" manuale del 28/5 → è già successo). Dati QA 7/6: **103 JSONL totali vs 59 recap** (parte sono altri progetti `code-angelini-academy`/Desktop, ma il delta delle sessioni-vault va verificato una per una). → **(1) Audit cattura**: per ogni `.jsonl` del progetto vault, verificare se esiste il recap corrispondente in `80 - Sources/Cowork Sessions/code-recap/` → lista delle **sessioni perse** → indicizzarle (recupero come il 28/5). **(2) Irrobustire**: spostare la cattura da cron-locale-best-effort a un **hook on-session-end** (skill `update-config`), così ogni sessione viene catturata alla chiusura e non si dipende dall'app aperta alle 20:35. Questo è il "le sessioni Code non aggiornano la memoria del vault".
 6. **Run end-to-end cloud NON provato** (specie `pm-digest` con M365 — il pezzo fragile). → "**Run now**" su ogni routine Remota per provarle + pre-approvare i tool.
 7. **Divergenza parallela**: Carlo edita in sessioni parallele lo stesso vault (3 commit suoi oggi). Senza sync (#1), rischio conflitti di push. Disciplina interim: `git pull` prima di lavorare.
 
