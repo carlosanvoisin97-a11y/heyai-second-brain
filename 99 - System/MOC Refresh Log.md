@@ -29,7 +29,7 @@ Run eseguito domenica 24/5 (slot cron sab 16:00 saltato — no entry log sab 23/
 ### Flag to triage (Carlo decide)
 
 **Nuova persona non in MOC (1):**
-- `[[60 - People/Paolo Verrengia (commercialista NoLoop)]]` 🆕 — Commercialista/consulente fiscale esterno NoLoop, scheda creata 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo del MOC oppure tenere solo in `60 - People/` finché due diligence non chiusa.
+- `[[60 - People/Paolo Verrangia (commercialista NoLoop)]]` 🆕 — Commercialista/consulente fiscale esterno NoLoop, scheda creata 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo del MOC oppure tenere solo in `60 - People/` finché due diligence non chiusa.
 
 ### Flag NON ri-segnalati (convenzione consolidata, vedi entry 15/5 + 16/5)
 
@@ -54,7 +54,7 @@ Nessuno nuovo rilevato. I 32 wikilink presenti nel MOC verificati come da run 16
 ### Stato finale
 
 - Auto-patches: 2
-- Flag aperti per Carlo: 1 (Paolo Verrengia, decisione cluster MOC)
+- Flag aperti per Carlo: 1 (Paolo Verrangia, decisione cluster MOC)
 - Wikilink broken: 0
 
 ---

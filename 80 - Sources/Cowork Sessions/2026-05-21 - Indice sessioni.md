@@ -128,32 +128,32 @@ Nessuna patch (descrizione coerente con [[20 - Projects/NoLoop/Wave 2/Crowd — 
 ## Sessione 5 — `local_51b0ba93-be43-4c2e-a396-4ba3546819fc` — Paolo project recap and contract review
 
 **Progetti**: [[20 - Projects/NoLoop/_NoLoop|NoLoop]], [[20 - Projects/NoLoop/Wave 1/_Wave 1 NoLoop|Wave 1 NoLoop]], [[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]]
-**Persone**: 🔴 [[60 - People/Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]] (rinominato da "Verrangelo" → grafia corretta da email), [[60 - People/Paolo Donzelli|Paolo Donzelli]], Roberta (NoLoop accounting, da identificare)
+**Persone**: 🔴 [[60 - People/Paolo Verrangia (commercialista NoLoop)|Paolo Verrangia]] (rinominato da "Verrangia" → grafia corretta da email), [[60 - People/Paolo Donzelli|Paolo Donzelli]], Roberta (NoLoop accounting, da identificare)
 
 ### Decisioni
-- 🔴 **Sospendere l'invio dei 3 documenti** (scheda tecnica + 2 contratti integrali Wave 1 + Wave 2) finché non si chiude la verifica identità+pedigree Paolo Verrengia
+- 🔴 **Sospendere l'invio dei 3 documenti** (scheda tecnica + 2 contratti integrali Wave 1 + Wave 2) finché non si chiude la verifica identità+pedigree Paolo Verrangia
 - Strategia: tenere il background del 2011/2017 **interno a HeyAI**, non frontale con Donzelli; mandare a Roberta messaggio neutro per conferma coinvolgimento
 
 ### Numeri/fatti nuovi — 🔴 RED FLAG ALTO
 - **Anomalia 1**: email su gmail anziché dominio studio (commercialista 40+ anni → atteso dominio professionale)
 - **Anomalia 2**: "VSign Srl" **non riscontrabile** in Camera di Commercio Roma, Registro Imprese, ricerche web — l'unica entità simile è "VS S.R.L." (P.IVA 13974811005, Roma) ma denominazione diversa e probabilmente scollegata
-- **Anomalia 3** (più seria): cognome Verrengia + commercialista + Roma → caso noto di frode fiscale. **2011 Operazione GdF "Confcommercio Roma"** (46 arresti, frode €600M+ via trasferimento illecito società in Bulgaria/UK/Spagna/Venezuela, capeggiata da Cesare Pambianchi presidente Confcommercio Roma; Paolo Verrengia citato negli articoli stampa come collaboratore). **2017 Inchiesta "Fallimenti facili"** (€160M sequestri, bancarotta fraudolenta): citato "il commercialista Aldo Verrengia" (Paolo/Aldo: stessa persona, parenti, o distinti — TBD)
-- Esito processuale finale di Paolo Verrengia **non riscontrato pubblicamente** (sentenza definitiva, archiviazione, stralcio — TBD)
-- Pedigree dichiarato coerente: 40+ anni professione, romano, commercialista, audit di forma — **identico al profilo del Paolo Verrengia delle inchieste** (coincidenza statisticamente improbabile)
+- **Anomalia 3** (più seria): cognome Verrangia + commercialista + Roma → caso noto di frode fiscale. **2011 Operazione GdF "Confcommercio Roma"** (46 arresti, frode €600M+ via trasferimento illecito società in Bulgaria/UK/Spagna/Venezuela, capeggiata da Cesare Pambianchi presidente Confcommercio Roma; Paolo Verrangia citato negli articoli stampa come collaboratore). **2017 Inchiesta "Fallimenti facili"** (€160M sequestri, bancarotta fraudolenta): citato "il commercialista Aldo Verrangia" (Paolo/Aldo: stessa persona, parenti, o distinti — TBD)
+- Esito processuale finale di Paolo Verrangia **non riscontrato pubblicamente** (sentenza definitiva, archiviazione, stralcio — TBD)
+- Pedigree dichiarato coerente: 40+ anni professione, romano, commercialista, audit di forma — **identico al profilo del Paolo Verrangia delle inchieste** (coincidenza statisticamente improbabile)
 - Connessione Axel Egon Sanvoisin (cugino Carlo, Clonwerk Roma, produzioni eventi) plausibile ma non probante
 
 ### Output prodotti
-- Scheda persona aggiornata: [[60 - People/Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]] (rinominata, `risk_flag: 🔴 ALTO`, sezione completa "Due diligence 21/5/2026" + 7 action items urgenti)
+- Scheda persona aggiornata: [[60 - People/Paolo Verrangia (commercialista NoLoop)|Paolo Verrangia]] (rinominata, `risk_flag: 🔴 ALTO`, sezione completa "Due diligence 21/5/2026" + 7 action items urgenti)
 - 🆕 **Open Question #36** in [[99 - System/Open Questions]] con 7 punti da chiudere (identità + iscrizione Albo Commercialisti Roma + VSign Srl verifica camerale + decisione esposizione contratti integrali vs scheda tecnica v2)
 
 ### Task emersi
-- [ ] **#p0** Mandare messaggio neutro a Roberta NoLoop (conferma coinvolgimento Verrengia, senza menzionare dubbi)
-- [ ] **#p0** Verifica iscrizione Paolo Verrengia all'Albo Commercialisti Roma (ODCEC Roma, sito pubblico)
+- [ ] **#p0** Mandare messaggio neutro a Roberta NoLoop (conferma coinvolgimento Verrangia, senza menzionare dubbi)
+- [ ] **#p0** Verifica iscrizione Paolo Verrangia all'Albo Commercialisti Roma (ODCEC Roma, sito pubblico)
 - [ ] **#p0** Verifica VSign Srl direttamente in CCIAA Roma o Registro Imprese (visura camerale)
 - [ ] **#p0** Decidere esposizione documentale: se i 3 step sopra confermano professionista reale, regolare, mandato Donzelli/Roberta → mandare **solo scheda tecnica di sintesi v2** (esposizione minimizzata). Contratti integrali solo a fronte di richiesta scritta esplicita Donzelli/Roberta
 
 ### Schede aggiornate
-- [[60 - People/Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]] — rinominata + `risk_flag: 🔴 ALTO` + sezione Due diligence + Action items (sessione live)
+- [[60 - People/Paolo Verrangia (commercialista NoLoop)|Paolo Verrangia]] — rinominata + `risk_flag: 🔴 ALTO` + sezione Due diligence + Action items (sessione live)
 - [[99 - System/Open Questions]] — aperta **#36** con 7 punti
 
 ---
@@ -251,7 +251,7 @@ Continuation light: nel turno aggiuntivo Carlo chiede di rifare il prompt Claude
 
 Nessun conflitto rilevato. Nessuna scheda è stata toccata da ≥2 sessioni del run con delta divergenti su campi atomici o checkbox.
 
-(Le 3 schede Soolutions-correlate — Osservatorio Strategico, Simone Montanari, Master Facts Sheet — sono state toccate solo da Sessione 6. Le schede Achipoint, Verrengia, Crowd Product Description, Eldis Compilatore, Operation Transformation sono state toccate ciascuna da una sola sessione. Schede di "shared scope" come `_NoLoop.md` o `_Wave 2 NoLoop.md` non hanno ricevuto patch atomiche dal run, solo riferimenti incidentali nelle Sessioni 2/3.)
+(Le 3 schede Soolutions-correlate — Osservatorio Strategico, Simone Montanari, Master Facts Sheet — sono state toccate solo da Sessione 6. Le schede Achipoint, Verrangia, Crowd Product Description, Eldis Compilatore, Operation Transformation sono state toccate ciascuna da una sola sessione. Schede di "shared scope" come `_NoLoop.md` o `_Wave 2 NoLoop.md` non hanno ricevuto patch atomiche dal run, solo riferimenti incidentali nelle Sessioni 2/3.)
 
 ---
 
@@ -260,7 +260,7 @@ Nessun conflitto rilevato. Nessuna scheda è stata toccata da ≥2 sessioni del 
 **N task chiusi auto**: 0 (le chiusure live sono già state fatte dagli agenti di sessione — checkbox €1.800 + €2.100 Eldis chiusi 20/5 sera live; checkbox Achipoint finalizzazione 18/5 chiuso live in Sessione 4 con override slittamento 21/5).
 **N task annullati auto**: 0
 **N task in ⚠️ Da triagiare**: 0
-**N task aperti scansionati totali sulle schede toccate**: ~25 (Achipoint 5, Osservatorio Strategico 3, Eldis 3, Operation Transformation 4, Eye Cookies 2, Verrengia 7, Crowd Product Description 0 — nessun match deterministico per chiusura automatica da prosa appendata in questo run).
+**N task aperti scansionati totali sulle schede toccate**: ~25 (Achipoint 5, Osservatorio Strategico 3, Eldis 3, Operation Transformation 4, Eye Cookies 2, Verrangia 7, Crowd Product Description 0 — nessun match deterministico per chiusura automatica da prosa appendata in questo run).
 
 ---
 
@@ -270,7 +270,7 @@ _(nessuna scheda persona/progetto da creare segnalata in triage)_
 
 Punti aperti aggregati per Carlo (non bloccanti, da triagiare a livello PM):
 
-1. **Verrengia red flag**: identità Paolo Verrengia + iscrizione ODCEC Roma + VSign Srl camera commercio → **Open Question #36** in [[99 - System/Open Questions]]. Sospeso invio 2 contratti integrali fino a chiusura verifica.
+1. **Verrangia red flag**: identità Paolo Verrangia + iscrizione ODCEC Roma + VSign Srl camera commercio → **Open Question #36** in [[99 - System/Open Questions]]. Sospeso invio 2 contratti integrali fino a chiusura verifica.
 2. **Operation Transformation rettifica contratto**: "contratto emesso ma NON firmato da Donzelli + acconto fatturato e incassato comunque" → analoga al pattern Wave 2 Art. 1.4 efficacia retroattiva, da formalizzare sottoscrizione prima delle tranche successive (cascata su [[99 - System/Master Facts Sheet]] §progetti P1 da Carlo).
 3. **Achipont §3.1 BC math Lazio 5,4% vs €15,3 mld** lasciato aperto (gap inspiegato €14,68 mld vs €15,3 mld dichiarato — possibile riferimento ad appalti di soli lavori, sottoinsieme del totale).
 

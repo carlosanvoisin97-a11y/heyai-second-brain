@@ -110,7 +110,7 @@ Contratto Germano con 6 clausole inaccettabili (IP day-zero, royalty su netto, �
 - ⚠️ **Rettifica 21/5/2026** (Andrea Pazienza → Carlo → vault): la dicitura "CONTRATTO FIRMATO" presente nel vault fino al 20/5 era **errata**. La realtà è: Donzelli ha **approvato commercialmente** la modalità Full Ownership €75K via email il 03/04 (oggetto "Re: Contratto Eye Cookies in modalità Revenue Sharing"), ma **il contratto in forma documentale non è mai stato prodotto né sottoscritto**.
 - Modalità commerciale concordata: **full ownership €75K** (oggetto email lo chiama "Revenue Sharing" come legacy della prima bozza ma decisione finale è Full Ownership)
 - ✅ **Acconto pagato da NOT** _[conferma Carlo 21/5/2026]_ — fatturato e incassato sulla base dell'approvazione email, in assenza di documento contrattuale firmato
-- Implicazione operativa: prima dell'invio del documento contrattuale a [[Paolo Verrengia (commercialista NoLoop)|Paolo Verrangelo]] per l'audit fiscale, va valutato se produrre adesso il contratto ex novo (con efficacia retroattiva pattern Wave 2 Art. 1.4) o se gestire la documentazione lato Verrangelo via approvazione email + fatture emesse
+- Implicazione operativa: prima dell'invio del documento contrattuale a [[Paolo Verrangia (commercialista NoLoop)|Paolo Verrangia]] per l'audit fiscale, va valutato se produrre adesso il contratto ex novo (con efficacia retroattiva pattern Wave 2 Art. 1.4) o se gestire la documentazione lato Verrangia via approvazione email + fatture emesse
 
 ### Stato attuale (aprile 2026): FASE OPERATIVA
 - 16/04: Kick-off interno NOT (Operations + Eye Cookies) — Carlo organizer

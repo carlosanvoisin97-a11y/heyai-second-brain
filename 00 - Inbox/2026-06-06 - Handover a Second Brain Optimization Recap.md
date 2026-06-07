@@ -76,7 +76,7 @@ Ogni `D` ha la copia di destinazione già presente come `??`. **Committare sorge
 
 ### 3b. Alto valore "a rischio" (tracked M — lavoro a mano)
 
-- **17 schede People** modificate: Bruno Mattucci, Carlo Sanvoisin, Carmen Compare, Claudia Bugno, Daniele Caporale, Elena Chiti, Federico Saladino, Germano Marano, Lavinia Ferrari, Lorena Cavecchi, Marco Murolo, Marta Garrafa, Massi Sinigaglia, Paolo Donzelli, Paolo Verrengia, Simone Montanari, Stefania Solidoro.
+- **17 schede People** modificate: Bruno Mattucci, Carlo Sanvoisin, Carmen Compare, Claudia Bugno, Daniele Caporale, Elena Chiti, Federico Saladino, Germano Marano, Lavinia Ferrari, Lorena Cavecchi, Marco Murolo, Marta Garrafa, Massi Sinigaglia, Paolo Donzelli, Paolo Verrangia, Simone Montanari, Stefania Solidoro.
 - **17 schede Projects** modificate (Eldis, Angelini ×5, Osservatorio, _Futuritaly, Eye Cookies, Operation Transformation, Wave 1, Crowd, Minutes, _Wave 2, PresidIa…).
 - **7 file System**: Cowork Sessions Log, MOC - Home, MOC Refresh Log, **Master Facts Sheet**, Open Questions, System Consistency Audit, Vault Link Audit. `CLAUDE.md` (M).
 - → Sono edit veri: **preservare**, mai `git checkout` alla cieca.

@@ -66,7 +66,7 @@ Cascata applicata: aliases `emails_historical` aggiunti alle schede [[Federico S
 - Il modello Wave 2 NON replica Wave 1 (full transfer cliente)
 - Verificare con avv. Longo nella bozza 7/5 che la clausola IP rifletta questo modello
 
-### 36. 🔴 Identità reale di "Paolo Verrengia" — possibile soggetto con precedenti penali per frode fiscale
+### 36. 🔴 Identità reale di "Paolo Verrangia" — possibile soggetto con precedenti penali per frode fiscale
 
 Aperta 21/5/2026 sera a valle della due diligence web richiesta da Carlo dopo aver ricevuto via WhatsApp l'email `paolo.vsignsrl@gmail.com` e il nome aggiornato.
 
@@ -74,23 +74,23 @@ Tre red flag emersi dalla ricerca pubblica:
 
 1. **Dominio email gmail** invece di studio professionale — anomalo per commercialista 40+ anni con cliente NoLoop strutturato
 2. **"VSign Srl" non riscontrabile** in Camera di Commercio Roma né online (verifica 21/5/2026)
-3. **Cognome Verrengia + commercialista + Roma** → emerge direttamente un caso noto di frode fiscale: Paolo Verrengia citato negli articoli di stampa 2011 (Il Giornale, PMLI, Confcommercio) come collaboratore di Cesare Pambianchi (ex presidente Confcommercio Roma, condannato a 3 anni per frode fiscale strutturata, organizzazione di €600M+ di trasferimenti illeciti di società all'estero). In coda all'inchiesta, sequestri €160M nel 2017. Esiste anche un "Aldo Verrengia" citato nel 2017 — non chiaro se sia la stessa persona, parente, o persona distinta
+3. **Cognome Verrangia + commercialista + Roma** → emerge direttamente un caso noto di frode fiscale: Paolo Verrangia citato negli articoli di stampa 2011 (Il Giornale, PMLI, Confcommercio) come collaboratore di Cesare Pambianchi (ex presidente Confcommercio Roma, condannato a 3 anni per frode fiscale strutturata, organizzazione di €600M+ di trasferimenti illeciti di società all'estero). In coda all'inchiesta, sequestri €160M nel 2017. Esiste anche un "Aldo Verrangia" citato nel 2017 — non chiaro se sia la stessa persona, parente, o persona distinta
 
-**Esito processuale finale di Paolo Verrengia: TBD** (nessuna ricerca finora ha trovato sentenza definitiva).
+**Esito processuale finale di Paolo Verrangia: TBD** (nessuna ricerca finora ha trovato sentenza definitiva).
 
 Da chiarire/decidere:
 
 1. **Conferma identità + coinvolgimento via Roberta Calajò** (messaggio già pronto, da inviare)
-2. **Iscrizione Albo Commercialisti Roma**: Paolo Verrengia è radiato, sospeso o attivo? Verifica su ODCEC Roma
+2. **Iscrizione Albo Commercialisti Roma**: Paolo Verrangia è radiato, sospeso o attivo? Verifica su ODCEC Roma
 3. **VSign Srl esiste come entità giuridica**? Verifica diretta CCIAA Roma / Registro Imprese
-4. **Sentenza definitiva** su Paolo Verrengia nell'inchiesta Pambianchi 2011 (assoluzione/condanna/archiviazione/stralcio)
+4. **Sentenza definitiva** su Paolo Verrangia nell'inchiesta Pambianchi 2011 (assoluzione/condanna/archiviazione/stralcio)
 5. **Donzelli sa del background?** Approccio discreto via Andrea Pazienza, se vale la pena indagare
-6. **Cosa mandare a Verrengia anche se confermato**: i contratti integrali (rischio di breach Art. 15 Wave 1 / Art. 12.5 Wave 2) o solo la scheda tecnica di sintesi (esposizione minimizzata)?
+6. **Cosa mandare a Verrangia anche se confermato**: i contratti integrali (rischio di breach Art. 15 Wave 1 / Art. 12.5 Wave 2) o solo la scheda tecnica di sintesi (esposizione minimizzata)?
 7. **Strategia di comunicazione interna a HeyAI**: chi sa che HeyAI ha questa informazione (per ora solo Carlo + vault) — meglio mantenere riservato finché la verifica non chiude
 
-Implicazione strategica: l'invio dei 3 documenti a Verrengia è **SOSPESO** finché non si chiude la verifica via Roberta + ODCEC + CCIAA.
+Implicazione strategica: l'invio dei 3 documenti a Verrangia è **SOSPESO** finché non si chiude la verifica via Roberta + ODCEC + CCIAA.
 
-Riferimenti vault: [[60 - People/Paolo Verrengia (commercialista NoLoop)]] §"Due diligence 21/5/2026".
+Riferimenti vault: [[60 - People/Paolo Verrangia (commercialista NoLoop)]] §"Due diligence 21/5/2026".
 
 ### 35. 🆕 Stato contrattuale reale dei due progetti NOT (Operation Transformation + Eye Cookies)
 
@@ -101,11 +101,11 @@ Aperta 21/5/2026 a valle della rettifica Andrea Pazienza → Carlo → vault. Il
 
 Da chiarire/decidere:
 
-1. **Stato del rapporto contrattuale**: HeyAI ha fatturato acconti senza contratto firmato/prodotto. È prassi accettata col cliente (pattern Wave 2 Art. 1.4 efficacia retroattiva su attività propedeutiche), ma resta una **zona grigia operativa** che diventa critica con l'arrivo dell'audit fiscale di [[Paolo Verrengia (commercialista NoLoop)|Verrangelo]]
-2. **Comunicazione a Verrangelo**: cosa dire nella scheda tecnica e nell'email del 21/5? L'attuale bozza dice "due progetti contrattualizzati" — formulazione **errata** alla luce dei fatti, da rivedere in "progetti in essere in fase di formalizzazione contrattuale"
+1. **Stato del rapporto contrattuale**: HeyAI ha fatturato acconti senza contratto firmato/prodotto. È prassi accettata col cliente (pattern Wave 2 Art. 1.4 efficacia retroattiva su attività propedeutiche), ma resta una **zona grigia operativa** che diventa critica con l'arrivo dell'audit fiscale di [[Paolo Verrangia (commercialista NoLoop)|Verrangia]]
+2. **Comunicazione a Verrangia**: cosa dire nella scheda tecnica e nell'email del 21/5? L'attuale bozza dice "due progetti contrattualizzati" — formulazione **errata** alla luce dei fatti, da rivedere in "progetti in essere in fase di formalizzazione contrattuale"
 3. **Strategia di formalizzazione**: produrre adesso i contratti ex novo con efficacia retroattiva (pattern Wave 2 Art. 1.4) o continuare a operare su email di approvazione + fatture emesse?
-4. **Tempistica**: Donzelli ha bisogno di chiusura formale **prima** che Verrangelo qualifichi gli investimenti AI ai fini fiscali — altrimenti l'agevolazione potrebbe essere indebolita dalla mancanza di documento sottoscritto a base della spesa
-5. **Sollecitare Donzelli**: Andrea Pazienza o Carlo, e con quale leva (Verrangelo stesso può essere usato come leva positiva: "il tuo consulente fiscale ci sta auditando, conviene chiudere la documentazione")
+4. **Tempistica**: Donzelli ha bisogno di chiusura formale **prima** che Verrangia qualifichi gli investimenti AI ai fini fiscali — altrimenti l'agevolazione potrebbe essere indebolita dalla mancanza di documento sottoscritto a base della spesa
+5. **Sollecitare Donzelli**: Andrea Pazienza o Carlo, e con quale leva (Verrangia stesso può essere usato come leva positiva: "il tuo consulente fiscale ci sta auditando, conviene chiudere la documentazione")
 
 Riferimenti vault: [[20 - Projects/NOT/Operation Transformation]], [[20 - Projects/NOT/Eye Cookies]], [[60 - People/Paolo Donzelli]], [[99 - System/Master Facts Sheet]] §🍪 e §NOT.
 

@@ -17,12 +17,12 @@ top_quotes:
   - "Abbiamo una certa necessità di partire per rispettare poi questa roadmap"
 sources: [call telefonica 21/5/2026 (~12 min, organizzativa), due diligence web 21/5/2026]
 aliases:
-  - Paolo Verrengia
+  - Paolo Verrangia
 ---
 
-# 👤 Paolo Verrengia (commercialista NoLoop) — 🔴 RISK FLAG ALTO
+# 👤 Paolo Verrangia (commercialista NoLoop) — 🔴 RISK FLAG ALTO
 
-> ⚠️ **Spelling cognome aggiornato 21/5/2026 sera**: Carlo ha ricevuto via WhatsApp dall'interessato l'email `paolo.vsignsrl@gmail.com` e il nome **"Paolo Verrengia"** (con la "g", non "Verrangelo" come trascritto dalla call). Quindi cognome corretto: **Verrengia**.
+> ⚠️ **Spelling cognome aggiornato 21/5/2026 sera**: Carlo ha ricevuto via WhatsApp dall'interessato l'email `paolo.vsignsrl@gmail.com` e il nome **"Paolo Verrangia"** (con la "g", non "Verrangia" come trascritto dalla call). Quindi cognome corretto: **Verrangia**.
 
 ## 🔴 Due diligence 21/5/2026 — esito ricerca pubblica
 
@@ -36,29 +36,29 @@ A valle della verifica web richiesta da Carlo, sono emerse criticità rilevanti 
 
 Ricerche su Google + tentativi su `ufficiocamerale.it` con keyword "VSign Srl" / "V Sign Srl" / "VSIGN" non restituiscono **nessun riscontro** di un'entità giuridica con quel nome (verifica 21/5/2026). L'unica società simile è "VS S.R.L." (P.IVA 13974811005, Roma, Via Bellini 86) ma è denominazione diversa e non collegabile al contatto.
 
-### 3. Cognome Verrengia + commercialisti Roma = caso noto di frode fiscale
+### 3. Cognome Verrangia + commercialisti Roma = caso noto di frode fiscale
 
-Ricerche su "Paolo Verrengia commercialista Roma" portano direttamente a **due procedimenti penali noti** in cui un commercialista di cognome Verrengia è citato:
+Ricerche su "Paolo Verrangia commercialista Roma" portano direttamente a **due procedimenti penali noti** in cui un commercialista di cognome Verrangia è citato:
 
-- **Operazione GdF 2011 — "Confcommercio Roma"**: 46 arresti, frode fiscale strutturata da €600M+ via trasferimento illecito di società italiane gravate da debiti fiscali verso Bulgaria, Spagna, UK, Venezuela, Romania, Perù. Il presidente di Confcommercio Roma **Cesare Pambianchi** (commercialista, studio in Parioli) capeggiava l'organizzazione insieme al socio Carlo Mazzieri. **Paolo Verrengia** è citato negli articoli di stampa come uno dei collaboratori di Pambianchi (Il Giornale, PMLI, Confcommercio). Pambianchi e Mazzieri condannati in primo grado a 3 anni di reclusione per evasione fiscale.
+- **Operazione GdF 2011 — "Confcommercio Roma"**: 46 arresti, frode fiscale strutturata da €600M+ via trasferimento illecito di società italiane gravate da debiti fiscali verso Bulgaria, Spagna, UK, Venezuela, Romania, Perù. Il presidente di Confcommercio Roma **Cesare Pambianchi** (commercialista, studio in Parioli) capeggiava l'organizzazione insieme al socio Carlo Mazzieri. **Paolo Verrangia** è citato negli articoli di stampa come uno dei collaboratori di Pambianchi (Il Giornale, PMLI, Confcommercio). Pambianchi e Mazzieri condannati in primo grado a 3 anni di reclusione per evasione fiscale.
 
-- **Inchiesta GdF 2017 — "Fallimenti facili"** (in coda all'operazione del 2011): nuova ondata di sequestri (€160M+), bancarotta fraudolenta e reati tributari. L'articolo del Romanista (settembre 2017) cita esplicitamente "il commercialista **Aldo Verrengia**" tra i nuovi indagati della "rediviva cricca di Pambianchi". Non è chiaro se Aldo e Paolo siano la stessa persona (errore mediatico tra Paolo↔Aldo), parenti (fratelli/figli/cugini) o persone distinte.
+- **Inchiesta GdF 2017 — "Fallimenti facili"** (in coda all'operazione del 2011): nuova ondata di sequestri (€160M+), bancarotta fraudolenta e reati tributari. L'articolo del Romanista (settembre 2017) cita esplicitamente "il commercialista **Aldo Verrangia**" tra i nuovi indagati della "rediviva cricca di Pambianchi". Non è chiaro se Aldo e Paolo siano la stessa persona (errore mediatico tra Paolo↔Aldo), parenti (fratelli/figli/cugini) o persone distinte.
 
-**Esito processuale finale di Paolo Verrengia: TBD**. Nessuna ricerca finora ha trovato sentenza definitiva (assoluzione/condanna/prescrizione) per Paolo Verrengia. Possibile che il procedimento sia ancora pendente, che sia stato archiviato, o che la posizione sia stata stralciata.
+**Esito processuale finale di Paolo Verrangia: TBD**. Nessuna ricerca finora ha trovato sentenza definitiva (assoluzione/condanna/prescrizione) per Paolo Verrangia. Possibile che il procedimento sia ancora pendente, che sia stato archiviato, o che la posizione sia stata stralciata.
 
 ### 4. Pedigree dichiarato in call coerente con il profilo trovato online
 
-In call ha dichiarato: 40+ anni di professione, sede Roma, fa "audit di forma sui contratti", "non entra nella sostanza", contatto via Donzelli e Roberta. Il "Paolo Verrengia commercialista Roma" delle ricerche pubbliche ha **lo stesso profilo geografico, anagrafico e professionale**. Coincidenza statisticamente improbabile.
+In call ha dichiarato: 40+ anni di professione, sede Roma, fa "audit di forma sui contratti", "non entra nella sostanza", contatto via Donzelli e Roberta. Il "Paolo Verrangia commercialista Roma" delle ricerche pubbliche ha **lo stesso profilo geografico, anagrafico e professionale**. Coincidenza statisticamente improbabile.
 
 ### 5. Connessione Axel Sanvoisin = plausibile ma non probante
 
-Axel Sanvoisin (fratello di Carlo) è realmente partner/manager Clonwerk Roma (produzioni eventi, partner Expo 2030, Colosseo, ecc.). Verrengia in call ha dichiarato di aver "trovato il cognome Sanvoisin in qualche pratica" — affermazione plausibile ma **non verificabile**. Può essere un'ancora di affinità sincera (lui ha davvero fatto pratiche per Axel) o un elemento di social engineering preparato (info su Axel ampiamente reperibili online).
+Axel Sanvoisin (fratello di Carlo) è realmente partner/manager Clonwerk Roma (produzioni eventi, partner Expo 2030, Colosseo, ecc.). Verrangia in call ha dichiarato di aver "trovato il cognome Sanvoisin in qualche pratica" — affermazione plausibile ma **non verificabile**. Può essere un'ancora di affinità sincera (lui ha davvero fatto pratiche per Axel) o un elemento di social engineering preparato (info su Axel ampiamente reperibili online).
 
 ## Implicazioni operative per HeyAI
 
 ### Rischio 1 — Reputazionale e relazionale con NoLoop
 
-Indipendentemente dall'esito processuale di Paolo Verrengia, **se Donzelli ha effettivamente affidato l'audit fiscale a una persona con questo background mediatico-giudiziario**, sorge una domanda strategica: Donzelli ne è consapevole? Se sì, perché? Se no, conviene a HeyAI fargli notare (rischio di "messaggero della cattiva notizia") o silenziare (rischio di complicità implicita)?
+Indipendentemente dall'esito processuale di Paolo Verrangia, **se Donzelli ha effettivamente affidato l'audit fiscale a una persona con questo background mediatico-giudiziario**, sorge una domanda strategica: Donzelli ne è consapevole? Se sì, perché? Se no, conviene a HeyAI fargli notare (rischio di "messaggero della cattiva notizia") o silenziare (rischio di complicità implicita)?
 
 ### Rischio 2 — Validità tecnica dell'audit
 
@@ -74,12 +74,12 @@ I 3 documenti contengono: pricing modulare (Proposta), clausole IP e di protezio
 
 ## Action items urgenti (in ordine di priorità)
 
-- [ ] **#p0** SOSPENDERE invio email e materiale a Verrengia finché non si chiude la verifica
-- [ ] **#p0** Inviare il messaggio già pronto a Roberta Calajò per conferma coinvolgimento Verrengia (formula neutra, no menzione dei dubbi)
-- [ ] **#p1** Cercare iscrizione Paolo Verrengia all'Albo Commercialisti Roma (ODCEC Roma) — verificare se è radiato/sospeso/attivo
+- [ ] **#p0** SOSPENDERE invio email e materiale a Verrangia finché non si chiude la verifica
+- [ ] **#p0** Inviare il messaggio già pronto a Roberta Calajò per conferma coinvolgimento Verrangia (formula neutra, no menzione dei dubbi)
+- [ ] **#p1** Cercare iscrizione Paolo Verrangia all'Albo Commercialisti Roma (ODCEC Roma) — verificare se è radiato/sospeso/attivo
 - [ ] **#p1** Verificare se VSign Srl esiste come entità giuridica (CCIAA Roma diretto, registro imprese)
-- [ ] **#p1** Cercare sentenza definitiva su Paolo Verrengia nell'inchiesta Pambianchi 2011 (assoluzione? condanna? archiviazione? stralcio?)
-- [ ] **#p1** Quando Roberta conferma il coinvolgimento, valutare se chiedere ad Andrea Pazienza di verificare se Donzelli **sa** del background di Verrengia (in modo discreto, non frontale)
+- [ ] **#p1** Cercare sentenza definitiva su Paolo Verrangia nell'inchiesta Pambianchi 2011 (assoluzione? condanna? archiviazione? stralcio?)
+- [ ] **#p1** Quando Roberta conferma il coinvolgimento, valutare se chiedere ad Andrea Pazienza di verificare se Donzelli **sa** del background di Verrangia (in modo discreto, non frontale)
 - [ ] **#p2** Se si decidesse di procedere, mandare SOLO la scheda tecnica di sintesi v2 (esposizione minimizzata), NON i contratti integrali; chiedere richiesta esplicita scritta da Donzelli/Roberta prima di girare i contratti integrali
 
 ## Output richiesti a Carlo entro **stasera 21/5** [SOSPESI]
@@ -116,22 +116,22 @@ I 3 documenti contengono: pricing modulare (Proposta), clausole IP e di protezio
 ## Prossimi step
 
 - **Stasera 21/5**: WhatsApp → email address + invio materiale
-- **Settimana 25-31/5**: Verrangelo a Milano, no incontro possibile
-- **Settimana 1-7/6 (o successiva)**: incontro a Roma con Verrangelo **+ Roberto Simbestini** ("l'uomo di Paolo") — Carlo organizer
-- **Eventuale touchpoint intermedio** in call su richiesta di Verrangelo per accelerare la roadmap
+- **Settimana 25-31/5**: Verrangia a Milano, no incontro possibile
+- **Settimana 1-7/6 (o successiva)**: incontro a Roma con Verrangia **+ Roberto Simbestini** ("l'uomo di Paolo") — Carlo organizer
+- **Eventuale touchpoint intermedio** in call su richiesta di Verrangia per accelerare la roadmap
 
 ## Lead aggiuntivo emerso in call ("biotech medical device")
 
-Verrangelo ha un altro cliente (suo, non NoLoop) che ha **immaginato un applicativo medical device che entra in contatto col corpo umano**. Cerca chi possa progettare prototipo + IP + software AI:
+Verrangia ha un altro cliente (suo, non NoLoop) che ha **immaginato un applicativo medical device che entra in contatto col corpo umano**. Cerca chi possa progettare prototipo + IP + software AI:
 
 - Idea già disegnata artigianalmente dal cliente
 - Servono: progettazione industriale, prototipazione, certificazioni mediche, software AI
 - HeyAI fa la parte software (riconoscimento, tracciamento dati, output AI); per hardware si appoggia ai partner di rete
-- Verrangelo apprezza la nostra **formula doppia IP vs licenza** (vedi §"Performance flag" sotto) e ha aperto il dialogo
+- Verrangia apprezza la nostra **formula doppia IP vs licenza** (vedi §"Performance flag" sotto) e ha aperto il dialogo
 - Topic interessante per HeyAI (biotech/sanità "campo interessantissimo" — citazione Carlo in call)
 - **NDA potenzialmente richiesto** dal cliente prima della prima call ("ci sono clienti che prima di fare la prima call mi fanno firmare un NDA")
 
-📁 Approfondimento dedicato in `00 - Inbox/2026-05-21 - Lead biotech medical device via Verrangelo.md`
+📁 Approfondimento dedicato in `00 - Inbox/2026-05-21 - Lead biotech medical device via Verrangia.md`
 
 ## ⚠️ Performance flag (per Carlo — vedi §30 Area Performance & Coaching)
 
@@ -146,16 +146,16 @@ Riferimento regola: [[99 - System/Master Facts Sheet]] §"Lato HeyAI" + CLAUDE.m
 ## Citazioni testuali da preservare
 
 > "Io non so lei dove è residente... Sono a Roma. Ah, pensa, io pure sono romano"
-> — Verrangelo apertura, ha tentato meeting Milano poi pivot Roma su info che Carlo è romano
+> — Verrangia apertura, ha tentato meeting Milano poi pivot Roma su info che Carlo è romano
 
 > "I contratti sono diciamo ciò che regola la nostra attività, no? E che comunque deve regolare e ne dovremmo vedere assieme"
-> — Verrangelo, descrizione del proprio approccio
+> — Verrangia, descrizione del proprio approccio
 
 > "Evidenziando che nulla è concluso perché questo io so, mandami tutto"
-> — Verrangelo, richiesta esplicita di trasparenza sullo stato delle Wave 1 (alcune già fatturate ma non ancora chiuse formalmente)
+> — Verrangia, richiesta esplicita di trasparenza sullo stato delle Wave 1 (alcune già fatturate ma non ancora chiuse formalmente)
 
 > "Per noi non c'è assolutamente nessun problema [su NDA]. Sono abituato, ci sono clienti che prima di fare la prima call mi fanno firmare un NDA"
-> — Carlo a Verrangelo, sul tema lead biotech
+> — Carlo a Verrangia, sul tema lead biotech
 
 ## Open Questions
 
@@ -163,18 +163,18 @@ Riferimento regola: [[99 - System/Master Facts Sheet]] §"Lato HeyAI" + CLAUDE.m
 2. **Nome studio commercialista** — TBD
 3. **"Roberto" referente NoLoop** — è Roberto Simbestini? È citato come "l'uomo di Paolo [Donzelli]" — verificare se è nuova persona o alias di qualcuno già nel vault
 4. **Quale agevolazione fiscale** sta valutando? (R&D tax credit / Patent box / Industria 4.0 / iperammortamento L. 199/2025?) — il pitch 13/04 menzionava L. 199/2025 (vedi [[_Wave 2 NoLoop|Wave 2 NoLoop]] §"Iperammortamento") ma il cliente lo gestiva internamente; ora il commercialista riapre il tema
-5. **Donzelli ha esplicitamente autorizzato Carlo a condividere contratti integrali Wave 1 e Wave 2 con Verrangelo?** — Carlo dovrebbe fare una verifica veloce con Donzelli/Roberto prima dell'invio (anche solo WhatsApp a Donzelli "Paolo, conferma che ti gira bene se mando i contratti a Verrangelo?")
-6. **NDA reciproco con Verrangelo prima dell'invio**? Lui non lo ha chiesto, ma trattandosi di contratti integrali con clausole sensibili (IP, escrow, soglie, pricing) potrebbe essere opportuno proporlo
+5. **Donzelli ha esplicitamente autorizzato Carlo a condividere contratti integrali Wave 1 e Wave 2 con Verrangia?** — Carlo dovrebbe fare una verifica veloce con Donzelli/Roberto prima dell'invio (anche solo WhatsApp a Donzelli "Paolo, conferma che ti gira bene se mando i contratti a Verrangia?")
+6. **NDA reciproco con Verrangia prima dell'invio**? Lui non lo ha chiesto, ma trattandosi di contratti integrali con clausole sensibili (IP, escrow, soglie, pricing) potrebbe essere opportuno proporlo
 
 ## Sessioni Cowork correlate
 
-- 2026-05-21 — call telefonica Carlo↔Verrangelo (~12 min, organizzativa) → assorbita in questa scheda + log su [[_Wave 1 NoLoop|Wave 1]], [[_Wave 2 NoLoop|Wave 2]], [[Paolo Donzelli]]
-- 2026-05-21 — `local_51b0ba93` — Paolo project recap and contract review: due diligence pubblica post-call (gmail su dominio personale, VSign Srl non riscontrabile, **caso Verrengia commercialisti Roma 2011/2017 frodi fiscali**); rinominata scheda Verrangelo → Verrengia con grafia corretta da email; `risk_flag: 🔴 ALTO`; **sospeso invio 2 contratti integrali** fino a chiusura verifica; aperta [[99 - System/Open Questions|Open Question #36]] con 7 punti (identità + ODCEC Roma + CCIAA VSign + esposizione documentale). → [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni#Sessione 5 — `local_51b0ba93-be43-4c2e-a396-4ba3546819fc` — Paolo project recap and contract review]]
+- 2026-05-21 — call telefonica Carlo↔Verrangia (~12 min, organizzativa) → assorbita in questa scheda + log su [[_Wave 1 NoLoop|Wave 1]], [[_Wave 2 NoLoop|Wave 2]], [[Paolo Donzelli]]
+- 2026-05-21 — `local_51b0ba93` — Paolo project recap and contract review: due diligence pubblica post-call (gmail su dominio personale, VSign Srl non riscontrabile, **caso Verrangia commercialisti Roma 2011/2017 frodi fiscali**); rinominata scheda Verrangia → Verrangia con grafia corretta da email; `risk_flag: 🔴 ALTO`; **sospeso invio 2 contratti integrali** fino a chiusura verifica; aperta [[99 - System/Open Questions|Open Question #36]] con 7 punti (identità + ODCEC Roma + CCIAA VSign + esposizione documentale). → [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni#Sessione 5 — `local_51b0ba93-be43-4c2e-a396-4ba3546819fc` — Paolo project recap and contract review]]
 
 ## Log
 
 ### 2026-05-21
-- **Prima call** (Carlo↔Verrangelo, ~12 min). Verrangelo si presenta come commercialista esterno mandato da Donzelli per valutare agevolazioni fiscali su Wave 1 (retroattive, contratti già fatturati) + Wave 2 (prospettiche). Mandato di "audit di forma sui contratti".
+- **Prima call** (Carlo↔Verrangia, ~12 min). Verrangia si presenta come commercialista esterno mandato da Donzelli per valutare agevolazioni fiscali su Wave 1 (retroattive, contratti già fatturati) + Wave 2 (prospettiche). Mandato di "audit di forma sui contratti".
 - Richiesto invio entro stasera di: contratti Wave 1 (entrambi) + contratti Wave 2 + roadmap descrittiva (senza paragrafo agevolazione fiscale).
 - Concordato meeting di persona a Roma settimana del 1-7/6 (o successiva), con Roberto Simbestini. Touchpoint intermedio in call possibile.
 - Emerso lead biotech medical device (suo cliente diverso da NoLoop). Carlo apre la porta a discussione + eventuale NDA.
