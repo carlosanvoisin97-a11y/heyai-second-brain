@@ -107,5 +107,5 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 🔴 **Regola permanente (F1)**: ogni file `99 - System/Routines/*.md` **DEVE** contenere `## Push finale` con `git push origin HEAD:main` (no branch, no PR). È lì — non nel prompt del trigger — che vive il fix #2. Non rimuoverla in edit futuri.
 
 **Restano (minori, non bloccanti):**
-- crm-velocity, moc-refresh, weekly-review + vault-link-checker non ancora provate **singolarmente** (pattern identico già provato; `RemoteTrigger run` on-demand o primo cron). La run vault-link-checker 7/6 non ha lasciato commit (probabile K=0; sabato ≠ cron domenica).
+- vault-link-checker ✅ **provata** (la mia run 7/6 ha prodotto l'audit `b23d1d8` su `main` → **2ª routine confermata**, audit no-M365 pilotata da Code via `RemoteTrigger run`; atterrata anche in Obsidian via pull). Restano crm-velocity, moc-refresh, weekly-review (pattern identico; `RemoteTrigger run` on-demand o al primo cron).
 - Doc drift per **Step 5/F5**: CLAUDE.md §9/§9bis ("due task"→3; bridge pm-digest local ora `enabled=false` = fallback dormiente) + §"Bridge attivo" sopra → rinominare "fallback". Già nel `System Consistency Audit` 7/6.

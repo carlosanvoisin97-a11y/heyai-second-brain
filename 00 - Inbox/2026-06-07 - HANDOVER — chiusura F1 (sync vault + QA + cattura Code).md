@@ -11,6 +11,14 @@ aliases: [Handover chiusura F1, Handover sync QA 7-6]
 > Leggi in ordine: `CLAUDE.md` → questo → `99 - System/KB Solidity Report` → `99 - System/Routines/_README`.
 > Regola: lavora su **`main`** (`/Users/carlosanvoisin/claude` = cartella Obsidian). MAI `git add -A`. Push dall'agente: **funziona** (verificato). §13/§15. Numeri `[PROPOSTA]` = da confermare.
 
+## ✅ PROGRESSO — sessione 7/6 sera (Steps 1-3 chiusi · gap #1-#4 + #6 + #7 risolti)
+
+> Eseguito dalla sessione successiva a questo handover (su `main`, in parallelo a Carlo + plugin sync). Aperti: **Step 4** (cattura Code, gap #5) + Step 5-6 + decisioni Carlo §6.
+
+- **Step 1 — Sync (gap #1+#7) ✅ PROVATO 2 direzioni**: plugin Obsidian Git v2.38.3 (commit-and-sync + auto-pull 10', `data.json` gitignorato), `.gitignore` blindato (niente segreti plugin su GitHub). Push (agent→GitHub) e pull (digest cloud→Obsidian) provati end-to-end. → [[99 - System/Routines/_README|_README]] §Sync.
+- **Step 2 — Routine cloud (gap #2+#6) ✅ core PROVATO**: 5 routine **pilotabili da Code** (tool `RemoteTrigger`, non solo browser). Provate **2/5**: PM Digest **con M365 headless** + vault-link-checker — **entrambe push diretto su `main`** (niente bug branch orfano: il `## Push finale` vive nei file routine). Convergenza con 4 writer paralleli OK. Restano moc-refresh, crm-velocity, weekly-review (pattern identico). → _README §Step 2 + trigger ID.
+- **Step 3 — QA branch (gap #3+#4) ✅ FATTO**: −27 branch `claude/*` stale (0 commit unici) −6 worktree residue (verificate; funny = file ridondanti già in main). Restano solo `main` + 2 worktree attive (`sleepy-lamport` Carlo, `xenodochial` sessione). **`add-claude-github-actions` cancellato da origin** (workflow @claude/PR: inutile per repo-vault, non serve alle routine — decisione Carlo 7/6).
+
 ## 0. 📋 PROMPT DA INCOLLARE nella nuova sessione
 
 ```
