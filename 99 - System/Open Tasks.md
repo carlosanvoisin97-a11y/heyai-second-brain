@@ -9,6 +9,8 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 > **Nota reconcile manuale 29/5 (audit vault — Front 1)**: ripuliti i **41 task chiusi** (`- [x]`/`- [-]`) che erano rimasti nelle sezioni Priorità #p1/#p2 (residuo accumulato perché il PM Digest, che fa questo reconcile allo step 5e, non gira da 26/5). 11 erano duplicati già presenti in "Recentemente chiusi" → rimossi; 30 relocati lì preservando testo+provenienza. Le sezioni Priorità ora elencano **solo task realmente aperti**. Nessun checkbox cambiato di stato, nessun task aperto toccato. I task chiusi >7gg verranno archiviati in `50 - Archive/Open Tasks/2026-05.md` al prossimo run del Digest.
 
+> **Nota PM Digest 8/6/2026 08:02**: 0 email rilevanti (5 filtrate: 2 Nimble, 1 tldv.io, 1 LinkedIn newsletter, 1 SP recording scaduto), 1 meeting oggi (Allineamento Team HeyAI 19:30 CET), 0 file SP, 0 chat Teams. **9 task nuovi aggiunti** (+7 in #p1, +2 in #p2) da [[Operation Transformation]] update 8/6. **Alert critici**: 🔴 re-sync Carmen OGGI su visita BAT sede 5/6 + escalation API; 🔴 F24 maggio ENTRO 16/6 ancora aperto; 🟠 bozza email Germano OT pronta — Federico valida poi Carlo invia; 🟠 Allineamento Team HeyAI 19:30 (confermare partecipazione).
+
 > **Nota PM Digest 7/6/2026 GAP (27/5→7/6)**: ⚠️ **GAP 11gg coperti in retrospettiva**: 20 email rilevanti (su 89 lorde), 7 meeting avvenuti nel gap, 4 file SP, 1 chat Teams. **10 task nuovi aggiunti** (7 in #p1, 3 in #p2). **Alert critici**: 🔴 F24 maggio DA VERSARE ENTRO 16/06 (Simona Velotta 5/6, NON LETTA); 🔴 Avv. Longo email Wave 2 (4/6, NON LETTA) sblocco pagamento + accordo sviluppatori; 🔴 contratto Carlo+Mattucci+Pazienza richiesti da Velotta (5/6, NON LETTA); 🟠 pitch Angelini Academy avvenuto 5/6 (slittato da 31/5) — feedback Caterina "molto buono, perimetro minato" — allineamento Elena lun 8/6 prima di pranzo; 🟠 Laila El Zieny NON raggiunta (attende WhatsApp Carlo da 26/5, ribadito 3/6); 🟠 scope OT ristretto a solo BAT (Laila 4/6).
 
 > **Nota PM Digest 27/5 08:00**: 4 email rilevanti, 1 meeting oggi (Angelini Review Economics 16:30), 1 file SP (Company Presentation aggiornata ieri sera), Teams N/D (timeout). **+9 task nuovi aggiunti** (5 in #p1, 4 in #p2). **Alert critici**: 🔴 Economics Angelini Academy a ZERO a 4gg dal pitch 31/5; 🟠 Laila El Zieny (laila.elzieny@noloop.eu) — persona nuova NOT/Modulo Gestione Vendite, DA TRIAGIRE; 🟡 segnale positivo Eldis — IT interno coinvolto valutazione installazione Compilatore.
@@ -29,6 +31,13 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità alta (#p1)
 
+- [ ] **#p1** Carlo ↔ [[Carmen Compare|Carmen]]: **re-sync OGGI lun 8/6** su esito visita BAT in sede (ven 5/6) + escalation [[Massi Sinigaglia|Massi]] per sblocco API BAT/PARD _da [[Operation Transformation]] — PM Digest 8/6_
+- [ ] **#p1** Carlo: **rivedere e inviare bozza email recap a [[Germano Marano|Germano]]** (call 4/6, OT) — bozza pronta `00-Inbox/2026-06-08`; [[Federico Saladino (Soolutions)|Federico]] valida architettura prima _da [[Operation Transformation]] — PM Digest 8/6_
+- [ ] **#p1** [[Federico Saladino (Soolutions)|Federico]]: **validare architettura/brief OT** prima dell'invio a Germano _da [[Operation Transformation]] — PM Digest 8/6_
+- [ ] **#p1** Carlo + [[Massi Sinigaglia|Massi]]: **conferma formale prioritizzazione** registrazione dati vs modello predittivo (via email a Germano+Massi) _da [[Operation Transformation]] — PM Digest 8/6_
+- [ ] **#p1** Carlo: **inviare a Federico+Simone il form campi maschera unica** (App NOT + CRM BAT Sharpend + PARD) — base per sviluppo form unico centralizzato _da [[Operation Transformation]] — PM Digest 8/6_
+- [ ] **#p1** Federico+Simone: **valutazione tecnica richiesta Carmen+Justin** (strumento automazione inserimento dati — candidata a priorità partenza sviluppi) _da [[Operation Transformation]] — PM Digest 8/6_
+- [ ] **#p1** Carlo: **organizzare call con [[Carmen Compare|Carmen]] (settimana prossima)** per ingestion dati storici NOT (copre anche [[Eye Cookies]]) _da [[Operation Transformation]] — PM Digest 8/6_
 - [ ] **#p1** 🔴 **F24 MAGGIO 2026 DA VERSARE ENTRO 16/06/2026** — Simona Velotta FMA (5/6 10:04, NON LETTA): LUL+F24 maggio inviati, scadenza versamento 16/6 — coordinare con [[Andrea Pazienza]] _da PM Digest gap 27/5-7/6_
 - [ ] **#p1** Carlo: **leggere email Avv. [[Marco Longo (Morbinati & Longo)|Longo]] (4/6 08:07, NON LETTA)** su Wave 2 — "Re: [64508] HeyAI / Noloop (Wave 2)" — allineamento sblocco pagamento fattura inizio lavori NoLoop + accordo sviluppatori; rispondere _da PM Digest gap 27/5-7/6_
 - [ ] **#p1** Carlo: **inviare contratto Carlo firmato + contratti Michele+Andrea a Simona Velotta (FMA)** — richiesta 5/6 09:56 NON LETTA — blocca pratiche HR _da email Velotta 5/6 — PM Digest gap 27/5-7/6_
@@ -115,6 +124,8 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità media (#p2)
 
+- [ ] **#p2** [[Carmen Compare|Carmen]] (NoLoop): **preparare 2-3 dubbi struttura dati storico** da esporre a Federico+Simone per l'ingestion _da [[Operation Transformation]] — PM Digest 8/6_
+- [ ] **#p2** [[Germano Marano|Germano]] (NoLoop): **verifica interna stato API BAT** (esistono / perché non esposte) + interesse BAT modulo tracking prodotti per tabacchini _da [[Operation Transformation]] — PM Digest 8/6_
 - [ ] **#p2** Carlo: **dichiarazioni detassazione da firmare e rimandare a Simona Velotta (FMA)** — richiesta 5/6 09:47 NON LETTA — coordinare con [[Andrea Pazienza]] _da email Velotta 5/6 — PM Digest gap 27/5-7/6_
 - [ ] **#p2** Carlo+Simone: **verifica risposta a Luciano Pecorella (ONCE SRL, IT Eldis)** — ha chiesto specs VM il 28/5 per installare Builder su infrastruttura Eldis (Simone in CC) — se non risposto, rispondere con specifiche _da email Luciano 28/5 — PM Digest gap 27/5-7/6_
 - [ ] **#p2** Carlo: **scope update [[Operation Transformation]]** — Laila El Zieny (4/6 13:54): "procediamo solo su BAT, gli altri clienti sono inattivi" — aggiornare scheda progetto + riallineare aspettative interne _da email Laila 4/6 — PM Digest gap 27/5-7/6_
