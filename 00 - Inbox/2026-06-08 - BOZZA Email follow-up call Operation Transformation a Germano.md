@@ -24,8 +24,8 @@ style_ref: ricalca il formato REALE del recap bisettimanale Eye Cookies a German
 Ciao Germano, come da accordi di seguito un recap dei punti aperti e dei temi trattati durante l'allineamento di mercoledì.
 
 **Punti aperti lato BAT/PARD:**
-- Verifica interna dello stato delle API per la registrazione delle vendite — capire se esistono già e, in caso, perché non vengono esposte, prima di incardinare lo sviluppo su una dipendenza esterna che rischia di allungarsi (ad oggi il push è passato solo tramite Justin, senza un contatto diretto con i referenti tecnici)
-- Valutazione, in alternativa, dell'ipotesi di esporre noi le API, così da renderci agnostici rispetto ai sistemi terzi e potenzialmente offrire la piattaforma come servizio a sé
+- Se possibile, verifica diretta con i referenti tecnici di BAT/PARD per richiedere le API (il push tramite Justin è già stato fatto)
+- In alternativa, valutazione di esporre noi le API e rendere la piattaforma autonoma dai sistemi terzi
 - Da tenere presente che la registrazione è legata alla scontistica BAT, quindi è nell'interesse del cliente registrare al momento della vendita e non in differita
 
 **Prioritizzazione sviluppi:**
