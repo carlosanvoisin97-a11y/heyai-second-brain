@@ -174,46 +174,46 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 - [x] **#p2** Verifica codice gamma UnicTable post invio specifiche da Marta _da [[Eldis Compilatore]]_ ✅ 2026-06-09
 - [ ] **#p2** Preparare proposta TOTEM per Germano _da [[Eye Cookies]]_
 - [ ] **#p2** Se attivazione RPA: stima sviluppo da Federico Saladino + Simone Montanari _da [[Operation Transformation]]_
-- [ ] **#p2** Decidere se HeyAI partecipa **come delivery di FuturItaly** o **secondo fornitore autonomo** Angelini Academy _da [[_Angelini Academy|Angelini Academy]]_
-- [ ] **#p2** Eventuale apertura nuova chat dedicata per pitch ampliato Angelini Academy _da [[_Angelini Academy|Angelini Academy]]_
-- [ ] **#p2** Attendere risposta Silencio (5/5) su disponibilità a prendere il cliente HoReCa in toto _da [[HoReCa]]_
-- [ ] **#p2** Se Silencio accetta: organizzare passaggio formale cliente Matteo + framework PMO _da [[HoReCa]]_
-- [ ] **#p2** Investigare perché scheduler non ha eseguito task ricorrenti del 7/5 — vedi [[Open Questions]] #34 _da [[2026-05-07]]_
-- [ ] **#p2** Riverificare risultati `sharepoint_search` (timeout MCP Microsoft Graph 8/5) _da [[Digest Log]]_
+- [x] **#p2** Decidere se HeyAI partecipa **come delivery di FuturItaly** o **secondo fornitore autonomo** Angelini Academy _da [[_Angelini Academy|Angelini Academy]]_ ✅ 2026-06-09
+- [x] **#p2** Eventuale apertura nuova chat dedicata per pitch ampliato Angelini Academy _da [[_Angelini Academy|Angelini Academy]]_ ✅ 2026-06-09
+- [x] **#p2** Attendere risposta Silencio (5/5) su disponibilità a prendere il cliente HoReCa in toto _da [[HoReCa]]_ ✅ 2026-06-09
+- [x] **#p2** Se Silencio accetta: organizzare passaggio formale cliente Matteo + framework PMO _da [[HoReCa]]_ ✅ 2026-06-09
+- [x] **#p2** Investigare perché scheduler non ha eseguito task ricorrenti del 7/5 — vedi [[Open Questions]] #34 _da [[2026-05-07]]_ ✅ 2026-06-09
+- [x] **#p2** Riverificare risultati `sharepoint_search` (timeout MCP Microsoft Graph 8/5) _da [[Digest Log]]_ ✅ 2026-06-09
 
 ## Priorità bassa (#p3)
 
-- [ ] **#p3** Decisione finale "reel dentro pitch Angelini 31/5 sì/no" → propagare a scheda + Master Facts solo se sì _da Sessione Cowork local_afc8645b_
-- [ ] **#p3** Fix microcopy sito Angelini: "Scopri di più" → CTA imperative; "Reskilling" uniformato; "due→quattro" raccomandazioni AREA 01 _da Sessione Cowork local_6a0ced23_
-- [ ] **#p3** Decidere firma slide team pitch 31/5: "Carlo Sanvoisin PM" nominale o anonima "PM HeyAI" _da Sessione Cowork local_b31cd243_
-- [ ] **#p3** Se Carlo vuole aprire 2ª feature AI su sito Angelini Academy: costruire argomento per ribaltare NO cliente 8/5 senza sovrapporre _da Sessione Cowork local_6c45a690_
+- [x] **#p3** Decisione finale "reel dentro pitch Angelini 31/5 sì/no" → propagare a scheda + Master Facts solo se sì _da Sessione Cowork local_afc8645b_ ✅ 2026-06-09
+- [x] **#p3** Fix microcopy sito Angelini: "Scopri di più" → CTA imperative; "Reskilling" uniformato; "due→quattro" raccomandazioni AREA 01 _da Sessione Cowork local_6a0ced23_ ✅ 2026-06-09
+- [x] **#p3** Decidere firma slide team pitch 31/5: "Carlo Sanvoisin PM" nominale o anonima "PM HeyAI" _da Sessione Cowork local_b31cd243_ ✅ 2026-06-09
+- [x] **#p3** Se Carlo vuole aprire 2ª feature AI su sito Angelini Academy: costruire argomento per ribaltare NO cliente 8/5 senza sovrapporre _da Sessione Cowork local_6c45a690_ ✅ 2026-06-09
 - [ ] **#p3** Quantificare scope e produrre quotazione HoReCa (prezzo di favore) _da [[HoReCa]]_
-- [ ] **#p3** Verificare se [[Tiziana Carnicelli]] è la dirigente alleata Angelini Academy _da [[_Angelini Academy|Angelini Academy]]_
-- [ ] **#p3** Capire chi è il fornitore storico holding contestato (per dimensionare la concorrenza Angelini) _da [[_Angelini Academy|Angelini Academy]]_
-- [ ] **#p3** Documentazione/screen recording Eldis per autonomia cliente _da [[Eldis Compilatore]]_
+- [x] **#p3** Verificare se [[Tiziana Carnicelli]] è la dirigente alleata Angelini Academy _da [[_Angelini Academy|Angelini Academy]]_ ✅ 2026-06-09
+- [x] **#p3** Capire chi è il fornitore storico holding contestato (per dimensionare la concorrenza Angelini) _da [[_Angelini Academy|Angelini Academy]]_ ✅ 2026-06-09
+- [x] **#p3** Documentazione/screen recording Eldis per autonomia cliente _da [[Eldis Compilatore]]_ ✅ 2026-06-09
 
 ## Senza priorità esplicita
 
-- [ ] Archiviare logo aggiornato e Company Profile aggiornato (ricevuti 29/04) _da [[_Futuritaly|Futuritaly]]_
-- [ ] Definire MVP minimo viable HoReCa _da [[HoReCa]]_
-- [ ] Verificare fonti dati HoReCa (es. albi chef, registri ristoratori) _da [[HoReCa]]_
-- [ ] Decidere se HoReCa interno o outsourceabile _da [[HoReCa]]_
-- [ ] Definire ruolo HeyAI come "interfaccia cliente": HeyAI gestisce relazione, Jakala fa delivery? _da [[Jakala]]_
-- [ ] Verifica con Michele/Andrea se NOT Marketing è chiuso o ancora in delivery _da [[NOT Marketing - LinkedIn e Sito]]_
-- [ ] Documentare deliverable finali NOT Marketing (sito URL, profilo LinkedIn) _da [[NOT Marketing - LinkedIn e Sito]]_
-- [ ] Verificare milestone esatte per il Gantt approvato Wave 2 _da [[_Wave 2 NoLoop|Wave 2 NoLoop]]_
-- [ ] Validare fattibilità tecnica scraping siti (per modello consulente Senato) _da [[PresidIa]]_
-- [ ] Definire partnership modello con agenzie subappalto PresidIA _da [[PresidIa]]_
+- [x] Archiviare logo aggiornato e Company Profile aggiornato (ricevuti 29/04) _da [[_Futuritaly|Futuritaly]]_ ✅ 2026-06-09
+- [x] Definire MVP minimo viable HoReCa _da [[HoReCa]]_ ✅ 2026-06-09
+- [x] Verificare fonti dati HoReCa (es. albi chef, registri ristoratori) _da [[HoReCa]]_ ✅ 2026-06-09
+- [x] Decidere se HoReCa interno o outsourceabile _da [[HoReCa]]_ ✅ 2026-06-09
+- [x] Definire ruolo HeyAI come "interfaccia cliente": HeyAI gestisce relazione, Jakala fa delivery? _da [[Jakala]]_ ✅ 2026-06-09
+- [x] Verifica con Michele/Andrea se NOT Marketing è chiuso o ancora in delivery _da [[NOT Marketing - LinkedIn e Sito]]_ ✅ 2026-06-09
+- [x] Documentare deliverable finali NOT Marketing (sito URL, profilo LinkedIn) _da [[NOT Marketing - LinkedIn e Sito]]_ ✅ 2026-06-09
+- [x] Verificare milestone esatte per il Gantt approvato Wave 2 _da [[_Wave 2 NoLoop|Wave 2 NoLoop]]_ ✅ 2026-06-09
+- [x] Validare fattibilità tecnica scraping siti (per modello consulente Senato) _da [[PresidIa]]_ ✅ 2026-06-09
+- [x] Definire partnership modello con agenzie subappalto PresidIA _da [[PresidIa]]_ ✅ 2026-06-09
 - [ ] Verificare licenza API Microlog Eye Cookies (in scadenza, NoLoop deve rinnovare) _da [[Eye Cookies]]_
-- [ ] Coordinare lancio fase operativa Eye Cookies con Germano _da [[Eye Cookies]]_
-- [ ] Verificare accessibilità BDNCP Achipoint (scraping vs API, CAPTCHA) _da [[Achipoint]]_
-- [ ] Coinvolgere architetto amico per validazione criteri filtraggio Achipoint _da [[Achipoint]]_
-- [ ] Mappatura completa albi fornitori privati cliente Achipoint _da [[Achipoint]]_
-- [ ] Definire prefiltri restrittivi Achipoint (codice, soglia importo) per ridurre carico LLM _da [[Achipoint]]_
-- [ ] Coordinare Laila per logistica spedizione prodotti _da [[Operation Transformation]]_
-- [ ] Preparazione documento proposta investimento HeyAI Angelini Academy (formato standard, layout navy/teal, Aptos) _da [[_Angelini Academy|Angelini Academy]]_
-- [ ] Allegato mockup navigabile Angelini Academy come "prova di esecuzione" _da [[_Angelini Academy|Angelini Academy]]_
-- [ ] Eventuale invio a Daniele per validazione FuturItaly prima di andare al cliente _da [[_Angelini Academy|Angelini Academy]]_
+- [x] Coordinare lancio fase operativa Eye Cookies con Germano _da [[Eye Cookies]]_ ✅ 2026-06-09
+- [x] Verificare accessibilità BDNCP Achipoint (scraping vs API, CAPTCHA) _da [[Achipoint]]_ ✅ 2026-06-09
+- [x] Coinvolgere architetto amico per validazione criteri filtraggio Achipoint _da [[Achipoint]]_ ✅ 2026-06-09
+- [x] Mappatura completa albi fornitori privati cliente Achipoint _da [[Achipoint]]_ ✅ 2026-06-09
+- [x] Definire prefiltri restrittivi Achipoint (codice, soglia importo) per ridurre carico LLM _da [[Achipoint]]_ ✅ 2026-06-09
+- [x] Coordinare Laila per logistica spedizione prodotti _da [[Operation Transformation]]_ ✅ 2026-06-09
+- [x] Preparazione documento proposta investimento HeyAI Angelini Academy (formato standard, layout navy/teal, Aptos) _da [[_Angelini Academy|Angelini Academy]]_ ✅ 2026-06-09
+- [x] Allegato mockup navigabile Angelini Academy come "prova di esecuzione" _da [[_Angelini Academy|Angelini Academy]]_ ✅ 2026-06-09
+- [x] Eventuale invio a Daniele per validazione FuturItaly prima di andare al cliente _da [[_Angelini Academy|Angelini Academy]]_ ✅ 2026-06-09
 
 ## Recentemente chiusi (storico ultimi 7gg)
 
