@@ -1240,6 +1240,8 @@ Iterazione delle definizioni:
     - [[80 - Sources/Cowork Sessions/code-recap/2026-05-30 - aa-wt-relaxed-antonelli-6b3f00ca|aa-wt-relaxed-antonelli (6b3f00ca)]] — install skill `claude-seo` + decisione "rifare SEO da zero senza bias"
 - 2026-05-31 — sessione Code (cron `code-sessions-index`, recap individuale in `code-recap/`):
     - [[80 - Sources/Cowork Sessions/code-recap/2026-05-31 - claude-main-fcb238ed|claude-main (fcb238ed)]] — Deck UNIFICATO pitch Angelini 31/5: taglia-e-cuci da 47 PPTX → 9 contenuti unici + Linea A 28 slide + Linea B 18 slide + v3.3 + V4 + report audit; output `Angelini_Academy_Pitch_UNIFICATO_20260531.pptx` (36 slide: 29 core + 7 appendice "non perdere nulla"); Galileo = 1 agente AI ipotetico 4 modalità (no vendor); validazione iterativa decisioni in forse via [[2026-05-31 - REGISTRO VALIDAZIONE Decisioni in Forse]]; pricing working state €48.500 (PROPOSTA non applicata).
+- 2026-06-08 — sessione Code (cron `code-sessions-index`, recap individuale in `code-recap/`):
+    - [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-c367f6c2|claude-main (c367f6c2)]] — revisione deck pitch post-call 5/6 + audit pricing per fase + struttura proposta; risolta incoerenza Fase 0 (Workshop solo, SEO/Analytics "in valutazione" esclusi → callout opzionali vero su 4 fasi su 4); riallineamento cluster/percorsi su feedback Caterina/Elena. Pricing per fase working state — F0 €5.000 / F1 €29.000 / F2 €40.380 / F3 €29.660 (PROPOSTA non applicata).
 
 ## Log
 
