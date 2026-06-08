@@ -24,8 +24,7 @@ style_ref: ricalca il formato REALE del recap bisettimanale Eye Cookies a German
 Ciao Germano, come da accordi di seguito un recap dei punti aperti e dei temi trattati durante l'allineamento di mercoledì.
 
 **Punti aperti lato BAT/PARD:**
-- Se possibile, verifica diretta con i referenti tecnici di BAT/PARD per richiedere le API (il push tramite Justin è già stato fatto)
-- In alternativa, valutazione di esporre noi le API e rendere la piattaforma autonoma dai sistemi terzi
+- Se possibile, verifica diretta con i referenti tecnici di BAT/PARD per richiedere le API (Justin ha già fatto push); altrimenti, valutazione di esporre noi le API e rendere la piattaforma indipendente dai sistemi terzi
 - Da tenere presente che la registrazione è legata alla scontistica BAT, quindi è nell'interesse del cliente registrare al momento della vendita e non in differita
 
 **Prioritizzazione sviluppi:**
