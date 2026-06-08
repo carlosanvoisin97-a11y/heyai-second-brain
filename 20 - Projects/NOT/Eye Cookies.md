@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-02
+updated: 2026-06-08
 deadline: 2026-09-01
 contract_status: non_prodotto
 stakeholders: [Massi Sinigaglia, Germano Marano]
@@ -37,6 +37,7 @@ aliases: [Eye Cookies, AI Cookies]
 
 - [x] ~~**#p2** Inviare fattura/importo a [[Massi Sinigaglia]] (richiesta 29/04)~~ → ✅ chiuso 2026-05-07 (conferma Carlo: fatture mandate a Massi)
 - [x] ~~**#p2** Aggiornare Massi sullo stato sviluppo~~ → ✅ chiuso 2026-05-07 (conferma Carlo: risposto alle mail Massi)
+- [ ] **#p1 Carlo**: produrre l'Ordine Esecutivo ricognitivo Eye Cookies (Soolutions) — il Contratto Quadro art. 15.1 (bozza 8/6) cita Eye Cookies tra i Progetti Pregressi NOT ma manca l'OE dedicato. Senza, Eye Cookies resta privo di copertura IP formalizzata. €75K cliente / €36K fornitore. Vedi [[2026-06-08 - Review Contratto Quadro + OE Soolutions]]
 - [ ] **#p2** Preparare proposta TOTEM per Germano (decisione interna pronta, attesa Germano)
 - [ ] Verificare licenza API Microlog (in scadenza, NoLoop deve rinnovare)
 - [ ] Coordinare lancio fase operativa con Germano
@@ -172,6 +173,9 @@ Per memoria: la **prima bozza Germano** (febbraio 2026) conteneva **6 clausole v
 - 2026-05-13 — `local_af2ea6af` — Email recap interno Federico+Simone (riscrittura Carlo): **bonifico Soolutions GATED** all'Excel cash-flow di Andrea Pazienza (rettifica vs "tra oggi e domani" di call mattina → "appena decidiamo la formula pagamenti vi giriamo il bonifico"). **Nuovo task #p1 Carlo**: comunicazione proattiva cliente "siamo ufficialmente partiti" a Massi+Justin+Germano. → [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 5 — Write recap email and update tasks (Federico+Simone allineamento interno)]]
 
 ## Log
+
+### 2026-06-08 — Bozza Contratto Quadro Soolutions: Eye Cookies citato, ma OE ricognitivo mancante
+- Il **Contratto Quadro HeyAI↔Soolutions** (bozza 8/6, review in [[2026-06-08 - Review Contratto Quadro + OE Soolutions]]) all'art. 15.1 elenca **"EyeCookie" e "Operation Transformation"** come Progetti Pregressi destinati al Cliente NOT, da regolare con appositi Ordini Esecutivi ricognitivi (art. 15.2). **È stato prodotto solo l'OE Operation Transformation; manca l'OE Eye Cookies** → task aperto sopra. (Nota naming: nel CQ figura "EyeCookie" attaccato — uniformare a "Eye Cookies" per regola CLAUDE.md §11.)
 
 ### 2026-05-28 sera — ⚠️ Segnale rinegoziazione prezzo AL RIALZO (nota vocale Federico)
 - Subito dopo la prima call bisettimanale, **Federico (team di sviluppo) segnala via nota vocale WhatsApp l'intenzione di rinegoziare al rialzo il compenso per Eye Cookies**: *"io voglio più soldi per iCookie comunque, adesso non è finita qua… non sono per niente d'accordo"* (Simone presente, *"adesso ride"*). Non è una cifra né una richiesta formale: è un segnale di posizione del fornitore verso HeyAI, da monitorare. Fonte: [[2026-05-28 - Trascrizioni vocali WhatsApp (batch 25-28 mag)]] nota 05.

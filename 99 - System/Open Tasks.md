@@ -32,7 +32,7 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 ## Priorità alta (#p1)
 
 - [ ] **#p1** Carlo ↔ [[Carmen Compare|Carmen]]: **re-sync OGGI lun 8/6** su esito visita BAT in sede (ven 5/6) + escalation [[Massi Sinigaglia|Massi]] per sblocco API BAT/PARD _da [[Operation Transformation]] — PM Digest 8/6_
-- [ ] **#p1** Carlo: **rivedere e inviare bozza email recap a [[Germano Marano|Germano]]** (call 4/6, OT) — bozza pronta `00-Inbox/2026-06-08`; [[Federico Saladino (Soolutions)|Federico]] valida architettura prima _da [[Operation Transformation]] — PM Digest 8/6_
+- [x] **#p1** Carlo: **rivedere e inviare bozza email recap a [[Germano Marano|Germano]]** (call 4/6, OT) — bozza pronta `00-Inbox/2026-06-08`; [[Federico Saladino (Soolutions)|Federico]] valida architettura prima → ✅ inviata 8/6 19:43 (CC Massi+Federico+Simone) _da [[Operation Transformation]] — PM Digest 8/6_
 - [ ] **#p1** [[Federico Saladino (Soolutions)|Federico]]: **validare architettura/brief OT** prima dell'invio a Germano _da [[Operation Transformation]] — PM Digest 8/6_
 - [ ] **#p1** Carlo + [[Massi Sinigaglia|Massi]]: **conferma formale prioritizzazione** registrazione dati vs modello predittivo (via email a Germano+Massi) _da [[Operation Transformation]] — PM Digest 8/6_
 - [ ] **#p1** Carlo: **inviare a Federico+Simone il form campi maschera unica** (App NOT + CRM BAT Sharpend + PARD) — base per sviluppo form unico centralizzato _da [[Operation Transformation]] — PM Digest 8/6_

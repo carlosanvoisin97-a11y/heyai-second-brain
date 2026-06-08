@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-04-30
-updated: 2026-06-01
+updated: 2026-06-08
 ---
 
 > **Cleanup 14/5/2026**: archiviate 27 domande risolte (#1-#18 + #20-#28) in [[50 - Archive/System/Open Questions Archive 2026-04-05|Open Questions Archive 2026-04-05]]. In vivo restano solo le domande con follow-up attivo: #19 + #29 (IP Soolutions, workflow Longo aperto), #31-#33 (Angelini Academy), #34 (scheduler drift) + sezione 🔐 SICUREZZA. Risposte storiche preservate verbatim in archive per consultazione.
@@ -65,6 +65,7 @@ Cascata applicata: aliases `emails_historical` aggiunti alle schede [[Federico S
 - **Formalizzazione contratto interno HeyAI ↔ Soolutions**: pendente, da chiudere prima della firma cliente
 - Il modello Wave 2 NON replica Wave 1 (full transfer cliente)
 - Verificare con avv. Longo nella bozza 7/5 che la clausola IP rifletta questo modello
+- **🆕 8/6/2026 — Bozza prodotta**: Contratto Quadro HeyAI↔Soolutions + Ordini Esecutivi (modello base + OE NOT Operation Transformation). Formalizza l'IP da verbale a scritto — art. 8.4 CQ titolarità HeyAI di default, cessione sospensivamente condizionata al pagamento (art. 8.5). **Resta da firmare**; review di sicurezza con 5 nodi critici pre-firma → [[2026-06-08 - Review Contratto Quadro + OE Soolutions]]. Manca ancora l'OE ricognitivo Eye Cookies (CQ art. 15.1 lo cita)
 
 ### 36. 🔴 Identità reale di "Paolo Verrangia" — possibile soggetto con precedenti penali per frode fiscale
 

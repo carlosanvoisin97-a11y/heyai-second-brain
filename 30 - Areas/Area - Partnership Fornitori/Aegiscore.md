@@ -6,7 +6,7 @@ website: aegiscore.tech
 sede: Via Eleonora Duse 53, Roma
 referente_principale: "[[60 - People/Luca Fratini (Aegiscore)|Luca Fratini]] (CEO)"
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-06-08
 aliases:
   - Aegiscore
 ---
@@ -62,6 +62,13 @@ _(nessuno assegnato — fornitore in valutazione)_
 - [ ] **#p1** Carlo: rispondere a [[60 - People/Luca Fratini (Aegiscore)|Luca Fratini]] per fissare slot allineamento (mail 12/5 16:21); chiudere ownership codice sorgente con formula proposta; validare tempistiche per ciascun progetto _da PM Digest 13/5_
 
 ## Log
+
+### 2026-06-08 — Offerta v5 OsservatorioAI ricevuta e analizzata
+- File `Aegiscore_Offerta_OsservatorioAI_Aggiornata_Mag2026_v5.pdf` (Committente HeyAI Srl · Fornitore Aegiscore S.r.l.s., P.IVA 18331801003) — offerta tecnico-economica formale.
+- **Core €20.000** forfait (IVA escl.), validità **60gg** dall'emissione (~fine luglio 2026), pagamento **30/40/30** (€6K firma · €8K validazione su staging · €6K go-live). Include codice sorgente, doc tecnica, staging, deploy prod, training 4h, supporto post go-live 2 mesi. Connettore ANAC/PDND incluso (attivo al completamento accreditamento — FuturItaly già accreditata).
+- **Add-on ora a listino** (€350/gg): 4.1 check pre-ricerca €1.750 · 4.2 nota vocale €2.100 · 4.3 notifiche proattive €2.800 · 4.4 osservatorio preventivo €5.250 · 4.5 email+PDF €3.500 → totale add-on **€15.400**, core+tutti **€35.400**.
+- **Esclusioni**: cloud/hosting/storage, costi variabili LLM + licenze terze parti, consulenza legale/privacy/DPA/DPO, evolutive ulteriori.
+- Analisi confronto fornitori + implicazioni margine → [[Osservatorio Strategico]] Log 8/6. Topic ownership codice / riuso componenti generiche ancora aperto (vedi §Topic aperti 1).
 
 ### 2026-05-14
 - Creata scheda fornitore + scheda persona [[60 - People/Luca Fratini (Aegiscore)|Luca Fratini]] (CEO). Cascata §10bis: aggiunto in CLAUDE.md §7 "Fornitori potenziali (in valutazione)" + MOC cluster fornitori. Task #p1 in Open Tasks rimane attivo (Carlo deve rispondere alla mail 12/5 16:21 + fissare slot).

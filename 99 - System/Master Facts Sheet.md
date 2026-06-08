@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-04-30
-updated: 2026-05-21
+updated: 2026-06-08
 status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta Angelini Academy 6/5/2026 + Osservatorio v2 €45K 19/5/2026 + preventivo Soolutions Osservatorio RIDOTTO 21/5/2026 + pitch Angelini soft-defer 5/6/2026)
 ---
 
@@ -138,7 +138,7 @@ status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta A
 | Progetto | Target | Note |
 |---|---|---|
 | Eye Cookies | **€75.000** | ⚠️ Approvazione commerciale via email 03/04 — contratto documentale **MAI prodotto** (rettifica 21/5). Acconto incassato. **Costo fornitore €36K** (Carlo 7/6) → margine **€39K / cost-ratio 48%** ✅ entro §2.2 |
-| Operation Transformation | **€109.000** | ⚠️ Contratto emesso da HeyAI, **NON firmato né riscontrato** da Donzelli (rettifica 21/5). Acconto incassato |
+| Operation Transformation | **€109.000** | ⚠️ Contratto emesso da HeyAI, **NON firmato né riscontrato** da Donzelli (rettifica 21/5). Acconto incassato. **Costo fornitore Soolutions €55K** (bozza OE 8/6, NON firmata) → margine **€54K / cost-ratio 50%** ✅ entro §2.2. Review pre-firma → [[2026-06-08 - Review Contratto Quadro + OE Soolutions]] |
 | Eldis canone | €130/mese (proposto) | ⚠️ NON ancora validato dal cliente |
 | PresidIa | **€55K+ Full Ownership** O **€44K Revenue Share** _(prov. 7/6, NON definitivo; ex €40K)_ | In negoziazione · costo Jakala **€27K** (prov., ex €25K) |
 | Futuritaly Osservatorio AI | **€45.000 (v2 19/5/2026)** | ✅ Quotato in proposta v2. Costo fornitore Aegiscore €20K (44.4% ✅ sano), markup 2.25x, margine €25K. Mantenuti €58K valore mercato standalone come ancoraggio + partnership 15% rev share + clausola riallineamento €58K se no partnership + change of control 12%/€50K retroattiva 18 mesi. **§8.5 nuova**: math business case dual-use (efficienza interna €12-14K/anno + ricavi commercializzazione tenant €5-18K anno 1 / €10-54K anno 2 → payback 14-20 mesi). Tranche 45/30/25. Skill `investment-proposal-drafting` applicata (margini 2.5/2.0, footer dati legali + ornamento, Aptos 11pt override inline, 0 nomi fornitori, 0 nomi+cognome HeyAI interni). Storico: ~~€14K+€7.846 (30/4 obsoleto)~~ → ~~€26K Reference (modello licenza)~~ → ~~€38K FINAL_1 (no ROI esplicito)~~ → **€45K v2**. Vedi [[20 - Projects/Futuritaly/Osservatorio Strategico\|Osservatorio]] · [HeyAI_Futuritaly_Proposta_Osservatorio_v2.docx](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/HeyAI_Futuritaly_Proposta_Osservatorio_v2.docx) |

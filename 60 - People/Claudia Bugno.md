@@ -4,7 +4,8 @@ role: Amministratore Unico (CEO)
 company: FuturItaly
 email: 
 created: 2026-05-08
-updated: 2026-06-07
+updated: 2026-06-08
+email_addr: bugno@futuritaly.com
 projects: [_Futuritaly]
 stakeholders: []
 tags: [client, decision-maker, futuritaly]
@@ -17,7 +18,7 @@ tags: [client, decision-maker, futuritaly]
 - **Ruolo**: Amministratore Unico (CEO) — FuturItaly
 - **Azienda**: [[_Futuritaly|FuturItaly]]
 - **Decision maker**: SÌ (livello finale, sopra [[Lavinia Ferrari]] e [[Leonardo Delbufalo]])
-- **Email**: TBD
+- **Email**: bugno@futuritaly.com _(confermata da Sent Items Outlook 8/6/2026)_
 - **Ultimo contatto**: indiretto via [[Lavinia Ferrari]] / [[Bruno Mattucci]]
 
 ## Contesto

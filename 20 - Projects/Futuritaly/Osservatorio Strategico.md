@@ -4,7 +4,7 @@ status: active
 priority: p2
 client: Futuritaly (studio legale)
 created: 2026-04-30
-updated: 2026-05-22
+updated: 2026-06-08
 deadline: 2026-05-02
 stakeholders: [Lavinia Ferrari, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali, Claudia Bugno]
 ---
@@ -131,6 +131,13 @@ Jakala (vedi [[Jakala]]) ha proposto l'Osservatorio Strategico a **€38.000** (
 - **Esclusiva pericolosa se non ristretta**: zone grigie su non-compete → ristringere a CCNL Commercio + performance conditions
 
 ## Log
+
+### 2026-06-08 (offerta Aegiscore v5 — analisi e implicazioni)
+- **Aegiscore v5 conferma il core a €20.000** (validità 60gg, pagamento 30/40/30) e per la prima volta mette **a listino gli add-on** (€350/gg): 4.1 €1.750 · 4.2 €2.100 · 4.3 €2.800 · 4.4 osservatorio preventivo €5.250 · 4.5 email/PDF €3.500 → add-on totali €15.400, core+tutti €35.400. Dettaglio offerta in [[Aegiscore]] Log 8/6.
+- **Confronto fornitori**: sul core ≈ pari a Soolutions (Base+T1 €21.846); sugli add-on differenzianti Aegiscore **nettamente più economico** (4.4 osservatorio preventivo €5.250 vs Soolutions €16.800; 4.5 email/PDF €3.500 vs €10.800). Jakala €32K resta fuori policy (71% del prezzo cliente).
+- **Effetto su decisione fornitore**: rafforza la scelta 15/5 **Osservatorio → Silencio/Aegiscore**. Nessun re-pricing del €45K cliente: core €20K = **44,4%** (margine €25K, sano). Gli add-on economici rendono la Fase 2 un upsell ad alto margine.
+- **Vincolo margine (regola 60%)** al prezzo cliente €45K: core+4.4 = €25,25K (56,1%, limite tattico); core+4.4+4.5 = €28,75K (**63,9%, fuori policy**). → tenere €45K = core (+ eventuale osservatorio preventivo), posizionando email/PDF + notifiche proattive come Fase 2 (coerente con §9 proposta v2). Billing automatico tenant (Stripe) per la rev-share NON è nel core né nei 5 add-on Aegiscore → quotazione separata o fatturazione manuale primi tenant (cfr audit pre-invio S4).
+- **Topic aperto**: chiudere con [[Luca Fratini (Aegiscore)|Luca Fratini]] la formula ownership/riuso codice + tempistiche (task #p1 dal 13/5). Offerta valida ~fine luglio 2026.
 
 ### 2026-05-22 (merge bozza email Claudia + setup incontro Bruno)
 
