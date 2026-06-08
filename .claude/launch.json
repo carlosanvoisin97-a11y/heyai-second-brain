@@ -6,6 +6,12 @@
       "runtimeExecutable": "python3",
       "runtimeArgs": ["-m", "http.server", "8731", "--directory", "/Users/carlosanvoisin/Downloads"],
       "port": 8731
+    },
+    {
+      "name": "ai-os-cockpit",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "/Users/carlosanvoisin/ai-os-cockpit"],
+      "port": 3000
     }
   ]
 }

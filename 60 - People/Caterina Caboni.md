@@ -5,7 +5,7 @@ company: Angelini Academy
 email: caterina.caboni@angeliniacademy.com
 phone: +393457524214
 created: 2026-05-05
-updated: 2026-05-08
+updated: 2026-06-08
 projects: [_Angelini Academy]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-08 13:00 -->
@@ -54,6 +54,24 @@ Nel thread del 4/5/2026 Daniele Caporale (FuturItaly) le scrive direttamente per
 > "Essere coerente, non rifare tutto adesso."
 > — **Caterina Caboni**, call 8/5/2026 — chiave del cambio scope sito (restyling fase 1 + ristrutturazione fase 2).
 
+> "Mi preoccupa molto l'idea di popolarla questa community [...] ci vuole uno sforzo enorme." + "Il traffico adesso è bassissimo." + "Un costo pro capite sproporzionato."
+> — **Caterina Caboni**, pitch finale 5/6/2026 — frena su tutto ciò che richiede massa critica/budget (community, ADV). Readiness prima dell'ambizione, ancora.
+
+> "Lo trovo un po' come sparare sulla Croce Rossa."
+> — **Caterina Caboni**, pitch 5/6/2026 — sull'AI *dentro* il sito: la percepisce riduttiva. Apprezzerebbe l'AI su servizi esterni al sito (aggregatore), non come feature interna. Coerente col NO AI dell'8/5.
+
+> "Lo stile lo devo tenere assolutamente coordinato [...] deve aderire a tutto lo stile che daremo ai canali social."
+> — **Caterina Caboni**, pitch 5/6/2026 — lo stile (concept Purpose/bridge) è in capo all'**agenzia di comunicazione** già aggiudicataria (gara feb→giu). La molecola/3D HeyAI è fuori lane → da subordinare.
+
+> "È 2027, ve lo devo dire, quest'anno non ce la facciamo per ragioni di budget e di mio impegno personale."
+> — **Caterina Caboni**, pitch 5/6/2026 — il defer. Apertura: workshop architettura 2026 *budget-permitting* → build 2027.
+
+> "Tutta la parte di revisione dell'architettura non c'è [nel pacchetto del concorrente]."
+> — **Caterina Caboni**, pitch 5/6/2026 — l'unico spazio rimasto a noi: l'architettura differenziata, non coperta dalla gara comunicazione.
+
+> "Presentazione molto valida, ho apprezzato particolarmente la parte di analisi e strategica: emerge il vostro know-how e la conoscenza di Angelini Academy. [...] sufficiente per apprezzare la cura dei dettagli e il lavoro fatto."
+> — **Caterina Caboni**, email a [[Elena Chiti]] 5/6/2026 (post-pitch) — conferma che **la parte strategica/analisi è ciò che ha funzionato** (coerente con la conduzione del pitch). È l'aggancio reale per il workshop 2026 → build 2027. Demo non navigata per intero ("per ragioni di tempo").
+
 ## Pattern di interazione (consolidato post-call 8/5)
 
 - **Pragmatica e asciutta**: tono diretto, operativo. Quando contesta lo fa in 30 secondi (es. cambio scope da "rifare from scratch" a "restyling rapido + fase 2"), senza giri di parole.
@@ -64,6 +82,7 @@ Nel thread del 4/5/2026 Daniele Caporale (FuturItaly) le scrive direttamente per
 - **Vuole proposte radicate nella loro strategia già definita**, non nuove analisi strategiche. Caterina: "fate voi una proposta, ma siete voi a doverci dire perché". Il pitch finale deve nascere visibilmente dalla loro strategia, non da idee del fornitore calate dall'alto.
 - **Decision style**: non dà budget ranges, vuole proposta modulare a scaglioni. Decide al dettaglio prima del costo. Modello "compriamo il valore, vediamo l'investimento dopo".
 - **Tempi rispettati**: 3 settimane per concept proposta, stesso tempo dato alle altre agenzie. Non c'è leva da chiedere extension.
+- **Readiness prima dell'ambizione (confermato al pitch 5/6)**: frena ogni feature che richiede massa critica/budget non ancora presenti (community, ADV, AI nel sito); chiede sempre la quantificazione (traffico, follower, KPI) prima di comprare la soluzione. Sequenziare awareness → community → AI, mai tutto insieme. **Decisione collegiale**: Tiziana è il gate a valle e Francesco presidia la ricerca — Caterina non è la sola firma.
 
 ## Cose da non fare
 
@@ -83,6 +102,12 @@ Nel thread del 4/5/2026 Daniele Caporale (FuturItaly) le scrive direttamente per
 
 ### 2026-05-05
 - Inserita come destinataria del meeting Teams **Q&A brief/sito comunicazione Academy** organizzato da Elena Chiti (Carlo + Daniele Caporale).
+
+### 2026-06-05 — Pitch finale (decisore presente; soft-defer)
+- Prima interazione diretta Carlo↔Caterina in presentazione. Conduce con domande sostanziali per tutta la call, dichiara di seguire (*"mi sta seguendo, sono molto curiosa"*, *"fin qui è molto chiaro"*) — macro-narrativa landed.
+- **Rivela il blocker a presentazione quasi finita**: gara comunicazione feb→giu **già aggiudicata** a un concorrente (social + restyling + contenuti sito + editoriale/blog + stile, lug'26→lug'27). Esito **soft-defer**: resta a noi solo l'**architettura** → workshop 2026 *budget-permitting* + build 2027; editoriale eventualmente da lug'27.
+- Frena su community/AI/ADV (readiness), rimanda lo stile alla sua agenzia, chiede di togliere la slide tool LinkedIn. Gate a valle: **Tiziana Carnicelli** + **Francesco** (ricerca). Chiede l'invio della presentazione ripacchettizzata a fasi.
+- _(8/6: confermato e dettagliato dalla **trascrizione integrale** 1h28m — vedi [[_Angelini Academy]] §Log 2026-06-08. Citazioni nuove sopra. La coaching note 5/6 dichiarava questo aggiornamento ma era rimasto nella worktree non mergiata.)_
 
 ## Sessioni Cowork correlate
 

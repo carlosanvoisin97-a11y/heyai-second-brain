@@ -123,6 +123,8 @@ Vedi [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|Angelini Acad
 
 **🔴 Aggiornamento 5/6/2026 (pitch svolto, confermato Carlo 6/6)** — gran parte dello scope era **già aggiudicata a un fornitore concorrente** (gara comunicazione feb→giu: social + restyling + editoriale/blog + stile, contratto lug'26→lug'27). Risolve in parte la domanda scope/concorrenti, ma apre: (a) **identità del concorrente** ignota; (b) **economia FuturItaly** — editoriale (loro margine) bloccato fino ~2027, da ridefinire cosa si vende nel 2026; (c) **decision maker** confermato Caterina operativa + Tiziana gate a valle; (d) **"Francesco"** (area ricerca Angelini) nuovo stakeholder da triagiare. Dettaglio: [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|scheda madre]] §Log 2026-06-05.
 
+**🟢 Aggiornamento 8/6/2026 (trascrizione integrale 1h28m)** — delta operativi: (a) **SEO + Analytics NON nel pacchetto del concorrente** (*"rimasti molto alti"*, *"in stand by"*) → spazio residuo HeyAI 2026 oltre all'architettura; (b) **editoriale a noi = da luglio 2027** (fine contratto concorrente lug→lug), non "metà 2027" generico; (c) **pricing del deck (€89.880 core) non discusso in call** → da ripacchettizzare a fasi (pre-workshop→1→2) PRIMA dell'invio, verificando il markup FuturItaly 10%. Dettaglio: [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|scheda madre]] §Log 2026-06-08.
+
 ### 32. 🆕 Angelini Academy: ruolo di Daniele Caporale lato FuturItaly
 
 [[Daniele Caporale]] (Communication strategist FuturItaly) appare come driver del dialogo diretto con il cliente sul brief di gara. Da chiarire:
