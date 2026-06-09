@@ -33,6 +33,8 @@ updated: 2026-06-09
 - 16/02/2026 — Stefania conferma cartella immagini/pdf creata dentro TEST_COMPILATORE, attende riscontro Luciano
 - **26/05–8/06/2026 — Thread "Valutazione installazione Compilatore-Builder su infrastruttura Eldis"**: Stefania apre (26/5) chiedendo a Luciano di valutare l'**installazione dell'intero applicativo sulla VM Eldis** (alternativa al canone hosting €130/mese di HeyAI). Contatto ora **diretto Soolutions↔Luciano** (Stefania/Giovanna/Carlo in CC). Simone (28/5) gli passa le specs (RAM 4→6GB, disco a 200GB perché PDF+immagini risiederebbero sul server, port forwarding 80/443, esposizione su dominio `catalogue.eldisnet.it`). Luciano (8/6) sta già attrezzando: +2GB RAM, +20GB vSSD, **sostituzione SSD fisici** del server per arrivare a 200GB ("avrò bisogno di tempo"). → self-host in corso d'opera.
 
+- **Tempistica (call 9/6, da Stefania)**: attrezzaggio server ad **agosto** (spegnere macchine, inserire dischi) → ambiente pronto ad accogliere l'app **da settembre**. Decisione finale Eldis sul self-host entro 1-2 settimane. Luciano gestirà **struttura/infrastruttura** (≠ manutenzione software, che resta a HeyAI/Soolutions).
+
 ## Architettura tecnica gestita da Luciano
 
 ```

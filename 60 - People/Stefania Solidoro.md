@@ -6,9 +6,9 @@ email: stefania.solidoro@eldisnet.it
 phone: +39 327 7770724
 created: 2026-04-30
 updated: 2026-06-09
-last_call_date: 2026-05-08
-last_contact: 2026-06-08
-next_touchpoint: 2026-06-09
+last_call_date: 2026-06-09
+last_contact: 2026-06-09
+next_touchpoint: 2026-06-10
 cadence_days: 14
 relationship_strength: warm
 top_quotes:
@@ -52,8 +52,18 @@ top_quotes:
 
 ## Interazioni recenti
 
-### 2026-06-09
-- **Call servizi/canone oggi 15:00-16:30 Teams** (con Giovanna CFO + Alessandra; Carlo + Andrea + Michele). Vedi [[Eldis Compilatore]] §Log 9/6.
+### 2026-06-09 — Call "Allineamento" svolta (15:32-17:04, con Giovanna CFO + Alessandra; Carlo min 0-28, poi Andrea+Michele)
+- **Sul Compilatore/Builder**: chiude le due evolutive del documento 22/5 → **rifiuta export €2.100** ("fraintendimento, non serve, già autonome") e **descrizioni €1.800** ("non ce la sentiamo di investire ora"). Ammette delusione sul Builder ("non è quello che speravamo, meno sforzo di analisi, ne paghiamo da entrambe le parti"). Chiede **una sola cosa, con insistenza**: l'**edit manuale delle descrizioni nel Builder** (*"l'ultimo sforzo davvero essenziale… falla passare per favore"*).
+- **Hosting**: spinge il self-host (con Luciano/ONCE); preoccupazione su **da quando scatta il canone** (no retroattività) e sul restare "scoperta" sulla manutenzione di un investimento fatto.
+- **Consulenza €180/h**: la trova cara (*"è davvero tanta roba"*), distingue assistenza/ticket base da sviluppo ex-novo.
+- **Stile (canone marketing)**: la grafica HeyAI *"sembra stile MediaWorld"*, vuole restare sullo stile storico curato da **APE**; HeyAI tenuto su costruzione tecnica/flussi/strategia. Riconosce Instagram come caso di successo grazie a HeyAI.
+- **Prossimo passo suo**: manda **email di recap sintetica** degli aggiustamenti canone (annunciata "molto sintetica", ~10/6).
+
+## Pattern di interazione (agg. 9/6)
+- **Orchestratrice multi-stakeholder**: in call gestisce il turno tra Giovanna (CFO, decisore economico), Alessandra e i fornitori; "passa la palla" e ricompone. Conferma il ruolo di driver-non-decisore-finale.
+- **Taglia con cortesia ma con fermezza**: rifiuta investimenti (evolutive, comitato promo, eventi a canone) senza rotture, motivando sempre ("fraintendimento", "non in questa fase"); tiene però fermo ciò che ritiene essenziale (edit descrizioni, email potenziate, video).
+- **Sensibile allo stile/brand**: il metro non è "bello/brutto" ma "coerente con l'identità Eldis storica" (APE). Da non sottovalutare quando HeyAI produce output visual.
+- **Trasparente sui vincoli operativi**: ammette i ritardi lato Eldis (test non fatti, assorbiti da codifiche) — terreno per negoziare milestone realistiche.
 
 ### 2026-06-08
 - **Apre il thread "Richiesta confronto su servizi canone mensile"** (TO Michele/Andrea/Carlo, CC Giovanna/Alessandra): *"dopo questi primi mesi col nuovo contratto ci siamo rese conto che è necessario aggiustare il tiro su alcuni punti. In particolare il comitato promo e la gestione email… nella stessa occasione possiamo fare il punto con Carlo sulle attività di sviluppo."* Riconverte lo slot calendar di Andrea (era Analytics/Social) sul tema canone. **Registro: richiesta di revisione/rimodulazione, non di chiusura** — coerente col suo stile diretto e pragmatico.

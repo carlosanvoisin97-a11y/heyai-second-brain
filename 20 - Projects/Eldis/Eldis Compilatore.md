@@ -191,7 +191,13 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - [-] ~~Ricevere documento aggregato da Federico+Simone, poi commentarlo con Stefania~~ → modificato 20/5 sera: **lo compone Carlo** assemblando i pezzi ricevuti (vedi task Lato HeyAI/Soolutions), non Soolutions
 - [x] ~~Presentare a Stefania la proposta canone €130/mese (mai presentata finora)~~ → ✅ chiuso 22/5: presentata nel PDF Servizi e Evolutive
 - [x] ~~Invio email recap call 8/5 a Stefania+Marta+Alessandra+Giovanna (CC Simone+Federico)~~ → ✅ chiuso 22/5 sera: recap 8/5 (modifiche incluse + studi fattibilità + azioni Eldis) inviato a Stefania, CC Giovanna+Andrea, con PDF allegato
-- [ ] Verificare con Simone segnalazioni Compilatore inviate da Marta 11/5 (RAEE Unik + marchio Unik) — fuori scope email recap call Builder
+- [x] ~~Verificare con Simone segnalazioni Compilatore inviate da Marta 11/5 (RAEE Unik + marchio Unik)~~ → ✅ chiuso: Simone le ha già gestite (conferma 20/5 sera, "Marta te la sei gestita te")
+- [ ] **#p1** 🔴 Stasera 9/6: allineare con Federico+Simone e comunicare a Stefania **da quando scatta il canone hosting** (no retroattività) — promesso "entro stasera"
+- [ ] **#p1** Spacchettare la tariffa consulenza €180/h in **sottovoci per tipo intervento** (email/ticket base vs call vs sviluppo ex-novo) con opzioni/alternative → riproporre a Eldis
+- [ ] **#p1** Valutare/quotare con Simone la **mini-CR "edit manuale descrizioni nel Builder"** (richiesta essenziale Stefania, "falla passare")
+- [ ] **#p1** Coordinare con Simone l'**ultima sessione di test Builder unica/non spezzettata** + fixing → chiusura delivery builder
+- [ ] **#p2** Verificare sul contratto/proposta Eldis se c'è davvero la **dicitura "hosting/manutenzione gestiti separatamente"** (affermato in call, "devo ricontrollare")
+- [ ] **#p2** Con Andrea: chiarire impostazione **fatturazione diretta cliente↔fornitore** (no margine HeyAI su hosting/consulenza/CR) annunciata in call — implicazioni
 
 ### Lato Eldis
 - [ ] Marta: invio specifiche codice gamma UnicTable
@@ -201,6 +207,8 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - [ ] **#p1** Eldis (Marta/team Marketing): invio via mail a Simone della lista campi della scheda prodotto da esporre/escludere di default + lista campi da controllare a livello di intero catalogo
 - [x] Marta: invio esempi catalogo PDF a Simone per validare casistiche grafiche (varianti, layout, copertine, SET) _[chiuso — Marta ha inviato mail "Esempi cataloghi per builder + segnalazioni compilatore" 11/5 ore 09:54 con allegati]_
 - [x] Marta: condivisione registrazione Teams della call 8/5 a Carlo + Simone _[chiuso — Marta ha caricato il video su SharePoint percorso `HeyAi\HeyAI x Eldis - AI Solutions\AI Product Catalogue`, 11/5 ore 15:27]_
+- [ ] **#p1** Eldis (Stefania/Marta): eseguire il **round di test definitivo del Builder** in sessione unica (~entro 30/6, da confermare con Marta) → sblocca fixing + chiusura delivery
+- [ ] **#p1** Eldis: comunicare la **decisione finale su self-host vs canone hosting** (entro 1-2 settimane; attrezzaggio server ad agosto, operativi a settembre)
 
 ## Decisioni storiche
 
@@ -247,6 +255,7 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - 27/01/2026 — `Eldis | Approfondimento Tecnico - App Synchronizer e server Eldis`
 - 24/04/2026 — `Eldis | Allineamento Compilatore` (organizzato da Carlo, attendees: Stefania, Soolutions, Tokio)
 - **08/05/2026 — `Confronto-Formazione su Builder Catalogo`** ore 15:30-16:30 ✅ svolta (organizzato da Stefania, attendees: Carlo, Simone Montanari, Marta, Alessandra, Giovanna). Registrazione caricata da Marta 11/5 su SharePoint percorso `HeyAi\HeyAI x Eldis - AI Solutions\AI Product Catalogue`
+- **09/06/2026 — `Eldis | Allineamento` (servizi/canone + sviluppo)** ore 15:00-16:30 Teams ✅ svolta (organizzato da Andrea, presenti: Stefania, Giovanna Cecchi, Alessandra, Carlo, Andrea, Michele). Trascrizione 1h32m processata. Carlo presente solo sul blocco sviluppo (min 0-28). Tema social rinviato a riunione strategia ad hoc.
 
 ## Prep doc / Email correlate (in `00 - Inbox/`)
 
@@ -261,7 +270,34 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 
 ## Log
 
-### 2026-06-09 — Call servizi/canone (oggi 15:00-16:30 Teams) + nodo self-hosting
+### 2026-06-09 — ESITI call (svolta 15:32-17:04 Teams, trascrizione processata) — fronte sviluppo (Carlo presente min 0-28)
+> Carlo presente solo sul blocco sviluppo (primi ~28 min), poi esce; il resto della call è canone marketing (Andrea/Michele) → tracciato in [[_Eldis]].
+
+**Evolutive — il cliente le RIFIUTA entrambe** (ribalta il documento 22/5):
+- **Export semiautomatico €2.100 → ANNULLATO**: *"c'è stato un fraintendimento… non ci serve, siamo già autonome con quello che è stato messo in piedi per esportare Excel, immagini e PDF"* (Stefania). I €2.100 non si fanno.
+- **Descrizioni con campi extra €1.800 → ANNULLATO (non investono ora)**: *"in questo momento non ce la sentiamo di investire… aspetto sottovalutato da entrambe le parti, le descrizioni B2B non possono essere usate tali e quali"*. I €1.800 non si fanno.
+- ⇒ **le due evolutive (€3.900) saltano**. Resta da capire la fatturazione di quanto già rilasciato/testato.
+
+**Nuova mini-CR richiesta (essenziale per Eldis)**: **edit manuale delle descrizioni dentro il Builder** (poter modificare a mano le descrizioni lunghe quando si è sul builder — già emersa nella mail 11/5). Stefania ci tiene molto: *"l'ultimo sforzo che ritengo davvero essenziale… falla passare per favore"*. Carlo: *"prendo il punto e faccio allenamento coi ragazzi"*. → da valutare/quotare con Simone.
+
+**Builder — stato e delivery**:
+- Stefania ammette delusione: *"il risultato non è quello che speravamo… sul builder si è dedicato meno sforzo di analisi, ne paghiamo da entrambe le parti, descrizioni date per scontate"*.
+- **Decisione condivisa**: il Builder NON sarà mai il costruttore di catalogo vero e proprio; **l'impaginazione PDF/grafica resta all'agenzia APE**. Carlo conferma (Simone: impaginazione "costerebbe quanto il resto dell'applicativo", non conviene; forse fra 6 mesi tecnologia migliore). Allineati.
+- **Delivery builder**: manca **un round di test definitivo NON spezzettato** sui rilasci di Simone del 22/5 (Eldis non li ha potuti testare, assorbita da codifiche) → poi fixing → chiuso. Carlo ha chiesto sessione di test unica (le ore Simone hanno superato il monte ore previsto). Tempistica: Stefania prova entro 30/6 (da confermare con Marta); Andrea ok slittare 30/7.
+
+**Hosting** (vedi anche #E11):
+- Eldis va verso **self-host** sulla propria infra (Luciano/ONCE). Attrezza ad **agosto** (spegnere macchine, inserire dischi) → operativi **da settembre**. **Decisione finale entro 1-2 settimane.**
+- **Stefania: da quando scatta il canone hosting? Non vuole retroattività** (nel documento non era indicato il "da quando"). Carlo non sa rispondere → **allineamento con Federico+Simone, risposta a Stefania entro stasera 9/6.**
+- Carlo ha applicato in call lo spacchettamento: bug nel perimetro funzionalità concordato = **manutenzione ordinaria inclusa**; problemi imputabili alla scelta architetturale Eldis (self-host) = **consulenza**; struttura server in sé = **Luciano**.
+- ⚠️ Carlo ha affermato che "in ogni proposta di sviluppo mettiamo la dicitura che hosting/manutenzione vanno gestiti a parte" ma ha aggiunto *"lo devo ricontrollare"* → **da verificare sul contratto/proposta Eldis** (si è esposto su un fatto non verificato; Giovanna ha sottolineato che l'hosting "non era previsto inizialmente").
+
+**Consulenza €180/h**: Stefania/Giovanna la trovano cara (*"180€/ora è davvero tanta roba"*). Carlo difende (senior dev, sotto mercato). **Carlo promette di spacchettare la tariffa in sottovoci** per tipo intervento (email/ticket vs call vs sviluppo ex-novo) con opzioni/alternative → trade-off per il cliente. Stefania distingue assistenza/ticket base (mail, piccole cose) da sviluppo ex-novo (quotato a parte); non vuole l'investimento "freezato lì". Giovanna: *"il prodotto diventa nostro, ma se nessuno ci sa mettere le mani?"*.
+
+**Fatturazione (Andrea)**: le 3 fatturazioni del compilatore base non risultano chiuse — c'era una fattura per cui era stata chiesta **nota di credito** ("l'avevamo fatta emettere"). Andrea farà check fatture emesse + note credito e allinea con l'amministrazione Eldis. Builder non chiudibile finché test non fatti.
+
+**⚠️ Riservatezza (§13) — slip da annotare**: in call Carlo ha **nominato "Federico e Simone"** (e "developer senior") davanti al cliente, e ha detto che su hosting/consulenza/CR **HeyAI non applica margine** e il cliente *"potrebbe fatturare anche direttamente a loro"* (sganciando HeyAI da intermediazione). Fatto, non correggibile a posteriori; da valutare le implicazioni commerciali (perdita margine/relazione di fatturazione) e tenere la linea sui prossimi scambi.
+
+### 2026-06-09 — Call servizi/canone (PREP pre-call) + nodo self-hosting
 - **Call oggi 9/6 15:00-16:30 su Teams** (slot calendar ex-"Eldis | Allineamento Analytics e Nuove Strategie Social" organizzato da Andrea, **riconvertito da Stefania su tema servizi/canone**; Analytics+Social posticipati). Presenti: Stefania, **Giovanna Cecchi (CFO)**, Alessandra Aprile + Carlo, Andrea Pazienza, Michele.
 - **Trigger — Stefania 8/6 "Richiesta confronto su servizi canone mensile"** (TO Michele/Andrea/Carlo, CC Giovanna/Alessandra): *"dopo questi primi mesi col nuovo contratto ci siamo rese conto che è necessario aggiustare il tiro su alcuni punti. In particolare il comitato promo e la gestione email… nella stessa occasione possiamo fare il punto con Carlo sulle attività di sviluppo."* → **due fronti**: (a) canone marketing [comitato promo + gestione email] = fronte Andrea/Michele; (b) attività di sviluppo [Compilatore/Builder + hosting + evolutive] = fronte Carlo.
 - **🔑 Nodo HOSTING / self-hosting (thread "Valutazione installazione Compilatore-Builder su infrastruttura Eldis", 26/5→8/6)**: dopo aver ricevuto il PDF con €130/mese hosting (22/5), Eldis valuta di **ospitare l'applicativo in casa** sulla propria VM per evitare/ridurre il canone. Stefania (26/5) ingaggia [[Luciano (sistemista Eldis)|Luciano Pecorella]] (GM di ONCE Srl). **Simone (Soolutions) ha già collaborato senza resistenza** (28/5): specs VM = RAM 4→6GB, disco a 200GB (PDF+immagini risiederebbero sul server), port forwarding IP pubblico porte 80/443, esposizione su `catalogue.eldisnet.it` (oggi `catalogue.eldis.soolutions.io`). Luciano (8/6): sta già attrezzando la VM (+2GB RAM, +20GB vSSD, sostituzione SSD fisici per 200GB, "avrò bisogno di tempo"). **Giovanna CFO in CC su tutto → revisione cost-driven.**
@@ -422,6 +458,7 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - **#E9** Stato call dev 7/2/2026: aggiornamento puntuale post export selettivo + CR descrizione catalogo
 - **#E10** Bosch / Siemens (StudioLine): listini concretamente arrivati e testati? Erano nei prossimi passi 21/01
 - **#E11** 🔑 **Hosting: self-host su VM Eldis/ONCE vs canone €130/mese HeyAI** — Eldis sta attrezzando la propria VM (Luciano/ONCE, in corso 8/6). Da decidere in call 9/6: se ospitano loro, come si rimodula il canone? Tesi HeyAI: cade l'infrastruttura, resta la manutenzione applicativa (canone ridotto o consulenza on-demand). Definire accessi VM Soolutions + confini SLA.
+  - _Aggiornamento 9/6 post-call_: Eldis propende per il self-host; attrezzaggio server ad agosto → operativi a settembre; decisione finale entro 1-2 settimane. **Sotto-domanda aperta**: da quando scatta il canone hosting (Stefania esige no-retroattività) → Carlo risponde entro stasera dopo allineamento Federico+Simone.
 
 ## 📚 Architettura prodotto AI Product Catalogue (mergiato 6/5/2026)
 
