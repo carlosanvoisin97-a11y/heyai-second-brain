@@ -42,9 +42,10 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 ✅ **Path normalizzati** 7/6 (relativi alla root del repo) → i 6 file routine sono cloud-ready. _Restano riferimenti esterni `~/Documents/Claude/...` / `~/.claude/...` solo in `system-consistency-check` (audita lo scheduler locale): in cloud quella routine va ripensata o tenuta locale._
 ⚠️ **M365 in cloud**: il digest dipende dall'auth dei connettori su claude.ai; se il token scade il run headless fallisce (niente browser per ri-loggarsi). Il bridge locale (sotto) è la rete di sicurezza.
 
-## Bridge attivo (interim)
+## Bridge locale = FAILOVER M365 (ri-armato 9/6/2026)
 
-- **PM Digest** creato come task **Code-locale** (`~/.claude/scheduled-tasks/pm-digest-mattutino`, cron `0 8 * * 1-5`, **best-effort**: gira quando l'app Code è aperta; se chiusa → al prossimo avvio). Ponte finché il cloud non è attivo. Creato 7/6/2026.
+- **PM Digest bridge** Code-locale (`~/.claude/scheduled-tasks/pm-digest-mattutino`): storia → creato 7/6 (cron `0 8`), disabilitato 7/6 (cloud subentrato), **ri-armato 9/6 come vero failover del Rischio #1**. Motivo: la routine cloud dipende dal token M365 e **Cowork è dismesso** → senza failover il digest sarebbe single-point-of-failure (se il token scade, non gira da nessuna parte).
+- Config failover: cron `30 9 * * 1-5` (**09:30, dopo il cloud delle 08:02**) + **guardia anti-doppione** nel SKILL (se la daily di oggi esiste già con sezione PM Digest → salta; gira solo se manca = cloud fallito). Best-effort (serve l'app Code aperta). Se anche M365 è giù, degrada a digest vault-only e lo segnala. _(Resta best-effort, non un failover garantito a Mac spento: per quello servirebbe un secondo runtime cloud.)_
 
 ## Note
 - Sorgente originale (non più autoritativa): `~/Documents/Claude/Scheduled/<task>/SKILL.md` (scheduler Cowork).

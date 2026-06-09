@@ -7,6 +7,8 @@ description: Interact with Obsidian vaults using the Obsidian CLI to read, creat
 
 Use the `obsidian` CLI to interact with a running Obsidian instance. Requires Obsidian to be open.
 
+> ⚠️ **Prerequisito (fix 9/6/2026)**: il binario `obsidian` è la CLI ufficiale in `/Applications/Obsidian.app/Contents/MacOS/obsidian-cli`. Era irraggiungibile (il symlink `/usr/local/bin/obsidian` puntava a un path *AppTranslocation* effimero ormai sparito → ogni comando falliva "command not found"). **Fix applicato**: `~/.local/bin/obsidian` → `/Applications/Obsidian.app/Contents/MacOS/obsidian-cli` (prima dir del PATH, user-writable). Se "command not found", ricrea quel symlink; se errore di connessione, **apri Obsidian** (la CLI richiede l'app in esecuzione).
+
 ## Command reference
 
 Run `obsidian help` to see all available commands. This is always up to date. Full docs: https://help.obsidian.md/cli

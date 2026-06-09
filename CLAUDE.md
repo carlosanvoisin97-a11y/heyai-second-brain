@@ -244,7 +244,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 |---|---|---|---|
 | `code-sessions-index` | `35 20 * * *` | ✅ on | indicizza sessioni Code → `code-recap/` + cascata sicura + **catch-up self-heal** |
 | `system-consistency-check` | `30 7 * * 1` | ✅ on | audit scheduler/doc (LOCALE per forza: audita gli scheduler) |
-| `pm-digest-mattutino` (bridge) | `0 8 * * 1-5` | ⏸️ **off** | fallback dormiente se la cloud M365 fallisce (token scaduto) |
+| `pm-digest-mattutino` (bridge) | `30 9 * * 1-5` (dopo il cloud) | ✅ **on — failover** | rete M365 (Rischio #1, ri-armato 9/6): gira 09:30 **SOLO se la daily di oggi manca** (= cloud fallito); guardia anti-doppione nel SKILL |
 
 **C) Locale ad app aperta**: plugin **Obsidian Git** — commit-and-sync + auto-pull ogni ~10' (§9ter + [[99 - System/Routines/_README]]).
 
