@@ -274,6 +274,11 @@ Esistono **tre** runtime (cron + stato nella tabella §9). Implicazioni operativ
 - **`.gitignore` = barriera di sicurezza**: ignora `.obsidian/plugins/` (i `data.json` plugin possono contenere API key/PAT), `copilot/`, e i grezzi PII (`_import-*`, `_DA_DOWNLOADS_*`). **Mai un-ignorarli**: l'auto-sync fa `stage-all` → finirebbero su GitHub.
 - **Routine cloud → solo `main`**: ogni file `99 - System/Routines/*.md` DEVE mantenere `## Push finale` (`git push origin HEAD:main`, no branch/PR); i prompt dei 5 trigger cloud sono ora espliciti uguale (allineati 7/6).
 
+**Convenzione sessioni (F4, 9/6):**
+- **Workflow vault = SOLO Code locale.** Ogni sessione gira in una worktree auto-creata dall'harness → **committa il lavoro vault su `main`** con `git -C /Users/carlosanvoisin/claude` (NON sul branch della worktree, che resta a 0 commit). Il plugin sincronizza main↔Obsidian↔GitHub.
+- **claude.ai Code (web) = NON usarlo per il vault**: le sue sessioni pushano su `origin/claude/*` e NON rientrano in `main` → lavoro invisibile in Obsidian (è stato il leak del 9/6, poi harvested). Se usato per eccezione → harvest subito: `git -C ~/claude merge origin/claude/<branch>` + push `main`.
+- **Worktree = sandbox usa-e-getta** (0 commit unici). `code-sessions-index` segnala ogni giorno le worktree stale + i branch `origin/claude/*` stray da harvestare, con comando pronto (flag-only, potatura manuale).
+
 ## 10. Procedura standard per ogni nuova chat
 
 1. Leggere questo `CLAUDE.md` **all'inizio della chat**.
