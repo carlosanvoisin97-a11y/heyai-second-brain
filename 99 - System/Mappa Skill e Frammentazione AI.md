@@ -9,6 +9,8 @@ purpose: Mappa unica dei tre sistemi AI (Cowork/vault, Claude Code, Desktop Comm
 
 > Documento di orientamento. Risponde a tre domande: (1) **perché** esiste la frammentazione, (2) **cosa** sa fare ogni sistema oggi, (3) **come** ricordarsi quando usare cosa. Non sostituisce `CLAUDE.md` (regole operative del vault); lo affianca con la vista d'insieme.
 
+> ⚠️ **Aggiornamento 9/6/2026 — Cowork DISMESSO.** Carlo lavora solo in **Claude Code** (+ Desktop Commander per i file grezzi + le routine cloud/locali). Dove sotto si legge "Cowork", intendere ora: le skill del **vault** (`~/claude/.claude/skills/`) sono usate da **Claude Code** aperto sulla cartella del vault, non più dall'app Cowork. Le automazioni non dipendono più da "aprire Cowork" (vedi CLAUDE.md §9).
+
 ## 0. TL;DR — la regola in una riga
 
 Hai **tre assistenti AI diversi** sullo stesso Mac. Ognuno legge una cartella di skill diversa. **Non si parlano.** Questa è la frammentazione. Soluzione pratica: sapere quale aprire per quale lavoro (tabella §4) e tenere sincronizzate solo le skill che servono in più posti (§6).
@@ -29,9 +31,12 @@ Ognuno cerca le skill in una cartella diversa **perché sono software diversi**,
 |---|---|---|---|
 | **Cowork + vault HeyAI** | `claude/.claude/skills/` | 9 | email-drafting, investment-proposal-drafting, transcript-processing, vault-live-protocol, obsidian-cli, obsidian-markdown, obsidian-bases, json-canvas, defuddle |
 | **Claude Code (terminale)** | `.claude/skills/` | 5 | management-consulting, pm-method, recap, web-design-3d, website-builder-setup |
-| **Desktop Commander (questa chat)** | `.agents/skills/` | 4 | desktop-commander-guide, skill-creator, find-skills, downloads-cleaner-vault-import |
+| **Desktop Commander (questa chat)** | `~/.agents/skills/` | 6 | desktop-commander-guide, skill-creator, find-skills, downloads-cleaner-vault-import, audio-transcriber-deepgram, workspace-memory |
 
-> ⚠️ Nota importante che ho verificato: il `CLAUDE.md` del vault cita le skill come `.claude/skills/...` ma **le skill del vault sono fisicamente in `claude/.claude/skills/`** (dentro la cartella del vault), mentre `.claude/skills/` (nella home) contiene le skill di Claude Code. Sono due `.claude` diversi. Questa ambiguità di path è parte di cosa rende confusa la frammentazione.
+> ⚠️ **Disambiguazione `.claude` (cruciale)**: esistono **due** cartelle `.claude` diverse.
+> - **`~/claude/.claude/`** = dentro la cartella del **vault** (Obsidian) → contiene `skills/` del vault, `hooks/`, `settings.json` del vault, `worktrees/`. Path completo: `/Users/carlosanvoisin/claude/.claude/`.
+> - **`~/.claude/`** = nella **home**, globale di Claude Code → `skills/` globali, `scheduled-tasks/`, `projects/` (i JSONL di sessione), `plugins/`, `settings.json` globale.
+> Quando CLAUDE.md cita `.claude/skills/...` intende quello del **vault** (`~/claude/.claude/skills/`). Confonderli è una fonte tipica di errori (es. puntatori a task locali inesistenti).
 
 ## 3. A cosa serve ogni sistema — la divisione del lavoro
 

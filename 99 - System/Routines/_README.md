@@ -25,6 +25,9 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 | `crm-velocity.md`             | `0 9 * * 1` (Lun 9)       | audit vault | nessuno                                 |
 | weekly-review-interactive.md` | `30 17 * * 6` (Sab 17:30) | prep doc    | nessuno                                 |
 | `pm-digest-mattutino.md`      | `0 8 * * 1-5` (Lun-Ven 8) | digest      | **M365** (Outlook/cal/SharePoint/Teams) |
+| `radar-competitor.md`         | — **autorata, NON schedulata** | radar competitor/mercato → `99 - System/Radar/` (alimenta cockpit) | web pubblico |
+
+⚠️ **7 file routine, 6 schedulate + 1 no**: `radar-competitor.md` è scritta e pronta ma **non ha né trigger cloud né task locale** (9/6). Da decidere se schedularla (cloud, settimanale) o lasciarla on-demand. Il cockpit legge `99 - System/Radar/` solo se qualcuno la fa girare.
 
 (`cowork-sessions-index` **ritirata**: in Code c'è già `code-sessions-index` nello scheduler locale. `claude-chats-sync`/`friday-wrap-up`/`weekly-digest` disabilitate. `dashboard-refresh-manual` resta on-demand.)
 

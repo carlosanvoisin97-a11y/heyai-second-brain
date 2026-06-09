@@ -7,7 +7,8 @@ applied_at: 2026-05-14 (sessione audit second brain Cowork)
 related_recommendation: "Audit second brain 14/5/2026 — Batch 3 follow-up #10: scheduled task moc-refresh per evitare drift MOC settimanale"
 ---
 
-> ✅ **TASK CREATO 14/5/2026** durante la sessione audit second brain. Il prompt riportato in questo doc è la versione originaria del 14/5, mantenuta come snapshot storico. Fonte autoritativa corrente: SKILL.md vivo (`/Users/carlosanvoisin/.claude/scheduled-tasks/moc-refresh/SKILL.md`) leggibile via `Read` o `mcp__scheduled-tasks__list_scheduled_tasks`.
+> ✅ **TASK CREATO 14/5/2026** durante la sessione audit second brain. Il prompt riportato in questo doc è la versione originaria del 14/5, mantenuta come snapshot storico.
+> ⚠️ **Aggiornamento 9/6/2026**: `moc-refresh` è ora una **routine cloud** (Cowork dismesso). Fonte autoritativa corrente: **`99 - System/Routines/moc-refresh.md`** (eseguita unattended su claude.ai, gestibile via `RemoteTrigger`). Il vecchio path locale `~/.claude/scheduled-tasks/moc-refresh/SKILL.md` **non esiste** (mai stato un task locale).
 
 # 🗺️ Setup nuovo scheduled task `moc-refresh`
 

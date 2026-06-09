@@ -2,13 +2,13 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # digest-staleness-check.sh  —  "campanello" affidabilità PM Digest (Front 3, 29/5/2026)
 #
-# PERCHÉ ESISTE:
-#   Le automazioni del vault (PM Digest mattutino, vault-link-checker, moc-refresh,
-#   crm-velocity, ...) girano nello scheduler dell'app COWORK
-#   (~/Documents/Claude/Scheduled/). Girano SOLO se Cowork è aperto.
-#   Claude CODE ha uno scheduler separato (~/.claude/scheduled-tasks/) con un solo
-#   task (code-sessions-index). Quindi lavorando in Code senza aprire Cowork, il
-#   digest del mattino smette di girare IN SILENZIO e nessuno se ne accorge.
+# PERCHÉ ESISTE (agg. 9/6/2026 — COWORK DISMESSO):
+#   Le automazioni del vault girano ora come ROUTINE CLOUD su claude.ai (unattended,
+#   anche a Mac spento), NON più nello scheduler Cowork. Il PM Digest cloud dipende
+#   dal token M365: se scade, il run headless fallisce IN SILENZIO. Il bridge locale
+#   (~/.claude/scheduled-tasks/pm-digest-mattutino) è OFF (fallback dormiente).
+#   Questo campanello resta utile: se la daily note è ferma >= soglia, segnala il
+#   probabile fallimento M365 della routine cloud (non più "Cowork non aperto").
 #
 # COSA FA:
 #   A ogni apertura di sessione (hook SessionStart) controlla quanto è vecchia
@@ -39,7 +39,7 @@ TODAY_EPOCH=$(date "+%s")
 DAYS=$(( (TODAY_EPOCH - LATEST_EPOCH) / 86400 ))
 [ "$DAYS" -lt "$THRESHOLD_DAYS" ] && exit 0
 
-MSG="PM Digest fermo: ultima daily note ${LATEST} (${DAYS}gg fa). Le automazioni (digest, link-checker, moc-refresh, crm-velocity) girano SOLO in Cowork; lavorando in Code non partono. Per recuperare: apri Cowork e lascia girare il digest, oppure lancialo a mano. [campanello Front 3 — .claude/hooks/digest-staleness-check.sh]"
+MSG="PM Digest fermo: ultima daily note ${LATEST} (${DAYS}gg fa). Il digest gira come ROUTINE CLOUD (claude.ai) e dipende dal token M365 — se è fermo, probabilmente il token M365 è scaduto e il run headless è fallito in silenzio (Cowork è dismesso, non è quella la causa). Per recuperare: (1) controlla auth connettori M365 su claude.ai; (2) 'RemoteTrigger action:list' per lo stato del trigger pm-digest; (3) in emergenza ri-abilita il bridge locale 'pm-digest-mattutino' + 'RemoteTrigger action:run'. [campanello — .claude/hooks/digest-staleness-check.sh]"
 
 # Output: systemMessage = visibile a Carlo in UI; additionalContext = iniettato all'agente.
 jq -nc --arg m "$MSG" \

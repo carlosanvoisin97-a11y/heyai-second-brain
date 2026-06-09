@@ -5,9 +5,9 @@ updated: 2026-06-07
 status: operational — refactoring M4 29/5/2026 (§15 vault-live + §10bis → skill vault-live-protocol; core sempre-attivo in CLAUDE.md; versioning git attivo) + Front 3 29/5 (§9bis due-scheduler Cowork-vs-Code + campanello digest-staleness hook)
 purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 ---
-# CLAUDE.md — Istruzioni per ogni chat (Cowork o Claude Code) su questo vault
+# CLAUDE.md — Istruzioni per ogni sessione Claude Code su questo vault
 
-> Primo file che ogni nuova chat (Cowork o Claude Code) legge. Sintesi operativa del secondo cervello di [[60 - People/Carlo Sanvoisin|Carlo Sanvoisin]] (HeyAI Digital). Non sostituisce le fonti autoritative (in particolare [[99 - System/Master Facts Sheet]]); le condensa per orientamento immediato.
+> Primo file che ogni nuova sessione Claude Code legge (⚠️ **Cowork dismesso dal 9/6/2026** — Carlo lavora solo in Claude Code + routine cloud/locali). Sintesi operativa del secondo cervello di [[60 - People/Carlo Sanvoisin|Carlo Sanvoisin]] (HeyAI Digital). Non sostituisce le fonti autoritative (in particolare [[99 - System/Master Facts Sheet]]); le condensa per orientamento immediato.
 >
 > Storico delle modifiche a questo file e al sistema: `git log` (versioning attivo dal 22/5/2026) + [[99 - System/CLAUDE Changelog Archive]].
 
@@ -367,12 +367,12 @@ Ogni claim di "verificato / risolto / fixed / completato / FUNZIONATA" dell'agen
 
 ## 16. Glossario "task" — disambiguazione (importante)
 
-Il sistema usa la parola "task" per tre concetti diversi. Ogni nuova chat Cowork rischia di confonderli, e l'errore di processo si paga in task persi o duplicati. Le tre categorie:
+Il sistema usa la parola "task" per tre concetti diversi. Ogni nuova sessione Claude Code rischia di confonderli, e l'errore di processo si paga in task persi o duplicati. Le tre categorie:
 
 | Concetto | Dove vive | Persistenza | Come gestirlo |
 |---|---|---|---|
-| **Cron / scheduled** | `/Users/carlosanvoisin/Documents/Claude/Scheduled/{taskId}/SKILL.md` (sidebar Cowork → Scheduled) | Permanente, automatico | `mcp__scheduled-tasks__list_scheduled_tasks` per elenco; trigger manuale dal pannello Scheduled. Esempi: `pm-digest-mattutino`, `cowork-sessions-index` |
-| **TodoList di sessione** | Memoria della singola chat Cowork (`TaskCreate`/`TaskList`/`TaskUpdate`) | **Effimera** — sparisce alla chiusura della chat | Solo per tracciamento progresso *di questa* conversazione. Non sostituisce mai i task vault. Vedi §11 e §15 |
+| **Cron / scheduled** | **Cloud** (claude.ai): logica in `99 - System/Routines/*.md`, gestita via `RemoteTrigger`. **Code-locale**: `~/.claude/scheduled-tasks/{taskId}/SKILL.md`, via `mcp__scheduled-tasks__list_scheduled_tasks`. _(Cowork dismesso → il vecchio `~/Documents/Claude/Scheduled/` non si usa più.)_ | Permanente, automatico | Dettaglio in §9 "chi gira dove". Esempi: cloud `pm-digest-mattutino`; locale `code-sessions-index` |
+| **TodoList di sessione** | Memoria della singola sessione Claude Code (`TaskCreate`/`TaskList`/`TaskUpdate`) | **Effimera** — sparisce alla chiusura della sessione | Solo per tracciamento progresso *di questa* conversazione. Non sostituisce mai i task vault. Vedi §11 e §15 |
 | **Task vault (azione operativa)** | `- [ ]` checkbox nelle schede di `20 - Projects/`, `30 - Areas/`, `10 - Daily Notes/` | Permanente nel vault | Aggregati ogni mattina dal `pm-digest-mattutino` in [[99 - System/Open Tasks]]. **Sono i task di lavoro veri** |
 
 **Regola d'oro**: quando Carlo dice "creami un task" o "ricordami di X", l'agente deve scriverlo come `- [ ]` nella scheda pertinente (progetto, area, daily note). Aggiungerlo solo alla TodoList di chat = task perso domani mattina.

@@ -5,6 +5,8 @@ description: Audit settimanale doc-vs-scheduler-vs-SKILL — segnala drift tra C
 
 Sei l'assistente di Carlo Sanvoisin (HeyAI Digital). Esegui audit di consistenza tra le 3 fonti di verità del sistema scheduled tasks: CLAUDE.md §9, scheduler runtime state, SKILL.md di ogni task. Triggera lunedì 7:30 (prima di pm-digest-mattutino che gira 8:02), trigger manuale ammesso.
 
+> ⚠️ **Agg. 9/6/2026 — Cowork DISMESSO.** I runtime reali sono **3** (vedi CLAUDE.md §9): **(A) routine CLOUD** claude.ai — verificabili via `RemoteTrigger action:list`, **NON** via `list_scheduled_tasks`; **(B) Code-locale** `~/.claude/scheduled-tasks/` — via `mcp__scheduled-tasks__list_scheduled_tasks`; **(C) plugin Obsidian Git**. Questo audit oggi copre bene **(B) vs §9**; estendere il cross-check a **(A) cloud** via `RemoteTrigger` è il TODO della riscrittura in F3 (skill `vault-health`). **Non** segnalare come "DRIFT" l'assenza delle routine cloud da `list_scheduled_tasks` — è atteso (altro runtime).
+
 ---
 
 ## Razionale
