@@ -4,7 +4,7 @@ role: Sviluppatore Senior Back-end
 company: Soolutions
 email: simone@soolutions.io
 created: 2026-04-30
-updated: 2026-05-28
+updated: 2026-06-09
 aliases: [Simone, "Simone M", "SM", "Simo"]
 emails_historical:
   - simone@soolutions.io (attuale, back-end)
@@ -79,6 +79,12 @@ top_quotes:
 
 > "non possiamo farlo. Simo va fatto così. Perché va fatto così? Perché è sicuro. Non possiamo farlo, non siamo dei criminali come Carlo"
 > — Federico in call 20/5/2026 a Simone (su push prod Minutes: la procedura semiautomatica con OTP+terminale resta perché velocizzarla diventerebbe backdoor contraria alle policy NoLoop). Carlo accetta la battuta — pattern di disciplina ops che Federico/Simone difendono attivamente.
+
+> "noi glielo diamo con uso illimitato, il discorso è solo sull'evolutivo e sugli aggiornamenti. Finché il sistema automatico traina il modello originale loro sono autonomi; se vogliono trainare su una tipologia merceologica nuova, o tornano a un modello generico più lento/costoso, o pagano qualcuno che fa una cosa come la nostra — lo pagano. That's it"
+> — Call "Soolutions Allineamento fatture" 9/6/2026. Chiarisce il **regime IP sui modelli AI**: checkpoint consegnato al cliente con uso illimitato a vita, vendor lock-in solo intrinseco e solo sull'evolutivo. Pattern Simone: nomina apertamente i due unici punti di lock-in (modelli predittivi + riconoscimento immagine) e li circoscrive.
+
+> "le soluzioni sono fornite viste e piaciute con un tempo ragionevole di revisione; finito il discorso. Se vieni da me dopo due anni quando magari non collaboriamo più e mi dici a gratis fammi funzionare il modello anche su un'altra cosa, io ti rispondo: è una lavorazione"
+> — Call 9/6/2026. Posizione su gratuità/evolutivo: il prodotto è chiavi-in-mano nel perimetro pattuito; nuovi use case = lavorazione a pagamento. Carlo: "è chiaro, va comunicato al cliente".
 
 ## 🎯 Pattern di interazione
 

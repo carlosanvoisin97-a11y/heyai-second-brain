@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-08
+updated: 2026-06-09
 deadline: 2026-09-01
 contract_status: non_prodotto
 stakeholders: [Massi Sinigaglia, Germano Marano]
@@ -173,6 +173,10 @@ Per memoria: la **prima bozza Germano** (febbraio 2026) conteneva **6 clausole v
 - 2026-05-13 — `local_af2ea6af` — Email recap interno Federico+Simone (riscrittura Carlo): **bonifico Soolutions GATED** all'Excel cash-flow di Andrea Pazienza (rettifica vs "tra oggi e domani" di call mattina → "appena decidiamo la formula pagamenti vi giriamo il bonifico"). **Nuovo task #p1 Carlo**: comunicazione proattiva cliente "siamo ufficialmente partiti" a Massi+Justin+Germano. → [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 5 — Write recap email and update tasks (Federico+Simone allineamento interno)]]
 
 ## Log
+
+### 2026-06-09 — Perimetro cessione IP: il modello pattern di Eye Cookies è componente riusata NON cedibile
+- Nella call "Soolutions Allineamento fatture" (9/6, dettaglio in [[Operation Transformation]] §Log 9/6) Federico cita esplicitamente Eye Cookies come esempio del **perimetro di IP non cedibile**: *"il discorso del pattern proposto nella soluzione di i cookie è una soluzione che noi abbiamo fatto tempo fa per fare riconoscimento di pattern generici… ispirato al modo in cui funzionano i social, per riconoscere preferenze/engagement"*.
+- **Implicazione sull'OE ricognitivo Eye Cookies** (task aperto sotto): l'OE dovrà riflettere lo stesso regime di Operation Transformation — **cessione dell'ecosistema gestionale custom, esclusione dei modelli AI** (qui il modello di pattern recognition preferenze/engagement) perché pre-esistente/riusato, ma con **uso illimitato a vita** garantito al cliente. Coerente con la modalità **Full Ownership** già approvata da Donzelli (03/04): la "full ownership" va intesa come ownership dell'ecosistema custom, non dei modelli AI di base. Da esplicitare al cliente quando si formalizza.
 
 ### 2026-06-08 — Bozza Contratto Quadro Soolutions: Eye Cookies citato, ma OE ricognitivo mancante
 - Il **Contratto Quadro HeyAI↔Soolutions** (bozza 8/6, review in [[2026-06-08 - Review Contratto Quadro + OE Soolutions]]) all'art. 15.1 elenca **"EyeCookie" e "Operation Transformation"** come Progetti Pregressi destinati al Cliente NOT, da regolare con appositi Ordini Esecutivi ricognitivi (art. 15.2). **È stato prodotto solo l'OE Operation Transformation; manca l'OE Eye Cookies** → task aperto sopra. (Nota naming: nel CQ figura "EyeCookie" attaccato — uniformare a "Eye Cookies" per regola CLAUDE.md §11.)

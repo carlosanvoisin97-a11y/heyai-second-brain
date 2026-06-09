@@ -2,7 +2,7 @@
 type: prep-doc
 status: in-review
 created: 2026-06-08
-updated: 2026-06-08
+updated: 2026-06-09
 client: NoLoop/NOT
 projects: [Operation Transformation]
 stakeholders: [Federico Saladino (Soolutions), Simone Montanari (Soolutions), Bruno Mattucci]
@@ -42,6 +42,7 @@ meeting_context: Review di sicurezza su bozze Contratto Quadro HeyAI↔Soolution
 - Nell'OE Operation Transformation entrambi sono barrati **"non applicabile"** → ok per *questo* progetto.
 - **Ma**: l'OE stesso prevede **architettura multi-tenant "per futuri clienti" (req. T.1)**. Il modello HeyAI è riusare/scalare. Se domani HeyAI replica l'architettura Operation Transformation per un altro retailer, Soolutions potrebbe invocare l'art. 6.3.
 - **Azione**: decidere la postura generale con Longo. Se HeyAI vuole tenere libero il riuso dell'architettura/know-how, chiarirlo (l'art. 8.9.a già consente al Fornitore il riuso del *proprio* know-how, ma il punto speculare — riuso da parte di *HeyAI* senza compenso — va blindato).
+- **🔄 Aggiornamento call 9/6/2026 ("Allineamento fatture")**: il nodo è stato in parte affrontato. Soolutions ha chiarito che la **cessione IP è circoscritta all'ecosistema gestionale 100% custom** (frontend/backend/bridge/integrazioni/automazioni) ed **esclude i modelli AI** (predittivi matematici + riconoscimento immagine) perché basati su componenti open-source/pre-esistenti che **loro riusano** — è il riuso del *proprio* know-how lato Fornitore (coerente con art. 8.9.a). Al cliente il modello trainato è dato con **uso illimitato a vita** + ritrainabile; lock-in solo sull'evolutivo. **Resta aperto il punto speculare**: il riuso da parte di *HeyAI* dell'architettura/ecosistema custom (che HeyAI possiede via cessione) per altri clienti — va comunque blindato con Longo che non attivi art. 6.3. **Pendente**: Federico/Simone producono la **lista delle componenti terze non cedibili** → input per Carlo verso il cliente. Dettaglio → [[20 - Projects/NOT/Operation Transformation]] §Log 9/6.
 
 ### 5. GDPR — contraddizione tra impianto DPA e esclusione E.2 del Requirement Log
 - Impianto CQ/OE: Soolutions = **sub-responsabile ex art. 28/32 GDPR** (tratta storico vendite 5 anni, genere/età clienti, dati operatori).

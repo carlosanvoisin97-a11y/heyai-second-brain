@@ -4,7 +4,7 @@ role: Sviluppatore Senior Front-end
 company: Soolutions
 email: federico@soolutions.io
 created: 2026-04-30
-updated: 2026-05-28
+updated: 2026-06-09
 aliases: [Federico, "Fede"]
 emails_historical:
   - federico@soolutions.io (attuale)
@@ -98,6 +98,12 @@ top_quotes:
 
 > "io voglio più soldi per iCookie [Eye Cookies] comunque, adesso non è finita qua… non sono per niente d'accordo. E poi anche per Minutes… ma te devi pagare dei soldi"
 > — Nota vocale WhatsApp 28/5/2026, subito dopo la prima call bisettimanale [[Eye Cookies]] (Simone presente). Federico apre esplicitamente una rinegoziazione **al rialzo** del compenso Soolutions su Eye Cookies e lega gli enhancement Minutes (desktop, automatch partecipanti) a un pagamento aggiuntivo. Estende la pressione upward dai prezzi cliente ai pagamenti HeyAI→Soolutions sui singoli progetti. ⚠️ Sensibile §13.
+
+> "loro la proprietà intellettuale la possono prendere e noi la possiamo tranquillamente cedere, è circoscritta a tutto quello che è l'ecosistema [100% custom]… ma tutto quello che sono modelli [AI] no. È la stessa identica cosa che loro hanno con Microlog: Microlog cede l'integrazione e il bridge, non il prodotto proprietario delle telecamere"
+> — Call "Soolutions Allineamento fatture" 9/6/2026. Posizione di principio sul **perimetro della cessione IP**: cedibile tutto l'ecosistema gestionale custom, esclusi i modelli AI basati su componenti open-source/pre-esistenti riusati. Accettata da Carlo (con riserva: "devo vedere se è una cosa sulla quale mi possono rompere le palle col cliente").
+
+> "quel modello è un black box: gli entrano i dati e caga fuori le risposte. Non puoi aprirlo e sventrarlo, ne devi creare uno nuovo se hai un nuovo use case. Litighiamo? Loro possono continuare a utilizzarlo e a ritrainarlo, non c'è problema — mettiamo anche una funzione di auto-retrain"
+> — Call 9/6/2026. Chiarisce che NON c'è vendor lock-in sostanziale: il modello resta usabile/ritrainabile dal cliente a vita; il lock-in è solo sull'evolutivo (nuova tipologia merceologica = modello nuovo).
 
 ## 🎯 Pattern di interazione (aggiornati 20/5)
 
