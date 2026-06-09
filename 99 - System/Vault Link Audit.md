@@ -2,9 +2,9 @@
 type: audit
 status: active
 created: 2026-05-08
-updated: 2026-06-07
+updated: 2026-06-09
 ---
-<!-- auto-updated by vault-link-checker 2026-06-07 (rolling-window applicata: audit 2026-05-24 spostato in 50 - Archive/Vault Audits/2026-05.md) -->
+<!-- auto-updated by vault-link-checker 2026-06-09 (rolling-window: audit 2026-06-07 conservato nel file vivo — solo 2gg fa, sotto soglia 7gg) -->
 
 ## Sessioni Cowork correlate
 
@@ -38,6 +38,7 @@ Vedi CLAUDE.md §15 voce 7 per il protocollo di rinominazione manuale.
 | 2026-05-24 (run scheduled, on-cadence domenica) | cron dom 21:00 | 15 | 4 | 5 | ⚠️ ALERT crescita 5→15 (+200%): debt cluster Angelini 17/5 + typo cognome Verrangia diffuso + nuovi stakeholder senza cascata. 70 alias / 31 file proprietari. **Batch fix in chat 24/5 sera ↓** |
 | **2026-05-24 sera (batch fix in chat con Carlo)** | **manuale post-audit** | **1** | **0** | **5** | **✅ Cleanup completo**: 7 cluster fissati in batch (Verrangia rinomina massiva + cluster Angelini root spostato+frontmatter + Marta alias Eldis + Germano typo + Veo rimosso + LinkedIn agents da FM + related_meeting→meeting_context + bonus alias Brief Copy). K 15→1 (-93%), J 4→0. Solo `[[Verificare]]` lasciato per scelta esplicita Carlo. 68 alias / 31 file proprietari |
 | **2026-06-07 (run manuale on-demand)** | **manuale** | **7** | **4** | **0** | ⚠️ K 1→7 (+6): vault cresciuto +134 .md (+164 file totali) dal 24/5. 3 cluster: Area-name mismatch (×2) + folder-link (×3) + placeholder (×1) + routine template (×1). J 0→4: stakeholders con nota parentetica (×4). P: scansione conservativa, 0 segnalati. 78 alias / 36 file proprietari |
+| **2026-06-09 (run cloud schedulato)** | **cloud routine** | **37** | **4** | **0** | ⚠️ ALERT K>20 + crescita 7→37 (+429%): Cluster A inbox archiviata (×16) + Cluster B system patches (×9) + Cluster C area-name mismatch (×2, residuo da 7/6) + Cluster D persone (×5: Arianna alias mancante + Luca path errato + 2 schede assenti) + Cluster E placeholder (×5). J=4 stabile (stessi 4 frontmatter Angelini pitch). ⚠️ Broken in file modificato 24h: `[[Luciano Pecorella]]` in Open Tasks + Daily 2026-06-09. 85 alias / 36 proprietari |
 
 _(Detail completo dei singoli audit archiviato in `50 - Archive/Vault Audits/2026-05.md`. La tabella viene aggiornata ad ogni audit con la riga sintetica del run.)_
 
@@ -122,6 +123,123 @@ Scansione path string non eseguita in questo run (metodologia conservativa — s
 
 ### Prossimo run
 
-Cron canonico domenica 21:00 = **dom 14/6/2026 ~21:00**. Aspettativa se Carlo applica i fix cluster 1+4: K=5 (folder link non urgenti + 2 placeholder) · J=0.
+Cron canonico domenica 15:40 = **dom 14/6/2026 ~15:40 CEST**. Aspettativa se Carlo applica i fix cluster 1+4: K=5 (folder link non urgenti + 2 placeholder) · J=0.
+
+---
+
+## Audit 2026-06-09 — run cloud schedulato
+
+> **Contesto run**: run cloud del 9/6/2026. Vault cresciuto ulteriormente dal 7/6: 615 file .md totali (+37 vs audit 7/6), 948 file totali. Il salto K 7→37 è principalmente causato da link a file archiviati (Inbox e System) mai aggiornati nei file sorgente.
+
+### Numeri sintetici
+
+- **File `.md` scansionati**: 574 (escludendo EXCLUDE_PATHS)
+- **File `.md` totali nel vault**: 615
+- **File totali nel vault** (md + allegati + altri): 948
+- **Wikilink totali esaminati**: 4.896
+- **Wikilink rotti (K)**: **37**
+- **Riferimenti frontmatter rotti (J)**: **4**
+- **Path string rotti (P)**: **0** (scansione conservativa)
+- **Alias registrati nel vault**: **85 alias** su **36 file proprietari** ← v4 alias-aware
+- **Δ vs audit precedente (2026-06-07)**: K 7→37 (Δ+30) · J 4→4 (stabile) · P 0→0 · alias 78→85 (+7) · owners 36→36 (stabile)
+
+### ⚠️ Alert priorità alta
+
+- **K=37**: sopra soglia di alert SKILL (K > 20) → **ALERT ATTIVO**
+- **K crescita +429%** (7→37): sopra soglia "+50%" → **ALERT ATTIVO** — contestualizzazione: 25/37 broken sono in file storici (`80 - Sources/`, `50 - Archive/`, `10 - Daily Notes/` passate) con basso impatto operativo
+- **Broken link in file modificato nelle ultime 24h**: `[[Luciano Pecorella]]` in `10 - Daily Notes/2026-06-09.md` L21 e `99 - System/Open Tasks.md` L126 → persona senza scheda, task assegnato a lei in Open Tasks — **Fix prioritario**
+- **Broken in file progetto attivo**: `[[Arianna]]` in `20 - Projects/NoLoop/Wave 2/Crowd.md` L136 — fix minimo: aggiungere `aliases: [Arianna]` a `60 - People/Arianna Giordanella.md`
+
+### Broken wikilink (K = 37)
+
+#### Cluster A — Inbox archiviata (16 link in 9 file sorgente)
+
+File spostati da `00 - Inbox/` a `50 - Archive/Inbox/2026-05/` (o `2026-04/`) ma i link nei file sorgente non sono stati aggiornati.
+
+| Link rotto (path vecchio) | Source file (abbreviato) |
+|---|---|
+| `[[00 - Inbox/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]` | Eye Cookies.md · Carmen Compare.md · Germano Marano.md · Massi Sinigaglia.md · Laila El Zieny.md · Justin Lauro.md **(6 file)** |
+| `[[00 - Inbox/2026-05-05 - BOZZA Email Justin Lauro (API BAT-PARD)]]` | Operation Transformation.md |
+| `[[00 - Inbox/2026-05-12 - BOZZA Email Recap Crowd Sessione Finale]]` | Crowd.md |
+| `[[00 - Inbox/2026-05-13 - Email Lavinia Recap Website e Osservatorio]]` | 50 - Archive/Cowork Sessions Log/2026-05.md |
+| `[[00 - Inbox/2026-05-13 - BOZZA Email Recap Federico Simone allineamento interno]]` | 50 - Archive/Cowork Sessions Log/2026-05.md |
+| `[[00 - Inbox/2026-04-30 - Panorama iniziale]]` | 10 - Daily Notes/2026-04-30.md |
+| `[[00 - Inbox/2026-05-14 - BOZZA Risposta Germano credenziali rinnovo Microlog]]` | Germano Marano.md |
+| `[[00 - Inbox/2026-05-13 - BOZZA Email Recap Elena post call cluster]]` | 80 - Sources/Cowork Sessions/2026-05-14 - Indice sessioni.md |
+| `[[00 - Inbox/2026-05-05 - Decisione finale fornitori]]` | Master Facts Sheet.md (L191) |
+| `[[00 - Inbox/2026-05-06 - PREP Rebalance call Pasquali]]` | Master Facts Sheet.md (L191) |
+| `[[00 - Inbox/2026-05-04 - Scenari Fornitori (post call Silencio)]]` | Master Facts Sheet.md (L194) |
+
+**Fix**: aggiornare il prefisso `00 - Inbox/` → `50 - Archive/Inbox/2026-05/` (o `2026-04/`). I file più critici: `Master Facts Sheet.md` (3 link) e le 6 schede persona che puntano alla BOZZA Email Germano.
+
+#### Cluster B — File di sistema archiviati (9 link in 4 file sorgente)
+
+File spostati da `99 - System/` a `50 - Archive/System Patches/` o `50 - Archive/DPIII/` ma i link non sono stati aggiornati.
+
+| Link rotto | Source file(s) |
+|---|---|
+| `[[99 - System/Patch SKILL cowork-sessions-index 2026-05-07]]` | Daily Notes/2026-05-07.md · Indice sessioni 2026-05-07 · Indice sessioni 2026-05-08 · CLAUDE Changelog Archive.md **(4)** |
+| `[[99 - System/Audit Claude Chats Estrazione 2026-05-07]]` | Daily Notes/2026-05-07.md · Indice sessioni 2026-05-07 |
+| `[[99 - System/SKILL cowork-sessions-index POST-PATCH UNIFICATA]]` | Indice sessioni 2026-05-07 |
+| `[[99 - System/Patch SKILL cowork-sessions-index 2026-05-08 — addendum]]` | CLAUDE Changelog Archive.md |
+| `[[99 - System/DPIII Fase 4 — Briefing per consolidamento]]` | 50 - Archive/DPIII/DPIII Fase 4 — Output Consolidamento 5-5.md |
+
+**Fix**: aggiornare i path in `99 - System/CLAUDE Changelog Archive.md` (2 link) e nei file indice di sessione (3 link). Il link al DPIII è in un file già archiviato — bassa urgenza.
+
+#### Cluster C — Area name mismatch (2 link — residuo da audit 7/6, non ancora fixato)
+
+- `[[30 - Areas/Area - Governance]]` → source: `80 - Sources/Cowork Sessions/2026-05-26 - Indice sessioni.md` L62 · file reale: `30 - Areas/Area - Governance HeyAI.md`
+- `[[30 - Areas/Area - Cybersecurity]]` → source: `80 - Sources/Cowork Sessions/code-recap/2026-05-22 - aa-wt-quirky-snyder-0cac2447.md` L27 · file reale: `30 - Areas/Area - Cybersecurity & Compliance.md`
+
+**Fix** (stesso del 7/6): aggiungere `aliases: [Area - Governance]` in `Area - Governance HeyAI.md` e `aliases: [Area - Cybersecurity]` in `Area - Cybersecurity & Compliance.md`.
+
+#### Cluster D — Persone (5 link, 3 target distinti)
+
+| Link rotto | Source | Diagnosi | Fix |
+|---|---|---|---|
+| `[[Arianna]]` | `20 - Projects/NoLoop/Wave 2/Crowd.md` L136 | File esiste: `60 - People/Arianna Giordanella.md` ma alias `Arianna` non registrato | Aggiungere `aliases: [Arianna]` al file persona |
+| `[[60 - People/Luca (Silencio)]]` | `50 - Archive/DPIII/DPIII Fase 4 — Briefing per consolidamento.md` L94 | Path non valido — l'alias `Luca (Silencio)` esiste ma senza prefisso assoluto | Correggere in `[[Luca (Silencio)]]` |
+| `[[Luciano Pecorella]]` | `10 - Daily Notes/2026-06-09.md` L21 + `99 - System/Open Tasks.md` L126 | Scheda persona assente — compare in Open Tasks (task assegnato!) | ⚠️ Creare `60 - People/Luciano Pecorella.md` oppure chiedere a Carlo chi è e se va triagato |
+| `[[Simona Velotta]]` | `10 - Daily Notes/2026-06-07.md` L65 | Scheda persona assente | Decidere se creare scheda o rimuovere link |
+
+#### Cluster E — Placeholder e sintassi (5 link — nessuna azione urgente)
+
+| Link | Source | Diagnosi |
+|---|---|---|
+| `[[<target>]]` | `99 - System/Routines/vault-link-checker.md` L23 | Placeholder nel template SKILL — by design |
+| `[[Verificare]]` | `20 - Projects/Futuritaly/Angelini Academy/Mockup Brief Sito.md` L41 | Reminder inline intenzionale (confermato 24/5) |
+| `[[60 - People/Carmen ...]]` | `80 - Sources/Cowork Sessions/code-recap/2026-06-06 - claude-wt-quizzical-faraday-aee36402.md` | Placeholder auto-generato da code recap |
+| `[[60 - People/Germano ...]]` | Stesso file code-recap | Idem |
+| `[[80 - Sources/Cowork Sessions/2026-05-07.md]]` | `10 - Daily Notes/2026-05-08.md` L44 | Estensione `.md` inclusa nel link — Obsidian non risolve; correggere in `[[2026-05-07 - Indice sessioni]]` |
+
+### Broken frontmatter ref (J = 4 — stabile, stesso cluster del 7/6)
+
+| File | Campo | Valore non canonico | Valore corretto |
+|---|---|---|---|
+| `00 - Inbox/2026-05-23 - Pitch Angelini v3.2 - Post Osservazioni Carlo.md` | `stakeholders` | `Marco Morbidelli (forse in stanza)` | `Marco Morbidelli` |
+| `00 - Inbox/2026-05-23 - Pitch Angelini v3.2 - Post Osservazioni Carlo.md` | `stakeholders` | `Tiziana Carnicelli (confermata in stanza)` | `Tiziana Carnicelli` |
+| `00 - Inbox/2026-05-23 - Pitch Angelini v3.3 - Atto 1 Ristrutturato.md` | `stakeholders` | `Marco Morbidelli (forse in stanza)` | `Marco Morbidelli` |
+| `00 - Inbox/2026-05-23 - Pitch Angelini v3.3 - Atto 1 Ristrutturato.md` | `stakeholders` | `Tiziana Carnicelli (confermata in stanza)` | `Tiziana Carnicelli` |
+
+Entrambi i file Pitch Angelini sono in `00 - Inbox/` (maggio 2026, ora archiviabili). Fix: rimuovere le note parentetiche dai `stakeholders:` YAML.
+
+### 🔵 Decisioni richieste a Carlo
+
+1. **`[[Luciano Pecorella]]` in Open Tasks L126** (priorità alta) — persona senza scheda con task assegnato. Chi è Luciano Pecorella? Va creata la scheda `60 - People/Luciano Pecorella.md`?
+2. **Cluster A — Master Facts Sheet** (priorità media) — 3 link a Inbox archiviata (`Decisione finale fornitori`, `PREP Rebalance call Pasquali`, `Scenari Fornitori`). Fix: aggiornare path → `50 - Archive/Inbox/2026-05/`.
+3. **Cluster C — Area aliases** (priorità bassa, residuo da 7/6) — 2 fix di 1 minuto ciascuno: aggiungere alias `Area - Governance` e `Area - Cybersecurity` ai rispettivi file.
+4. **`[[Arianna]]` in Crowd.md** (priorità bassa) — aggiungere `aliases: [Arianna]` in `60 - People/Arianna Giordanella.md`.
+5. **`[[Simona Velotta]]`** — creare scheda o rimuovere il link dalla daily note del 7/6?
+6. **J cluster Angelini Inbox** (priorità bassa) — 4 frontmatter con nota parentetica; file archiviabili.
+
+### 🟢 Verifica patch v4 SKILL alias-aware
+
+- **85 alias** registrati (vs 78 al 7/6, +7 alias, owners stabili a 36) — crescita fisiologica.
+- Nota tecnica: `Accessibility Specs Sito Nuovo Angelini Academy.md` ha errore di sintassi YAML nel frontmatter (URL non quotata nel campo `standard:`). Il parser YAML fallisce; il file richiede correzione per garantire caricamento alias robusto in futuro.
+- Nessun falso positivo identificato in questo run: tutti i 37 K e 4 J sono confermati broken.
+
+### Prossimo run
+
+Cron canonico domenica 15:40 CEST = **dom 14/6/2026 ~15:40**. Aspettativa con fix cluster C + D.Arianna + D.Luca: K scende a ~31 (rimozione 4 link tecnici). Con fix Cluster A Master Facts Sheet: K ~28.
 
 ---
