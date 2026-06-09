@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-04-30
-updated: 2026-06-08
+updated: 2026-06-09
 status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta Angelini Academy 6/5/2026 + Osservatorio v2 €45K 19/5/2026 + preventivo Soolutions Osservatorio RIDOTTO 21/5/2026 + pitch Angelini soft-defer 5/6/2026)
 ---
 
@@ -340,7 +340,7 @@ Progetto emerso dall'audit del 6/5 (PM Digest mattutino + check vault): non era 
 - Ruolo di Daniele Caporale lato FuturItaly (peer di Elena? sopra/sotto?)
 - Brand book ereditato Angelini condiviso prima del Q&A?
 
-**🔴 Aggiornamento 5/6/2026 — Pitch finale svolto, esito soft-defer** (confermato Carlo 6/6): Angelini ha già aggiudicato via gara comunicazione parallela (feb→giu) a un **fornitore concorrente** il pacchetto social + restyling + editoriale/blog + stile (contratto lug'26→lug'27). Restyling+editoriale fuori dal tavolo HeyAI/FuturItaly fino a ~2027. **Resta a noi l'architettura differenziata** → workshop a pagamento H2'26 (budget-permitting) + build sito 2027. Il pricing €49.500 (riga sopra) resta riferimento ma il **perimetro è cambiato** → re-packaging a fasi da dimensionare (NON inventare numeri). Dettaglio: [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|scheda madre]] §Log + [[00 - Inbox/2026-06-05 - Report Call Angelini Academy (pitch finale)|report call]].
+**🔴 Aggiornamento 5/6/2026 — Pitch finale svolto, esito soft-defer** (confermato Carlo 6/6): Angelini ha già aggiudicato via gara comunicazione parallela (feb→giu) a un **fornitore concorrente** il pacchetto social + restyling + editoriale/blog + stile (contratto lug'26→lug'27). Restyling+editoriale fuori dal tavolo HeyAI/FuturItaly fino a ~2027. **Resta a noi l'architettura differenziata** → workshop a pagamento H2'26 (budget-permitting) + build sito 2027. Il pricing €49.500 (riga sopra) resta riferimento ma il **perimetro è cambiato** → re-packaging a fasi da dimensionare (NON inventare numeri). Dettaglio: [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|scheda madre]] §Log + [[00 - Inbox/2026-06-05 - Report Call Angelini Academy (pitch finale)|report call]]. **🆕 Dimensionamento per fase (working state, conferma Carlo 9/6 — sessione Code `c367f6c2`)**: F0 €5.000 (Workshop; SEO €3.500 + Analytics €2.400 "in valutazione" esclusi) · F1 €29.000 · F2 €40.380 (di cui editoriale FuturItaly €35.400 + video €4.980) · F3 €29.660. **Coesiste con €49.500 core (Excel `vdef`), NON lo sostituisce** — perimetro più ampio (include editoriale FuturItaly + Fase 3). Da congelare con FuturItaly prima della proposta formale. Dettaglio: scheda madre §Quotazione "Re-packaging a fasi".
 
 **Cluster Eldis ampliato 5/5/2026**: emersi come stakeholder secondari [[60 - People/Luciano (sistemista Eldis)]], [[60 - People/Giovanna Cecchi]], [[60 - People/Antonio Cecchi]], [[60 - People/Alessandra Aprile]]. Schede esistenti in vault, no scheda dedicata oltre quella se non emergono come decisori.
 
