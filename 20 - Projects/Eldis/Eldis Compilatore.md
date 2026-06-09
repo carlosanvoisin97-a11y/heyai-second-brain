@@ -174,7 +174,7 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - [x] ~~**#p1** Quotazione CR descrizione catalogo (Simone)~~ → ✅ chiuso 20/5 sera: **€1.800** (Simone messaggio 20/5 sera)
 - [x] ~~**#p1** Confermare prezzi Hosting+manutenzione e Consulenza operativa~~ → ✅ chiuso 20/5 sera: prezzi confermati invariati (€130/mese hosting forfait + €180/h consulenza), Carlo procede con prospetto cliente
 - [x] ~~**#p1** Proposta supporto operativo / pacchetto ore €180/h (Federico+Simone)~~ → ✅ descrizione consulenza operativa ricevuta da Simone 20/5 sera (prezzo da riconfermare)
-- [ ] **#p1** Carlo: comporre documento aggregato (Hosting+manutenzione + Consulenza operativa + 2 evolutive + decisione Builder PDF Canva fuori scope) → condividere con Stefania (TO) + Marta/Alessandra/Giovanna (CC), CC Simone+Federico
+- [x] ~~**#p1** Carlo: comporre documento aggregato (Hosting+manutenzione + Consulenza operativa + 2 evolutive + decisione Builder PDF Canva fuori scope) → condividere con Stefania~~ → ✅ chiuso 22/5 sera: PDF `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf` inviato a Stefania (TO), CC Giovanna+Andrea (NON Marta/Alessandra/Soolutions stavolta), sul thread "Confronto-Formazione su Builder Catalogo"
 - [x] ~~**#p1** Simone: stima prezzo 4 evolutive Builder/Compilatore richiamate in call interna 13/5~~ → ✅ chiuso 20/5 sera per le 2 evolutive che procediamo (descrizioni campi extra €1.800 + export logica semiautomatica €2.100). Le altre 2 voci (ore consulenza fatturate a parte + Builder PDF Canva) collassano: la prima diventa la voce ricorrente Consulenza operativa, la seconda è fuori scope confermato
 - [x] **#p1** Soolutions: chiusura mancanze Builder (pulsante export + altra) entro 7/5 — call formativa 8/5 _[chiuso 8/5: call avvenuta, prodotto dimostrato, mancanze residue ridefinite nel nuovo elenco modifiche concordate in call]_
 - [ ] **#p1** Simone: integrazione 9 modifiche light concordate in call 8/5 (inversione default listino, ordinamento originale, codice/alias off di default, prezzo promo singolo, maschera campi a livello catalogo, etichette rinominabili, marchio campo attivabile vicino al codice, persistenza filtri, varianti prezzo + testo descrittivo) — sessione team Soolutions al rientro weekend, conferma 11/5 ore 08:53 "Procedo a integrare quello che ci siamo detti in call"
@@ -189,8 +189,8 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 ### Lato Carlo
 - [x] ~~**#p1** Sentire Marta direttamente~~ → ✅ chiuso 20/5 sera: Simone l'ha già sentita nel frattempo (conferma Carlo)
 - [-] ~~Ricevere documento aggregato da Federico+Simone, poi commentarlo con Stefania~~ → modificato 20/5 sera: **lo compone Carlo** assemblando i pezzi ricevuti (vedi task Lato HeyAI/Soolutions), non Soolutions
-- [ ] Presentare a Stefania la proposta canone €130/mese (mai presentata finora)
-- [ ] Invio email recap call 8/5 a Stefania+Marta+Alessandra+Giovanna (CC Simone+Federico) — bozza pronta in chat Cowork 11/5
+- [x] ~~Presentare a Stefania la proposta canone €130/mese (mai presentata finora)~~ → ✅ chiuso 22/5: presentata nel PDF Servizi e Evolutive
+- [x] ~~Invio email recap call 8/5 a Stefania+Marta+Alessandra+Giovanna (CC Simone+Federico)~~ → ✅ chiuso 22/5 sera: recap 8/5 (modifiche incluse + studi fattibilità + azioni Eldis) inviato a Stefania, CC Giovanna+Andrea, con PDF allegato
 - [ ] Verificare con Simone segnalazioni Compilatore inviate da Marta 11/5 (RAEE Unik + marchio Unik) — fuori scope email recap call Builder
 
 ### Lato Eldis
@@ -261,7 +261,16 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 
 ## Log
 
-### 2026-05-22 — Audit pre-invio email + PDF + chiarimento policy markup
+### 2026-06-09 — Call servizi/canone (oggi 15:00-16:30 Teams) + nodo self-hosting
+- **Call oggi 9/6 15:00-16:30 su Teams** (slot calendar ex-"Eldis | Allineamento Analytics e Nuove Strategie Social" organizzato da Andrea, **riconvertito da Stefania su tema servizi/canone**; Analytics+Social posticipati). Presenti: Stefania, **Giovanna Cecchi (CFO)**, Alessandra Aprile + Carlo, Andrea Pazienza, Michele.
+- **Trigger — Stefania 8/6 "Richiesta confronto su servizi canone mensile"** (TO Michele/Andrea/Carlo, CC Giovanna/Alessandra): *"dopo questi primi mesi col nuovo contratto ci siamo rese conto che è necessario aggiustare il tiro su alcuni punti. In particolare il comitato promo e la gestione email… nella stessa occasione possiamo fare il punto con Carlo sulle attività di sviluppo."* → **due fronti**: (a) canone marketing [comitato promo + gestione email] = fronte Andrea/Michele; (b) attività di sviluppo [Compilatore/Builder + hosting + evolutive] = fronte Carlo.
+- **🔑 Nodo HOSTING / self-hosting (thread "Valutazione installazione Compilatore-Builder su infrastruttura Eldis", 26/5→8/6)**: dopo aver ricevuto il PDF con €130/mese hosting (22/5), Eldis valuta di **ospitare l'applicativo in casa** sulla propria VM per evitare/ridurre il canone. Stefania (26/5) ingaggia [[Luciano (sistemista Eldis)|Luciano Pecorella]] (GM di ONCE Srl). **Simone (Soolutions) ha già collaborato senza resistenza** (28/5): specs VM = RAM 4→6GB, disco a 200GB (PDF+immagini risiederebbero sul server), port forwarding IP pubblico porte 80/443, esposizione su `catalogue.eldisnet.it` (oggi `catalogue.eldis.soolutions.io`). Luciano (8/6): sta già attrezzando la VM (+2GB RAM, +20GB vSSD, sostituzione SSD fisici per 200GB, "avrò bisogno di tempo"). **Giovanna CFO in CC su tutto → revisione cost-driven.**
+- **Linea PM consigliata per la call** (non ancora discussa con Carlo, da validare): non opporsi al self-host (già abilitato da Soolutions, semplifica anche l'export verso il B2B) ma **spacchettare il €130/mese**: l'infrastruttura/hosting (server, backup, ripristini) cade se ospitano loro → la assorbe ONCE/Luciano; ma la **manutenzione applicativa** (aggiornamenti sicurezza, gestione vulnerabilità, monitoraggio, fix) resta a HeyAI/Soolutions a prescindere da dove gira → resta un canone manutenzione ridotto **oppure** consulenza on-demand €180/h. Tenere le **evolutive (€1.800 + €2.100 = €3.900 one-off, a zero markup)** fuori dal taglio del ricorrente. Presidiare accessi VM + confini di responsabilità (uptime lato Luciano ≠ SLA HeyAI).
+
+### 2026-05-22 sera — Documento Servizi e Evolutive INVIATO a Stefania
+- **Email inviata 22/5 21:31** (Carlo → Stefania, CC Giovanna Cecchi + Andrea Pazienza) sul thread "Confronto-Formazione su Builder Catalogo", con allegato **`HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`** (193KB). Corpo: recap call 8/5 (9 modifiche incluse + 6 studi di fattibilità + azioni Eldis) + lista 3 voci del documento (hosting+manutenzione infrastruttura, consulenza operativa a tariffa oraria, evolutive descrizioni+export) + comunicazione esclusione Builder PDF impaginazione ("effort sproporzionato rispetto al valore"). **Chiude i task aperti "presentare canone €130/mese" e "invio recap call 8/5".** Da qui parte la reazione self-hosting di Eldis (26/5).
+
+
 - **Audit indipendente sull'email accompagnamento e sul PDF `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`** in sessione Cowork. Email letta integralmente, PDF rivisto pagina per pagina.
 - **Chiarimento markup evolutive Eldis (Carlo conferma 22/5)**: su questa quotazione **NON viene applicato markup HeyAI** sui prezzi evolutive — €1.800 (descrizioni con campi extra) e €2.100 (export semiautomatica) sono **prezzi cliente = costo Soolutions** passato as-is. Eccezione esplicita rispetto alla regola pricing 60% di §2.2 CLAUDE.md / Master Facts, decisa per le evolutive di mantenimento su prodotto già in produzione. Le voci ricorrenti (€130/mese hosting + €180/h consulenza) restano con la dinamica pricing standard. **Conseguenza per il vault**: la regola pricing 60% NON è violata in questo PDF perché si tratta di eccezione consapevole, non di errore. Ambiguità del Log 20/5 sera ("prezzi ricevuti da Simone") chiusa: prezzi cliente diretti.
 - **Data di emissione sul PDF**: non aggiunta — Carlo conferma 22/5 che per un documento "banale" di servizi continuativi + 2 evolutive non serve datare esplicitamente; la validità 30 giorni si applica orientativamente alla data di invio email.
@@ -412,6 +421,7 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 ### Aperte
 - **#E9** Stato call dev 7/2/2026: aggiornamento puntuale post export selettivo + CR descrizione catalogo
 - **#E10** Bosch / Siemens (StudioLine): listini concretamente arrivati e testati? Erano nei prossimi passi 21/01
+- **#E11** 🔑 **Hosting: self-host su VM Eldis/ONCE vs canone €130/mese HeyAI** — Eldis sta attrezzando la propria VM (Luciano/ONCE, in corso 8/6). Da decidere in call 9/6: se ospitano loro, come si rimodula il canone? Tesi HeyAI: cade l'infrastruttura, resta la manutenzione applicativa (canone ridotto o consulenza on-demand). Definire accessi VM Soolutions + confini SLA.
 
 ## 📚 Architettura prodotto AI Product Catalogue (mergiato 6/5/2026)
 

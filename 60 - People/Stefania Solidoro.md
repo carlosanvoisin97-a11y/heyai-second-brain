@@ -5,10 +5,10 @@ company: Eldis Net Srl
 email: stefania.solidoro@eldisnet.it
 phone: +39 327 7770724
 created: 2026-04-30
-updated: 2026-05-28
+updated: 2026-06-09
 last_call_date: 2026-05-08
-last_contact: 2026-05-28
-next_touchpoint: 2026-06-03
+last_contact: 2026-06-08
+next_touchpoint: 2026-06-09
 cadence_days: 14
 relationship_strength: warm
 top_quotes:
@@ -51,6 +51,16 @@ top_quotes:
 > — 8/5/2026, chiusura call formativa Builder — applicazione spontanea del modello commerciale 3 tipologie concordato 24/04
 
 ## Interazioni recenti
+
+### 2026-06-09
+- **Call servizi/canone oggi 15:00-16:30 Teams** (con Giovanna CFO + Alessandra; Carlo + Andrea + Michele). Vedi [[Eldis Compilatore]] §Log 9/6.
+
+### 2026-06-08
+- **Apre il thread "Richiesta confronto su servizi canone mensile"** (TO Michele/Andrea/Carlo, CC Giovanna/Alessandra): *"dopo questi primi mesi col nuovo contratto ci siamo rese conto che è necessario aggiustare il tiro su alcuni punti. In particolare il comitato promo e la gestione email… nella stessa occasione possiamo fare il punto con Carlo sulle attività di sviluppo."* Riconverte lo slot calendar di Andrea (era Analytics/Social) sul tema canone. **Registro: richiesta di revisione/rimodulazione, non di chiusura** — coerente col suo stile diretto e pragmatico.
+- **Contesto sottostante (26/5→8/6)**: dopo aver ricevuto il PDF Servizi e Evolutive (22/5, €130/mese hosting), ha **ingaggiato il proprio sistemista [[Luciano (sistemista Eldis)|Luciano Pecorella]] (ONCE Srl) per valutare il self-hosting** del Compilatore-Builder sulla VM Eldis. Giovanna CFO in CC su tutta la catena → spinta cost-driven. È il segnale che il canone hosting è sotto esame.
+
+### 2026-05-22
+- Carlo le invia (TO; CC Giovanna + Andrea) il **PDF `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`** sul thread "Confronto-Formazione su Builder Catalogo": recap call 8/5 + 3 voci (hosting+manutenzione €130/mese, consulenza €180/h, evolutive €1.800+€2.100) + esclusione Builder PDF.
 
 ### 2026-05-28
 - Carlo prova chiamata WhatsApp ore 17:52 ("ciao Stefania, se sei libera ti chiamo adesso, fammi sapere !") — presumibilmente per anticipare verbalmente il documento `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf` prima dell'invio formale via email
