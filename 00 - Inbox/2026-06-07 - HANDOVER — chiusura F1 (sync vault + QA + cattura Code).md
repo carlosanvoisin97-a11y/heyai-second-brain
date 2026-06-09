@@ -7,6 +7,8 @@ aliases: [Handover chiusura F1, Handover sync QA 7-6]
 
 # 🔁 HANDOVER → sessione fresca: chiusura F1 (sync vault + QA + cattura Code)
 
+> ⏩ **9/6 — esiste un handover più recente e COMPLETO**: [[2026-06-09 - HANDOVER — stato completo post sessione sync-F4]] (cosa è stato fatto 7→9/6 + backlog intero verificato, incl. skill F3/F6/§6/governance). Questo doc 7/6 resta come storico (stato PRE + §Progresso Steps 1-5).
+>
 > Prodotto a fine sessione `ecstatic-goldstine` (7/6, molto lunga). Ha completato F2 + gran parte di F1, ma il **loop di sync non è chiuso** e il QA ha trovato difetti reali. Questo handover li passa, **onestamente**, alla sessione fresca.
 > Leggi in ordine: `CLAUDE.md` → questo → `99 - System/KB Solidity Report` → `99 - System/Routines/_README`.
 > Regola: lavora su **`main`** (`/Users/carlosanvoisin/claude` = cartella Obsidian). MAI `git add -A`. Push dall'agente: **funziona** (verificato). §13/§15. Numeri `[PROPOSTA]` = da confermare.
