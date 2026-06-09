@@ -5,7 +5,7 @@ priority: p2
 client: Eldis Net
 product: AI Product Catalogue
 created: 2026-04-30
-updated: 2026-06-07
+updated: 2026-06-09
 last_call_date: 2026-05-08
 stakeholders: [Stefania Solidoro, Marta Garrafa, Alessandra Aprile, Giovanna Cecchi, Simone Montanari (Soolutions), Federico Saladino (Soolutions)]
 ---
@@ -183,6 +183,8 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - [ ] **#p3** Documentazione/screen recording per autonomia cliente
 - [ ] **#p2** Fattura prossima: includere consuntivo token AI fino a oggi
 - [ ] **#p2** Verifica codice gamma UnicTable post invio specifiche da Marta
+- [ ] **#p1** Carlo: verificare con Federico+Simone se la **"piccola modifica" richiesta dal cliente** (in alternativa alle funzionalità extra a pagamento) è fattibile sul compilatore _[team 9/6]_
+- [ ] **#p1** Carlo: inviare reminder cliente con **ultima due date fine mese** per chiusura test (output completo/unico/integrale, no scaglionamento) _[team 9/6]_
 - [x] **#p1** Simone: agenda + conduzione call formativa Builder 8/5 _[chiuso — call avvenuta 8/5 ore 15:30-16:30]_
 
 ### Lato Carlo
@@ -259,6 +261,14 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - 2026-05-21 — `local_832269f2` — Process call transcript Federico+Simone: prezzi Eldis evolutive consolidati (**€1.800** descrizioni con campi extra + **€2.100** export logica semiautomatica) + Builder PDF Canva fuori scope con motivazione formale (assorbito in §Log 20/5 sera già live). Mancanti: prezzi ricorrenti Consulenza operativa + Hosting+manutenzione (storico email 29/04 = €130/mese + €180/h da riconfermare). Alert: **Marta tace lato Soolutions** ("Marta non ha più risposto, tu l'hai sentita?") — da contattare direttamente. → [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni#Sessione 7 — `local_832269f2-036d-4b0f-89f6-b804bb1586d2` — Process call transcript with Federico and Simone]]
 
 ## Log
+
+### 2026-06-09 (allineamento team interno) — Frizione cliente su costi ricorrenti + ultima chance test
+- **Lamentela cliente (Stefania + Giovanna, "sorella di Antonio")**: si sono lamentati di **non aver capito che ci sarebbero stati costi ricorrenti** (manutenzione + hosting), benché — nota Carlo — siano ovvi per uno sviluppo software e **inclusi nella proposta di investimento** firmata ~8 mesi fa. Avevano chiesto **funzionalità in più**; appena capito che costavano, hanno detto di no e di fare *solo una piccola modifica* — di fatto chiedendola **gratis**. → **Carlo deve verificare con Federico+Simone se la modifica è fattibile sul compilatore.**
+- **Posizione Carlo (tenuta in call, "molto calma")**: tool consegnato da mesi, la fase test doveva durare **3 settimane** e sta durando da **4 mesi**; stanno usando le ore di Simone "a sproposito" (contattato 1-2 volte/settimana). **Ultima chance**: possono prendersi tempo **fino a fine mese**, ma l'output deve essere **completo, unico e integrale — niente scaglionamento**. **Tariffa di consulenza accettata** dal cliente (non si può continuare a sistemare l'applicativo gratis per mesi).
+- **Debrief/audit finale a chiusura progetto**: il cliente ha proposto un debrief; Carlo lo userà per **mettere sul tavolo tutti i punti in cui HeyAI è venuta incontro** (applicativo venduto sotto mercato + supporto continuativo per mesi), se provassero a contestare mancanze.
+- **Lettura Bruno (governance, non IT)**: il problema del cliente è **disorganizzazione e mancanza di governance** (risorse limitate, ruoli/responsabilità non chiari, niente PDCA né priorità) — *"non gli manca la soluzione IT, gli manca la governance"* (Carlo concorda). **Bruno parlerà direttamente con Antonio** per spiegarglielo.
+- **Posizione strategica Carlo**: su sviluppi IT **non farebbe più progetti** con Eldis (pagano poco, alta frizione, consumo risorse); sul **marketing** invece può valere la pena (tenendo il punto su cosa sta dentro/fuori canone).
+- 📎 Fonte: trascrizione `Allineamento di Team.docx` (9/6).
 
 ### 2026-05-22 — Audit pre-invio email + PDF + chiarimento policy markup
 - **Audit indipendente sull'email accompagnamento e sul PDF `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`** in sessione Cowork. Email letta integralmente, PDF rivisto pagina per pagina.

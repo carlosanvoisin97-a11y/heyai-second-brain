@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop
 created: 2026-04-30
-updated: 2026-05-21
+updated: 2026-06-09
 aliases:
   - Wave 2 NoLoop
   - Wave 2
@@ -225,6 +225,13 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 - 2026-05-13 — `local_af2ea6af` — Email recap interno Federico+Simone (riscrittura Carlo). Requirement Log Soolutions condiviso con punti TBD LeadMe attivabile pre-Wave 2 (link SharePoint inline nell'email). Excel cash-flow di Andrea Pazienza diventa **bloccante** per primo bonifico Soolutions su NOT (rettifica vs "tra oggi e domani" di call mattina → email serale "appena decidiamo la formula pagamenti vi giriamo il bonifico"). → [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 5 — Write recap email and update tasks (Federico+Simone allineamento interno)]]
 
 ## Log
+
+### 2026-06-09 (allineamento team interno HeyAI — Bruno+Carlo+Michele+Andrea)
+- **DECISIONE — contratto cliente Wave 2: riscrittura, NON riuso diretto della bozza Longo**. Andrea **riscrive** il contratto HeyAI↔NoLoop partendo dal lavoro di risistemazione fatto su [[Operation Transformation]] + documentazione tecnica Wave 2 + clausola di cessione IP, usando la **bozza di [[Marco Longo (Morbinati & Longo)|Mauro Longo]] solo come traccia/riferimento, non come testo da inviare**. Motivazione **etica** (Bruno): *"non dovremmo utilizzare quello che ci ha fatto lui se non pagandolo"*. Il documento riscritto va mandato **definitivo a [[Paolo Donzelli|Donzelli]]**, usandolo anche come impression "va bene così".
+- **Stato Donzelli (via Andrea)**: a valle dell'invio Donzelli aveva detto che *"se confermate che il resto del contratto è OK procediamo a modificare la parte IP"* → *"per il resto mi sembrava OK, ma per scrupolo lo chiedo e torno da te"*. **Non è mai tornato.** Bruno: Donzelli legge davvero solo 2-3 punti fondamentali (IP), il resto del contratto probabilmente non lo legge nel dettaglio. Rapporto strafidato, nessun timore di contenzioso.
+- **Verrangia + finanziamento**: Carlo e Andrea hanno dato **tutta la documentazione** al commercialista [[Paolo Verrangia (commercialista NoLoop)|Verrangia]]. NoLoop ha posto la condizione *"ci potete dare la proprietà intellettuale? sennò non prendiamo il finanziamento"* → da quel momento **nessuna notizia**. Le "soluzioni nuove" Wave 2 restano in attesa del responso finale NoLoop sui finanziamenti.
+- **Push**: Carlo chiede di accelerare — *"il progetto è stato accettato da due mesi e ancora non è partito"*.
+- 📎 Fonte: trascrizione `Allineamento di Team.docx` (9/6 ore 15:07).
 
 ### 2026-05-21 (audit pre-invio documenti a Verrangia)
 - **Scoperta inconsistenza Proposta Investimento "updated 21/5"** (file `Noloop_Wave2_Proposta_Investimento_updated 2105.pdf`): copertina pag.1 riporta `INVESTIMENTO BUNDLE €315K` (numero vecchio del PowerPoint 10/03 con sconto -€12K), mentre la tabella pag.2 e il Riepilogo Investimento pag.10 riportano correttamente `€300K` (listino €327K, sconto -€27K). **Incoerenza interna al documento** — la copertina non è stata aggiornata quando il bundle è stato rivisto al ribasso. Va sistemata prima di qualsiasi invio esterno (Verrangia, audit fiscale, terzi). Inoltre la pag.12 "Prossimi passi" cita ancora "Con la vostra approvazione della proposta entro il **20 aprile 2026**" — deadline passata, da aggiornare o rimuovere

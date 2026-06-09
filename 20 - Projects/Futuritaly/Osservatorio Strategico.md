@@ -4,7 +4,7 @@ status: active
 priority: p2
 client: Futuritaly (studio legale)
 created: 2026-04-30
-updated: 2026-06-08
+updated: 2026-06-09
 deadline: 2026-05-02
 stakeholders: [Lavinia Ferrari, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali, Claudia Bugno]
 ---
@@ -131,6 +131,13 @@ Jakala (vedi [[Jakala]]) ha proposto l'Osservatorio Strategico a **€38.000** (
 - **Esclusiva pericolosa se non ristretta**: zone grigie su non-compete → ristringere a CCNL Commercio + performance conditions
 
 ## Log
+
+### 2026-06-09 (allineamento team interno) — Prezzo rivisto al rialzo + scoperta pricing FuturItaly
+- **Quotazione rivista al rialzo**: Carlo manda **domani** l'ultima quotazione rivista dell'Osservatorio — il cliente ha **aggiunto delle richieste**, quindi il prezzo è stato alzato.
+- **🔑 Scoperta strategica sul valore**: internamente Carlo ha scoperto che **FuturItaly fa pagare il servizio di ricerca bandi ~€10-15.000/anno a cliente** (fatto manualmente). HeyAI stava per venderglielo a ~€50K una tantum → *"in 4 clienti ti sei rifatto il costo dell'applicativo"*. Forte leva di repricing/valorizzazione.
+- **Modello revenue share**: resta **revenue share** con **FuturItaly che tiene la proprietà intellettuale** (serve a loro per il finanziamento). Target Carlo: **~€20K di margine + 10-15% di revenue share** (allineato ai prezzi a cui FuturItaly rivende i servizi).
+- **Benchmark "FuturItaly overpriced"**: per Angelini hanno messo **€2.985/mese per 2 contenuti testuali/mese** (articoli) → conferma che il loro listino al cliente finale è molto alto, spazio per HeyAI di posizionarsi.
+- 📎 Fonte: trascrizione `Allineamento di Team.docx` (9/6).
 
 ### 2026-06-08 (offerta Aegiscore v5 — analisi e implicazioni)
 - **Aegiscore v5 conferma il core a €20.000** (validità 60gg, pagamento 30/40/30) e per la prima volta mette **a listino gli add-on** (€350/gg): 4.1 €1.750 · 4.2 €2.100 · 4.3 €2.800 · 4.4 osservatorio preventivo €5.250 · 4.5 email/PDF €3.500 → add-on totali €15.400, core+tutti €35.400. Dettaglio offerta in [[Aegiscore]] Log 8/6.

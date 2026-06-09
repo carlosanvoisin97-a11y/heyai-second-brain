@@ -4,7 +4,7 @@ product: Crowd
 client: NoLoop
 status: in-production-evolving
 created: 2026-04-30
-updated: 2026-05-29
+updated: 2026-06-09
 aliases: ["NoLoop Crowd", "NoLoop Claude (errore typo)"]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-20 20:22 (cron-22) | source-session: local_1653abdf-0f2f-42cd-8125-3c9edf17b324 | source-lastActive: 2026-05-20 -->
@@ -137,6 +137,13 @@ Pattern consolidato per le minute Crowd (TO: Arianna+David, CC: Lorena+Federico+
 - [ ] **#p2** Carlo: email recap a Laura Garbarino "Minutes tutto in produzione" + reminder plenaria/consumi token
 
 ## Log
+
+### 2026-06-09 (allineamento team interno) — Test ancora non chiusi, ultimo reminder con Lorena in CC
+- **Test della piattaforma gestione eventi ancora non finalizzati**: NoLoop sta gestendo tanti lanci in contemporanea e non riesce a chiudere i test; la persona che dovrebbe chiuderli ([[Arianna]], tester) è stata tutto il giorno in call con Michele. Carlo ha già mandato **2 reminder** ("siamo fuori roadmap, vi abbiamo concesso più tempo ma dobbiamo chiudere").
+- **Azione decisa**: Carlo manda **domani un ulteriore reminder con [[Lorena Cavecchi|Lorena]] in copia**, fissando l'**ultima due date**; a valle di eventuali fix di Simone/Federico sui bug emersi, la **piattaforma si chiude**. Alla finalizzazione dei test NoLoop **paga l'ultima tranche**.
+- Cross-ref [[Minutes]]: dichiarata **conclusa** (incl. la funzionalità extra di registrazione/trascrizione call anche senza consenso esplicito su Teams — app che entra invisibile).
+- **🔑 Canale commerciale via Laura (opportunità)**: [[Laura Garbarino|Laura]] sta **rivendendo ai clienti NoLoop** le web app eventi prodotte da Michele (caso **BCC** per evento **Forte Village**; un'altra "della Cina" in gara). Laura *"contentissima"*, dice che la metterà **di default nelle proposte** ai clienti che se la possono permettere. Markup stimato Bruno **almeno +20%** (Carlo/Michele pensano di più). Per Laura non è uno strumento su cui guadagnare, ma un **plus per arricchire l'offerta e vincere sulla concorrenza** (immagine più moderna). Lato Michele BCC è praticamente fatto (dato accesso all'operativa NoLoop per autonomia + slide recap risultati a fine evento). **Idea Bruno**: avviare una **partnership strategica con Laura/NoLoop** (modello analogo a FuturItaly) — "tutte le volte in cui ci siete voi diventiamo partner per gli eventi". Da studiare. ⚠️ Da triagiare se trattarlo come prodotto Crowd o microsite-evento separato.
+- 📎 Fonte: trascrizione `Allineamento di Team.docx` (9/6).
 
 ### 2026-05-29 (sera) — Risposta inviata ad Arianna (mail definitiva Carlo)
 - **Email inviata** da Carlo ad Arianna in risposta alla segnalazione del 29/5 (testo definitivo, dopo 2 iterazioni). Conferma sui due punti: (1) doppione = comportamento di sistema (mail come chiave singola), per eventi su invito il target è lista chiusa senza aggiunte oltre agli accompagnatori; (2) campi precompilati/non modificabili previsti e configurabili per evento, **risolvono il punto 1** (bloccando in modifica i campi identificativi non si genera il doppione), + comportamento import (campi già valorizzati non richiesti di nuovo, l'ospite arricchisce solo i campi aggiuntivi).
