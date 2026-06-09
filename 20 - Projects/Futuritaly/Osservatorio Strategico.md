@@ -132,6 +132,13 @@ Jakala (vedi [[Jakala]]) ha proposto l'Osservatorio Strategico a **€38.000** (
 
 ## Log
 
+### 2026-06-09 (allineamento team interno) — Prezzo rivisto al rialzo + scoperta pricing FuturItaly
+- **Quotazione rivista al rialzo**: Carlo manda **domani** l'ultima quotazione rivista dell'Osservatorio — il cliente ha **aggiunto delle richieste**, quindi il prezzo è stato alzato.
+- **🔑 Scoperta strategica sul valore**: internamente Carlo ha scoperto che **FuturItaly fa pagare il servizio di ricerca bandi ~€10-15.000/anno a cliente** (fatto manualmente). HeyAI stava per venderglielo a ~€50K una tantum → *"in 4 clienti ti sei rifatto il costo dell'applicativo"*. Forte leva di repricing/valorizzazione.
+- **Modello revenue share**: resta **revenue share** con **FuturItaly che tiene la proprietà intellettuale** (serve a loro per il finanziamento). Target Carlo: **~€20K di margine + 10-15% di revenue share** (allineato ai prezzi a cui FuturItaly rivende i servizi).
+- **Benchmark "FuturItaly overpriced"**: per Angelini hanno messo **€2.985/mese per 2 contenuti testuali/mese** (articoli) → conferma che il loro listino al cliente finale è molto alto, spazio per HeyAI di posizionarsi.
+- 📎 Fonte: trascrizione `Allineamento di Team.docx` (9/6).
+
 ### 2026-06-08 (offerta Aegiscore v5 — analisi e implicazioni)
 - **Aegiscore v5 conferma il core a €20.000** (validità 60gg, pagamento 30/40/30) e per la prima volta mette **a listino gli add-on** (€350/gg): 4.1 €1.750 · 4.2 €2.100 · 4.3 €2.800 · 4.4 osservatorio preventivo €5.250 · 4.5 email/PDF €3.500 → add-on totali €15.400, core+tutti €35.400. Dettaglio offerta in [[Aegiscore]] Log 8/6.
 - **Confronto fornitori**: sul core ≈ pari a Soolutions (Base+T1 €21.846); sugli add-on differenzianti Aegiscore **nettamente più economico** (4.4 osservatorio preventivo €5.250 vs Soolutions €16.800; 4.5 email/PDF €3.500 vs €10.800). Jakala €32K resta fuori policy (71% del prezzo cliente).

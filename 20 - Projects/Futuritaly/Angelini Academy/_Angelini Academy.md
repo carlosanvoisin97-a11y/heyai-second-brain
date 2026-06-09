@@ -547,6 +547,14 @@ Lo scope di gara non riguarda solo il sito ma **comunicazione integrata 360°** 
 
 ## Log
 
+### 2026-06-09 (allineamento team interno) — Roadmap rivista, analisi strategica subito a €5K, sito al 2027
+- **Esito consolidato dal racconto di Carlo al team**: la presentazione è piaciuta molto (complimenti sulla parte strategica, punto di forza HeyAI). [[Marco Morbidelli|Morbidelli]] (zio, CEO) ha detto *"siete forti"*; la parte di [[_Futuritaly|FuturItaly]] è stata **cassata**, la parte HeyAI giudicata *"fighissima"* e da approfondire — pur senza sfondo trasparente, HeyAI è **emersa ugualmente**.
+- **Contenuti/marketing già aggiudicati a un concorrente** (gara aperta >1 mese fa, HeyAI aggiunta a gara chiusa). Ma [[Caterina Caboni|Caterina]] ha quasi mostrato dispiacere che non avessero presentato con gli altri → ha fatto **revisionare la roadmap**: si parte **subito con l'analisi dei customer journey / analisi strategica di dettaglio** (Carlo: per fortuna l'aveva inclusa, "stavo quasi per regalarla"). Gli **agenti AI sulla ricerca scientifica** e il **sito** giudicati molto belli ma rinviati: *"chiudiamo quest'anno col sito attuale (gli stanno già facendo il restyling), dal 2027 partiamo con la vostra proposta"*.
+- **Previsione economica Carlo**: analisi strategica **~€5.000 subito** + predisposizione del **sito nuovo per il 2027** (alla scadenza del contratto col fornitore attuale, fra ~1 anno). Se HeyAI lavora bene su questi fronti, *"ci prendono pure sul resto"*.
+- **Relazione [[Claudia Bugno|Claudia]] rafforzata**: in una call di revisione dove [[Elena Chiti|Elena]] (key account Angelini lato FuturItaly) dava feedback in modo nervoso, **Claudia è intervenuta a difesa di HeyAI** — *"questi ragazzi io ci tengo, mi piace come lavorano, trattali bene e non permetterti di trattarli male solo perché sono giovani"*. L'amministratrice ha difeso il fornitore rispetto alla propria dipendente: stima consolidata. Complimenti arrivati anche a [[Lavinia Ferrari|Lavinia]] e al resto del team.
+- **Prossimo step**: presentazione **8 luglio in sede Angelini**. Carlo sta tirando giù con Lavinia un modello di business / collaborazione a due vie con FuturItaly. Carlo scrive a Elena per farsi ricapitolare cosa si sono detti Elena e Morbidelli.
+- 📎 Fonte: trascrizione `Allineamento di Team.docx` (9/6).
+
 ### 2026-06-08 — 📧 Follow-up post-pitch: feedback Caterina (email) + prep invio deck rivisto
 
 Thread "Invio proposta sito AA" (5/6 pomeriggio, post-pitch). **Caterina → [[Elena Chiti]], feedback positivo**: *"presentazione molto valida, ho apprezzato particolarmente la parte di analisi e strategica: emerge il vostro know-how e la conoscenza di Angelini Academy"*; demo non navigata per intero (tempo) ma *"sufficiente per apprezzare la cura dei dettagli e il lavoro fatto"*. **Elena → team HeyAI+FuturItaly**: *"feedback molto buono, seppur all'interno di un perimetro minato"*.

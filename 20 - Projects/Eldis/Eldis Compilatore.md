@@ -184,6 +184,8 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - [ ] **#p3** Documentazione/screen recording per autonomia cliente
 - [ ] **#p2** Fattura prossima: includere consuntivo token AI fino a oggi
 - [ ] **#p2** Verifica codice gamma UnicTable post invio specifiche da Marta
+- [ ] **#p1** Carlo: verificare con Federico+Simone se la **"piccola modifica" richiesta dal cliente** (in alternativa alle funzionalità extra a pagamento) è fattibile sul compilatore _[team 9/6]_
+- [ ] **#p1** Carlo: inviare reminder cliente con **ultima due date fine mese** per chiusura test (output completo/unico/integrale, no scaglionamento) _[team 9/6]_
 - [x] **#p1** Simone: agenda + conduzione call formativa Builder 8/5 _[chiuso — call avvenuta 8/5 ore 15:30-16:30]_
 
 ### Lato Carlo
@@ -308,6 +310,15 @@ Trasmesse via email il 22/01/2026. Carlo ha confermato il 5/5 che vanno bene cos
 - **Email inviata 22/5 21:31** (Carlo → Stefania, CC Giovanna Cecchi + Andrea Pazienza) sul thread "Confronto-Formazione su Builder Catalogo", con allegato **`HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`** (193KB). Corpo: recap call 8/5 (9 modifiche incluse + 6 studi di fattibilità + azioni Eldis) + lista 3 voci del documento (hosting+manutenzione infrastruttura, consulenza operativa a tariffa oraria, evolutive descrizioni+export) + comunicazione esclusione Builder PDF impaginazione ("effort sproporzionato rispetto al valore"). **Chiude i task aperti "presentare canone €130/mese" e "invio recap call 8/5".** Da qui parte la reazione self-hosting di Eldis (26/5).
 
 
+### 2026-06-09 (allineamento team interno) — Frizione cliente su costi ricorrenti + ultima chance test
+- **Lamentela cliente (Stefania + Giovanna, "sorella di Antonio")**: si sono lamentati di **non aver capito che ci sarebbero stati costi ricorrenti** (manutenzione + hosting), benché — nota Carlo — siano ovvi per uno sviluppo software e **inclusi nella proposta di investimento** firmata ~8 mesi fa. Avevano chiesto **funzionalità in più**; appena capito che costavano, hanno detto di no e di fare *solo una piccola modifica* — di fatto chiedendola **gratis**. → **Carlo deve verificare con Federico+Simone se la modifica è fattibile sul compilatore.**
+- **Posizione Carlo (tenuta in call, "molto calma")**: tool consegnato da mesi, la fase test doveva durare **3 settimane** e sta durando da **4 mesi**; stanno usando le ore di Simone "a sproposito" (contattato 1-2 volte/settimana). **Ultima chance**: possono prendersi tempo **fino a fine mese**, ma l'output deve essere **completo, unico e integrale — niente scaglionamento**. **Tariffa di consulenza accettata** dal cliente (non si può continuare a sistemare l'applicativo gratis per mesi).
+- **Debrief/audit finale a chiusura progetto**: il cliente ha proposto un debrief; Carlo lo userà per **mettere sul tavolo tutti i punti in cui HeyAI è venuta incontro** (applicativo venduto sotto mercato + supporto continuativo per mesi), se provassero a contestare mancanze.
+- **Lettura Bruno (governance, non IT)**: il problema del cliente è **disorganizzazione e mancanza di governance** (risorse limitate, ruoli/responsabilità non chiari, niente PDCA né priorità) — *"non gli manca la soluzione IT, gli manca la governance"* (Carlo concorda). **Bruno parlerà direttamente con Antonio** per spiegarglielo.
+- **Posizione strategica Carlo**: su sviluppi IT **non farebbe più progetti** con Eldis (pagano poco, alta frizione, consumo risorse); sul **marketing** invece può valere la pena (tenendo il punto su cosa sta dentro/fuori canone).
+- 📎 Fonte: trascrizione `Allineamento di Team.docx` (9/6).
+
+### 2026-05-22 — Audit pre-invio email + PDF + chiarimento policy markup
 - **Audit indipendente sull'email accompagnamento e sul PDF `HeyAI_Eldis_Servizi_e_Evolutive_20-5-26.pdf`** in sessione Cowork. Email letta integralmente, PDF rivisto pagina per pagina.
 - **Chiarimento markup evolutive Eldis (Carlo conferma 22/5)**: su questa quotazione **NON viene applicato markup HeyAI** sui prezzi evolutive — €1.800 (descrizioni con campi extra) e €2.100 (export semiautomatica) sono **prezzi cliente = costo Soolutions** passato as-is. Eccezione esplicita rispetto alla regola pricing 60% di §2.2 CLAUDE.md / Master Facts, decisa per le evolutive di mantenimento su prodotto già in produzione. Le voci ricorrenti (€130/mese hosting + €180/h consulenza) restano con la dinamica pricing standard. **Conseguenza per il vault**: la regola pricing 60% NON è violata in questo PDF perché si tratta di eccezione consapevole, non di errore. Ambiguità del Log 20/5 sera ("prezzi ricevuti da Simone") chiusa: prezzi cliente diretti.
 - **Data di emissione sul PDF**: non aggiunta — Carlo conferma 22/5 che per un documento "banale" di servizi continuativi + 2 evolutive non serve datare esplicitamente; la validità 30 giorni si applica orientativamente alla data di invio email.
