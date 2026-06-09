@@ -162,3 +162,15 @@ Backend `@claude-flow` **non installato** → i tool non si caricano, ma `ruflo-
 
 ### Sequenza riveduta
 `F0 (harvest worktree → commit → remote → prune)` → `F2 (KB Solidity Report)` → `F1 (automazioni)` → `F3 (skill: wiki-lint/obsidian-cli/episodic + ruflo off)` → `F4 → F6` · `F5 CLAUDE.md incrementale (incl. R1/R2)`. *Nota: F2 sale prima di F1 — prima certifichiamo la base, poi ci automatizziamo sopra.*
+
+---
+
+## 8 — F4 chiuso (9/6/2026)
+
+**F4 — Organizzazione sessioni/worktree Code: ✅ DONE.** Convenzione decisa via brainstorming + approvazione Carlo 9/6:
+- **Workflow vault = solo Code locale → commit su `main`** via `git -C ~/claude` (mai sul branch della worktree). È ciò che evita il leak.
+- **claude.ai Code = evitare per il vault** (branca su `origin/claude/*` → non rientra in main): era la causa dei **3 commit stranded del 9/6** (Achipont/Soolutions, poi harvested). Se usato → harvest immediato.
+- **Worktree = usa-e-getta**; igiene **flag-only** in `code-sessions-index` (segnala worktree stale + branch `origin/claude/*` stray-da-harvestare con comandi pronti; non rimuove in automatico).
+- Convenzione operativa in **CLAUDE.md §9ter**.
+
+**Stato fronti 9/6**: F0✅ F1✅ F2✅ F3🔶 (obsidian-cli sbloccato 9/6; restano vault-health + wiki-lint) F4✅ F5✅ **F6❌** (prossimo: meta-loop weekly *del sistema*). Aperti non-fronte: decisioni §6 + (opz) 2° runtime cloud per failover digest a Mac spento.
