@@ -5,8 +5,9 @@ priority: p2
 client: Eldis Net
 product: AI Product Catalogue
 created: 2026-04-30
-updated: 2026-06-07
+updated: 2026-06-09
 last_call_date: 2026-05-08
+next_call_date: 2026-06-09
 stakeholders: [Stefania Solidoro, Marta Garrafa, Alessandra Aprile, Giovanna Cecchi, Simone Montanari (Soolutions), Federico Saladino (Soolutions)]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-24 20:22 (cron-22) | source-session: local_07624f1b-4b2b-4edf-971a-1fbe04fe96e2 | source-lastActive: 2026-05-22 -->

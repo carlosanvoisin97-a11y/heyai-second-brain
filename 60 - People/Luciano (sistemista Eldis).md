@@ -3,15 +3,15 @@ type: person
 role: Fornitore esterno cliente
 company: Esterno (consulente Eldis)
 created: 2026-05-05
-updated: 2026-05-05
+updated: 2026-06-09
 ---
 
 # 👤 Luciano (sistemista Eldis)
 
-- **Ruolo**: **Sistemista esterno** che lavora con Eldis (non dipendente) _[conferma Carlo 5/5/2026]_
-- **Azienda di appartenenza**: TBD — opera come consulente IT esterno per Eldis
-- **Cognome**: TBD
-- **Email diretta**: TBD (non risulta in CC nei thread email recenti — Stefania fa da intermediaria)
+- **Ruolo**: **Sistemista esterno** che lavora con Eldis (non dipendente) _[conferma Carlo 5/5/2026]_ — **General Manager di ONCE Srl** _[identità risolta 8/6/2026 via thread email]_
+- **Azienda di appartenenza**: **ONCE SRLs** — via Luca Signorelli 11, Roma · tel +39 063234655 · `www.oncesrl.it`. Società IT esterna, non freelance.
+- **Cognome**: **Pecorella** (Luciano Pecorella)
+- **Email diretta**: `l.pecorella@oncesrl.it` _[ora scrive direttamente nei thread, con Stefania/Giovanna/Carlo/Soolutions in CC]_
 
 ## Progetti in comune
 
@@ -31,6 +31,7 @@ updated: 2026-05-05
 - 05/02/2026 — Stefania conferma a Simone che "Luciano mi ha assicurato che ci lavora domani"
 - 12/02/2026 — Stefania chiarisce i percorsi PROD: `W:\\ImmaginiB2B` (immagini/PDF) + `W:\\Company\\IMPORTLISTINI_NONTOCCARE\\COMPILATORE` (excel)
 - 16/02/2026 — Stefania conferma cartella immagini/pdf creata dentro TEST_COMPILATORE, attende riscontro Luciano
+- **26/05–8/06/2026 — Thread "Valutazione installazione Compilatore-Builder su infrastruttura Eldis"**: Stefania apre (26/5) chiedendo a Luciano di valutare l'**installazione dell'intero applicativo sulla VM Eldis** (alternativa al canone hosting €130/mese di HeyAI). Contatto ora **diretto Soolutions↔Luciano** (Stefania/Giovanna/Carlo in CC). Simone (28/5) gli passa le specs (RAM 4→6GB, disco a 200GB perché PDF+immagini risiederebbero sul server, port forwarding 80/443, esposizione su dominio `catalogue.eldisnet.it`). Luciano (8/6) sta già attrezzando: +2GB RAM, +20GB vSSD, **sostituzione SSD fisici** del server per arrivare a 200GB ("avrò bisogno di tempo"). → self-host in corso d'opera.
 
 ## Architettura tecnica gestita da Luciano
 
@@ -54,9 +55,10 @@ App: Eldis Synchronizer.exe (avvio automatico, sync notturna + manuale on-demand
 
 ## Open questions
 
-- Cognome
-- Azienda di consulenza (se ha una società di riferimento o è freelance)
-- Email diretta (per i casi in cui serva contatto rapido senza passare da Stefania)
+- ~~Cognome~~ → **Pecorella** _[risolto 8/6]_
+- ~~Azienda di consulenza~~ → **ONCE SRLs** (società IT, lui è GM) _[risolto 8/6]_
+- ~~Email diretta~~ → `l.pecorella@oncesrl.it` _[risolto 8/6]_
+- **#L1** Se Eldis self-hosta l'applicativo su VM ONCE/Eldis: confini di responsabilità (uptime/SLA lato Luciano vs manutenzione software lato HeyAI) e accesso persistente di Soolutions alla VM per deploy/aggiornamenti — da definire in call 9/6
 
 ## Riferimenti
 
