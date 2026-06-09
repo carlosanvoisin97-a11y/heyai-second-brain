@@ -4,7 +4,7 @@ product: Minutes
 client: NoLoop
 status: in-production-evolving
 created: 2026-04-30
-updated: 2026-05-28
+updated: 2026-06-09
 aliases: ["Meet Assistant"]
 ---
 
@@ -94,6 +94,7 @@ Minutes è il **raccoglitore universale** di input. Tutti i nuovi dati passano d
 
 - 2026-05-14 — `local_8694cefc` + `local_0ee687a5` — Drafting iterativo bozza email Carlo→Laura Garbarino su plenaria Minutes: 2 iterazioni in chat, versione finale Carlo "ti scrivo solo per un reminder veloce sul tema Minutes. Abbiamo finalizzato una serie di miglioramenti allo strumento e mi piacerebbe organizzare una sessione plenaria con il team per mostrare le novità, fare un recap su come sfruttare al meglio Minutes e consegnare a tutti la guida che abbiamo redatto. Mi serve solo un tuo ok per procedere con l'organizzazione". Pattern stile: presentare miglioramenti come già live (non "ASAP"), tagliare dettagli, chiedere solo OK plenaria (non data). Bozza non ancora inviata, Carlo decide timing. → [[80 - Sources/Cowork Sessions/2026-05-14 - Indice sessioni#Sessione 1 — Email reminder to Laura about Minutes (prima iterazione)]] + [[80 - Sources/Cowork Sessions/2026-05-14 - Indice sessioni#Sessione 2 — Draft reminder email to Laura about Minutes (seconda iterazione)]]
 - 2026-05-13 — `local_af2ea6af` — Email recap interno Federico+Simone (riscrittura Carlo): **password reset massivo utenti Minutes riattivato** come carry-over ancora aperto dal 5/5/2026 (era rimasto pendente sotto lo standby DNS, ora torna attivo come task Simone). Deploy "in prod" rettificato a "ASAP, verificare". Plenaria utenti a Garbarino gestita da Carlo (email "tutto in produzione" + reminder consumi token). → [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 5 — Write recap email and update tasks (Federico+Simone allineamento interno)]]
+- 2026-06-08 — `c754079e` (Code) — sessione PM-method status progetti cloud Wave 2 (Minutes incluso): cosa fare da PM per procedere + bozze output operativi sui task prioritari. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-c754079e|claude-main (c754079e)]]
 
 ## Chat correlate
 

@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop
 created: 2026-04-30
-updated: 2026-05-21
+updated: 2026-06-09
 aliases:
   - Wave 2 NoLoop
   - Wave 2
@@ -223,6 +223,7 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 - 2026-05-11 — chat Cowork Carlo: analisi bozza contratto Longo (allegato `20260506 HeyAI - NoLoop - Wave 2 - bozza.docx`), produzione file dedicato [[2026-05-11 - Analisi bozza contratto Longo Wave 2]] + cascata task in scheda (sequenza chiusura settimana 12-15/5)
 - 2026-05-11 sera — `local_5e5e0b1a` — Analyze NoLoop Wave 2 legal document: finalizzazione analisi 7 articoli + 7 decisioni Carlo + bozza email Andrea Pazienza versione compressa ("Andrea è mio socio interno") + rettifica DPA ex novo → [[2026-05-11 - Indice sessioni#Sessione 8 — Analyze NoLoop Wave 2 legal document (bozza contratto Longo)]]
 - 2026-05-13 — `local_af2ea6af` — Email recap interno Federico+Simone (riscrittura Carlo). Requirement Log Soolutions condiviso con punti TBD LeadMe attivabile pre-Wave 2 (link SharePoint inline nell'email). Excel cash-flow di Andrea Pazienza diventa **bloccante** per primo bonifico Soolutions su NOT (rettifica vs "tra oggi e domani" di call mattina → email serale "appena decidiamo la formula pagamenti vi giriamo il bonifico"). → [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 5 — Write recap email and update tasks (Federico+Simone allineamento interno)]]
+- 2026-06-08 — `c754079e` (Code) — sessione PM-method "cosa fare da PM" sui progetti cloud Wave 2 (piattaforma eventi, Minutes, Venue Finder): status review + produzione bozze email/output operativi per i task prioritari. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-c754079e|claude-main (c754079e)]]
 
 ## Log
 

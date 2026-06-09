@@ -3,7 +3,7 @@ type: resource
 product: Venue Finder
 status: in-development
 created: 2026-04-30
-updated: 2026-06-06
+updated: 2026-06-09
 ---
 
 # 📚 Venue Finder
@@ -127,6 +127,7 @@ Complementare a [[Crowd]] (gestione eventi, dominio Lorena Cavecchi) e [[Flow]] 
 
 - 2026-05-11 sera — `local_56c80cfd` — Sessione test approfondita Venue Finder (11/5 sera): cattura di 9 bug/feedback (5 #p1 + 2 #p2 + 2 carry-over 6/5 ancora pendenti). Output: bozza email a Federico+Simone (paste-ready) + tabella MS Lists Soolutions Delivery Board (paste-ready, filtri privacy §8bis rispettati). Bug critico: flow saltato Attività/Trasporti/Ristoranti dopo Venue+Hotel (riprodotto su 2 ricerche, brief richiede esplicitamente pernottamento+cena). → [[80 - Sources/Cowork Sessions/2026-05-12 - Indice sessioni#Sessione 2 — Venue Finder feedback and bug report (test 11/5 sera)]]
 - 2026-05-13 — `local_af2ea6af` — Email recap interno Federico+Simone (riscrittura Carlo): **urgenza cliente esplicitata** — Carlo deve comunicare al cliente disponibilità MVP. Enhancement "estetica presentazioni" **promosso #p2 → #p1** (era stato degradato nella bozza Claude, riassorbito da riscrittura Carlo). → [[80 - Sources/Cowork Sessions/2026-05-13 - Indice sessioni#Sessione 5 — Write recap email and update tasks (Federico+Simone allineamento interno)]]
+- 2026-06-08 — `c754079e` (Code) — sessione PM-method status progetti cloud Wave 2 (Venue Finder incluso): cosa fare da PM per procedere + bozze output operativi sui task prioritari. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-c754079e|claude-main (c754079e)]]
 
 ## 💬 Citazioni testuali
 

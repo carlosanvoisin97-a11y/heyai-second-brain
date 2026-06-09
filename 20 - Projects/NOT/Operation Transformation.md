@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop (divisione NOT)
 created: 2026-04-30
-updated: 2026-06-08
+updated: 2026-06-09
 contract_status: emesso_non_firmato
 stakeholders: [Massi Sinigaglia, Justin Lauro, Roberta Calajò, Paolo Donzelli, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
 ---
@@ -168,6 +168,7 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - 2026-05-21 — `local_51b0ba93` — Paolo project recap and contract review (collaterale): rettifica frontmatter status Operation Transformation — **"contratto emesso ma NON firmato da Donzelli + acconto fatturato e incassato comunque"** (era erroneamente "contratto firmato" fino al 20/5). Anomalia analoga a pattern Wave 2 Art. 1.4 efficacia retroattiva. Da formalizzare sottoscrizione prima delle tranche successive. → [[80 - Sources/Cowork Sessions/2026-05-21 - Indice sessioni#Sessione 5 — `local_51b0ba93-be43-4c2e-a396-4ba3546819fc` — Paolo project recap and contract review]]
 - 2026-06-01 — `0593b7a7` (Code) — processata call NOT "Allineamento richieste tecniche" (1/6, referente Carmen Compare): recap PM + nota performance Carlo. Decisioni locked: Carmen referente ingestion dati (sblocca attesa 14/5), documento campi Form completo/invariato, prototipo "form unico" su app NOT esistente dentro €109K senza extra, blocco campi obbligatori al submit, no email recap post-call. Prossimi: mer 3/6 allineare dev (priorità #1 integrazione piattaforme), call dati con Carmen (copre anche Eye Cookies), ven 5/6 visita BAT + escalation Massi API, lun 8/6 re-sync → se API ferme attivare RPA (manutenzione esclusa = Change Request). Decisioni in capo a Carlo: tagliare VoIP, valutare riempimento dati randomici (degrada modello), "I Love Ric" stand-by. _Edit nel worktree nervous-shannon — ✅ merge effettuato nel main 6/6/2026 (F2 Fase 2)._ → [[80 - Sources/Cowork Sessions/code-recap/2026-06-01 - claude-wt-nervous-shannon-0593b7a7|claude-wt-nervous-shannon (0593b7a7)]]
 - 2026-06-08 — `5acfac52` (Code) — follow-up call OT 4/6: bozza email a [[Germano Marano]] (stile PM/commerciale calibrato su email reali Carlo) + ricreazione doc "As-Is vs To-Be" pulito (rimossi tutti i residui economici, verificato via estrazione testo + zoom diagrammi) condivisibile col team di sviluppo; ragionamento leva API BAT/PARD (no API pubbliche → valutare esposizione propria). → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-wt-wizardly-mirzakhani-5acfac52|claude-wt-wizardly-mirzakhani (5acfac52)]]
+- 2026-06-08 — `2043e8b6` (Code) — review di sicurezza bozze Contratto Quadro HeyAI↔team di sviluppo + OE OT: 5 nodi critici pre-firma (entità NOT vs NoLoop incoerente, contratto cliente non firmato, cap responsabilità art. 12.1, royalty art. 6.2-6.3, GDPR). Numeri OE (€55K fornitore, cost-ratio 50%) committati in-sessione nel Master Facts/Log. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-2043e8b6|claude-main (2043e8b6)]]
 
 ## Log
 

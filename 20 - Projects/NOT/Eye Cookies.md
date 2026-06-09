@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-08
+updated: 2026-06-09
 deadline: 2026-09-01
 contract_status: non_prodotto
 stakeholders: [Massi Sinigaglia, Germano Marano]
@@ -165,6 +165,7 @@ Per memoria: la **prima bozza Germano** (febbraio 2026) conteneva **6 clausole v
 
 ## Sessioni Cowork correlate
 
+- 2026-06-08 — `2043e8b6` (Code) — review bozze contrattuali fornitore: il Contratto Quadro cita Eye Cookies (art. 15.1) ma **manca l'OE ricognitivo dedicato** per Eye Cookies. Da produrre prima della firma. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-2043e8b6|claude-main (2043e8b6)]]
 - 2026-06-01 — `0593b7a7` (Code) — call NOT "Allineamento richieste tecniche" (1/6, Carmen Compare referente ingestion dati). **Dipendenza cross-cluster**: la call dati team dev + Carmen per l'ingestion storico NOT/BAT serve **anche** al modello predittivo Eye Cookies → una sola call copre entrambi. Nota: il riempimento dati randomici richiesto **degrada il modello predittivo** (rischio da imputare a Eye Cookies/Fase 2, non a OT core). → [[80 - Sources/Cowork Sessions/code-recap/2026-06-01 - claude-wt-nervous-shannon-0593b7a7|claude-wt-nervous-shannon (0593b7a7)]]
 - 2026-05-22 notte — `local_813cdef7` — Microlog access and meeting coordination: bozza paste-ready Outlook a Germano (3 azioni concatenate: ack credenziali Microlog + ok meeting giovedì 15:30 ricorrente + richiesta call tecnica Microlog↔team di sviluppo) + 4 nuovi task #p1 (invio email, allineamento interno F+S su giovedì 15:30, invito Teams ricorrente, organizzazione call tecnica Microlog). Master Facts non toccato (nessun numero economico nuovo). → [[80 - Sources/Cowork Sessions/2026-05-24 - Indice sessioni#Sessione 1 — `local_813cdef7-99cd-4c87-9cf5-3f236036efa5` — Microlog access and meeting coordination]]
 - 2026-05-22 — `local_972c4d6a` — Eye Cookies requirement log: prep doc pre-RL 45+ entry timeline + ricerca sistematica email Outlook (Germano + Federico old-mailbox + Simone) + 3 PDF allegati archiviati in `80 - Sources/Files/Eye Cookies/` (Allegato 1 Offerta HeyAI MVP, Allegato 2 Chiarimenti tecnici, Allegato 3 NOT EYE cookie requisiti); **Requirement Log v1 prodotto** (3 fogli Master Interno + Versione Cliente + Riferimenti, 33 RFx.y MVP); **RL v2.3 revisione tecnica Microlog applicata** (patch chirurgica fill #FFFFCC, 5 note RFx.y aggiornate RF3.1/3.2/4.2/5.2/9.1, 3 nuove Open Questions Q6 Auth/Q7 SLA/Q8 Sensori HW sguardo, sezioni nuove Decisioni architetturali + Glossario, fedeltà testo Germano preservata 0 diff colonna B); bozza risposta a Germano (nuove credenziali Microlog `germano.marano`/`Tempo123456!` su `https://tracking.microlog.it/` + ok meeting giovedì 15:30 ricorrente + richiesta call tecnica con Microlog) paste-ready Outlook in `00 - Inbox/`. → [[80 - Sources/Cowork Sessions/2026-05-22 - Indice sessioni#Sessione 1 — `local_972c4d6a-07a7-4781-a853-468093d6a858` — Eye Cookies requirement log]]
