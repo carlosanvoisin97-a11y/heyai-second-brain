@@ -1,12 +1,13 @@
 ---
 type: log
-updated: 2026-06-08
+updated: 2026-06-09
 ---
 
 # 📊 Digest Log
 
 > Storico esecuzioni del PM Digest mattutino.
 
+- 2026-06-09 08:02 — 13 email rilevanti (19 lorde, 6 filtrate: 3 LinkedIn, 2 Nimble, 1 tldv), 2 meeting (Visite mediche 09:30 + Eldis canone 13:00), 0 file SP, 0 chat Teams. **3 task nuovi aggiunti** (+2 #p1, +1 #p2). **1 task chiuso** (#p2 verifica VM ONCE SRL — Luciano ha risposto, specs inviate da Simone, VM in espansione). Alert: 🔴 F24 maggio scade 16/06 (7gg); 🟠 Eldis rinegoziazione canone call OGGI; 🟠 Angelini economics lab editoriale €40K da separare quota FuturItaly; 🟠 Carmen re-sync stale _(+2 task #p1 +1 task #p2 aggiunti in Priorità)_
 - 2026-06-08 08:02 — 0 email rilevanti (5 filtrate), 1 meeting (Allineamento Team HeyAI 19:30 CET), 0 file SP, 0 chat Teams. **9 task nuovi aggiunti** (+7 #p1, +2 #p2 da [[Operation Transformation]] update 8/6). Alert: 🔴 re-sync Carmen OGGI su visita BAT 5/6 + escalation API; 🟠 bozza email Germano OT pronta da inviare; 🟠 Allineamento Team HeyAI stasera 19:30 _(+7 task #p1 aggiunti direttamente in Priorità)_
 - 2026-06-07 GAP (27/5→7/6) — ⚠️ **GAP 11gg coperti in retrospettiva (run manuale routine cloud)**: 20 email rilevanti (su 89 lorde), 7 meeting nel gap, 4 file SP, 1 chat Teams, 0 sessioni Cowork dal 28/5. **10 task nuovi aggiunti** (+7 #p1, +3 #p2). Alert critici: 🔴 F24 maggio DA VERSARE ENTRO 16/6 (Velotta NON LETTA); 🔴 Avv. Longo email Wave 2 (4/6 NON LETTA) sblocco pagamento + accordo sviluppatori; 🔴 contratti Carlo+Mattucci+Pazienza richiesti (Velotta NON LETTA); 🟠 pitch Angelini avvenuto 5/6 (slittato da 31/5) — feedback "molto buono, perimetro minato" — next Elena lun 8/6; 🟠 scope OT → solo BAT (Laila 4/6).
 - 2026-05-29 14:50 — ⚠️ **GAP 28-29/5 (nessun run, nessuna daily note)**. Causa: lavoro migrato su Claude Code; `pm-digest-mattutino` vive nello scheduler **Cowork**, che parte solo con l'app Cowork aperta — rimasta chiusa 28+29/5. Non è un bug del digest: è il digest che non è proprio partito. Diagnosi nell'audit vault Front 3. **Mitigazione installata**: hook `SessionStart` → `.claude/hooks/digest-staleness-check.sh` che a ogni apertura di Claude Code avvisa se l'ultima daily note è ferma ≥2 giorni. Per recuperare 28-29: aprire Cowork e lanciare il digest a mano (attenzione al doppio-run se poi Cowork lo rigira da solo). Rif: CLAUDE.md §9bis.

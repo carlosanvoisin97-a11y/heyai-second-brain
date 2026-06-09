@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 # ✅ Open Tasks
@@ -8,6 +8,8 @@ updated: 2026-06-07
 Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente PM Digest (8:02 lun-ven).
 
 > **Nota reconcile manuale 29/5 (audit vault — Front 1)**: ripuliti i **41 task chiusi** (`- [x]`/`- [-]`) che erano rimasti nelle sezioni Priorità #p1/#p2 (residuo accumulato perché il PM Digest, che fa questo reconcile allo step 5e, non gira da 26/5). 11 erano duplicati già presenti in "Recentemente chiusi" → rimossi; 30 relocati lì preservando testo+provenienza. Le sezioni Priorità ora elencano **solo task realmente aperti**. Nessun checkbox cambiato di stato, nessun task aperto toccato. I task chiusi >7gg verranno archiviati in `50 - Archive/Open Tasks/2026-05.md` al prossimo run del Digest.
+
+> **Nota PM Digest 9/6/2026 08:02**: 13 email rilevanti (19 lorde, 6 filtrate: 3 LinkedIn, 2 Nimble, 1 tldv), 2 meeting oggi (Visite mediche 09:30 + Eldis canone 13:00), 0 file SP, 0 chat Teams. **3 task nuovi aggiunti** (+2 in #p1, +1 in #p2). **1 task chiuso** (#p2 verifica VM ONCE SRL → Simone aveva risposto con specs, Luciano in implementazione). **Alert critici**: 🔴 F24 MAGGIO scade 16/06 (7 giorni); 🟠 Eldis rinegoziazione canone call OGGI 13:00 (Stefania Solidoro); 🟠 Angelini Academy economics da verificare (lab editoriale €40K separazione quota FuturItaly); 🟠 Carmen re-sync stale da ieri.
 
 > **Nota PM Digest 8/6/2026 08:02**: 0 email rilevanti (5 filtrate: 2 Nimble, 1 tldv.io, 1 LinkedIn newsletter, 1 SP recording scaduto), 1 meeting oggi (Allineamento Team HeyAI 19:30 CET), 0 file SP, 0 chat Teams. **9 task nuovi aggiunti** (+7 in #p1, +2 in #p2) da [[Operation Transformation]] update 8/6. **Alert critici**: 🔴 re-sync Carmen OGGI su visita BAT sede 5/6 + escalation API; 🔴 F24 maggio ENTRO 16/6 ancora aperto; 🟠 bozza email Germano OT pronta — Federico valida poi Carlo invia; 🟠 Allineamento Team HeyAI 19:30 (confermare partecipazione).
 
@@ -31,6 +33,8 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità alta (#p1)
 
+- [ ] **#p1** Carlo: verificare con [[Elena Chiti]] se slide pricing inviata 8/6 risolve separazione lab editoriale €40K da quota FuturItaly in economics Angelini Academy — se no, correggere prima della risposta di [[Caterina Caboni]] _da email Elena 8/6 — PM Digest 9/6_
+- [ ] **#p1** Carlo+[[Andrea Pazienza]]: **call Eldis OGGI 13:00** (Teams) — [[Stefania Solidoro]] ha aperto rinegoziazione canone mensile post-onboarding; presidiare margini _da email Stefania 8/6 + calendar 9/6 — PM Digest 9/6_
 - [ ] **#p1** Carlo ↔ [[Carmen Compare|Carmen]]: **re-sync OGGI lun 8/6** su esito visita BAT in sede (ven 5/6) + escalation [[Massi Sinigaglia|Massi]] per sblocco API BAT/PARD _da [[Operation Transformation]] — PM Digest 8/6_
 - [x] **#p1** Carlo: **rivedere e inviare bozza email recap a [[Germano Marano|Germano]]** (call 4/6, OT) — bozza pronta `00-Inbox/2026-06-08`; [[Federico Saladino (Soolutions)|Federico]] valida architettura prima → ✅ inviata 8/6 19:43 (CC Massi+Federico+Simone) _da [[Operation Transformation]] — PM Digest 8/6_
 - [x] **#p1** [[Federico Saladino (Soolutions)|Federico]]: **validare architettura/brief OT** prima dell'invio a Germano _da [[Operation Transformation]] — PM Digest 8/6_ ✅ 2026-06-09
@@ -124,10 +128,11 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità media (#p2)
 
+- [ ] **#p2** Simone+Carlo: monitorare completamento espansione VM [[Luciano Pecorella]] (ONCE SRL) verso 200GB target per installazione Builder Eldis — già aggiunti 2GB RAM + 20GB vSSD (email 8/6) _da email Luciano 8/6 — PM Digest 9/6_
 - [x] **#p2** [[Carmen Compare|Carmen]] (NoLoop): **preparare 2-3 dubbi struttura dati storico** da esporre a Federico+Simone per l'ingestion _da [[Operation Transformation]] — PM Digest 8/6_ ✅ 2026-06-09
 - [ ] **#p2** [[Germano Marano|Germano]] (NoLoop): **verifica interna stato API BAT** (esistono / perché non esposte) + interesse BAT modulo tracking prodotti per tabacchini _da [[Operation Transformation]] — PM Digest 8/6_
 - [x] **#p2** Carlo: **dichiarazioni detassazione da firmare e rimandare a Simona Velotta (FMA)** — richiesta 5/6 09:47 NON LETTA — coordinare con [[Andrea Pazienza]] _da email Velotta 5/6 — PM Digest gap 27/5-7/6_ ✅ 2026-06-09
-- [ ] **#p2** Carlo+Simone: **verifica risposta a Luciano Pecorella (ONCE SRL, IT Eldis)** — ha chiesto specs VM il 28/5 per installare Builder su infrastruttura Eldis (Simone in CC) — se non risposto, rispondere con specifiche _da email Luciano 28/5 — PM Digest gap 27/5-7/6_
+- [x] **#p2** Carlo+Simone: **verifica risposta a Luciano Pecorella (ONCE SRL, IT Eldis)** — ha chiesto specs VM il 28/5 per installare Builder su infrastruttura Eldis (Simone in CC) — se non risposto, rispondere con specifiche _da email Luciano 28/5 — PM Digest gap 27/5-7/6_ ✅ 2026-06-09
 - [x] **#p2** Carlo: **scope update [[Operation Transformation]]** — Laila El Zieny (4/6 13:54): "procediamo solo su BAT, gli altri clienti sono inattivi" — aggiornare scheda progetto + riallineare aspettative interne _da email Laila 4/6 — PM Digest gap 27/5-7/6_ ✅ 2026-06-09
 - [x] **#p2** Carlo: **recap WhatsApp/email post-call** ad [[Elena Chiti]]+[[Daniele Caporale]] con sintesi decisioni operative + versione pitch aggiornata **entro mercoledì 27/5 sera** _da Sessione Cowork 26/5 — PM Digest 27/5_ ✅ 2026-06-09
 - [x] **#p2** Carlo: leggere integralmente email [[Elena Chiti]] "Re: Follow up video call 8.05" (26/5 17:24) — Elena propone a [[Caterina Caboni]] sito+hinterland editoriale Angelini; valutare contenuto + coordinarsi con Elena pre-call oggi se necessario _da email Elena 26/5 — PM Digest 27/5_ ✅ 2026-06-09
@@ -217,6 +222,7 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Recentemente chiusi (storico ultimi 7gg)
 
+- [x] ~~Carlo+Simone: verifica risposta Luciano Pecorella (ONCE SRL, IT Eldis) su specs VM~~ → ✅ Simone aveva risposto con specs; Luciano ha aggiunto RAM+vSSD e sta completando espansione verso 200GB — installazione Builder Eldis in corso _da PM Digest 9/6_
 - [x] ~~Carlo+team: Allineamento di Team HeyAI ore 19:30~~ → ✅ 25/5 sera: meeting avvenuto, recap Fireflies pervenuto 19:31 CET _da PM Digest 26/5_
 - [x] ~~Carlo: rispondere a [[Marco Merli]] su AWS/OpenRouter~~ → ✅ 21/5: AWS approvato, noloop.eu fuori sandbox, quote 50.000 invii/giorno attive in produzione _da PM Digest 22/5_
 - [x] ~~Carlo: inviare email recap call 18/5 a Elena Chiti + Daniele Caporale~~ → ✅ inviata 2026-05-19 14:27 (verificata in Outlook) _da PM Digest 20/5_
