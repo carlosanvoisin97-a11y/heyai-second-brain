@@ -164,7 +164,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 | [[20 - Projects/Studio Murolo/PresidIa\|PresidIa]] | Studio Murolo | Carlo | 🟡 P2 — race Silencio vs Jakala |
 | [[20 - Projects/Futuritaly/Osservatorio Strategico\|Osservatorio Futuritaly]] | Futuritaly | Michele | 🟢 P2 — €42K target |
 | [[20 - Projects/Futuritaly/Sito Futuritaly\|Sito Futuritaly]] | Futuritaly | Michele | 🟢 P2 — promosso 13/5 |
-| [[20 - Projects/Achipont/Achipoint\|Achipoint]] | Achipont | Michele | 🟢 P2 — Proposta v1 prodotta |
+| [[20 - Projects/Achipont/Achipoint\|Achipoint]] | Achipont | Michele | 🔴 LOST — proposta rifiutata 9/6 (tentativo recupero via Michele↔Gigi) |
 | [[20 - Projects/Eldis/Eldis Compilatore]] | Eldis Net | Carlo | 🟢 P2 — Builder evolutive |
 | [[20 - Projects/Matteo Cosma/HoReCa\|HoReCa]] | Matteo Cosma | Carlo | 🟢 P3 — early stage |
 | [[30 - Areas/Area - Partnership Fornitori/Jakala\|Jakala]] | Jakala (fornitore) | Carlo | 🟢 evaluating — allocazione 4 progetti |

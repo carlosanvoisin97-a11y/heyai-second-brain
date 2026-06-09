@@ -1,6 +1,6 @@
 ---
 type: project
-status: active
+status: lost
 priority: p2
 client: Achipont
 created: 2026-04-30
@@ -121,6 +121,7 @@ Vedi: [[2026-05-04 - Allineamento Preventivi Sviluppo AI Silencio]]
 - [x] ~~**#p1** **Giovedì 21/5**: invio Proposta 15-5-26 + BC v1 + RL v2 a Luigi (`produzione@achipont.it` o diretto Luigi — da decidere). _Slittato dal 18/5_~~ → ✅ chiuso — inviata da Michele **venerdì 22/5** a `produzione@achipont.it` (cc Carlo)
 - [-] ~~**#p1** Michele: WhatsApp + chiamata Luigi/Gigi la sera del 21/5 per primo feedback informale~~ → annullato (esito 9/6: proposta rifiutata; il contatto informale con Gigi non è stato intercettato in tempo)
 - [-] ~~**#p2** Email d'invio chiede slot la **settimana 26-30/5** per discutere la proposta (era giovedì 21/5, slittato perché l'invio è il 21/5 stesso)~~ → annullato (cliente non disponibile a valutare la soluzione, esito 9/6)
+- [ ] **#p2** Achipont — **ultimo tentativo di recupero relazionale** via Michele↔Gigi prima di archiviare (decisione Carlo 9/6: status `lost` ma si tenta). La risposta cliente 9/6 *"pensavo ti fossi sentito con Luigi"* segnala un canale informale Gigi/Luigi non presidiato → Michele riapre il contatto diretto; se nessun riscontro → archiviare.
 - [ ] Verificare accessibilità BDNCP (scraping vs API, CAPTCHA)
 - [ ] Coinvolgere architetto amico per validazione criteri filtraggio
 - [ ] Mappatura completa albi fornitori privati cliente
@@ -129,6 +130,7 @@ Vedi: [[2026-05-04 - Allineamento Preventivi Sviluppo AI Silencio]]
 ## Eventi chiave
 
 - **2026-06-09 — ❌ ESITO: Achipont RIFIUTA la proposta.** La proposta era stata effettivamente **inviata da Michele venerdì 22/5** (mail a `produzione@achipont.it`, cc Carlo — con i 3 allegati: Proposta di Investimento + Business Case + Requirement Log; testo: tre documenti, richiesta slot call settimana successiva). Nessun riscontro per ~2,5 settimane. **9/6 ore 10:57** Michele manda follow-up ("aveste avuto modo di leggere la nostra proposta? possiamo organizzare una call di approfondimento"). **9/6 ore 11:11** risposta cliente (`produzione@achipont.it`): *"si, abbiamo visto la proposta (pensavo ti fossi sentito con Luigi). Vi ringraziamo ma al momento non possiamo valutare questa soluzione. Grazie mille."* → **Progetto perso** (rifiuto cortese, no leva economica esplicita, no controproposta). Da notare: il "pensavo ti fossi sentito con Luigi" suggerisce che la decisione era già passata informalmente per Luigi/Gigi e Michele non l'ha intercettata. Status progetto → da `active` a **lost** (in attesa di triage Carlo se vale un ultimo tentativo di recupero relazionale via Michele↔Gigi).
+  - **Decisione Carlo (9/6, conferma in sessione)**: status confermato **`lost`** nel frontmatter, **ma si tenta un ultimo recupero relazionale** via Michele↔Gigi (il canale informale che ha deciso il no) prima di archiviare. Vedi task `#p2` in Task aperti. Cascata applicata a CLAUDE.md §6 + Master Facts.
 - 21/04/2026 — Primo incontro Achipont (trascrizione raccolta)
 - 22/04 mattina — Michele invia "Achipont × HeyAI — Questionario di Discovery e prossimi passi"
 - 22/04 pomeriggio — Cliente (`produzione@achipont.it`) restituisce questionario compilato
