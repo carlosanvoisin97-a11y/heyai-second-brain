@@ -1,47 +1,52 @@
 #!/bin/bash
 # ─────────────────────────────────────────────────────────────────────────────
-# digest-staleness-check.sh  —  "campanello" affidabilità PM Digest (Front 3, 29/5/2026)
+# digest-staleness-check.sh  —  "campanello" affidabilità PM Digest
+# (Front 3, 29/5/2026 · rev. 10/6/2026: weekend-aware + allarme daily degradata)
 #
-# PERCHÉ ESISTE (agg. 9/6/2026 — COWORK DISMESSO):
-#   Le automazioni del vault girano ora come ROUTINE CLOUD su claude.ai (unattended,
-#   anche a Mac spento), NON più nello scheduler Cowork. Il PM Digest cloud dipende
-#   dal token M365: se scade, il run headless fallisce IN SILENZIO. Il bridge locale
-#   (~/.claude/scheduled-tasks/pm-digest-mattutino) è OFF (fallback dormiente).
-#   Questo campanello resta utile: se la daily note è ferma >= soglia, segnala il
-#   probabile fallimento M365 della routine cloud (non più "Cowork non aperto").
-#
-# COSA FA:
-#   A ogni apertura di sessione (hook SessionStart) controlla quanto è vecchia
-#   l'ultima daily note in "10 - Daily Notes". Se è ferma da >= 2 giorni, mostra
-#   un avviso visibile a Carlo (systemMessage) e lo inietta nel contesto dell'agente
-#   (additionalContext). Se è recente, non stampa nulla (silenzioso, zero rumore).
-#
-# NOTA lunedì mattina: di lunedì prima delle 8:00 l'ultima daily note è quella di
-#   venerdì (sab/dom il digest non gira) -> potrebbe scattare un avviso "soft".
-#   È accettabile e corretto-ish; per silenziarlo basta alzare la soglia a 3.
+# PERCHÉ ESISTE:
+#   Il PM Digest gira come ROUTINE CLOUD su claude.ai (unattended, anche a Mac
+#   spento). Dal 10/6 un token M365 scaduto NON blocca più la daily: il run
+#   produce una daily DEGRADATA (solo fonti vault) con banner "M365 OFFLINE".
+#   Quindi i due allarmi distinti di questo campanello:
+#     1. daily di oggi DEGRADATA (banner presente) → token M365 da rinnovare
+#     2. ultima daily ferma da ≥2 giorni LAVORATIVI → cloud completamente giù
+#   Il bridge locale (~/.claude/scheduled-tasks/pm-digest-mattutino) è ON
+#   (failover 9:30, guardia estesa 10/6: integra le fonti live se può).
 #
 # COME DISATTIVARLO: cancella questo file, oppure rimuovi il blocco "SessionStart"
 #   da .claude/settings.json, oppure apri /hooks in Claude Code e disabilitalo.
 # ─────────────────────────────────────────────────────────────────────────────
 
 DAILY_DIR="/Users/carlosanvoisin/claude/10 - Daily Notes"
-THRESHOLD_DAYS=2
+THRESHOLD_WORKDAYS=2
 
-# Trova l'ultima daily note con nome-data (YYYY-MM-DD.md). Esclude "Weekly Digest ..." ecc.
+emit() {
+  jq -nc --arg m "$1" \
+    '{systemMessage: ("⚠️ " + $m), hookSpecificOutput: {hookEventName: "SessionStart", additionalContext: $m}}'
+  exit 0
+}
+
+# ── Allarme 1: la daily di OGGI esiste ma è degradata (banner M365 OFFLINE)
+TODAY=$(date "+%Y-%m-%d")
+if [ -f "$DAILY_DIR/$TODAY.md" ] && grep -q "M365 OFFLINE" "$DAILY_DIR/$TODAY.md"; then
+  emit "Daily di oggi in modalità DEGRADATA (banner M365 OFFLINE): il token Microsoft 365 su claude.ai è scaduto. Rinnovare l'auth (claude.ai → Settings → Connectors → Microsoft 365); il bridge locale 9:30 integra le fonti live solo ad app Code aperta. [campanello — digest-staleness-check.sh]"
+fi
+
+# ── Allarme 2: ultima daily ferma da ≥N giorni LAVORATIVI (il digest gira Lun-Ven)
 LATEST=$(ls "$DAILY_DIR" 2>/dev/null | grep -E '^[0-9]{4}-[0-9]{2}-[0-9]{2}\.md$' | sort | tail -1 | sed 's/\.md$//')
 [ -z "$LATEST" ] && exit 0
-
-# Converte la data in epoch (sintassi BSD/macOS). Se fallisce, esci silenzioso.
 LATEST_EPOCH=$(date -j -f "%Y-%m-%d" "$LATEST" "+%s" 2>/dev/null)
 [ -z "$LATEST_EPOCH" ] && exit 0
-
 TODAY_EPOCH=$(date "+%s")
-DAYS=$(( (TODAY_EPOCH - LATEST_EPOCH) / 86400 ))
-[ "$DAYS" -lt "$THRESHOLD_DAYS" ] && exit 0
 
-MSG="PM Digest fermo: ultima daily note ${LATEST} (${DAYS}gg fa). Il digest gira come ROUTINE CLOUD (claude.ai) e dipende dal token M365 — se è fermo, probabilmente il token M365 è scaduto e il run headless è fallito in silenzio (Cowork è dismesso, non è quella la causa). Per recuperare: (1) controlla auth connettori M365 su claude.ai; (2) 'RemoteTrigger action:list' per lo stato del trigger pm-digest; (3) in emergenza ri-abilita il bridge locale 'pm-digest-mattutino' + 'RemoteTrigger action:run'. [campanello — .claude/hooks/digest-staleness-check.sh]"
+WORKDAYS=0
+E=$LATEST_EPOCH
+while [ "$E" -lt "$TODAY_EPOCH" ]; do
+  E=$((E + 86400))
+  [ "$E" -gt "$TODAY_EPOCH" ] && break
+  DOW=$(date -r "$E" "+%u" 2>/dev/null)   # 1=lun … 7=dom
+  [ -n "$DOW" ] && [ "$DOW" -le 5 ] && WORKDAYS=$((WORKDAYS + 1))
+done
+[ "$WORKDAYS" -lt "$THRESHOLD_WORKDAYS" ] && exit 0
 
-# Output: systemMessage = visibile a Carlo in UI; additionalContext = iniettato all'agente.
-jq -nc --arg m "$MSG" \
-  '{systemMessage: ("⚠️ " + $m), hookSpecificOutput: {hookEventName: "SessionStart", additionalContext: $m}}'
-exit 0
+emit "PM Digest fermo: ultima daily note ${LATEST} (${WORKDAYS} giorni lavorativi fa). Dal 10/6 un token M365 scaduto produce comunque la daily (degradata): se la daily MANCA del tutto, la routine cloud è proprio non partita o morta. Recupero: (1) 'RemoteTrigger action:list' per lo stato del trigger pm-digest-mattutino; (2) 'RemoteTrigger action:run' per rilanciarla; (3) il bridge locale 9:30 (ON) la copre ad app Code aperta. [campanello — digest-staleness-check.sh]"

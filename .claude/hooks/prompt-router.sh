@@ -10,10 +10,15 @@ PROMPT=$(printf '%s' "$INPUT" | /usr/bin/python3 -c "import sys,json; d=json.loa
 case "$PROMPT" in "<task-notification>"*) exit 0;; esac
 SESSION_ID=$(printf '%s' "$INPUT" | /usr/bin/python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('session_id','nosess'))" 2>/dev/null)
 OUT=""
-if printf '%s' "$PROMPT" | grep -qiE '\.(m4a|mp3|wav|aac|ogg|flac|mp4|mov)([^a-z0-9]|$)'; then
+# Path-anchored (richiede / o ~ nel token): evita falsi positivi su testo incollato che cita ".mp3" senza essere un file
+if printf '%s' "$PROMPT" | grep -qiE '(~|/)[^[:space:]]*\.(m4a|mp3|wav|aac|ogg|flac|mp4|mov)([^a-z0-9]|$)'; then
   OUT="🎙️ Rilevato file audio/video → invoca audio-transcriber-deepgram (chiave: env DEEPGRAM_API_KEY o ~/Documents/deepgram-api-key.txt), poi categorizza e passa a transcript-processing (§15.bis)."
 fi
-MARKER="/tmp/claude-router-${SESSION_ID}"
+# Marker fuori da /tmp (macOS lo pulisce) + self-cleanup dei marker >2 giorni
+MARKER_DIR="$HOME/.claude/tmp/router"
+mkdir -p "$MARKER_DIR" 2>/dev/null
+find "$MARKER_DIR" -name 'claude-router-*' -mtime +2 -delete 2>/dev/null
+MARKER="$MARKER_DIR/claude-router-${SESSION_ID}"
 if [ ! -f "$MARKER" ]; then
   touch "$MARKER" 2>/dev/null
   P=$(printf '%s' "$PROMPT" | tr '[:upper:]' '[:lower:]')
