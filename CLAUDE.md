@@ -218,7 +218,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 
 ## 8. Workflow ricorrenti — prompt library
 
-16 prompt template in `40 - Resources/Prompts/` ([[40 - Resources/Prompts/00 - Index Prompt Library|Index]]). Carlo invoca con: *"applica prompt 03 + contesto"* o *"recap call → email"*.
+17 prompt template in `40 - Resources/Prompts/` ([[40 - Resources/Prompts/00 - Index Prompt Library|Index]]). Carlo invoca con: *"applica prompt 03 + contesto"* o *"recap call → email"*.
 
 ### 8bis. Delivery board Soolutions
 

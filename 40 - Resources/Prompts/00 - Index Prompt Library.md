@@ -1,7 +1,7 @@
 ---
 type: index
 created: 2026-04-30
-updated: 2026-06-02
+updated: 2026-06-10
 ---
 
 # 🎁 Prompt Library — Index
@@ -37,6 +37,7 @@ updated: 2026-06-02
 - [[14 - Fact-Check Pre-Consegna]] — Verifica nomi/numeri/attribuzioni vs vault prima di consegnare al cliente
 - [[15 - Audit Parallelo con Workspace Isolati]] — N agenti, file separati, agente di sintesi (anti collisioni)
 - [[16 - Pipeline Deliverable Auto-Verificante]] — Sezione → fact-check → tono → propaga sorgente→output
+- [[17 - Sessione Overnight con Gate]] — Delega autonoma con gate analisi→OK→esecuzione + rete tag/backup/manifest (provato 10/6)
 
 > Derivati dai pattern del report `/insights` del 2/6/2026. Standardizzati cliente-agnostici (placeholder `{NOME_CLIENTE}`/`{NOME_PROGETTO}`) e customizzabili al volo: ognuno ha la sezione "Come customizzarlo".
 
