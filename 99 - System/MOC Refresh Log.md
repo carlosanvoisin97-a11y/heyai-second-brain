@@ -29,7 +29,7 @@ Run sabato 10/6 (slot cron 14:00 UTC / 16:00 CEST). Ultimo run: 24/5. Intervallo
 ### Flag to triage (Carlo decide)
 
 **Nuova persona non in MOC (1 — ri-segnalata da run 24/5, ancora aperta):**
-- `[[60 - People/Paolo Verrangia (commercialista NoLoop)]]` — commercialista/consulente fiscale esterno NoLoop, creato 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo oppure tenere solo in `60 - People/` finché due diligence chiusa.
+- `[[60 - People/Paolo Verrengia (commercialista NoLoop)]]` — commercialista/consulente fiscale esterno NoLoop, creato 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo oppure tenere solo in `60 - People/` finché due diligence chiusa.
 
 **Nuovo file `99 - System/` non in MOC §Sistema vault (1):**
 - `[[99 - System/Mappa Skill e Frammentazione AI]]` 🆕 — creato 7/6/2026, `status: operational`. Documenta i tre sistemi AI (vault/skill, Claude Code, Desktop Commander), risolve confusione "quale strumento sa cosa", aggiornato 9/6 post-dismissione Cowork. Carlo decide se aggiungerlo a §Sistema vault.
@@ -67,7 +67,7 @@ Run eseguito domenica 24/5 (slot cron sab 16:00 saltato — no entry log sab 23/
 ### Flag to triage (Carlo decide)
 
 **Nuova persona non in MOC (1):**
-- `[[60 - People/Paolo Verrangia (commercialista NoLoop)]]` 🆕 — Commercialista/consulente fiscale esterno NoLoop, scheda creata 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo del MOC oppure tenere solo in `60 - People/` finché due diligence non chiusa.
+- `[[60 - People/Paolo Verrengia (commercialista NoLoop)]]` 🆕 — Commercialista/consulente fiscale esterno NoLoop, scheda creata 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo del MOC oppure tenere solo in `60 - People/` finché due diligence non chiusa.
 
 ### Flag NON ri-segnalati (convenzione consolidata, vedi entry 15/5 + 16/5)
 
@@ -92,7 +92,7 @@ Nessuno nuovo rilevato. I 32 wikilink presenti nel MOC verificati come da run 16
 ### Stato finale
 
 - Auto-patches: 2
-- Flag aperti per Carlo: 1 (Paolo Verrangia, decisione cluster MOC)
+- Flag aperti per Carlo: 1 (Paolo Verrengia, decisione cluster MOC)
 - Wikilink broken: 0
 
 ---

@@ -128,8 +128,8 @@ F1 è stato chiuso a metà: routine **fatte partire** ma **loop di ritorno (sync
 
 ### C) Open items PROGETTO/governance — vivono in `99 - System/Open Questions` (tracciati lì + dal PM Digest; NON sono lavoro di sistema, ma da NON perdere)
 - **#19/#29** IP Soolutions Wave 2: accettazione verbale ✅, **contratto interno HeyAI↔Soolutions da formalizzare** prima firma cliente (avv. Longo).
-- **#35** Stato contrattuale NOT: non firmati ✅ bonificato 7/6; restano **strategia di formalizzazione** + cosa comunicare a Verrangia + sollecitare Donzelli + **recuperare i documenti primari** (email approvazione 03/04 + fatture acconti, oggi non a vault — gap probatorio Solidity §5) per l'audit fiscale.
-- **#36** 🔴 Due diligence **"Paolo Verrangia"** (possibile background frode fiscale): invio documenti **SOSPESO** finché non chiude la verifica (Roberta + ODCEC + CCIAA).
+- **#35** Stato contrattuale NOT: non firmati ✅ bonificato 7/6; restano **strategia di formalizzazione** + cosa comunicare a Verrengia + sollecitare Donzelli + **recuperare i documenti primari** (email approvazione 03/04 + fatture acconti, oggi non a vault — gap probatorio Solidity §5) per l'audit fiscale.
+- **#36** 🔴 Due diligence **"Paolo Verrengia"** (possibile background frode fiscale): invio documenti **SOSPESO** finché non chiude la verifica (Roberta + ODCEC + CCIAA).
 - **#31-33, #38** Angelini Academy: soft-defer ✅; restano identità concorrente, economia FuturItaly 2026, **Forum-Nobel = visione non asset** (non presentarlo come realizzato), pricing da blessare.
 
 ### Catena canonica dei doc (ordine di lettura)

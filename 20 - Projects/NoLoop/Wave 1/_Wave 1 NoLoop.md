@@ -44,7 +44,7 @@ Le **schede modulo** (Crowd, Minutes, LeadMe, Venue Finder, Sally, Link, Flow, O
 ## Log
 
 ### 2026-05-21
-- **Audit fiscale esterno attivato da [[Paolo Donzelli]]**: commercialista [[Paolo Verrangia (commercialista NoLoop)|Paolo Verrangia]] (Roma, 40+ anni esperienza) ha contattato Carlo per **audit di forma sui contratti Wave 1** ai fini agevolazione fiscale retroattiva. Stato fatturazione Wave 1 confermato in call ("alcune sono complete e 2 invece sono praticamente in fase di consegna, praticamente entro fine mese, incrociando le dita" — Carlo)
-- Mandato di Verrangia: vedere i contratti, capire forma/avvio/sospensione/condizioni, non entrare nel merito tecnico. "Io non entro nella sostanza, devo solo guardare la forma della sostanza che avete già"
-- **Action Carlo entro stasera 21/5**: inviare contratti Wave 1 a Verrangia via email, evidenziando quali fanno riferimento a Wave 1 vs Wave 2, e segnalando esplicitamente che "nulla è concluso" (anche le tranche aperte)
-- **Touchpoint pianificato**: incontro a Roma con Verrangia + Roberto (l'uomo di Donzelli) settimana 1-7/6 (o successiva)
+- **Audit fiscale esterno attivato da [[Paolo Donzelli]]**: commercialista [[Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]] (Roma, 40+ anni esperienza) ha contattato Carlo per **audit di forma sui contratti Wave 1** ai fini agevolazione fiscale retroattiva. Stato fatturazione Wave 1 confermato in call ("alcune sono complete e 2 invece sono praticamente in fase di consegna, praticamente entro fine mese, incrociando le dita" — Carlo)
+- Mandato di Verrengia: vedere i contratti, capire forma/avvio/sospensione/condizioni, non entrare nel merito tecnico. "Io non entro nella sostanza, devo solo guardare la forma della sostanza che avete già"
+- **Action Carlo entro stasera 21/5**: inviare contratti Wave 1 a Verrengia via email, evidenziando quali fanno riferimento a Wave 1 vs Wave 2, e segnalando esplicitamente che "nulla è concluso" (anche le tranche aperte)
+- **Touchpoint pianificato**: incontro a Roma con Verrengia + Roberto (l'uomo di Donzelli) settimana 1-7/6 (o successiva)

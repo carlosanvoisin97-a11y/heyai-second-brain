@@ -49,7 +49,7 @@ aliases: [Report overnight 10-6, Report esecuzione notturna]
 5. **`ABSTRACT.pptx`** (11 MB): tenuto — trash anche questo?
 6. **Branch remoti stray** (0 commit unici verificati): `git push origin --delete claude/achipont-outlook-email-vqpfo8 claude/contract-concerns-federico-simone-1305ye`
 7. **Proposta skill-strategy**: OK per punti (variare 6 / dismettere 2 / nuove skill / router / audio-hook)
-8. **Flag MOC** (dal run §MOC): Verrangia nel cluster NoLoop? · `Mappa Skill e Frammentazione AI` in §Sistema vault? · Achipont LOST nel conteggio?
+8. **Flag MOC** (dal run §MOC): Verrengia nel cluster NoLoop? · `Mappa Skill e Frammentazione AI` in §Sistema vault? · Achipont LOST nel conteggio?
 9. **Trash esterna e backup**: `~/vault-trash-2026-06-10/` + tgz 688 MB — da svuotare quando confermi che è tutto ok (suggerito: dopo 1 settimana)
 
 ## Pulizia post-OK (quando confermi)

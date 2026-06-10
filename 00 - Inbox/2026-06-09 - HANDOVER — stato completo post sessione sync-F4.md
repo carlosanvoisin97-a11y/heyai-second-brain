@@ -78,8 +78,8 @@ Rotazione credenziali fatta ✅ → verificare copra anche i **2 token onboardin
 
 ### F) Progetto/governance — vivono in [[99 - System/Open Questions]] (NON lavoro di sistema, da NON perdere)
 - **#19/#29** IP Soolutions Wave 2: **contratto interno HeyAI↔Soolutions da formalizzare** prima firma cliente (avv. Longo).
-- **#35** Stato contrattuale NOT: formalizzazione + cosa comunicare a Verrangia + sollecitare Donzelli + **recuperare documenti primari** (email approvazione 03/04 + fatture acconti — gap probatorio).
-- **#36** 🔴 Due diligence **"Paolo Verrangia"** (possibile frode fiscale): invio documenti **SOSPESO** finché non chiude (Roberta + ODCEC + CCIAA).
+- **#35** Stato contrattuale NOT: formalizzazione + cosa comunicare a Verrengia + sollecitare Donzelli + **recuperare documenti primari** (email approvazione 03/04 + fatture acconti — gap probatorio).
+- **#36** 🔴 Due diligence **"Paolo Verrengia"** (possibile frode fiscale): invio documenti **SOSPESO** finché non chiude (Roberta + ODCEC + CCIAA).
 - **#31-33, #38** Angelini Academy: soft-defer; identità concorrente, economia FuturItaly 2026, Forum-Nobel = visione non asset, pricing (Angelini congelato a fasi 9/6, coesiste €49,5K core).
 - **🆕 #69 (9/6, dall'harvest)** — **perimetro cessione IP chiarito**: Soolutions cede l'ecosistema gestionale custom MA **esclude i modelli AI** (open-source riusati); modello trainato al cliente uso illimitato/a-vita + ritrainabile. **PENDENTE: Federico/Simone devono produrre la lista delle componenti terze non-cedibili.** → OT §Log 9/6.
 - **🆕 #70 (9/6, dall'harvest)** — **condizione vincolante Bruno sul lock-in modelli**: Soolutions deve consegnare spec modello base + spec retraining (terzo dev competente deve poter ritrainare). **AZIONE: Carlo formalizza via email a Soolutions + attende conferma scritta + riflettere nei contratti** (OT modificabile, Eye Cookies da creare ex novo).

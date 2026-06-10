@@ -44,7 +44,7 @@ aliases: [Integrazione piano brain 2, Mining brain 2]
 4. **Eye Cookies**: chiarire con Federico se "più soldi" = scope aggiuntivo o ripricing; poi contratto ex novo.
 5. Confermare le **4 chiusure checkbox OT** `[reconciled — verificare]` e i **numeri [PROPOSTA] PresidIA** (€15-20K, €7K/agente, 96-98%).
 6. **Morbidelli**: CEO Angelini Academy (vault) o Group CHRO Angelini Industries (web)? Discrepanza mai risolta.
-7. ⚠️ **Verrangia vs Verrengia**: CLAUDE.md §4 dice "Verrengia", ~21 file e la scheda dicono "Verrangia" — dimmi la grafia giusta e bonifico tutto.
+7. ✅ **RISOLTO 10/6 — Verrengia (con la E)**, conferma Carlo: scheda rinominata + 86 occorrenze bonificate in 20 file; citazioni stampa 2011/2017 lasciate con grafia "Verrangia" originale + nota di disambiguazione (il match della due diligence #36 va rifatto con la grafia corretta).
 8. **axel.txt** (conflitto Bruno): distillo la sola cronologia fattuale in Area Governance, o resta tutto fuori dal vault?
 9. **HeyAI Job descriptions.txt** arrivato vuoto (8KB di spazi): ri-esporti?
 

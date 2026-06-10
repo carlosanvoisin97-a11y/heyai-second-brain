@@ -6,7 +6,7 @@ email: paolo.donzelli@noloop.eu
 created: 2026-04-30
 updated: 2026-05-21
 last_contact: 2026-04-13
-next_touchpoint: 2026-05-21 (verifica WhatsApp — autorizzazione Carlo a condividere contratti integrali Wave 1/2 con Verrangia)
+next_touchpoint: 2026-05-21 (verifica WhatsApp — autorizzazione Carlo a condividere contratti integrali Wave 1/2 con Verrengia)
 cadence_days: 14
 relationship_strength: warm
 top_quotes:
@@ -51,8 +51,8 @@ Paolo gestisce il fronte finanziario delle decisioni: budget, flussi cassa, form
 ## Eventi indiretti (Paolo non in contatto diretto, attivato terzi)
 
 ### 2026-05-21 — Attivato commercialista esterno per agevolazioni fiscali Wave 1/2
-- Paolo ha mandato [[Paolo Verrangia (commercialista NoLoop)|Paolo Verrangia]] (commercialista esterno, 40+ anni esperienza, Roma) a contattare Carlo per **audit di forma sui contratti** Wave 1 (retroattivo — fatture già emesse, quasi tutte pagate) e Wave 2 (prospettico — in partenza).
+- Paolo ha mandato [[Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]] (commercialista esterno, 40+ anni esperienza, Roma) a contattare Carlo per **audit di forma sui contratti** Wave 1 (retroattivo — fatture già emesse, quasi tutte pagate) e Wave 2 (prospettico — in partenza).
 - **Obiettivo dichiarato**: individuare agevolazioni fiscali applicabili. Non è il piano di iperammortamento L. 199/2025 ("quella agevolazione fiscale che noi avevamo pensato probabilmente non sarebbe stata quella poi presa in considerazione") — sta valutando altro
-- **Touchpoint NoLoop side**: Verrangia lavora con "Roberto" ("l'uomo di Paolo") + [[Elisa Remigi]]. Da verificare se "Roberto" = [[Marco Merli|Roberto Simbestini]] o nuova figura
-- **Action Carlo**: ⚠️ verifica WhatsApp a Paolo (o Roberto) prima dell'invio dei contratti integrali, per conferma esplicita autorizzazione a condividere — anche solo "Paolo, ti gira bene se mando i contratti integrali Wave 1/2 a Verrangia?". Trattandosi di documenti con clausole commerciali, IP, pricing, è prudente avere il green light esplicito
+- **Touchpoint NoLoop side**: Verrengia lavora con "Roberto" ("l'uomo di Paolo") + [[Elisa Remigi]]. Da verificare se "Roberto" = [[Marco Merli|Roberto Simbestini]] o nuova figura
+- **Action Carlo**: ⚠️ verifica WhatsApp a Paolo (o Roberto) prima dell'invio dei contratti integrali, per conferma esplicita autorizzazione a condividere — anche solo "Paolo, ti gira bene se mando i contratti integrali Wave 1/2 a Verrengia?". Trattandosi di documenti con clausole commerciali, IP, pricing, è prudente avere il green light esplicito
 - **Implicazione strategica**: NoLoop sta facendo un controllo fiscale formale sui contratti già firmati. È un'opportunità (recupero tax credit ⇒ HeyAI guadagna credibilità con CFO) ma anche un rischio (revisione formale può far emergere correzioni contrattuali pretese retroattivamente)

@@ -20,7 +20,7 @@ Il sistema ha retto dopo un recupero difficile: gap digest 11gg chiuso in retros
 ## Salute strutturale
 
 - Links: K=37 audit cloud 9/6 (ALERT, +429% da K=7 del 7/6; 1→7→37 in 3 settimane) → **risolto overnight 10/6** (fix commit A1+A2+A3+B+C-D+E-J, tutti i cluster). Trend strutturale preoccupante: K torna a crescere a ogni espansione vault; necessita ciclo di fix reattivo. Prossimo audit domenicale (22/6) confermerà il reset.
-- MOC: **nessun run dal 24/5 (17gg)** · 1 flag aperto non triagiato ([[99 - System/MOC Refresh Log]]: Paolo Verrangia cluster MOC) · Causa: routine cloud probabilmente falliva silenziosamente; F3 thin-wrapper non ancora testato — verificare a Sab 13/6
+- MOC: **nessun run dal 24/5 (17gg)** · 1 flag aperto non triagiato ([[99 - System/MOC Refresh Log]]: Paolo Verrengia cluster MOC) · Causa: routine cloud probabilmente falliva silenziosamente; F3 thin-wrapper non ancora testato — verificare a Sab 13/6
 - Consistency: ultimo audit 25/5 ✅ pulito — ma **stale da 16gg**: da allora F3 ha refactorizato 3 routine, bridge PM digest ri-armato, Cowork definitivamente dismesso; audit corrente non riflette la realtà
 - code-recap: 5/5 ✅ Jun 5–9 presenti · Jun 10 atteso alle 20:35
 
@@ -28,8 +28,8 @@ Il sistema ha retto dopo un recupero difficile: gap digest 11gg chiuso in retros
 
 - **Inbox sovraccarica**: ~25 file con data >14gg, più vecchio [[00 - Inbox/2026-05-11 - Analisi bozza contratto Longo Wave 2|contratto Longo 11/5]] (30gg). Cluster dominante: ~15 file pitch cycle Angelini Academy (v3/v3.1/v3.2/v3.3/v4 + audit + handover + slide-prompt, maggio 2026) — pitch concluso con soft-defer il 5/6, intero cluster archivabile previa distillazione. PDF bruciante: [[00 - Inbox/Angelini Academy — Strategia e architettura del nuovo sito web.pdf]] (854KB, senza elaborazione vault).
 - **[[99 - System/Open Questions]] stale (>14gg senza movimento)**:
-  - #36 Paolo Verrangia identità (aperta 21/5, 20gg) — invio documenti OT/Eye Cookies **SOSPESO**, 7 verifiche pendenti (ODCEC + CCIAA + Roberta Calajò)
-  - #35 Stato contrattuale OT+Eye Cookies (aperta 21/5, 20gg) — zona grigia fatturazione senza contratto firmato, impatto audit Verrangia
+  - #36 Paolo Verrengia identità (aperta 21/5, 20gg) — invio documenti OT/Eye Cookies **SOSPESO**, 7 verifiche pendenti (ODCEC + CCIAA + Roberta Calajò)
+  - #35 Stato contrattuale OT+Eye Cookies (aperta 21/5, 20gg) — zona grigia fatturazione senza contratto firmato, impatto audit Verrengia
   - #34 Scheduler drift (aperta 7/5, 34gg) — quasi certamente superata da F3/F4, da triagire e chiudere
   - #31-33 Angelini Academy gara (aperte 5/5, 36gg) — parzialmente risolte dal pitch 5/6 e call 8/6, da aggiornare stato
 - **[[99 - System/Open Tasks]] stale**: #p1 Jakala/Silencio/Aegiscore decisione da PM Digest 15/5 (26gg, bloccante per PresidIA/OssAI/HoReCa — con Achipont LOST 9/6 il bundle è ora 3 progetti) · #p1 Germano Eye Cookies roadmap (multipli aperti da 20/5, ~21gg) · #p1 Arianna Crowd lista ospiti (da 25/5, ora con escalation Lorena Cavecchi 9/6 che la sovrascrive)
@@ -42,7 +42,7 @@ Il sistema ha retto dopo un recupero difficile: gap digest 11gg chiuso in retros
 ## Proposta azioni (checkbox per Carlo — NON eseguite)
 
 - [ ] Leggere Aegiscore v5 (PDF in Inbox 25/5) e decidere Jakala vs Silencio/Aegiscore per PresidIA/OssAI/HoReCa — sblocca 3 progetti P2
-- [ ] Procedere verifiche #36 Verrangia: ODCEC Roma + CCIAA + messaggio Roberta Calajò (documenti OT/Eye Cookies SOSPESI fino a chiusura)
+- [ ] Procedere verifiche #36 Verrengia: ODCEC Roma + CCIAA + messaggio Roberta Calajò (documenti OT/Eye Cookies SOSPESI fino a chiusura)
 - [ ] Archive batch Angelini pitch Inbox (post distillazione 1 atomic note key learnings pitch in `40 - Resources/Concetti/`)
 - [ ] Verificare esecuzione moc-refresh cloud a Sab 13/6 → deve comparire entry in [[99 - System/MOC Refresh Log]] (test F3 thin-wrapper in produzione)
 - [ ] Rigirare system-consistency-check (stale da 25/5; F3 ha cambiato la struttura scheduler — audit attuale non riflette la realtà)

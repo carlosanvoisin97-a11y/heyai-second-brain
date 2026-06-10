@@ -58,7 +58,7 @@ tags: [system, kb-solidity, audit, F2]
 
 ## 5. Item aperti / non verificabili (per "la parte di Carlo")
 
-- **Gap probatorio**: email approvazione Donzelli 03/04 (Eye Cookies) + fatture/acconti NOT non esistono come documenti primari nel vault — solo conferma verbale (rettifica 21/5) + scambio Calajò 27/4. Se servono a fini fiscali/Verrangia, recuperarli.
+- **Gap probatorio**: email approvazione Donzelli 03/04 (Eye Cookies) + fatture/acconti NOT non esistono come documenti primari nel vault — solo conferma verbale (rettifica 21/5) + scambio Calajò 27/4. Se servono a fini fiscali/Verrengia, recuperarli.
 - **Numeri `[PROPOSTA]`** da confermare (F2 Fase 3): PresidIA €15-20K integrazione pagamenti · €7K/agente pattern-detection · 96-98% accuracy OCR. _(Futuritaly CRM ~€90K **ritirato 7/6**: Carlo non lo riconosce → rimosso da `_Futuritaly`/Claudia, probabile sovra-estrazione del subagent dalla call 7/4.)_
 - _(voce sensibile §13 rimossa su richiesta Carlo 7/6.)_
 - **Persone "Da triagiare"**: Andrea (NOT), Chiara Giuliani + Renato Savastano (Eldis).
