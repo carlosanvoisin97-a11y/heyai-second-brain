@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-09
+updated: 2026-06-10
 ---
 
 # ✅ Open Tasks
@@ -8,6 +8,8 @@ updated: 2026-06-09
 Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente PM Digest (8:02 lun-ven).
 
 > **Nota reconcile manuale 29/5 (audit vault — Front 1)**: ripuliti i **41 task chiusi** (`- [x]`/`- [-]`) che erano rimasti nelle sezioni Priorità #p1/#p2 (residuo accumulato perché il PM Digest, che fa questo reconcile allo step 5e, non gira da 26/5). 11 erano duplicati già presenti in "Recentemente chiusi" → rimossi; 30 relocati lì preservando testo+provenienza. Le sezioni Priorità ora elencano **solo task realmente aperti**. Nessun checkbox cambiato di stato, nessun task aperto toccato. I task chiusi >7gg verranno archiviati in `50 - Archive/Open Tasks/2026-05.md` al prossimo run del Digest.
+
+> **Nota PM Digest 10/6/2026 08:02**: 7 email rilevanti (17 lorde, 10 filtrate: LinkedIn ×2, tldv, Italotreno, SP recording, Wrike, Nimble ×2, LinkedIn connection), 0 meeting oggi, 0 file SP, 0 chat Teams rilevanti. **3 task nuovi aggiunti** (+2 in #p1, +1 in #p2). **0 task chiusi** (dichiarazioni detassazione già [x] da ieri). **Alert critici**: 🔴 Lorena Cavecchi escalation rooming Crowd — "non è utilizzabile", richiede call urgente Carlo+Arianna+Lorena; 🔴 F24 MAGGIO scade 16/06 (6 giorni); 🟠 Germano Marano ha risposto OT con note inline 9/6 — leggere; 🟠 Angelini Academy: Tiziana Carnicelli condivide roadmap, meeting luglio da confermare; 🟠 Achipont LOST confermato definitivamente 9/6.
 
 > **Nota PM Digest 9/6/2026 08:02**: 13 email rilevanti (19 lorde, 6 filtrate: 3 LinkedIn, 2 Nimble, 1 tldv), 2 meeting oggi (Visite mediche 09:30 + Eldis canone 13:00), 0 file SP, 0 chat Teams. **3 task nuovi aggiunti** (+2 in #p1, +1 in #p2). **1 task chiuso** (#p2 verifica VM ONCE SRL → Simone aveva risposto con specs, Luciano in implementazione). **Alert critici**: 🔴 F24 MAGGIO scade 16/06 (7 giorni); 🟠 Eldis rinegoziazione canone call OGGI 13:00 (Stefania Solidoro); 🟠 Angelini Academy economics da verificare (lab editoriale €40K separazione quota FuturItaly); 🟠 Carmen re-sync stale da ieri.
 
@@ -33,6 +35,8 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità alta (#p1)
 
+- [ ] **#p1** Carlo: **rispondere a [[Lorena Cavecchi]] e organizzare call urgente** con Lorena+Arianna Giordanella — escalation diretta (solo a Carlo, 9/6 16:32): rooming NON UTILIZZABILE ("rallenta il lavoro in maniera esponenziale, va cambiato"), vuole mostrare il problema live; chiedere anche aggiornamento sulle altre modifiche Arianna _da email Lorena 9/6 — PM Digest 10/6_
+- [ ] **#p1** Carlo: **leggere note inline di [[Germano Marano|Germano]]** nella risposta OT (9/6 14:20, "note in giallo in linea") all'email recap Carlo 8/6 — verificare action items su API BAT/PARD, prioritizzazione form, call Carmen, doc _da email Germano 9/6 — PM Digest 10/6_
 - [ ] **#p1** Carlo: verificare con [[Elena Chiti]] se slide pricing inviata 8/6 risolve separazione lab editoriale €40K da quota FuturItaly in economics Angelini Academy — se no, correggere prima della risposta di [[Caterina Caboni]] _da email Elena 8/6 — PM Digest 9/6_
 - [ ] **#p1** Carlo+[[Andrea Pazienza]]: **call Eldis OGGI 13:00** (Teams) — [[Stefania Solidoro]] ha aperto rinegoziazione canone mensile post-onboarding; presidiare margini _da email Stefania 8/6 + calendar 9/6 — PM Digest 9/6_
 - [ ] **#p1** Carlo ↔ [[Carmen Compare|Carmen]]: **re-sync OGGI lun 8/6** su esito visita BAT in sede (ven 5/6) + escalation [[Massi Sinigaglia|Massi]] per sblocco API BAT/PARD _da [[Operation Transformation]] — PM Digest 8/6_
@@ -128,6 +132,7 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità media (#p2)
 
+- [ ] **#p2** Carlo+Michele: **confermare date meeting luglio Angelini Academy** con [[Tiziana Carnicelli]] — [[Elena Chiti]] propone 8/7 ore 11 o 15 oppure 9/7 ore 11 o 16:30; [[Caterina Caboni]] suggerisce seconda settimana luglio; rispondere ad Elena con slot confermato. Tiziana condivide la roadmap — segnale positivo. _da email Elena+Caterina 9/6 — PM Digest 10/6_
 - [ ] **#p2** Simone+Carlo: monitorare completamento espansione VM [[Luciano Pecorella]] (ONCE SRL) verso 200GB target per installazione Builder Eldis — già aggiunti 2GB RAM + 20GB vSSD (email 8/6) _da email Luciano 8/6 — PM Digest 9/6_
 - [x] **#p2** [[Carmen Compare|Carmen]] (NoLoop): **preparare 2-3 dubbi struttura dati storico** da esporre a Federico+Simone per l'ingestion _da [[Operation Transformation]] — PM Digest 8/6_ ✅ 2026-06-09
 - [ ] **#p2** [[Germano Marano|Germano]] (NoLoop): **verifica interna stato API BAT** (esistono / perché non esposte) + interesse BAT modulo tracking prodotti per tabacchini _da [[Operation Transformation]] — PM Digest 8/6_
