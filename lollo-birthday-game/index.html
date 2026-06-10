@@ -208,8 +208,8 @@
 
 <header>
   <h1>🎰 La Roulette della Gaina™</h1>
-  <div class="subtitle">Edizione speciale «Buon Compleanno Lollo» — il gioco ufficiale del festeggiato più fidanzato, ghostato e ingenuo d'Italia</div>
-  <div class="disclaimer">⚠️ Nessuna ex è stata contattata per la realizzazione di questo gioco. Si sono fatte vive da sole.</div>
+  <div class="subtitle">Edizione speciale «Buon Compleanno Lollo» — il gioco ufficiale del festeggiato più fidanzato, ghostatore e permaloso d'Italia</div>
+  <div class="disclaimer">⚠️ Nessuna ex è stata contattata per la realizzazione di questo gioco. Tanto non avrebbe risposto lui.</div>
 </header>
 
 <div class="wheel-wrap">
@@ -275,8 +275,8 @@ const SLICES = [
     label: "Il Ghoster 👻",
     emoji: "👻",
     title: "Il Ghoster Colpisce Ancora",
-    text: "Lollo apre WhatsApp e mostra al gruppo l'ultima persona lasciata in visualizzato. Brindisi collettivo alla vittima. Riposi in pace (nella chat).",
-    punch: "È buono come il pane, ma sparisce come il pane a fine cena.",
+    text: "Lollo apre WhatsApp e mostra al gruppo l'ultima vittima lasciata in visualizzato. Brindisi collettivo alla scomparsa. Riposi in pace (nella chat).",
+    punch: "È buono come il pane, ma sparisce come il pane a fine cena. Lui ghosta, mai il contrario: chiarezza di ruoli.",
     btn: "F NEL CHAT 👻",
     counter: "ghost"
   },
@@ -294,17 +294,17 @@ const SLICES = [
     emoji: "💍",
     title: "Fidanzamento Lampo",
     text: "Lollo è ufficialmente fidanzato con la persona alla sua destra per i prossimi 3 turni. Presentazioni ai genitori facoltative, delusione garantita.",
-    punch: "Statisticamente verrà tradito entro il secondo turno. Il banco vince sempre.",
+    punch: "Statisticamente la lascerà lui entro il secondo turno. A meno che non ci tenga davvero: in quel caso lo lascia lei. Il banco vince sempre.",
     btn: "LO VOGLIO 💘",
     counter: "love"
   },
   {
-    label: "Corna Check 🦌",
-    emoji: "🦌",
-    title: "Minuto del Ricordo",
-    text: "Tutti in piedi, bicchiere alzato: «Alle ex di Lollo, che ce l'hanno fatta». Lollo beve in un dignitoso silenzio da reduce.",
-    punch: "Non è stato lasciato: è stato semplicemente sostituito con una versione più aggiornata.",
-    btn: "ONORE AI CADUTI 🫡",
+    label: "Karma Check 💔",
+    emoji: "💔",
+    title: "La Legge del Contrappasso",
+    text: "Tutti in piedi, bicchiere alzato: «A quella a cui Lollo teneva davvero, che l'ha mollato». Lollo beve in un dignitoso silenzio da reduce.",
+    punch: "Lascia tutte, tranne quelle giuste: lì lo lasciano. Il karma tiene la contabilità precisa.",
+    btn: "ONORE AL KARMA 🫡",
     counter: "drinks"
   },
   {
@@ -347,9 +347,36 @@ const SLICES = [
     label: "Tradimento! 🔪",
     emoji: "🔪",
     title: "TRADIMENTO!",
-    text: "Colpo di scena: la penitenza passa alla persona alla TUA sinistra, che beve al posto tuo. Come nelle relazioni di Lollo: paga sempre quello che non c'entra niente.",
-    punch: "Lollo non viene tradito: fa beta testing di coppie per conto terzi.",
+    text: "Colpo di scena: la penitenza passa alla persona alla TUA sinistra, che beve al posto tuo. Come quando Lollo sparisce: a pagare è sempre qualcun altro.",
+    punch: "Tradire Lollo è impossibile: per farlo dovresti riuscire a trovarlo.",
     btn: "PERCHÉ IO?! 😭",
+    counter: "drinks"
+  },
+  {
+    label: "Radical Chic 🥾",
+    emoji: "🥾",
+    title: "Mezzo Radical Chic",
+    text: "Lollo deve difendere per 30 secondi una causa da radical chic scelta dal gruppo (vino naturale, il forno di quartiere «autentico», la mostra che non ha visto). Se in questo momento indossa scarpe da trekking, bevono tutti alla sua coerenza.",
+    punch: "Scarpe da trekking in centro città: l'unica scalata che ha mai fatto è quella sociale.",
+    btn: "IN REALTÀ... 🧐",
+    counter: null
+  },
+  {
+    label: "Le Ansie 😰",
+    emoji: "😰",
+    title: "Sportello Ansie Aperto",
+    text: "Lollo elenca ad alta voce 3 ansie che ha in questo esatto momento (ne ha almeno 12 in coda). Il gruppo risponde in coro «eh vabbè» e si brinda alla sua salute mentale.",
+    punch: "Ha più ansie aperte che tab di Chrome. E come le tab, non ne chiude mai una.",
+    btn: "EH VABBÈ 🤷",
+    counter: "drinks"
+  },
+  {
+    label: "Il Permaloso 😤",
+    emoji: "😤",
+    title: "Test del Permaloso",
+    text: "Chi ha girato la ruota fa una battuta su Lollo. Se Lollo se la prende (succederà), beve doppio. Se ride, beve singolo. La casa vince sempre.",
+    punch: "Livello permaloso: si è offeso anche leggendo questa casella.",
+    btn: "NON FA RIDERE 😤",
     counter: "drinks"
   },
   {
@@ -400,7 +427,7 @@ function drawWheel(rot) {
     ctx.rotate(start + ARC / 2);
     ctx.textAlign = "right";
     ctx.fillStyle = "#fff";
-    ctx.font = "bold 34px 'Comic Sans MS', sans-serif";
+    ctx.font = "bold 28px 'Comic Sans MS', sans-serif";
     ctx.shadowColor = "rgba(0,0,0,.6)";
     ctx.shadowBlur = 6;
     ctx.fillText(SLICES[i].label, r - 26, 12);
