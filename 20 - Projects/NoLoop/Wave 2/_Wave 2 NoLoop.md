@@ -4,7 +4,7 @@ status: active
 priority: p1
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-10
 aliases:
   - Wave 2 NoLoop
   - Wave 2
@@ -236,6 +236,7 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 
 ### 2026-05-21 (audit pre-invio documenti a Verrengia)
 - **Scoperta inconsistenza Proposta Investimento "updated 21/5"** (file `Noloop_Wave2_Proposta_Investimento_updated 2105.pdf`): copertina pag.1 riporta `INVESTIMENTO BUNDLE €315K` (numero vecchio del PowerPoint 10/03 con sconto -€12K), mentre la tabella pag.2 e il Riepilogo Investimento pag.10 riportano correttamente `€300K` (listino €327K, sconto -€27K). **Incoerenza interna al documento** — la copertina non è stata aggiornata quando il bundle è stato rivisto al ribasso. Va sistemata prima di qualsiasi invio esterno (Verrengia, audit fiscale, terzi). Inoltre la pag.12 "Prossimi passi" cita ancora "Con la vostra approvazione della proposta entro il **20 aprile 2026**" — deadline passata, da aggiornare o rimuovere
+- ✅ **FIX 10/6/2026 (OK Carlo)**: copertina patchata €315K→€300K via overlay → nuovo file **`Noloop_Wave2_Proposta_Investimento_updated_6_20260610.pdf`** (in `80 - Sources/Files/` + cartella "doc paolo"; verifica render: card coerente, 12 pagine integre). Questo è il file da usare per ogni invio esterno futuro. La deadline pag.12 è stata LASCIATA: il documento è datato 13/4 e la frase è storicamente coerente — si corregge alla prossima emissione, non falsificando un documento datato. Verificato anche `updated_5_2026-04-13.pdf` (versione inviata al cliente): già coerente (€300K ovunque, copertina senza importi) — non toccato
 - **Art. 3.3 bozza Longo identificato come vantaggioso per HeyAI in contesto audit fiscale**: "Il Fornitore non garantisce e non assume alcuna responsabilità in ordine all'ottenimento da parte del Committente di crediti d'imposta, benefici fiscali, agevolazioni per l'Industria 4.0, Iperammortamento o qualsiasi altro trattamento fiscale favorevole. La qualificazione fiscale degli investimenti tecnologici è di esclusiva competenza e responsabilità del Committente e dei suoi consulenti fiscali." → questa clausola passa esplicitamente la palla a Verrengia (è proprio "il consulente fiscale del Committente"). Non va modificata, anzi rinforza la nostra posizione
 - **Confronto materiale Wave 1 vs Wave 2 — gap che Verrengia vedrà**:
   - Wave 1 (firmato 17/3) **non ha clausola IP esplicita** → default civilistico; Wave 2 (Art. 4.1) IP a HeyAI esplicita. Differenziale visibile
