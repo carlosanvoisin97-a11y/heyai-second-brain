@@ -96,7 +96,7 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 ## Stakeholders
 
 ### Lato NoLoop (cluster esteso)
-- [[Paolo Donzelli]] — CEO, firma contratti
+- [[Paolo Donzelli]] — CFO, firma contratti _(fix 10/6: era erroneamente CEO)_
 - [[Laura Garbarino]] (LG) — **AD, vero decision maker budget** (stima/tempi, no features, "buttala via" su pitch)
 - [[Ilia Gardelli]] — referente business/tech, 20+ anni eventi
 - [[Marco Merli]] — riferimento contrattuale + cybersecurity

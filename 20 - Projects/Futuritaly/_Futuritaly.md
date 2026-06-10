@@ -3,7 +3,7 @@ type: client
 status: active
 priority: p2
 created: 2026-05-06
-updated: 2026-06-07
+updated: 2026-06-10
 aliases:
   - Futuritaly
   - FuturItaly
@@ -16,7 +16,7 @@ note: FuturItaly è sia cliente diretto (Osservatorio Strategico per loro studio
 
 ## Progetti attivi (cliente diretto)
 
-- [[Osservatorio Strategico]] — Osservatorio AI per studio legale FuturItaly, target €42K (alzato post Silencio 4/5)
+- [[Osservatorio Strategico]] — Osservatorio AI per studio legale FuturItaly, €45K quotato (v2 19/5 — supera il target €42K post-Silencio; allineato al Master 10/6)
 - [[Sito Futuritaly]] — sito istituzionale FuturItaly (status TBD, da verificare se in sviluppo o completato)
 
 ## Progetti potenziali / via intermediazione

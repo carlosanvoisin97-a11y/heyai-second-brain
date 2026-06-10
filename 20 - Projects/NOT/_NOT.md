@@ -3,7 +3,7 @@ type: client
 status: active
 priority: p1
 created: 2026-05-06
-updated: 2026-06-07
+updated: 2026-06-10
 aliases:
   - NOT
   - NoLoop on Trade
@@ -17,8 +17,8 @@ aliases:
 
 ## Progetti attivi
 
-- [[Operation Transformation]] — €109K firmato 03/04/2026 (Modulo Vendite + Modulo Logistica BAT)
-- [[Eye Cookies]] — €75K Full Ownership firmato 03/04/2026 (marketing AI per pop-up store BAT)
+- [[Operation Transformation]] — €109K — bozza emessa NON firmata, acconto pagato _(rettifica 21/5, allineato 10/6)_ (Modulo Vendite + Modulo Logistica BAT)
+- [[Eye Cookies]] — €75K Full Ownership approvazione email 03/04 (contratto mai prodotto), acconto pagato _(rettifica 21/5, allineato 10/6)_ (marketing AI per pop-up store BAT)
 - [[NOT Marketing - LinkedIn e Sito]] — saldo fatturato (1 delle 3 fatture cortesia 29/04)
 
 ## Contesto strategico aziendale

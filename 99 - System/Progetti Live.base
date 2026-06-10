@@ -1,0 +1,61 @@
+filters:
+  and:
+    - file.inFolder("20 - Projects")
+    - 'type == "project"'
+
+formulas:
+  giorni_fermo: '(now() - file.mtime).days'
+  stato_icon: 'if(status == "active", "🟢", if(status == "lost", "🔴", if(status == "archived", "📦", "⚪")))'
+
+properties:
+  formula.stato_icon:
+    displayName: ""
+  priority:
+    displayName: Priorità
+  client:
+    displayName: Cliente
+  updated:
+    displayName: Aggiornata
+  formula.giorni_fermo:
+    displayName: "Giorni fermi"
+
+views:
+  - type: table
+    name: "P1 live"
+    filters:
+      and:
+        - 'priority == "p1"'
+        - 'status == "active"'
+    order:
+      - formula.stato_icon
+      - file.name
+      - client
+      - updated
+      - formula.giorni_fermo
+
+  - type: table
+    name: "Tutti gli attivi"
+    filters:
+      and:
+        - 'status == "active"'
+    groupBy:
+      property: client
+      direction: ASC
+    order:
+      - formula.stato_icon
+      - file.name
+      - priority
+      - updated
+      - formula.giorni_fermo
+
+  - type: table
+    name: "Persi / archiviati"
+    filters:
+      or:
+        - 'status == "lost"'
+        - 'status == "archived"'
+    order:
+      - formula.stato_icon
+      - file.name
+      - client
+      - updated

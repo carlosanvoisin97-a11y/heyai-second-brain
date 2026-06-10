@@ -2,7 +2,7 @@
 type: resource
 client: NoLoop
 created: 2026-04-30
-updated: 2026-05-14
+updated: 2026-06-10
 aliases:
   - NoLoop
 sources: [Organigramma NoLoop 17/03/2025, conferma utente, chat Claude.ai, email Outlook]
@@ -110,7 +110,7 @@ sources: [Organigramma NoLoop 17/03/2025, conferma utente, chat Claude.ai, email
 Vedi [[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]] — bundle €300K, 8 moduli, 83 requisiti, payback 13m, valore netto 24m +€283K
 
 ### Cluster NOT (divisione On Trade) — 3 progetti
-- [[Operation Transformation]] (Logistica + Vendite, **€109K**, contratto firmato 03/04)
+- [[Operation Transformation]] (Logistica + Vendite, **€109K**, bozza NON firmata / approvazione email 03/04 _(rettifica 21/5, allineato 10/6)_)
 - [[Eye Cookies]] (marketing AI BAT, **€75K full ownership** firmato 03/04)
 - [[NOT Marketing - LinkedIn e Sito]] (✅ saldo fatturato, owner Michele/Andrea)
 
