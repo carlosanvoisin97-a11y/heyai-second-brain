@@ -26,8 +26,12 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 | weekly-review-interactive.md` | `30 17 * * 6` (Sab 17:30) | prep doc    | nessuno                                 |
 | `pm-digest-mattutino.md`      | `0 8 * * 1-5` (Lun-Ven 8) | digest      | **M365** (Outlook/cal/SharePoint/Teams) |
 | `radar-competitor.md`         | — **autorata, NON schedulata** | radar competitor/mercato → `99 - System/Radar/` (alimenta cockpit) | web pubblico |
+| `weekly-system-review.md` 🆕  | `30 16 * * 6` UTC (Sab ~18:30 CEST) | meta-loop F6: review del sistema → prep-doc `00 - Inbox/` | nessuno |
 
-⚠️ **7 file routine, 6 schedulate + 1 no**: `radar-competitor.md` è scritta e pronta ma **non ha né trigger cloud né task locale** (9/6). Da decidere se schedularla (cloud, settimanale) o lasciarla on-demand. Il cockpit legge `99 - System/Radar/` solo se qualcuno la fa girare.
+⚠️ **8 file routine, 7 schedulate + 1 no**: `radar-competitor.md` è scritta e pronta ma **non ha né trigger cloud né task locale** (9/6). Da decidere se schedularla (cloud, settimanale) o lasciarla on-demand. Il cockpit legge `99 - System/Radar/` solo se qualcuno la fa girare.
+
+🔧 **Refactor F3 (10/6/2026)**: `vault-link-checker.md`, `moc-refresh.md` e `system-consistency-check.md` sono ora **thin-wrapper** della skill `.claude/skills/vault-health/SKILL.md` (fonte unica di logica, sub-check `links`/`moc`/`consistency` + slot `contradictions`). Cron e trigger INVARIATI. `consistency` estesa al cross-check cloud via `RemoteTrigger` (gira solo da Code).
+🆕 **F6 (10/6/2026)**: `weekly-system-review.md` = meta-loop del sistema (trigger cloud `trig_0122Weida5UNZLHFejsHccLb`), provata end-to-end il 10/6.
 
 (`cowork-sessions-index` **ritirata**: in Code c'è già `code-sessions-index` nello scheduler locale. `claude-chats-sync`/`friday-wrap-up`/`weekly-digest` disabilitate. `dashboard-refresh-manual` resta on-demand.)
 
