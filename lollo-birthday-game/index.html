@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎰 La Roulette della Gaina™ — Buon Compleanno Lollo</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: "Comic Sans MS", "Chalkboard SE", "Comic Neue", cursive, sans-serif;
+    background: linear-gradient(180deg, #1a2a6c 0%, #2c3e8c 60%, #16213e 100%);
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    overflow-x: hidden;
+  }
+
+  /* montagne stile South Park */
+  .mountains {
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    height: 130px;
+    pointer-events: none;
+    z-index: 0;
+    opacity: .5;
+  }
+
+  header { text-align: center; z-index: 1; margin-bottom: 8px; }
+
+  h1 {
+    font-size: clamp(1.4rem, 5vw, 2.4rem);
+    color: #ffd900;
+    text-shadow: 3px 3px 0 #e74c3c, 6px 6px 0 rgba(0,0,0,.3);
+    transform: rotate(-2deg);
+  }
+
+  .subtitle {
+    font-size: clamp(.8rem, 3vw, 1rem);
+    color: #aee3ff;
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  .disclaimer {
+    font-size: .7rem;
+    color: #ffffff88;
+    margin-top: 4px;
+  }
+
+  .wheel-wrap {
+    position: relative;
+    margin: 18px auto 10px;
+    width: min(86vw, 420px);
+    height: min(86vw, 420px);
+    z-index: 1;
+  }
+
+  canvas { width: 100%; height: 100%; display: block; }
+
+  .pointer {
+    position: absolute;
+    top: -8px; left: 50%;
+    transform: translateX(-50%);
+    width: 0; height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 34px solid #ffd900;
+    filter: drop-shadow(0 3px 3px rgba(0,0,0,.5));
+    z-index: 2;
+  }
+
+  .hub {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 21%; height: 21%;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, #ffec70, #f1a811);
+    border: 4px solid #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(1.4rem, 6vw, 2.2rem);
+    user-select: none;
+  }
+
+  button.spin {
+    z-index: 1;
+    font-family: inherit;
+    font-size: clamp(1.1rem, 4.5vw, 1.5rem);
+    font-weight: bold;
+    color: #16213e;
+    background: linear-gradient(180deg, #ffe14d, #f5b400);
+    border: 4px solid #fff;
+    border-radius: 999px;
+    padding: 14px 38px;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #b07c00, 0 10px 18px rgba(0,0,0,.4);
+    transition: transform .1s, box-shadow .1s;
+    margin-top: 6px;
+  }
+  button.spin:active { transform: translateY(5px); box-shadow: 0 1px 0 #b07c00; }
+  button.spin:disabled { filter: grayscale(.7); cursor: wait; }
+
+  .counters {
+    z-index: 1;
+    display: flex;
+    gap: 14px;
+    margin-top: 14px;
+    font-size: .9rem;
+  }
+  .counter {
+    background: rgba(255,255,255,.12);
+    border: 2px dashed #ffd900aa;
+    border-radius: 12px;
+    padding: 6px 14px;
+  }
+  .counter b { color: #ffd900; font-size: 1.1rem; }
+
+  /* modale risultato */
+  .overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.75);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 16px;
+  }
+  .overlay.show { display: flex; animation: pop .25s ease-out; }
+
+  @keyframes pop {
+    from { opacity: 0; transform: scale(.85); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+
+  .card {
+    background: #fffbe8;
+    color: #222;
+    border: 6px solid #e74c3c;
+    border-radius: 20px;
+    max-width: 440px;
+    width: 100%;
+    padding: 26px 22px;
+    text-align: center;
+    box-shadow: 0 0 0 6px #ffd900, 0 20px 50px rgba(0,0,0,.6);
+    transform: rotate(-1deg);
+  }
+  .card .emoji { font-size: 3rem; }
+  .card h2 {
+    color: #c0392b;
+    font-size: 1.5rem;
+    margin: 8px 0 10px;
+    text-transform: uppercase;
+  }
+  .card p { font-size: 1.05rem; line-height: 1.45; }
+  .card .punch {
+    margin-top: 12px;
+    font-style: italic;
+    font-size: .9rem;
+    color: #777;
+  }
+  .card button {
+    margin-top: 18px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #e74c3c;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 999px;
+    padding: 10px 28px;
+    cursor: pointer;
+    box-shadow: 0 4px 0 #8e2418;
+  }
+  .card button:active { transform: translateY(3px); box-shadow: 0 1px 0 #8e2418; }
+
+  .confetti {
+    position: fixed;
+    top: -20px;
+    font-size: 1.4rem;
+    z-index: 11;
+    pointer-events: none;
+    animation: fall linear forwards;
+  }
+  @keyframes fall {
+    to { transform: translateY(110vh) rotate(720deg); opacity: .6; }
+  }
+
+  footer {
+    z-index: 1;
+    margin-top: auto;
+    padding-top: 22px;
+    font-size: .72rem;
+    color: #ffffff77;
+    text-align: center;
+    max-width: 480px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🎰 La Roulette della Gaina™</h1>
+  <div class="subtitle">Edizione speciale «Buon Compleanno Lollo» — il gioco ufficiale del festeggiato più fidanzato, ghostato e ingenuo d'Italia</div>
+  <div class="disclaimer">⚠️ Nessuna ex è stata contattata per la realizzazione di questo gioco. Si sono fatte vive da sole.</div>
+</header>
+
+<div class="wheel-wrap">
+  <div class="pointer"></div>
+  <canvas id="wheel" width="900" height="900"></canvas>
+  <div class="hub" id="hub">🍺</div>
+</div>
+
+<button class="spin" id="spinBtn">GIRA LA GAINA 🍺</button>
+
+<div class="counters">
+  <div class="counter">Gaine bevute: <b id="cDrinks">0</b></div>
+  <div class="counter">Fidanzamenti: <b id="cLove">0</b></div>
+  <div class="counter">Ghostati: <b id="cGhost">0</b></div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="card">
+    <div class="emoji" id="rEmoji">🍺</div>
+    <h2 id="rTitle">GAINA!</h2>
+    <p id="rText">...</p>
+    <div class="punch" id="rPunch"></div>
+    <button id="closeBtn">VA BENE, BEVO 🍻</button>
+  </div>
+</div>
+
+<svg class="mountains" viewBox="0 0 800 130" preserveAspectRatio="none">
+  <polygon points="0,130 120,30 240,130" fill="#5d6d7e"/>
+  <polygon points="120,30 95,55 145,55" fill="#fff"/>
+  <polygon points="180,130 330,10 480,130" fill="#85929e"/>
+  <polygon points="330,10 298,48 362,48" fill="#fff"/>
+  <polygon points="430,130 580,40 730,130" fill="#5d6d7e"/>
+  <polygon points="580,40 552,68 608,68" fill="#fff"/>
+  <polygon points="650,130 760,55 870,130" fill="#85929e"/>
+</svg>
+
+<footer>
+  Gioco generato con amore, gaina e zero rispetto per il festeggiato.<br>
+  Vietato prendersela: chi se la prende fa penitenza doppia (sì Lollo, parliamo di te).
+</footer>
+
+<script>
+const SLICES = [
+  {
+    label: "GAINA! 🍺",
+    emoji: "🍺",
+    title: "GAINA!",
+    text: "Classico intramontabile: bevi un sorso di gaina. Se non hai la gaina in mano, bevine due per il disonore arrecato alla categoria.",
+    punch: "Lollo a lavoro la versa, nel tempo libero la onora. Coerenza professionale.",
+    btn: "AGLI ORDINI 🍻",
+    counter: "drinks"
+  },
+  {
+    label: "Modalità Cartman 🎤",
+    emoji: "🎤",
+    title: "Modalità Cartman",
+    text: "Per i prossimi 2 turni parli SOLO come Cartman di South Park. Ogni frase deve finire con «Respect my authoritah!». Se sgarri, gaina.",
+    punch: "Screw you guys, I'm going home. (No Lollo, tu resti qui e bevi.)",
+    btn: "AUTHORITAH! ✊",
+    counter: null
+  },
+  {
+    label: "Il Ghoster 👻",
+    emoji: "👻",
+    title: "Il Ghoster Colpisce Ancora",
+    text: "Lollo apre WhatsApp e mostra al gruppo l'ultima persona lasciata in visualizzato. Brindisi collettivo alla vittima. Riposi in pace (nella chat).",
+    punch: "È buono come il pane, ma sparisce come il pane a fine cena.",
+    btn: "F NEL CHAT 👻",
+    counter: "ghost"
+  },
+  {
+    label: "Maschio Alfa 🦍",
+    emoji: "🦍",
+    title: "Discorso da Maschio Alfa",
+    text: "30 secondi di monologo da coach della mascolinità: sveglia alle 5, doccia gelata, niente sentimenti, «le emozioni sono per i beta». Se ridi mentre lo fai (riderai), gaina.",
+    punch: "Lollo è alfa solo in ordine alfabetico, e neanche lì: la L sta a metà.",
+    btn: "GRINDSET 💪",
+    counter: null
+  },
+  {
+    label: "Nuova Fidanzata 💍",
+    emoji: "💍",
+    title: "Fidanzamento Lampo",
+    text: "Lollo è ufficialmente fidanzato con la persona alla sua destra per i prossimi 3 turni. Presentazioni ai genitori facoltative, delusione garantita.",
+    punch: "Statisticamente verrà tradito entro il secondo turno. Il banco vince sempre.",
+    btn: "LO VOGLIO 💘",
+    counter: "love"
+  },
+  {
+    label: "Corna Check 🦌",
+    emoji: "🦌",
+    title: "Minuto del Ricordo",
+    text: "Tutti in piedi, bicchiere alzato: «Alle ex di Lollo, che ce l'hanno fatta». Lollo beve in un dignitoso silenzio da reduce.",
+    punch: "Non è stato lasciato: è stato semplicemente sostituito con una versione più aggiornata.",
+    btn: "ONORE AI CADUTI 🫡",
+    counter: "drinks"
+  },
+  {
+    label: "Turno da Fischio 🍸",
+    emoji: "🍸",
+    title: "Turno Extra da Fischio",
+    text: "Scatta il turno non pagato: Lollo prepara o versa da bere a TUTTI come a lavoro. Mancia non pervenuta, lamentele al direttore.",
+    punch: "L'unico che esce dal lavoro e per rilassarsi... fa esattamente la stessa cosa.",
+    btn: "ARRIVO SUBITO 🏃",
+    counter: null
+  },
+  {
+    label: "L'Ingenuo 🐑",
+    emoji: "🐑",
+    title: "Test dell'Ingenuo",
+    text: "Chi ha girato racconta a Lollo una bugia PALESE. Se Lollo ci crede (ci crederà), bevono tutti alla sua salute. Se non ci crede, beve lui per l'arroganza.",
+    punch: "Win-win: l'unico gioco dove l'ingenuità di Lollo è una risorsa per la comunità.",
+    btn: "DAVVERO?? 😮",
+    counter: "drinks"
+  },
+  {
+    label: "Romanticone 💌",
+    emoji: "💌",
+    title: "Dichiarazione d'Amore",
+    text: "Lollo manda un vocale di dichiarazione d'amore (minimo 15 secondi, massimo trash) alla prima persona in rubrica che il gruppo sceglie. Il gruppo ascolta in vivavoce.",
+    punch: "Tanto tra due settimane sarebbe successo comunque, abbiamo solo accelerato i tempi.",
+    btn: "PER AMORE 💘",
+    counter: "love"
+  },
+  {
+    label: "69 Secondi 😏",
+    emoji: "😏",
+    title: "69 Secondi di Silenzio",
+    text: "Il gruppo osserva 69 secondi di silenzio (numero scelto a caso, giura) per tutte le relazioni di Lollo durate meno di un mese. Chi ride per primo beve.",
+    punch: "Il 69 è anche l'unica posizione in classifica che Lollo abbia mai raggiunto in amore.",
+    btn: "AMEN 🙏",
+    counter: null
+  },
+  {
+    label: "Tradimento! 🔪",
+    emoji: "🔪",
+    title: "TRADIMENTO!",
+    text: "Colpo di scena: la penitenza passa alla persona alla TUA sinistra, che beve al posto tuo. Come nelle relazioni di Lollo: paga sempre quello che non c'entra niente.",
+    punch: "Lollo non viene tradito: fa beta testing di coppie per conto terzi.",
+    btn: "PERCHÉ IO?! 😭",
+    counter: "drinks"
+  },
+  {
+    label: "JACKPOT 🎉",
+    emoji: "🎉",
+    title: "JACKPOT DEL FESTEGGIATO",
+    text: "TUTTI bevono gaina e cantano «Tanti auguri a Lollo» nello stile di Kenny di South Park (mmph mmph mmmmph). Chi stona è perdonato, chi non beve no.",
+    punch: "Oh my God, hanno festeggiato Lollo! Brutti bastardi!",
+    btn: "MMPH MMPH! 🎂",
+    counter: "drinks"
+  }
+];
+
+const COLORS = ["#e74c3c","#f39c12","#2ecc71","#3498db","#9b59b6","#e67e22",
+                "#1abc9c","#d35400","#27ae60","#8e44ad","#c0392b","#f1c40f"];
+
+const canvas = document.getElementById("wheel");
+const ctx = canvas.getContext("2d");
+const N = SLICES.length;
+const ARC = (2 * Math.PI) / N;
+let rotation = 0;       // rotazione corrente in radianti
+let spinning = false;
+
+const counters = { drinks: 0, love: 0, ghost: 0 };
+
+function drawWheel(rot) {
+  const cx = canvas.width / 2, cy = canvas.height / 2;
+  const r = canvas.width / 2 - 10;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.save();
+  ctx.translate(cx, cy);
+  ctx.rotate(rot);
+
+  for (let i = 0; i < N; i++) {
+    const start = i * ARC - Math.PI / 2 - ARC / 2;
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.arc(0, 0, r, start, start + ARC);
+    ctx.closePath();
+    ctx.fillStyle = COLORS[i % COLORS.length];
+    ctx.fill();
+    ctx.strokeStyle = "#ffffff";
+    ctx.lineWidth = 5;
+    ctx.stroke();
+
+    // etichetta
+    ctx.save();
+    ctx.rotate(start + ARC / 2);
+    ctx.textAlign = "right";
+    ctx.fillStyle = "#fff";
+    ctx.font = "bold 34px 'Comic Sans MS', sans-serif";
+    ctx.shadowColor = "rgba(0,0,0,.6)";
+    ctx.shadowBlur = 6;
+    ctx.fillText(SLICES[i].label, r - 26, 12);
+    ctx.restore();
+  }
+
+  // bordo esterno
+  ctx.beginPath();
+  ctx.arc(0, 0, r, 0, 2 * Math.PI);
+  ctx.lineWidth = 10;
+  ctx.strokeStyle = "#ffd900";
+  ctx.stroke();
+  ctx.restore();
+}
+
+function easeOutQuart(t) { return 1 - Math.pow(1 - t, 4); }
+
+function spin() {
+  if (spinning) return;
+  spinning = true;
+  document.getElementById("spinBtn").disabled = true;
+
+  const target = Math.floor(Math.random() * N);
+  // la fetta `target` deve finire sotto il puntatore (in alto):
+  // rotazione finale tale che target*ARC + rotation ≡ 0 (mod 2π)
+  const current = rotation % (2 * Math.PI);
+  const desired = (2 * Math.PI - target * ARC) % (2 * Math.PI);
+  let delta = desired - current;
+  if (delta < 0) delta += 2 * Math.PI;
+  const total = delta + (2 * Math.PI) * (5 + Math.floor(Math.random() * 3));
+
+  const startRot = rotation;
+  const duration = 4200;
+  const t0 = performance.now();
+
+  function frame(now) {
+    const t = Math.min((now - t0) / duration, 1);
+    rotation = startRot + total * easeOutQuart(t);
+    drawWheel(rotation);
+    if (t < 1) {
+      requestAnimationFrame(frame);
+    } else {
+      spinning = false;
+      document.getElementById("spinBtn").disabled = false;
+      showResult(SLICES[target]);
+    }
+  }
+  requestAnimationFrame(frame);
+}
+
+function showResult(slice) {
+  document.getElementById("rEmoji").textContent = slice.emoji;
+  document.getElementById("rTitle").textContent = slice.title;
+  document.getElementById("rText").textContent = slice.text;
+  document.getElementById("rPunch").textContent = slice.punch;
+  document.getElementById("closeBtn").textContent = slice.btn;
+  document.getElementById("overlay").classList.add("show");
+
+  if (slice.counter) {
+    counters[slice.counter]++;
+    document.getElementById("cDrinks").textContent = counters.drinks;
+    document.getElementById("cLove").textContent = counters.love;
+    document.getElementById("cGhost").textContent = counters.ghost;
+  }
+  confetti();
+}
+
+function confetti() {
+  const emojis = ["🍺","🎉","💍","👻","🦍","🍻","💘","😏"];
+  for (let i = 0; i < 24; i++) {
+    const el = document.createElement("div");
+    el.className = "confetti";
+    el.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+    el.style.left = Math.random() * 100 + "vw";
+    el.style.animationDuration = (2 + Math.random() * 2.5) + "s";
+    el.style.animationDelay = (Math.random() * .4) + "s";
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 5500);
+  }
+}
+
+document.getElementById("spinBtn").addEventListener("click", spin);
+document.getElementById("hub").addEventListener("click", spin);
+document.getElementById("closeBtn").addEventListener("click", () => {
+  document.getElementById("overlay").classList.remove("show");
+});
+
+drawWheel(rotation);
+</script>
+</body>
+</html>
