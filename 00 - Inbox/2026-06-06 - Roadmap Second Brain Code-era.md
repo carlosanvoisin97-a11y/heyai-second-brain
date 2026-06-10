@@ -1,10 +1,13 @@
 ---
 type: roadmap
 created: 2026-06-06
-updated: 2026-06-06
-status: proposta (in review)
+updated: 2026-06-10
+status: superseded — tutti i fronti F0-F7 chiusi al 10/6/2026; tracker corrente = handover 10/6
 tags: [system, second-brain, code-migration]
 ---
+
+> ✅ **CHIUSA 10/6/2026** — tutti i fronti F0–F7 sono stati completati e verificati (overnight + consolidamento 10/6). Questo file resta come record storico della pianificazione. **Lo stato corrente vive in** [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)]]. Non usare questo file come tracker.
+
 
 # 🗺️ Roadmap Second Brain — migrazione all'era Claude Code
 

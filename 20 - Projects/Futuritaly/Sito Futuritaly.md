@@ -6,7 +6,7 @@ client: FuturItaly
 parent_project: _Futuritaly
 stakeholders: [Lavinia Ferrari, Michele Mattucci]
 created: 2026-05-06
-updated: 2026-05-21
+updated: 2026-06-10
 next_call: 2026-05-22 mattina — call follow-up con il Communication strategist post-feedback Claudia
 pricing_en: 4600 EUR
 last_call_date: 2026-05-21
@@ -154,3 +154,15 @@ Status promosso `tbd → active`, priority `p3 → p2`. Progetto confermato atti
 - **Email Carlo → [[Lavinia Ferrari]]** (`ferrari@futuritaly.com`): recap stato website. Comunicato che Michele è ancora in attesa della documentazione mancante (come da sua ultima email forwardata sotto), di conseguenza siamo fermi anche per settare la call di confronto sul primo mockup. Proposto di segnarsi insieme delle deadline per traghettare meglio queste attività e assicurarci di rispettare la roadmap.
 - Status scheda promosso: `tbd → active`. Priority: `p3 → p2`.
 - Bozza email: [[2026-05-13 - Email Lavinia Recap Website e Osservatorio|Email 13/5]]
+
+
+## 🔄 Riconciliazione 10/6/2026 (sweep handover — il progetto era fermo nei tracker dal 26/5)
+
+> Lo sweep degli handover storici (10/6 sera) ha rilevato che questa scheda era ferma al 21/5 e i task NON comparivano in Open Tasks. I checkbox del 20-21/5 sopra sono in larga parte superati dall'iterazione del 21/5 (email "modifiche già implementate") — verifica puntuale alla prossima sessione sul progetto. Qui sotto i task VIVI ricostruiti dal Piano Azione 20/5 + recovery 28/5, ben formati per il PM Digest:
+
+- [ ] **#p1** Carlo: verificare su Outlook (gap digest 27/5→7/6) se da FuturItaly sono arrivati: foto ufficiali + lista keyword SEO (Expo, Draghi, candidatura olimpica) + risposte scritte di Claudia su case history PoC e naming CTA — se silenzio, sollecitare _da sweep 10/6, era Piano 20/5 WS2+§3_
+- [ ] **#p2** Carlo+Michele: produrre la **proposta modulare add-on AI** (pipeline LinkedIn↔sito, generazione AI post, profilazione contatti, analytics) gerarchizzata P1/P2/P3 — è l'upsell su cui poggia il pricing opzione C (€4.6K + moduli) _da sweep 10/6, era Piano 20/5 WS3_
+- [ ] **#p2** Carlo+Michele: **WS8 riuso codice sito Angelini** per FuturItaly (effetti 3D/animazioni) — il trigger "post pitch Angelini" è scattato il 5/6; avviato solo CompassScrollAnimation (26/5, repo ~/code/futuritaly-compass) _da sweep 10/6, era Piano 20/5 WS8_
+- [ ] **#p2** Carlo: decidere il **prossimo touchpoint con Claudia/Daniele sul sito** (la milestone "presentazione mockup avanzato a Claudia, inizio giugno" non è mai stata tracciata) + ricostruire lo stato delivery reale _da sweep 10/6, era Piano 20/5 §6_
+
+Nota recovery 28/5 (patch P2 mai applicata, ora recepita): componente **CompassScrollAnimation** consegnata a Michele il 26/5 per integrazione Hostinger.

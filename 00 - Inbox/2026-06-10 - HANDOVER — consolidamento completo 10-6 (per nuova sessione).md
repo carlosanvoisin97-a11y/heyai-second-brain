@@ -85,4 +85,11 @@ Sei la sessione che riprende il consolidamento del second brain HeyAI (vault ~/c
 
 ---
 
+## 7. Sweep finale handover storici (10/6 notte — ultimo atto)
+
+Verificati i **13 handover/piani storici** in Inbox (4 agenti, 161 item classificati): 151 completati/superati con evidenza, **10 recuperati**:
+- ✅ FATTI subito: atomic note [[KPI bombproof - output garantiti vs uplift da baseline]] (metodo dall'handover KPI 4/6, serve per il deck post-pitch Caterina) · archive 15 residui Angelini da Inbox (incluso l'"Audit Sito 3D vs Pitch" segnalato da Carlo — era in Inbox, non nel progetto; tenuto solo il Report Call 5/6) · Roadmap Code-era chiusa formalmente (status superseded + banner) · **scheda Sito Futuritaly riconciliata** (era un buco nero dal 26/5: 4 task vivi ricostruiti e ben formati per il PM Digest, nota CompassScrollAnimation recepita)
+- → A CARLO (aggiunti ai PUNTI APERTI #30-31): rotazione token LeadMe+SMB Eldis (OQ §SICUREZZA, senza marcatura) · verifiche Outlook + touchpoint Sito Futuritaly
+- Nota minore: la memory-dir `-Users-carlosanvoisin-Desktop-presentazioni-strategiche` è orfana del path rinominato — irrilevante, nessuna azione.
+
 > ✅ **Verificato da completeness critic indipendente (10/6 sera)**: ogni item delle 8 fonti del giorno è coperto (FATTO / coda §2 / punti Carlo §3 / verifiche §4). Zero buchi.

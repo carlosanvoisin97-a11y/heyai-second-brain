@@ -40,6 +40,11 @@ aliases: [Punti aperti 10-6, Decisioni Carlo post-consolidamento]
 22. **Drift minori** dal run contradictions (prosa Achipont/Wave 2 stale, canone Eldis nel Master, alias "AI Cookies" vs divieto §11): li sistemo tutti con un OK unico — sono allineamenti, non numeri nuovi.
 23. **Flag MOC** ×3 (dal run §MOC): Verrengia nel cluster NoLoop? · `Mappa Skill e Frammentazione AI` in §Sistema vault? · Achipont LOST: tenere con nota, togliere dal conteggio, o archiviare?
 
+### 🆕 Dallo sweep finale degli handover storici (10/6 sera)
+
+30. 🔐 **Token onboarding LeadMe (×2) + SMB path Eldis** esposti su Teams (OQ §SICUREZZA): risultano SENZA marcatura di rotazione (a differenza delle credenziali ruotate il 30/4). Più importante ora che abbiamo deciso NO filter-repo ("rotazione = unica mitigazione vera"): rotati o da rotare? → poi password manager.
+31. **Sito Futuritaly** (era fermo nei tracker dal 26/5 — riconciliato): verifica su Outlook se asset e risposte di Claudia sono arrivati nel gap digest (27/5→7/6), conferma se vuoi ancora la proposta add-on AI nella presentazione finale, e decidi il prossimo touchpoint con Claudia/Daniele. I task sono ora nella scheda → da domattina nel PM Digest.
+
 ## 🟢 Skill e strumenti — un OK e partono
 
 24. **PROPOSTA skill-strategy** ([[2026-06-10 - PROPOSTA skill-strategy (profilazione overnight)|file]]): variare 6 / dismettere 2 / 5 nuove (deck-iteration in testa). Anche per punti.
