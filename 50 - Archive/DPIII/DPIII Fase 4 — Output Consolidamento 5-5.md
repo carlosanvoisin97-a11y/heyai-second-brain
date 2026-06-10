@@ -2,7 +2,7 @@
 type: system
 created: 2026-05-05
 status: consolidamento concluso
-related_briefing: "[[99 - System/DPIII Fase 4 — Briefing per consolidamento]]"
+related_briefing: "[[50 - Archive/DPIII/DPIII Fase 4 — Briefing per consolidamento]]"
 ---
 
 # 📋 DPIII Fase 4 — Output sintetico consolidamento (5/5/2026)

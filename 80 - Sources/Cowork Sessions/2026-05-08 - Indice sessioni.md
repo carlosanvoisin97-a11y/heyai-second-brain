@@ -294,7 +294,7 @@ Patch chirurgica append-only — frontmatter `updated: 2026-05-08` confermato + 
 
 ⚠️ **Sistema scheduler — possibile bug**: PM Digest 7/5 ha avuto doppio run (8:02 + 8:57). Re-run no-op senza danno, ma fuori jitter 145s. Da monitorare nei prossimi 2-3 giorni.
 
-✅ **Patch SKILL `cowork-sessions-index` applicata 8/5/2026 sera via mcp__scheduled-tasks__update_scheduled_task** (cancellato alert originale) (doc in [[99 - System/Patch SKILL cowork-sessions-index 2026-05-07]]): questo run gira ancora con append-only puro come da SKILL originale. La patch sull'auto-reconcile checkboxes resta da applicare manualmente da Carlo (4 sostituzioni guidate, ~15 minuti).
+✅ **Patch SKILL `cowork-sessions-index` applicata 8/5/2026 sera via mcp__scheduled-tasks__update_scheduled_task** (cancellato alert originale) (doc in [[50 - Archive/System Patches/Patch SKILL cowork-sessions-index 2026-05-07]]): questo run gira ancora con append-only puro come da SKILL originale. La patch sull'auto-reconcile checkboxes resta da applicare manualmente da Carlo (4 sostituzioni guidate, ~15 minuti).
 
 ---
 

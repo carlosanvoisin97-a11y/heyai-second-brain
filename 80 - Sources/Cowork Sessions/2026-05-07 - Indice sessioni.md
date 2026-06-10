@@ -18,7 +18,7 @@ trigger: cron-13 (run 1 della giornata)
 - **CLAUDE.md — 3 nuove regole strutturali**: §10ter (pre-flight check apertura chat: Digest Log + indice sessioni Cowork giorno prec. + cross-reference prosa/checkbox), §10ter.1 (pre-flight per task di produzione: Glob su 90-Templates + 40-Resources + 80-Sources/Files + cartella progetto PRIMA di chiedere chiarimenti), §15.ter (reconcile checkboxes: ogni commit di prosa che chiude un task DEVE includere `[x]` checkbox nello stesso commit). Documentate in §14 entry 7/5.
 - **Template Proposta Investimento (90 - Templates) — versione 2 specifiche bloccanti**: A4 portrait, margini 2.12cm, font Aptos 11pt body / Acre Medium header corporate, palette navy/teal #074F6A (titolo+H1) / #156082 (H2), logo HeyAI 5.27×3.73cm, struttura 13 sezioni standardizzata. Logo estratto in [[40 - Resources/HeyAI_Logo_Header.png]]. 3 punti aperti tracciati come task per Carlo (footer/numerazione, fallback Acre, rigenerazione Achipoint v1).
 - **Batch reconciliation 11 task chiusi/annullati/riassegnati** su 8 schede progetto/area + cascata su 7 schede persona + 4 file di sistema. Tutti append puri, niente sovrascritto. `[x]` chiusi: 10 (Marco Merli AI, RL Wave 2, Email Justin, Push BAT, Carmen Compare, Fattura Massi, Aggiornamento Massi, Andrea Pazienza Achipont, Push fornitori 6/5, Quotazione Pasquali, Negoziazione Osservatorio, Proposta Achipont). `[-]` annullati: 4 (Mockup Michele 6/5, Review congiunta 6/5 sera, Rifinitura 7/5, Uscita proposta cliente Achipont mercoledì sera). 🔄 riassegnati: 2 (video grouping + chiusura feature Crowd → Federico).
-- **Patch SKILL `cowork-sessions-index` documentata** in [[99 - System/Patch SKILL cowork-sessions-index 2026-05-07]] (4 sostituzioni guidate per attivare il reconciliation automatico) — applicazione manuale a carico di Carlo (suo punto 0.2 di domani 8/5).
+- **Patch SKILL `cowork-sessions-index` documentata** in [[50 - Archive/System Patches/Patch SKILL cowork-sessions-index 2026-05-07]] (4 sostituzioni guidate per attivare il reconciliation automatico) — applicazione manuale a carico di Carlo (suo punto 0.2 di domani 8/5).
 - **Master Facts Sheet — riga Achipont aggiornata**: pricing modulare €38K/€45K cliente (vs precedente "€20K via Jakala" che era costo, non prezzo cliente).
 
 ## Sessione 1 — Review open tasks summary
@@ -59,8 +59,8 @@ trigger: cron-13 (run 1 della giornata)
 - 📋 Brief Sviluppatori Achipont uploaded: `HeyAI_Achipoint_Brief_Sviluppatori_def.docx` copiato in `20 - Projects/Achipont/`
 - 📝 Questionario Discovery Achipont uploaded: `HeyAI_Achipont_Questionario_Discovery_def.docx` copiato in `20 - Projects/Achipont/`
 - 🖼️ [HeyAI Logo Header](computer:///Users/carlosanvoisin/claude/40%20-%20Resources/HeyAI_Logo_Header.png) — logo corporate estratto dal file di riferimento (38.9 KB, 5.27×3.73cm)
-- 📑 [[99 - System/Patch SKILL cowork-sessions-index 2026-05-07]] — patch documentata per attivare reconciliation automatico (applicazione manuale a Carlo)
-- 📑 [[99 - System/Audit Claude Chats Estrazione 2026-05-07]] — audit collaterale su pipeline estrazione Claude Chats e schedulazione tasks
+- 📑 [[50 - Archive/System Patches/Patch SKILL cowork-sessions-index 2026-05-07]] — patch documentata per attivare reconciliation automatico (applicazione manuale a Carlo)
+- 📑 [[50 - Archive/System/Audit Claude Chats Estrazione 2026-05-07]] — audit collaterale su pipeline estrazione Claude Chats e schedulazione tasks
 - 📑 [[90 - Templates/Proposta Investimento]] — template versione 2 con specifiche layout bloccanti
 - 📑 File di riferimento layout caricato: `FuturItaly_Proposta_Osservatorio_def.docx` (70KB, archiviato come fonte ufficiale HeyAI per template proposte)
 
@@ -75,7 +75,7 @@ trigger: cron-13 (run 1 della giornata)
 ### Task emersi (per Carlo, 8/5/2026)
 
 - [ ] **#p1** Verifica a campione che gli edit di stasera siano append-only — aprire 2-3 file modificati e leggerli a colpo d'occhio (suo "punto 0.1") _da Sessione Cowork ab08bbda_
-- [ ] **#p1** Applicare manualmente la patch SKILL.md di `cowork-sessions-index` (4 sostituzioni guidate) — vedi [[99 - System/Patch SKILL cowork-sessions-index 2026-05-07]] (suo "punto 0.2") _da Sessione Cowork ab08bbda_
+- [ ] **#p1** Applicare manualmente la patch SKILL.md di `cowork-sessions-index` (4 sostituzioni guidate) — vedi [[50 - Archive/System Patches/Patch SKILL cowork-sessions-index 2026-05-07]] (suo "punto 0.2") _da Sessione Cowork ab08bbda_
 - [ ] **#p1** Decisione design template: footer (lasciare vuoto vs "Pag X di Y" vs paginazione + "Documento riservato — HeyAI S.r.l. — {data}") _da Sessione Cowork ab08bbda_
 - [ ] **#p1** Decisione design template: fallback font Acre Medium (Aptos? Calibri?) — verificare installazione font su sistemi che generano PDF _da Sessione Cowork ab08bbda_
 - [ ] **#p1** Decisione design template: rigenerare Proposta Achipoint v1 allineata al template versione 2 (13 sezioni vs attuale 12) prima dell'invio cliente o tenere v1 _da Sessione Cowork ab08bbda_
@@ -109,4 +109,4 @@ Nessuna persona o progetto nuovo emerso che richieda creazione di scheda. La ses
 ## Alert
 
 - ⚠️ **PM Digest non girato oggi 7/5** (segnalato dalla sessione e committato in [[99 - System/Digest Log]] e Open Question #34). Carlo deve triggerare manualmente dal pannello Scheduled.
-- ✅ **Patch SKILL cowork-sessions-index APPLICATA 8/5/2026 sera** via `mcp__scheduled-tasks__update_scheduled_task` da chat normale. Patch unificata 7/5+8/5: append + checkbox reconciliation + campi atomici estesi (deadline, stakeholders, last_call_date) + scope "mai creare schede" ristretto a project/person. Snapshot SKILL post-patch in [[99 - System/SKILL cowork-sessions-index POST-PATCH UNIFICATA]]. ~~Alert originale: "patch non applicata"~~ — superato.
+- ✅ **Patch SKILL cowork-sessions-index APPLICATA 8/5/2026 sera** via `mcp__scheduled-tasks__update_scheduled_task` da chat normale. Patch unificata 7/5+8/5: append + checkbox reconciliation + campi atomici estesi (deadline, stakeholders, last_call_date) + scope "mai creare schede" ristretto a project/person. Snapshot SKILL post-patch in [[50 - Archive/System Patches/SKILL cowork-sessions-index POST-PATCH UNIFICATA]]. ~~Alert originale: "patch non applicata"~~ — superato.
