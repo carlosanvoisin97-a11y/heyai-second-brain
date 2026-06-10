@@ -68,6 +68,15 @@ Pitch concluso 5/6 (esito soft-defer → workshop H2'26). Proposta di triage per
 - `website-builder-setup`: `mv ~/.claude/skills/website-builder-setup` → `~/.claude/skills-archive/website-builder-setup` (recupero: mv inverso)
 - `desktop-commander-guide`: 🔍 SKIP — non è una skill personale (è `desktop-commander:desktop-commander-overview`, plugin marketplace, non modificabile da noi). Se i trigger "hi/hello/help" disturbano: disabilitare il plugin, non patcharlo
 
+### Sessione pomeridiana 10/6 (~17:00) — pulizie autorizzate da Carlo + schede persona
+
+- `Angelini_Academy_Pitch_ABSTRACT.pptx` (11 MB, md5 `8be43dfc75f46dd90b1fc4513c4ac3e7`) → `cp` in `~/vault-trash-2026-06-10/pptx-angelini/` + `git rm` (OK Carlo)
+- Branch remoti stray POTATI (OK Carlo): `git push origin --delete claude/achipont-outlook-email-vqpfo8 claude/contract-concerns-federico-simone-1305ye` (0 commit unici ri-verificati)
+- `~/Desktop/_OBSIDIAN-VAULT` (37 file; 35 md5-identici a `_import-2026-06-06`) → `~/vault-trash-2026-06-10/desktop-OBSIDIAN-VAULT`. ⚠️ Conteneva 1 file unico `PM claude .txt` (64 char hex — **possibile token/chiave**): NON importato nel vault (sarebbe un secret nel repo), è nel trash — Carlo verifichi se è una chiave attiva → password manager
+- 11 cartelle Cowork legacy `~/Documents/Claude/Scheduled/*` → `~/vault-trash-2026-06-10/cowork-scheduled-legacy/` (runtime dismesso 9/6; path morto già flaggato dal sub-check consistency)
+- Grafia commercialista: **Verrengia** (conferma Carlo) — rename 2 file + 86 occorrenze in 20 file; citazioni stampa intatte (commit `5340d70b`±)
+- Schede persona: `Luciano (sistemista Eldis).md` → **rinominata** `Luciano Pecorella.md` (canonico Nome Cognome; era la stessa persona — check-duplicati §15.quinquies) + creata `Simona Velotta.md` (FMA)
+
 ### ⚠️ Nota operativa rilevata ~14:15 — terzo writer attivo
 
 Il plugin **Obsidian Git ha pushato in autonomia** gli 8 commit locali dei fix (Obsidian aperto, auto-sync ~10'). Nessun danno (commit validi, già destinati a main), ma la strategia "trattengo i push finché il run cloud non atterra" non regge col plugin attivo: il run cloud `vault-link-checker` (lanciato 13:55 circa) dovrà mergiare al push. Se il run fallisce il push → ri-trigger.
