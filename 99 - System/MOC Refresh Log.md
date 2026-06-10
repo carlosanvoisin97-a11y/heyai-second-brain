@@ -73,8 +73,8 @@ Run eseguito domenica 24/5 (slot cron sab 16:00 saltato — no entry log sab 23/
 
 Skippati per scelta Carlo (one-shot consumati nelle entry precedenti, NON ri-flaggare per evitare noise):
 - `[[20 - Projects/Futuritaly/FutureKids]]` (prospect, p3 — non in conteggio attivi)
-- `[[99 - System/Vault Architecture Audit 2026-05-13]]` (one-shot, non in §Sistema vault)
-- `[[99 - System/Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware]]` (one-shot)
+- `[[50 - Archive/Vault Audits/Vault Architecture Audit 2026-05-13]]` (one-shot, non in §Sistema vault)
+- `[[50 - Archive/System Patches/Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware]]` (one-shot)
 - `[[99 - System/MOC Refresh Log]]` (auto-generato, discrezionale)
 - `[[60 - People/Gabriella Airaghi]]` (decisione Carlo 15/5: tenere solo in `60 - People/`)
 
@@ -176,8 +176,8 @@ Nessuno. I 32 wikilink presenti nel MOC risolvono tutti a file esistenti (verifi
 **Nuovi system file non in MOC (4 file in `99 - System/` non citati in §Sistema vault):**
 - `[[99 - System/Digest Log]]` — log PM Digest (referenziato in CLAUDE.md §10ter ma assente dal MOC)
 - `[[99 - System/Workflow Delivery Soolutions]]` — guida workflow delivery Soolutions (referenziato in CLAUDE.md §8bis ma assente dal MOC)
-- `[[99 - System/Vault Architecture Audit 2026-05-13]]` — audit architettura vault del 13/5 (file nuovo, non ancora in MOC)
-- `[[99 - System/Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware]]` — nota patch vault-link-checker v4 (file nuovo, non ancora in MOC)
+- `[[50 - Archive/Vault Audits/Vault Architecture Audit 2026-05-13]]` — audit architettura vault del 13/5 (file nuovo, non ancora in MOC)
+- `[[50 - Archive/System Patches/Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware]]` — nota patch vault-link-checker v4 (file nuovo, non ancora in MOC)
 
 **Wikilink broken in MOC (2):**
 - `[[50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio)]]` — file NON trovato in `00 - Inbox/` (probabilmente archiviato o mai creato come file separato). Verificare se è in `50 - Archive/` o se il contenuto è stato assorbito in schede progetto.

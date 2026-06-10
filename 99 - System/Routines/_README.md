@@ -19,11 +19,11 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 
 | File                          | Cron (local)              | Tipo        | Connettori                              |
 | ----------------------------- | ------------------------- | ----------- | --------------------------------------- |
-| `vault-link-checker.md`       | `0 21 * * 0` (Dom 21)     | audit vault | nessuno                                 |
+| `vault-link-checker.md`       | `40 13 * * 0` UTC (Dom ~15:40 CEST) | audit vault | nessuno                                 |
 | `moc-refresh.md`              | `0 16 * * 6` (Sab 16)     | audit vault | nessuno                                 |
 | `system-consistency-check.md` | `30 7 * * 1` (Lun 7:30)   | audit vault | nessuno                                 |
 | `crm-velocity.md`             | `0 9 * * 1` (Lun 9)       | audit vault | nessuno                                 |
-| weekly-review-interactive.md` | `30 17 * * 6` (Sab 17:30) | prep doc    | nessuno                                 |
+| `weekly-review-interactive.md` | `0 15 * * 6` UTC (Sab ~17:00 CEST) | prep doc    | nessuno                                 |
 | `pm-digest-mattutino.md`      | `0 8 * * 1-5` (Lun-Ven 8) | digest      | **M365** (Outlook/cal/SharePoint/Teams) |
 | `radar-competitor.md`         | — **autorata, NON schedulata** | radar competitor/mercato → `99 - System/Radar/` (alimenta cockpit) | web pubblico |
 | `weekly-system-review.md` 🆕  | `30 16 * * 6` UTC (Sab ~18:30 CEST) | meta-loop F6: review del sistema → prep-doc `00 - Inbox/` | nessuno |
@@ -49,7 +49,7 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 ## Bridge locale = FAILOVER M365 (ri-armato 9/6/2026)
 
 - **PM Digest bridge** Code-locale (`~/.claude/scheduled-tasks/pm-digest-mattutino`): storia → creato 7/6 (cron `0 8`), disabilitato 7/6 (cloud subentrato), **ri-armato 9/6 come vero failover del Rischio #1**. Motivo: la routine cloud dipende dal token M365 e **Cowork è dismesso** → senza failover il digest sarebbe single-point-of-failure (se il token scade, non gira da nessuna parte).
-- Config failover: cron `30 9 * * 1-5` (**09:30, dopo il cloud delle 08:02**) + **guardia anti-doppione** nel SKILL (se la daily di oggi esiste già con sezione PM Digest → salta; gira solo se manca = cloud fallito). Best-effort (serve l'app Code aperta). Se anche M365 è giù, degrada a digest vault-only e lo segnala. _(Resta best-effort, non un failover garantito a Mac spento: per quello servirebbe un secondo runtime cloud.)_
+- Config failover: cron `30 9 * * 1-5` (**09:30, dopo il cloud delle 08:02**) + **guardia anti-doppione ESTESA 10/6** nel SKILL (salta solo se la daily di oggi è completa; se manca → digest completo; se degradata col banner M365 OFFLINE → integra le fonti live in append). Best-effort (serve l'app Code aperta). Se anche M365 è giù, degrada a digest vault-only e lo segnala. _(Resta best-effort, non un failover garantito a Mac spento: per quello servirebbe un secondo runtime cloud.)_
 
 ## Note
 - Sorgente originale (non più autoritativa): `~/Documents/Claude/Scheduled/<task>/SKILL.md` (scheduler Cowork).
@@ -112,7 +112,7 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 - ✅ **GitHub → Obsidian (pull)**: `79fc48a` tirato in Obsidian (merge `94007b6`), daily note nel working tree.
 - ✅ **Convergenza con writer paralleli**: Code (io) + claude.ai (Carlo) + cloud + plugin in parallelo → merge pulito, `local ≡ origin`. Chiude anche #7 (divergenza).
 
-🔴 **Regola permanente (F1)**: ogni file `99 - System/Routines/*.md` **DEVE** contenere `## Push finale` con `git push origin HEAD:main` (no branch, no PR). È lì che vive il fix #2. Non rimuoverla in edit futuri. _(7/6: anche i **5 prompt trigger cloud** sono stati resi espliciti uguale — "push su `main`, no branch/PR" — via `RemoteTrigger update` → **doppia barriera** file-routine + prompt-trigger; M365 di pm-digest preservato.)_
+🔴 **Regola permanente (F1)**: ogni file `99 - System/Routines/*.md` **DEVE** contenere `## Push finale` con la sequenza **pull→push→clean** (`git pull --rebase origin main` → `git push origin HEAD:main` → `git status --porcelain` pulito; patch 10/6 — il clean-check evita residui sull'outcome-branch `claude/*` del trigger). È lì che vive il fix #2. Non rimuoverla in edit futuri. _(7/6: anche i **5 prompt trigger cloud** sono stati resi espliciti uguale — "push su `main`, no branch/PR" — via `RemoteTrigger update` → **doppia barriera** file-routine + prompt-trigger; M365 di pm-digest preservato.)_
 
 **Restano (minori, non bloccanti):**
 - vault-link-checker ✅ **provata** (la mia run 7/6 ha prodotto l'audit `b23d1d8` su `main` → **2ª routine confermata**, audit no-M365 pilotata da Code via `RemoteTrigger run`; atterrata anche in Obsidian via pull). Restano crm-velocity, moc-refresh, weekly-review (pattern identico; `RemoteTrigger run` on-demand o al primo cron).
