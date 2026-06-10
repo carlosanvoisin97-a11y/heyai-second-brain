@@ -93,7 +93,7 @@ Le seguenti schede sono **fonti autoritative** post-call Silencio:
 - [[20 - Projects/Studio Murolo/PresidIa|PresidIa]] — target Carlo €35K (vs Silencio €50-55K), Confcommercio distributore primario
 - [[20 - Projects/Matteo Cosma/HoReCa|HoReCa]] — €30K Silencio fuori budget, opzione passaggio totale + rev share, vincolo go-live metà giugno 2026
 - [[60 - People/Danilo Piersanti (Silencio)]] — Co-founder, sconto 40%, note negoziali
-- [[60 - People/Luca (Silencio)]] (creata)
+- [[Luca (Silencio)]] (creata)
 - [[60 - People/Gabriele (freelance Silencio)]] (creata)
 - [[50 - Archive/Meetings/2026/2026-05-04 - Allineamento Preventivi Sviluppo AI Silencio|Call Silencio 4/5]] (minute)
 - [[30 - Areas/Area - Performance & Coaching/2026-05-04 - Carlo Performance — Call Silencio|Performance Carlo Silencio]] (retrospettiva)

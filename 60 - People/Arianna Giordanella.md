@@ -4,7 +4,8 @@ role: Segreteria Operativa
 company: NoLoop
 email: ariannagiordanella.consultant@noloop.eu
 created: 2026-04-30
-updated: 2026-05-12
+updated: 2026-06-10
+aliases: [Arianna]
 sources: [Organigramma NoLoop 17/03/2025, call Crowd Sessione Finale 12/5/2026]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-06 21:43 -->

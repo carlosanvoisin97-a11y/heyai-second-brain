@@ -2,6 +2,8 @@
 type: area
 owner: Carlo Sanvoisin (HeyAI) + Marco Merli (NoLoop)
 created: 2026-04-30
+updated: 2026-06-10
+aliases: [Area - Cybersecurity]
 ---
 
 # 🎯 Area — Cybersecurity & Compliance
