@@ -106,7 +106,7 @@ Se la sessione non ha prodotto fatti vault-worthy, non scrivere niente nel vault
 Quando crei una nuova scheda in `20 - Projects/` o `60 - People/`, propaga subito (stessa sessione, non a fine giornata) le info essenziali:
 
 - **Master Facts Sheet** (`99 - System/Master Facts Sheet.md`): aggiungi una riga sintetica nella sezione "💰 Pricing target altri progetti" (per progetti) o nella tabella cluster appropriata (per persone). Aggiorna `updated:` nel frontmatter.
-- **CLAUDE.md** (`CLAUDE.md`): se è un progetto attivo P1/P2, aggiungi riga in §6; se è una persona del cluster cliente/fornitore, aggiungi bullet in §7. Aggiorna `updated:` nel frontmatter.
+- **CLAUDE.md** (`CLAUDE.md`): per i progetti NESSUNA riga da aggiungere — il §6 è vista derivata (M1, 10/6): basta il frontmatter completo della nuova scheda (type/status/priority/client/owner). Se è una persona del cluster cliente/fornitore, aggiungi bullet in §7. Aggiorna `updated:` nel frontmatter.
 - **MOC - Home** (`99 - System/MOC - Home.md`): wikilink alla scheda con tag 🆕 per facilitare il prossimo audit.
 - **Open Questions** (`99 - System/Open Questions.md`): se la scheda apre dubbi non risolti (decision maker, scope, modello partnership), nuova entry numerata.
 

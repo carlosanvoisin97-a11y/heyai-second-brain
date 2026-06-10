@@ -2,6 +2,7 @@
 type: project
 status: lost
 priority: p2
+owner: Michele
 client: Achipont
 created: 2026-04-30
 updated: 2026-06-10

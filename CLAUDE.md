@@ -151,24 +151,12 @@ Hub navigazione: [[99 - System/MOC - Home]]. Fonte autoritativa numeri: [[99 - S
 
 Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Master Facts Sheet prima di citare numeri in chat o documenti.** Valori chiave P1: Wave 2 NoLoop €300K, NOT Operation Transformation €109K **(bozza emessa NON firmata + acconto pagato — rettifica 21/5/2026)**, NOT Eye Cookies €75K **(documento contrattuale MAI prodotto, approvazione commerciale email Donzelli 03/04 + acconto pagato — rettifica 21/5/2026)**. Valori chiave P2/P3 e quotazioni fornitori (Silencio, Jakala) → Master Facts Sheet. PDF 13/04 = fonte ufficiale per numeri Wave 2 (risparmio, payback, FTE, requisiti).
 
-## 6. Progetti attivi — snapshot (P1/P2)
+## 6. Progetti attivi — vista derivata (M1, 10/6/2026)
 
-> Per stato dettagliato e prossimo milestone vai sempre alla scheda. Questa tabella è solo overview di esistenza/priorità.
-
-| Progetto | Cliente | Owner | Priorità |
-|---|---|---|---|
-| [[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop\|Wave 2 NoLoop]] | NoLoop | Carlo | 🟢 P1 — €300K, contratto Longo in chiusura |
-| [[20 - Projects/NOT/Operation Transformation]] | NoLoop/NOT | Carlo | 🟢 P1 — €109K **bozza emessa non firmata + acconto pagato** _[21/5]_ |
-| [[20 - Projects/NOT/Eye Cookies]] | NoLoop/NOT | Carlo | 🟢 P1 — €75K **contratto mai prodotto + approvazione email + acconto pagato** _[21/5]_ |
-| [[20 - Projects/NOT/NOT Marketing - LinkedIn e Sito]] | NoLoop/NOT | Michele+Andrea | ✅ saldo fatturato |
-| [[20 - Projects/Studio Murolo/PresidIa\|PresidIa]] | Studio Murolo | Carlo | 🟡 P2 — race Silencio vs Jakala |
-| [[20 - Projects/Futuritaly/Osservatorio Strategico\|Osservatorio Futuritaly]] | Futuritaly | Michele | 🟢 P2 — €45K quotato (v2 19/5) |
-| [[20 - Projects/Futuritaly/Sito Futuritaly\|Sito Futuritaly]] | Futuritaly | Michele | 🟢 P2 — promosso 13/5 |
-| [[20 - Projects/Achipont/Achipoint\|Achipoint]] | Achipont | Michele | 🔴 LOST — proposta rifiutata 9/6 (tentativo recupero via Michele↔Gigi) |
-| [[20 - Projects/Eldis/Eldis Compilatore]] | Eldis Net | Carlo | 🟢 P2 — Builder evolutive |
-| [[20 - Projects/Matteo Cosma/HoReCa\|HoReCa]] | Matteo Cosma | Carlo | 🟢 P3 — early stage |
-| [[30 - Areas/Area - Partnership Fornitori/Jakala\|Jakala]] | Jakala (fornitore) | Carlo | 🟢 evaluating — allocazione 4 progetti |
-| [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy\|Angelini Academy]] | Angelini (via FuturItaly) | Carlo+Michele | 🟡 P2 — pitch 5/6 fatto, esito **soft-defer**: restyling+editoriale già a fornitore concorrente (gara feb→giu); apertura = workshop architettura H2'26 → build 2027 |
+> La tabella mantenuta a mano è stata RIMOSSA (era la prima fonte di drift: status/priorità/valori duplicati). Lo stato progetti vive nei **frontmatter delle schede** `20 - Projects/**` (`type: project`/`project-macro` — campi `status`, `priority`, `client`, `owner`, `updated`). Viste:
+> - **Umana (Obsidian)**: [[99 - System/Progetti Live.base|Progetti Live]] — P1 live · Tutti gli attivi · Persi/archiviati/prospect.
+> - **Agenti e routine (ricetta)**: `grep -rl -E 'type: project(-macro)?' "20 - Projects" --include='*.md'` → leggere i frontmatter; P1 = `priority: p1` + `status: active`. Valori economici → §5 / [[99 - System/Master Facts Sheet]]. Fornitori in valutazione (es. Jakala) → `30 - Areas/Area - Partnership Fornitori/`.
+> - **Regola (cascata §10bis)**: lo stato si aggiorna SOLO nel frontmatter della scheda — mai ricopiare elenchi qui. Task aperti per progetto → [[99 - System/Open Tasks]] (aggregati ogni mattina dal digest).
 
 ## 7. Persone chiave — decisori per progetto (lista completa in `60 - People/`)
 
@@ -296,7 +284,7 @@ Esistono **tre** runtime (cron + stato nella tabella §9). Implicazioni operativ
 
 ### 10bis. Cascata su nuove schede progetto/persona
 
-Quando crei una nuova scheda in `20 - Projects/` o `60 - People/`, propaga subito (stessa sessione) le info essenziali a **Master Facts Sheet**, **CLAUDE.md** (§6 se progetto P1/P2, §7 se persona cluster cliente/fornitore), **MOC - Home** (wikilink + tag 🆕), **Open Questions** (se apre dubbi non risolti). Senza cascata la scheda resta invisibile ai file di sistema e ogni nuova chat parte cieca su quel progetto/persona. **Procedura completa + check-duplicati-PRIMA-di-`Write`** nella skill `vault-live-protocol` §7 (la regola "`updated:` più recente vince" del §4 è una toppa, non sostituisce la cascata).
+Quando crei una nuova scheda in `20 - Projects/` o `60 - People/`, propaga subito (stessa sessione) le info essenziali a **Master Facts Sheet**, **CLAUDE.md** (progetti: NESSUNA riga da aggiungere — il §6 è vista derivata, basta il frontmatter completo della scheda: type/status/priority/client/owner; persone cluster cliente/fornitore: bullet in §7), **MOC - Home** (wikilink + tag 🆕), **Open Questions** (se apre dubbi non risolti). Senza cascata la scheda resta invisibile ai file di sistema e ogni nuova chat parte cieca su quel progetto/persona. **Procedura completa + check-duplicati-PRIMA-di-`Write`** nella skill `vault-live-protocol` §7 (la regola "`updated:` più recente vince" del §4 è una toppa, non sostituisce la cascata).
 
 ### 10ter. Pre-flight check di apertura chat
 

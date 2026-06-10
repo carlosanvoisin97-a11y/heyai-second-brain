@@ -2,6 +2,7 @@
 type: project
 status: active
 priority: p2
+owner: Carlo
 client: Eldis Net
 product: AI Product Catalogue
 created: 2026-04-30

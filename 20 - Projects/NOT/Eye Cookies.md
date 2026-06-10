@@ -2,6 +2,7 @@
 type: project
 status: active
 priority: p1
+owner: Carlo
 client: NoLoop
 created: 2026-04-30
 updated: 2026-06-10

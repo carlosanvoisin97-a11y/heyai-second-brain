@@ -2,6 +2,7 @@
 type: project
 status: active
 priority: p2
+owner: Michele
 client: Futuritaly (studio legale)
 created: 2026-04-30
 updated: 2026-06-09

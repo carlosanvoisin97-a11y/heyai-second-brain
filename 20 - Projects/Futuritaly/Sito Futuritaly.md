@@ -2,6 +2,7 @@
 type: project
 status: active
 priority: p2
+owner: Michele
 client: FuturItaly
 parent_project: _Futuritaly
 stakeholders: [Lavinia Ferrari, Michele Mattucci]

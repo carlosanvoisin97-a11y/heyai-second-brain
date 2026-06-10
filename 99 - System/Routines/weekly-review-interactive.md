@@ -17,7 +17,7 @@ CLAUDE.md §15 / §16 + ricerca best practices PKM 12/5/2026 raccomandazione #5.
 - Leggere il template `90 - Templates/Weekly Review.md` come base
 - Creare un nuovo file `00 - Inbox/YYYY-MM-DD - Weekly Review.md` (data = sabato del run, in caso di trigger manuale = oggi)
 - Pre-popolare sezione 1 (Inbox processing): lista dei file in `00 - Inbox/` con età >7gg, oggi - frontmatter `created:`
-- Pre-popolare sezione 2 (Project status sweep): lista progetti P1/P2 da CLAUDE.md §6 con `updated:` corrente e gap rispetto a oggi
+- Pre-popolare sezione 2 (Project status sweep): lista progetti P1/P2 DERIVATA dai frontmatter delle schede (ricetta CLAUDE.md §6, vista derivata M1) con `updated:` corrente e gap rispetto a oggi
 - Pre-popolare sezione 3 (Stakeholder scan): legge l'ultimo blocco `## 🔔 CRM warnings` della Daily Note più recente, lo embed nella sezione 3
 - Lasciare vuote sezioni 4 (3-question prompt) e 5 (Re-prioritization) — domande umane, agente non risponde a Carlo
 - Lasciare vuoto il blocco "Note libere / lessons settimana" — spazio Carlo
@@ -42,7 +42,7 @@ CLAUDE.md §15 / §16 + ricerca best practices PKM 12/5/2026 raccomandazione #5.
    - Filtra con età > 7gg
    - Popola tabella con titolo + età
 5. Pre-popola sezione 2 — Project status sweep:
-   - Leggi CLAUDE.md §6 (Progetti attivi P1/P2 snapshot)
+   - Deriva i progetti attivi P1/P2 dai frontmatter delle schede (ricetta in CLAUDE.md §6 — vista derivata M1)
    - Estrai link `[[Progetto]]` della tabella (alcuni in formato underscore-prefix con alias di display)
    - Per ognuno: apri scheda (ricorsivo sotto `20 - Projects/` perché schede in sottocartelle cliente post-refactoring 6/5), estrai frontmatter `updated:`, calcola età vs oggi
    - Popola tabella + flag se età >14gg

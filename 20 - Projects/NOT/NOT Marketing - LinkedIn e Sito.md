@@ -2,6 +2,7 @@
 type: project
 status: closing
 priority: p3
+owner: Michele + Andrea
 client: NoLoop / NOT
 created: 2026-04-30
 stakeholders: [Michele Mattucci, Andrea Pazienza]

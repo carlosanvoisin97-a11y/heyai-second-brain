@@ -1,10 +1,12 @@
 filters:
   and:
     - file.inFolder("20 - Projects")
-    - type == "project"
+    - or:
+        - type == "project"
+        - type == "project-macro"
 formulas:
   giorni_fermo: (now() - file.mtime).days
-  stato_icon: if(status == "active", "🟢", if(status == "lost", "🔴", if(status == "archived", "📦", "⚪")))
+  stato_icon: if(status == "active", "🟢", if(status == "lost", "🔴", if(status == "closing", "🟦", if(status == "archived", "📦", "⚪"))))
 properties:
   formula.stato_icon:
     displayName: ""
@@ -12,6 +14,8 @@ properties:
     displayName: Priorità
   client:
     displayName: Cliente
+  owner:
+    displayName: Owner
   updated:
     displayName: Aggiornata
   formula.giorni_fermo:
@@ -27,13 +31,16 @@ views:
       - formula.stato_icon
       - file.name
       - client
+      - owner
       - updated
       - formula.giorni_fermo
   - type: table
     name: Tutti gli attivi
     filters:
       and:
-        - status == "active"
+        - or:
+            - status == "active"
+            - status == "closing"
     groupBy:
       property: client
       direction: ASC
@@ -41,16 +48,19 @@ views:
       - formula.stato_icon
       - file.name
       - priority
+      - owner
       - updated
       - formula.giorni_fermo
   - type: table
-    name: Persi / archiviati
+    name: Persi / archiviati / prospect
     filters:
       or:
         - status == "lost"
         - status == "archived"
+        - status == "prospect"
     order:
       - formula.stato_icon
       - file.name
       - client
+      - owner
       - updated

@@ -2,6 +2,7 @@
 type: project-macro
 status: closing
 priority: p2
+owner: Carlo
 client: NoLoop
 created: 2026-05-06
 updated: 2026-05-21

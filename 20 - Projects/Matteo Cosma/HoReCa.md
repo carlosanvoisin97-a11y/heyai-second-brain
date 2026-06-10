@@ -2,6 +2,7 @@
 type: project
 status: active
 priority: p3
+owner: Carlo
 client: Matteo Cosma (privato, prezzo di favore)
 created: 2026-04-30
 updated: 2026-05-13

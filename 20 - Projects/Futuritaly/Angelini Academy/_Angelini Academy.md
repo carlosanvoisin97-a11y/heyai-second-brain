@@ -2,6 +2,7 @@
 type: project
 status: active
 priority: p2
+owner: Carlo + Michele
 client: Angelini Academy (via FuturItaly)
 aliases:
   - Angelini Academy
