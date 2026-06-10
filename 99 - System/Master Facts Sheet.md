@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-10
 status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta Angelini Academy 6/5/2026 + Osservatorio v2 €45K 19/5/2026 + preventivo Soolutions Osservatorio RIDOTTO 21/5/2026 + pitch Angelini soft-defer 5/6/2026)
 ---
 
@@ -139,8 +139,8 @@ status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta A
 |---|---|---|
 | Eye Cookies | **€75.000** | ⚠️ Approvazione commerciale via email 03/04 — contratto documentale **MAI prodotto** (rettifica 21/5). Acconto incassato. **Costo fornitore €36K** (Carlo 7/6) → margine **€39K / cost-ratio 48%** ✅ entro §2.2 |
 | Operation Transformation | **€109.000** | ⚠️ Contratto emesso da HeyAI, **NON firmato né riscontrato** da Donzelli (rettifica 21/5). Acconto incassato. **Costo fornitore Soolutions €55K** (bozza OE 8/6, NON firmata) → margine **€54K / cost-ratio 50%** ✅ entro §2.2. Review pre-firma → [[2026-06-08 - Review Contratto Quadro + OE Soolutions]] |
-| Eldis canone | €130/mese (proposto) | ⚠️ NON ancora validato dal cliente |
-| PresidIa | **€55K+ Full Ownership** O **€44K Revenue Share** _(prov. 7/6, NON definitivo; ex €40K)_ | In negoziazione · costo Jakala **€27K** (prov., ex €25K) |
+| Eldis canone | €130/mese (proposto) | presentato 22/5 (PDF Servizi); in rimodulazione — cliente valuta self-host su VM ONCE/Eldis (call 9/6) |
+| PresidIa | **€55K+ Full Ownership** O **€44K Revenue Share** _(✅ confermato Carlo 10/6; ex €40K)_ | In negoziazione · costo fornitore rif. **€27K** _(✅ confermato 10/6; ex €25K — era quotazione Jakala; orientamento Carlo 10/6: **NON usare Jakala**, asse Silencio/Aegiscore in attesa conferme progetti)_ |
 | Futuritaly Osservatorio AI | **€45.000 (v2 19/5/2026)** | ✅ Quotato in proposta v2. Costo fornitore Aegiscore €20K (44.4% ✅ sano), markup 2.25x, margine €25K. Mantenuti €58K valore mercato standalone come ancoraggio + partnership 15% rev share + clausola riallineamento €58K se no partnership + change of control 12%/€50K retroattiva 18 mesi. **§8.5 nuova**: math business case dual-use (efficienza interna €12-14K/anno + ricavi commercializzazione tenant €5-18K anno 1 / €10-54K anno 2 → payback 14-20 mesi). Tranche 45/30/25. Skill `investment-proposal-drafting` applicata (margini 2.5/2.0, footer dati legali + ornamento, Aptos 11pt override inline, 0 nomi fornitori, 0 nomi+cognome HeyAI interni). Storico: ~~€14K+€7.846 (30/4 obsoleto)~~ → ~~€26K Reference (modello licenza)~~ → ~~€38K FINAL_1 (no ROI esplicito)~~ → **€45K v2**. Vedi [[20 - Projects/Futuritaly/Osservatorio Strategico\|Osservatorio]] · [HeyAI_Futuritaly_Proposta_Osservatorio_v2.docx](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/Futuritaly/HeyAI_Futuritaly_Proposta_Osservatorio_v2.docx) |
 | HoReCa | **€25K target massimo** | ⚠️ Budget basso vs complessità, in lavorazione fornitori |
 | Achipont | **€43K MVP Essenziale / €50K MVP Completo** (cliente finale post-sconto, listino €48K/€55K · sconto commerciale dedicato −€5K). Saving Pacchetto Completo vs acquisto Essenziale + 2 opzionali separate = **€4.000**. Costo HeyAI per fornitore: Soolutions €10K + €5.6K opz = €15.6K (23% Ess / 31% Completo ✅ ottimo); Silencio/Aegiscore €18K MVP + ~€10K opz stima = €28K (42% Ess / 56% Completo ⚠️ borderline su Completo); Jakala €26-28K (60-65% Ess ⚠️/❌, 72-84% Completo ❌ fuori policy). **Decisione fornitore**: Soolutions = scelta strategicamente naturale; Silencio = OK su Essenziale, rischio su Completo; Jakala = strutturalmente fuori policy su Achipont — vendere solo Essenziale se Jakala. | ✅ **Proposta 15-5-26 + Business Case 15-5-26 + Requirement Log 15-5-26** prodotti 15/5/2026 sera, nomi file con data anziché versioning. Skill `investment-proposal-drafting` applicata (header logo + dati legali, footer bordo #156082 + dati legali, Aptos 11pt body con override inline, callout #E8F4F6 per beneficio annuo). Tabella prezzi con sconto commerciale visibile (listino → sconto → cliente finale). Opzionali consolidate da 4 a 2 ("Notifiche e aggiornamento automatico" €8K + "Reportistica di sintesi periodica" €3K, no overlap concettuale). Fase 2 invariata (C €18-22K, D €15-18K, ADR €6-8K) — coerente con regola % post-revisione. Business Case (investimento €50K): dual-component Cost Avoidance €23K + Revenue Uplift €13.5-32.2K per scenario, 3 scenari + sensitivity. Audit 44/44 check ✅. **NON ANCORA INVIATI** in attesa decisione fornitore Carlo. · **❌ ESITO 9/6: proposta inviata 22/5 e RIFIUTATA dal cliente → progetto `lost`** (tentativo recupero relazionale via Michele↔Gigi; conferma Carlo 9/6). Vedi [[Achipoint]] |
@@ -166,7 +166,7 @@ status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta A
 |---|---|---|---|---|
 | Osservatorio Futuritaly | **€20K** (in lead da 15/5) | €32K (bundle €50K se anche Achipoint) | **€21.8K MVP / €25.3K +team / €42.4K full / range €14-69K modulare** | €45K (proposta v2) |
 | Achipont | €18K MVP (~€28K +opz) | €30K | €10K MVP + €5.6K opz = €15.6K | €43K Ess / €50K Compl |
-| PresidIA | €35K target | €25K ✅ | n/a | €55K Full / €44K RevShare |
+| PresidIA | €35K target | €27K _(allineato 10/6, ex €25K)_ | n/a | €55K Full / €44K RevShare |
 | HoReCa | €27K (bundle) | fuori scope (altra BU) | n/a (passato a F/S) | €25K |
 
 **Lead fornitore Osservatorio (status 21/5/2026)**: Silencio/Aegiscore €20K resta in lead da decisione interna Carlo+Michele 15/5, ma Soolutions ora ha base numerica per riaprire il confronto (gap +€1.8K = -7% margine HeyAI, dentro policy 50%). Decisione finale post-lavoro Carlo sulla quotazione Soolutions. Vedi [[20 - Projects/Futuritaly/Osservatorio Strategico|Osservatorio]] §Log 21/5.
@@ -177,7 +177,7 @@ status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta A
 |---|---|---|---|
 | Osservatorio Futuritaly | €20K | **€35K** ⚠️ (target rebalance €28K) | €42K |
 | Achipont (Modulo A) | €20K | **€15K** (post-rebalance €22K) | €45K |
-| PresidIA | €35K target | **€25K** ✅ | €55K Full / €44K RevShare |
+| PresidIA | €35K target | **€27K** _(allineato 10/6)_ | €55K Full / €44K RevShare |
 | HoReCa | n/a (passato a F/S) | fuori scope (altra BU) | €25K |
 
 **Pacchetto Jakala finale**: 35+25+15 = €75K. Allocazione squilibrata (margine concentrato su Achipont 85% probabilità, drenato su Osservatorio 95%).

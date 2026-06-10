@@ -4,7 +4,7 @@ status: active
 priority: p2
 client: Studio Murolo
 created: 2026-04-30
-updated: 2026-06-07
+updated: 2026-06-10
 stakeholders: [Marco Murolo, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-15 20:22 (cron-22) | source-session: local_9912ed2f-67e2-4965-a04a-d6fc60b841e4 | source-lastActive: 2026-05-15 pomeriggio -->
@@ -26,7 +26,7 @@ stakeholders: [Marco Murolo, Danilo Piersanti (Silencio), Luca (Silencio), Andre
 
 Carlo vuole vendere a:
 - **€55.000+ in Full Ownership** (scope completo, IP a HeyAI)
-- **€40.000 in Revenue Share** (alternativa con royalty)
+- **€44.000 in Revenue Share** (alternativa con royalty) _(✅ confermato Carlo 10/6; ex €40K)_
 
 ## 🎯 Stato negoziazione fornitore _[call 4/5/2026]_
 

@@ -1,9 +1,11 @@
 ---
 type: system
 created: 2026-04-30
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
+> **Decisioni di sistema 10/6/2026 (sera)**: (1) **History git: NO filter-repo** (decisione delegata a Claude, motivata): riscrivere la history forzerebbe re-clone/re-sync di 3 writer attivi (routine cloud, plugin Obsidian, sessioni Code) con rischio operativo > beneficio — il repo è privato, i segreti storici sono redatti nelle versioni vive e i token esposti vanno comunque trattati come compromessi (rotazione = unica mitigazione vera, vedi §Sicurezza). Rivalutare solo se il repo diventasse condiviso. (2) **Architettura GitHub + routine cloud CONFERMATA definitiva da Carlo** — la "versione semplice" (locale + backup) è archiviata.
+>
 > **Cleanup 14/5/2026**: archiviate 27 domande risolte (#1-#18 + #20-#28) in [[50 - Archive/System/Open Questions Archive 2026-04-05|Open Questions Archive 2026-04-05]]. In vivo restano solo le domande con follow-up attivo: #19 + #29 (IP Soolutions, workflow Longo aperto), #31-#33 (Angelini Academy) + sezione 🔐 SICUREZZA. #34 (scheduler drift) chiusa 10/6 — superata da F1/F3. Risposte storiche preservate verbatim in archive per consultazione.
 >
 > **Aggiornamento 7/5/2026 (sera)** — Aperta **#34** sullo scheduler Cowork che non ha eseguito i task ricorrenti di oggi (`pm-digest-mattutino` 8:02 e `cowork-sessions-index` 13:07).
@@ -69,7 +71,9 @@ Cascata applicata: aliases `emails_historical` aggiunti alle schede [[Federico S
 - **🆕 9/6/2026 — Perimetro cessione IP chiarito (call "Allineamento fatture")**: la cessione IP è **circoscritta**. Soolutions cede l'IP di **tutto l'ecosistema gestionale 100% custom** (frontend/backend/bridge/integrazioni/automazioni) ma **esclude i modelli AI** (predittivi matematici + riconoscimento immagine) perché basati su componenti open-source/pre-esistenti riusati → non cedibili. **Mitigante**: il modello trainato è consegnato al cliente con **uso illimitato e a vita** + ritrainabile in autonomia; lock-in solo sull'**evolutivo** (nuova tipologia merceologica = modello nuovo a pagamento, Soolutions o terzo). Cessione IP dell'ecosistema **al saldo dell'ultima tranche**, da riportare in fattura + contratto. **Pendente**: Federico/Simone devono produrre la **lista delle componenti terze non cedibili** per Carlo (interfaccia con cliente). Dettaglio → [[20 - Projects/NOT/Operation Transformation]] §Log 9/6.
 - **🆕 9/6/2026 (team interno) — Condizione vincolante HeyAI sul lock-in modelli**: il rischio di lock-in è **di HeyAI, non di NoLoop** (il cliente è di HeyAI). Bruno pone come **sine qua non** che Soolutions consegni, oltre al codice sorgente, la **specifica del modello/LLM base** e le **spec tecniche per il retraining**, così che un terzo sviluppatore competente possa ritrainare il modello se HeyAI cessasse il rapporto con Soolutions. **Azione**: Carlo formalizza la condizione via email a Soolutions e attende conferma scritta. Da riflettere anche nel contratto cliente (OT modificabile, Eye Cookies da creare ex novo). Dettaglio → [[20 - Projects/NOT/Operation Transformation]] §Log 9/6 pom.
 
-### 36. 🔴 Identità reale di "Paolo Verrengia" — verifica background (match stampa da RIFARE con grafia corretta)
+### 36. ✅ Identità di Paolo Verrengia — CHIUSA _(conferma Carlo 10/6/2026)_
+
+> ✅ **CHIUSA 10/6/2026**: Carlo ha completato la due diligence e conferma che **è la persona giusta**; i **documenti sono già stati inviati** (l'invio non è più sospeso). Il match coi procedimenti 2011/2017 era sull'omografo "Verrangia" (grafia errata) — non si applica. Restano sotto osservazione ordinaria solo le anomalie minori (email gmail). Storico sotto preservato.
 
 > 🔄 **Nota grafia 10/6/2026 (conferma Carlo): il cognome corretto è VERRENGIA (con la E)** — scheda e vault bonificati. Le citazioni "Verrangia" qui sotto si riferiscono agli articoli di stampa 2011/2017 e sono lasciate invariate: con la grafia corretta il match anagrafico coi procedimenti penali NON è più automatico (possibile omografo di terzi). Le verifiche 1-4 vanno ripetute su "Paolo Verrengia"; restano valide e indipendenti le red flag email gmail + "VSign Srl" non riscontrabile.
 
@@ -93,7 +97,7 @@ Da chiarire/decidere:
 6. **Cosa mandare a Verrengia anche se confermato**: i contratti integrali (rischio di breach Art. 15 Wave 1 / Art. 12.5 Wave 2) o solo la scheda tecnica di sintesi (esposizione minimizzata)?
 7. **Strategia di comunicazione interna a HeyAI**: chi sa che HeyAI ha questa informazione (per ora solo Carlo + vault) — meglio mantenere riservato finché la verifica non chiude
 
-Implicazione strategica: l'invio dei 3 documenti a Verrengia è **SOSPESO** finché non si chiude la verifica via Roberta + ODCEC + CCIAA.
+Implicazione strategica: ~~l'invio dei 3 documenti a Verrengia è **SOSPESO**~~ → superato: verifica chiusa e documenti inviati (10/6).
 
 Riferimenti vault: [[60 - People/Paolo Verrengia (commercialista NoLoop)]] §"Due diligence 21/5/2026".
 

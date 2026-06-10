@@ -3,7 +3,7 @@ type: client
 status: active
 priority: p2
 created: 2026-05-06
-updated: 2026-05-14
+updated: 2026-06-10
 aliases:
   - Studio Murolo
 ---
@@ -14,7 +14,7 @@ aliases:
 
 ## Progetti attivi
 
-- [[PresidIa]] — target €55K Full Ownership O €40K Revenue Share, in negoziazione fornitori (Silencio vs Jakala)
+- [[PresidIa]] — target €55K Full Ownership O **€44K** Revenue Share _(confermato 10/6)_, fornitore in definizione su asse Silencio/Aegiscore (orientamento 10/6: non Jakala)
 
 ## Stakeholder
 

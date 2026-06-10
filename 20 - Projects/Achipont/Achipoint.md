@@ -4,7 +4,7 @@ status: lost
 priority: p2
 client: Achipont
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-10
 stakeholders: [Luigi (Achipont), Michele Mattucci, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali]
 aliases: [Achipoint, _Achipont]
 ---
@@ -22,7 +22,7 @@ Il nome corretto è **Achipont** (non "Achipoint" come avevo ipotizzato inizialm
 
 ## Stato
 
-- **Status**: 🟢 Active — **Proposta 15-5-26 + Business Case 15-5-26 + Requirement Log 15-5-26** prodotti 15/5 sera (pricing definitivo con sconto commerciale visibile + opzionali consolidate 4→2). **Decisione fornitore**: Achipont va a Soolutions (call Carlo+Michele 15/5 pomeriggio). **Invio previsto lunedì 18/5** (Michele rilegge nel weekend, Carlo rifinisce margini evolutive)
+- **Status**: 🟢 Active — **Proposta 15-5-26 + Business Case 15-5-26 + Requirement Log 15-5-26** prodotti 15/5 sera (pricing definitivo con sconto commerciale visibile + opzionali consolidate 4→2). **Decisione fornitore**: Achipont va a Soolutions (call Carlo+Michele 15/5 pomeriggio). **Invio previsto lunedì 18/5** (Michele rilegge nel weekend, Carlo rifinisce margini evolutive) → ⚠️ _questa riga riflette lo stato 15/5_: proposta inviata, poi **🔴 RIFIUTATA 9/6 → status: lost** (tentativo recupero via Michele↔Gigi; vedi frontmatter + CLAUDE.md §6)
 - **Cliente**: Achipont S.r.l. (Roma, P.IVA 05748201000, Via della Magliana 1090; fondata 7/4/1999)
 - **Owner interno HeyAI**: [[Michele Mattucci]]
 - **Fornitore in lead**: **Soolutions** (Federico/Simone) — decisione Carlo 15/5 pomeriggio. Pasquali troppo caro (€30K vs €10K Soolutions + €5.6K opz), Silencio €18K possibile leva tattica su PresidIA

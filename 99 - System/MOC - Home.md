@@ -39,7 +39,7 @@ Dashboard principale del vault. Punto di ingresso per navigare tutto.
 
 ## Aree di lavoro
 
-### 🚀 Progetti attivi (12 totali)
+### 🚀 Progetti attivi (11 totali + 1 lost)
 
 **Cluster NoLoop — Wave 2 + NOT (5 progetti):** _Cluster overview: [[20 - Projects/NoLoop/_NoLoop|NoLoop]] · [[20 - Projects/NoLoop/Wave 1/_Wave 1 NoLoop|Wave 1 NoLoop]] (storico, 4 moduli SaaS in produzione)_
 - [[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]] — Bundle **€300K** (8 moduli confermati, contratto in firma, kickoff 29/04 ✅)
@@ -56,7 +56,7 @@ Dashboard principale del vault. Punto di ingresso per navigare tutto.
 - [[20 - Projects/Futuritaly/Osservatorio Strategico|Futuritaly Osservatorio]] — Studio avvocati, Osservatorio AI in negoziazione, mockup 2/5
 - [[20 - Projects/Futuritaly/Sito Futuritaly|Sito Futuritaly]] 🆕 — Sito istituzionale FuturItaly, promosso a P2 il 13/5/2026 (owner Michele)
 - [[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|Angelini Academy]] 🆕 — Sito Angelini Academy via FuturItaly (Elena Chiti Key Account), gara competitiva, Q&A 8/5
-- [[20 - Projects/Achipont/Achipoint|Achipont]] — Edilizia Roma, Compilatore Bandi → outsourcing Jakala €20K · 🆕 Proposta v1 + Requirement Log v1 prodotti 7/5 (€38K MVP Essenziale / €45K MVP Completo)
+- [[20 - Projects/Achipont/Achipoint|Achipont]] — 🔴 **LOST 9/6** (proposta rifiutata; tentativo recupero Michele↔Gigi) — Edilizia Roma, Compilatore Bandi · storico: proposta v3 via Soolutions
 - [[20 - Projects/Matteo Cosma/HoReCa|HoReCa]] — Piattaforma annunci HoReCa (referente: [[Matteo Cosma]] come cliente privato, **non** in qualità di dipendente NoLoop), target **€25K** (budget basso vs complessità)
 - [[30 - Areas/Area - Partnership Fornitori/_Area - Partnership Fornitori|Area Partnership Fornitori]] · [[30 - Areas/Area - Partnership Fornitori/Jakala|Jakala]] — Fornitore HeyAI per 3 progetti (€85K totali) · [[30 - Areas/Area - Partnership Fornitori/Aegiscore|Aegiscore]] (Luca Fratini, parte tecnica bundle Silencio) · [[30 - Areas/Area - Partnership Fornitori/LinkedIn Sales Navigator NoLoop|LinkedIn Sales Navigator NoLoop]] 🆕 (SaaS gestito per cliente, contratto 3 anni €30K)
 
@@ -93,7 +93,7 @@ Dashboard principale del vault. Punto di ingresso per navigare tutto.
 📚 [[20 - Projects/NoLoop/_NoLoop|NoLoop]] — Profilo cliente completo con organigramma reale
 
 - **Co-founder**: [[60 - People/Laura Garbarino]] · [[60 - People/Chicco Nobili]] 🆕
-- **Amministrativo**: [[60 - People/Paolo Donzelli]] (CFO) · [[60 - People/Roberta Calajò]] (Resp. Controllo) · [[60 - People/Marco Merli]] (ESG/GDPR) · [[60 - People/Elisa Remigi]] (BC) · [[60 - People/Davide Settembrini]] 🆕 (Legal interno, rilevante contratti Wave 2/NOT/Eye Cookies)
+- **Amministrativo**: [[60 - People/Paolo Donzelli]] (CFO) · [[60 - People/Roberta Calajò]] (Resp. Controllo) · [[60 - People/Marco Merli]] (ESG/GDPR) · [[60 - People/Elisa Remigi]] (BC) · [[60 - People/Davide Settembrini]] 🆕 (Legal interno, rilevante contratti Wave 2/NOT/Eye Cookies) · [[60 - People/Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]] 🆕 (commercialista esterno, audit fiscale agevolazioni Wave 1/2 — identità confermata 10/6)
 - **Sales Director (4)**: [[60 - People/Laura Zaghi]] · [[60 - People/Luca Candiani]] · Barbara Bresciani · Laura Ronzi
 - **Commerciale NB**: [[60 - People/Simona Marani]] (champion LeadMe) · [[60 - People/Matteo Cosma]] · [[60 - People/Ilia Gardelli]] (manager 2026)
 - **NOT On Trade (Massi MD)**: [[60 - People/Massi Sinigaglia]] · [[60 - People/Justin Lauro]] · [[60 - People/Laila El Zieny]] 🆕 · [[60 - People/Carmen Compare]] 🆕 (Data Analyst NOT — SME modello dati Operation Transformation)
@@ -151,6 +151,7 @@ Cartella `40 - Resources/Concetti/` — knowledge operativo riusabile (pattern d
 
 ## 🔧 Sistema vault — file di setup e log
 
+- [[99 - System/Mappa Skill e Frammentazione AI]] — mappa dei sistemi AI e di dove vivono le skill (quale strumento sa cosa)
 - [[99 - System/Cowork Sessions Log]] — log aggregato delle sessioni Cowork (popolato dal task `cowork-sessions-index`)
 - [[99 - System/Digest Log]] 🆕 — log delle run del task `pm-digest-mattutino` (referenziato in CLAUDE.md §10ter pre-flight check)
 - [[80 - Sources/Cowork Sessions/Index Cowork Sessions]] — indice navigabile delle sessioni per data

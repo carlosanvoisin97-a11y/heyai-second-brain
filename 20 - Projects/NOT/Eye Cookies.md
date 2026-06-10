@@ -4,11 +4,11 @@ status: active
 priority: p1
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-10
 deadline: 2026-09-01
 contract_status: non_prodotto
 stakeholders: [Massi Sinigaglia, Germano Marano]
-aliases: [Eye Cookies, AI Cookies]
+aliases: [Eye Cookies, Eye Cook]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-24 20:22 (cron-22) | source-session: local_813cdef7-99cd-4c87-9cf5-3f236036efa5 | source-lastActive: 2026-05-22 notte -->
 <!-- auto-updated by cowork-sessions-index 2026-05-22 20:22 (cron-22) | source-session: local_972c4d6a-07a7-4781-a853-468093d6a858 | source-lastActive: 2026-05-22 -->

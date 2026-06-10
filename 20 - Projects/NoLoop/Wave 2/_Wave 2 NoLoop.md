@@ -25,9 +25,9 @@ stakeholders: [Marco Merli, Marco Longo (Morbinati & Longo), Paolo Donzelli, Mas
 
 ## Stato
 
-- **Status**: 🟢 Active — bozza contratto attesa avvocato giovedì **7 maggio 2026**
+- **Status**: 🟢 Active — bozza contratto attesa avvocato giovedì **7 maggio 2026** → _refresh 10/6: bozza ricevuta 7/5, analizzata 11/5 (firmabile post-chiarimenti), contratto **in chiusura con Longo** (CLAUDE.md §6); email Longo 4/6 su sblocco pagamento + accordo sviluppatori letta e risposta 9/6_
 - **Cliente**: NoLoop
-- **Ultimo aggiornamento**: 2026-04-29
+- **Ultimo aggiornamento**: 2026-06-10 _(riga §Stato riallineata; per il dettaglio vivo vedi Log)_
 
 ## 💰 Bundle commerciale (DEFINITIVO 13/04/2026) _[fonte: PDF Proposta Investimento updated 5]_
 

@@ -3,13 +3,13 @@ type: person
 role: CEO
 company: Angelini Academy
 created: 2026-05-05
-updated: 2026-05-08
+updated: 2026-06-10
 projects: [_Angelini Academy]
 ---
 
 # 👤 Marco Morbidelli
 
-- **Ruolo**: CEO — Angelini Academy
+- **Ruolo**: CEO/AD — Angelini Academy · ricopre ANCHE il ruolo di Group Chief HR & Organization Officer di Angelini Industries (doppio cappello — chiarimento Carlo 10/6). **Per HeyAI conta il cappello Angelini Academy** (è l'AD dell'entità in gara)
 - **Azienda**: Angelini Academy (società di Angelini Industries)
 - **Ultimo contatto**: nessuno diretto al 8/5/2026 (non in call Q&A 8/5; non citato spontaneamente da Caterina come decisore in stanza, segnale che la fase gara la gestisce operativamente Caterina e non sale al CEO finché non c'è proposta consolidata)
 

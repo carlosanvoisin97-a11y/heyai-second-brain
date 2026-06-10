@@ -10,7 +10,7 @@ last_contact: 2026-05-21
 next_touchpoint: 2026-05-21 (sera — invio materiale via WhatsApp+email) — ⚠️ SOSPESO IN ATTESA DI VERIFICHE
 cadence_days: 14
 relationship_strength: new
-risk_flag: 🔴 ALTO — vedi §"Due diligence 21/5/2026"
+risk_flag: ✅ chiuso 10/6/2026 — due diligence completata da Carlo, identità confermata (storico in §Due diligence)
 top_quotes:
   - "Io non entro nella sostanza, devo solo guardare la forma della sostanza che avete già"
   - "Evidenziando che nulla è concluso perché questo io so"
@@ -20,11 +20,13 @@ aliases:
   - Paolo Verrengia
 ---
 
-# 👤 Paolo Verrengia (commercialista NoLoop) — 🔴 RISK FLAG ALTO
+# 👤 Paolo Verrengia (commercialista NoLoop) — ✅ due diligence chiusa 10/6
 
 > ⚠️ **Spelling cognome aggiornato 21/5/2026 sera**: Carlo ha ricevuto via WhatsApp dall'interessato l'email `paolo.vsignsrl@gmail.com` e il nome **"Paolo Verrangia"** (con la "g", non "Verrangia" come trascritto dalla call). Quindi cognome corretto: **Verrangia**.
 
 > 🔄 **Grafia DEFINITIVA confermata da Carlo 10/6/2026: VERRENGIA (con la E)** — scheda rinominata e vault bonificato. ⚠️ **Implicazione per la due diligence §3 sotto**: il match coi procedimenti penali 2011/2017 era stato fatto sulla grafia "Verrangia" (quella degli articoli di stampa, lasciata invariata nelle citazioni). Con la grafia corretta "Verrengia" il match anagrafico NON è più automatico: ripetere le verifiche (ODCEC, CCIAA, stampa) su "Paolo Verrengia" e trattare il caso "Verrangia" come possibile omografo di terzi. Le altre red flag (email gmail, VSign Srl non riscontrabile) restano valide e indipendenti dalla grafia.
+
+> ✅ **DUE DILIGENCE CHIUSA — conferma Carlo 10/6/2026**: identità verificata, è la persona giusta; **documenti già inviati** (sospensione revocata). Il match penale 2011/2017 era sull'omografo "Verrangia" e non si applica. La sezione sotto resta come storico del processo di verifica.
 
 ## 🔴 Due diligence 21/5/2026 — esito ricerca pubblica
 
@@ -76,11 +78,11 @@ I 3 documenti contengono: pricing modulare (Proposta), clausole IP e di protezio
 
 ## Action items urgenti (in ordine di priorità)
 
-- [ ] **#p0** SOSPENDERE invio email e materiale a Verrengia finché non si chiude la verifica
-- [ ] **#p0** Inviare il messaggio già pronto a Roberta Calajò per conferma coinvolgimento Verrengia (formula neutra, no menzione dei dubbi)
-- [ ] **#p1** Cercare iscrizione **Paolo Verrengia** all'Albo Commercialisti Roma (ODCEC Roma) — verificare se è radiato/sospeso/attivo _(grafia corretta 10/6; verificare anche l'omografo "Verrangia" degli articoli per escludere il match)_
-- [ ] **#p1** Verificare se VSign Srl esiste come entità giuridica (CCIAA Roma diretto, registro imprese)
-- [ ] **#p1** Cercare sentenza definitiva sul "Paolo Verrangia" degli articoli (inchiesta Pambianchi 2011) — SOLO se il match con Verrengia regge (assoluzione? condanna? archiviazione? stralcio?)
+- [x] **#p0** SOSPENDERE invio email e materiale a Verrengia finché non si chiude la verifica → ✅ verifica chiusa 10/6, documenti inviati
+- [x] **#p0** Inviare il messaggio già pronto a Roberta Calajò per conferma coinvolgimento Verrengia → ✅ superato: due diligence chiusa da Carlo 10/6
+- [x] **#p1** Cercare iscrizione **Paolo Verrengia** all'Albo Commercialisti Roma → ✅ chiusa con la due diligence di Carlo 10/6 (identità confermata)
+- [x] **#p1** Verificare se VSign Srl esiste come entità giuridica → ✅ assorbita nella due diligence chiusa 10/6
+- [x] **#p1** Cercare sentenza definitiva sul "Paolo Verrangia" degli articoli → ✅ non applicabile: il match era sull'omografo, identità Verrengia confermata 10/6 (assoluzione? condanna? archiviazione? stralcio?)
 - [ ] **#p1** Quando Roberta conferma il coinvolgimento, valutare se chiedere ad Andrea Pazienza di verificare se Donzelli **sa** del background di Verrengia (in modo discreto, non frontale)
 - [ ] **#p2** Se si decidesse di procedere, mandare SOLO la scheda tecnica di sintesi v2 (esposizione minimizzata), NON i contratti integrali; chiedere richiesta esplicita scritta da Donzelli/Roberta prima di girare i contratti integrali
 
