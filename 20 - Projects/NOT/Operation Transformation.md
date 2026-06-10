@@ -80,7 +80,7 @@ NOT verifica disponibilità API con BAT/PARD **entro 15 giorni dalla firma contr
 Justin Lauro: "C'è il concreto rischio che non ce le diano (le API), anche se stiamo lavorando ai fianchi per insistere".
 
 ### Decisione attivazione Piano B (TBD — aggiornamento 5/5/2026)
-**Il piano B esiste sulla carta ma l'attivazione non è ancora stata decisa.** Carlo ha preparato bozza email a Justin per fissare un check-point oltre il quale (in assenza di risposta BAT) attivare RPA → vedi [[00 - Inbox/2026-05-05 - BOZZA Email Justin Lauro (API BAT-PARD)]]. Da inviare dopo decisione su data limite e cc Massi.
+**Il piano B esiste sulla carta ma l'attivazione non è ancora stata decisa.** Carlo ha preparato bozza email a Justin per fissare un check-point oltre il quale (in assenza di risposta BAT) attivare RPA → vedi [[50 - Archive/Inbox/2026-05/2026-05-05 - BOZZA Email Justin Lauro (API BAT-PARD)]]. Da inviare dopo decisione su data limite e cc Massi.
 
 ## Pain point cliente — Tripla registrazione vendite
 
@@ -252,7 +252,7 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - **Call interna HeyAI+Soolutions** (13:32-14:35). Carlo: *"hanno pagato NOT"* — Operation Transformation effettivamente incassato lato HeyAI (Carlo cita esplicitamente che Donzelli ha pagato NOT mentre Wave 2 NoLoop è ancora pending). **Bonifico a Soolutions inizialmente "tra oggi e domani"**, ma rettificato nell'email recap interno serale: gated alla decisione della formula cash-flow Excel Andrea ↔ Elena Soolutions ("appena decidiamo la formula pagamenti vi giriamo il bonifico"). Carlo conferma di tenere il push lato Justin sulle API BAT/PARD: owner è Carlo, Soolutions non si muove finché non c'è risposta dal cliente sulle API native. La chain delle 3 call tecniche per partenza sviluppi è gestita insieme a Eye Cookies (vedi Log scheda Eye Cookies 2026-05-13). **Comunicazione cliente**: Carlo annuncia ufficialmente a Massi+Justin che siamo partiti, email proattiva da inviare questa settimana.
 
 ### 2026-05-07
-- **3 task chiusi in batch reconciliation** (conferma Carlo chat 7/5): email check-point Justin inviata, push BAT API native completato, allineamento Justin via Carmen Compare fatto. Bozza email in [[00 - Inbox/2026-05-05 - BOZZA Email Justin Lauro (API BAT-PARD)]] confermata come testo inviato. Stato delivery NOT modulo Vendite ora dipende dalla risposta di BAT/PARD.
+- **3 task chiusi in batch reconciliation** (conferma Carlo chat 7/5): email check-point Justin inviata, push BAT API native completato, allineamento Justin via Carmen Compare fatto. Bozza email in [[50 - Archive/Inbox/2026-05/2026-05-05 - BOZZA Email Justin Lauro (API BAT-PARD)]] confermata come testo inviato. Stato delivery NOT modulo Vendite ora dipende dalla risposta di BAT/PARD.
 
 ## ⚠️ Storia perimetro (consolidato 4/5/2026)
 

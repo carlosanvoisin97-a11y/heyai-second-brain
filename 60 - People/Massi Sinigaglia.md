@@ -57,7 +57,7 @@ Massi è il **co-founder/Managing Partner della divisione NOT** (Noloop on Trade
 - **Bisettimanale Operation Transformation**: condizionato a conferma Massi su Germano-as-tech-Operation.
 
 ### 2026-05-13
-- **CC su bozza email Carlo→Germano** "R: EYE cookie" (in [[00 - Inbox/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]) per notifica partenza ufficiale sviluppi Eye Cookies + richieste operative Microlog. Massi resta sponsor commerciale del progetto, l'aggiornamento serve anche a chiudere il loop del suo sollecito 29/04 "a che punto siamo con lo sviluppo?".
+- **CC su bozza email Carlo→Germano** "R: EYE cookie" (in [[50 - Archive/Inbox/2026-05/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]) per notifica partenza ufficiale sviluppi Eye Cookies + richieste operative Microlog. Massi resta sponsor commerciale del progetto, l'aggiornamento serve anche a chiudere il loop del suo sollecito 29/04 "a che punto siamo con lo sviluppo?".
 
 ### 2026-05-07
 - ✅ Fatture Eye Cookies inviate (acconto, parte di €75K Full Ownership) e mail di Massi del 29/04 ricevuta risposta — task chiusi in batch reconciliation 7/5 (risposta a sollecito + aggiornamento sviluppo).

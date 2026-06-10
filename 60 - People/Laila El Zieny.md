@@ -28,7 +28,7 @@ Logistica spedizione prodotti NOT/BAT (citata da [[Justin Lauro]] nelle email co
 - **Stato risposta Laila**: ancora in attesa (Carlo conferma a Justin "le avevo già scritto direttamente — attendo riscontro").
 
 ### 2026-05-13
-- **Reminder spedizione prodotti foto Eye Cookies** menzionato esplicitamente nella bozza email Carlo→Germano 13/5 ([[00 - Inbox/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]): Carlo dichiara di avere "in agenda di sollecitare per chiudere la logistica" lato Laila. Open point in coda nella catena setup Eye Cookies.
+- **Reminder spedizione prodotti foto Eye Cookies** menzionato esplicitamente nella bozza email Carlo→Germano 13/5 ([[50 - Archive/Inbox/2026-05/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]): Carlo dichiara di avere "in agenda di sollecitare per chiudere la logistica" lato Laila. Open point in coda nella catena setup Eye Cookies.
 
 ## Note
 

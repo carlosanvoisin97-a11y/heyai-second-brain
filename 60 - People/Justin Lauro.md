@@ -40,7 +40,7 @@ Area Manager: [[Laila El Zieny]], Manuel Rossi, Gianluca Soardi, Enza Monte, Fil
 - Justin: "C'è il concreto rischio che non ce le diano (le API) — stiamo lavorando ai fianchi per insistere"
 
 ### 2026-05-13
-- **Reminder API BAT/PARD menzionato esplicitamente nella bozza email Carlo→Germano 13/5** ([[00 - Inbox/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]): Carlo dichiara di voler mandare a Justin "un reminder questa settimana per capire come si stanno muovendo". Push lato Carlo prosegue, owner confermato in call interna HeyAI+Soolutions 13/5.
+- **Reminder API BAT/PARD menzionato esplicitamente nella bozza email Carlo→Germano 13/5** ([[50 - Archive/Inbox/2026-05/2026-05-13 - BOZZA Email Germano Eye Cookies partenza sviluppi]]): Carlo dichiara di voler mandare a Justin "un reminder questa settimana per capire come si stanno muovendo". Push lato Carlo prosegue, owner confermato in call interna HeyAI+Soolutions 13/5.
 
 ### 2026-05-07
 - ✅ Carlo ha inviato l'email check-point su API BAT/PARD (bozza da [[50 - Archive/Inbox/2026-05/2026-05-05 - BOZZA Email Justin Lauro (API BAT-PARD)|2026-05-05 - BOZZA Email Justin Lauro]]) — task chiuso in batch reconciliation 7/5. Attesa risposta su attivazione piano B (RPA).
