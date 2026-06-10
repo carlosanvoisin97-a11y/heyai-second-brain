@@ -145,7 +145,9 @@ Cartella `40 - Resources/Concetti/` — knowledge operativo riusabile (pattern d
 
 - [[40 - Resources/Concetti/Pattern - Founder e AD decidono in stanza, non per email]] 🆕 — pattern decisore cliente, 4 evidenze (LG, Donzelli, Massi, Luigi). Applicabilità immediata: Osservatorio Futuritaly, PresidIA, Achipont.
 - [[40 - Resources/Concetti/Quando proporre Full Ownership vs Revenue Share]] 🆕 — decision criteria pricing, 3 evidenze applicate (Eye Cookies, Wave 2, Achipont) + 2 casi aperti (HoReCa, PresidIA). Applicabilità immediata: PresidIA modello entro 7-10gg.
-- _🚧 In roadmap (atomic notes da scrivere): Pattern "Incluso vs Extra" · Modulo MVP + opzionali numerati · Parli troppo dopo aver ottenuto quello che vuoi (quest'ultima ha già evidenze in [[30 - Areas/Area - Performance & Coaching/2026-05-04 - Carlo Performance — Call Silencio]] §1 + [[30 - Areas/Area - Performance & Coaching/2026-05-08 - Carlo Performance — Q&A Call Cliente Angelini Academy]] — promuovere ad atomic note)_
+- [[40 - Resources/Concetti/Parli troppo dopo aver ottenuto quello che vuoi]] 🆕10/6 — il pattern negoziale più costoso, 3 evidenze (Silencio 4/5, Q&A Angelini 8/5, Verrengia 21/5) + regola operativa silenzio post-proposta
+- [[40 - Resources/Concetti/Pattern - Incluso vs Extra]] 🆕10/6 — scope management a 2 scatole, interiorizzato dal cliente Eldis; applicabilità OT/Eye Cookies/Wave 2
+- [[40 - Resources/Concetti/Modulo MVP + opzionali numerati]] 🆕10/6 — quotazione a geometria variabile (Achipont €10K MVP), regola ≤60% per modulo; applicabilità PresidIA/HoReCa
 
 ## 🔧 Sistema vault — file di setup e log
 
