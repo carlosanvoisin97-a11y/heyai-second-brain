@@ -237,6 +237,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 | `vault-link-checker` | `40 13 * * 0` | audit wikilink/frontmatter → Vault Link Audit | — |
 | `moc-refresh` | `0 14 * * 6` | audit MOC-Home | — |
 | `weekly-review-interactive` | `0 15 * * 6` | prep weekly review → `00 - Inbox/` | — |
+| `weekly-system-review` 🆕 | `30 16 * * 6` | meta-loop F6: review del sistema → `00 - Inbox/` | — |
 
 **B) Code-locale** (`~/.claude/scheduled-tasks/`, **best-effort: solo ad app Code aperta / al prossimo avvio**):
 
