@@ -111,7 +111,7 @@ Vedi [[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]] — bundle €
 
 ### Cluster NOT (divisione On Trade) — 3 progetti
 - [[Operation Transformation]] (Logistica + Vendite, **€109K**, bozza NON firmata / approvazione email 03/04 _(rettifica 21/5, allineato 10/6)_)
-- [[Eye Cookies]] (marketing AI BAT, **€75K full ownership** firmato 03/04)
+- [[Eye Cookies]] (marketing AI BAT, **€75K full ownership** — contratto mai prodotto, approvazione email 03/04 + acconto pagato _(rettifica 21/5, allineato 10/6)_)
 - [[NOT Marketing - LinkedIn e Sito]] (✅ saldo fatturato, owner Michele/Andrea)
 
 ## ⚠️ Riservatezze
