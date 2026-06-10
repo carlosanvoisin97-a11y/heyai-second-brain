@@ -14,7 +14,9 @@ L'RL è lo strumento PM core di Carlo: fissa lo scope, chiude le ambiguità, pro
 
 ## Struttura file
 
-**Fogli**: `Master Interno` (vista completa HeyAI, con note fornitore) + `Versione Cliente` (subset cliente-friendly) + `Riferimenti` (opzionale: decisioni architetturali, glossario, citazioni cliente). La biforcazione non è cosmetica: è la §13 applicata — vincoli, costi e nomi fornitori SOLO nel Master Interno, MAI nel foglio cliente.
+**Fogli**: `Master Interno` (vista completa HeyAI, con note fornitore) + `Versione Cliente` (subset cliente-friendly) + `Riferimenti` (opzionale: decisioni architetturali, glossario, citazioni cliente — foglio INTERNO, non si consegna). La biforcazione non è cosmetica: è la §13 applicata — vincoli, costi e nomi fornitori SOLO nel Master Interno, MAI nel foglio cliente. Al cliente va il solo foglio `Versione Cliente` (o un export che lo contiene da solo).
+
+Questa struttura SUPERA gli esempi storici dove divergono (alcuni hanno meno colonne): gli xlsx citati sotto servono per tono e contenuti, le colonne e i fogli li detta questa skill. Formattazione minima: intestazioni in bold, emoji nella colonna Priorità; nient'altro è obbligatorio.
 
 **Colonne core** della tabella requisiti:
 
@@ -26,14 +28,14 @@ L'RL è lo strumento PM core di Carlo: fissa lo scope, chiude le ambiguità, pro
 | Dettaglio | 1-2 righe, linguaggio cliente |
 | Priorità | 🔴 Must · 🟡 Should · 🔵 Nice · ⚪ Fase 2 |
 | Perimetro | INCLUSO / ESCLUSO / DA DEFINIRE |
-| Stato | Confermato / Punto aperto / TBD |
+| Stato | Confermato / Punto aperto / TBD — se il RL nasce da una call interna pre-validazione: Confermato = concordato in call, Punto aperto = da validare col cliente (rimando alla riga QA) |
 | Acceptance criteria | prosa dichiarativa: "cosa significa fatto" (misurabile, non vaga) |
 | Dipendenze | solo se bloccanti (es. RF1.1 prerequisito di RF2.1) |
 | Note vincoli fornitore | SOLO Master Interno |
 
 **Sezioni obbligatorie oltre ai funzionali**:
 - **RNF** — non funzionali separati (sicurezza, performance, SLA, indipendenza dal fornitore AI, …).
-- **EXC** — esclusioni ESPLICITE per nome: ogni "Fase 2" / "Change Request" / out-of-scope ha la sua riga. Le esclusioni silenti diventano contestazioni in collaudo.
+- **EXC** — esclusioni ESPLICITE per nome: ogni "Fase 2" / "Change Request" / out-of-scope ha la sua riga. Le esclusioni silenti diventano contestazioni in collaudo. Un requisito ⚪ Fase 2 vive in DUE righe con rimando incrociato: nei funzionali (Perimetro = ESCLUSO fase 1) e in EXC; nel conteggio requisiti citato in proposta contare SOLO gli inclusi, mai le righe EXC.
 - **QA** — domande aperte in tabella propria con owner + deadline, mai sepolte nelle note (lesson Eye Cookies: 10 domande chiuse con il cliente PRIMA della firma).
 
 ## Regole di lingua e audit
