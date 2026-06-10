@@ -29,6 +29,7 @@ Tabella di instradamento: per ogni tipo di task leggi prima i file indicati e fe
 | Trascrizione caricata / recap call | **Read** `.claude/skills/transcript-processing/SKILL.md` (obbligo §15.bis) | schede dei presenti |
 | Deliverable (proposta, brief, recap, presentazione) | `Glob` su `90 - Templates/`, `40 - Resources/`, `80 - Sources/Files/`, `20 - Projects/<Cliente>/` | template o esempio trovato |
 | Navigazione / "dov'è X" | [[99 - System/MOC - Home]] | — |
+| Carlo chiede come si usa il sistema | [[99 - System/Manuale d'uso del sistema (per Carlo)|Manuale d'uso]] | [[99 - System/Review Strategica Sistema 2026-06|Review Strategica]] |
 | Stato task aperti | [[99 - System/Open Tasks]] | — |
 | Dubbi / ambiguità irrisolte | [[99 - System/Open Questions]] | — |
 | Aggiornare il vault con un fatto nuovo | §15 core (precedenza + append-only) | **Read** `.claude/skills/vault-live-protocol/SKILL.md` se commit non banale (refactoring/archive/nuove schede) |

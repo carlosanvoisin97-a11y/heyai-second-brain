@@ -152,10 +152,12 @@ Cartella `40 - Resources/Concetti/` — knowledge operativo riusabile (pattern d
 ## 🔧 Sistema vault — file di setup e log
 
 - [[99 - System/Mappa Skill e Frammentazione AI]] — mappa dei sistemi AI e di dove vivono le skill (quale strumento sa cosa)
+- [[99 - System/Manuale d'uso del sistema (per Carlo)]] 🆕 — il manuale utente: giornata tipo, frasi→effetto, regole d'oro, troubleshooting (creato 10/6)
+- [[99 - System/Review Strategica Sistema 2026-06]] 🆕 — review architetturale di riferimento: principi, registro rischi, KPI di salute, regola di moratoria (creata 10/6)
 - [[50 - Archive/Cowork Sessions Log/Cowork Sessions Log]] — log aggregato delle sessioni Cowork (popolato dal task `cowork-sessions-index`)
 - [[99 - System/Digest Log]] 🆕 — log delle run del task `pm-digest-mattutino` (referenziato in CLAUDE.md §10ter pre-flight check)
 - [[80 - Sources/Cowork Sessions/Index Cowork Sessions]] — indice navigabile delle sessioni per data
-- [[99 - System/Vault Link Audit]] — report settimanale broken wikilinks (popolato dal task `vault-link-checker`, cron domenica 21:00 + manuale on-demand)
+- [[99 - System/Vault Link Audit]] — report settimanale broken wikilinks (popolato dalla routine cloud `vault-link-checker`, cron dom ~15:40 CEST + manuale on-demand)
 - [[50 - Archive/System Snapshots/Setup vault-link-checker]] — guida setup task scheduler `vault-link-checker`
 - [[99 - System/Setup Microsoft Lists - Soolutions Delivery Board]] — guida setup Microsoft Lists per delivery board Federico+Simone. ⚠️ **L'automatismo task→Lists basato sui task aperti rilevati in Cowork NON è ancora attivo**: setup manuale (3 viste rimanenti, conditional formatting, guest access) ancora pending. Vedi task aperti in [[Open Tasks]] sezione Soolutions.
 - [[99 - System/Workflow Delivery Soolutions]] 🆕 — guida workflow delivery Soolutions (Microsoft Lists "Soolutions Delivery Board", regole esposizione numeri sensibili, pre-call digest). Referenziato in CLAUDE.md §8bis.
