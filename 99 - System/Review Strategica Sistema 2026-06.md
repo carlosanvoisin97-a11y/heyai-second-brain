@@ -96,3 +96,32 @@ GitHub (spina dorsale; repo privato; PAT plugin da monitorare) · claude.ai (rou
 4. Cadenza radar-competitor (decisione Carlo dopo lettura)
 5. Watchdog digest pezzo 2 — SOLO se si osservano run cloud morti pre-routine
 6. (eventuale, su evidenza) replica LaunchAgent delle routine critiche
+
+---
+
+## Appendice A — Audit plugin esterni (10/6/2026, evidenza da 91 recap + 20 indici + profilazione 206 sessioni)
+
+**Dato di fondo**: ~230 voci skill di plugin caricate nel listing di OGNI sessione; l'uso reale provato è concentrato su 5-6 namespace. Le skill documento (docx/pptx/xlsx/pdf) sono caricate in TRIPLA copia (example-skills ×2 per un bug di namespace + anthropic-skills inline).
+
+| Plugin/Connettore | Skill | Uso reale | Verdetto | Chi agisce |
+|---|---|---|---|---|
+| superpowers | 14 | ✅ ~7 sessioni (brainstorming + enforcement R1) | **TIENI** (core) | — |
+| episodic-memory | 1+MCP | motore memoria conversazioni (sync a ogni avvio) | **TIENI** | — |
+| claude-seo | 25 | ✅ 1 esecuzione produttiva (SEO Angelini) | **TIENI** (serve per clienti) | — |
+| vercel | 26+11cmd | piattaforma usata intensamente, skill mai | **TIENI** (lavoro dev ~/code) | — |
+| product-management · marketing · anthropic-skills · design · productivity (inline) | 9+8+8+7+4 | write-spec ×2, brand-review ×1, docx/xlsx ×3 | **TIENI** | — |
+| elements-of-style · claude-session-driver | 1+1 | mai | TIENI (peso nullo) | — |
+| **example-skills** (duplicato ×2) | 17×2 | coperto da anthropic-skills | **DISATTIVA** (−34 voci, zero perdita) | Claude (settings.json) |
+| **ruflo ×11** (installati ma spenti dal 6/6) | 33 se attivi | 0 | **DISINSTALLA** (pulizia cache) | Claude (CLI) |
+| **marketing-skills** | **43** (il più pesante) | 0 diretto (solo routing §0bis) | ZONA GRIGIA: tieni per NOT Marketing/clienti O dieta | Carlo decide |
+| **brightdata-plugin** | 21 | 0 (e invasivo: pretende di sostituire WebFetch) | **SPEGNI** | Carlo (pannello app, è inline) |
+| **sales · operations · enterprise-search** (inline) | 9+9+5 | 0 (Guru mai autenticato) | **SPEGNI** | Carlo (pannello app) |
+| **cowork-plugin-management** (inline) | 2 | 0 (Cowork dismesso 9/6) | **SPEGNI** | Carlo (pannello app) |
+| **desktop-commander plugin inline** | 1+26 tool | doppione dell'estensione (quella sì usata) | **SPEGNI il doppione** | Carlo (pannello app) |
+| **PowerPoint MCP** (estensione) | — | valutato e SCARTATO (si usa Claude Design) | **SPEGNI** | Carlo (estensioni app) |
+| **Meta Ads** (connettore claude.ai, ~60 tool) | — | 0 (decisione #28: no suite a Michele/Andrea) | **SCOLLEGA** | Carlo (claude.ai) |
+| **Google Drive · Spotify** (connettori claude.ai) | — | 0 lavoro (Spotify personale?) | SCOLLEGA Drive; Spotify a scelta | Carlo (claude.ai) |
+| **21st-dev-magic** (MCP, API key in chiaro in config, ~$20/mese) | — | mai usato produttivamente | **RIMUOVI** (anche per la API key) + verifica abbonamento | Carlo conferma → Claude rimuove |
+| ~25 server MCP dei plugin inline mai autenticati | — | peso morto sul listing tool | si spengono spegnendo i plugin sopra | — |
+
+**Stima risparmio se applicato tutto**: ~100-130 voci skill in meno per sessione (−45%) + decine di tool MCP morti in meno. Esecuzione: vedi [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]] #32.
