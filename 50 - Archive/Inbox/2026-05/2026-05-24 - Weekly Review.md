@@ -7,6 +7,8 @@ week: 2026-W21 (19–25 maggio 2026)
 related_template: "Weekly Review interattivo (Setup in 99 - System/Setup Weekly Review.md)"
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Settimana chiusa; review successive in weekly-review-interactive (routine cloud). Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 📅 Weekly Review — settimana del 2026-05-24
 
 > Prep doc generato dal task `weekly-review-interactive` (trigger manuale/cron sab 17:30). Apri Cowork, fai la review insieme all'agente (~30 min). Compila le sezioni man mano, spunta i checkbox quando ogni step è chiuso. Lunedì verifica che i task riprioritizzati siano finiti nelle schede progetto.

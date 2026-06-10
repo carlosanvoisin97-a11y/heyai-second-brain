@@ -2,9 +2,11 @@
 type: patch
 target: vault-link-checker SKILL.md
 date: 2026-05-14
-status: ready-to-apply
+status: applied
 purpose: rendere lo scanner alias-aware leggendo il campo aliases del frontmatter di ogni .md del vault
 ---
+
+> ⏩ **APPLIED — la logica v4 alias-aware è in produzione dal 15/5 (vive in Routines/vault-link-checker.md e in vault-health §LINKS). File storico (nota 10/6).**
 
 # Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware
 

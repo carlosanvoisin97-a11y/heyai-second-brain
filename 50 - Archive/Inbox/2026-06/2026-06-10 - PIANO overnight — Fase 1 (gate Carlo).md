@@ -1,11 +1,13 @@
 ---
 type: plan
-status: in-gate
+status: eseguito
 created: 2026-06-10
 updated: 2026-06-10
 tags: [system, overnight, plan, F3, F6, F7, broken-links, gate]
 aliases: [Piano overnight 10-6, Piano notturno Fase 1]
 ---
+
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Piano eseguito integralmente (REPORT overnight, status done). Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
 
 # 🌙 PIANO overnight 10/6 — Fase 1 completata, in attesa di OK (gate)
 

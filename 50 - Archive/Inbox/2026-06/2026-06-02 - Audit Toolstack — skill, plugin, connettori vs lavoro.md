@@ -6,6 +6,8 @@ updated: 2026-06-02
 tags: [sistema, tooling, audit]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Superato dalla PROPOSTA skill-strategy 10/6 (profilazione completa) e dalla Mappa Skill e Frammentazione AI. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Audit Toolstack HeyAI — cosa hai davvero, cosa serve al tuo lavoro
 
 > Inventario reale (config su disco, non catalogo teorico) di skill/plugin/connettori scaricati nelle ultime sessioni, incrociato con i progetti e i workflow del vault. Obiettivo: prime azioni più impattanti. Sorgenti: `installed_plugins.json`, `mcp-needs-auth-cache.json`, `settings.json`, lista skill di sessione, `CLAUDE.md` §6/§7/§12.

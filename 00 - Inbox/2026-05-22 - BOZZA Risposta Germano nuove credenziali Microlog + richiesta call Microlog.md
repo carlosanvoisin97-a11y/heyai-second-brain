@@ -41,3 +41,5 @@ Carlo
 - **Palla a Germano sulla call Microlog**: chiesto "come pensi sia meglio impostare il contatto?" invece di forzare formato (intro lui ↔ noi ↔ Microlog vs giro mail) — pattern Carlo "spostare decisione in avanti"
 - **CC da decidere prima dell'invio**: valutare se aggiungere Massi (per visibilità decisore commerciale) + Andrea Pazienza (lato HeyAI come da pattern bozza 13/5). Default in assenza di indicazione Carlo: solo Germano per leggerezza (era un'email tecnica/operativa, non commerciale)
 - **Allineamento interno Federico+Simone prima dell'invio invito ricorrente Teams**: serve conferma loro su disponibilità giovedì 15:30 ricorrente — Carlo lo gestisce in canale separato
+
+> ⚠️ **Verifica invio (nota 10/6)**: nessuna conferma di invio nel vault per questa bozza del 22/5 (il ciclo bisettimanale è poi proseguito, quindi probabilmente inviata). Carlo: check rapido in Outlook Sent Items → poi archiviare.

@@ -6,6 +6,8 @@ tags: [system, handover, F3, vault-health, overnight, backlog]
 aliases: [Handover overnight 10-6, Handover vault-health, Handover notte]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Consegna assorbita dal consolidamento serale. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🌙 HANDOVER → sessione overnight: F3 vault-health + backlog sistema
 
 > **Innesto** per il prompt-contenitore di Carlo (che ha già metodo, processo, contesto e regole dure). Qui **solo lo specifico**: stato verificato della sessione 9→10/6, il design `vault-health` approvato, il backlog completo, e il piano *analisi → ok → esecuzione notturna* con i confini di sicurezza per l'autonomia.

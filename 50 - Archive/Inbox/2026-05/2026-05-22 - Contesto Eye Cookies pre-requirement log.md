@@ -9,6 +9,8 @@ sources: [Outlook emails Germano Marano + Federico Saladino + Simone Montanari, 
 related_project: [[20 - Projects/NOT/Eye Cookies]]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** RL Eye Cookies prodotto (v2.3); contesto assorbito nella scheda progetto. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Contesto Eye Cookies pre-Requirement Log (2026-05-22)
 
 ## 1. Sintesi esecutiva

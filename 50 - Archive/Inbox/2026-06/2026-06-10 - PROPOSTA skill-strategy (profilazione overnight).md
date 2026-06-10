@@ -1,11 +1,13 @@
 ---
 type: proposal
-status: da-approvare
+status: approvata-eseguita
 created: 2026-06-10
 updated: 2026-06-10
 tags: [system, skills, overnight, proposta, F3]
 aliases: [Proposta skill-strategy, Skill profiling overnight]
 ---
+
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Approvata da Carlo ed ESEGUITA: deck-iteration+pricing-audit+coaching-note+requirement-log create; varianti applicate; json-canvas archiviata; obsidian-cli tenuta; router+audio ATTIVATI. Residuo minore: rivalutare `web-design-3d` a settembre. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
 
 # 🧬 PROPOSTA skill-strategy — profilazione dal lavoro reale (overnight 10/6)
 

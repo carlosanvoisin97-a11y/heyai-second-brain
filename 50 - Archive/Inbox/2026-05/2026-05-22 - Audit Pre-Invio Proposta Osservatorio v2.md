@@ -10,6 +10,8 @@ updated: 2026-05-22
 reference_skill: investment-proposal-drafting (14/5/2026)
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Proposta v2 inviata (19/5, €45K); audit storico. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🔍 Audit Pre-Invio Proposta Osservatorio v2 (22/5/2026)
 
 > Revisione sistematica e approfondita richiesta da Carlo prima dell'invio a [[Claudia Bugno]] (CEO FuturItaly) con [[Lavinia Ferrari]] in CC. Target: zero errori / incongruenze / rischi reputazionali o contrattuali. Skill di riferimento: `investment-proposal-drafting` §9 checklist anti-errori + Master Facts §pricing.

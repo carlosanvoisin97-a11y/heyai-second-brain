@@ -9,6 +9,8 @@ priority: p1
 related_doc: "20260506 HeyAI - NoLoop - Wave 2 - bozza.docx (ricevuta 7/5 ore 10:22)"
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Analisi del draft 8/5, superata dai giri successivi col legale; residuo IP in OQ#19/#29. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 ## 🔴 Decisioni Carlo 11/5 (post analisi)
 
 Risposte definitive sui 7 punti aperti + 4 gap:
@@ -201,11 +203,11 @@ Carlo aggiorna lo stato: Piano Fatturazione **già allegato a Longo**, VenueFind
 - [x] ~~Federico Saladino prepara dossier ToS anti-training~~ → ✅ chiuso 11/5: evidenza già fornita a NoLoop
 - [x] ~~Federico Saladino verifica social OnSite + soglie Sally~~ → ✅ chiuso 11/5
 - [x] ~~Call Carlo+Andrea+Longo gio 14/5~~ → 🔄 superato: workflow modificato in call interna Carlo+Andrea + email diretta Longo
-- [ ] **#p1** Carlo+Andrea **producono DPA ex novo** per Wave 2 (Carlo ha rettificato 11/5 sera: DPA Wave 1 non esiste, dobbiamo crearlo). Conseguenza: chiedere a Longo di sostituire Art. 10.2 ("entro primo MVP") con "entro 30gg da sottoscrizione" per dare margine operativo. Owner: Andrea Pazienza coordina + Longo redige (o template HeyAI) — entro **mer 13/5**
-- [ ] **#p1** Call interna di allineamento Carlo+Andrea Pazienza sui commenti da girare a Longo — entro **gio 14/5**
-- [ ] **#p1** Email a Longo con commenti consolidati — entro **ven 15/5**. Contenuto: (a) esplicitare costi escrow a carico cliente in Art. 4.5; (b) refuso numerazione "1.2" → "2.2" in Art. 2; (c) DPA timing in base a esito verifica Andrea; (d) eventuale chiarimento "concorrente" Art. 4.4 (nice-to-have, non bloccante)
-- [ ] **#p1** Verificare se Longo ha già emesso una quotazione/preventivo per la stesura di questo contratto Wave 2. Se no, chiedere quotazione prima di chiudere il rapporto (evita sorprese in fattura) — Carlo+Andrea entro **14/5**
-- [ ] **#p1** Formalizzazione contratto IP HeyAI↔Soolutions con Federico+Simone (accordo verbale OK ribadito Carlo 11/5, scritto ancora mancante; bloccante pre-firma cliente) — vedi Open Question #19/#29
+- [-] **#p1** Carlo+Andrea **producono DPA ex novo** per Wave 2 (Carlo ha rettificato 11/5 sera: DPA Wave 1 non esiste, dobbiamo crearlo). Conseguenza: chiedere a Longo di sostituire Art. 10.2 ("entro primo MVP") con "entro 30gg da sottoscrizione" per dare margine operativo. Owner: Andrea Pazienza coordina + Longo redige (o template HeyAI) — entro **mer 13/5**
+- [-] **#p1** Call interna di allineamento Carlo+Andrea Pazienza sui commenti da girare a Longo — entro **gio 14/5**
+- [-] **#p1** Email a Longo con commenti consolidati — entro **ven 15/5**. Contenuto: (a) esplicitare costi escrow a carico cliente in Art. 4.5; (b) refuso numerazione "1.2" → "2.2" in Art. 2; (c) DPA timing in base a esito verifica Andrea; (d) eventuale chiarimento "concorrente" Art. 4.4 (nice-to-have, non bloccante)
+- [-] **#p1** Verificare se Longo ha già emesso una quotazione/preventivo per la stesura di questo contratto Wave 2. Se no, chiedere quotazione prima di chiudere il rapporto (evita sorprese in fattura) — Carlo+Andrea entro **14/5**
+- [-] **#p1** Formalizzazione contratto IP HeyAI↔Soolutions con Federico+Simone (accordo verbale OK ribadito Carlo 11/5, scritto ancora mancante; bloccante pre-firma cliente) — vedi Open Question #19/#29
 
 
 
@@ -218,3 +220,6 @@ Carlo aggiorna lo stato: Piano Fatturazione **già allegato a Longo**, VenueFind
 - 📁 Scheda legale: [[Marco Longo (Morbinati & Longo)]]
 - 📋 Master Facts: [[Master Facts Sheet]] §Wave 2 NoLoop
 - ❓ Open Questions: #19/#29 (IP HeyAI↔Soolutions formalizzazione)
+
+### Nota 10/6/2026
+- Checkbox convertite in superseded (deadline 13-15/5 passate, pacchetto contratto evoluto): il residuo vivo (perimetro IP Soolutions) è tracciato in [[99 - System/Open Questions]] #19/#29 e nelle OQ#69/#70.

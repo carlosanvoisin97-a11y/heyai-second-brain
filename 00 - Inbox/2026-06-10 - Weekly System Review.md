@@ -26,7 +26,7 @@ Il sistema ha retto dopo un recupero difficile: gap digest 11gg chiuso in retros
 
 ## Debito e attriti
 
-- **Inbox sovraccarica**: ~25 file con data >14gg, più vecchio [[00 - Inbox/2026-05-11 - Analisi bozza contratto Longo Wave 2|contratto Longo 11/5]] (30gg). Cluster dominante: ~15 file pitch cycle Angelini Academy (v3/v3.1/v3.2/v3.3/v4 + audit + handover + slide-prompt, maggio 2026) — pitch concluso con soft-defer il 5/6, intero cluster archivabile previa distillazione. PDF bruciante: [[00 - Inbox/Angelini Academy — Strategia e architettura del nuovo sito web.pdf]] (854KB, senza elaborazione vault).
+- **Inbox sovraccarica**: ~25 file con data >14gg, più vecchio [[50 - Archive/Inbox/2026-05/2026-05-11 - Analisi bozza contratto Longo Wave 2|contratto Longo 11/5]] (30gg). Cluster dominante: ~15 file pitch cycle Angelini Academy (v3/v3.1/v3.2/v3.3/v4 + audit + handover + slide-prompt, maggio 2026) — pitch concluso con soft-defer il 5/6, intero cluster archivabile previa distillazione. PDF bruciante: [[00 - Inbox/Angelini Academy — Strategia e architettura del nuovo sito web.pdf]] (854KB, senza elaborazione vault).
 - **[[99 - System/Open Questions]] stale (>14gg senza movimento)**:
   - #36 Paolo Verrengia identità (aperta 21/5, 20gg) — invio documenti OT/Eye Cookies **SOSPESO**, 7 verifiche pendenti (ODCEC + CCIAA + Roberta Calajò)
   - #35 Stato contrattuale OT+Eye Cookies (aperta 21/5, 20gg) — zona grigia fatturazione senza contratto firmato, impatto audit Verrengia
@@ -42,9 +42,9 @@ Il sistema ha retto dopo un recupero difficile: gap digest 11gg chiuso in retros
 ## Proposta azioni (checkbox per Carlo — NON eseguite)
 
 - [ ] Leggere Aegiscore v5 (PDF in Inbox 25/5) e decidere Jakala vs Silencio/Aegiscore per PresidIA/OssAI/HoReCa — sblocca 3 progetti P2
-- [ ] Procedere verifiche #36 Verrengia: ODCEC Roma + CCIAA + messaggio Roberta Calajò (documenti OT/Eye Cookies SOSPESI fino a chiusura)
-- [ ] Archive batch Angelini pitch Inbox (post distillazione 1 atomic note key learnings pitch in `40 - Resources/Concetti/`)
+- [x] Procedere verifiche #36 Verrengia: ODCEC Roma + CCIAA + messaggio Roberta Calajò (documenti OT/Eye Cookies SOSPESI fino a chiusura) ✅ _10/6: due diligence CHIUSA da Carlo (persona giusta, documenti già inviati), OQ#36 chiusa_
+- [x] Archive batch Angelini pitch Inbox (post distillazione 1 atomic note key learnings pitch in `40 - Resources/Concetti/`) ✅ _10/6: eseguito (69→16 + 15 residui sweep + 4 residui sera-2; distillato in [[Lezioni dalla gara Angelini Academy]])_
 - [ ] Verificare esecuzione moc-refresh cloud a Sab 13/6 → deve comparire entry in [[99 - System/MOC Refresh Log]] (test F3 thin-wrapper in produzione)
 - [ ] Rigirare system-consistency-check (stale da 25/5; F3 ha cambiato la struttura scheduler — audit attuale non riflette la realtà)
-- [ ] Triagire #34 (scheduler drift, 34gg) → quasi certamente obsoleta post-F3/F4, chiudere formalmente
+- [x] Triagire #34 (scheduler drift, 34gg) → quasi certamente obsoleta post-F3/F4, chiudere formalmente ✅ _10/6: OQ#34 chiusa, superata da F1/F3 (CLAUDE.md §12)_
 - [ ] Aggiornare stato #31-33 (Angelini Academy gara) → parzialmente risolte, segnare come closed o collapsed in [[99 - System/Open Questions]]

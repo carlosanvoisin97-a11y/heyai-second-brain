@@ -14,6 +14,8 @@ status: bozza da rivedere e inviare a cura di Carlo
 style_ref: ricalca il formato REALE del recap bisettimanale Eye Cookies a Germano del 28/5 (bullet raggruppati per etichetta-tema, verbi sostantivati, punti aperti vs temi discussi). Wording bullet API allineato allo scambio Carlo-Justin 16/3
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Email INVIATA l'8/6 (risulta ✅ in Open Tasks). Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Bozza email recap call bisettimanale Operation Transformation #1
 
 ## Subject suggerito

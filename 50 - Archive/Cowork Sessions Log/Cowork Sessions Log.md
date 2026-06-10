@@ -4,6 +4,8 @@ created: 2026-05-06
 updated: 2026-05-26
 ---
 
+> ⏩ **STORICO — il task cowork-sessions-index è stato RITIRATO il 7/6 (sostituito da code-sessions-index → Code Sessions Log). Archivio mensile in 50 - Archive/Cowork Sessions Log/ (nota 10/6).**
+
 # Cowork Sessions Log
 
 > Log esecuzioni del task `cowork-sessions-index`. Una riga compatta per ciascun run (≤250 char dal 14/5/2026, patch SKILL rolling-window applicata 13/5/2026 sera tardo). Entry >14gg → archive in `50 - Archive/Cowork Sessions Log/{YYYY-MM}.md`.

@@ -6,6 +6,8 @@ tags: [system, second-brain, recap, skills]
 aliases: [Punto Situazione 2026-06-09, Skills Recap]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Quadro superato dal consolidamento 10/6. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🧭 Punto Situazione + Recap Skills — 2026-06-09
 
 > Recap consolidato richiesto da Carlo per **riprendere il lavoro** sul sistema operativo personale (3 AI) e sul tema skill. Prodotto da una sessione Claude Code via **3 agenti paralleli + verifica git diretta**. Affianca [[2026-06-06 - Roadmap Second Brain Code-era|Roadmap F0–F6]] e [[Mappa Skill e Frammentazione AI]].

@@ -6,6 +6,8 @@ status: proposta — scope confermato da Carlo 6/6, esecuzione da avviare
 tags: [system, second-brain, F2, ingest, kb-solidity]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** F2 certificata via KB Solidity Report (9/6) + ingest eseguito (smistamento 134 file 10/6). Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # F2 — Ingest KB grezza + KB Solidity Report
 
 > Piano operativo + inventario delle **2 aggregazioni** di materiale grezzo (prodotte da Desktop Commander, per cliente) da ingerire nel vault. Companion di [[2026-06-06 - Roadmap Second Brain Code-era|Roadmap]] §F2. Scope confermato da Carlo 6/6.

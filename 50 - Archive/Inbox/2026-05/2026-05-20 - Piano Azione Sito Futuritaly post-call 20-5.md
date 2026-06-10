@@ -1,6 +1,6 @@
 ---
 type: prep_doc
-status: active
+status: superseded
 priority: p1
 client: FuturItaly
 projects: [Sito Futuritaly]
@@ -9,6 +9,8 @@ meeting_context: 2026-05-22 — Call follow-up Communication strategist post-fee
 created: 2026-05-20
 updated: 2026-05-20
 ---
+
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Scheda [[Sito Futuritaly]] riconciliata il 10/6: i 4 task vivi sono LÌ (→ PM Digest), questo piano è storico. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
 
 # Piano d'azione — Sito FuturItaly post-call 20/5
 

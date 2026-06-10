@@ -6,6 +6,8 @@ period: 2026-05-26 / 2026-06-02
 sources: [Outlook email, Outlook calendar, SharePoint, Google Drive]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Settimana chiusa; i task vivi citati (Laila, inserimento dati) sono tracciati in Open Tasks/_NoLoop. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Weekly Digest — 26 maggio → 2 giugno 2026
 
 > Fonti scansionate: **Outlook** (inbox + inviati), **Calendario Outlook**, **SharePoint**, **Google Drive**.

@@ -6,6 +6,8 @@ projects: [Eye Cookies]
 stakeholders: [Germano Marano, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Call svolta il 28/5 (minuta assorbita in scheda); i task vivi di Eye Cookies vivono nella scheda progetto — le checkbox qui sotto sono il prep, non lo stato. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Prep call bisettimanale Eye Cookies — Germano 28/5 ore 15:30
 
 > Prima call del nuovo formato bisettimanale. Setting tono e governance per i prossimi mesi. Obiettivo: arrivare con quadro chiaro, roadmap consolidata, 3-4 decisioni da chiudere.

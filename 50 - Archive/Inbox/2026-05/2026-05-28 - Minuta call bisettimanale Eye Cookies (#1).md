@@ -11,6 +11,8 @@ meeting_type: bisettimanale ricorrente (1ª istanza)
 source_transcript: 80 - Sources/Files/Eye Cookies/2026-05-28 — Trascrizione call bisettimanale Eye Cookies.docx
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Minuta assorbita nelle schede via §15.bis (28/5); qui resta la copia integrale. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Minuta — Eye Cookies | Allineamento bisettimanale #1
 
 **Data**: giovedì 28 maggio 2026, 13:35-14:17 (42 min)

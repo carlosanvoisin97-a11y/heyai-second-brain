@@ -6,6 +6,8 @@ tags: [trascrizioni, vocali, whatsapp, soolutions]
 related_projects: [Minutes, Eye Cookies]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Batch processato e assorbito nelle schede (28/5). Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Trascrizioni vocali WhatsApp — batch 25-28 maggio
 
 > Capture grezzo di 8 messaggi audio/video WhatsApp caricati da Carlo il 28/5. Trascritti in locale (offline) con **whisper.cpp + modello ggml-large-v3**, italiano. Pipeline: `.ogg/.mp4` → ffmpeg WAV 16kHz mono → whisper-cli. Audio mai uscito dalla macchina (§13).

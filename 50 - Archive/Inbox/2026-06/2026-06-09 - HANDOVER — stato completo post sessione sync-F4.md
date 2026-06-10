@@ -6,6 +6,8 @@ tags: [system, handover, F1, F3, F4, F5, backlog]
 aliases: [Handover 9-6, Handover sessione sync-F4, Handover completo 9 giugno]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** F3/F6 chiusi il 10/6 (erano 🔶/❌ qui), OQ#36 chiusa, skill-strategy eseguita. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🔁 HANDOVER → sessione fresca: stato completo dopo la sessione 7→9/6 (sync → F4)
 
 > **Complementa** [[2026-06-07 - HANDOVER — chiusura F1 (sync vault + QA + cattura Code)|Handover 7/6]] (la sessione fork lo legge già: lì lo stato PRE) e [[2026-06-09 - Punto Situazione + Skills Recap|Punto Situazione 9/6]] (recap 3-agenti + skill). Qui: **TUTTO ciò che questa lunga sessione ha fatto** + il **backlog COMPLETO verificato** (cross-check 9/6 contro: 7/6 handover §8 · Roadmap F0-F6 · Punto Situazione · Open Questions). Pensato per essere il "leggi-questo-primo".

@@ -1,11 +1,13 @@
 ---
 type: proposal
-status: da-approvare
+status: eseguito
 created: 2026-06-10
 updated: 2026-06-10
 tags: [system, overnight, brain2, mining, integrazione, piano]
 aliases: [Integrazione piano brain 2, Mining brain 2]
 ---
+
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Pacchetti A+B chiusi 14/14 la sera del 10/6 con le risposte di Carlo; le 4 patch CLAUDE.md della voce 8 risultano GIÀ applicate (a=§10ter.1, b=§9ter, c=§0bis, d=contratto ancore §14). Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
 
 # 🔎 INTEGRAZIONE piano — mining integrale sessioni "brain 2" (10/6)
 

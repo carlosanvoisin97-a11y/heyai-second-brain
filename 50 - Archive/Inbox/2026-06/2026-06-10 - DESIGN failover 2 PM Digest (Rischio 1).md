@@ -6,6 +6,8 @@ updated: 2026-06-10
 tags: [system, design, pm-digest, failover, rischio-1]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Pezzo 1 IMPLEMENTATO (fallback degradato, patch routine 10/6) + guardia bridge ESTESA (sera-2: integra fonti live se daily degradata). Pezzo 2 (watchdog cloud 10:00) resta condizionale: solo se si osservano run cloud che muoiono PRIMA della routine — tracciato nel HANDOVER §2. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🛟 DESIGN — 2° failover PM Digest a Mac spento (Rischio #1)
 
 > B11 del piano 10/6. **Solo design** — implementazione dietro OK (richiede un nuovo trigger cloud + patch alla routine).

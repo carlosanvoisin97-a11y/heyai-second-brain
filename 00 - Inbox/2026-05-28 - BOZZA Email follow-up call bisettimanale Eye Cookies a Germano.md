@@ -70,3 +70,5 @@ Carlo
 - **Thread**: nuovo (non continua "R: EYE cookie" perché è recap di call standalone, e Germano si aspetta un follow-up dedicato)
 - **Riservatezze §13**: rispettate — nessuna esposizione finanziaria HeyAI, nessuna citazione fornitori per nome, nessuna esposizione strategia commerciale Soolutions
 - **Domanda aperta a Carlo**: confermare se mantenere giovedì come giorno bisettimanale (oggi 28/5 era giovedì) o spostare a martedì come ipotizzato nella mail del 20/5 ("giorni più scarichi HeyAI")
+
+> ⚠️ **Verifica invio (nota 10/6)**: nessuna conferma di invio nel vault per questa bozza del 28/5 (il ciclo bisettimanale è poi proseguito, quindi probabilmente inviata). Carlo: check rapido in Outlook Sent Items → poi archiviare.

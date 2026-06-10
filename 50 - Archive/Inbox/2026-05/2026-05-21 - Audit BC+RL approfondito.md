@@ -10,6 +10,8 @@ stakeholders: [Carlo Sanvoisin]
 meeting_context: 2026-05-21 sera — Audit approfondito BC e RL post-round-4, validazione 5 punti tecnici Carlo
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Achipont LOST 9/6 — audit storico, checkbox non più rilevanti. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🔍 Audit approfondito BC + RL — 21-5-26 (round-5)
 
 > Rilettura sistematica del Business Case e del Requirement Log nella versione corrente post-round-4 (tabelle pricing 4-col + opzionali alleggerite + Fase 2 alleggerita + de-anglicizzazione round-2). Obiettivo: rassicurare Carlo che i 2 file sono corretti sotto ogni profilo (numerico, tecnico, legale, comunicativo, grammaticale) prima dell'invio del 21/5 sera. Validati anche i 5 punti tecnici sollevati da Carlo.

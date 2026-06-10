@@ -6,6 +6,8 @@ tags: [system, handover, F7, overnight, housekeeping, esecuzione, rollback]
 aliases: [Innesto overnight F7, Piano esecuzione overnight, Innesto housekeeping 10-6]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** F7 eseguito (REPORT overnight + chiusura trash 10/6 sera). Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🌙 INNESTO overnight — F7 Housekeeping + Piano di esecuzione integrato
 
 > **Secondo innesto** per la sessione overnight sul nuovo modello. Catena: prompt-contenitore (metodo/regole) → [[2026-06-10 - HANDOVER overnight — vault-health + backlog sistema|HANDOVER 10/6]] (fronti vault-health / 37 broken / F6 / governance) → **questo file**. Qui ciò che mancava — *disk-hygiene* (F7), i due build nuovi, la strategia skill — più il **piano maestro**: orchestra TUTTI i fronti F0–F7 con il gate di Carlo e le **strategie di recupero per ogni passaggio critico**. I due handover insieme = set completo, nulla si perde.

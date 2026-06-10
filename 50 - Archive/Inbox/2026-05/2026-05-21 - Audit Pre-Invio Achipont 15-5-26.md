@@ -10,6 +10,8 @@ stakeholders: [Carlo Sanvoisin, Luigi (Achipont)]
 meeting_context: 2026-05-21 — Audit pre-invio indipendente sui 3 file 15-5-26 (Proposta Investimento, Business Case, Requirement Log)
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Achipont LOST 9/6 — audit storico. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🔍 Audit pre-invio Achipont 15-5-26 — Report PASS/FAIL
 
 > Audit meticoloso indipendente richiesto da Carlo prima dell'invio a Luigi (Achipont) dei 3 deliverable 15-5-26. Procedura eseguita: lettura integrale CLAUDE.md → Master Facts Sheet §Achipont e §Regola pricing → scheda [[Achipoint]] → 3 file 15-5-26 (`HeyAI_Achipont_Proposta_Investimento_15-5-26.docx`, `HeyAI_Achipont_BusinessCase_15-5-26.docx`, `Achipont_RequirementLog_15-5-26.xlsx`) → questionario Discovery compilato dal cliente → verifica camerale online → ricalcolo numerico cross-file da zero.

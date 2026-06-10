@@ -56,3 +56,5 @@ aliases: [Report overnight 10-6, Report esecuzione notturna]
 
 - Svuotare `~/vault-trash-2026-06-10/` + cancellare tgz → −820 MB ulteriori su disco
 - Cancellare il tag `pre-overnight-2026-06-10` (locale + origin) quando il rollback non serve più
+
+> ✅ **Nota di chiusura (10/6 sera-2)**: le 9 voci della sezione "🔍 RICHIEDE-OK" sono state TUTTE risolte con le risposte di Carlo del 10/6 sera — vedi PUNTI APERTI (dashboard) per il dettaglio.

@@ -2,12 +2,14 @@
 type: handover
 created: 2026-06-06
 updated: 2026-06-06
-status: pronto per consumo
+status: superseded
 tags: [system, second-brain, handover]
 aliases: [Handover Second Brain Optimization, Handover a Second Brain Optimization Recap]
 source_session: "funny-shannon-c4101e (cc3ff06a) — sessione Code"
 related: ["[[2026-06-06 - Roadmap Second Brain Code-era]]", "[[2026-06-02 - Audit Toolstack — skill, plugin, connettori vs lavoro]]"]
 ---
+
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Tutti i punti assorbiti ed eseguiti dai fronti F0-F7 (chiusi al 10/6); decisioni §10 risolte. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
 
 # Handover → sessione "Second brain optimization recap"
 

@@ -9,6 +9,8 @@ source_session: "quizzical-faraday (1ab3daf8) — 6/6/2026, ~6h"
 related: ["[[2026-06-06 - Roadmap Second Brain Code-era]]", "[[2026-06-06 - F2 Ingest Plan + Inventario KB grezza]]"]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** F2 certificata (KB Solidity 9/6); ottimizzazione completata nei fronti F0-F7. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # 🔁 HANDOVER → nuova sessione: F2 Ingest KB + ottimizzazione second brain
 
 > **Nuova sessione, leggi in quest'ordine:** (1) `CLAUDE.md`, (2) **questo file**, (3) [[2026-06-06 - Roadmap Second Brain Code-era|Roadmap]] (i 6 fronti), (4) [[2026-06-06 - F2 Ingest Plan + Inventario KB grezza|F2 Plan + Inventario]]. Con questi 4 hai TUTTO. Prodotto a fine sessione `quizzical-faraday` il 6/6/2026.

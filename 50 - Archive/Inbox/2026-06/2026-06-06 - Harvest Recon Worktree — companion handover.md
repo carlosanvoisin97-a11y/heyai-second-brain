@@ -9,6 +9,8 @@ source_session: "funny-shannon-c4101e (cc3ff06a) — sessione Code, read-only"
 related: ["[[2026-06-06 - Handover a Second Brain Optimization Recap]]", "[[2026-06-06 - Roadmap Second Brain Code-era]]"]
 ---
 
+> ⏩ **SUPERSEDED — 10/6/2026 (consolidamento sera-2).** Harvest completato 9/6 (3 commit stranded recuperati), worktree potate in F7. Stato corrente: [[2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione)|HANDOVER 10/6]] + [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]].
+
 # Harvest Recon Worktree — companion all'handover
 
 > **Cos'è:** estrazione **read-only** dei fatti vault-worthy intrappolati nelle worktree e **assenti da `main`**. Companion operativo dell'[[2026-06-06 - Handover a Second Brain Optimization Recap|Handover]] §8 (step "harvest prima di prune") e della [[2026-06-06 - Roadmap Second Brain Code-era|Roadmap]] F0/F2. Prodotto dalla sessione `funny-shannon` in corsia parallela sicura: **nessuna scrittura su `main`/git**, solo questo file.
