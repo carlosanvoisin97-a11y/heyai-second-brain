@@ -319,7 +319,7 @@ Quando crei una nuova scheda in `20 - Projects/` o `60 - People/`, propaga subit
 
 ## 12. Open questions ricorrenti
 
-Fonte autoritativa: [[99 - System/Open Questions]]. Critiche aperte: #19 (contratto IP Soolutions — workflow Longo 12-14/5), #31-33 (Angelini Academy — gara/concorrenti/brand book), #34 (scheduler drift). Leggere sempre Open Questions prima di rispondere su temi ambigui.
+Fonte autoritativa: [[99 - System/Open Questions]]. Critiche aperte: #19 (contratto IP Soolutions — workflow Longo 12-14/5), #31-33 (Angelini Academy — gara/concorrenti/brand book). _(#34 scheduler drift: chiusa 10/6, superata da F1/F3.)_ Leggere sempre Open Questions prima di rispondere su temi ambigui.
 
 ## 13. Riservatezze
 

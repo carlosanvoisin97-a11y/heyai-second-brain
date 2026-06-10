@@ -385,3 +385,7 @@ Quando aggiornare questa SKILL.md:
 Storia patch:
 
 - **14/5/2026**: skill creata da Carlo durante sessione Cowork. Token §1-§4 estratti da `Futuritaly_Proposta Investimento AI_Bandi e Gare_2026.docx`. Assorbe contenuti del template deprecato `90 - Templates/Proposta Investimento.md` (archiviato in pari data) e i prompt 01/02 (restano referenziati). Pattern §7 in coerenza con `email-drafting` SKILL.md.
+
+## Scaffold docx-js verificato (test end-to-end 10/6/2026)
+
+`scripts/generate-scaffold.js` genera un .docx conforme al design system (verificato su word/document.xml: Aptos 11pt inline, H1 16pt nero, titolo 20pt #2B8C96, header logo flottante, footer bordo #156082 senza numerazione, tabella-callout teal). Usalo come base per ogni nuova proposta (docx-js: ogni `TableCell` richiede `width` esplicita). **Prerequisiti produzione**: (1) l'ornamento footer `rocco bottom.png` NON è nel vault — estrarlo una tantum da `word/media/` del reference docx in `80 - Sources/Files/`; (2) export PDF da Word (Aptos non è installato a sistema: LibreOffice ripiega su Liberation Serif → PDF infedele).

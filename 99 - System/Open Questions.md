@@ -4,7 +4,7 @@ created: 2026-04-30
 updated: 2026-06-08
 ---
 
-> **Cleanup 14/5/2026**: archiviate 27 domande risolte (#1-#18 + #20-#28) in [[50 - Archive/System/Open Questions Archive 2026-04-05|Open Questions Archive 2026-04-05]]. In vivo restano solo le domande con follow-up attivo: #19 + #29 (IP Soolutions, workflow Longo aperto), #31-#33 (Angelini Academy), #34 (scheduler drift) + sezione 🔐 SICUREZZA. Risposte storiche preservate verbatim in archive per consultazione.
+> **Cleanup 14/5/2026**: archiviate 27 domande risolte (#1-#18 + #20-#28) in [[50 - Archive/System/Open Questions Archive 2026-04-05|Open Questions Archive 2026-04-05]]. In vivo restano solo le domande con follow-up attivo: #19 + #29 (IP Soolutions, workflow Longo aperto), #31-#33 (Angelini Academy) + sezione 🔐 SICUREZZA. #34 (scheduler drift) chiusa 10/6 — superata da F1/F3. Risposte storiche preservate verbatim in archive per consultazione.
 >
 > **Aggiornamento 7/5/2026 (sera)** — Aperta **#34** sullo scheduler Cowork che non ha eseguito i task ricorrenti di oggi (`pm-digest-mattutino` 8:02 e `cowork-sessions-index` 13:07).
 
@@ -145,7 +145,9 @@ Elena ha detto in call (9/4) che il cliente ha già un brand book ereditato dal 
 - Brand book sarà condiviso prima del Q&A 8/5 (parte del materiale SharePoint?) o solo dopo eventuale aggiudicazione?
 - Vincoli reali su tipografia/colori/lessico vs margine creativo
 
-### 34. 🆕 Scheduler Cowork: perché i task ricorrenti del 7/5 non sono stati eseguiti _[aperta 7/5/2026]_
+### 34. ✅ Scheduler Cowork: task ricorrenti non eseguiti _[aperta 7/5/2026 · CHIUSA 10/6/2026]_
+
+> ✅ **Chiusa 10/6/2026 — superata strutturalmente da F1/F3**: la causa era l'architettura app-bound di Cowork (scheduler girava solo ad app aperta). Risolta alla radice con la migrazione alle **routine cloud unattended** su claude.ai (F1, 7/6 — girano a Mac spento) + bridge locale failover + hook `digest-staleness-check` come campanello + sub-check `consistency` di vault-health come safety net settimanale. Cowork dismesso il 9/6. Dettaglio architettura: CLAUDE.md §9/§9bis.
 
 Constatazione fattuale (verificata via `mcp__scheduled-tasks__list_scheduled_tasks` il 7/5 sera): `pm-digest-mattutino` ha `enabled: true`, `nextRunAt: 2026-05-07T06:02Z` (08:02 CEST oggi) ma `lastRunAt: 2026-05-06T06:38Z` — **non eseguito**. Stesso pattern per `cowork-sessions-index` del run 13:07 di oggi. Conseguenza: Open Tasks è rimasto snapshot del 6/5 fino al fix manuale di stasera.
 

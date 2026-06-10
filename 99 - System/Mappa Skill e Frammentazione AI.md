@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-10
 status: operational
 purpose: Mappa unica dei tre sistemi AI (Cowork/vault, Claude Code, Desktop Commander), di dove vivono le skill, e di quando/come usarle. Risolve la confusione "quale strumento sa cosa".
 ---
@@ -29,8 +29,8 @@ Ognuno cerca le skill in una cartella diversa **perché sono software diversi**,
 
 | Sistema | Cartella skill (path reale) | Quante | Skill presenti |
 |---|---|---|---|
-| **Cowork + vault HeyAI** | `claude/.claude/skills/` | 9 | email-drafting, investment-proposal-drafting, transcript-processing, vault-live-protocol, obsidian-cli, obsidian-markdown, obsidian-bases, json-canvas, defuddle |
-| **Claude Code (terminale)** | `.claude/skills/` | 5 | management-consulting, pm-method, recap, web-design-3d, website-builder-setup |
+| **Vault HeyAI (Claude Code sul vault)** | `claude/.claude/skills/` | 10 | email-drafting, investment-proposal-drafting, transcript-processing, vault-live-protocol, **vault-health** 🆕10/6, obsidian-cli, obsidian-markdown, obsidian-bases, json-canvas, defuddle |
+| **Claude Code (globali)** | `~/.claude/skills/` | 6 | management-consulting, pm-method, recap, web-design-3d, audio-transcriber-deepgram, downloads-cleaner-vault-import _(website-builder-setup archiviata 10/6 in `~/.claude/skills-archive/`)_ |
 | **Desktop Commander (questa chat)** | `~/.agents/skills/` | 6 | desktop-commander-guide, skill-creator, find-skills, downloads-cleaner-vault-import, audio-transcriber-deepgram, workspace-memory |
 
 > ⚠️ **Disambiguazione `.claude` (cruciale)**: esistono **due** cartelle `.claude` diverse.
