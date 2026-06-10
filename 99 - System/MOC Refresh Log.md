@@ -1,13 +1,51 @@
 ---
 type: system-log
 created: 2026-05-15
-updated: 2026-05-24
-last_run: 2026-05-24 19:19 (run dom, trigger manuale o scheduler slip dal sab 23/5)
+updated: 2026-06-10
+last_run: 2026-06-10 14:00 (run sab, cron 14:00 UTC / routine cloud moc-refresh)
 ---
 
 # MOC Refresh Log
 
 Log degli audit settimanali del [[99 - System/MOC - Home]] (task `moc-refresh`, cron sab 16:00).
+
+---
+
+## 2026-06-10 14:00 — 2 auto-patches · 3 flags
+
+Run sabato 10/6 (slot cron 14:00 UTC / 16:00 CEST). Ultimo run: 24/5. Intervallo: 17 giorni.
+
+### Auto-patches applicati
+
+- `updated:` frontmatter MOC: `2026-06-07` → `2026-06-10`
+- Versione Master Facts in §"Da leggere subito": `**v1.2 (21/5)**` → `**v1.2 (9/6)**` (frontmatter Master Facts: `updated: 2026-06-09`; versione 1.2 invariata, label data allineata)
+
+### Sezioni verificate (no patch necessaria)
+
+- "Progetti attivi (12 totali)" — coerente. Achipoint ha `status: lost` ma NON `status: archived` → incluso nel conteggio per policy glob. Count 5 NoLoop + 7 altri = 12. NO patch.
+- "Altri clienti (7 progetti)" — coerente (include Achipont ancora non archiviato). NO patch.
+- "Cluster NoLoop — Wave 2 + NOT (5 progetti)" — coerente. NO patch.
+
+### Flag to triage (Carlo decide)
+
+**Nuova persona non in MOC (1 — ri-segnalata da run 24/5, ancora aperta):**
+- `[[60 - People/Paolo Verrangia (commercialista NoLoop)]]` — commercialista/consulente fiscale esterno NoLoop, creato 21/5/2026, `risk_flag: 🔴 ALTO` (identità in verifica: company "VSign Srl" NON riscontrabile in CCIAA, email dominio gmail anomalo). Decisione Carlo: aggiungere al cluster NoLoop §Amministrativo oppure tenere solo in `60 - People/` finché due diligence chiusa.
+
+**Nuovo file `99 - System/` non in MOC §Sistema vault (1):**
+- `[[99 - System/Mappa Skill e Frammentazione AI]]` 🆕 — creato 7/6/2026, `status: operational`. Documenta i tre sistemi AI (vault/skill, Claude Code, Desktop Commander), risolve confusione "quale strumento sa cosa", aggiornato 9/6 post-dismissione Cowork. Carlo decide se aggiungerlo a §Sistema vault.
+
+**Drift status progetto (1):**
+- `[[20 - Projects/Achipont/Achipoint|Achipont]]` — `status: lost` nel file (`updated: 2026-06-09`); proposta rifiutata 9/6 per CLAUDE.md §6. Il bullet MOC lo mostra ancora come progetto attivo senza nota LOST. Carlo decide: (a) mantenere in lista con nota LOST, (b) rimuovere dai "12 attivi" → conteggio scende a 11, (c) archiviare la scheda.
+
+### Wikilink broken
+
+Nessuno. Spot-check su 10 path critici (40 - Resources, 80 - Sources/Cowork Sessions/Index, 99 - System cluster, 30 - Areas, 20 - Projects principali): tutti risolti. Nessun rename/move di target rilevato dall'ultimo audit.
+
+### Stato finale
+
+- Auto-patches: 2 · Flag aperti: 3 · Wikilink broken: 0
+- No alert Daily Note (flag ≤ 5, broken = 0)
+- Prossimo run scheduled: sab 13/6 14:00 UTC
 
 ---
 
