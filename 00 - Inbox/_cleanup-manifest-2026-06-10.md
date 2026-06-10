@@ -93,3 +93,10 @@ Pitch concluso 5/6 (esito soft-defer → workshop H2'26). Proposta di triage per
 ### ⚠️ Nota operativa rilevata ~14:15 — terzo writer attivo
 
 Il plugin **Obsidian Git ha pushato in autonomia** gli 8 commit locali dei fix (Obsidian aperto, auto-sync ~10'). Nessun danno (commit validi, già destinati a main), ma la strategia "trattengo i push finché il run cloud non atterra" non regge col plugin attivo: il run cloud `vault-link-checker` (lanciato 13:55 circa) dovrà mergiare al push. Se il run fallisce il push → ri-trigger.
+
+### CHIUSURA — Svuotamento finale (sera 10/6, OK Carlo punto 19)
+
+- Verifica pre-svuotamento: HEAD==origin/main ✅ · 0 file non committati ✅
+- Preservati prima dello svuotamento: backup skill globali → `~/Documents/skill-backups-2026-06-10/` · `axel.txt` → `~/Documents/` (fuori dal vault come da decisione, non distrutto) · chiave Deepgram → `~/Documents/deepgram-api-key.txt`
+- SVUOTATI: `~/vault-trash-2026-06-10/` (152 MB) + `~/vault-backup-pre-overnight-2026-06-10.tgz` (688 MB) → **+840 MB liberati** (disco a 19 Gi liberi)
+- Il tag `pre-overnight-2026-06-10` RESTA (zero spazio, rollback git-level ancora possibile per i file tracciati)
