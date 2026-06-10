@@ -5,7 +5,6 @@ filters:
 formulas:
   giorni_fermo: (now() - file.mtime).days
   stato_icon: if(status == "active", "🟢", if(status == "lost", "🔴", if(status == "archived", "📦", "⚪")))
-  Senza titolo: ""
 properties:
   priority:
     displayName: Priorità
@@ -42,11 +41,6 @@ views:
       - priority
       - updated
       - formula.giorni_fermo
-      - deadline_history
-      - type
-      - file.tags
-      - deadline
-      - formula.Senza titolo
     sort:
       - property: deadline_history
         direction: ASC

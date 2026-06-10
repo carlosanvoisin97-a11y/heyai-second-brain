@@ -6,7 +6,7 @@ updated: 2026-06-10
 tags: [system, decisioni, punti-aperti, consolidamento]
 aliases: [Punti aperti 10-6, Decisioni Carlo post-consolidamento]
 ---
-
+- [ ] 
 # 🎯 PUNTI APERTI — tutto ciò che dipende da Carlo (10/6/2026, sera)
 
 > Consolidato finale dopo: overnight (F3/F6/F7+broken) → mining brain 2 (15 sessioni, 168 item) → esecuzione Pacchetti A+B (14/14 fronti chiusi). **Qui c'è SOLO ciò che resta in capo a te** — niente è andato perso, tutto il resto è fatto e committato. Spunta o rispondi per punti, anche a blocchi.
