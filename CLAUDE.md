@@ -1,7 +1,7 @@
 ---
 type: system
 created: 2026-05-05
-updated: 2026-06-07
+updated: 2026-06-10
 status: operational — refactoring M4 29/5/2026 (§15 vault-live + §10bis → skill vault-live-protocol; core sempre-attivo in CLAUDE.md; versioning git attivo) + Front 3 29/5 (§9bis due-scheduler Cowork-vs-Code + campanello digest-staleness hook)
 purpose: Istruzioni di sistema per ogni chat Cowork che apre questa cartella
 ---
@@ -256,10 +256,10 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 Esistono **tre** runtime (cron + stato nella tabella §9). Implicazioni operative:
 
 - **Cloud (claude.ai)**: le 5 routine audit/digest girano **unattended, anche a Mac spento** (server-side, clonano il repo). È il "battito" vero, ripristinato in F1 (7/6) e provato end-to-end. Verifica / "Run now" da Code con `RemoteTrigger action:list|run`, o dal pannello claude.ai. ⚠️ Il PM Digest dipende dall'auth **M365 su claude.ai**: se il token scade, il run headless fallisce → il bridge locale (sotto) è la rete di sicurezza.
-- **Code-locale** (`~/.claude/scheduled-tasks/`, visto da `mcp__scheduled-tasks__list_scheduled_tasks`): **3 task** — `code-sessions-index` (on), `system-consistency-check` (on, locale per forza), `pm-digest-mattutino` bridge (**off**, fallback dormiente). Best-effort: girano solo ad **app Code aperta** (se chiusa → al prossimo avvio), **mai a Mac spento**.
+- **Code-locale** (`~/.claude/scheduled-tasks/`, visto da `mcp__scheduled-tasks__list_scheduled_tasks`): **3 task** — `code-sessions-index` (on), `system-consistency-check` (on, locale per forza), `pm-digest-mattutino` bridge (**on — failover**, ri-armato 9/6: gira 9:30 solo se la daily di oggi manca). Best-effort: girano solo ad **app Code aperta** (se chiusa → al prossimo avvio), **mai a Mac spento**.
 - **Plugin Obsidian Git**: gira ad **app Obsidian aperta** (§9ter) — è ciò che tira l'output cloud dentro Obsidian.
 - ⚠️ `list_scheduled_tasks` vede **SOLO** lo scheduler Code-locale (i 3 task sopra), **NON** le routine cloud. Per quelle: `RemoteTrigger action:list` o pannello claude.ai. Non confondere i due (errore storico Front 3).
-- **Campanello automatico**: l'hook `SessionStart` lancia `.claude/hooks/digest-staleness-check.sh`: se l'ultima daily note è ferma da ≥2 giorni avvisa — di norma significa che la **cloud routine M365 ha fallito** (token), non più "Cowork non aperto". Recupero: controllare auth M365 su claude.ai o ri-abilitare il bridge locale + `RemoteTrigger run` del digest.
+- **Campanello automatico**: l'hook `SessionStart` lancia `.claude/hooks/digest-staleness-check.sh`: se l'ultima daily note è ferma da ≥2 giorni avvisa — di norma significa che la **cloud routine M365 ha fallito** (token), non più "Cowork non aperto". Recupero: controllare auth M365 su claude.ai o `RemoteTrigger run` del digest (il bridge locale 9:30, già ON, copre da solo se l'app Code è aperta).
 - **Regola pratica**: per *lavorare* sul vault, Code e Obsidian sono equivalenti (il sync li allinea, §9ter). Le *automazioni* girano in **cloud** (Mac spento ok); tieni Obsidian aperto ogni tanto perché il plugin tiri in locale l'output.
 
 ## 9ter. Git, sync e branch (era Code-first) — disciplina anti-errori
