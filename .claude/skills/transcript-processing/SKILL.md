@@ -1,6 +1,6 @@
 ---
 name: transcript-processing
-description: "Protocollo per processare trascrizioni di call/meeting caricate da Carlo. Estrae decisioni, numeri, task, citazioni e li committa nelle schede vault. Usa quando Carlo carica una trascrizione o dice 'recap call'."
+description: "Protocollo per processare trascrizioni di call/meeting. Estrae decisioni, numeri, task, citazioni e li committa nelle schede vault (cascata §15.bis). USALA SEMPRE quando nel prompt c'è una trascrizione (anche incollata o come file .txt/.md/.docx), un verbale, una minuta, o quando Carlo dice recap call/processa la call/minuta, o si carica l'output di audio-transcriber-deepgram. In dubbio se un testo è una trascrizione: invocala."
 ---
 
 # §15.bis — Protocollo "trascrizione caricata" + audit post-commit obbligatorio

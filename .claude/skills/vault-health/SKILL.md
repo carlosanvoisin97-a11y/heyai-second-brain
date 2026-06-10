@@ -1,6 +1,6 @@
 ---
 name: vault-health
-description: Health-check unificato del vault HeyAI — sub-check links (wikilink/frontmatter rotti, flag-only), moc (drift MOC - Home, auto-patch-safe), consistency (drift doc↔scheduler↔routine, flag-only), contradictions (slot futuro). Invocazione "vault-health <check>" con check ∈ {links, moc, consistency, all}, default all. Usato dalle routine cloud come fonte unica di logica (thin-wrapper) e on-demand da Claude Code.
+description: Health-check unificato del vault HeyAI — sub-check links (wikilink/frontmatter rotti, flag-only), moc (drift MOC - Home, auto-patch-safe), consistency (drift doc↔scheduler↔routine, flag-only), contradictions (contraddizioni fattuali Master Facts↔schede, flag-only — implementato 10/6). Invocazione "vault-health <check>" con check ∈ {links, moc, consistency, all}, default all. Usato dalle routine cloud come fonte unica di logica (thin-wrapper) e on-demand da Claude Code.
 ---
 
 # vault-health — health-check unificato del vault (F3, 10/6/2026)
