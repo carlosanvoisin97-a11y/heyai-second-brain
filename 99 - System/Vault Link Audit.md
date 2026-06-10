@@ -4,7 +4,7 @@ status: active
 created: 2026-05-08
 updated: 2026-06-10
 ---
-<!-- auto-updated by vault-link-checker 2026-06-10 (rolling-window: audit 2026-06-07 conservato — 3gg fa, sotto soglia 7gg; audit 2026-06-09 conservato — 1gg fa) -->
+<!-- auto-updated by vault-link-checker 2026-06-10 bis (rolling-window: audit 2026-06-07 conservato — 3gg fa; audit 2026-06-09 conservato — 1gg fa; audit 2026-06-10 (cloud K=45) conservato — stesso giorno. Nessun archiving: tutti <7gg) -->
 
 ## Sessioni Cowork correlate
 
@@ -40,8 +40,9 @@ Vedi CLAUDE.md §15 voce 7 per il protocollo di rinominazione manuale.
 | **2026-06-07 (run manuale on-demand)** | **manuale** | **7** | **4** | **0** | ⚠️ K 1→7 (+6): vault cresciuto +134 .md (+164 file totali) dal 24/5. 3 cluster: Area-name mismatch (×2) + folder-link (×3) + placeholder (×1) + routine template (×1). J 0→4: stakeholders con nota parentetica (×4). P: scansione conservativa, 0 segnalati. 78 alias / 36 file proprietari |
 | **2026-06-09 (run cloud schedulato)** | **cloud routine** | **37** | **4** | **0** | ⚠️ ALERT K>20 + crescita 7→37 (+429%): Cluster A inbox archiviata (×16) + Cluster B system patches (×9) + Cluster C area-name mismatch (×2, residuo da 7/6) + Cluster D persone (×5: Arianna alias mancante + Luca path errato + 2 schede assenti) + Cluster E placeholder (×5). J=4 stabile (stessi 4 frontmatter Angelini pitch). ⚠️ Broken in file modificato 24h: `[[Luciano Pecorella]]` in Open Tasks + Daily 2026-06-09. 85 alias / 36 proprietari |
 | **2026-06-10 (run cloud schedulato)** | **cloud routine** | **45** | **3** | **0** | ⚠️ ALERT K>20 (residuo). K 37→45 (+22%): A inbox (×18) + B system (×9) + D persone (×7) + C area-mismatch (×2) + G folder (×3) + E placeholder (×1) + H altri (×5). J 4→3 (−1: v3.3 frontmatter fixato; la terza J è malformed YAML `[[[...]]]`). ⚠️ `[[Luciano Pecorella]]` persiste in Open Tasks + Daily 09/6. ⚠️ Broken in schede attive modificate <24h: `Eye Cookies.md`, `Operation Transformation.md`, `Crowd.md`. 87 alias / 39 proprietari |
+| **2026-06-10 bis (run corretto)** | **cloud routine (2° run)** | **11** | **0** | **0** | K 45→11 (−76%): algoritmo corretto per SKILL spec v4 basename-match — i link a file spostati (Cluster A inbox/B system) si risolvono via basename anche dopo archiving. K 7→11 (+57% vs 7/6 comparabile): 3 Simona Velotta (daily 7/6) + 2 Luciano Pecorella (daily 9/6 + Open Tasks) + 2 Carmen.../Germano... (code-recap placeholder). J=0 (tutti e 4 precedenti J fixati: stakeholders Angelini ripuliti + malformed YAML Eye Cookies ok). Area aliases (Governance, Cybersecurity) RISOLTI — aggiunti tra 7/6 e 10/6. 93 alias / 44 file proprietari |
 
-_(Detail completo dei singoli audit archiviato in `50 - Archive/Vault Audits/2026-05.md`. La tabella viene aggiornata ad ogni audit con la riga sintetica del run.)_
+_(Detail completo degli audit archiviato in `50 - Archive/Vault Audits/2026-05.md`. La tabella viene aggiornata ad ogni audit con la riga sintetica del run. Audit <7gg conservati in questo file; audit più vecchi → archivio mensile.)_
 
 ---
 
@@ -373,5 +374,92 @@ Wikilink a cartelle (trailing slash o path senza file). Obsidian non risolve. Ba
 ### Prossimo run
 
 Cron canonico domenica 15:40 CEST = **dom 14/6/2026 ~15:40**. Aspettativa con fix cluster C (area aliases) + D.Arianna + D.Luca: K scende a ~39. Con fix Cluster A schede attive: K ~36.
+
+---
+
+## Audit 2026-06-10 bis — run corretto (secondo run giornaliero)
+
+> **Contesto run**: secondo run del 10/6/2026. Algoritmo corretto per rispettare la SKILL spec v4 §LINKS: **basename-match** (il file risolve ovunque sia nel vault, non solo al path originale). Questo elimina i falsi positivi dei Cluster A (inbox archiviata) e B (system patches archiviati): quei file esistono ancora nel vault con lo stesso basename in `50 - Archive/`, quindi i link si risolvono. K scende da 45 a 11 (−76%). Vault: 622 file .md, 872+ file totali.
+
+### Numeri sintetici
+
+- **File `.md` scansionati**: 584 (escludendo EXCLUDE_PATHS)
+- **File `.md` totali nel vault**: 622
+- **File totali nel vault** (md + allegati + altri): 872+ (indice stem)
+- **Wikilink totali esaminati**: 4.963
+- **Wikilink rotti (K)**: **11**
+- **Riferimenti frontmatter rotti (J)**: **0**
+- **Path string rotti (P)**: **0** (scansione conservativa)
+- **Alias registrati nel vault**: **93 alias** su **44 file proprietari** ← v4 alias-aware
+- **Δ vs run precedente (2026-06-10 cloud, K=45)**: K 45→11 (Δ−34, −76%) — riduzione da correzione algoritmo
+- **Δ vs ultimo run comparabile (2026-06-07, K=7)**: K 7→11 (Δ+4, +57%) — 4 nuove persone/placeholder
+
+### Alert priorità alta
+
+- **K=11**: sotto soglia 20 → NO ALERT K>20
+- **K crescita +57% vs 7/6**: sopra soglia "+50%", ma contesto: +4 occurrenze assolute (3 Simona Velotta + 2 Luciano Pecorella), basso impatto operativo eccetto `[[Luciano Pecorella]]` in Open Tasks
+- **`[[Luciano Pecorella]]` in `99 - System/Open Tasks.md`** persiste dal 9/6 — persona senza scheda con task assegnato → **⚠️ Fix prioritario**
+- Nessun broken in `60 - People/` o `20 - Projects/` modificati nelle ultime 24h: `Mockup Brief Sito.md` (unico broken in `20 - Projects/`) NON è stato modificato di recente; schede attive modificate ieri (Eye Cookies, Op.Transformation, Crowd) NON hanno broken link in questo run
+
+### Risolti rispetto al run 2026-06-07 (K=7)
+
+| Broken risolto | Motivo risoluzione |
+|---|---|
+| `[[30 - Areas/Area - Governance]]` | Alias `Area - Governance` aggiunto a `Area - Governance HeyAI.md` (tra 7/6 e 10/6) |
+| `[[30 - Areas/Area - Cybersecurity]]` | Alias `Area - Cybersecurity` aggiunto a `Area - Cybersecurity & Compliance.md` (idem) |
+| `[[<target>]]` in `vault-link-checker.md` | File refactored a thin-wrapper F3 (10/6) — placeholder rimosso |
+
+### Broken wikilink (K = 11)
+
+#### Cluster 1 — Persone senza scheda (5 occorrenze in 3 file)
+
+| Sorgente | Wikilink rotto | Diagnosi | Fix suggerito |
+|---|---|---|---|
+| `10 - Daily Notes/2026-06-07.md` (×3) | `[[Simona Velotta]]` | Persona citata nella daily 7/6 senza scheda in `60 - People/` | Creare `60 - People/Simona Velotta.md` oppure rimuovere il link |
+| `10 - Daily Notes/2026-06-09.md` | `[[Luciano Pecorella]]` | Persona senza scheda — compare anche in Open Tasks con task assegnato | ⚠️ Priorità alta — chiedere a Carlo chi è e creare la scheda |
+| `99 - System/Open Tasks.md` | `[[Luciano Pecorella]]` | Stesso target — task assegnato a persona senza scheda | Idem (fix urgente: scheda persona o disambiguare il task) |
+
+#### Cluster 2 — Folder link senza file index (3 occorrenze in 2 file)
+
+Wikilink che puntano a cartelle — Obsidian non risolve link a directory.
+
+| Sorgente | Wikilink rotto | Diagnosi |
+|---|---|---|
+| `80 - Sources/Cowork Sessions/2026-05-28 - Recovery Code sessions backlog.md` | `[[80 - Sources/Cowork Sessions/code-recap/]]` | Cartella esiste, nessun file con quel nome |
+| `80 - Sources/Cowork Sessions/2026-05-28 - Recovery Code sessions backlog.md` | `[[40 - Resources/Concetti/]]` | Cartella esiste, nessun file index |
+| `80 - Sources/Cowork Sessions/code-recap/2026-05-26 - presentazioni-strategiche-47f27518.md` | `[[40 - Resources/Concetti]]` | Idem (no trailing slash) |
+
+Fix: backtick nei file sorgente. Bassa urgenza — file indice auto-generati storici.
+
+#### Cluster 3 — Placeholder / auto-generati (3 occorrenze in 2 file)
+
+| Sorgente | Wikilink rotto | Diagnosi |
+|---|---|---|
+| `20 - Projects/Futuritaly/Angelini Academy/Mockup Brief Sito.md` | `[[Verificare]]` | Placeholder intenzionale — confermato da Carlo il 24/5/2026 |
+| `80 - Sources/Cowork Sessions/code-recap/2026-06-06 - claude-wt-quizzical-faraday-aee36402.md` | `[[60 - People/Carmen ...]]` | Placeholder truncato auto-generato da code-recap |
+| `80 - Sources/Cowork Sessions/code-recap/2026-06-06 - claude-wt-quizzical-faraday-aee36402.md` | `[[60 - People/Germano ...]]` | Idem |
+
+Nessuna azione richiesta.
+
+### Broken frontmatter ref (J = 0)
+
+Nessun frontmatter rotto. I 4 J del run 7/6 (stakeholders Angelini con nota parentetica) sono stati fixati: i frontmatter `v3.2` e `v3.3` ora hanno stakeholders canonici. Il malformed YAML `[[[...]]]` dell'Inbox Eye Cookies si risolve via basename-match sul valore interno (`Eye Cookies`).
+
+### 🔵 Decisioni richieste a Carlo
+
+1. **`[[Luciano Pecorella]]` in Open Tasks** (⚠️ priorità massima, persiste dal 9/6) — chi è Luciano Pecorella? Task assegnato a una persona senza scheda. Fix: creare `60 - People/Luciano Pecorella.md` oppure chiarire il contesto del task.
+2. **`[[Simona Velotta]]`** — citata 3 volte nella daily del 7/6. Creare scheda `60 - People/Simona Velotta.md` o rimuovere i link?
+3. **Cluster 2 (folder link)** — 3 link a cartelle in file storici auto-generati. Bassa urgenza: nessuna azione urgente necessaria.
+
+### 🟢 Verifica patch v4 SKILL alias-aware
+
+- **93 alias** su **44 proprietari** (vs 87/39 al 10/6 precedente, +6 alias, +5 owners)
+- Alias `Area - Governance` e `Area - Cybersecurity` ora registrati e funzionanti: i 2 Cluster C dei run precedenti sono stati risolti
+- Alias `Arianna` registrato in `Arianna Giordanella.md`: `[[Arianna]]` in `Crowd.md` ora risolve
+- Nessun falso positivo identificato in questo run: tutti gli 11 K sono wikilink genuinamente rotti
+
+### Prossimo run
+
+Cron canonico domenica 15:40 CEST = **dom 14/6/2026 ~15:40**. Aspettativa se Carlo crea le 2 schede persona: K scende da 11 a 4 (solo folder link + placeholder intenzionali).
 
 ---
