@@ -69,7 +69,9 @@ Cascata applicata: aliases `emails_historical` aggiunti alle schede [[Federico S
 - **🆕 9/6/2026 — Perimetro cessione IP chiarito (call "Allineamento fatture")**: la cessione IP è **circoscritta**. Soolutions cede l'IP di **tutto l'ecosistema gestionale 100% custom** (frontend/backend/bridge/integrazioni/automazioni) ma **esclude i modelli AI** (predittivi matematici + riconoscimento immagine) perché basati su componenti open-source/pre-esistenti riusati → non cedibili. **Mitigante**: il modello trainato è consegnato al cliente con **uso illimitato e a vita** + ritrainabile in autonomia; lock-in solo sull'**evolutivo** (nuova tipologia merceologica = modello nuovo a pagamento, Soolutions o terzo). Cessione IP dell'ecosistema **al saldo dell'ultima tranche**, da riportare in fattura + contratto. **Pendente**: Federico/Simone devono produrre la **lista delle componenti terze non cedibili** per Carlo (interfaccia con cliente). Dettaglio → [[20 - Projects/NOT/Operation Transformation]] §Log 9/6.
 - **🆕 9/6/2026 (team interno) — Condizione vincolante HeyAI sul lock-in modelli**: il rischio di lock-in è **di HeyAI, non di NoLoop** (il cliente è di HeyAI). Bruno pone come **sine qua non** che Soolutions consegni, oltre al codice sorgente, la **specifica del modello/LLM base** e le **spec tecniche per il retraining**, così che un terzo sviluppatore competente possa ritrainare il modello se HeyAI cessasse il rapporto con Soolutions. **Azione**: Carlo formalizza la condizione via email a Soolutions e attende conferma scritta. Da riflettere anche nel contratto cliente (OT modificabile, Eye Cookies da creare ex novo). Dettaglio → [[20 - Projects/NOT/Operation Transformation]] §Log 9/6 pom.
 
-### 36. 🔴 Identità reale di "Paolo Verrangia" — possibile soggetto con precedenti penali per frode fiscale
+### 36. 🔴 Identità reale di "Paolo Verrengia" — verifica background (match stampa da RIFARE con grafia corretta)
+
+> 🔄 **Nota grafia 10/6/2026 (conferma Carlo): il cognome corretto è VERRENGIA (con la E)** — scheda e vault bonificati. Le citazioni "Verrangia" qui sotto si riferiscono agli articoli di stampa 2011/2017 e sono lasciate invariate: con la grafia corretta il match anagrafico coi procedimenti penali NON è più automatico (possibile omografo di terzi). Le verifiche 1-4 vanno ripetute su "Paolo Verrengia"; restano valide e indipendenti le red flag email gmail + "VSign Srl" non riscontrabile.
 
 Aperta 21/5/2026 sera a valle della due diligence web richiesta da Carlo dopo aver ricevuto via WhatsApp l'email `paolo.vsignsrl@gmail.com` e il nome aggiornato.
 
@@ -84,16 +86,16 @@ Tre red flag emersi dalla ricerca pubblica:
 Da chiarire/decidere:
 
 1. **Conferma identità + coinvolgimento via Roberta Calajò** (messaggio già pronto, da inviare)
-2. **Iscrizione Albo Commercialisti Roma**: Paolo Verrangia è radiato, sospeso o attivo? Verifica su ODCEC Roma
+2. **Iscrizione Albo Commercialisti Roma**: **Paolo Verrengia** è radiato, sospeso o attivo? Verifica su ODCEC Roma (grafia corretta 10/6)
 3. **VSign Srl esiste come entità giuridica**? Verifica diretta CCIAA Roma / Registro Imprese
-4. **Sentenza definitiva** su Paolo Verrangia nell'inchiesta Pambianchi 2011 (assoluzione/condanna/archiviazione/stralcio)
+4. **Sentenza definitiva** sul "Paolo Verrangia" degli articoli (inchiesta Pambianchi 2011) — SOLO se il match con Verrengia regge
 5. **Donzelli sa del background?** Approccio discreto via Andrea Pazienza, se vale la pena indagare
-6. **Cosa mandare a Verrangia anche se confermato**: i contratti integrali (rischio di breach Art. 15 Wave 1 / Art. 12.5 Wave 2) o solo la scheda tecnica di sintesi (esposizione minimizzata)?
+6. **Cosa mandare a Verrengia anche se confermato**: i contratti integrali (rischio di breach Art. 15 Wave 1 / Art. 12.5 Wave 2) o solo la scheda tecnica di sintesi (esposizione minimizzata)?
 7. **Strategia di comunicazione interna a HeyAI**: chi sa che HeyAI ha questa informazione (per ora solo Carlo + vault) — meglio mantenere riservato finché la verifica non chiude
 
-Implicazione strategica: l'invio dei 3 documenti a Verrangia è **SOSPESO** finché non si chiude la verifica via Roberta + ODCEC + CCIAA.
+Implicazione strategica: l'invio dei 3 documenti a Verrengia è **SOSPESO** finché non si chiude la verifica via Roberta + ODCEC + CCIAA.
 
-Riferimenti vault: [[60 - People/Paolo Verrangia (commercialista NoLoop)]] §"Due diligence 21/5/2026".
+Riferimenti vault: [[60 - People/Paolo Verrengia (commercialista NoLoop)]] §"Due diligence 21/5/2026".
 
 ### 35. 🆕 Stato contrattuale reale dei due progetti NOT (Operation Transformation + Eye Cookies)
 
@@ -104,11 +106,11 @@ Aperta 21/5/2026 a valle della rettifica Andrea Pazienza → Carlo → vault. Il
 
 Da chiarire/decidere:
 
-1. **Stato del rapporto contrattuale**: HeyAI ha fatturato acconti senza contratto firmato/prodotto. È prassi accettata col cliente (pattern Wave 2 Art. 1.4 efficacia retroattiva su attività propedeutiche), ma resta una **zona grigia operativa** che diventa critica con l'arrivo dell'audit fiscale di [[Paolo Verrangia (commercialista NoLoop)|Verrangia]]
-2. **Comunicazione a Verrangia**: cosa dire nella scheda tecnica e nell'email del 21/5? L'attuale bozza dice "due progetti contrattualizzati" — formulazione **errata** alla luce dei fatti, da rivedere in "progetti in essere in fase di formalizzazione contrattuale"
+1. **Stato del rapporto contrattuale**: HeyAI ha fatturato acconti senza contratto firmato/prodotto. È prassi accettata col cliente (pattern Wave 2 Art. 1.4 efficacia retroattiva su attività propedeutiche), ma resta una **zona grigia operativa** che diventa critica con l'arrivo dell'audit fiscale di [[Paolo Verrengia (commercialista NoLoop)|Verrengia]]
+2. **Comunicazione a Verrengia**: cosa dire nella scheda tecnica e nell'email del 21/5? L'attuale bozza dice "due progetti contrattualizzati" — formulazione **errata** alla luce dei fatti, da rivedere in "progetti in essere in fase di formalizzazione contrattuale"
 3. **Strategia di formalizzazione**: produrre adesso i contratti ex novo con efficacia retroattiva (pattern Wave 2 Art. 1.4) o continuare a operare su email di approvazione + fatture emesse?
-4. **Tempistica**: Donzelli ha bisogno di chiusura formale **prima** che Verrangia qualifichi gli investimenti AI ai fini fiscali — altrimenti l'agevolazione potrebbe essere indebolita dalla mancanza di documento sottoscritto a base della spesa
-5. **Sollecitare Donzelli**: Andrea Pazienza o Carlo, e con quale leva (Verrangia stesso può essere usato come leva positiva: "il tuo consulente fiscale ci sta auditando, conviene chiudere la documentazione")
+4. **Tempistica**: Donzelli ha bisogno di chiusura formale **prima** che Verrengia qualifichi gli investimenti AI ai fini fiscali — altrimenti l'agevolazione potrebbe essere indebolita dalla mancanza di documento sottoscritto a base della spesa
+5. **Sollecitare Donzelli**: Andrea Pazienza o Carlo, e con quale leva (Verrengia stesso può essere usato come leva positiva: "il tuo consulente fiscale ci sta auditando, conviene chiudere la documentazione")
 
 Riferimenti vault: [[20 - Projects/NOT/Operation Transformation]], [[20 - Projects/NOT/Eye Cookies]], [[60 - People/Paolo Donzelli]], [[99 - System/Master Facts Sheet]] §🍪 e §NOT.
 
