@@ -6,6 +6,8 @@ formulas:
   giorni_fermo: (now() - file.mtime).days
   stato_icon: if(status == "active", "🟢", if(status == "lost", "🔴", if(status == "archived", "📦", "⚪")))
 properties:
+  formula.stato_icon:
+    displayName: ""
   priority:
     displayName: Priorità
   client:
@@ -15,7 +17,7 @@ properties:
   formula.giorni_fermo:
     displayName: Giorni fermi
 views:
-  - type: cards
+  - type: table
     name: P1 live
     filters:
       and:
@@ -41,11 +43,6 @@ views:
       - priority
       - updated
       - formula.giorni_fermo
-    sort:
-      - property: deadline_history
-        direction: ASC
-      - property: status
-        direction: DESC
   - type: table
     name: Persi / archiviati
     filters:
