@@ -43,6 +43,7 @@ aliases: [Handover 10-6 sera, Handover consolidamento completo]
 4. **Watchdog digest pezzo 2** (trigger cloud 10:00 controlla-daily): solo se si osservano run cloud che falliscono PRIMA della routine — [[2026-06-10 - DESIGN failover 2 PM Digest (Rischio 1)]]
 5. **PKM residuo minore**: pilota Progressive Summarization L4 + analisi tagging concettuale (i MOC tematici sono fatti; resurfacing/distill già coperti da weekly-system-review)
 6. **radar-competitor**: run di prova fatto; decidere con Carlo cadenza/schedulazione dopo che l'ha letto
+7. *(minore)* Il trigger cloud `weekly-system-review` ha 4 connettori MCP ereditati di default (Drive/M365/Spotify/Meta) che la routine non usa — innocui; rimovibili dal pannello claude.ai se si vuole pulizia
 
 ## 3. In capo a CARLO (aggiornato dopo le sue risposte — 12 punti)
 
@@ -80,3 +81,8 @@ aliases: [Handover 10-6 sera, Handover consolidamento completo]
 ```
 Sei la sessione che riprende il consolidamento del second brain HeyAI (vault ~/claude, main). Italiano, tono PM, skill-first (R1), explain-after (R2). Leggi in ordine: (1) CLAUDE.md; (2) "00 - Inbox/2026-06-10 - HANDOVER — consolidamento completo 10-6 (per nuova sessione).md" — ha TUTTO: stato verificato, cronaca, coda lavori, punti Carlo, verifiche calendarizzate; (3) "00 - Inbox/2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento).md" per il dettaglio decisioni. REGOLE DURE: git pull prima di scrivere (il plugin Obsidian è un terzo writer); commit per-file, push su main, MAI git add -A; §15 append-only; §13 riservatezze; numeri = PROPOSTA salvo conferma Carlo; §15.quinquies path+criterio su ogni claim. Il tag di rollback pre-overnight-2026-06-10 esiste ancora. Parti da: (a) verifica delle "verifiche calendarizzate" §4 dell'handover se è passata la loro ora; (b) la coda §2 (hook se Carlo presente, 2 skill mancanti, scaffold 2brain); (c) per il resto chiedi a Carlo le priorità.
 ```
+
+
+---
+
+> ✅ **Verificato da completeness critic indipendente (10/6 sera)**: ogni item delle 8 fonti del giorno è coperto (FATTO / coda §2 / punti Carlo §3 / verifiche §4). Zero buchi.
