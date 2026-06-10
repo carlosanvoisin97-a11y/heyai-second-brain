@@ -93,3 +93,15 @@ Verificati i **13 handover/piani storici** in Inbox (4 agenti, 161 item classifi
 - Nota minore: la memory-dir `-Users-carlosanvoisin-Desktop-presentazioni-strategiche` è orfana del path rinominato — irrilevante, nessuna azione.
 
 > ✅ **Verificato da completeness critic indipendente (10/6 sera)**: ogni item delle 8 fonti del giorno è coperto (FATTO / coda §2 / punti Carlo §3 / verifiche §4). Zero buchi.
+
+---
+
+## 8. Aggiornamento sera-2 (post-audit avversariale a 6 agenti) — Sessioni STABILIZZAZIONE + SEGNALETICA eseguite
+
+**S1 — fix critici (tutti i 🔴 e i 🟡 azionabili chiusi):** guardia bridge digest ESTESA (caso daily degradata-M365 → integra fonti live; era il buco del failover) + §9/§9bis allineati · `Push finale` di TUTTE le 8 routine = sequenza **pull→push→clean** (chiude push-rejected E outcome-branch leak — causa trovata: i trigger cloud hanno outcome-branch `claude/*` di piattaforma) · `digest-staleness-check` riscritto (giorni LAVORATIVI, niente falso allarme lunedì + allarme dedicato daily degradata; testato 4/4) · `prompt-router` hardened (regex audio path-anchored, marker in `~/.claude/tmp/router` con self-cleanup; testato 4/4) · §10ter pre-flight → indici `code-recap/` · branch stray `claude/upbeat-cray-twl0zy` eliminato (conteneva solo il run difettoso K=45, superato dal run bis K=11 su main) · lead biotech: 4 task annullati (decisione Carlo).
+
+**S2 — segnaletica e igiene:** 28 file Inbox con status/banner riconciliati (il pattern "status mai aggiornato post-esecuzione" è stato bonificato) · archive batch 37 Inbox + 8 System (Inbox ridotta a **10 file tutti vivi**) · 21 path-ref aggiornati nelle schede vive · `_README` cron riconciliato con la verità RemoteTrigger · 3 checkbox Weekly System Review riconciliati (§15.ter) · Piano Hardening 22/5 (~/2brain) bannerizzato · pulizie (cartella vuota, pptx 16MB → 80-Sources).
+
+**M1/M2 — sbloccati da Carlo ed ESEGUITI:** `owner:` aggiunto a 12 schede progetto · `Progetti Live.base` estesa (project-macro, vista closing, colonna Owner, vista prospect) · **CLAUDE.md §6 = VISTA DERIVATA** (tabella a mano RIMOSSA — era la fonte n°1 di drift; ricetta per routine inclusa; numerazione §-ancore INVARIATA) · §10bis + 5 citazioni vive aggiornate nello stesso commit (digest, weekly-review ×2, pricing-audit, vault-live-protocol). **§7 TENUTO** come indice curato (caratterizzazioni relazionali non derivabili; decisione motivata — Carlo può revocarla). Nota .base: conteggio task-aperti per progetto NON aggiunto (Bases non legge il body; un contatore frontmatter sarebbe una nuova copia che drifta — la vista task canonica resta [[99 - System/Open Tasks]]).
+
+**Restano (per la Sessione 3 — review strategica + manuale):** documento di review architetturale completo · Manuale d'uso per Carlo · audit plugin esterni tieni/disattiva · 2 bozze maggio con invio da verificare in Outlook (nota nei file) · `Setup Microsoft Lists` da confermare con Carlo prima di archiviare.
