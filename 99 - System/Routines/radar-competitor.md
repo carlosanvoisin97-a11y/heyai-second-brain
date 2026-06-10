@@ -49,6 +49,6 @@ source: <url>
 
 ## ⚙️ Push finale (routine cloud)
 
-Al termine, committa e pusha **direttamente su `main`** (`git push origin HEAD:main`). **NON** creare branch né aprire PR — il vault si aggiorna su `main`.
+Al termine: (1) committa; (2) **`git pull --rebase origin main`**; (3) pusha **direttamente su `main`** (`git push origin HEAD:main`); (4) verifica `git status --porcelain` pulito (se restano modifiche: committa e ripeti 2-3). **NON** creare branch né aprire PR — il vault si aggiorna su `main`. _(sequenza pull→push→clean, patch 10/6)_
 
 > ⚠️ Registrazione: questa routine è **autorata ma non ancora schedulata**. Per attivarla: registrarla come routine cloud su claude.ai (o `RemoteTrigger`), oppure come task locale. Decidere cadenza (suggerito: settimanale, lunedì) e confermare la presenza della chiave Bright Data.

@@ -23,4 +23,4 @@ Sei l'assistente di Carlo Sanvoisin (HeyAI Digital). Questa routine è un **thin
 - Italiano, tono PM asciutto; output minimo se 0 drift.
 
 ## ⚙️ Push finale
-Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare branch separati né PR.
+Al termine: (1) committa; (2) **`git pull --rebase origin main`**; (3) pusha **direttamente sul branch `main`** (`git push origin HEAD:main`); (4) verifica `git status --porcelain` pulito (se restano modifiche: committa e ripeti 2-3). **NON** creare branch separati né PR. _(sequenza pull→push→clean, patch 10/6)_

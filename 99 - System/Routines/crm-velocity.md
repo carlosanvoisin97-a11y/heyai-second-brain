@@ -103,4 +103,4 @@ Se 🔴 = 0 e 🟡 = 0 → "✅ CRM pulito, nessuna velocity issue".
 - Cron lunedì 9:00 — scrive su Daily Note del lunedì, no conflitto con altri task attivi
 
 ## ⚙️ Push finale (routine cloud, F1)
-Al termine, committa e pusha le modifiche **direttamente sul branch `main`** del repo (`git push origin HEAD:main`). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`.
+Al termine: (1) committa le modifiche; (2) esegui **`git pull --rebase origin main`** (un altro writer può aver pushato durante la run: senza pull il push viene rifiutato e il lavoro muore nel clone); (3) pusha **direttamente sul branch `main`** (`git push origin HEAD:main`); (4) verifica con `git status --porcelain` che il working tree sia PULITO — se restano modifiche, committale e ripeti (2)-(3): nulla deve restare non pushato, altrimenti finisce sull'outcome-branch `claude/*` del trigger (causa del leak link-checker 10/6). **NON** creare un branch separato né aprire una PR — il vault deve aggiornarsi su `main`. _(sequenza pull→push→clean, patch 10/6)_
