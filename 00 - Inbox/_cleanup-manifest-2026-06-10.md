@@ -30,3 +30,8 @@ Registro di OGNI azione distruttiva/spostamento della sessione overnight 10/6. F
 - Recupero: contenuti tutti in `main` (nulla di unico perso); il `.tgz` 688 MB li conserva integrali; `git worktree add` ricrea all'occorrenza
 - 🔍 **Branch remoti stray (flag-only §9ter, potatura manuale Carlo)** — verificati 0 commit unici vs main; comando pronto:
   `git push origin --delete claude/achipont-outlook-email-vqpfo8 claude/contract-concerns-federico-simone-1305ye`
+
+### Task 2 — Trash .venv (2026-06-10 ~13:48)
+
+- `mv "20 - Projects/Futuritaly/Assets/Icone Settori 3D/.venv"` → `~/vault-trash-2026-06-10/venv-icone-settori-3d` (87 MB, 3.543 file, gitignored — `git status` post-mv: 0 voci)
+- Recupero: `mv` inverso, oppure ricreazione `python3 -m venv` + `pip install` (ambiente rigenerabile)
