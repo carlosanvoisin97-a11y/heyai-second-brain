@@ -9,7 +9,7 @@ governing_source: email Carlo→Elena Chiti+Daniele Caporale 19/5/2026 ore 14:27
 scope: solo SITO WEB (mandato HeyAI confermato). Altri ambiti brief come iniziative complementari.
 purpose: pitch finale Angelini Academy 31/5/2026, McKinsey-grade, v3.2 post osservazioni Carlo (HeyAI senza collaboratori, Carlo voce unica, demo riposizionata, no screenshot, disclaimer inline). Base per raffinamento manuale Carlo → poi conversione PPTX in chat futura.
 related: "[[_Angelini Academy]] · [[2026-05-23 - Audit Pitch v3 vs Brief Angelini + Vault + Esterne]] · [[2026-05-23 - Pitch Angelini v3.1 - Post Audit Brief]] (archivio v3.1) · [[2026-05-23 - Pitch Angelini v3 - Riscrittura McKinsey da email 19-5]] (archivio v3) · [[Pitch Deck Scaletta McKinsey 23-5]] (archivio v2)"
-stakeholders: [Caterina Caboni, Tiziana Carnicelli (confermata in stanza), Marco Morbidelli (forse in stanza), Elena Chiti, Daniele Caporale, Michele Mattucci]
+stakeholders: [Caterina Caboni, Tiziana Carnicelli, Marco Morbidelli, Elena Chiti, Daniele Caporale, Michele Mattucci]
 deadline: 2026-05-31
 layout_target: Brand book Angelini 2024 (palette #003087 navy + #FF8200 arancio · Barlow sans + Merriweather serif · principio guida "Unwavering Care")
 format_target: 13 slide ordinate in 3 atti + DEMO LIVE ~20 min tra Atto 2 e Atto 3 · durata pitch 40-45 min + Q&A 15-20 min · Carlo voce unica del pitch (Daniele+Elena come ospiti silenti) · tono "fondazione culturale-scientifica con dimensione umana"

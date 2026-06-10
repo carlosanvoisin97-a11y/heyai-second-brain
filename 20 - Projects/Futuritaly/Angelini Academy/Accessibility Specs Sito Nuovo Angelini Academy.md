@@ -9,9 +9,9 @@ aliases:
 purpose: specifica accessibility WCAG 2.1 AA del sito nuovo Angelini Academy, come deliverable tecnico complementare al pitch finale (deadline 31/5/2026). Forward-looking — il sito attuale obsoleto NON è auditato, la spec è vincolante per il design system + delivery del sito nuovo
 audience: Carlo (uso interno + base per appendice tecnica della proposta finale a Caterina Caboni); ammissibile condivisione asciutta a Daniele/Elena previo allineamento 14/5
 status: working — base operativa per appendice tecnica pitch + per vincolo design system fase 2 sito
-standard: WCAG 2.1 AA (riferimento ufficiale W3C: https://www.w3.org/TR/WCAG21/)
-parent_strategic_doc: [[Strategia Website 2026]]
-related_docs: [[_Angelini Academy|Angelini Academy]], [[Framework Pitch Finale]], [[Strategia Website 2026]], [[Scan Siti Web Comparable]], [[50 - Archive/Inbox/2026-05/2026-05-10 - Cosa vuole davvero Angelini Academy|2026-05-10 - Cosa vuole davvero Angelini]]
+standard: "WCAG 2.1 AA (riferimento ufficiale W3C: https://www.w3.org/TR/WCAG21/)"
+parent_strategic_doc: "[[Strategia Website 2026]]"
+related_docs: ["[[_Angelini Academy|Angelini Academy]]", "[[Framework Pitch Finale]]", "[[Strategia Website 2026]]", "[[Scan Siti Web Comparable]]", "[[50 - Archive/Inbox/2026-05/2026-05-10 - Cosa vuole davvero Angelini Academy|2026-05-10 - Cosa vuole davvero Angelini]]"]
 ---
 
 # Accessibility Specs — Sito Nuovo Angelini Academy

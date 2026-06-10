@@ -12,9 +12,9 @@ deadline: 2026-05-31
 voice: Carlo SOLO. Daniele+Elena in stanza ma silenti
 disclaimer_legend: "⚠️ claim verificabile prima del 31/5 (da Carlo) · 🚨 serve risposta da cliente o partner prima del 31/5 · 💭 inferenza nostra non dichiarazione cliente"
 related: "[[_Angelini Academy]] · [[2026-05-23 - Pitch Angelini v3.2 - Post Osservazioni Carlo]] (predecessore) · [[2026-05-23 - Audit Pitch v3 vs Brief Angelini + Vault + Esterne]] · Reference: Analisi e Proposta Servizi_NOT_14012026.pdf"
-stakeholders: [Caterina Caboni, Tiziana Carnicelli (confermata in stanza), Marco Morbidelli (forse in stanza), Elena Chiti, Daniele Caporale, Michele Mattucci]
+stakeholders: [Caterina Caboni, Tiziana Carnicelli, Marco Morbidelli, Elena Chiti, Daniele Caporale, Michele Mattucci]
 layout_target: Brand book Angelini 2024 (palette #003087 navy + #FF8200 arancio · Barlow sans + Merriweather serif · principio Unwavering Care)
-format_target: 19 slide ordinate in 3 atti (Atto 1: 10 slide · Atto 2: 5 slide · Atto 3: 4 slide) + DEMO LIVE ~20 min tra Atto 2 e Atto 3 + copertina · durata pitch 50-55 min + Q&A 15-20 min · Carlo voce unica
+format_target: "19 slide ordinate in 3 atti (Atto 1: 10 slide · Atto 2: 5 slide · Atto 3: 4 slide) + DEMO LIVE ~20 min tra Atto 2 e Atto 3 + copertina · durata pitch 50-55 min + Q&A 15-20 min · Carlo voce unica"
 ---
 
 # 🎯 Pitch Angelini Academy v3.3 — Atto 1 Ristrutturato
