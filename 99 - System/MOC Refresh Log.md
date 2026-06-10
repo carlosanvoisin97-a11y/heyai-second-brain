@@ -142,8 +142,8 @@ Nessuno. I 32 wikilink presenti nel MOC risolvono tutti a file esistenti (verifi
 - `[[99 - System/Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware]]` — nota patch vault-link-checker v4 (file nuovo, non ancora in MOC)
 
 **Wikilink broken in MOC (2):**
-- `[[00 - Inbox/2026-05-04 - Scenari Fornitori (post call Silencio)]]` — file NON trovato in `00 - Inbox/` (probabilmente archiviato o mai creato come file separato). Verificare se è in `50 - Archive/` o se il contenuto è stato assorbito in schede progetto.
-- `[[00 - Inbox/2026-04-30 - Panorama iniziale]]` — file NON trovato in `00 - Inbox/` (probabilmente archiviato). Verificare posizione attuale e aggiornare link o rimuovere.
+- `[[50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio)]]` — file NON trovato in `00 - Inbox/` (probabilmente archiviato o mai creato come file separato). Verificare se è in `50 - Archive/` o se il contenuto è stato assorbito in schede progetto.
+- `[[50 - Archive/Inbox/2026-04/2026-04-30 - Panorama iniziale]]` — file NON trovato in `00 - Inbox/` (probabilmente archiviato). Verificare posizione attuale e aggiornare link o rimuovere.
 
 ### Stato finale
 
@@ -167,8 +167,8 @@ Re-run del task `moc-refresh` (trigger manuale, fuori cron sab 16:00). Stato MOC
 - **16 schede persona non nei cluster MOC** (1 in più conteggiata vs morning entry per `[[60 - People/Tiziana Carnicelli]]` che in realtà è già nei Clienti — quindi count effettivo resta 15; nessun delta reale).
 - **4 system file non in §Sistema vault**: `Digest Log`, `Workflow Delivery Soolutions`, `Vault Architecture Audit 2026-05-13`, `Patch SKILL vault-link-checker 2026-05-14 — v4 alias-aware`. _Nota: `MOC Refresh Log` (questo file) anche assente ma è auto-generato dal task — discrezionale se Carlo vuole linkarlo._
 - **2 wikilink broken in MOC**:
-  - `[[00 - Inbox/2026-05-04 - Scenari Fornitori (post call Silencio)]]` → reale path: `50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio).md` (file archiviato).
-  - `[[00 - Inbox/2026-04-30 - Panorama iniziale]]` → reale path: `50 - Archive/Inbox/2026-04/2026-04-30 - Panorama iniziale.md` (file archiviato).
+  - `[[50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio)]]` → reale path: `50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio).md` (file archiviato).
+  - `[[50 - Archive/Inbox/2026-04/2026-04-30 - Panorama iniziale]]` → reale path: `50 - Archive/Inbox/2026-04/2026-04-30 - Panorama iniziale.md` (file archiviato).
   _Patch suggerita: rimpiazzare i due wikilink con i path archive corrispondenti, oppure rimuoverli dato che le info sono ormai assorbite nelle schede progetto. Decisione delegata a Carlo (regola: mai modificare wikilink esistenti, solo segnalare)._
 
 ### Alert ad alta priorità ancora aperti
@@ -198,8 +198,8 @@ Tutti i 23 flag + 2 wikilink broken aperti dai run 16:00 + ~01:30 sono stati tri
 
 ### Step 1 — Wikilink broken (2 risolti)
 
-- `[[00 - Inbox/2026-05-04 - Scenari Fornitori (post call Silencio)]]` → repath a `[[50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio)|Scenari Fornitori 4/5 (archiviato)]]`
-- `[[00 - Inbox/2026-04-30 - Panorama iniziale]]` → repath a `[[50 - Archive/Inbox/2026-04/2026-04-30 - Panorama iniziale|Panorama iniziale 30/4 (archiviato)]]`
+- `[[50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio)]]` → repath a `[[50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio)|Scenari Fornitori 4/5 (archiviato)]]`
+- `[[50 - Archive/Inbox/2026-04/2026-04-30 - Panorama iniziale]]` → repath a `[[50 - Archive/Inbox/2026-04/2026-04-30 - Panorama iniziale|Panorama iniziale 30/4 (archiviato)]]`
 
 ### Step 2 — Count drift risolto (FutureKids opzione A)
 

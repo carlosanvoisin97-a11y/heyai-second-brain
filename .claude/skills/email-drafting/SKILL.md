@@ -35,7 +35,7 @@ Se la bozza non rispecchia questi pattern, riscriverla prima di proporla.
 
 ## Pattern follow-up INTERNO Federico+Simone (Soolutions)
 
-Quando si scrive un recap interno a Federico e Simone (mail informale, no cliente), il tono si fa più asciutto. File di riferimento: `[[00 - Inbox/2026-05-13 - BOZZA Email Recap Federico Simone allineamento interno]]`.
+Quando si scrive un recap interno a Federico e Simone (mail informale, no cliente), il tono si fa più asciutto. File di riferimento: `[[50 - Archive/Inbox/2026-05/2026-05-13 - BOZZA Email Recap Federico Simone allineamento interno]]`.
 
 - **Apertura asciutta**: `bella raga, metto il follow-up della call di oggi.` — NO preambolo metodologico.
 - **NO qualificatori "carry-over dal X/5"** nei bullet.
