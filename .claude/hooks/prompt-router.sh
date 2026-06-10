@@ -6,6 +6,8 @@
 INPUT=$(cat)
 PROMPT=$(printf '%s' "$INPUT" | /usr/bin/python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('prompt',''))" 2>/dev/null)
 [ -z "$PROMPT" ] && exit 0
+# Le notifiche dei task in background arrivano come prompt sintetici: non sono di Carlo, niente suggerimenti
+case "$PROMPT" in "<task-notification>"*) exit 0;; esac
 SESSION_ID=$(printf '%s' "$INPUT" | /usr/bin/python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('session_id','nosess'))" 2>/dev/null)
 OUT=""
 if printf '%s' "$PROMPT" | grep -qiE '\.(m4a|mp3|wav|aac|ogg|flac|mp4|mov)([^a-z0-9]|$)'; then
