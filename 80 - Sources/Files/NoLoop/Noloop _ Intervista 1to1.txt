@@ -1,0 +1,1033 @@
+Trascrizione
+2 febbraio 2026, 01:09PM
+
+Carlo Sanvoisin trascrizione avviata
+
+Lorena Cavecchi   0:03
+Quindi quando si parla di numeri è una vera funzione di Excel, quindi quello.
+
+Carlo Sanvoisin   0:09
+Ecco però questa è una cosa interessante, cioè quindi anche i budget lì gestite su Excel.
+
+Lorena Cavecchi   0:16
+Assolutamente sì, anche perché poi dobbiamo mandarli al cliente, gestirli con il cliente, alle volte abbiamo le griglie del cliente per cui i budget che facciamo uscire sono come Excel.
+
+Carlo Sanvoisin   0:17
+Sì.
+OKE, secondo te già che stiamo facendo questo, cioè che vorremmo fare questo strumento, non avrebbe senso crearvi un modulo di questo strumento che gestisce anche il budget di commessa che poi.
+
+Lorena Cavecchi   0:42
+Sai che secondo me no, cioè io sono molto perché ogni, cioè ogni evento, ogni progetto ha il suo format, ha la sua caratteristica, oltre che magari alle volte ha i propri format del cliente.
+
+Carlo Sanvoisin   0:45
+Come mai?
+
+Lorena Cavecchi   0:58
+E la vedo un po troppo macchinosa.
+Cioè non la vedrei così funzionale.
+Poi magari altri colleghi ti diranno invece di sì, però io cioè se devo lavorare su un Excel, cioè su un budget tutta la vita, preferisco lavorare su un Excel.
+
+Carlo Sanvoisin   1:05
+C'est.
+Tu dici anche se vi facessimo un qualcosa di molto flessibile, come è stato appunto la creazione dei Form per crowd in cui tu puoi veramente decidere come strutturare qualsiasi budget da zero.
+
+Lorena Cavecchi   1:27
+Però sai che lì sono lì sono testi.
+Cioè un se tu crei un format e metti dentro delle cifre, tu estrapoli poi da mandare al cliente, tu non avrai mai delle formule.
+Quindi è molto rischioso.
+
+Carlo Sanvoisin   1:47
+Ma ovviamente per questioni di privacy immagino non ti posso chiedere se mi fai vedere un come sono formati questi budget, giusto per avere un'idea di che livello di complessità stiamo parlando?
+
+Lorena Cavecchi   1:59
+Guarda, c'è ne sono alcuni che sono super complessi ed altri che sono più semplici, però sono.
+Adesso non so se riesco a girartene uno, però cerco di capire se.
+
+Carlo Sanvoisin   2:13
+Magari cancelli le cifre o il nome del cliente. Se ci riuscissi non sarebbe male diciamo, perché almeno riesco a capire di che livello di complessità stiamo parlando. Magari tu pensi che l'excel vi facilita tantissimo. Poi in realtà si scopre che c'è un modo di rendere uno strumento ancora più semplice che.
+Non Excel anche per questo però me lo tengo, insomma me lo appunto. Poi se tu mi riesci a passare qualcosa lo vediamo. Poi io mi sono messo beh, questo è un'altra cosa che mi era stata detto che ci vuole sempre tanto tempo nella base. Per esempio, avete nuove gare a cui volete partecipare oppure sono entrati dei nuovi clienti?
+
+Lorena Cavecchi   2:40
+OK, va bene.
+
+Carlo Sanvoisin   2:52
+E spesso ci vuole tempo per trovare dei nuovi fornitori. Nel caso in cui magari c'è una richiesta che non era mai stata appunto per la quale non avete già un fornitore di fiducia, questo pure ti torna se ti viene in mente altro su un punto del genere che hai visto altri problemi di simili.
+
+Lorena Cavecchi   3:02
+Sì, certo, sì.
+Sì.
+
+Carlo Sanvoisin   3:12
+E a questo citami tutto perché per me ogni informazione è importante.
+
+Lorena Cavecchi   3:19
+Ma quindi questo questi processi di ricerca ad alto assorbimento per i fornitori, tu come la vedresti?
+
+Carlo Sanvoisin   3:25
+Allora in questo caso io vedo che vorrei dividere, poi te lo faccio vedere, essenzialmente vorrei andare a dividere.
+In tre macro processi, diciamo la gestione di un cliente, la prima è lo scouting e preparazione, poi c'è la vera e propria gestione, quindi l'erogazione del servizio e poi c'è la parte di chiusura e di analisi di comandata. Io immagino nella mia testa in questo momento.
+Che nella fase di scouting e preparazione ci sta prima tutto il lato commerciale, quindi la parte gestita da Zaghi che si va a guardare nuovi possibili clienti su linkedin sales navigator, che è uno strumento che abbiamo messo a disposizione diciamo quando abbiamo cominciato a lavorare con voi. Poi c'è lead me che sarebbe questa specie.
+
+Lorena Cavecchi   3:57
+Certo.
+Certo.
+Sì.
+
+Carlo Sanvoisin   4:10
+Di CRM fra virgolette, che dove loro poi dopo che hanno trovato i vari profili target su linkedin, se li portano su litmi dove si segnano essenzialmente se gli hanno chiamato gli hanno mandato un'email, che cosa gli hanno detto?
+Se la presentazione sta andando avanti oppure se insomma gli hanno dato il palo e via dicendo nel momento in cui uno da quello che ho capito poi tu correggimi quando pensi che il processo ti sto raccontando fra virgolette perché io poi lo.
+
+Lorena Cavecchi   4:34
+Certo, certo.
+Sì.
+
+Carlo Sanvoisin   4:41
+Lo devo un po' ricostruire? No? Non è che io ho parlato con tutti i reparti contemporaneamente. Io ho parlato un po' con tutti e poi mano a mano mi sono fatto la mia idea. Ho pensato quando un prospect, un lead si sta avvicinando. Insomma un momento di presentazione o comunque è diventato più caldo.
+
+Lorena Cavecchi   4:43
+Certo, certo no.
+Claro.
+
+Carlo Sanvoisin   4:59
+Si passano delle informazioni del reparto di programmazione, quello della Osmetti, che comincia a pensare appunto a delle possibili proposte di, che ne so, viaggio, incentive, evento, dove farlo, come farlo?
+
+Lorena Cavecchi   5:12
+Sì, questo arriva. Questo arriva normalmente quando arriva il brief e quindi la richiesta di del progetto da parte del cliente. Noi non proponiamo mai niente se non c'è un brief perché tutti i clienti hanno le loro.
+Le loro peculiarità, sia se è un viaggio incentive, se c'è una convention, il tema del budget, quindi lo smetti entra in auge quando ci arriva una richiesta da parte di un cliente.
+
+Carlo Sanvoisin   5:35
+OK.
+
+Lorena Cavecchi   5:47
+Grazie.
+
+Carlo Sanvoisin   5:48
+Allora forse qui tu mi stai cercando di far capire che in realtà ci sono due modalità di arrivare poi a un progetto, una è fra virgolette push e una pull. Cosa intendo? Che una è una richiesta.
+
+Lorena Cavecchi   5:59
+No, ma è cioè sì, ma anche forse c'è anche gli stessi clienti che Laura Zaghi cerca con cui prende contatti. Poi noi non proponiamo niente fintanto che loro non ci danno un brief. L'unica cosa con cui noi.
+
+Carlo Sanvoisin   6:10
+Sì.
+
+Lorena Cavecchi   6:15
+Eventualmente quando abbiamo il primo contatto cerchiamo di farci conoscere tramite una presentazione aziendale.
+
+Carlo Sanvoisin   6:25
+OKOKOK, quindi la presentazione aziendale diciamo è standard.
+
+Lorena Cavecchi   6:28
+Dove magari facciamo vedere delle case history. Sì, esatto, con delle case history. Dopodiché il cliente si dice, OK, mi piace tanto come lavorate. Io vorrei fare questo viaggio a Parigi per 20 persone al top.
+Allora tu a quel punto recepisci le informazioni che ti arrivano dal cliente e allora gli prepari la proposta su Parigi, ma non prima.
+
+Carlo Sanvoisin   6:52
+OK Aspettami sto segnando una cosa OK quindi giusto per capire questo secondo te è il processo che raccoglie quasi il 100% dei casi oppure alcune volte semplicemente?
+
+Lorena Cavecchi   7:05
+Sono tutti così?
+
+Carlo Sanvoisin   7:07
+Vi arriva direttamente il brief e si salta tutta questa prima parte in poche parole.
+
+Lorena Cavecchi   7:09
+Sì, alle volte arrivano anche i Brief. Soprattutto sì, i Brief arrivano soprattutto su quelli che sono i clienti fidelizzati. Esatto, quelli che ci conoscono già. Sappiamo da loro. Guardate che vi arriverà la gara per l'evento in Sardegna. Il vento.
+
+Carlo Sanvoisin   7:17
+Fidelizzati, OK.
+Sì.
+
+Lorena Cavecchi   7:29
+E quindi poi ci arrivano proprio le richieste per fare queste cose e quindi da lì iniziare a lavorare, cercare la ricerca.
+
+Carlo Sanvoisin   7:29
+Ok.
+OK, quindi diciamo o il cliente fidelizzato vi potrebbe mandare il brief, oppure un cliente nuovo che stanno cercando appunto di attaccare Laura Zaghi con tutto il suo team nel momento in cui gli hanno fatto la presentazione aziendale standard e questa persona interessata potrebbe mandare il brief.
+E da lì io nella mia idea ho pensato questo, cioè che il Brief a parte che poi queste le vedi spente perché sono quelli che abbiamo già fatto essenzialmente. Quindi queste sono le soluzioni già fatte. E poi qui cominciavo a entrare nelle nuove proposte. Fra le nuove proposte io avevo immaginato che.
+
+Lorena Cavecchi   8:01
+Certo, certo, sì, avevo capito, sì.
+
+Carlo Sanvoisin   8:11
+Da quello che ho capito interviene anche il modulo, il modulo creativo, il reparto creativo che per alcune presentazioni poi questo magari me lo fai capire anche te bene come funziona il loro lavoro, fanno la parte un po' più grafica, fanno i render.
+
+Lorena Cavecchi   8:16
+Sì.
+
+Carlo Sanvoisin   8:28
+Fanno dei prototipi, magari tre D per mostrare come verrebbero determinati servizi, insomma fanno un po' tutta quella parte creativa, però anche in preparazione, cioè una volta che è arrivato questo brief e io mi chiedo, OK, ma questo è un qualcosa pure che avviene sempre?
+
+Lorena Cavecchi   8:34
+Sì.
+Assolutamente sì, Assolutamente sì.
+
+Carlo Sanvoisin   8:45
+Cioè una volta che mentre Osmetti sta lavorando su sulla presentazione delle mete.
+
+Lorena Cavecchi   8:46
+Allora sempre allora sicuramente avviene per la maggior sempre quando ci sono le convention, perché noi facciamo vedere dei render anche in tre D di quelle che sono le planimetrie, la parte scenotecnica di come noi che.
+
+Carlo Sanvoisin   9:05
+La mia figlia.
+
+Lorena Cavecchi   9:05
+Speriamo che possa venire la sala.
+E in altri casi, quando magari sono viaggi più semplicini, è solo il coordinato grafico, quindi gli stampati o il programma di viaggio, i cartelli bus o magari, che ne so, ci chiedono le magliette personalizzate eccetera eccetera, queste sono le due cose.
+
+Carlo Sanvoisin   9:28
+OK, questo è interessante, non lo sapevo. Quindi magliette, cartelli, perché i cartelli?
+
+Lorena Cavecchi   9:29
+Che normalmente avvengono.
+E cartelli bus, perché quando noi personalizziamo mettiamo dei cartelli anche da dare alle hostess piuttosto che il programma di viaggio, c'è una, come si dice, c'è un incentive, quello glielo diamo normalmente.
+
+Carlo Sanvoisin   9:50
+OK, proprio stampato.
+C'è un programma di viaggio stampato, una cartolina.
+
+Lorena Cavecchi   9:56
+Sì, qualche volta sì, diciamo così.
+Esatto.
+
+Carlo Sanvoisin   10:12
+Invece fanno proprio planimetrie, render, mockup.
+
+Lorena Cavecchi   10:15
+Sì, planimetria render sì, esatto, render tre D.
+
+Carlo Sanvoisin   10:19
+OK, però per ora diciamo che questa prima fase ti torna che sia così. Cioè prima c'è tutta una ricerca commerciale, se il lead si scalda ci sta la parte dello smetti che cerca le si riceve il brief, la parte dello smetti che cerca le medie, la parte invece creativa.
+
+Lorena Cavecchi   10:24
+Sì.
+Sì.
+
+Carlo Sanvoisin   10:35
+Supporta che sia un supporto più o meno consistente dipende dalla dal tipo di cliente. Su questa prima parte diciamo scouting e preparazione. Ti sembra che ho mancato qualche reparto, qualche attività macro che viene fatta?
+
+Lorena Cavecchi   10:37
+Esatto.
+Dalla tipologia di evento sì.
+No.
+No, direi di no.
+
+Carlo Sanvoisin   10:50
+OK, quindi mettiamo caso a questo punto che il cliente viene confermato, quindi il cliente gli è piaciuta la presentazione e dice, OK, voglio farlo. In quel momento chi prende la palla in mano, cioè chi è che dice OK, cominciamo, immagino a costruire un budget di dettaglio, cominciamo a sentire i fornitori.
+
+Lorena Cavecchi   11:08
+No, il budget di dettaglio ce l'ha già, perché non nessun cliente dirà mai OK, lo voglio fare senza avere un budget.
+
+Carlo Sanvoisin   11:16
+OK.
+
+Lorena Cavecchi   11:17
+La parte di Antonella studia la ricerca delle destinazioni o location e fa la stesura del budget con tutte quelle che sono le richieste del cliente, quindi tutto quello che avviene all'interno dell'evento.
+
+Carlo Sanvoisin   11:34
+OKE, questo budget immagino manda la Garbarino per essere approvato.
+
+Lorena Cavecchi   11:40
+Assolutamente viene visto dalla Garbarino per approvazione e poi viene mandato al cliente. Poi arriva lì il cliente che dice OK, va bene, questo viaggio lo faccio con te. Anche perché tieni conto che il 99,9% dei nostri clienti.
+Fanno delle gare, quindi nella gara è il prezzo che vince, quello fa la differenza e questo è il motivo per cui i budget vengono fatti sempre per ogni progetto che si presenta.
+
+Carlo Sanvoisin   11:58
+Certo.
+Certo, certo, certo.
+OKOK quindi questo per esempio non me l'aspettavo che fosse il reparto della Osmetti che faceva il budget OK, chiarissimo. E quindi questo budget che viene fatto su Excel viene mandato alla garbarino e al cliente. Una volta che c'è l'accettazione da parte di entrambi si può dire che quello effettivamente si è.
+
+Lorena Cavecchi   12:17
+Sì.
+
+Carlo Sanvoisin   12:30
+Convertito da lead a cliente in maniera un po più ufficiale e si parte con la preparazione del servizio, immagino.
+
+Lorena Cavecchi   12:38
+Esatto.
+
+Carlo Sanvoisin   12:39
+OK, quindi io direi che fra scouting e preparazione e gestione evento c'è un'altro passaggio di mezzo che è questo budget, secondo te nella creazione di questo budget ad oggi ci sono delle inefficienze dei problemi che si presentano spesso?
+E che creano rallentamenti di tempo o perdita di opportunità.
+
+Lorena Cavecchi   13:06
+Direi di no, dipende tanto da magari pensi di fare di proporre una location, una destinazione, ma poi ti accorgi che questa destinazione rischia di essere fuori budget e quindi ne devi studiare un'altra perché quella che tu hai pensato non sarebbe mai accettata dal cliente perché è fuori budget.
+Questa potrebbe essere la casistica.
+
+Carlo Sanvoisin   13:24
+Ma il budget tu lo sai già da prima, cioè nel senso quando loro.
+
+Lorena Cavecchi   13:28
+Sì, tendenzialmente i clienti fanno l'ottanta per 100, i budget li danno sempre.
+
+Carlo Sanvoisin   13:36
+OK, perché quando io ho lavorato con lo smetti, il tool che abbiamo fatto a lei, che è quello per cercare le location, lei mi aveva chiesto di escludere ricerche di budget, probabilmente perché loro hanno dei degli accordi speciali con i fornitori, per cui le informazioni.
+
+Lorena Cavecchi   13:45
+Sì, no, è vero, no, ha senso, ha senso, perché no? Ti dico perché ha senso, perché cioè se una Camera in un hotel tu la trovi a 100 per i gruppi normalmente non costa mai 100.
+
+Carlo Sanvoisin   13:59
+Exacto.
+
+Lorena Cavecchi   14:01
+Quindi non avrebbe valore.
+
+Carlo Sanvoisin   14:03
+Sì, quello che lui trova online non è corrispondente con le tariffe che riescono a ottenere loro. OK, no, è chiarissimo, OK. Però comunque io magari con l'haus metti un minimo ci voglio provare a studiarmela questa cosa e vedere se perché sarebbe molto ****. Sai cosa? Siccome.
+
+Lorena Cavecchi   14:08
+Esatto.
+
+Carlo Sanvoisin   14:22
+E il reparto della Zaghi ha il Litmi che è il questo applicativo dove loro hanno tutti quanti questi clienti in realtà te lo potrei anche far vedere velocemente così ti faccio capire che cosa intendiamo vediamo un po'.
+Poi qua vi rimetteremo il vostro font promesso. Prima o poi gli rompo le scatole a Federico e gli faccio mettere il vostro font. Allora questo è lead me loro da qui dentro e dai che mi fai rifare l'accesso appunto.
+
+Lorena Cavecchi   14:51
+Sì.
+
+Carlo Sanvoisin   15:16
+Niente, me la sono dimenticata, vediamo se riesco a entrare con quello di qualcun altro.
+Non lo diciamo.
+Mi sta facendo fuori pure da quello della Zaghi. Com'è possibile? Vabbè Senti, te lo volevo far vedere, però magari te lo faccio vedere dopo nel mente. Comunque essenzialmente qui avresti tutti quanti i tuoi lead. E poi la mia idea è che mentre.
+
+Lorena Cavecchi   15:44
+Sì, esatto, sì.
+
+Carlo Sanvoisin   15:54
+Hai finito di lavorare su lead che hai capito che questo diventerà cliente perché gli hai fatto il budget e effettivamente lui l'ha accettato. L'ha accettato anche la Garbarino, mi piacerebbe come schiacciare un pulsante e dire, questo da lead si è trasformato in cliente.
+E quindi si crea la cosiddetta opportunità. L'opportunità non è altro che una specie di entità che sta lì a sistema e che raccoglie un po' tutte le informazioni sul cliente. Quindi ci dice chi è il cliente, qual è il tipo di servizio che gli stiamo offrendo.
+Qual è il budget che è stato predisposto per questo cliente? Quali sono tutti i fornitori che sono legati a questa commessa? E mano a mano che io vado ad aggiungere informazioni, quindi per esempio appunto nuovi fornitori, nuove fatture.
+Tutto questo diventano altre informazioni dell'opportunità che io vado a mettere lì dentro. E cosa mi permette poi questo di creare già una base dati per andare a fare quello che sarà poi il Progress in poche parole quindi io piuttosto che andare a raccogliere tutte le informazioni che voi oggi raccogliete su quello Excel.
+
+Lorena Cavecchi   16:55
+Certo, esatto.
+
+Carlo Sanvoisin   17:01
+Io le vado a raccogliere direttamente dentro questo strumento.
+Ti torna più o meno che potrebbe funzionare così. La mia domanda a questo punto è proprio come funziona il passaggio del di palla, nel senso, come vi passate il giavellotto fra un reparto e l'altro? Perché io pensavo, per esempio, che.
+
+Lorena Cavecchi   17:06
+Ok, sì.
+Sì.
+
+Carlo Sanvoisin   17:21
+Da quando il cliente è stato confermato si passasse direttamente AIPM che cominciano a fare quella parte di Progress e invece come me la Stai raccontando te mi pare di capire che c'è un passaggio intermedio della House metti in mezzo che quando ha finito di fare.
+
+Lorena Cavecchi   17:35
+Sì, c'è un passaggio, un passaggio pratica.
+
+Carlo Sanvoisin   17:39
+OK, quindi?
+
+Lorena Cavecchi   17:39
+Cioè quando e poi non sono IPM, ma sono gli operativi che tu non hai mai conosciuto.
+
+Carlo Sanvoisin   17:46
+No, chi sono?
+
+Lorena Cavecchi   17:47
+Gli operativi sono quelli che seguono proprio la parte logistica dell'evento, quindi la prenotazione delle camere, i pasti, i trasferimenti e che poi sono un po i collanti tra il cliente.
+La segreteria, quindi il team di Arianna e la biglietteria.
+
+Carlo Sanvoisin   18:10
+OK, quindi cioè tu dici la Osmetti pianifica il budget quando è stato confermato?
+
+Lorena Cavecchi   18:18
+Esatto, una volta che è confermato, prepara il passaggio pratica e viene assegnato a uno degli operativi.
+
+Carlo Sanvoisin   18:28
+OK, quindi il secondo passaggio se lo fanno gli operativi, quando gli operativi hanno loro acquistano, quindi.
+
+Lorena Cavecchi   18:34
+Quando gli operativi?
+Quando gli operativi hanno in mano la pratica, quindi la Antonella gli fa vedere, gli spiega qual è tutto il programma presentato e quindi confermato dal cliente, gli fa vedere qual è il budget che è stato mandato al cliente. Gli operativi poi.
+Iniziano a mandare le conferme ai fornitori, quindi fare anche la contrattualizzazione con quelli che sono gli hotel piuttosto che con i trasferimenti eccetera eccetera.
+
+Carlo Sanvoisin   19:08
+OKE, loro effettivamente vanno in.
+
+Lorena Cavecchi   19:09
+Sì, questo reparto non l'hai mai conosciuto, perché in realtà quando è nato tutto questo non cioè è un reparto che gestisco io, per cui.
+È un lavoro che viene fatto molto molto, cioè a parte che i fornitori poi sono quelli che ha già visto la Antonella e poi tutto un contatto con cioè II reparti che lavorano sullo sull'operatività e quindi hanno bisogno di strumenti, sono la segreteria.
+In primis perché poi sono quelli che prendono il contatto con i singoli partecipanti dell'evento.
+
+Carlo Sanvoisin   19:46
+OK quindi giusto per capire loro effettivamente questi operativi sulla base di tutte le informazioni che hanno ricevuto, i paletti che gli vengono dati vanno però a fare gli acquisti effettivamente OK, quindi fanno tutti quanti gli acquisti.
+
+Lorena Cavecchi   19:58
+Certo, sì, Assolutamente sì. Fanno anche i sopralluoghi con i con i clienti, se necessario, cioè se il cliente decideva voglio andare a fare un sopralluogo, non è più la programmazione, quindi è il reparto di Antonella.
+
+Carlo Sanvoisin   20:06
+OK.
+
+Lorena Cavecchi   20:13
+Ma il reparto operativo che insieme al commerciale o anche senza il commerciale va a fare il sopralluogo con il cliente, cioè il l'operativo un po' come fosse il PM, però per la parte di logistica, quindi pernottamenti.
+
+Carlo Sanvoisin   20:20
+Ottimo.
+Sai cosa mi sta venendo in mente? Mi sta venendo in mente che potrebbe funzionare così. In questo momento sono la Zaghi, ho trovato il cliente, gli ho fatto la presentazione standard. Il cliente si è trovato convinto, mi manda il Brief.
+
+Lorena Cavecchi   20:29
+Sì.
+
+Carlo Sanvoisin   20:45
+Il Brief passa allo smetti. Lo smetti utilizza questo strumento per trovare tutta una serie di soluzioni. Le soluzioni che poi sono abbastanza coerenti con quello che era il Brief e creano una presentazione convincente, vengono utilizzate poi come base per pianificare il budget.
+Una volta che questo budget è stato pianificato ed è in linea con le aspettative del cliente, glielo si manda, il cliente lo approva, la Garbarino lo approva, si passa tutto quanto agli operativi. Gli operativi a questo punto devono fare tutti quanti questi acquisti secondo me sarebbe.
+****, se nel momento in cui io ho creato effettivamente questa opportunità, all'interno di questa opportunità ci ho caricato anche il file del budget con tutte quante le indicazioni, se si potesse creare direttamente sull'opportunità invece che usare Excel, questo lo capirò, lo capirò.
+Anche magari con Antonella che mi fa capire tutte le possibili limitazioni. Mettiamo anche caso che non fosse così. In ogni caso comunque io le informazioni a sistema su questo sistema digitale le sto tracciando. Cosa può succedere poi che andiamo a spezzare?
+Queste operazioni che deve fare reparto operativo in task e lo mandiamo su un task management system, ovvero ogni operativo o comunque gli operativi che sono coinvolti in questa attività si ritrovano una lista di task da completare.
+Ovvero compra i biglietti per questa attività di degustazione oppure vai a fare il sopralluogo su questo luogo per Convention sono tutti quanti le task che loro si ritrovano sul sistema.
+E che per essere completati magari necessitano di una serie di operazioni. Quindi mettiamo il caso del sopralluogo, per poter completare il task sopralluogo io mi devo recare sul posto, valutarlo anche insieme al cliente, magari scattare delle foto.
+Fare un upload di queste foto sul mio task da completare, scrivere una nota, mandarlo in completamento. A quel punto immagino che c'è sempre qualcuno che dà un OK dall'alto rispetto all'operativo.
+
+Lorena Cavecchi   23:00
+Per che cosa dici, per i budget o per.
+
+Carlo Sanvoisin   23:03
+Beh no, dico proprio per le singole operazioni che devono fare loro, quindi appunto il sopralluogo, la l'acquisto.
+
+Lorena Cavecchi   23:09
+No, su quello sono autonomi perché altrimenti non faremmo mai eventi. Poi è chiaro se c'è, se c'è qualcosa che deve essere.
+
+Carlo Sanvoisin   23:11
+Sono autonomi.
+Oh, okay.
+
+Lorena Cavecchi   23:20
+Quando interviene Laura, Laura interviene per vedere il programma e condividerlo con i clienti più importanti e non con tutti, perché sennò anche lei altrimenti non ce la farebbe mai e poi per vedere i budget ma tutta l'operatività interna.
+E avanti.
+
+Carlo Sanvoisin   23:40
+OK, quindi il controllo tu dici avviene più prima, una volta che è stato accettato il budget, gli operativi sono abbastanza autonomi.
+
+Lorena Cavecchi   23:45
+Avviene prima per il budget e poi dopo gli operativi, comunque per la parte budget sono devono avere approvazioni che non se non da Laura Garbarino, dai commerciali, quindi da chi lavora insieme a Laura Zaghi.
+
+Carlo Sanvoisin   24:02
+OKOKEA te ti torna la possibilità che questi operativi invece che diciamo basare tutte le cose che devono fare semplicemente su i brief che gli vengono passati e il budget potrebbero avere?
+Tutti questi task spezzati fra virgolette e segnalati su un sistema che fino a che non li completano gli rimangono come se fossero lì in coda e qualora qualcuno di quei.
+
+Lorena Cavecchi   24:25
+Sì, questo Assolutamente sì. È tipo una sorta di futurista di quello che devono fare. Questo potrebbe anche assolutamente essere.
+
+Carlo Sanvoisin   24:32
+Sì, vorrei farti vedere un esempio, vedere un esempio, una cosa che uso io.
+Allora ti faccio vedere perché ci siete pure voi qui in mezzo. Allora vedi io per esempio qua questo è un task management system, quindi ho una serie di task qua per esempio sono questi che sono pending io posso decidere di creare.
+Un task, dargli un nome, mettergli uno status, quindi questo per esempio è questo è molto per progetti.it, quindi la nomenclatura è tutta quanta fatta per progetti digitali, però questa nomenclatura immagina che ne so, in attesa di essere completato, completato e in attesa di approvazione.
+O un hold che magari è un qualcosa che mettete in pausa momentaneamente, oppure qualcosa potrebbe essere cancellato, qualcosa potrebbe avere una dipendenza da un'altro task che deve essere fatto prima e questo è lo status, poi lo posso assegnare agli operativi e poi posso decidere per esempio di.
+Assegnare qui potrei aggiungere uno Stato di approvazione, quindi per quelli più onerosi dove c'è una spesa grossa ci potrebbe essere approvazione come dicevi te o del PMO della Garbarino giusto?
+
+Lorena Cavecchi   25:47
+Dell'account, non del PM.
+
+Carlo Sanvoisin   25:48
+No scusa, non del PM m'avevi detto forse del è del commerciale o del PM?
+
+Lorena Cavecchi   25:52
+Ok, commerciale sì, no, commerciale.
+
+Carlo Sanvoisin   25:54
+Ok commerciale, ma commerciale è sempre la Zaghi oppure altri commerciali anche?
+
+Lorena Cavecchi   25:59
+No le persone che lavorano con la Zaghi.
+
+Carlo Sanvoisin   26:03
+Quindi Luca Candiani, Simona Marani.
+
+Lorena Cavecchi   26:05
+Sì, esatto, esatto.
+
+Carlo Sanvoisin   26:07
+Ok, perfetto, quando io.
+
+Lorena Cavecchi   26:08
+Ecco, diciamo che questo strumento io me lo vedo come una sì, io te l'ho chiamata, però effettivamente una serie di.
+Di punti che sono fondamentali per fare un evento e quindi.
+Che ne so poi se le segnarsi le cancellazioni de le possibilità di cancellazioni delle camere in hotel senza pagare penali piuttosto che inserire quando?
+
+Carlo Sanvoisin   26:42
+Sì, ti puoi mettere tutte quante le due date qui a parte che tu ti puoi mettere la due date sul singolo task e poi comunque io posso entrare dentro e aggiungere una descrizione e mettere un flusso di approvazione, mettere una dipendenza, aggiungere dei file.
+
+Lorena Cavecchi   26:45
+Esatto.
+
+Carlo Sanvoisin   26:59
+Quindi per esempio ho completato l'acquisto di appunto un qualcosa che serviva per l'evento, lo posso mettere, posso mettere la fattura qui dentro, posso mettere e poi lo posso mandare in approvazione oppure tutto questo poi può essere.
+
+Lorena Cavecchi   26:59
+Certo.
+
+Carlo Sanvoisin   27:16
+Fatto rientrare in quella che ti dicevo essere l'opportunità che l'opportunità tu te lo devi immaginare come se fosse una specie di contenitore di tutte le informazioni che riguardano una commessa, che poi un mano a mano che tu lo vai ad arricchire quando arrivi alla fine del processo la Garbarino si può guardare tutto da là dentro, in poche parole.
+
+Lorena Cavecchi   27:35
+Certo.
+
+Carlo Sanvoisin   27:35
+Non so se stai cominciando a immaginartelo nella tua testa, lo so che è un po astratto come discorso.
+
+Lorena Cavecchi   27:43
+Sì, no.
+
+Carlo Sanvoisin   27:43
+Però OK, già già mi stai dando delle degli ottimi input e quindi ecco, questo era quello che ti volevo far vedere prima. Quindi immagina che questo è lo strumento che utilizza la Zaghi insieme a Simona, insieme a Luca, loro hanno qui dentro tutti quanti i vari lead.
+Se io vado a lavorare su Giuliana Abate, per esempio, io posso fare un'attività con lei a un certo punto, mettiamo caso che io sono arrivato a presentazione aziendale, dico che questa presentazione aziendale ha avuto un esito positivo e dico, siamo in attesa del brief.
+No.
+Quindi io sono in questo momento qui sono esito positivo, presentazione aziendale. Attendo il Brief. Nel momento in cui effettivamente mi arriva il Brief, io anche il brief lo comincio a caricare dentro questa futura opportunità.
+E Lo Passo direttamente da questo. Cioè immagina che io a questo punto ho il Brief qui dentro caricato col PDF Clicco un pulsante e lo mando direttamente allo smetti. A quel punto allo smetti comincio a lavorare sul Brief, potenzialmente lei ha la sua schermata.
+Su quella sua schermata potrebbe anche fare il budget. Questo lo vedremo in un momento successivo. A quel punto ha finito di fare il budget, lo manda in approvazione a cliente garbarino. E quando loro lo hanno approvato quel budget, magari potremmo pure fare una funzione di intelligenza artificiale che è basata sulle vostre regole.
+Lo va a spezzare in una serie di task. Tutti quei task se li trovano gli operativi qui dentro e magari gli arriva proprio una notifica, anche email, che gli dice ti è stato aggiunto un task. Aprono qui dentro e si trovano tutti quelli pending mano a mano che li vanno a completare diventano completed.
+Quando li hanno completati tutti, essenzialmente io immagino che poi la palla passa a voi.
+Della parte diciamo più di gestione evento su crowd.
+
+Lorena Cavecchi   29:33
+Esatto.
+Sì.
+
+Carlo Sanvoisin   29:35
+Ok, ci sono altri passaggi di mezzo che mi sono perso.
+
+Lorena Cavecchi   29:38
+No.
+
+Carlo Sanvoisin   29:39
+OK, quindi immagina che tutti quanti gli operativi hanno finito di fare il loro task, a quel punto possono girare le informazioni e solo le informazioni a voi utili per andare a fare la parte di gestione eventi normalmente come funziona?
+Oggi questo passaggio qui di informazioni fra gli operativi e voi e il reparto biglietterie.
+
+Lorena Cavecchi   30:06
+Voi intendi la segreteria?
+
+Carlo Sanvoisin   30:08
+Sì.
+
+Lorena Cavecchi   30:09
+OK, allora avviene informandoli che cioè vengono a conoscenza anche loro quando viene confermato l'evento e poi quando si entra nella parte di creazione della segreteria, il la segreteria inizia a parlare con il cliente.
+Per preparare quello che sarà la parte di iscrizione per i dei partecipanti.
+
+Carlo Sanvoisin   30:37
+OK, quindi voi vi interfacciate col cliente, soprattutto per ottenere le liste di partecipanti.
+
+Lorena Cavecchi   30:43
+Le liste poi vedere che informazioni chiedere, lì si fa anche un check poi quello operativo per capire quali sono le informazioni che vanno richieste perché mai poi cioè dipende anche tanto cioè se è un viaggio dove serve il passaporto.
+
+Carlo Sanvoisin   30:52
+Ok.
+Non lo sanno loro, vi passano queste informazioni.
+
+Lorena Cavecchi   31:01
+Sì, esatto, poi magari la segreteria va anche oltre, va a verificare se è un viaggio in Italia, se è un viaggio all'estero, che tipo di documenti servono, se servono dei visti, bla bla bla.
+
+Carlo Sanvoisin   31:11
+OK quindi Ops ti torna comunque che dal task management system questo con tutti i piccoli task ce ne saranno alcuni le cui informazioni sono utili anche a voi del reparto segreteria e del reparto biglietteria e quelle informazioni lì.
+Ve le potrebbero, diciamo, trasferire in maniera veloce, in maniera tale che pure voi sulla vostra pagina di gestione del servizio vi ritrovate già la lista della spesa di tutte le cose che dovete fare o chiedere al cliente.
+
+Lorena Cavecchi   31:32
+Sì.
+Esatto, diciamo che secondo me allora, visto che io gestisco anche il reparto operativo, secondo me la lista della spesa deve essere comune per tutti e tre i reparti, biglietteria, segreteria operativo.
+
+Carlo Sanvoisin   31:45
+OK.
+OK, però comunque c'è una distinzione, nel senso che ognuno ci avrà distinti i propri task.
+
+Lorena Cavecchi   32:04
+Ognuno avrà distinti i propri task, sì.
+
+Carlo Sanvoisin   32:06
+Certo, ma infatti io mi immagino che tutti quanti voi entrate dentro questo sistema, cioè il task management System, sarà organizzato in maniera tale poi magari la visibilità dei singoli task e decidiamo se darla a tutti, nasconderla per reparto e via dicendo. Questo è un qualcosa che possiamo decidere in qualsiasi momento però.
+A livello di accessi io penso che qui dentro ci entrano sia IPM che i commerciali, che gli operativi, che la segreteria, che la biglietteria.
+
+Lorena Cavecchi   32:35
+Ma io immagino tutta l'azienda, cioè tutta la.
+
+Carlo Sanvoisin   32:41
+Sì, praticamente sì, l'unica forse che non ci entra è la Garbarino, se non che deve dare un'approvazione su qualcosa.
+
+Lorena Cavecchi   32:41
+Gli eventi.
+
+Carlo Sanvoisin   32:50
+Perché questa è molto, molto gestionale, diciamo, cioè molto proprio operativo, OK, quindi ognuno c'ha i suoi task. Una volta che sono stati completati o approvati si va avanti. A questo punto immaginiamo continuiamo ad andare avanti nel processo, quindi.
+
+Lorena Cavecchi   32:54
+Sì, certo.
+
+Carlo Sanvoisin   33:07
+Voi avete ricevuto anche tutte quante le informazioni per fare le liste, anche voi avrete un task, cioè magari tu sei appunto Lorena che c'ha come task, chiedi la lista dei partecipanti ai clienti, verifica la lista di allergeni perché sono previste delle cene oppure, che ne so, per.
+
+Lorena Cavecchi   33:25
+No, per esempio io dovrei vedere i task di tutti.
+
+Carlo Sanvoisin   33:30
+Ok che tu c'hai un ruolo, devo dire che ancora non l'ho capito. Il tuo ruolo è perché di supervisione, però allo stesso tempo ti occupi anche delle segreterie.
+
+Lorena Cavecchi   33:31
+Cioè, essendo.
+Io, io sono a capo della segreteria e dell'operativo e della biglietteria, per cui io sono.
+
+Carlo Sanvoisin   33:48
+OK, quindi praticamente hai visione su tutto.
+
+Lorena Cavecchi   33:52
+Su questi tre reparti sì.
+
+Carlo Sanvoisin   33:55
+OK, quindi tu mi stavi dicendo Tu cosa vorresti vedere all'interno di un sistema del genere?
+
+Lorena Cavecchi   34:03
+E i task di cioè se io immagino di entrare nei task di cioè di un evento, vedo i task della segreteria, i task della dell'operativo e vedo cosa è stato.
+Che cosa è stato fatto e che cosa no e che e così almeno anche io so dove andare AA sollecitare.
+
+Carlo Sanvoisin   34:21
+Esatto, OK, quindi il tuo ruolo specifico.
+Esattamente. Quindi il tuo ruolo specifico sarebbe quello di Admin, cioè amministratrice di sistema, che è un po' come sono io in questo momento, nel senso che immagina che questo è segreterie, poi entro qui dentro e qui dentro ho.
+
+Lorena Cavecchi   34:31
+Sì, una sorta del genere.
+
+Carlo Sanvoisin   34:41
+Biglietterie e poi qual era l'altro operativi? Poi magari entro qui dentro e qua ci sono gli operativi, ognuno ha i suoi task dentro e.
+
+Lorena Cavecchi   34:48
+Non stai più condividendo, vero però?
+
+Carlo Sanvoisin   34:51
+Non stai venendo tu?
+
+Lorena Cavecchi   34:53
+No, vedo cilette.
+
+Carlo Sanvoisin   34:55
+In realtà io sto condividendo, però aspetta, lo rifaccio di nuovo, Dimmi se ora vedi.
+
+Lorena Cavecchi   35:02
+Sì, adesso sì.
+
+Carlo Sanvoisin   35:03
+OK quindi immagina che tu qua sotto c'hai diverse cartelle quindi io potrei entrare nella cartella segreteria, entro nella cartella segreteria e posso vedere tutto quanto quello che è stato fatto e chi è stato assegnato, se è stato completato e via dicendo.
+
+Lorena Cavecchi   35:08
+Mmm, sí.
+
+Carlo Sanvoisin   35:18
+Poi entro nella tabella operativi e faccio lo stesso per gli operativi, poi segreterie e via dicendo. Quindi tu mi hai detto segreterie operativi e biglietterie e biglietterie e te li vedi tutti quanti. Se c'è da mandare un reminder si manda un reminder, se c'è da dare delle conferme si danno le.
+Ferme se c'è da modificare si modifica qualcosa, però c'è questa vista dall'alto di tutto, invece io magari che sono un operativo vedo solamente task che sono stati assegnati a me.
+
+Lorena Cavecchi   35:47
+Esatto.
+
+Carlo Sanvoisin   35:49
+Perfetto, una volta che diciamo i task oddio io ti vorrei dire i task preliminari per l'evento si concludono però in realtà no. A questo punto da come me lo stai raccontando te, Io credo che questo sistema tu lo continui ad utilizzare.
+Fintanto che l'evento praticamente non si è chiuso perché ci saranno sempre dei task che vanno avanti durante l'evento fantastico quindi, mentre il reparto segreteria da quel momento in poi si occupa soprattutto.
+
+Lorena Cavecchi   36:09
+Esatto.
+Esatto, certo, sì, Assolutamente sì.
+Io quello.
+
+Carlo Sanvoisin   36:21
+Della creazione diciamo del Form OK, quindi mentre voi continuate a lavorare su cloud, gli operativi immagino soprattutto continuano a lavorare sul task management System, ti torna?
+
+Lorena Cavecchi   36:22
+Di quello che sì, esatto, esatto.
+Esatto, sì.
+
+Carlo Sanvoisin   36:36
+Fantastico quindi a questo punto voi lavorate su cloud inizialmente più che altro per la creazione del Form e registrazione e successivamente per invio delle comunicazioni poi.
+Ci sono gli operativi magari che sotto hanno dei task che possono emergere da un momento all'altro e che li svolgono.
+Arriva l'evento durante l'evento e soprattutto un lavoro che voi dovete fare on site, cioè non è che ci sta un lavoro oggi durante l'evento che voi fate fra virgolette in maniera digitale.
+
+Lorena Cavecchi   37:13
+Per come è operativo, no.
+
+Carlo Sanvoisin   37:16
+OK, io su.
+
+Lorena Cavecchi   37:17
+No, una volta che sei in loco è tutto.
+È tutto in cioè sul posto.
+
+Carlo Sanvoisin   37:26
+OKE, quello che pensavo io è di proporvi una specie di ai Event companion, ovvero un'applicazione che facciamo scaricare ai partecipanti e che.
+Li accompagna proprio durante tutto quanto l'evento, quindi gli dà dei suggerimenti su come sfruttare al meglio l'evento, gli ricorda tutte le attività che sono presenti, magari addirittura una piccola funzionalità di networking in cui se tu vuoi.
+Registrare il tuo profilo personale, per esempio, vuoi metterti degli interessi? Vuoi mettere qualcosa? Ti puoi fra virgolette, matchare connettere con qualcun altro che sta all'evento. Poi vabbè, le funzionalità possono essere.
+
+Lorena Cavecchi   38:09
+Ma quindi questo è sempre legato a crowd, però.
+
+Carlo Sanvoisin   38:12
+Questo sarebbe esatto, sarebbe come la versione mobile di crowd, però per i partecipanti e l'idea è che gli posso fare veramente qualsiasi. A quel punto gli posso fare qualsiasi genere di domanda, non solo.
+
+Lorena Cavecchi   38:16
+Di cloud sì.
+Certo, sì.
+
+Carlo Sanvoisin   38:28
+Come il risponditore Whatsapp essenzialmente ti risponde su quelle informazioni che noi abbiamo messo su crowd, quindi il treno, il volo, la stanza, l'attività stop, magari su questa applicazione facciamo proprio un enhancement.
+Quindi gli diamo così tante informazioni che lui può rispondere un po' quasi come se fosse una specie di dipendente no loop, fintanto che chiaramente se la domanda non diventa troppo complessa può fare escalation e gli arriva direttamente alla persona di riferimento però.
+Sempre per ridurre il vostro carico di lavoro durante l'evento.
+Ti torna?
+
+Lorena Cavecchi   39:09
+Sì, diciamo che è un plus in più. Poi il nostro lavoro non cioè non diminuirà mai. Però questo è una cosa interessante. Sì, purtroppo.
+
+Carlo Sanvoisin   39:16
+Dici OK, ma secondo te perché? Quali sono i tipi di domande che vi arrivano più spesso durante questo tipo di eventi? Quali sono i vostri oneri maggiori?
+
+Lorena Cavecchi   39:22
+No, ma perché quando sei in evento, quando sei in evento, proprio i partecipanti tendono più al.
+A chiedere, cioè di persona, vanno al desk, parlano con la hostess, cioè è un po più rassicurante che.
+
+Carlo Sanvoisin   39:42
+E tu dici, anche se avessero un agente fatto bene, che gli risponde per bene, comunque continuerebbero a andare dalla hostess.
+
+Lorena Cavecchi   39:49
+In qualche maniera sì.
+Magari, cioè magari si screma, però è chiaro che quando sei in loco il contatto fisico è fondamentale.
+
+Carlo Sanvoisin   40:01
+No vabbè, quello è chiaro, stavo pensando. Allora magari questo lo mettiamo più come un appunto migliorativo, un nice web OK, però mi sembra che almeno sto riuscendo a ricostruire il processo bene nella mia testa, perché a questo punto in realtà io ti sto citando adesso il gestionale.
+Però nella realtà dei fatti, il gestionale fino a questo momento ha già ricevuto un sacco di informazioni, nel senso che quando io ero ero qui dentro, che poi non so se a quel punto tu stai vedendo o meno, aspetta che c'ho sempre la barretta.
+
+Lorena Cavecchi   40:23
+E certo.
+No, vedo, vedo.
+
+Carlo Sanvoisin   40:33
+E non so se riuscivi a vedere prima, questo lo vedevi prima.
+
+Lorena Cavecchi   40:37
+Sì, questo l'avevo visto.
+
+Carlo Sanvoisin   40:38
+OK, perfetto. Quindi quando io sono qui dentro e ho detto che praticamente questo cliente, Giuliana Abate, anzi questo lead, si è effettivamente trasformato in un cliente, quindi quello che io vorrei vedere poi è avere un'altro Tab qui.
+Che diventa il tab opportunità e nel tab opportunità invece di avere i contatti ho proprio Mastercard Sustainability Event 2026, quindi a quel punto quando io clicco su Mastercard Sustainability Event.
+Non vedo le informazioni di contatto, magari ce l'ho qui a destra il lead che è insomma la persona che di riferimento del cliente, però io qui dentro provo.
+
+Lorena Cavecchi   41:18
+Ma tu stai parlando di una cosa in più?
+
+Carlo Sanvoisin   41:21
+Di una cosa in +1 cosa che voglio creare.
+
+Lorena Cavecchi   41:21
+Cioè sì, OK, giusto che quello potrebbe essere la.
+
+Carlo Sanvoisin   41:23
+Sì.
+
+Lorena Cavecchi   41:28
+La versione progress più strutturata.
+
+Carlo Sanvoisin   41:30
+Bravissima. Esatto, è lì che volevo arrivare. Quindi quando io sto ancora raccogliendo le informazioni non è diciamo ancora il progress definitivo. Quindi io qui dentro raccolgo tutte quelle informazioni che sono nome della commessa.
+Dove si terrà, qual è il budget previsto?
+
+Lorena Cavecchi   41:47
+Sì, è quello da che arriva, da che arriva un da che arriva il brief e inizia il progress.
+
+Carlo Sanvoisin   41:56
+Perfetto, ottimo, quindi questo è.
+
+Lorena Cavecchi   41:57
+Cioè per noi il progress inizia esattamente dall'apertura commessa, quindi poi ci sarà la Antonella smetti che ci lavora e quindi inserisce tutte le sue informazioni sul progress di chi lavora e su cosa sta facendo.
+Poi contestualmente, se per lo stesso Brief c'è anche della comunicazione, ci sarà il reparto operativo che fa la stessa cosa nel suo foglio di progress e così anche se c'è una parte di scenotecnica e di allestimenti ci saranno IPM che fanno la stessa cosa.
+
+Carlo Sanvoisin   42:30
+Ok, innanzitutto qua tu già hai detto una cosa che mi manda in confusione, cioè IPM sono quelli che si occupano solo della parte scenotecnica.
+
+Lorena Cavecchi   42:38
+Yes.
+
+Carlo Sanvoisin   42:40
+Vedi, vedi che differenza di vocabolario, perché per me il PM è in generale il project manager proprio cross di tutta l'azienda, invece no, per voi è.
+
+Lorena Cavecchi   42:51
+Beh no, noi invece abbiamo il TM che sono quelli che fanno la parte della parte di comunicazione, quindi gli allestimenti, la parte dei della scenotecnica, tutti gli allestimenti della sala plenaria. Poi noi abbiamo l'operation.
+Che è quello che invece si occupa della parte logistica che ti dicevo prima, quindi le camere, i trasferimenti eccetera eccetera, noi abbiamo proprio due figure distaccate.
+
+Carlo Sanvoisin   43:20
+OK no, perché io sono abituato al PM che è di solito la figura cross che supervisiona un po' tutte le attività a prescindere dalla loro natura, invece voi vi siete organizzati come se fosse dei piccoli compartimenti stagni in cui dentro ogni.
+
+Lorena Cavecchi   43:34
+Esatto, sì, no. Anche perché sono professionalità completamente diverse. Noi a capo qui tiene la funzione di tutti, è il commerciale.
+Il commerciale coordina la parte di logistica, quindi gli operation EIPM, poi ci sono casi in cui IPM.
+
+Carlo Sanvoisin   43:46
+Pensa te.
+Per esempio, Simona Marani coordina la parte di logistica e questi altri reparti per il suo cliente.
+
+Lorena Cavecchi   44:07
+Esatto, sì, tiene le fila, fa le riunioni di avanzamento, lavori eccetera eccetera.
+
+Carlo Sanvoisin   44:16
+Ok, no, è una divisione particolare perché io sono abituato che il commerciale fra virgolette, nel momento in cui il progetto è venduto sparisce, cioè quello è il suo unico lavoro, proprio vendere. Poi normalmente prende in mano il lavoro un PM che però.
+È un PM fra virgolette olistico, cioè che sa un po' tutto di tutti e gestisce, cioè sta sempre chiede le scadenze.
+
+Lorena Cavecchi   44:34
+Certo.
+No, i nostri PM, cioè noi siamo, cioè sono proprio due professionalità diverse. Un PM non ha idea di che cosa sia una segreteria, così come non ha idea di come si faccia un piano trasferimenti è normale, così come noi non sappiamo.
+A cosa servono switch?
+
+Carlo Sanvoisin   44:54
+OK, quindi mi torna praticamente questo. Che cosa succede? Che qui io sono Simona nel momento in cui ho detto ho fatto la presentazione aziendale, siamo in attesa del Brief. A questo punto sai che succede? Che io seleziono l'attività brief dico.
+Brief, esito positivo ricevuto e in fase di lavorazione a questo punto l'idea quale sarebbe? Quando io ho ricevuto il Brief e io Simone ho detto OK, siamo in fase di brief.
+Praticamente è da qui che partono tutte quelle azioni. Quindi il mio lead dovrebbe passare di status. In poche parole adesso non so se si può definire, cioè quando riceve il Brief ancora non è cliente. Potremmo dire che diventa, che ne so, da lead a prospect.
+Insomma, gli facciamo fare un passaggio di status per cui sappiamo che non è +1 lead freddo, ma che ci stiamo effettivamente lavorando ed è da qui che si apre la commessa e nel momento in cui si apre la commessa, quindi mi si crea una nuova pagina.
+Che sarà la pagina dove raccolgo tutte le informazioni di quellaspecificacommessaquindicreounid.de sotto quell'i D dico, chi è il cliente, chi è il tipo di servizio, chi è il commerciale che lo sta seguendo, quali sono, qual è il budget previsto e tutte quelle informazioni che mettete nel progress.
+E da quella pagina lì io faccio partire la creazione dei singoli task invece su un sistema più simile a questo, in cui ognuno dei vostri reparti dovrà lavorare su degli aspetti di quella commessa, chi sugli aspetti più appunto di biglietteria.
+Chi sugli aspetti più operativi, chi sull'aspetto di segreteria e mano a mano che mandate avanti i task, le informazioni principali ritornano su adesso. Vabbè, questa è una è un'anagrafica del lead, immagina come se fosse l'anagrafica della commessa.
+
+Lorena Cavecchi   46:51
+Certo.
+
+Carlo Sanvoisin   46:51
+Ritornano qui dentro e si continuano a popolare quando voi avete.
+
+Lorena Cavecchi   46:54
+Esatto e si populano, si popolano delle varie figure che lavorano su quello che quindi è lo Stato avanzamento del Progress.
+
+Carlo Sanvoisin   47:00
+Esatto.
+Esattamente. Quindi tu è come se Dimmi se ti torna. È come se il task management system fosse un qualcosa che utilizzano le persone che fanno. Cioè io adesso li chiamo operativi, ma non immaginare i tuoi operativi, dico le persone operative in generale.
+
+Lorena Cavecchi   47:18
+Sì, no, certo.
+
+Carlo Sanvoisin   47:20
+Le persone operative in generale che devono completare task li completano tutti qui dentro, poi quando io entro qui, siccome questa è una vista più da amministratore, non è che la Garbarino entra e vede tutti i dettagli di tutto quello che è stato fatto a livello di task.
+Lei vedrà la vista dall'alto, quindi la sintesi con tutte le cose più importanti. Perfetto quindi questo qua.
+
+Lorena Cavecchi   47:38
+Esatto, certo.
+Poi se c'è qualcosa che non gli torna allora entra, cioè chiederà al PM barra operativo barra commerciale di riferimento cosa non gli torna.
+
+Carlo Sanvoisin   47:55
+Certo, detto che anche la Garbarino potrebbe pure entrare qui dentro, aprire una un'attività e magari vedere che cosa è successo, perché poi io qui dentro posso scrivere, posso taggare le persone.
+Quindi la Garbarino potenzialmente potrebbe entrare qui dentro e dire taggare qualcuno e dire ma perché hai fatto? Cioè che cosa significa questo? Vedi Tagga qualcuno e dice, questo avanzamento non mi torna, questo budget che è stato fatto non mi torna o qualsiasi altra cosa. Quindi.
+Sì, lo può chiamare, sì, gli può mandare l'email, però potenzialmente se vuole avere una vista anche di dettaglio su tutto quello che sta succedendo, potrebbe farlo anche da qui. Non so se questa è una cosa che può essere utile o è troppo.
+
+Lorena Cavecchi   48:43
+Quando me dopo, lei mi preferisce fermarsi, cuore.
+
+Carlo Sanvoisin   48:45
+Non lo farebbe, dici? Va bene, OK, va beh, diciamo così. Avrebbe la possibilità di farlo, però non necessariamente lo deve fare, ma non lo farà. OK, si chiude a questo punto la commessa.
+
+Lorena Cavecchi   48:54
+Avrà me, ma non lo farà, esatto.
+
+Carlo Sanvoisin   49:01
+E lei entra a questo punto nel sistema gestionale dove si ritroverà, come abbiamo detto, questa pagina di dettaglio con la commessa, con tutte quante le voci del Progress, con come si è evoluto il budget. A quel punto ci sono dentro pure caricati tutti quanti i PDF, quindi vuole vedere una specifica fattura, la trova lì dentro.
+Vuole rivedere un contratto? Lo trova lì dentro, cioè questa opportunità diventa il contenitore di tutto quello che è successo nella commessa, però chiaramente ad alto livello. Se poi vuole il dettaglio, a quanto pare vi chiama, però da lì può anche fare tutta la reportistica, quindi può chiedere.
+Quanto ho fatto su questo cliente rispetto all'anno scorso? Quali sono le proiezioni per il prossimo anno? Com'è andato il New business rispetto ai clienti fidelizzati e via dicendo.
+Che dici, secondo te l'abbiamo costruito un po, cioè per come ce lo siamo raccontato oggi, è un qualcosa di funzionale?
+
+Lorena Cavecchi   49:51
+Sì.
+Sì.
+
+Carlo Sanvoisin   49:54
+OK.
+
+Lorena Cavecchi   49:54
+Sì, Assolutamente sì.
+
+Carlo Sanvoisin   49:57
+Di questo processo secondo te quali sono le parti che si intoppano più spesso, che creano più perdite di tempo?
+
+Lorena Cavecchi   50:06
+Allora sicuramente la parte del progress è quello che fa perdere un sacco di tempo a tutti.
+
+Carlo Sanvoisin   50:14
+OK.
+
+Lorena Cavecchi   50:15
+E.
+E poi vabbè, il resto è cioè lavoro.
+Quello che abbiamo sistemato con crowd e l'altro che fa perdere tanto tempo, però tutto il resto a un certo punto poi diventa la natura normale del della.
+Per mettere in pratica un progetto.
+
+Carlo Sanvoisin   50:39
+OK, secondo te il task management system vi aiuterebbe a tenere traccia di tutto quello che c'è da fare, mettere delle scadenze, delle dipendenze, taggare le persone, aver.
+
+Lorena Cavecchi   50:50
+Quello sì, secondo me sì. Poi bisogna, cioè magari magari studiando infatti no, quello sì.
+
+Carlo Sanvoisin   50:53
+Perché a me personalmente non dispiace per niente lavorare così. Cioè io impazzirei se non avessi tutte queste cose qui. Vedi, io qua per esempio ho assegnato a Federico un sacco di tasche.
+
+Lorena Cavecchi   51:01
+No, quello sì, più che altro se poi c'è.
+Ecco, no, più che altro perché così almeno cioè riesci forse in qualche maniera a controllare, a dare +1 occhio a più progetti contemporaneamente.
+
+Carlo Sanvoisin   51:17
+Ed è così che faccio. Vedi io qui per esempio ho messo un sacco di tasca a Federico su un tool. Poi mano a mano lui che fa? Entra qua dentro, se l'è completato, guarda che carino, se lo trascina, è completato. A me aspetta, mi sa che ho trascinato male.
+A me questo qua mi arrivano notifica che sono stati completati chiaramente adesso glieli rimetto in pending perché li deve fare. Però il punto è quello no? Che è tutto molto semplice, molto intuitivo. Ti arrivano le email quando sei magari a una settimana dalla scadenza.
+
+Lorena Cavecchi   51:38
+Certo.
+
+Carlo Sanvoisin   51:49
+Posso mettere dei dettagli, posso fare tutta una conversazione.
+
+Lorena Cavecchi   51:51
+Sì, esatto, esatto, quello assolutamente esatto.
+Assolutamente sì, molto.
+
+Carlo Sanvoisin   51:56
+È interessante, no? OK, quindi noi diciamo che poi alla fine le cose che vi propongo nuove rispetto all'anno scorso, vabbè, il lead me è semplicemente un'evolutiva. Io ho pensato che lead me non solo vi traccia i vostri attuali clienti.
+Ma ve ne propone di nuovi, quindi è lui che va a cercare on-line su linkedin tutti i clienti potenzialmente interessati a fare eventi e viaggi incentive e restituisce al reparto commerciale una lista di potenzialità.
+
+Lorena Cavecchi   52:24
+Questo è ****.
+Ma la Zaghi ancora non lo sa, glielo dici domani?
+
+Carlo Sanvoisin   52:29
+E glielo devo dire a breve. Mi sa che mi ha dato una call domani. Lei, sì, vi siete confrontate, OK? Sì, glielo propongo domani. Già qualcosa gliel'avevo anticipato. Quindi il suo lavoro viene ancora di più velocizzato perché trova subito dei nuovi lead da attaccare.
+
+Lorena Cavecchi   52:32
+Domani sì, perché me l'ha detto prima.
+
+Carlo Sanvoisin   52:46
+Mentre il reparto creativo viene velocizzato perché io li gli voglio mettere tutti quanti dei tool di intelligenza artificiale per fare più velocemente immagini, render, prototipi, planimetrie. Quindi ci sta la smetti che lavora velocemente perché c'ha questo che gli propone tutte le location. I creativi lavorano più velocemente perché hanno questo strumento qui.
+
+Lorena Cavecchi   52:55
+Certo.
+
+Carlo Sanvoisin   53:06
+La Zaghi trova più clienti e tutta la parte diciamo di preparazione è stata velocizzata, poi teoricamente facciamo questo passaggio appunto su creazione della commessa Task Management System in cui questo vi serve a efficientare proprio il lavoro operativo.
+E la messa a terra di tutte quante le azioni. Però nel mentre non dovete perdere tempo a segnare il progress, cioè paradossalmente se io ti faccio un collegamento tra questo strumento qui e il progress quando io ho completato un'attività.
+Che il cui completamento deve essere segnato nella parte di Progress lo fa in automatico, cioè se io ho fatto un'attività che in qualche maniera mi deve andare a essere segnata nel budget, per esempio io faccio aggiungi al budget effettivo.
+E io boom, immagino che questa è sempre la schermata di tutta la commessa, io vedo il budget che magari c'avevo un campo che era budget previsto e poi c'ho budget a consuntivo e quella cifra si continua ad aumentare fino a che io completo magari qui dentro i task.
+
+Lorena Cavecchi   54:05
+Ma no.
+
+Carlo Sanvoisin   54:10
+Quindi magari io sono, che ne so, la segreteria, scusa la biglietteria, ho acquistato 100 biglietti, l'ho fatto carico questa attività come completata carico le fatture dei biglietti e il totale qua dentro si alza di 10.000 con fattura allegata.
+Poi quando sono finiti tutti quanti i task è chiusa la commessa boom, questa è chiusa, arriva la notifica alla Garbarino e la Garbarino ci entra e fa le sue valutazioni.
+
+Lorena Cavecchi   54:26
+Sì.
+OK, l'unica cosa che poi questa cosa la dobbiamo pensare come un budget totale di commessa e un budget budget diviso per reparto.
+
+Carlo Sanvoisin   54:37
+Che dici?
+Certo, perché poi comunque se tu ci pensi qui scusami, qui dentro ognuno entra con la sua utenza, quindi se io sono segreteria io qui dentro non lo dovrei fare, però se io qua lo voglio rinominare.
+
+Lorena Cavecchi   55:02
+Sì.
+
+Carlo Sanvoisin   55:06
+Fai conto che questa è segreteria, capito? E ognuno entra solo nel suo.
+
+Lorena Cavecchi   55:06
+No, certo, sì, no, ho capito, ho capito anche perché poi ci sono, perché attenzione, poi ci sono sicuramente dei reparti che non inseriranno budget, vedi la segreteria e ci so.
+Però comunque ci lavorano e invece ci sono dei reparti che inseriranno budget che sono IPM, la biglietteria, l'operativo.
+Che devono essere divisi per reparto.
+Persona reparto.
+
+Carlo Sanvoisin   55:40
+Sì no, mi torna sempre di più, infatti è stato super utile oggi con te perché c'avevo qualche idea in testa, però tu sei riuscita ad aiutarmi a legare i puntini proprio quindi a questo punto io me lo immagino molto di più nella mia testa. Come funziona questo passaggio fra.
+Commerciali, come si chiama l'osmetti programmazione e segreteria operativi. E poi sono in ultima battuta, diciamo ci sono, c'è questo controllo finale che viene fatto sul Progress una volta che è stato completato.
+
+Lorena Cavecchi   56:02
+Programmazione.
+
+Carlo Sanvoisin   56:13
+OKE, in più vabbè, di mezzo c'è anche il reparto.
+
+Lorena Cavecchi   56:14
+Sì, però questo progress deve essere, deve essere poterlo visionare, cioè è un work in progress.
+
+Carlo Sanvoisin   56:24
+Aspetta che intendi, mi è piaciuto il gioco di parole, cosa intendi?
+
+Lorena Cavecchi   56:25
+Non.
+Nel senso, nel senso che.
+Cioè serve anche per vedere i carichi di lavoro, per cui.
+
+Carlo Sanvoisin   56:35
+Ma tu lo vedi dal Task Management System il carico di lavoro?
+Perché tu qui dentro hai tutti, hai tutti con le singole cose che stanno facendo.
+
+Lorena Cavecchi   56:39
+Sì, però anche lo stato delle.
+Sì, certo, quindi io lo posso vedere non solo nella fase finale, lo posso vedere.
+
+Carlo Sanvoisin   56:50
+Tu da qui vedi tutto live, cioè io qua vedo live, tutto quello che è completed, tutto quello che è pending a parte che pending io me lo vorrei spostare all'inizio. Ecco qua vedi, io preferisco fare così.
+
+Lorena Cavecchi   56:50
+Anche nelle varie fasi del progetto.
+
+Carlo Sanvoisin   57:05
+Pensa che carino, una volta che avrete questo sarà tutto semplicissimo. Cioè vedi, io voglio sono in segreteria, posso anche fare lo split o qua vedo segreteria e vedo questa è adesso non so come si chiamano le persone della segreteria, metti caso Arianna, Simona, Antonella eccetera eccetera e vedo a chi sono assegnate le cose.
+Oppure magari filtro e mi vado a filtrare solamente per.
+Vediamo per Federico è quello che gliene ho dati di più.
+Vedi, mi filtro solo per quelli dove c'è Federico oppure voglio quelli dove c'è solo Federico. Mi vado a segnare quelli che c'hanno solo Federico. Cioè tu hai milioni di viste che tu puoi puoi decidere. Insomma, qui puoi veramente vedere tutto.
+Sia dall'alto livello che nel dettaglio.
+Preferiresti comunque vederlo da dal progress?
+
+Lorena Cavecchi   57:57
+Sì, è una totalità serve perché sennò io devo entrare, cioè considera che magari noi in operativa abbiamo 10 persone, quindi tu per vedere il carico di persone dei lavori devi entrare su 10 persone per vedere invece nella totalità dove vince la data.
+
+Carlo Sanvoisin   58:00
+No, vabbè, ma quello c'è.
+
+Lorena Cavecchi   58:13
+Perché tante volte è la data dell'evento che passi o la data di consegna per quel che riguarda Antonella, è lì che ti fa decidere come.
+Come suddividere i lavori tra le risorse?
+
+Carlo Sanvoisin   58:27
+Pensando allora comunque questo lo potete, cioè magari questo entriamo più nel dettaglio adesso siamo andati anche fuori tempo quindi ti lascio però mi aiuti a capire meglio questa cosa, perché io vorrei capire esattamente che vista vi aiuta per entrare nel dettaglio e quale per entrare invece più nell'overview.
+
+Lorena Cavecchi   58:36
+Sì.
+
+Carlo Sanvoisin   58:44
+Però in linea di massima io vedo questo che tu potrai entrare qui dentro.
+
+Lorena Cavecchi   58:46
+Dai che magari ti mando ti mando il file Excel che fa che recepisce il mio progress, così lo vedi com'è.
+
+Carlo Sanvoisin   58:53
+Magari perché in questo modo io posso capire che cosa ti piacerebbe vedere nel momento in cui vuoi entrare nel dettaglio e cosa vuoi vedere invece nella vista dall'alto. E questa adesso è sul cliente, però tu te la devi immaginare sulla commessa. Quindi fai conto invece il first name ci sarà ID commessa.
+Cliente, data dell'evento e poi tutte quelle informazioni di alto livello che voi volete vedere qui dentro con commerciale assegnato, persona della segreteria assegnata, PM assegnato e via dicendo qualcosa del genere.
+Ti torna, ti suona in testa?
+
+Lorena Cavecchi   59:30
+Sì, esatto, una roba del genere.
+
+Carlo Sanvoisin   59:31
+Ok, quindi questo qua lo andiamo magari a dettagliare un pochino di più, però intanto è stato super utile perché mi hai mi hai dato insomma delle dritte che dici tu mi potresti dedicare un'altra oretta in settimana? Perché io vedo che tu hai una visione dall'alto che è forse quella in assoluto che mi serve di più.
+
+Lorena Cavecchi   59:47
+Allora sì, tranne giovedì che giovedì pomeriggio non riesco, cioè giovedì diciamo tutta la giornata perché ho una presentazione nel pomeriggio, quindi la mattina sarà occupata venerdì quando vuoi.
+
+Carlo Sanvoisin   1:00:01
+OK.
+Facciamo mercoledì, non riusciresti perché io devo sentire anche OK, dai, facciamo, facciamo venerdì, facciamo venerdì, ti va? Se hai un minuto ti faccio vedere un'altra cosa, sennò ti mando direttamente le credenziali e ci pensi tu, Dimmi te.
+
+Lorena Cavecchi   1:00:06
+E mercoledì con questa presentazione non lo so.
+Guarda, mandami le credenziali perché ho visto già gente che si affacciava alla mia porta.
+
+Carlo Sanvoisin   1:00:23
+Comunque in un secondo essenzialmente guarda sarà veramente semplicissimo. Ti mando le credenziali. Questo strumento funziona che tu ti vai a creare la minuta e ci metti dentro il transcript. Una volta che tu ci hai messo dentro il transcript lui ti fa l'analisi.
+
+Lorena Cavecchi   1:00:32
+Sì.
+
+Carlo Sanvoisin   1:00:39
+E vedi, c'è tutta l'analisi, tutto quello che è successo durante la call. E poi c'è isally e gli puoi fare qualsiasi domanda. Quindi per esempio qua io gli ho chiesto di scrivermi la minuta, prima mi ha detto, queste sono le decisioni prese, questi sono i prossimi passi, questi sono i punti aperti. Oppure che ne so, gli avevo chiesto.
+
+Lorena Cavecchi   1:00:46
+Ottimo.
+
+Carlo Sanvoisin   1:00:57
+Mettimelo in un italiano più corretto eccetera eccetera. Insomma, ci giochi, OK, basta, ti mando le credenziali e questo ci giochi anche te. Poi ti fisso una call per venerdì, mi hai detto, Preferisci mattina o pomeriggio?
+
+Lorena Cavecchi   1:01:01
+Certo, va bene.
+Vuoi venerdì sono libera tutto il giorno.
+
+Carlo Sanvoisin trascrizione arrestata

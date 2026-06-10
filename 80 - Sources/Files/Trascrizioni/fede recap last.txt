@@ -1,0 +1,177 @@
+Speaker 0:
+
+Allora è partita la registrazione guarda casa proprio ora quindi quello che ci siamo detti è che entro lunedì mi fai avere le quotazioni di presidia con la distinzione release 1 release 2 sulla base di tutto quello che ci siamo detti e hai la trascrizione di ieri per I dettagli poi ci siamo detti che il venue finder io devo testare in generale tutto il processo ma tu devi vedere un po anche la parte di accuratezza dei risultati lo facciamo tutte e 2 lo facciamo tutte e 2 perché se ero un piccoglioni poi Minutes hai detto che hai praticamente fatto tutto, quindi io da lunedì posso comunicare che il tool è in produzione e già comprende tutte quelle evolutive che avevamo pensato.
+
+Speaker 1:
+
+Ragazzi... La produzione è un attimo perché io prima di fare la produzione ti direi, adesso lo puscio su, fai un ultimo giro in test, poi quando mi dici è tutto ok, allora a quel punto lì lo pusciamo verso production.
+
+Speaker 0:
+
+Ok quindi su quello faccio io I test poi lo metto in... Manca ancora
+
+Speaker 1:
+
+una cosa anche su Minuz cioè che figa, quello lì proprio, c'è un altro regalo
+
+Speaker 0:
+
+vede mi fai... Poi non farmi perdere tempo, doveva essere in audio veloce non ti voglio
+
+Speaker 1:
+
+far perdere tempo, ascoltami cioè allora io te lo sono fatto l'edit manuale 6 un cane erognoso, perché quella vallita la 6 è inventata di sanapianta comunque ti ho messo perché a minuti essendo un prodotto T-Herd ci tengo, ti ho messo l'edit però adesso momento è l'edit delle card ma manca ancora un attimo
+
+Speaker 0:
+
+Ok va bene, obiettivo che io martedì testo e mercoledì sparo 2 comunicazioni. Una è per Minuz. Boys è tutto pronto è tutto live. Facciamo un'altra sessione di feedback entro la settimana prossima. Testate testate testate che dobbiamo chiudere.
+
+Crowd Lorena ti torna tutto quello che abbiamo detto per I mail se non ti torna qualcosa sentiamoci entro il 15 in call data per la quale Federico avrà finito di fare tutti gli enhancement data oltre la quale ci prendiamo altri 5-7 giorni di test, chiudiamo e fatturiamo. Venufinder come ci siamo detti tu e io dobbiamo testare, poi posso comunicare al cliente che abbiamo fatto questo bel enhancement e saranno contenti. Not e I cookies rispettivamente 55k e 36k, martedì mi pagano la fattura, ergo io pago te e Simone, ergo ci dobbiamo sentire la sera voi mi fate vedere che avete tutta la documentazione già raccolta non devo fare lo stronzo spazzino che va a recuperarvi tutta la documentazione io il posto vostro come devo fare sempre che sapete come gestirla faremo un punto tutti assieme è quello che voglio fare martedì sera vediamo se vi manca qualcosa ve la recupero io voi mi fate capire come intendete arrivare a traghettare la deadline di luglio e se c'è una parte informativa che manca dal team operativo esempio le pi e foto dei prodotti su I cookies dobbiamo parlare con microlog qualsiasi cosa vi aiuto e la gestiamo insieme.
+
+Abbiamo altri temi? No, semplicemente tra Wave 2 e Dino Loop rimangono sempre gli accordi che ci siamo detti e io devo venderla a fine ok come il gando e fai bene quando arriveranno le altre quotazioni se tu non hai bleffato sulle quotazioni e allora sarà come dici te? E se tu hai detto noi abbiamo le quotazioni più basse del mercato a livello di qualità e io mi trovo una software house che chiaramente comunque la software house lavora in qualità come voi e mi fa la stessa vostra quotazione lì è un problema capisce pure te
+
+Speaker 1:
+
+sì sì io sono bastano molto tranquillo su sta roba, sinceramente. Bene, sì. Ecco, l'unica cosa, aspetta che qui c'è un'altra roba, di riepilogo, riepilogo di merda, ma perché hai voluto cambiare adesso Rapport? Perché non è un riepilogo! Ma cosa cambia tra riepilogo e Rapport?
+
+Speaker 0:
+
+Ma tu facevi l'insegnante di italiano? Dai insegnante di italiano quello lo chiameresti riappilogo?
+
+Speaker 1:
+
+No, non facevo gli insegnanti italiani, faccio gli insegnanti di informatica, ero anche il più figo, il professore più figo della scuola.
+
+Speaker 0:
+
+Sì, è pelato.
+
+Speaker 1:
+
+E' pelato, Non ero pelato ancora, gli ero giovane.
+
+Speaker 0:
+
+Voglio solo insultarti, coglione.
+
+Speaker 1:
+
+Sì, va bene, ma ti sto dicendo che lì non ti sbagli, non ero pelato gli ero giovane.
+
+Speaker 0:
+
+Però tu ti sbagli sul fatto che quella mori a pilogo?
+
+Speaker 1:
+
+Sì, ma tu non sai niente praticamente quindi
+
+Speaker 0:
+
+6 più cosa dire zitto zitto Io quello che faccio lo faccio bene Senti mi sa che ci siamo detti tutti, tutto dai. Ah, hai ci chiamato I bug di Simona?
+
+Speaker 1:
+
+Sì, però bravo, bravo, ecco perché te lo chiamavo, mi stavo dimenticando. Vedi che alla fine ho fura di dire delle cazzate tutto il tempo, mi fai pure confondere, no?
+
+Speaker 0:
+
+Mamma mia, comunque 6 bravo a dare la colpa agli altri, Sì,
+
+Speaker 1:
+
+sì, sì, 6 riuscito pure a farmi confondere. Allora, praticamente sì, li ho fixati e ho fatto anche una miglioria di nuovo, tanto perché è giusto che siamo fatti alle merda.
+
+Speaker 0:
+
+Lo senti l'applauso?
+
+Speaker 1:
+
+Lo fai con la mano in bagno tu quel rumore di ascolta e praticamente adesso quando entri nel dettaglio e torni indietro non solo ovviamente non perde contesto ma ti riposiziona anche a livello di scroll della pagina dove eri rimasto così se tu entri in un dettaglio fantastico poi l'unica cosa però è che invece il video che mi hai mandato l'ultimo dove elimina e fa vedere che tipo non si elimina quello io non sono riuscito a replicarlo per me I contatti si eliminano perfettamente
+
+Speaker 0:
+
+e il fatto che lei è super e tu 6 admin?
+
+Speaker 1:
+
+No no l'ho fatto no perché Non cambia niente in verità perché sul periodo dovrebbe essere stesso per le rispettive. Comunque ci riguarderò un attimo ancora, li metterò, creerò un utente, prova a eliminarlo con un altro utente, ma mi sembra proprio strano che non vada secondo me sta sbagliando qualcosa lei
+
+Speaker 0:
+
+magari le mando messaggio dico primo bug fixato secondo bug vediamocelo un attimo insieme perché non siamo riusciti a riprodurlo ok Va bene dai adesso parole dolci ci vogliamo bene mi raccomando
+
+Speaker 1:
+
+io per niente prima devo andare al bar un attimo poi quando sono al bancone ho tirato su 2 medie ah ah ah
+
+Speaker 0:
+
+Federica vi hai detto basta con sta storia
+
+Speaker 1:
+
+che cosa?
+
+Speaker 0:
+
+2 medie poi stop io pure mi sto a regolare acqua e mezzo siamo tutti persone nuove
+
+Speaker 1:
+
+non mi sto mica distruggendo infatti a differenza che ti ti ti sminchi a differenza di lui che ti sminchi
+
+Speaker 0:
+
+la minchia mi sminchio me vado a fare certe scopate stasera
+
+Speaker 1:
+
+ma cosa vuoi scopare?
+
+Speaker 0:
+
+Fratello, Io ti dico solo la settimana scorsa me ne sono scovata, uno venerdì e uno domenica. Ehi!
+
+Speaker 1:
+
+Vabbè ma solamente fai figo solamente perché adesso io sono monogamo e quindi...
+
+Speaker 0:
+
+Certo.
+
+Speaker 1:
+
+Certo cosa, cioè, ma è bello che ho Pure anche che mi circola notturno, no? Anche adesso, solo che ovviamente...
+
+Speaker 0:
+
+Fatte una roba terribile, Federico, venerdì.
+
+Speaker 1:
+
+Prima...
+
+Speaker 0:
+
+Ho fatto... Vabbè, ma che tu racconta affatti? 6 in Monaco, sciaulista.
+
+Speaker 1:
+
+Ma che mo... Ma va a cagar, coglione maledetto. Io adesso... Tirt... Renei...
+
+From... Riepilogo... To report.
+
+Speaker 0:
+
+Dai devo entrare in call.
+
+Speaker 1:
+
+Sì va bene, comunque ti stavo dicendo invece... No, che c'è, adesso io da Franci non so quanto ci... Mi dispiace perché le voglio un gran bene, ma non so quanto ci durò ancora.
+
+Speaker 0:
+
+Guardate, io travo anche detto. Mamma mia, non mi ascolti mai. È strano ma devo ascoltare queste cose mentre devo entrare in call, ma che cazzo, un po' di priorità. Su ciao ciao ciao ciao, ti mando regal.

@@ -1,0 +1,92 @@
+
+Carlo Sanvoisin
+0 minutes 5 seconds0:05
+Carlo Sanvoisin 0 minutes 5 seconds
+Vabbè non ti preoccupare allora sarà una call più che altro esplorativa, nel senso che io vorrei capire ad oggi che analisi fate, se le fate, quanto spesso le fate, come guidano poi effettivamente il vostro decision making aziendale se lo fanno.
+Carlo Sanvoisin 0 minutes 24 seconds
+E porre un pochino le basi di quello che potrebbe essere invece un futuro strumento di analytics, magari con una serie di metriche in più che andiamo a guardare rispetto a quelle che guardate oggi e soprattutto la parte più interessante, cioè?
+Carlo Sanvoisin 0 minutes 39 seconds
+Siccome io capisco che un po' il fil rouge di tutto questo progetto che stiamo facendo con voi è difficoltà diciamo di avere risorse attive che fanno una serie di attività compresa probabilmente anche quella di analisi, si può mettere uno strumento di intelligenza artificiale che.
+Carlo Sanvoisin 0 minutes 55 seconds
+Velocizza tutta quanta questa analisi e vi permette con pochi minuti di ottenere lo stesso livello di insomma di informazioni, quindi queste sono un pochino i punti innanzitutto ti tornano.
+SS
+
+Stefania Solidoro
+1 minute 11 seconds1:11
+Stefania Solidoro 1 minute 11 seconds
+Allora?
+Stefania Solidoro 1 minute 14 seconds
+Sì nel senso scusami ti ho seguito ma mi sono anche perdonami in parte distratta perché stavo ricercando da condividerti e anzi adesso condivido lo schermo così ti faccio vedere e mi dici se.
+CS
+
+Carlo Sanvoisin
+1 minute 28 seconds1:28
+Carlo Sanvoisin 1 minute 28 seconds
+Sì.
+SS
+
+Stefania Solidoro
+1 minute 29 seconds1:29
+Stefania Solidoro 1 minute 29 seconds
+Ti dice qualcosa quello che finora è stato fatto di analytics? Allora facciamo così, inizio a condividerti così, no? Mi convince il fatto di avere comunque un.
+Stefania Solidoro 1 minute 42 seconds
+Definire dei.
+Stefania Solidoro 1 minute 45 seconds
+Delle.
+CS
+Carlo Sanvoisin
+1 minute 47 seconds1:47
+Carlo Sanvoisin 1 minute 47 seconds
+Delle metriche dici sì?
+SS
+Stefania Solidoro
+1 minute 48 seconds1:48
+Stefania Solidoro 1 minute 48 seconds
+Dei KPI da monitorare sì delle attività, cioè andare proprio a identificare tanto non è che dobbiamo monitorare tutto il sito quello che fa, ma capire che cosa ci interessa monitorare dell'attività dei nostri utenti sul bto.be sì, assolutamente avere magari uno strumento che in autonomia.
+CS
+Carlo Sanvoisin
+2 minutes 2 seconds2:02
+Carlo Sanvoisin 2 minutes 2 seconds
+Sì.
+SS
+Stefania Solidoro
+2 minutes 7 seconds2:07
+Stefania Solidoro 2 minutes 7 seconds
+Mia ti produce delle analisi fin quando si vede nei posti, assolutamente questo sì.
+CS
+Carlo Sanvoisin
+2 minutes 9 seconds2:09
+Carlo Sanvoisin 2 minutes 9 seconds
+Delle reportistiche. Esatto, esatto. E poi questa ti dico subito che è una delle attività che oggi è più facile delegare, perché oggettivamente l'intelligenza artificiale è molto più brava di noi a lavorare con grandi quantità di dati.
+Carlo Sanvoisin 2 minutes 28 seconds
+Quindi nel momento in cui noi definiamo quali sono le metriche che ci interessano, capiamo se abbiamo i dati per produrre queste metriche e ci colleghiamo uno strumento di intelligenza artificiale, quello che si può fare poi è.
+SS
+Stefania Solidoro
+2 minutes 29 seconds2:29
+Stefania Solidoro 2 minutes 29 seconds
+OK.
+CS
+Carlo Sanvoisin
+2 minutes 45 seconds2:45
+Carlo Sanvoisin 2 minutes 45 seconds
+Insomma, è molto semplice da mettere degli alert automatici quando appunto, che ne so, abbiamo molte visite su un determinato prodotto, allora questo ci potrebbe indicare che magari.
+SS
+Stefania Solidoro
+2 minutes 47 seconds2:47
+Stefania Solidoro 2 minutes 47 seconds
+Grazie.
+CS
+Carlo Sanvoisin
+2 minutes 59 seconds2:59
+Carlo Sanvoisin 2 minutes 59 seconds
+Cioè un trend oppure andare direttamente a dialogare con lo strumento, cioè io invece che costruirmi appunto con tramite questa dashboard per esempio mi stai facendo vedere un trend o una metrica? Chiedo provo col linguaggio naturale.
+SS
+Stefania Solidoro
+3 minutes3:00
+Stefania Solidoro 3 minutes
+Certo.
+CS
+Carlo Sanvoisin
+1 hour 1 minute 48 seconds1:01:48
+Carlo Sanvoisin 1 hour 1 minute 48 seconds
+Poi è ecco a tirare fuori i risultati definitivi.

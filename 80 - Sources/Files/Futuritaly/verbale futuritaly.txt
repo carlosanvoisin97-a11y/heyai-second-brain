@@ -1,0 +1,239 @@
+FuturItaly | Follow-up: Progetto Ricerca Gare
+mer 3 dic 2025
+
+0:01 - Carlo Sanvoisin
+Ciao a tutti bene?
+
+0:04 - Oratore non identificato
+Bene bene.
+
+0:05 - Carlo Sanvoisin
+Allora abbiamo anche Paolo.
+
+0:08 - Carlo Sanvoisin
+Oggi che tu sappia si collegano tutte le persone oppure vi siete messi d'accordo, si collegano?
+
+0:19 - Paolo Passaro
+Allora sicuramente io e Paolo che vedo.
+
+0:24 - Delbufalo
+Buongiorno. Ciao Paolo, piacere.
+
+0:27 - Oratore non identificato
+Buongiorno.
+
+0:28 - Delbufalo
+Ecco, ecco. Allora Non credo che Max si colleghi, perché so che è fuori, quindi forse si...
+
+0:38 - Oratore non identificato
+diciamo, lato nostro.
+
+0:39 - Delbufalo
+Poi c'era pure Lidia, solo che Lidia è in, diciamo, in un assignment presso un cliente per alcuni giorni, quindi non è disponibile. Allora, qui vedo che c'è quello iMeeting nostro. Lo usate?
+
+0:58 - Carlo Sanvoisin
+Allora guarda, ti dico la sincera verità.
+
+1:00 - Delbufalo
+Io lo tolgo perché odio questo fatto che venga imposta questa cosa e francamente mi dà abbastanza fastidio.
+
+1:08 - Carlo Sanvoisin
+Lo possiamo anche togliere, non ti nego che a me è sempre utile comunque fare una registrazione delle chiamate per avere la trascrizione.
+
+1:17 - Delbufalo
+Se è programmato va bene, perché a noi ci è capitato di trovarcelo non programmato varie volte e quindi anche in riunioni un po' delicate, quindi c'era già chi si era molto stranita di questa presenza.
+
+1:32 - Carlo Sanvoisin
+Io chiedo sempre, chiedo sempre inizio call se posso registrare, per me è una comunità per il semplice fatto che mi registra la call.
+
+1:41 - Delbufalo
+In questo ambito tra l'altro stiamo parlando di questo, quindi direi che è anche appropriato a questo.
+
+1:47 - Carlo Sanvoisin
+Esatto, esatto. Comunque no, diciamo che è un supporto secondo me nel momento in cui utilizzi l'intelligenza artificiale farti per aiutarti nelle minute. Lui è utile perché in automatico ti registra la call altrimenti uno si dovrebbe ricordare sempre di far partire la trascrizione.
+
+2:06 - Paolo Passaro
+Poi ditemi voi eh sono.
+
+2:08 - Delbufalo
+No no.
+
+2:09 - Carlo Sanvoisin
+Tanto è che dobbiamo discutere di argomenti.
+
+2:13 - Paolo Passaro
+Delicati. Comerciali.
+
+2:13 - Delbufalo
+Allora innanzitutto come eh faccio un breve recap come vi avevo anticipato per email essenzialmente se oggi riuscissimo a mh chiudere selezionare la parte di selezione delle fonti e vedere magari un po' di regole di esclusione inclusione che potrebbero essere utili a questo agente di intelligenza artificiale per selezionare Gare e bandi appropriati per il vostro business già abbiamo gli elementi sufficienti ehm che io posso passare al team di sviluppo a quel punto loro mi possono fare effettivamente una votazione e da quel momento in poi eh mi dite voi se preferite un documento eh insomma Word o anche una presentazione PowerPoint questo mi dicevate che volate insomma anche internamente alla vostra società poi presentare questo caso d'uso di intelligenza artificiale quindi magari mi guidate anche un po' voi se poi dopo lascio parlare Paolo poi io sono un chiacchierone quindi Paolo già lo sa tu adesso lo scoprirai però faccio chiudi ti smarco tutti questi punti al volo diciamo sulle foto poi dopo appunto Paolo interverrà, però diciamo fondamentalmente ti abbiamo segnalato delle cose che appunto sono fondamentali, allora perché ti spiego, diciamo io sono un po' il PM di questa cosa, ok, però io in realtà non mi occupo, cioè mi occupo, a FuturItaly tutti in qualche modo hanno a che fare con Gare, bandi, eccetera, quindi non è, non si scappa, però diciamo rispetto a Paolo e Lidia io me ne occupo in maniera più tangenziale, invece Paolo è proprio l'esperto di finanza agevolata, il suo ruolo è esperto di finanza agevolata, quindi ovviamente ai tuoi fini è l'end user principale insieme a Lidia, che purtroppo non c'è, però poi anche Lidia nel proseguo si aggiungerà anche lei al team sicuramente. Io invece mi occuperò un po' di coordinare, di gestire quindi anche le parti. Da questo punto di vista è corretto, nel senso che noi adesso siamo un po' un team di avanguardia, quindi Max si è lanciato sulla cosa e mi ha coinvolto per aiutarlo a gestire, Paolo è coinvolto nel suo ruolo appunto di end-user, chiamiamolo così per semplificare, perché è una cosa un po' compia, e l'idea è che, appunto, una volta che ci siamo resti d'accordo che voi siete riusciti a tirare fuori una quotazione, io direi PowerPoint, nel senso che noi fondamentalmente dovremmo venderlo internamente al nostro amministratore, questa è la cosa. Allora diciamo che in principio lei ovviamente è d'accordo con questa cosa, nel senso che lei è molto innovativa, le piace cose nuove, tecnologie eccetera, e si rende conto ovviamente della potenza e utilità della cosa, però bisogna comunque venderlo perché alla fine poi saranno soldi eccetera e quindi noi siamo un po' ancora in modalità start-up nel senso che cerchiamo di contenere I costi perché appunto abbiamo costi delle persone essenzialmente sono grandi però come struttura diciamo abbastanza light quindi non è che si possono insomma bisogna venderle e questa è la cosa.
+
+5:30 - Delbufalo
+Allora guarda me l'ero immaginato un po' questo di fatti già ho anticipato anche un pochino al team di sviluppo di andarci piano con la votazione e magari ehm io ti posso dire anche per esperienza eh nel dubbio incrementale cioè nel senso fai esatto dicendo eh che ne so tra tre mesi vediamo come va e poi decidiamo aggiungiamo questo feature aggiungiamo questa cosa cioè capito?
+
+5:59 - Carlo Sanvoisin
+Giocatela con l'incrementale secondo me è così vedo che tu hai un po' di linguaggio tecnico però eh lo lo spiega comunque normalmente noi partiamo da un MVP che sarebbe un minimum viable product ovvero eh la soluzione basica che è sufficiente per permettervi di lavorarci e utilizzare lo strumento e comunque avere un vantaggio, un'accelerazione però chiaramente dà spazio a un'ottica evolutiva. Quindi sicuramente noi partiremo da quello eh non ti nego che con questo discorso mi hai un pochino fatto venire la voglia di chiederti se c'avete una minima idea di budget posso anche buttare fuori il meeting note.
+
+6:42 - Delbufalo
+Onestamente no, io non so se Paolo ma io onestamente non ho la più palida idea nel senso che appunto il suggerimento sia commerciale sia ma anche proprio perché ha senso direi anche da un punto di vista proprio strettamente di applicazione della cosa suggerirei comunque e mi sembra che sto che tu sia d'accordo, un approccio incrementale, anche datare sull'ottica dell'end user, in modo da rendere un prodotto con cui Paolo gli facilita la vita, almeno nella parte di Ricerca, perché poi lo sa meglio lui ovviamente, perché qui non conto trovare il match tra quello che ti può servire eccetera, non conto poi applicare e fare questi decorsi che non sono L'idea di budget c'è, ma non la dirò mai neanche sotto tortura.
+
+7:41 - Paolo Passaro
+Ottimo, Benissimo.
+
+7:42 - Carlo Sanvoisin
+Cercherò di leggervi nella mente, allora.
+
+7:45 - Paolo Passaro
+Diciamo che io mi occupo di finanza geografica da una trentina di anni, quindi penso che uno strumento come quello che mi sono fatto l'idea potrebbe diventare, in funzione del lavoro che normalmente uno del mio mestiere fa, possa essere un tool di incredibile valore e ovviamente però va anche sviluppato e credo che noi possiamo essere un pilota molto importante, quindi il messaggio è se tutti quanti investiamo in questa cosa, poi chiaramente non è che un prodotto che ci teniamo noi soltanto, potrebbe essere anche per voi, un test di particolare importanza per poi proporlo sul mercato anche in maniera più ampia. Comunque abbiamo parlato anche con Leonardo, noi siamo interessati a uno sviluppo congiunto, sia quando volete. Si possono aprire dei discorsi secondo me molto importanti.
+
+8:58 - Carlo Sanvoisin
+Ecco l'idea.
+
+8:59 - Paolo Passaro
+Allora, guarda Paolo, non ti nego che le vie sono queste.
+
+9:03 - Carlo Sanvoisin
+No, no, no, lo tengo in considerazione. Infatti, quando mi avete citato questo punto, chiaramente nella mia mente si è subito aperta questa possibilità. Ciao Lidia, piacere. Ovvero che sono due vie, o si fa una soluzione della quale voi acquistate anche la proprietà intellettuale, allora in quel caso chiaramente il costo è più alto però siete sicuri di avere il vantaggio competitivo assoluto oppure eh fra virgolette facciamo tutti quanti un investimento noi cerchiamo di abbattere I costi il più possibile e a quel punto.
+
+9:37 - Lidia Boccanera
+Scusate se interrompo Carlo poco elegante però vedo che c'è Read Dai non so.
+
+9:42 - Carlo Sanvoisin
+Sì sì è il mio è il mio. È il mio è il mio. Beh a me mi fa la registrazione e mi prende gli appunti.
+
+9:51 - Paolo Passaro
+Se se è un Tutto sommato il tenore della discussione non comporta riservatezza particolare.
+
+10:00 - Carlo Sanvoisin
+Comunque sono tutte informazioni che rimangono internamente, non le passerò all'esterno dell'organizzazione. Comunque, perfetto, il punto è chiaro e di fatti immagino avrei fatto una proposta di questo genere. In cui magari noi manteniamo la la proprietà intellettuale della soluzione ma cerchiamo di abbattere il costo a questo punto direi che per eh capire essenzialmente quanto sarà complesso lo strumento direi di passare sui punti operativi quindi come dicevo all'inizio quali sono le fonti e che avete stabilito poi chiaramente io farò un cross check come avete visto anche in questi giorni quando mi è passata una fonte io vado a verificare se va o meno un overlap con altre fonti perché poi spesso io non sono pratico di questo mestiere e sto cominciando a scoprirlo in questo momento però vedo che c'è spesso una sovrapposizione cioè fra tante fonti che mi avete dato magari in realtà una era una fonte secondaria che riprende I dati da un'altra fonte di conseguenza se uno va direttamente alla prima si evita eh di fare più integrazioni tecniche e magari arriva appunto a prendere il dato all'origine che è anche più eh affidabile, più veloce e e prevede appunto una minore complessità tecnica. L'altra grande complessità invece è data dalla parte di Ricerca vera e propria, quindi come anche qui vi avevo anticipato nei poll precedenti, poi Paolo e Lidia li conosco oggi, essenzialmente più siete precisi oggi nel farmi capire che keyword, che soglie, che dati deve utilizzare come parametri questo agente di intelligenza artificiale, più il mio reparto perché a volte quello che capita è magari il cliente inizialmente ha un'idea più eh di alto livello poi nel momento in cui si cominciano gli sviluppi escono fuori eh ulteriori richieste e funzionalità e ci si rende conto magari che la stima di complessità iniziale non era eh quella adeguata.
+
+12:09 - Lidia Boccanera1
+Quindi per questo ho insistito per fare più insomma avviare questo lavoro di analisi in maniera un pochino più corposa sì allora intanto Carlo piacere io sono Lidia e grazie per questo invito a questa a questa gola in merito a questo strumento allora parlo lato mio per quanto riguarda anche se insomma con Paolo facciamo insieme queste cose quanto riguarda le Gare allora che succede che noi c'è la prima suddivisione che mi viene in mente che si può fare in termini di requisiti con proprio I requisiti di partecipazione che quindi vengono divisi fra requisiti finanziari, tecnici mh e di competenze anche se eh immagino che più più siamo restrittivi con I I diciamo con I requisiti più è puntuale lo strumento però in realtà ci deve essere un termine anche di di flessibilità allora banalmente noi possiamo partecipare alle Gare per cui richiesta una capacità finanziaria che è stabile nel senso che non possiamo partecipare a Gare in cui è richiesta una capacità finanziaria più grande di quelli che sono I nostri dati e quindi il nostro bilancio, faccio un esempio. Però non bisogna dimenticare che le Gare si possono fare anche in RT, quindi ad esempio ci sono delle situazioni per cui vengono richiesti anni di esperienza, faccio finta 10 anni di esperienza. Noi non abbiamo 10 anni di esperienza perché la società è più giovane, ma magari non la escluderei una gara di questo tipo, perché magari in RT in caso di avallamento posso prendere questi requisiti da una società partner o da una NRT, senza andare troppo nel tecnico. Quello che si può fare è più la scrematura del tipo di servizi, banalmente noi non facciamo proprio prodotti, facciamo più servizi, quindi intelligenza, assistenza tecnica, strategia, redazione, però anche lì come società noi abbiamo una rosa di, diciamo, di attività e di interventi abbastanza flessibile e malleabile, nel senso che lavorando nella consulenza non è che facciamo una cosa unica come può essere per altre Gare.
+
+14:27 - Oratore non identificato
+Capisco perfettamente.
+
+14:28 - Lidia Boccanera1
+Quindi volendo quello che possiamo fare, poi deciderai tu se va bene, stilare dei requisiti tipo, delle Gare tipo a cui possiamo partecipare però ecco ripeto per alcuni dati è estremamente diciamo rigida la questione per altri invece bisogna comunque ipotizzare un attimo di elasticità.
+
+14:50 - Carlo Sanvoisin
+Allora diciamo che io ero partito da una frase che mi è rimasta in testa di Massimiliano e diceva se io ho cento Gare non voglio doverle guardare tutte cento ma voglio le tre più adatte più coerenti Allora, per poter scendere da 100 a 3 comunque noi dobbiamo dare delle linee guida a questo strumento, quindi possono essere più flessibili, possono essere più stringenti, chiaramente più siamo precisi e meno lavoro manuale ci sarà dopo. È sempre un trade-off, quindi è il trade-off fra riuscire a analizzare magari 100 Gare appunto in un pomeriggio e scendere alle 5 più più papabili e poi andare a guardare solo con le 5 oppure lasciare magari dei parametri più ampi, averne 20 e doverne controllare 20. Questa è essenzialmente una decisione che dovete prendere voi, quindi è un trade off fra quanto lavoro manuale volete fare dopo che lo strumento ha fatto la sua parte essenzialmente. Quindi dal punto di vista tecnico, in realtà se voi mi date meno parametri, tra virgolette c'è meno sviluppo da fare e chiaramente però lo strumento arriva solo fino a un certo punto e poi dovete fare appunto tutto questo lavoro di revisione, di affinamento. Quindi è proprio una decisione di business, guidatemi voi in maniera tale che poi io posso dare un'indicazione chiara ai tecnici e loro possono tornare da me dicendomi ok, complessità 1, 2, 3, di conseguenza ci dovrò lavorare una settimana, un mese o tre. Non so se già avete provato a razionalizzare diciamo questo discorso facendo tirando giù delle parole chiave dei parametri economici come quelli che mi citavi se sapete per esempio ecco un altro punto è che io ad oggi non conosco bene come sono formattati proprio I dati di queste Gare di questi bandi c'è una volta che accediamo effettivamente all'API di queste fonti con le quali intendiamo appunto la chiave, lo strumento attraverso il quale io in maniera automatica posso raccogliere tutti quanti I dati che sono su questi database. Non so effettivamente proprio qual è la struttura di una gara e non avendo appunto mai lavorato in questo ambito non ho idea di che tipologia di dato mi ritrovo di fronte. Se già mi aiutate a navigare in questo mondo che non conosco un minimo, riusciamo a avere un'idea di complessità. Scusate che siamo stati poco trasparenti io e Paolo ci siamo scambiati delle insomma io ho mandato una cosa, lui aveva messo le sue note in cui aveva già iniziato a elencare appunto come poteva cioè lui se posso tipo spingermi per Paolo si era messo nei suoi panni dicendo si metto a cercare cosa quali sono I parametri che cercherei diciamo esatto esatto se posso dire una cosa che non so se sia corretto o meno io immagino anche che a seconda eh che si tratti di una gara o di un bando saranno magari dei parametri differenti e anche a seconda che si tratti di ehm diciamo un elemento di natura nazionale o internazionale o mondiale anche là magari ci sono eh degli elementi diversi quindi se immaginate proprio dal punto di vista tecnico eh lavorando un pochino a di questi sviluppi potrei avere un agente che è in grado di guardare le Gare, un altro che è in grado di guardare I bandi e hanno poi delle personalizzazioni magari sulla base che si tratta appunto di una gara nazionale, internazionale via dicendo. Questo a livello proprio strutturale ma non so se sto dicendo una cosa vera o meno.
+
+19:18 - Paolo Passaro
+Voi vedete quello che sto proiettando?
+
+19:20 - Oratore non identificato
+Sì.
+
+19:21 - Paolo Passaro
+questi sono I parametri per quanto riguarda il 90% della mia attività relativamente alla Ricerca di soprattutto bandi per conto di clienti, di potenziali clienti, di imprese che vogliono investire, quindi questa è la tipologia che normalmente mi capita. Io ho fatto una serie di filtri una serie di filtri o non so come chiamarli, essendo quello sostanzialmente un vettore, quello che dovrebbe essere all'interno per trovare I dati che ci servono. Normalmente quello che a noi serve capire è se ci sono dei bandi a livello sia europeo, sia nazionale, regionale o anche locale e a se di attività, quindi potrebbe essere industria, turismo, commercio, trasformazione di prodotti agricoli o altri sotto categorie, se il bando può essere aperto a tutte, piccole, medie e grandi imprese oppure soltanto a una delle categorie, se vi sono sogli minimi di accesso, per esempio un bando riservato a imprese che vogliano fare Ricerca e sviluppo dove la soglia di accesso è 5 milioni non posso accedere a questo bando se non ho un investimento da 5 milioni in su, quindi se inoltre, questo è molto importante, sapere se il bando ha una data di apertura e una di chiusura, oppure ha sportello, cioè è sempre aperto, salvo che le risorse si esauriscano, vorrebbe permettere una Ricerca per codice etico, oltre che per categoria o tipologie di attività, perché magari ci sono dei bandi che sono riservati soltanto all'impresa del settore meccanico che fanno bulloni, faccio per dire, con un certo codice apeco e poi eventualmente la Ricerca per ente che emanano, per esempio in Italia è un'agenzia che principalmente propone bandi riservate alle aziende, così come il Mimit o il Ministero del Turismo, oppure ci possono essere delle che sono particolarmente attive, come la Regione Puglia, la Regione Lazio etc., quindi queste sono le variabili principali, un po' a matrice che si devono intersecare, per cui se io interloquisco con una società del settore meccanico della provincia di Berlino, fare un investimento di 10 milioni teoricamente in tutta Italia, l'ideale per me sarebbe poter inserire questi dati parametrici, industria meccanica perché c'è una sorta di categoria, grandi, medio grandi imprese perché piccolo non mi interessa, soglia minima sì o no, oppure e poi per tipologia di intemittente, che sono tutti. Da questa mia licenza dovrebbero uscire uno, due, tre, zero bandi che al momento sono aperti. Uno dei parametri fondamentali deve essere aperto o perché molto spesso nei siti di queste società, che possono essere in Italia, ci sono tutti I bandi aperti e chiusi e quindi per non rischiare di prenderli un po' mischiati deve essere possibile individuare solo quelli aperti.
+
+23:18 - Carlo Sanvoisin
+Ottimo, quindi questo potrebbe essere l'ottavo parametro, fra virgolette?
+
+23:23 - Oratore non identificato
+Sì, lo sto pensando adesso.
+
+23:25 - Carlo Sanvoisin
+Ottimo, innanzitutto grazie per aver fatto questo lavoro perché perché eh già è molto più chiaro proprio il modo in cui voi fate la Ricerca quindi a questo punto eh diversamente dall'idea che avevo in testa perché io inizialmente avevo capito che voi aveste fra virgolette dei parametri fissi che applicate ogni volta perché sapete per esempio che sotto quella soglia o sopra quella soglia non guardate proprio il bando invece da quello che mi dici te è molto più eh flessibile la Ricerca e cambia di caso in caso mh a seconda appunto delle esigenze che avete in quel momento. Quindi eh assolutamente fattibilissimo diventano come dici te eh più che più che dei parametri fissi dei veri e propri filtri dinamici che ti permettono a sulla base della tipologia di Ricerca che stai facendo eh di andare a ottenere solamente risultati eh pertinenti quindi mh quello che noi dovremmo fare adesso eh una volta che mi hai passato quella lista è fra virgolette che sono presenti nelle fonti di riferimento quelle che abbiamo identificato per ora ma adesso ci facciamo ripasso per essere sicuri che eh il perimetro insomma è ben definito e a quel punto lo strumento dovrebbe eh Ricerca per Ricerca andare a filtrare e darvi solamente il risultato finale con eh quelle mh quegli elementi che rispettano I filtri che sono stati impostati e questi filtri non saranno dei filtri fissi ma saranno essenzialmente come dialogare con un assistente a questo punto me lo immagino cioè l'assistente gli dice buongiorno oggi che Gare vogliamo guardare, che bandi vogliamo guardare e gli risponde guarda oggi vorremmo vedere quelli aperti eh di natura internazionale eh sopra questa soglia per eh medie imprese e a quel punto lui procede con la Ricerca chiaramente eh un punto fondamentale è che eh dobbiamo verificare che I dati che sono messi a disposizione perché come questo framework che tu mi hai fatto vedere, questa matrice, se sì ehm allora vediamo anche poi quant'è appunto proprio la complessità tecnica riguardate su tutte queste fonti e da qui la seconda domanda ehm ogni volta dovete guardare su tutte le fonti perché chiaramente c'è un consumo eh fra virgolette di energia computazionale mettiamola così eh se devo guardare su mille fonti o se ne devo guardare cento se lo devo guardare tutti I giorni o se lo devo guardare una volta a settimana quindi su questo è come se un pochino mi doveste descrivere il vostro metodo di lavoro attuale che fate in in maniera tale che io lo posso reimmaginare come sarebbe fatto dalla macchina. Quindi su questo guidatemi anche un po' voi. Voi normalmente come fate? Guardate tutte le fonti? Con che frequenza? Come applicate questi filtri, fra virgolette?
+
+26:32 - Paolo Passaro
+Parlo per quanto riguarda la finanza cevolata, poi il discorso di Libia è un po' più complesso per le Gare che riguardano anche altre specie. Per quanto riguarda in effetti normalmente si parte dopo aver fatto un'intervista al cliente, al potenziale investitore e quindi di solito è abbastanza già delineato se l'investimento deve essere fatto nella zona dove l'azienda insiste oppure anche in altre zone e a quel punto si apre la Ricerca. Per cui nel 60-70% dei casi io farò la Ricerca già sapendo, per esempio, che voglio solo tutto quello che concerne a livello nazionale e non per singola regione, perché chiaramente l'azienda di Lombarda, media o grande, non ha intenzione di mezzogiorno, quindi praticamente non voglio guardare I bandi di tutte le regioni a mezzogiorno, però mi guardo quelli della regione Lombardia e quelli nazionali e magari europei. Se invece il potenziale cliente è un'azienda pugliese, chiaramente mi interessa moltissimo vedere il sito della regione Puglia e della regione Campania, perché sono ribitrofe, e magari anche un'apertura sul nazionale, ma potrebbe essere non necessaria, o comunque frutto di un'altra interrogazione. Se la complessità computazionale è, immagino, una linea esponenziale maggiore se metto più variabili, se voglio che vada a vedere per il nazionale, per il regionale, per l'europeo Magari la metodologia potrebbe essere, prima mi guardo nella regione Lombardia e magari faccio un'apertura sul nazionale, quindi anche in due interrogazioni diverse, così che vada a fare due differenti tipi di interrogazioni, oppure faccio un'apertura, allora vanni anche a vedere cosa c'è in Puglia, perché magari potrei proporre all'azienda che ci sono condizioni così vantaggiose che vale la pena riprendere in considerazione anche in una regione non strettamente limitrofa a dove insiste il suo stabilimento attuale, la sua sede attuale.
+
+29:27 - Carlo Sanvoisin
+Quindi questo è un po' il discorso.
+
+29:31 - Carlo Sanvoisin
+ehm a parte appunto di girarmi quella lista magari mi aggiunge pure quell'ottavo punto che avevamo citato ehm se ti posso chiedere un esempio la lista fantastico grazie ehm se ti posso chiedere un paio di esempi di brief chiamiamoli così eh che che vi arrivano dal cliente o comunque che redigete insieme al cliente per far quindi eh già possiamo operare un primo test cioè se tu mi dici guarda che eh questo è un esempio di brief eh che contiene eh quelli che sono I filtri, I parametri iniziali per operare eh una Ricerca che normalmente io farei in maniera manuale su queste fonti e io provo a riproporre questo stesso procedimento ehm appunto all'intelligenza artificiale e già magari si comporta quindi questo già calarlo appunto nel caso pratico per noi è molto importante appunto per verificare sia la fattibilità che appunto il consumo anche come dicevamo di forza computazionale e andare appunto ad avere un'idea ancora più chiara di come si può comportare. Guarda se ci vuoi pensare che mi vuoi mandare due tre esempi sarebbe ottimo se mi li vuoi dire adesso, li possiamo anche scrivere ora?
+
+31:00 - Paolo Passaro
+No, no, te li mando se vuoi. Ok. Diciamo che ti mando tre esempi su tre settori diversi. Fantastico, perfetto. Tipicamente, azienda che si occupa di turismo, quindi alberghiera per esempio, e che vuole fare un certo tipo di investimento nella sua regione e in altre. Secondo esempio, azienda del settore industria e un'altra di azienda per esempio nel settore dei servizi così compriamo un po' più o meno quasi tutto il range. Poi se ne viene ancora un quarto esempio, vi faccio anche un quarto esempio. Più me ne mandi meglio è, chiaramente. Per esempio per la Ricerca e sviluppo, I progetti di Ricerca e sviluppo mi sono particolarmente appetiti ultimamente.
+
+31:47 - Carlo Sanvoisin
+Io a questo punto vi faccio una domanda. Ad oggi quanto tempo ti prende fare una Ricerca di questo genere e come la conduci, cioè tu già sai su che fonti devi guardare quando ti arriva un brief di questo tipo e quando cominci una Ricerca. Io non conosco bene queste piattaforme, quindi come funziona? Tu entri dentro e uno ad uno guardi tutta quanta la documentazione delle Gare che sono presenti, una volta che magari hai Dipende molto anche da come sono organizzati I siti di Ricerca.
+
+32:29 - Paolo Passaro
+Faccio tre esempi. A livello nazionale, una delle agenzie più importanti che emette continuamente bandi è Invitalia. Il sito Invitalia è organizzato per tematiche, anzi per tipo di misure, le misure sono praticamente la tipologia di bando e quindi se sono alle prese con un cliente del settore industria che vorrebbe fare un investimento posso andare, siccome ho già molte esperienze vado direttamente nella misura che so che possa essere utile per quel cliente, così che ha per esempio il contratto di sviluppo. Il contratto di sviluppo però ha una soglia di ingresso molto alta, sono 20 milioni, quindi chiaramente io avevo fatto già una parese lezione, quindi non ci vado neanche nel sito di Invitalia, nella sezione contratto di sviluppo, se l'investimento che il cliente vuole fare di 5 milioni, ovviamente non ha senso, però se superato il primo parametro di filtro, cioè il cliente è un'industria, vuole fare un investimento di 22 milioni potenzialmente, io vado direttamente sui siti in Italia, vado al sezione contratto di sviluppo e cerco di capire, diciamo che quella è una misura però che è stabile, è aperta sempre fino a quando ci sono I fondi e quindi poi si tratta solo di capire, per esempio, se a livello di area l'azienda che io candidata rientra nelle aree più o meno agevolate, ci sono alcune che hanno delle percentuali minori e altre delle percentuali maggiori, quindi è un tipo di più raffinata, già si sono superate due o tre filtri, mentre invece se si tratta per esempio di siti di regioni, la regione Puglia per esempio ha creato un sito dedicato, si chiama Puglia semplice, dove ci sono tutte le misure via via che la regione però per esempio sono ben divise tra quelle aperte e quelle chiuse, quindi diventa più facile andare a vedere subito quelle che sono aperte, e poi sono divise per tipologia, con gusto, turismo, commercio. Quindi diciamo che la mia attività attuale, sulla base dell'esperienza e sulla base dell'intervista che ho fatto con il potenziale cliente, è quella di andare a cercare la fonte che io so possa essere quella più adatta. Quindi vado già abbastanza mirato. Ci sono però dei casi dove per esempio può succedere che abbiamo un'industria turistica che ha sede a Roma, ma ha anche una sede a Giro Toscana e che vuole sapere tutto quello che può offrire Giro Toscana a livello di turismo e allora io, avendo sostanza di frequentazione di quel sito, allora vado nel sito regione toscana e comincio a scorrere e allora per esempio capita che il sito ne viene organizzato, allora vengo a scorrere tutti I bandi, comincio a vedere quali sono I turismi, quali non sono I turismi, se ci sono le prerogative utili e necessarie e quindi fare un'azione del tipo.
+
+36:23 - Carlo Sanvoisin
+Quindi la gente mi faciliterà molto la vita, nel momento cui lo scateno e quindi lui si spazzola tutto il sito sulla base dei filtri che gli ho dato e va a prendere solo le iniziative di turismo, solo quelle aperte e mi toglie un'ora di lavoro nel fare la disamina di tutto quello che c'è sul sito di finanziamento quindi diciamo che io mi porto a casa che essenzialmente a seconda di quanto il sito è stato ben costruito e già ti permette di operare dei primi filtri da questo dipende poi effettivamente il tempo e il lavoro manuale che dovrei fare nel guardare, spulciare, aprire documentazione ed è anche molto interessante che in realtà prima ancora di cominciare la Ricerca per via della la tua esperienza già sai quali sono in linea di massima le fonti da guardare perché questo potrebbe essere un primo passaggio che facciamo poi fare appunto all'intelligenza artificiale. Quindi sicuramente mi è più chiara a questo punto la situazione. Io direi che ci rimangono diciamo due punti. Uno è andare a confermare queste fonti in maniera tale che abbiamo proprio una lista completa e poi non so se l'idea si è staccata non so se I I processi che segue l'idea sono appunto molto diversi dai tuoi oppure posso tenere questi di cui tu mi hai parlato come il riferimento sì no guarda ti dicevo l'idea mi ha scritto perché stava insomma stata al cliente quindi ha dovuta si è dovuta staccare comunque ha detto che poi quando prima che Paolo ti manda le poi aggiungere al suo contributo.
+
+38:22 - Delbufalo
+Io credo che però più o meno, dillo tu Paolo, ma penso ci siano grosse differenze, non so se lei cerchi… Paolo sei in muto.
+
+38:37 - Paolo Passaro
+Scusate, credo che rispetto al tipo di Ricerca che ho descritto, quella di Lidia sia più orientata alla Ricerca per esempio di bandi relativi all'internazionalizzazione e bandi gestiti a livello europeo. Ce ne sono alcuni che hanno una denominazione, per esempio Interreg, sono dei bandi che l'Unione Europea bandisce per rimanere in determinate regioni di confine che ci sia una cooperazione tra soggetti di diverse nazioni. Noi ne abbiamo fatto uno che è stato giudicato, probabilmente, che riguarda il Piemonte al confine con la Francia e quindi il Banco ha visto partecipare FuturItaly insieme all'Università di Torino e degli altri partner che italiani per delle operazioni di disseminazione di conoscenze, se ho capito bene, comunque di sviluppo del territorio che sta al confine tra Piemonte e Francia e che magari, essendo montuoso, necessita di uno sforzo ulteriore per far arrivare eventuali investitori, piuttosto che disseminare conoscenze Di quel tipo di bandi ci possono essere molti altri in altre parti dell'Unione Europea, per esempio al confine tra Italia e Slovenia, che è dall'altra parte, piuttosto che come confine virtuale tra l'Italia, la Grecia e l'Albania, l'Italia, la Grecia e Turchia. E quindi, da quello che ho visto, tendenzialmente lei fa una disamina di questi possibili, potenzialmente utili band a cui partecipare come interreghe, che tra l'altro, essendo una procedura complessa, una volta individuato, ha poi tutto un lavoro successivo anche di individuazione di quelli che possono essere partner che è fondamentale per poter partecipare. Mi sembra che quel tipo di iniziativa europea preveda spesso l'indicazione di soggetti che si sono candidati e con I quali si può costruire il team che poi va a concorrere. E quindi anche quella fase di Ricerca potrebbe essere facilitata perché nelle liste ci potrebbero essere dei requisiti che la futurità li ritiene premianti rispetto ad altri. Faccio per voi.
+
+41:49 - Carlo Sanvoisin
+Guarda, sulla base di quello che tu mi hai detto, io vi proporrei il seguente lavoro, poi ditemi voi se siete d'accordo. Tu hai estilato già una prima lista che mi avete mandato. E eh questa lista magari l'andate a discutere anche con Lidia eh la integrate con eventuali altri parametri che lei utilizza per le sue ricerche e magari mi fate una una piccola distinzione del tipo questi sono I parametri che utilizziamo noi questi invece sono I parametri aggiuntivi magari che utilizza anche Lidia una volta che siete eh all'interno del vostro team tutti quanti iniziali, quelli li abbiamo essenzialmente fissati e questo lavoro di mandarmi invece dei brief esempio magari me ne mandi appunto tre te e tre Lidia in maniera tale che io ho proprio una situazione eh complessiva in testa su come operate le vostre ricerche, da dove partite e sarebbe bello anche sapere dove volete arrivare. Quindi se ti posso chiedere questo piccolo passo in più ovvero ehm oltre quindi non so se questo è possibile da da formalizzare tre risultati questo perché lo vorrei confrontare poi con eh quanti risultati riporta la I perché magari voi mi dite io da una Ricerca del genere se la faccio in questo modo sulla base di questo brief ottengo tre risultati poi magari lo faccio fare all'intelligenza artificiale e comunque me ne trovo a cinquanta quindi magari c'è un un forte discostamento quindi anche questo mi serve anche per capire l'accuratezza mh detto che eh se voi mi mi scrivete bene il brief e mi scrivete bene il passaggi operativi che seguite per sviluppare quel brief e trovare appunto I risultati pertinenti io mi aspetto che ci sia una buona accuratezza quindi mi aspetto che poi il numero di risultati che escono fuori da questa selezione sia simile a quello che ottenete voi con il lavoro manuale ditemi se è chiaro perché questo sarebbe diciamo avere questo quadro sarebbe fondamentale quindi giusto per ricapitolare quello specchietto che mi avete fatto integrato con Lidia che sono tutti quanti I parametri di alto livello più degli esempi pratici di brief eh con step che seguireste per operare su questo brief e un risultato atteso ditemi voi se per voi va bene e avendo questo elemento qui più la lista di fonti che magari adesso come ultimo punto lo lo vediamo insieme eh ho veramente tutti gli elementi per fare una quotazione per me è molto importante perché come vi ho anticipato prima spesso per correre in questi progetti si fa una quotazione perché si vuole prendere assolutamente il Progetto ma io non sono di questa scuola, io preferisco avere tutto quanto eh il dettaglio tecnico prima di fare una quotazione in maniera tale che eh poi è effettivamente per cui trasferire anche a Lidia, per quello che magari non ha accolto, questi suggerimenti che mi sembrano assolutamente appropriati e ti faccio gli esempi.
+
+45:31 - Paolo Passaro
+Aggiungo a quello che ho già scritto, oltre alla parte di Lidia, questi esempi. Magari riesco a metterli anche in maniera matriciale, che magari a voi piace.
+
+45:44 - Carlo Sanvoisin
+Io in realtà non sono un tecnico, però sì, sicuramente saranno contenti quelli del team di sviluppo, che già gli diamo un qualcosa che è un po' più in forma analitica. Ok, allora diciamo che su questo punto di come operare la Ricerca mi sembra che l'abbiamo snocciolato bene e che abbiamo dei prossimi passi chiari. Vi direi, prima di chiudere, se vi siete rifatti la lista delle fonti anche sulla base degli scambi email che abbiamo avuto negli ultimi giorni, o se essenzialmente le fonti che voi mi avete comunicato fino a questo momento rimangono tali e sono quelle.
+
+46:24 - Delbufalo
+Non lo so, non ho visto forse l'ultimissima versione, Leonardo, ma rispetto a tutte… No, non ho visto l'ultimissima versione, semplicemente da quel documento che aveva mandato Carlo all'inizio, le avevamo dato la prima, quella lista che era venuta da Lidia, e poi anche quella tua, come si chiamava il portale che accentra tutto il discorso degli incentivi. Carlo ha risposto puntualmente su ognuna e io direi che quelle da aggiungere a quelle iniziali, ovviamente salvo sovrapposizioni e garantendo la copertura, l'idea è questa.
+
+47:04 - Paolo Passaro
+Per il mio scrupolo aggiungo tutti I siti che normalmente io vado a cercare, magari Paolo. Con il diritto per esempio. Meglio essere scrupolosi. Meglio essere scrupolosi. Italia Punti T. Regione Puglia Punti T e così via.
+
+47:23 - Delbufalo
+Allora. E sì. E magari sono ridondanti però magari.
+
+47:27 - Carlo Sanvoisin
+Dieci, quindici che normalmente vado sempre a guarda Paolo detto in due parole il punto è un po' questo. Da quello che ho visto dalle mie analisi preliminari solitamente esistono delle fonti eh ehm diciamo eh che hanno tutte quante le informazioni e poi dei siti che sono essenzialmente degli aggregatori che raccolgono da queste fonti ehm e voi normalmente per proprio una facilità eh d'uso andate più che altro sugli aggregatori però l'aggregatore io non posso accedere a livello tecnico in maniera legale tra virgolette a queste informazioni io posso accedere alla alla fonte quindi normalmente quello che succede è in realtà si può saltare direttamente l'aggregatore, si può andare sulla fonte che normalmente quelle che ho individuato fino adesso sono ANAC per il contesto italiano, TED, World Bank e poi incentivi.gov per la finanza agevolata e gli EU Funding e il Tender Portal che sono quelli che mi sono state menzionate fino a questo momento. Con queste fonti attualmente copriamo anche tutti gli aggregatori che mi avete citato perché di fatti gli aggregatori non fanno altro che prendere eh da queste fonti le informazioni e ristrutturarle, ripubblicarle, condividerle. Quindi ehm assolutamente segnalami anche tutto quello che ti viene in mente e io dalle mie ricerche posso capire se è utile attaccarsi anche a quell'ulteriore magari portale sito cittadino o se quel portale sito di fatti sta solamente riteritando delle informazioni che vengono magari da appunto incentivi punto gov o da Ana che via dicendo. Quindi assolutamente ci lasciamo così che mi rimandate lo specchietto aggiornato anche con l'integrazione di Lidia, gli esempi con il modo in cui ci avreste lavorato e se riuscite dei risultati attesi anche di alto con le quali io farò il check se vanno in overlap o meno ultimissimo punto e poi vi lascio vi ho mandato anche la procedura ANAC che è la procedura di accreditamento mh ovvero di tutte le fonti che abbiamo visto fino a questo momento per legge tutte sono obbligate a eh questa procedura dell'open data quindi fornire I dati però chiaramente in Italia siccome dobbiamo sempre complicare le cose eh l'ANAC eh è l'unica per la quale c'è un quindi c'è un processo eh amministrativo che va messo in piedi per poter accedere a questi dati. Questo processo amministrativo deve essere fatto dal vostro legale rappresentante che deve essere dotato di speed di eh di delega insomma ad operare ehm insomma in veste di rappresentante della società ehm e ci sono una serie di passaggi che devono essere fatti essenzialmente. Può prendere ehm all'incirca dalle tre eh appena insomma ci siamo messi d'accordo di cominciarlo subito però magari nel mentre ehm dategli un'occhiata. Cioè vedete un attimo di di che si tratta. Io comunque vi ho mandato quel quel piccolo manuale che spiega passo per passo quali sono le operazioni da fare per superare questo scoglio burocratico e poi di fatti eh se non mi ricordo male dal terzo passaggio in poi la pratica la prendiamo in mano noi nel senso che una volta che si sono fatte le prime ehm però siccome non non parte proprio la procedura eh senza ehm appunto il supporto di un vostro legale rappresentante vi consiglierei comunque di darci un'occhiata.
+
+51:14 - Paolo Passaro
+Quindi volevo solo evidenziare questo punto.
+
+51:18 - Delbufalo
+Benissimo per me.
+
+51:21 - Delbufalo
+Grazie. Ok. Perfetto. Allora per riassumere a fattor comune e poi ti mandiamo queste cose e poi andiamo avanti. Paolo, vediamo anche noi internamente come gestire questa cosa delle Gare rappresentanti, io adesso non so bene com'è la… insomma chiediamo un attimo internamente.
+
+51:43 - Paolo Passaro
+Sicuramente dobbiamo coordinarci con Giulio che è la segretaria di direzione, vediamo se gli strumenti si sono già a suo portato.
+
+51:53 - Delbufalo
+e sono questioni di farli fare.
+
+51:55 - Oratore non identificato
+Perfetto.
+
+51:56 - Carlo Sanvoisin
+Considerate che per email trovate la procedura che essenzialmente ho fatto una Ricerca online, ho visto quali erano I passaggi, ho cercato di riassumerli e trascriverveli. Ok. Quindi per darvi una guida. A questo punto direi che ci siamo detti tutto, a meno che non avete delle domande specifiche, una volta che io ricevo queste ulteriori informazioni dato vostro, le passo in sviluppo. Magari ditemi voi se vogliamo fare un piccolo allineamento interno quando ho gli elementi per fare una quotazione, una presentazione, o se preferite che vi mando direttamente la presentazione fatta con il materiale. Tu che dici Leonardo?
+
+52:37 - Oratore non identificato
+Allora, l'altro incontro lo farei?
+
+52:39 - Paolo Passaro
+Sì, sì, sì, infatti. Quello che puoi fare, quello che stavo per suggerire, è proprio la stessa cosa.
+
+52:46 - Delbufalo
+Nel senso, quando ce l'hai, ce la puoi e poi ci vediamo per parlarne. Perfetto. Ogni tanto ce la vediamo, ci facciamo I nostri ragionamenti e così facciamo l'incontro.
+
+52:59 - Carlo Sanvoisin
+Facciamo un passaggio strategico interno prima di esporla.
+
+53:02 - Delbufalo
+Esatto, così vediamo le nostre cose e almeno facciamo un incontro in cui, insomma.
+
+53:08 - Paolo Passaro
+Se non ci mandi sto paragrafale uno lo apre.
+
+53:12 - Carlo Sanvoisin
+Esatto, esatto. Comunque vi ringrazio sia insomma per la precisione come con cui mi date le informazioni ma anche perché si tratta di un Progetto veramente molto interessante. Come dicevamo inizio call trovo che sia un ottimo acceleratore per la vostra società ma in generale oggi che abbiamo eh l'ausilio di questa tecnologia è sicuramente un caso d'uso di valore cioè rispetto a tante richieste che ci arrivano che magari sono ehm di minor valore mettiamola così per non utilizzare altri termini questa è sicuramente una soluzione che può essere veramente utile nel mercato. Quindi grazie a tutti. Grazie davvero per il tempo. Grazie. Figuratevi, grazie a voi.
+
+53:57 - Delbufalo
+A presto, ciao.
+
+53:59 - Delbufalo
+Qualsiasi cosa ci sentiamo.
+
+54:01 - Delbufalo
+Ottimo.
+
+54:02 - Oratore non identificato
+Grazie, ciao.

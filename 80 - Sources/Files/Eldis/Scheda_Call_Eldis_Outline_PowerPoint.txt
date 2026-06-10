@@ -1,0 +1,44 @@
+Scheda Operativa – Call Commerciali Eldis
+    Portale & Autonomia Operativa
+        Evidenze:
+            I mobilieri fanno fatica a usare il portale in autonomia.
+            Preferiscono contattare il commerciale per inserire ordini e capire le promo.
+        Domande guida:
+            Cosa impedisce davvero l’uso autonomo del portale?
+            Se aveste un mini‑tool "simulatore promo" da mostrare in negozio, lo usereste?
+            Un recap digitale delle promo per brand sarebbe utile per voi?
+
+    Complessità del Catalogo Promozionale
+        Evidenze:
+            Le promo sono frammentate e diverse per ogni marchio.
+            Serve sempre il supporto del commerciale per interpretarle.
+        Domande guida:
+            Card promozionali già pronte per ogni brand: le usereste?
+            Ha senso creare pacchetti promo predefiniti per 3‑4 profili tipici di mobiliere?
+            Il Kitchen Specialist è coinvolto abbastanza nel chiarire le promo?
+
+    Pain Point nel Post‑Vendita
+        Evidenze:
+            I commerciali gestiscono i reclami per conto dei mobilieri.
+            Il flusso ufficiale di assistenza è percepito lento o complesso.
+        Domande guida:
+            Quali reclami gestite più spesso? Un sistema ticket vi aiuterebbe?
+            I mobilieri conoscono i canali ufficiali di assistenza?
+            Bot WhatsApp o form rapido per assistenza: lo usereste?
+
+    Formazione e Micro‑Learning
+        Evidenze:
+            La formazione è poco strutturata e occasionale.
+            I contenuti tecnici dei prodotti sono trasmessi solo dal commerciale o Kitchen Specialist.
+        Domande guida:
+            Usereste brevi video (2 min) per spiegare promo/prodotti?
+            Vi sarebbe utile un QR sulle promo stampate che rimanda al video?
+            Quali clienti sono più recettivi alla formazione?
+
+    KPI & Feedback sulle Promo
+        Evidenze:
+            Il successo delle promo è valutato a sentimento o con email di conferma ordine.
+        Domande guida:
+            Come potremmo raccogliere un feedback automatico su ogni promo?
+            Dashboard con pacchetti più venduti tra colleghi: la vorreste?
+            Avete mai ricevuto feedback dai mobilieri su promo inefficaci?

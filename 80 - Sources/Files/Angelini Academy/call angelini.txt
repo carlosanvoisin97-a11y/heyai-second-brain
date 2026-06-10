@@ -1,0 +1,733 @@
+Speaker 0:
+
+Restava da capire con voi se effettivamente la vostra expertise su la gestione di alcuni aspetti che per noi saranno rilevanti tipo quello che ci siamo detti, aspetti sulla ricerca oppure di finanziamento, eccetera, eccetera, possa essere un valore aggiunto e quindi coinvolgervi in qualche modo, capiremo come, nella definizione del progetto che poi sarà di ristrutturazione, non tanto di restyling come ci dicevamo, che noi dobbiamo procedere velocemente e aggiornare qualche piccola cosa, almeno per essere coerenti rispetto a grande battaglia di comunicazione che stiamo facendo in questo momento di lancio. Quindi sì, correttissimo,
+
+Speaker 1:
+
+io vi ho mandato il brifio,
+
+Speaker 0:
+
+che vi
+
+Speaker 1:
+
+ho detto, il materiale
+
+Speaker 0:
+
+di cara, sì sì, ok.
+
+Speaker 1:
+
+Dalia L'Ambiccante Okay, quindi noi, adesso lascio la parola ai colleghi, ci faremo una serie di domande diciamo riguardo a questo aspetto. Allora Carlo non so se Daniele, Michele, chi vuole iniziare, ma immagino Carlo e Michele e poi Daniele armonizza.
+
+Speaker 2:
+
+Fantastico e no innanzitutto diciamo il primo dubbio che mi viene proprio su questo fatto del restyling ovvero ne stavamo discutendo prima siccome abbiamo visto che comunque c'è una strategia di comunicazione molto ambiziosa con un posizionamento che lo è altrettanto e diciamo che quello che ci immaginavamo sarebbe stato appunto un rifare from scratch il sito piuttosto che appunto andare a sistemarlo però appunto non avevo preso in considerazione questo tema della velocità e della necessità appunto di essere...
+
+Speaker 0:
+
+Io ho detto, forse non mi sono spiegata bene, noi siccome abbiamo necessità di riflettere ancora un attimo su che struttura dargli ok però allo stesso tempo abbiamo un'urgenza di essere coerenti con il sito perché siamo proprio in fase di hype di comunicazione ok? Quindi ho semplicemente detto che in urgenza quindi probabilmente entro il mese di giugno andremo a fare dei piccoli aggiustamenti e poi faremo il progetto di ristrutturazione.
+
+Speaker 2:
+
+Ok ottimo perdonami questa colpa mia che come vedi non sono neanche in video perché ho dei problemi di connessione oggi, quindi ho perso il passaggio
+
+Speaker 3:
+
+No no, però
+
+Speaker 0:
+
+c'è quello, l'idea è quella, solo che per essere più realisti del re io domani devo essere giornata
+
+Speaker 2:
+
+e dobbiamo avere
+
+Speaker 0:
+
+il tempo per fare il progetto come si deve, eventualmente ripeto anche sfruttando la vostra expertise se avete un progetto, cioè qualcosa di interessante e valido e quindi ci stiamo prendendo un po' il tempo anche per sentire voi come dire no ecco. Ok perfetto.
+
+Speaker 2:
+
+Assolutamente e guarda io non vedo appunto assolutamente problemi in Enel appunto fare un restyling veloce che possa rappresentare il vostro posizionamento e poi nel futuro andare a implementare una roadmap che preveda una ristrutturazione completa. Su questo con Michale ci siamo un po' confrontati e abbiamo visto che ci sono sicuramente dei punti fondamentali che andrebbero affrontati per capire quella che è la complessità e stimare un pochino la complessità di progetto e poi sicuramente ci sono dei punti anche un pochino più di dettaglio che poi capiamo se abbiamo tempo e modo di vedere oggi quindi Miki se vuoi insomma condividere con noi quelli che erano sicuramente I punti fondamentali un po' per capire qual è la complessità della richiesta e poi capiamo un attimo come vedere anche quelli un pochino più
+
+Speaker 4:
+
+di dettaglio. Assolutamente, allora ovviamente non so quanto tempo abbiamo in disposizione, quindi volendo adesso possiamo sviscerare quelli che sono appunto I punti fondamentali, poi eventualmente vi possiamo mandare un documento con tutti I dettagli però I punti bloccanti per noi sono principalmente 5 e il primo l'abbiamo chiarito rispetto appunto al fatto di avere un sito nuovo, semplicemente aggiornarlo. Un punto per noi molto importante è il prevedere. Quali sono tutti I sistemi che vanno integrati in modo che possiamo farci un'idea della complessità del lavoro
+
+Speaker 0:
+
+mi intendi scusate io premisso che non sono una tecnica nel senso se cercate risposte tecniche mi mandate una maila io faccio mi appello a qualcun altro
+
+Speaker 2:
+
+il for word il classico for word penso in questo caso Michele stia cercando di determinare.
+
+Speaker 0:
+
+Si, è esatto, è una cosa alla mia portata.
+
+Speaker 2:
+
+No, ma guarda concettualmente penso di sì. Secondo me Michele quello che intendeva è semplicemente se in una fase iniziale già prevedete di integrare una parte di e-commerce che prevede quindi la possibilità di fare dei pagamenti tramite il vostro sito oppure se questa è una fase 2 oppure se la parte di e-commerce rimane un qualcosa di separato che magari però si deve parlare con il sito in termini di dati per esempio che I 2 devono essere...
+
+Speaker 0:
+
+Allora io vi dico sinceramente che per il 2026, diamoci un attimo un alcotemporale, no? Certo. Non è prevista l'e-commerce, ok? Sicuramente se prima la 26 l'e-commerce non è prevista, però visto che è possibile che ci sia poi un'apertura successiva, La nostra idea era quello di configurarla ma diciamo oscurarla per il primo momento di lancio in modo tale che Nella fase in cui poi accenderemo anche questa chiave ok Avremo già la struttura predisposta per senza dover rimettere di nuovo le mani alla struttura del sito. Ottimo.
+
+Datemi anche un feedback voi perché ripeto io non sono un'addetta di lavori.
+
+Speaker 2:
+
+No è giustissimo il ragionamento.
+
+Speaker 0:
+
+Esatto. È giustissimo. Basta che appunto I pochi discernimenti che ho
+
+Speaker 2:
+
+sulle 2 metode. Allora ci sono 2 metodi essenzialmente. O noi partiamo con un sito che non prevede fra virgolette il crm all'interno del sito e scusatemi anche un gateway di pagamento quindi essenzialmente un e-commerce e questo ci dà una possibilità magari maggiore dal punto di vista di design perché solitamente quando tu devi fare un sito che prevede anche gateway di pagamento o si va su una soluzione molto custom che ti dà massima flessibilità chiaramente anche più complesso oppure magari 6 un pochino più limitato dal punto di vista del design. Però è questa una scelta che va presa subito proprio perché come dicevi te bisogna predisporre un'architettura altrimenti l'altra possibilità è di avere una pagina di pagamento che è separata dal sito principale però comunque si raccoglie I dati dal sito principale In base a questa scelta strutturale che si fa inizialmente, chiaramente poi si va a creare l'architettura sulla quale poi si andrà a costruire tutto il resto del sito web, eventualmente nell'e-commerce. Quindi sono 2...
+
+Speaker 0:
+
+E magari io vi chiederei, se ci volete fare, diciamo un'idea, una proposta, aiutateci a capire l'impatto di questa scelta.
+
+Speaker 2:
+
+Pro e contro.
+
+Speaker 0:
+
+Esatto perché io non me ne rendo conto, cioè in parte li capisco nel senso che sicuramente la seconda ci rende molto più flessibile perché si tratterebbe di inserire un collegamento immagino con un altro sito, insomma con un cambiante di pagamento e nella prima forse invece sarebbe all'interno, però io francamente ignoro appunto il valore o il minusvalore Allora,
+
+Speaker 2:
+
+se posso essere totalmente trasparente, mettiamola così. Si può partire con quello che è un website che all'interno può accogliere una parte di e-commerce e si può fare appunto, come ti dicevo, in 2 modi o tramite degli strumenti, fra virgolette, che sono già stati pensati per accogliere un gateway di pagamento però solitamente questi strumenti che sono già stati pensati così ti permettono una minor capacità di design quindi a livello proprio di impatto visivo magari il sito è un sito non ti dico appunto che viene un sito degli anni 80 però chiaramente dal livello di design è un pochino più limitato altrimenti con uno sforzo di complessità tecnica un pochino maggiore quindi chiaramente si amplia un pochino il perimetro di progetto si può pensare di andare a integrare un metodo di pagamento all'interno di un sito custom e in quel caso chiaramente abbiamo entrambe le possibilità e possiamo mantenere sia il design al livello che vogliamo noi sia andare a integrare un gateway di pagamento e chiaramente questo aumenta un pochino la complessità però ti dà il risultato massimo quindi un po' una scelta anche magari...
+
+Speaker 0:
+
+Si io direi manteniamole intanto aperte queste 2 opzioni perché non sono la sola a dover decidere, oltretutto oggi ovviamente, quindi magari ecco nella proposta teniamo
+
+Speaker 2:
+
+a parte... Ti facciamo capire esatto, entrambe I scenari e
+
+Speaker 0:
+
+non ho capito se l'estetica limitata è estesa a tutto il sito o solo all'area?
+
+Speaker 2:
+
+No è proprio una scelta strutturale, ti faccio proprio un esempio semplice Se noi volessimo fare un sito, ti faccio proprio un esempio magari che conoscete, tramite Shopify per esempio. Shopify ti permette di fare dei siti che hanno già integrati al loro interno una serie di funzionalità di pagamento. Però Shopify, quando tu fai un sito tramite questo provider ha meno capacità di design quindi tu hai il vantaggio di avere subito integrati I pagamenti però a livello di estetica magari non riesci a raggiungere il 10 su 10 invece se facciamo un sito custom e poi andiamo a integrare un metodo di pagamento sul sito custom tu hai completa flessibilità però chiaramente l'integrazione in un gateway di pagamento è detto proprio fuori dai denti è un costo aggiuntivo.
+
+Speaker 0:
+
+Scusami Carlo rispetto alla domanda quindi è su tutto il sito? Si è
+
+Speaker 2:
+
+su tutto il sito, eventualmente sarebbe su tutto il sito.
+
+Speaker 0:
+
+Io direi intanto teniamo le entrambe magari quando fate la proposta metteteci una reference per capire guarda questo è un tipo di sito dove non raggiungiamo il 100% dell'estetica desiderata
+
+Speaker 2:
+
+però hai tutte le funzionalità è un'altra di trade-off per funzionalità estetica esatto. Poi un'altra domanda che avevamo era avevamo visto che nel vostro piano di comunicazione avete una serie di eventi in pipeline e ci chiedeva...
+
+Speaker 0:
+
+Sì, che tra l'altro quello è un esempio perché nel frattempo c'è il piano di eventi... No, gli eventi in realtà sono abbastanza... Firmi, nel senso sono abbastanza quelli però poi abbiamo dal punto di essere il piano di comunicazione, cioè quello che vedete è in continua scrittura.
+
+Speaker 2:
+
+Certo, ma li possiamo anche prendere come dei play solders.
+
+Speaker 0:
+
+No, nel senso diciamo volutamente, diciamo era un esercizio, non è statico quel piano. Gli eventi invece sono abbastanza confermati, adesso vado a memoria, al massimo se ne aggiunge qualcuno.
+
+Speaker 2:
+
+Ok, e quello che ci chiedevamo noi è se questi eventi voi avrete intenzione anche appunto di creare dei portali o comunque delle landing page all'interno delle quali poi le persone si vanno a iscrivere, vanno a vedere che informazione appunto pre evento possono ottenere, magari post evento si vanno a mettere una serie di foto o altre informazioni di come è andato l'evento e via dicendo. Quindi questo è una cosa che spesso si va appunto di avere una landing page dedicata per evento e in quel caso noi vorremmo capire se vorreste avere una pagina per singolo evento oppure volete avere un'area del sito che raccoglie tutte quante le informazioni su diversi eventi?
+
+Speaker 0:
+
+Carlo adesso ti dico 9 su 10 in questa fase diciamo gli eventi sono più rivolti 8 su 10 dai all'interno ok ora sinceramente agli interni ci abbiamo anche altri strumenti no? Quindi questa fase direi che non ho la necessità di fare una pagina del sito su questo, piuttosto potrebbe valere la pena invece creare uno spazio, ma immagino che ci avete già pensato, Ossu Angelini Academy Gateway, che è l'oggetto, insomma, sicuramente che non è un evento, ma è un framework, diciamo, rivolto che integra l'MBA, rivolto all'esterno, Piuttosto che alcuni aspetti della ricerca, no? Che magari acquidare una certa visibilità in ottica maliziosa, no? Speculativa di ottenere magari eventualmente una visibilità che ci possa poi far accedere ai famosi finanziamenti. Sull'evento vi devo dire anche che l'idea poteva essere anche di gestire questi aspetti attraverso una newsletter, tipo ti invito, se fosse all'esterno, ti invito eccetera eccetera, ti ricordo, oppure ti avviso che c'è un nuovo contenuto eccetera eccetera che può essere appunto questo post non solo dedicato all'evento e dal punto di vista della raccolta dei contenuti fotografici eccetera eccetera fino ad oggi abbiamo delegato questa funzionalità un po' ai nostri canali social, di fare un po' leva su questi contenuti, non stateci sul sito in questa fase ecco però questo poi sarà magari a voi diciamo che ne so proporre una strategia di comunicazione che valorizza il sito in un determinato modo.
+
+Speaker 3:
+
+Esatto. Io non
+
+Speaker 0:
+
+vi vorrei dire sinceramente nel sin e no, magari potrebbe essere appunto la vostra proposta, la vostra idea, cioè cifra no, di dire ecco secondo la nostra esperienza la raccomandazione sarebbe di sviluppare il sito in questo modo anche per...
+
+Speaker 2:
+
+Fantastico, guarda già mi viene da dire che a questo punto la proposta che uno potrebbe modulare è per l'appunto fatta per fasi magari, Partiamo da quella che è la base e poi cominciamo ad aggiungere una serie di proposte su diverse aree.
+
+Speaker 0:
+
+Secondo me dobbiamo creare I presupposti, nel senso se dal punto di vista architetturale serve, ripeto ignoro, magari sto dicendo una castroneria, bisogna già iniziare a pensarlo in una certa maniera ok che poi ci consente di essere di evolverlo no assolutamente sì perché noi siamo una startup a tutti gli effetti quindi per forza di cose cioè quello che diciamo oggi saremo coerenti,
+
+Speaker 2:
+
+ever changing,
+
+Speaker 0:
+
+Spero che ci siano opportunità in più rispetto a quelle che ci stiamo dicendo oggi, quindi sta un po' nella natura delle cose.
+
+Speaker 2:
+
+Fantastico. Allora ci stiamo prendendo questo principio chiave che comunque noi dobbiamo tenere in considerazione tutte le possibili evoluzioni future. Quindi questo lo teniamo in considerazione e poi eventualmente ti facciamo una proposta in cui possiamo aggiungere dei moduli.
+
+Speaker 0:
+
+Tanto siamo esatto, nel senso poi magari in fase di racconto della proposta, capiamo l'impatto anche economico che ha, doversi tenere aperta tutta la serie di porte, una varietà di porte, riflettiamo se farlo o non farlo.
+
+Speaker 2:
+
+Chiaramente, poi è ovvio che come dicevi tu poi noi ci mettiamo.
+
+Speaker 0:
+
+Però si, tanto ragioniamo su l'opzione aperta a varie opportunità e poi ragioniamo insieme se dobbiamo intervenire a ridurre qualcosa.
+
+Speaker 2:
+
+Ottimo, facciamo così, noi ti proponiamo tutto e poi decidi appunto cosa attivare e cosa non, tenendo conto come dicevamo appunto che l'architettura deve accogliere poi eventualmente evoluzioni a maggior ragione appunto che in fase di startup preferite appunto ci saranno magari dei cambi nella comunicazione. Detto questo chiaramente poi il nostro consiglio è sempre quello di avere una comunicazione integrata, quindi se effettivamente a vedere gli eventi anche che siano interni, comunque questo è una parte del vostro posizionamento, cioè il fatto che voi fate eventi anche al vostro interno e quindi è un qualcosa che eventualmente potrebbe essere comunicato per mostrare quella che è la vostra identità e far vedere che siete attivi anche sotto questo punto di vista però lo teniamo.
+
+Speaker 0:
+
+Il mio tema è Carlo te lo ridico perché se no è importante da prendere in considerazione però il più delle volte I nostri eventi sono rivolte all'interno, quindi laddove, diciamo, volessimo procedere su questa via che stai dicendo, quindi di avere anche un repository, coordinato, integrato sul sito che ci dà sicuramente delle opportunità in più deve essere anche oscurabile all'interno, perché non sempre gli eventi
+
+Speaker 2:
+
+che facciamo. Quella può diventare un'area riservata, assolutamente. E tu mi stavi parlando appunto dell'NBA, su questo ci chiedevamo se appunto all'interno del sito volevate un form di candidatura, quindi dove uno per esempio può mettere il CV, può mettere il proprio isee.
+
+Speaker 0:
+
+Sì tra l'altro già c'è nel senso che se voi andate in maniera molto semplice perché è un forum in sostanza no scusate no allora adesso sul sito c'è la blog nell'area blog diciamo c'è la e anche diciamo in home e in evidenza la news sulle candidature per l'Angelina Academy Gateway. All'interno trovate un bando, ok? Un bando che abbiamo gestito in questo modo, siccome il primo gate che devono superare gli studenti della serie, insomma la sezione, devono superare gli studenti e appannaggio di IE, il nostro partner, di IE University. Loro che cosa fanno? Oggi, diciamo, il processo è stato strutturato in questo modo.
+
+Noi eravamo un po come specchietta delle allodole ok qui però dopodiché le abbiamo tutti mandate I gen. Di Cazzito Ie a candidarsi perché dovevano liberare G-MAT per avere diciamo le credenziali per poter poi accedere alle corse di Studio Angelini Academy che vengono dopo in una fase successiva. Quindi ora io questa, diciamo, modalità non sono sicura che possa restare, diciamo così, per il futuro, probabilmente, grosso modo sì. Io dico che l'anno prossimo sicuramente andremo a fare un po' di fan tuning, perché questo è il primo anno che lo facciamo, però ecco se vi dovesse dire provate a ispirarvi a quello che trovate dentro il bando se volete fare una proposta e se ha senso ecco perché visto che diciamo il primo gate è su di loro poi oggi come abbiamo fatto una volta che gli è ha diciamo mandato e scritto tutte le persone che hanno applicato quelle diciamo che hanno superato il test poi ci l'hanno inviato, ok?
+
+Speaker 2:
+
+Ok.
+
+Speaker 0:
+
+E in maniera molto analitica, noi li abbiamo mandato poi attraverso la posta elettronica a un forum da compilare che raccoglieva tutte le cose che voi dicevate ok? Sì certo che se fosse sul sito
+
+Speaker 2:
+
+perché io vedo un processo un po' come dire spezzato in questo momento no?
+
+Speaker 0:
+
+Tendiamo conto di 25-30 persone, teniamo conto della dimensione, oggi il diciamo il numero della dimensione di persone di candidati che sono arrivati a noi, già scrinati, siamo parlando di 45 persone massimo, quindi teniamone conto, perché io non conosco I costi di sviluppo di questa struttura devono essere secondo me anche proporzionati ecco alla dimensione della dell'attività.
+
+Speaker 2:
+
+No è assolutamente chiaro per poter appunto accogliere tutte quelle che sono le funzionalità, per potersi eventualmente candidare, ma a quel punto magari anche raccogliere quelle che sono le informazioni dei singoli e andare magari ad applicare una prima scrematura e poterci collegare anche in maniera automatica quello che dicevi te, cioè per esempio l'email che ti arriva dicendoti il responso anche quello potrebbe essere un automatismo che può essere fatto partire direttamente dal sito. Chiaramente queste sono tutte quante delle funzionalità avanzate che ti permettono di evitare questo processo spazzato fra diverse piattaforme, però come dici tu c'è una complessità tecnica maggiore quindi poi questa sarà una vostra valutazione se effettivamente può valere nella pena o no. Anche questo ve lo mettiamo come una possibilità, vi spieghiamo esattamente che cosa dovrebbe essere fatto e poi eventualmente voi fate la valutazione su questo. Poi avevamo pensato anche a una serie di funzionalità interattive oltre al form, quindi il form un po' quello classico, per esempio c'era venuto in mente se per voi poteva essere interessante un calcolatore della borsa a partire per esempio da una serie di informazioni anche relativamente all'ISAE, un quiz configuratore per corso, insomma ci chiedevamo se per voi erano interessanti delle funzionalità interattive.
+
+Speaker 0:
+
+Aiutami a capire perché non ho, cioè la borsa, il quiz...
+
+Speaker 2:
+
+Allora immagina che io posso magari entrare dentro il sito e inserire una serie di informazioni così che io ho già un'idea di quelle che sarebbero per esempio le mie possibilità in termini di borsa che posso ottenere per l'MBA. C'è una simulazione. Una simulazione esatto.
+
+Speaker 0:
+
+È talmente semplice però lì francamente non la farei più complicata Carlo se ho colto bene quello che dici. Lì c'è un parametro proprio di reddito sopra l'ISE di un certo valore per prendere il 100% sotto il 50% della borsa. Cioè non
+
+Speaker 2:
+
+è credo. Se c'è un solo parametro, vabbè, se è un solo parametro unico, allora diciamo che può essere accessito anche in questa maniera. Ok, poi un'altra cosa che pensavamo, ad esempio, siccome nel futuro il sito potrebbe accogliere una serie di di pagini o comunque avrà un contenuto abbastanza ampio, avere anche una specie di chatbot interattivo all'interno del sito che ti guida anche su quelli che sono I contenuti del sito e ti può informare su quelli che magari sono le tue aree che potresti andare ad approfondire, allo stesso modo come questo agente fra virgolette l'intelligenza artificiale all'interno del sito dopo una serie di domande che ti pone alla quale tu vai a rispondere come studente ti potrebbe consigliare quello che è il tuo percorso e quindi ti potrebbe dire il tuo percorso.
+
+Speaker 0:
+
+Quanto al numero sinceramente ti direi anche questo Carlo, lo vedo un po' di frontiera per noi al momento, cioè punterei più a una navigazione veramente user friendly piuttosto che il chatbot, sinceramente non ce lo vedo.
+
+Speaker 2:
+
+Ok, considera che ad oggi quello che si può fare...
+
+Speaker 0:
+
+Io non mi aspetto ad un'esplosione dei contenuti, cioè nel senso tali da dire che è talmente complesso navigare che no, cioè secondo me resterà comunque abbastanza snello, organizzato, quindi se siamo abbastanza chiari nel strutturare le varie pagine eccetera eccetera insomma io cercherei di appuntare a quello praticamente il chatbot interattivo perlomeno per la mia esperienza punta interna è più quando devi avere informazioni sui servizi, sulle cose, agenzie delle tassi, una cosa un po' più così sinceramente. Cioè la navigazione del sito, spero che non abbia questa complessità. Ecco
+
+Speaker 2:
+
+sì assolutamente però vedi anche noi oggi siamo abituati a un po' a questi chatbot statici e oggi invece si possono avere degli agenti di intelligenza artificiale che si connettono in maniera così tanto integrata con il sito che realmente ti possono dare delle informazioni in real time su qualsiasi dato che sta all'interno del sito e quindi in quel modo diventa una conversazione quasi umana. Però io accolgo appunto il tuo feedback e ti dico assolutamente se non c'è questa necessità no detto che per esempio un'altra cosa che stiamo pensando con Michele era visti I diversi percorsi di formazione sulla base delle informazioni che per esempio l'utente inserisce lui potrebbe anche dirgli guarda che potrebbe essere consigliato questo tipo di percorso quindi anche in questo senso la navigazione
+
+Speaker 0:
+
+No, no, oggi non ci ne abbiamo questi percorsi Carlo, c'ho paura, a manco che ci tiriamo anche un po' c'è un boomerang
+
+Speaker 2:
+
+ok, stiamo andando più avanti allora
+
+Speaker 0:
+
+sì, sì, non c'è nel senso... Non so se è difficile no, scusate, il vero tema, se avete visto la presentazione è che noi oggi dobbiamo gestire dei canali come se fossimo una AORLUS cioè adesso il tema è questo, perché noi in questo momento, esagero, però l'unica cosa che abbiamo all'esterno che è l'NBA è praticamente un progetto sociale, l'impatto sociale perché stiamo regalando, se ti studio, ok, alle persone che parteciperanno totali o parziali ok detto questo cioè non abbiamo trattato molti corsi rivolte all'esterno c'è solo questo cioè andare
+
+Speaker 2:
+
+allora a maggior ragione questo potrebbe essere più una funzione da futura
+
+Speaker 4:
+
+chiarissimo potrebbe essere per una
+
+Speaker 2:
+
+funzionalità futura chiarissimo
+
+Speaker 1:
+
+ovviamente a Ticon 0 non si sono ma ci saranno con lavori di press, per quelli che vogliamo avviare si potrebbe pensare comunque per un tempo che magari un'accademia o un istituto universitario cinese che deve fare una certa navigazione, funzione dei contenuti, qualche modalità un po' un march di interazione con un sito che si deve rimanere semplice navigabile però si è ricchiurato I contenuti complessi quindi potremmo inglobare comunque anche solo per il ragionamento dell'infrastruttura qualcosa che preveda questo perché poi siamo qui anche per cercare di valorizzare tutto con l'attività di ricerca e innovazione pedagogica.
+
+Speaker 0:
+
+Ma io infatti, Elena, perdona, però io non conosco in tutto che cosa potreste avere in mente per valorizzare da quel punto di vista. Io direi partite sicuramente da un'analisi del target che può essere interessato su questi aspetti specifici su cui voi potete darci un contributo. E poi parliamo, diciamo, di una induttiva su capire, partendo da questo target cinese, adesso interessato a conoscere il risultato dello studio facci tu così, in fatto, per replicare quello che dito. Però magari
+
+Speaker 1:
+
+I team di ricerca, certi quelli che sono stati un po' sforzati, come stanno venuti, I potenziali di far creare le ricerche con tu. Sì, ripeto,
+
+Speaker 0:
+
+la rossiniamo solo però sulla dimensione, aiutatemi perché se noi ci abbiamo 3 filoni di ricerca, e un cercatore in croce, io non ci faccio un sito, diciamo ecco, ripeto, esagero, sto esagerando, però non ci costruisco un sito per parlare con 3 persone, ok? Aiutateci a capire anche il potenziale dell'audience come cambia, nel momento in cui magari avremo I risultati della ricerca e allora ragioniamo assieme eventualmente su una taglia, ripeto, di audience, perché se sono I 3 ricercatori in croce dei 3 stream che abbiamo accennato, non serve un sito. Il sito comunque è divulgativo come posso dire. Ma non
+
+Speaker 1:
+
+sarebbe un sito a parte, deve essere inglobato dall'offerta che facciamo, deve essere una costola di quello di un sito di un accademy che fa tante cose, che però sta puntando anche su quello perché è uno dei pilla.
+
+Speaker 0:
+
+Sì, aiutami a capire come puoi forzare la target audience prima. Quindi facciamo dei ragionamenti mirati anche sull'evoluzione che deve avere il touchpoint del sito.
+
+Speaker 2:
+
+Assolutamente. Lo dico
+
+Speaker 0:
+
+perché sono io la prima a dover essere erudita su questo e convinta, Certo. Oggi magari non ho gli strumenti per dire, guarda, domani la tua audience potrebbe essere questa, attenzione, no? E quindi diciamo la nostra presentazione di sito parte da questa assumption
+
+Speaker 2:
+
+ok, altre domande? E noi ci chiedevamo per esempio se questo brand book di cui si parlava all'interno del brief è già stato un prodotto che si diceva che c'è un brand book disponibile, se è stato aggiornato
+
+Speaker 0:
+
+si, sta dentro
+
+Speaker 1:
+
+I materiali di combinazione Ah è quello del 2024, non c'è nessuno più aggiornato?
+
+Speaker 0:
+
+No è sempre lo stesso
+
+Speaker 2:
+
+Ok quindi possiamo prendere quello 2024 come punto di riferimento. Ok, questa era più che altro una conferma. Poi abbiamo visto che ad oggi il sito è sia appunto in italiano che in inglese e che questo ha previsto anche un'indicizzazione e se vogliamo appunto mantenere questa struttura e se anche appunto la SEO che sarebbe essenzialmente la parte di keyword che sono all'interno del sito la vogliamo mantenere così come oggi oppure se prevediamo di fare una modifica. Ecco su questo aspetto magari è più tecnico. Questa è la
+
+Speaker 0:
+
+risposta che dovete dare voi, non ve la so dire. Fate voi un'analisi dello stato dell'arte, guarda oggi la 6 questa, se la modifichiamo in questo modo, puoi ottenere quest'altro in ottica consulenziale io non... Ti posso dire che non vedo limiti da questo punto di vista mentre su
+
+Speaker 4:
+
+altre cose che ci
+
+Speaker 0:
+
+siamo detti tipo chatbot non vi farei investire tempo su quell'idea lì su questo guidateci voi.
+
+Speaker 2:
+
+Ok assolutamente io vi...
+
+Speaker 0:
+
+Ha regolato se lo aspetto, ecco voi vedete voi insomma se farlo o meno.
+
+Speaker 2:
+
+Perfetto, ottimo E poi ci chiedevamo se avete già una library di foto, video che possono essere poi utilizzati sul sito e se...
+
+Speaker 0:
+
+Nel senso che oggi l'archivio, l'agenzia con cui lavoriamo, è tutto quello che vedi già sul sito o sui nostri canali però io diciamo di mio non ho una library gestita in outsourcing con il fornitore Non so se ti ho risposto
+
+Speaker 2:
+
+No, è semplicemente un tema di andare ad utilizzare queste foto
+
+Speaker 0:
+
+Nel senso, quello che vedi è autorizzato Ok,
+
+Speaker 2:
+
+questa è la seconda domanda, fantastico.
+
+Speaker 0:
+
+E altrimenti non l'avremmo potuto mettere, però ecco, diciamo non ho una library strutturata, è una library che si arricchisce mano a mano che facciamo iniziative attività al foto video ecco.
+
+Speaker 2:
+
+Ok allora intanto partiamo al presupposto che ci abbiamo quelli che possiamo utilizzare poi eventualmente Se dalla nostra proposta di architettura di sito si originano appunto altre necessità che magari prevedono un altro set di foto, di video necessari, questo te lo facciamo sapere ed eventualmente maggior ci sarebbe disponibilità lato vostro per andare a produrre questi contenuti, corretto? Ok, poi ci chiedevamo oggi che diciamo che hosting state utilizzando anche per andare appunto a capire oggi E sarebbe essenzialmente lo strumento in uso per utilizzare il sito, cioè quello che accoglie il sito attualmente, tipo OSTINGER e via dicendo. Questa la facciamo in back, la facciamo a lì
+
+Speaker 4:
+
+la facciamo a lì
+
+Speaker 2:
+
+ok per quanto riguarda invece il logo di Angelina Academy attuale lo prendiamo così com'è confermato o si evolverà con il rebranding?
+
+Speaker 0:
+
+Non abbiamo visto rebranding perché noi continuiamo a chiamarci Angelina Academy il logo è quello in linea con diciamo la brand identity
+
+Speaker 2:
+
+brand book 2024 ce lo teniamo allora
+
+Speaker 0:
+
+per ora è così poi chissà però per il momento non abbiamo deciso di cambiarlo
+
+Speaker 2:
+
+ok no come dicevamo prima ever changing pronti al cambiamento perfetto
+
+Speaker 0:
+
+no no no per il momento guardate una scelta è stata fatta anche addirittura dalla famiglia Angelini di continuare a chiamarci Angelini Academy, quindi a maggior ragione andiamo in continuita anche con Logo.
+
+Speaker 2:
+
+Assolutamente perfetto. Invece per quanto riguarda il nuovo posizionamento, chiaramente questo prevederà una serie di nuove parole chiave, un wording, un tone of voice, quindi ci chiedevamo se voi vi aspettate un lavoro che sia prettamente diciamo di design architetturale, di integrazioni tecniche, di funzionalità del sito e poi magari come dicevamo prima di ampliarlo addirittura con delle funzionalità di intelligence artificiale che prevedono in un futuro una migliore navigabilità o comunque una serie di chicche per l'utente. Però c'è anche tutto il tema del contenuto. Sulla parte di contenuto, quindi testuale, che deve rappresentare il vostro nuovo posizionamento e pensate di fornire una base fra virgolette di quello che potrebbe essere il nuovo contenuto del sito per poi lasciare magari appunto esternamente a noi la parte di copyrighting e quindi trasformare queste... Dicevo sulla parte di testi, di posizionamento della nuova contenutistica del sito avete intenzione di passare una specie di contenuto grezzo che poi deve essere rifinito a livello di copyrighting avete un copyrighting interno?
+
+Speaker 0:
+
+Carlo io non so se Elena ti ha raccontato noi siamo veramente snelli come struttura io non ho la forza alla KPIBD per fare queste cose, non dico per cui anzi avevamo chiesto anche ad oro in outsourcing, quindi avevamo chiesto anche a voi, cioè, chiediamo, cioè dobbiamo proprio tutto il pacchetto fuori. Quindi io non sono in grado di mandare testi, contenuti, cioè, dovrebbe essere tutto fatto dal fornitore che, diciamo, con cui collaboreremo.
+
+Speaker 2:
+
+Ok, ottimo. A noi ci serviva solo questo perché spesso il cliente magari ti dà una serie di linee guida più stringenti.
+
+Speaker 0:
+
+Io ho bisogno di un partner che mi segua come se fosse una mia estensione perché sono su tattissimi fronti e al momento non ho altre risorse e collaborazioni quindi mi abbalgo di queste collaborazioni con I fornitori esterni per cui assolutamente, te lo dico anche quando avrai dubbi su altre cose tieni conto la nostra paglia,
+
+Speaker 2:
+
+siamo molto
+
+Speaker 0:
+
+meno strutturati di un tempo quindi abbiamo proprio bisogno di un partner che ci segue un pochino in mano
+
+Speaker 2:
+
+assolutamente questo in questo all'ora intervengo sui
+
+Speaker 4:
+
+miei calli di conseguenza dopo il go live e eventualmente il studio è un momento curioso a provare insieme saremo sempre noi a aggiungere I calendari eventi caricare nuove magri training stories e rispondere a forme di contatto o per quello ci sta qualcuno all'interno che si occuperà.
+
+Speaker 0:
+
+Allora, era la cosa che vi dicevo, cioè noi ad oggi abbiamo una società che ci segue proprio sulla parte operativa che fa caricamento ha fatto diciamo il sviluppo del sito e poi abbiamo un'agenzia che ci segue contenuti sia grafici no? E I contenuti blog da aggiornare che abbiamo sviluppato per mettere sul sito. Io qua secondo me, cioè fate voi una proposta, io sinceramente devo dire che fino a poi si fa un'intera di gruppo, ovviamente ci porta dell'economia di scala, perché segue il sito industri, il sito academy, il sito farm, eccetera eccetera. Lato mio vi posso dire che oggi non vedo né limiti ma non vedo neanche grossi nel senso necessità da parte mia. Fateci capire ciò che eventualmente comporta in termini di opportunità, lavorare con voi anche su questo fronte, io verifico internamente anche con l'ET se, cioè noi oggi come oggi credo che siamo nella posizione visto che siamo una società autonoma rispetto al resto del gruppo, possiamo eventualmente decidere.
+
+Però ci deve essere costo opportunità, ecco, perché io oggi rientro dentro un accordo di gruppo con Economi e Scala, che è molto vantaggioso, questo che voglio dire. No, no, ma
+
+Speaker 3:
+
+io penso che prima, Carlo, quando ti faceva la domanda sui contenuti, in teoria 6 esattamente questo, cioè 6 già in vigore una partnership relativa alla creazione di contenuti, quindi questa creazione di contenuti, quindi praticamente diciamo che in questo caso la struttura del website sarebbe semplicemente riempita, o meglio strutturata rispetto al riempimento dei contenuti che poi verrebbero creati dall'Agenzia di Supporto. Giulia.
+
+Speaker 0:
+
+Creati nel senso caricati e creati in termini di struttura?
+
+Speaker 1:
+
+Contenuti, Caterina.
+
+Speaker 3:
+
+Cioè, loro fanno content creation per Angelini,
+
+Speaker 0:
+
+io provo a ripetermi perché non so, allora non mi spiego. Allora, noi abbiamo un'agenzia che ci segue tutta la parte strutturale ok e che è quella che proprio cura le pagine del sito come struttura ok come architettura e ci fa il mero caricamento dei nuovi contenuti ok Faccio un esempio anche non di contenuto, devo aggiornare I cookies, lo fa questa agenzia, ok? Devo aggiornare l'informativa privacy, lo fa questa agenzia. Devo aggiungere un contenuto, un articolo del blog, lo fa questa agenzia, ok? Oltre a aver fatto lo sviluppo a suo tempo, ok?
+
+Ho l'agenzia attuale che però avete visto è un capitolo che ho messo nella cara, ok? Che mi segue tutta la parte di contenuti, copyrighting, eccetera eccetera, Ok? Voi vi inserite in questo momento, in questa cara, no? Ho capito bene? Quindi, quello che c'eravamo detti, voi aiutatemi a capire come vi inserite, nel senso perché io non conosco, io ho in mente questo modello, ho l'agenzia di gruppo che mi gestisce il sito dal punto di vista tecnico e poi ho invece il mio produttore di contenuti di creator, ok?
+
+In questa compagine aiutatemi a capire voi dove vi vorreste inserire, io ho risposto sulla parte anche tecnica perché l'altra volta avevo capito che voi volevate
+
+Speaker 3:
+
+anche provo
+
+Speaker 0:
+
+di per quella.
+
+Speaker 3:
+
+Possiamo fare qualsiasi
+
+Speaker 1:
+
+cosa, in
+
+Speaker 3:
+
+questo punto possiamo lavorare a 360 gradi su qualsiasi tipo di contenuto che sia, contenuto web di sviluppo, contenuto web di editing o copyrighting, come lo vuoi chiamare. Il discorso è, penso che quella domanda che faceva prima Carlo è, dobbiamo lavorare in virtù di tutto oppure una parte di questi 360 gradi sappiamo già che verrà occupata da un contratto in essere che quindi non ha alcun senso che su cui noi facciamo una proposta oppure è aperta la proposta 360 gradi
+
+Speaker 0:
+
+io come dicevo io ho fatto una gara per la parte di editing e di architettura in termini grafici e struttura contenutistica del sito. Quello per me è il perimetro oggi, non ho mai messo in discussione, ma non perché non lo se possa fare. Se voi arrivate con una proposta di rompere, io la posso proprio prendere in considerazione. Oggi se vi devo dire, non ci ho mai pensato a cambiare il fornitore che mi ha fatto lo sviluppo, perché, ripeto, c'è quest'accordo quadro che deriva... Quindi io oggi sono nel genere, nel senso, ero predisposta per fare questa gara sulla parte di editing eccetera eccetera.
+
+Se voi vi volete proporre anche per quella parte fatemi capire però vi dico anche che devo verificare con I t perché non è una cosa che gestisco ecco solo io, forse posso farlo perché ormai sono una società autonoma e posso anche gestire autonomamente anche questi aspetti, però insomma ecco ripeto devo devo coinvolgere la parte T, l'anima è T.
+
+Speaker 3:
+
+No, era solo per capire anche noi, c'era nel senso che dipende anche dal perimetro su cui ci possiamo muovere e su anche per tempistiche su che cosa investire maggior tempo. Se per esempio tu dici guarda la parte sviluppo non è assolutamente da prendere in considerazione perché qualunque cosa vuoi produrre produrrete verrà sviluppata da un fornitore di sviluppo che già ha un contratto in essere che si occupa di questo genere di cose.
+
+Speaker 0:
+
+Io ce l'ho il contratto in essere con quest'altro, quindi vi dico la verità che oggi quando non l'avevo messo in discussione, per me era in discussione solo la parte creativa di editing, quindi io mi concentrerei su quella. Poi insomma delle discussioni voi avevate detto che avevate anche questa...
+
+Speaker 3:
+
+No perché parlavamo di strutture di sito, di soluzioni, quindi insomma era anche per rendere, come dire, a Michele Acarlo il lavoro più chiaro, era solo per questo.
+
+Speaker 2:
+
+Però guarda, secondo me qui semplicemente uno parte da quella che è la base che noi solitamente chiamiamo MVP cioè il Minimum Viable Product e quindi vi facciamo capire quello che sarebbe il lavoro sicuramente di base da fare con le possibili bifurcazioni come dicevamo prima perché se uno poi punta appunto ad avere una piattaforma super integrata che all'interno ai gateway di pagamento che all'interno per esempio ha I trigger con la parte di mail automation quindi addirittura dal sito si possono orchestrare una serie di campagne di newsletter che partono e questo è quello che attiene alla base strutturale del sito. Quindi prenderemo una decisione su quello e poi capiremo come andare avanti. Da qui possiamo andare in maniera modulare ad aggiungere copyrighting, creazione di contenuti e via dicendo e quello sarà poi essenzialmente una vostra decisione se mantenere tutto quanto integrato oppure decidere di attivare un modulo piuttosto con altro, mantenere il vostro fornitore su un'attività e andarci semplicemente a interfacciare con loro per assicurarsi che poi tutto quanto venga convertito all'interno del sito in maniera coerente diciamo che questo è il metodo che prevedo di darvi una serie di possibilità che poi voi potete essenzialmente costruire il pacchetto su quelle che sono le vostre esigenze, le vostre aspettative.
+
+Quindi questo lo terrei in questo modo. Poi, Miki non so se hai delle domande più di dettaglio, altrimenti possiamo magari vedere anche qualche qualche altra possibilità che avevamo pensato dal punto di vista di funzionalità future di intelligenza artificiale, oppure magari tu volevi approfondire un pochino l'architettura del sito anche tenendo conto di quelle che sono, per esempio I fili rossi di cui si parlava nel brief e via dicendo.
+
+Speaker 4:
+
+Allora diciamo che di base credo che abbiamo visto la maggior parte dei punti che ci eravamo segnati. Un unico dubbio relativo appunto ai 3 Fili Rossi è se questi sono pensati anche come categorie editoriali del sito o se è solamente una narrazione che in qualche modo deve essere implicita? No, non ho nessun
+
+Speaker 0:
+
+slide, no no no, cioè nel senso lì prendete I concetti, noi in maniera teorica abbiamo fatto vedere quali sono I filoni, no? Però diciamo era un'espediente grafico che abbiamo utilizzato per presentare il piano di comunicazione, ecco, non mi lascerei limitare, ecco, da quella, diciamo, classificazione.
+
+Speaker 2:
+
+Ok, quindi quella era una classificazione più illustrativa, dici? Ad oggi. Ma
+
+Speaker 0:
+
+voi intendete proprio il segno grafico del filo rosso?
+
+Speaker 2:
+
+No, intendiamo proprio il fatto che questi 3 fili rossi competono a 3 aree differenti, queste 3 aree poi possono essere rappresentate all'interno del sito.
+
+Speaker 0:
+
+Ricordatemi un attimo a che fate riferimento perché parliamo di comunicazione interna, comunicazione esterna, aiutatemi perché ci sono varie classificazioni nella presentazione, ditemi quali vi fate quelle oppure ricerca.
+
+Speaker 4:
+
+Posizionamente post, ricerca su modelli educativi, innovativi, unit proposition, corporate learning.
+
+Speaker 0:
+
+Quello sono gli obiettivi della nostra comunicazione, ok, però sono obiettivi alti, non devono essere trasformati in filoni, cioè non fatevi vincolare assolutamente.
+
+Speaker 2:
+
+Ok.
+
+Speaker 0:
+
+Noi abbiamo degli obiettivi, quest'anno di posizionamento perché abbiamo cambiato il posizionamento e il purpose, quindi lo dobbiamo comunicare per dire, no? Cioè questo tende a dire quella slide.
+
+Speaker 4:
+
+Per quanto riguarda invece la parte legal, torna il discorso di prima, per cui se non in realtà come dire in fase di startup, anche lì vi affidate a terzi o avete una reinterna che possa gestire la parte di cookie policy, GDPR, Ok, perfetto, quindi in quel caso poi possiamo confrontarci direttamente con loro, ok. E... Sto scorrendo il Nel documento abbiamo visto praticamente tutto. Quindi il
+
+Speaker 1:
+
+lato vivo- Dalia 1- Scusami Michele, se... Esatto. Aggiungerei un altro dettaglio. Tempistiche, massime, minime, in cui possiamo tornare da voi con questa proposta e se c'è un perimetro di budget dentro il quale muoverci. Una focarice o...
+
+Un paletto di riferimento?" Dalia
+
+Speaker 0:
+
+D'Ambresa. No, anche perché, parte che non l'ho dato neanche alle altre in gara è proprio una polisi nostra però e stiamo parlando di di queste cose cioè nel senso io non vi pare un paletto perché se ragionamento di andare in modularità io posto che non ho la competenza per dire 20 50 e 30 60 non saprei cioè se ragioniamo così per scaglione di investimento cioè non vedo problemi in senso che poi capiamo cosa fare subito cosa fare dopo, cioè questo è il ragionamento. Io neanche saprei dare il banone cattiveria, che proprio non truco di dare. Sui tempi direi che, fin maggio, vi prendete queste settimane prossime per fare lo sviluppo, tanto non adesso siamo presi da varie cose, a ventina di giorni sono 3 settimane e penso che insomma di solito sono quelle settimane no canoniche per fare preparare un po' un'idea però anche qui valutate voi se in queste 3 settimane magari sviluppate dei concept, no? E qualche idea diciamo di struttura, insomma io non vi chiedo in 3 settimane un progetto approfondito, ecco ragionate più che altro su il concept e diciamo presentare l'idea.
+
+Vogliamo essere sicuri di
+
+Speaker 1:
+
+presentare qualcosa che tu puoi comparare con le altre perché se non è mele con mele è un po' difficile per voi prendere una decisione quindi se è sufficiente quello che ci sta dicendo, ci muoviamo in questi tempi e ti daremo questo amico. I tempi, ti posso
+
+Speaker 0:
+
+dire che sono gli stessi che ho dato alle agenzie per sviluppare tutto il progetto, dove avrete visto anche non solo il sito, quindi credo che ci ci siamo abbondantemente per focalizzarsi solo sul... Tra l'altro scusate la cara di lei è già andata a termine nel senso che siete subentrati dopo su questa fase del io offrizziato il progetto. Ok, no no nel senso che lo dico perché nel senso loro l'hanno già consegnate le proposte e Per quanto riguarda le proposte vi posso dire che c'è chi c'ha già fatto il sistema di navigazione adesso della demo, eccetera eccetera, che
+
+Speaker 2:
+
+ha fatto delle proposte molto evolute.
+
+Speaker 0:
+
+Cioè, qualcuno è riuscito a fare addirittura dei video esempio che ci metterebbe dentro, c'è chi ha appuntato tutto sul sito poi quella faceva parte della strategia delle singole agenzie c'è chi magari ha un expertista, dei team potenti sulla parte web appuntato lì, magari un po' di meno su altri, però...
+
+Speaker 2:
+
+Guarda, questa era proprio una delle nostre...
+
+Speaker 0:
+
+Io non vorrei essere stupita con effetti speciali, nel senso, fateci capire, sì, sicuramente come potrebbe diventare come user experience, quello sì, però facciamo l'analisi precedente, perché ci proponete quel tipo di struttura, a me sono quasi più interessata la parte strategica come sempre, di capire, facciamo un ragionamento su quello che serve da Angenei Academy in questo momento, rispetto a tutte le attività che poi abbiamo raccontato e eventuali prospettive, come abbiamo ragionato oggi insieme, su come poterlo strutturare. Poi sinceramente io non mi lascio stupire dal fatto che c'è diciamo il full optional del video già in questa proposta sinceramente mi piacerebbe più trovare un allineamento su tutto il ragionamento precedente.
+
+Speaker 2:
+
+Ok, guarda per me questo è chiarissimo e ti ringrazio Caterina perché a questo punto ci vorrebbe da dire che il primo step sicuramente è quello di fare un'analisi proprio strategica più approfondita su quello che è il posizionamento che voi volete portare e su quelli che poi eventualmente sarebbero I target perché da un'analisi del brief già emerge sicuramente che per voi è importante tramite questo sito più che altro appunto andarvi a posizionare quindi far vedere quali sono le basi fondanti la filosofia che sta dietro questo nuovo modo di mettervi sul mercato però solitamente ecco ad esempio una cosa che stavamo ragionando anche con Michele tramite questi siti si fa anche un po' di lead generation, quindi sono un po' 2 obiettivi diversi. Un obiettivo è quello di comunicarsi, un altro obiettivo è quello anche di raccogliere appunto dei potenziali lead, però mi verrebbe da dire che già per esempio dal brief che avete condiviso probabilmente per voi è più importante il primo obiettivo, quindi quello più proprio di comunicazione e posizionamento rispetto a quello di magari...
+
+Speaker 0:
+
+Diciamo che in questo momento storico sì, poi è chiaro che diciamo mano a mano che poi vengono presentate le iniziative, vedi l'aggine Academy Gateway conterà pure la LID adesso per dire, però sicuramente ritorniamo un'altra volta nelle dimensioni, stiamo parlando di 10 borsi di studio, quindi per noi è un bellissimo specchietto dell'allotodra ancora una volta per confermare il nostro posizionamento, non sono quei 10 posti che ci serve una lead stratosferica. Ragioniamo, ripeto, per gradi, perché oggi c'è nella nostra missione quello di fare quasi delle attività un po' più di social responsibility, no? E di posizionarci, non di vendere, ok?
+
+Speaker 2:
+
+Assolutamente.
+
+Speaker 0:
+
+Per cui ragioniamo su un sito che oggi è di quel tipo, con magari ripeto alcune malizze, accortezze che domani se cambia qualcosa gli innesse si possono fare in maniera più facile.
+
+Speaker 2:
+
+E ti dico subito che di fatti questa cosa insomma emergeva abbastanza e già nella nostra prima idea di bene ma poi come vai quindi a presentare il sito perché anche l'ordine chiaramente in cui tu esponi le informazioni dentro del sito ha una sua valenza la parte più fra virgolette mettiamo così commerciale sarebbe stata l'ultima mentre io parto da quello che è proprio il posizionamento alto per poi magari arrivare alla fine che c'è una call to action diciamo che va a chiudere un pochino però questo per me chiarissimo e ti direi che sicuramente il primo passaggio è fare appunto proprio un'analisi strategica che ci permette di farvi delle proposte su quello che potrebbe essere il sito la sua architettura e le funzionalità che stanno al suo interno e come si parlano queste con I diversi target in maniera tale da partire prima più da un concept.
+
+Speaker 0:
+
+Parlo, permettimi di fare una sottolineatura che probabilmente per Elena è banale però la ridico perché hai partecipato comunque alla scrittura del nostro posizionamento, cioè la strategia c'è, nel senso che basatevi su quella e quindi non è che dobbiamo fare ulteriori analisi di strategia, cioè prenderei quella che è e anzi sapete bene perché appunto avete anche partecipato alla definizione del
+
+Speaker 4:
+
+nostro nuovo
+
+Speaker 0:
+
+posizionamento che diciamo la cifra identitaria della Angeline H della corpora della nostra corpora di Accademy rispetto ai benchmark di mercato è quella di avere la ricerca e di puntare tutto sull'innovazione.
+
+Speaker 2:
+
+Noi intendevo più che altro come convertirla all'interno del sito, cioè io vorrei fare proprio un prospetto di come questa strategia si converte all'interno del sito per poi mostrarvi gli effetti speciali. Facendo passare sull'aranzi
+
+Speaker 0:
+
+del target, sicuramente il target quello sicuramente, però adesso
+
+Speaker 1:
+
+lavoriamo su questo insieme tutti stiamo facendo le informazioni, lo so
+
+Speaker 0:
+
+che gli devi dare alcune informazioni con il testo che tu hai però facciamo piacere di dirvi che,
+
+Speaker 2:
+
+no quella la prendiamo come un dato, una definizione
+
+Speaker 0:
+
+strategica che è appunto un mantra e poi anche valorizzare il nostro nuovo corpo, anche dal punto di vista dei contenuti, eccetera eccetera e sicuramente almeno per quanto riguarda la parte di ricerca perché sull'altra sicuramente un'idea magari già ce l'ho fare diciamo una diciamo un affondo sui target potenziali che andando a parlare di ricerca.
+
+Speaker 2:
+
+Assolutamente, no però ti parlavo proprio dell'output, siccome prima hai detto l'effetto speciale mi interessa meno, mi piacerebbe magari portarti un prospetto di come questa strategia che voi avete studiato si può convertire effettivamente ad essere esplicitata all'interno del sito per poi mostrarvi... Per te sarebbe interessante per esempio, piuttosto che vedere
+
+Speaker 0:
+
+qualcosa di statico. Più vi rifate alla strategia come linea guida, più vi seguiamo nella fase di presentazione. Lo dico veramente con condizioni causa perché ho visto varie agenzie adesso che mi hanno presentato idee e dove abbiamo fatto fatica a comprendere il lavoro, bellissimo magari che era stato fatto dall'altra parte, era proprio dove non riuscirono a trovarci il collegamento tra la strategia che gli avevamo dato e la proposta di...
+
+Speaker 2:
+
+Però questo è stato utilissimo, fantastico, questo è stato utilissimo perché ci permette proprio di capire anche che output vi aspettate. Quindi in questo modo noi partiremo proprio dal come abbiamo interpretato la vostra strategia all'interno del sito e perché secondo noi queste caratteristiche del sito la riescono a valorizzare e riescono a mettere le basi poi per andarci a costruire sopra. Bene,
+
+Speaker 0:
+
+io qui sono convinta che Elena lo sa perché insomma conosce anche bene l'iniziale, siamo Marchettare, quindi insomma ha bene in mente il Target, quindi insomma fate voi. Fantastico.
+
+Speaker 1:
+
+Poi adesso iniziamo a lavorare in team, si coordiniamo bene. Io direi se per voi va bene Carlo Michele Daniele ci diamo sono le 12, abbiamo preso un'ora piena,
+
+Speaker 0:
+
+va bene.
+
+Speaker 2:
+
+Ti ringrazio Caterina, la richiesta è molto più
+
+Speaker 0:
+
+chiara ci riaggiorniamo a fine mese, se avete qualche domanda comunque sono qua ah, le domande tecniche
+
+Speaker 2:
+
+quelle te le giriamo ok, grazie buon
+
+Speaker 0:
+
+weekend a tutti ciao Buon weekend a tutti!
+
+Speaker 4:
+
+Ciao, ciao! Grazie!
+
+Speaker 2:
+
+Come è stata, in realtà, questa cosa?
+
+Speaker 0:
+
+Non lo so. Perché 6 fatta a sanitaria? Quando? Da un quarto d'ora sto cercando di cogliere il turismo, e poi c'è un Diploma so. Ti ho detto di vincere, ma non vedi che vengo a casa.
+
+Speaker 2:
+
+Ma che sì. Non è una merda sta cosa.
+
+Speaker 0:
+
+Non è una merda.
+
+Speaker 2:
+
+All'inizio sì.
+
+Speaker 0:
+
+All'inizio sì, ma poi secondo me si è molto ripresa lei. Comunque secondo me...

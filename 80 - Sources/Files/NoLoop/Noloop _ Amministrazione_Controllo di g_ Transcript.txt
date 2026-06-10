@@ -1,0 +1,368 @@
+Noloop | Amministrazione/Controllo di gestione
+Mon, Sep 8, 2025
+
+0:57 - Carlo Sanvoisin
+Sottotitoli a cura di QTSS Buongiorno Carlo, ciao.
+
+1:25 - Conference Room (Milena Stucchi) - Speaker 2
+Sono qui con me, anche Elisa e Roberta.
+
+1:31 - Conference Room (Milena Stucchi) - Speaker 1
+Ciao Carlo.
+
+1:32 - Carlo Sanvoisin
+E aspettiamo qualcun altro?
+
+1:35 - Conference Room (Milena Stucchi) - Speaker 1
+No. Ok.
+
+1:37 - Carlo Sanvoisin
+Allora, per oggi la call essenzialmente da quello che so appunto riguarda amministrazione e controllo di gestione, quindi direi raccontatemi un attimo voi quale potrebbe essere l'attività alla quale fate riferimento per un'eventuale ottimizzazione dell'intelligenza artificiale, poi mano a mano che mi raccontate magari ogni tanto vi fermo, vi chiedo spiegazioni, dettagli e l'obiettivo essenzialmente è quello di tracciare quelle che sono le vostre attività, I vostri task all'interno di questo stream di amministrazione e gestione e poi capire effettivamente dove eventualmente intelligenza artificiale o automazione potrebbero impattare I vostri processi per permettervi di risparmiare risorse, tempo, accelerare e capire poi eventualmente se ci sta un trade off fra effort che bisogna mettere in questi processi e benefici che se ne otterrebbero dall'automazione e in quel caso poi portiamo avanti questo caso d'uso e lo sviluppiamo.
+
+2:47 - Conference Room (Milena Stucchi) - Speaker 1
+Direi che inizi tu perché si spoggia sul concetto Business Central.
+
+2:55 - Conference Room (Milena Stucchi) - Speaker 3
+Visto che dobbiamo parlare della parte di integrazione ecologica e amministrativa, intanto ti aggiorno sul gestionale che il gruppo utilizza che è Business Central. Di Microsoft, non so se lo conosci, se hai già avuto modo di… Questo in particolare no onestamente, però se è un prodotto Microsoft più o meno… Sì, è l'evoluzione di Navision, non so se questo invece lo conosci oppure no, comunque fa parte della suite di Microsoft 365, la parte gestionale. Questo prodotto appunto è di Microsoft e noi lo utilizziamo in modalità, cioè non è installato presso di noi quindi è in cloud e si interfaccia con l'esterno tramite web service e API insomma. Lo utilizziamo per tutta la parte di gestione amministrativa lo abbiamo un pochettino adattato alle esigenze di Noloop e lo utilizziamo anche per una parte di controllo di gestione che riguarda il monitoraggio delle commesse, perché Noloop comunque vive sulle commesse che sono poi gli eventi. Questo è il macro preambolo del gestione di Innoloop. Quello che attualmente utilizziamo come supporto al controllo di gestione è aver sviluppato con Power BI dei report di controllo. Sono banalmente dei report di analisi quello che avevamo pensato insieme di inserimento dell'intelligenza artificiale oppure automazione, come avevi detto, era intervenire su tutta la parte di controllo di budget delle commesse, perché poi adesso magari ti spiegano meglio chi utilizza poi il controllo di gestione, quindi la gestione dei budget, perché quando nasce una commessa nasce con un budget, poi piano piano con il costruirsi della commessa questo budget potrebbe cambiare nel tempo e sarebbe interessante monitorare il cambiamento e valutare la motivazione del cambiamento sulla base di appunto lo scostamento che è avvenuto tra I Costi e I Cavil, però se vuoi aggiungere qualcos'altro Roberto… Si, però avendo già fatto una preview di riunione con Carlo, mi viene da dire, parafrasando quello che ho capito dalla scorsa riunione, che tipo di analisi facciamo proveniente da quale supporto, perché se oggi noi lavoriamo con un prodotto che io estraggo dalla Power BI e quindi ho un foglio Excel che mi viene narrato tutto quello che è il movimento, questo se lo voglio paragonare a qualcos'altro, a questo punto a che cosa lo vado a paragonare?
+
+6:51 - Conference Room (Milena Stucchi) - Speaker 1
+A un altro estratto di Power BI? Perché se no non ho la regola famosa da applicare nell'analisi dell'intelligenza Cioè se tu gli fai vedere il nostro estratto del phasing e vorrei paragonare quello che è il precedente budget dall'attuale, devo promettervi, oggi in comparazione alle due situazioni.
+
+7:14 - Conference Room (Milena Stucchi) - Speaker 3
+Io quello che volevo spiegargli era quello che abbiamo adesso, quindi la gestionale Microsoft 365 e il fatto che abbiamo sviluppato dei report di analisi su Power BI. Però immagino che questa valutazione del budget deve essere fatta direttamente su Microsoft 365, perché è lì che comunque noi andiamo a inserire gli scostamenti e le modifiche dei budget, quindi non deve lavorare sul report, io gli ho solo detto che abbiamo anche fatto questo sviluppo.
+
+7:50 - Conference Room (Milena Stucchi) - Speaker 1
+«Perfetto, quindi facciamo vedere, con I colleghi in rete, la visione di una commessa, si vede 1, 2, 3 c'è quindi avanzamento 1, avanzamento 2, avanzamento 3 il concetto è farmi parlare questi tre paragoni esatto ripartiamo da questo allora se non deve parlare dall'estrazione adesso ci vado intanto ho condiviso lo schermo forse faccio un buon infiltramento ok allora connesse ne prendiamo una chiusa? Si prendi una chiusa ma un po' grossa non so quale però prendiene una e poi vi facciamo gli esempi tanto a caso l'ho presa vediamo vabbè facciamo a caso questa ma senza problemi noi iniziamo con una prima inserita che si chiama Ricavi, che è quella che serve per l'amministrazione, quella dei costi serve per l'amministrazione, quella che comincia a interessare la mia area è la voce budget, quindi dal task 3 a tutti quelli successivi sono gli avanzamenti del budget, budget vuol dire l'apertura della commessa a quanto è stata tre virgolette ipotizzata. Adesso hai preso quella dove non c'è una... Hai preso una triste, aspetta un attimo, prendi una un po' più movimentata. Prendi un... Questa. Va, prova, sì. No. Vabbè, però...
+
+9:38 - Conference Room (Milena Stucchi) - Speaker 2
+Ma già c'ho una preghiatura.
+
+9:40 - Conference Room (Milena Stucchi) - Speaker 1
+Vabbè, però, niente. Vabbè, il task 3 determina il budget al momento in cui è stata aperta quella commessa, poi ci potrebbero essere 2, 3, 4, 5 avanzamenti a seconda anche della tipologia dell'evento, barra quanto tempo passa prima che viene aperta la commessa all'esecuzione della commessa stessa, quindi se passano sei mesi tecnicamente potrebbero esserci sei avanzamenti budget, uno al mese poi sicuramente c'è una prechiusura che da Flussi è il momento in cui prima della partenza del gruppo deve essere data la visione del budget, poi una chiusura operativa che viene determinata sulla base della chiusura stessa verso il cliente e poi la chiusura COGE è quella mia dopo che ho controllato che la chiusura sia conforme a quelle che sono tutte le registrazioni contabili, quindi diciamo che potremmo avere sicuramente tre righe di task potrebbero esserci anche x task in più su un budget soprattutto. Cosa mi piacerebbe analizzare oggi come oggi quando io estraggo con la Power BI questo tipo di flusso recepisce esclusivamente l'ultimo inserito quindi la visione della commessa mi riporta al lo stato di quel momento con l'ultimo task inserito, quindi va da sé che se ha il controllo numero chiusura COGE il phasing riporterà quel dato di chiusura COGE, però mi piacerebbe anche analizzare, avere modo di analizzare l'evoluzione di questa cosa, se sia una commessa che è partita da 96 mila Euro sto inventando ed è stata chiusa a 37, vorrei capire cos'è successo. Sta leggendo così. Che cosa è successo? Vedere l'evoluzione completa, poi da lì ovviamente si potrebbe inserire qualsiasi altro tipo di analisi che lo strumento ci può dare. LM.
+
+12:03 - Carlo Sanvoisin
+Dipende da dove è il dato che indica perché sono avvenuti questi cambiamenti, perché oggi da questa schermata anche se la facessi analizzare un agente di intelligenza artificiale lui mi potrebbe dire quello che possiamo vedere noi, cioè che c'è stata un'evoluzione del budget con una riduzione drastica da 96 a 36 e via dicendo, però guardando questa schermata qui non è che potrebbe dire altro, quindi a meno che voi non avete un'altra sezione dove per ognuno di questi cambiamenti delle note, dei commenti o qualsiasi altra… Ti ricordo che ogni dato viene estratto come totale, 6 budget e avanzamenti budget viene estratto da fogli Excel che sono I fogli Excel degli avanzamenti budget, per cui lì però non sono tutti precostituiti nello stesso modo.
+
+13:04 - Conference Room (Milena Stucchi) - Speaker 1
+Ci sono delle macrovoci con dei dettagli successivi che li portano sul totale, però non sono fissi, se non quelli che vengono usati con il format dei clienti, perché alcuni clienti vogliono il proprio format, per ovvi motivi perché così è paragonabile area di voce rispetto area di voce, noi invece non ce l'abbiamo, quindi già avevo capito che forse il concetto era può analizzare I pezzi di budget, se però vado a comparare lo stesso tipologia di settore e quindi dire per esempio, siamo arrivati a 36, perché? Perché nell'area, sto inventando, nell'area allestimenti c'è stata una riduzione del budget stesso, perché sono partiti da 50 mila e poi sono stati però immagino che la gente deve pescare su quella macro voce, non a caso.
+
+14:07 - Conference Room (Milena Stucchi) - Speaker 3
+Allora, dovrei vederlo l'Excel, nel senso bisogna vedere… Si, te ne procuro magari un paio in modo che quello che è insonoma ce l'abbiamo fatto vedere… Sì, perché qui su una vision quello che viene memorizzato è l'atto ricave e l'atto costi qual è il previsionale, poi quello che viene inserito preso dall'Excel sono sempre I totali, quindi il totale dei ricavi e il totale dei costi, non viene inserito il dettaglio e quindi la motivazione per cui è cambiato e su quale tipo di area è cambiato. Qua viene inserito solamente a totale l'aggiornamento.
+
+15:12 - Carlo Sanvoisin
+Allora, diciamo che innanzitutto dovrei vedere questo Excel e poi vorrei capire un attimo lavorate nel senso? Voi lavorate su questo Excel offline, poi quando siete sicuri del dato lo andate a riportare questo dato finale sul gestionale, su Dynamics?
+
+15:38 - Conference Room (Milena Stucchi) - Speaker 1
+Chi lo gestisce è una persona operativa, quindi lavora all'interno delle cartelle della rete operative e va a fare tutte le sue dire cambiamenti e tutto, lo invia a me e io lo vado a tenere come repository di un dato che mi viene trasmesso come totale. Se tu entri in rete magari ne becchiamo uno a caso?
+
+16:06 - Carlo Sanvoisin
+No, più che altro perché da questa schermata qui del gestionale non è che si possono fare particolari analisi se non quelle che già fate con Power BI, magari vedendo Excel si può approfondire un pochino di più questa analisi, possono essere riportate quelle ragioni di cambiamento budget che mi citavate, sicuramente andrebbe studiata la struttura dell'Excel per capire se effettivamente un agente è in grado di comprendere il contesto, capire che ci sono delle aree differenti, che per ogni area è avvenuto un cambiamento… apriamo uno, te ne facciamo vedere uno, più o meno sono tutti fatti in questo modo, c'è un trasporto aereo e lì c'è 845 per 400 persone tutto, sistemazione alberghiera, qui ha 4 hotel, ce ne possono essere 20, ce ne può essere uno, però non hanno stessa dinamica, nel senso che Graviat Hotel e Villa in questo caso ci sono camere twin e cose, in altre parti magari c'è camere twin, camere doppie, camere… No ma non è così importante l'argomento o comunque quello che c'è scritto nella cella, per esempio la cosa che mi spaventerebbe di questo Excel è il modo in cui è formattato, vedo per esempio il fatto che ci sono due tabelle una accanto all'altra, il fatto che nelle intestazioni ci sono delle righe emergiate, ci sono le immagini, questo per esempio a livello di analisi non è il massimo.
+
+17:56 - Conference Room (Milena Stucchi) - Speaker 1
+LM. Tutto questo può essere ovviamente messo a posto, perché se il concetto è che usiamo un format, tanto è vero che I clienti che ci obbligano ai loro format sono molto più lineari e meno arzibogolati. Perché probabilmente loro al loro interno con quel format lo usano per fare qualcosa ovviamente, però questa è la logica un po' del foglio Excel usato come un foglio appunti, per cui nella parte sinistra c'è quello che in teoria è la vendita, nella parte destra è la parte che chiamiamola costi. Parlarsi ma potrebbero anche non parlarsi su riga per riga, perché? Perché magari il totale di vendita raggruppa due o tre righe dei costi e quindi non parla esattamente riga su riga.
+
+18:58 - Carlo Sanvoisin
+Diciamo che da quello che vedo qui in questo Excel, attualmente bisognerebbe fare un lavoro dargli una struttura tale per cui un agente di intelligenza artificiale riesce effettivamente a leggere I dati e a fornirvi quelli che sono gli insight richiesti. Ad oggi così si potrebbe anche provare, però il risultato potrebbe essere molto variabile. Secondo me qui è da capire innanzitutto quali e analisi vorreste fare su questo tipo di dati? Una volta che abbiamo definito esattamente quello che è il vostro need, quello che è il vostro obiettivo dal punto di vista dell'analisi e rispetto a questi dati, allora intanto facciamo una valutazione, cioè cambiare completamente il vostro modo di lavorare e modificare questa struttura per renderla più lineare, più leggibile da un agente di intelligenza artificiale. Da una parte voi dovreste cambiare il vostro modo di lavorare, da un'altra noi dobbiamo costruire uno strumento che fa analisi su questi dati e che comunque prevede chiaramente un costo di sviluppo e implementazione. Oggi mi avete detto semplicemente come cambia il budget nel corso della commessa e per Allora io faccio l'avvocatore del diavolo e vi chiedo, questa informazione per voi è talmente importante da modificare il vostro modo di lavorare e andare a sostenere un corso di sviluppo per una tool di analisi? E questa è una valutazione che dovete fare voi.
+
+20:52 - Conference Room (Milena Stucchi) - Speaker 1
+Io trovo Carlo che non sia però il cambio di modo di lavorare, è usare uno strumento univoco, formattato, perché oggi è vero che il modo di lavorare è il nostro, però è adattato a ogni singola persona con il suo proprio modus operandi, perché? Perché tu mi insegni che di fronte a un Excel c'è quello che ci mette il colorino, c'è quello che ci mette il loghino, c'è quello che scrive il numero e poi non lo riporta dall'altra parte, c'è anche quello che anziché scrivere scrive 150 e mi sbaglia il budget, perché scrive 150 e si dimentica uno zero e quindi probabilmente non vuol dire modificare il mio modo di lavorare, ma è dare una situazione formattata di uno strumento che ti permette di non fare quell'errore, perché magari semplicemente nel momento in cui scrivo uno zero in meno, vedo un alert che magari il foglio Excel stesso formatato mi dà e quindi mi accorgo di aver dimenticato uno zero. Oggi sono nelle mani, purtroppo, della professionalità di chi guarda questo file.
+
+22:11 - Carlo Sanvoisin
+Questo non cambierà mai fintanto che il resto è su Excel, cioè per ottenere questo cambiamento che dici tu, allora bisognerebbe proprio mettere in piedi un altro sistema, altro applicativo che è l'applicativo budgeting e dentro questo applicativo vi ritrovate diciamo la possibilità di andare a fare tutte quante queste operazioni chiaramente come dicevete in maniera guidata cioè se ci sono dei passaggi da seguire in un certo ordine tu li devi seguire in quell'ordine se un certo valore deve essere espresso in migliaia dovrà essere espresso in migliaia e via dicendo quindi questo è chiaramente possibile anzi è il modo in cui lavoriamo noi e infatti una grande difficoltà proprio di questo progetto è che voi lavorate su tanti Excel, che non sono proprio il modo standard di lavorare, anzi dal punto di vista dell'informatica, dell'analisi rende tutto quanto più complicato e quindi chiaramente… LM.
+
+23:10 - Conference Room (Milena Stucchi) - Speaker 1
+Mi hanno già dato una risposta al nostro incontro di venerdì a questa cosa, perché faccio finta di che questa cosa funzioni, però so quali sono le limitazioni? Perché è un foglio Excel.
+
+23:24 - Carlo Sanvoisin
+Se c'è una volontà da parte vostra di modificare questo approccio Excel in virtù di un approccio da applicativo, quindi a quel gestionale che voi avete, andiamo a aggiungere, non vi dico un altro sottogestionale, comunque un altro applicativo che si può anche parlare con Dynamics in maniera tale che magari certi passaggi anche si fanno in maniera automatica, cioè per esempio riportare la sommatoria finale del budget su Dynamics potrebbe essere qualcosa che viene fatto in automatico nel momento in cui io ho confermato il budget sul mio applicativo, quindi vi dico assolutamente possibile chiaramente è un progetto un pochino più importante nel momento in cui decidete di creare un applicativo che deve prevedere poi una serie di campi, di casistiche diverse. Cioè qui mi pare di capire che voi dovreste aprire un nuovo case per ogni commessa e su questo nuovo case poi dovete andare a segnare praticamente tutte queste voci che riguardano budget e costi, che poi dovremmo andare a studiare insieme, in tutte le forme che queste possono assumere, capire un attimo qual è il procedimento, chi può avere accesso, chi non ha accesso, chi ha accesso e che cosa ci può fare, chi è che deve confermare… In questo senso cambiare il modo di lavorare, cambiare strumento.
+
+25:06 - Conference Room (Milena Stucchi) - Speaker 1
+Cambiare strumento in questo senso, sì. Chiarissimo, direi.
+
+25:10 - Carlo Sanvoisin
+Su questo si può fare un approfondimento, chiaramente, cioè, qual è il punto? Noi possiamo trasformare completamente questo Excel in un applicativo, anche abbastanza semplice, guidato, con una procedura, con delle conferme, con dei valori fissi che si possono mettere, con delle procedure obbligate e via dicendo. Sulla base di quell'applicativo, poi, chiaramente, è molto più facile fare qualsiasi tipo di analisi, di reportistiche, dicendo perché ci sono dei dati ordinati che appartengono, diciamo, cioè quel dato può stare solamente in quella categoria, in quella cella e via dicendo, quindi non si deve più giostrare questo Excel e cercare di fare un'analisi, fra virgolette, qualitativa, cercando di ogni volta capire il senso di un Excel diverso, ma avrebbe una base dati ordinata, strutturata, per la quale poi andrebbe a fare dell'analisi sicuramente molto più precise e probabilmente anche altre analisi rispetto a quelle che avevate preventivato, quindi oltre a vedere cambiamenti di budget, magari riusciamo a fare anche un'altra tipologia di analisi, quindi cambiamenti di margine… tutto quello che ci siamo detti, perché fa parte di quell'area lì, questo sicuramente… Comunque tutto questo, perché parlavamo analisi di scortamento budget, analisi dei fornitori, comparazioni dei preventivi, suggerimenti di nuove opportunità, tutte queste robe qua nascono analizzando dei dati che sono ordinati, se no uno si racconterà la varia fava guardando questa roba qua, fondamentalmente. Ditemi voi, se mi volete fare un approfondimento su questo Excel e me lo volete dire un po' meglio?
+
+27:19 - Conference Room (Milena Stucchi) - Speaker 1
+Ce lo appuntiamo magari come opportunità, però partendo da quel discorso, poi entra nell'analisi di tutte quelle che sono le cose richieste da noi bar ai nostri colleghi e capire con la direzione quale è l'approccio, perché tu mi insegni che questo modo di lavorare è un modo di lavorare che viene fuori da una mentalità che è analoga a quella del progress e via discorrendo, per cui vorrebbe dire fare proprio un cambiamento d'approccio Alla fine risulta più semplice perché tu non ti trovi più davanti a un Excel tutto colorato con centomila celle da compilare, ma ti ritrovi davanti a uno strumento che ti dice tu hai tre azioni, aprire la commessa, una volta che l'hai aperta devi inserire il nome del cliente, il nome del progetto, il budget iniziale e via dicendo. Quindi diciamo che poi in realtà è uno strumento che supporta l'utente a Dipende se vuoi lavorare con il metodo anni 2000 o vuoi lavorare con il metodo anni attuali e futuri fondamentalmente, detto fra le righe. Allora invece io ti faccio vedere adesso, c'è questa cosa, noi abbiamo una serie di aziendali che vengono gestite tutte con carte carburante, noi riceviamo dal fornitore una fattura mensile quindi cinale, la facciamo vedere mentre parlo, stanno recuperando, che dobbiamo fare in modo di suddividerla su commesse, in modo da ovviamente fare poi la registrazione contabile, questo è un lavoro che sottoscritta fa a manella un po' a sentimento mi piacerebbe capire se è fattibile prendendo quel tipo di supporto che mi viene estratto dalla fattura del fornitore creando una sinergia che possiamo capire qual è con il nostro... Ok no aspetta che si è bloccata la situazione, va bene? Capire se ci sono delle opportunità per far sì che la sottoscritta o chi per me non debba farlo a mano, anche perché ogni quindici giorni arrivano a fatture e ogni quindici giorni devo fare il suo lavoro. Poi sono sempre in ritardo quindi lo faccio una volta ogni tre mesi con sei fatture, tirando relative madonne ovviamente.
+
+30:16 - Conference Room (Milena Stucchi) - Speaker 2
+faccio vedere, noi per le fatture che vengono emesse riceviamo questi due file in una mail, sia il pdf che è nativo, sia l'excel, la chiave di lettura dovrebbe essere quello che è questa colonna qui e cioè il driver number.
+
+30:50 - Conference Room (Milena Stucchi) - Speaker 1
+Sì, oppure il periodo in cui è stato fatto quel discorso di carburante e attribuirlo a una commessa che abbia più o meno quel periodo.
+
+31:02 - Carlo Sanvoisin
+Mi sembra abbastanza empirica questa seconda come regola. No, però io ti posso, sì, però estraendo… Cioè se avete fatti I due nello stesso periodo, poi come fate a gestire? Va bene anche averne due nello stesso periodo.
+
+31:21 - Conference Room (Milena Stucchi) - Speaker 1
+Scusami, questi sono I costi di trasferimento?
+
+31:25 - Conference Room (Milena Stucchi) - Speaker 2
+Costi carburante, le persone che hanno l'auto aziendale per gli spostamenti relativi alle commesse.
+
+31:34 - Conference Room (Milena Stucchi) - Speaker 1
+Il problema è che non è che io faccio il pieno carburante perché vado a fare quella commessa, io faccio il pieno della mia vettura perché il mio è un fringe benefit fondamentalmente, quindi non lo uso per fare quella attività lì, però a livello aziendale mi conviene che questo costo vada a fronte di un lavoro fatto e viene utilizzato come spesa di gestione sulla commessa stessa. Io che ho la macchina aziendale non vado mai sulle commesse, ma se faccio il pieno, sto inventando, il 15 febbraio e in quel periodo c'è quel tipo di commessa, il mio pieno va a finire su quella commessa. Non ci può essere, perché ovviamente se quella commessa è a Berlino è evidente che io non vado a Berlino in macchina, ma saranno quelle commesse che hanno uno svolgimento in Italia fondamentalmente, però se il grosso viene indirizzato è più facile poi fare le diversità, mettere a punto le diversità.
+
+33:06 - Carlo Sanvoisin
+del spese carburante la fate solamente sulle commesse in Italia e quelle estere le gestite manualmente o gestite in un altro modo?
+
+33:18 - Conference Room (Milena Stucchi) - Speaker 1
+In questo momento le commesse estere, se sono grosse e capienti, presuppongo di mettere dei costi carburanti perché mi immagino delle visite dal cliente in Italia, quindi non per l'evento. In una situazione successiva, ma se le 40 righe tendenzialmente vado a metterle bene per 30 situazioni, devo solo gestirne 10!
+
+33:49 - Carlo Sanvoisin
+Da qua si vede una distinzione se le posso associare a una commessa italiana o meno?
+
+34:02 - Conference Room (Milena Stucchi) - Speaker 2
+che viene riportata alla stazione di servizio dove è stato fatto il carburante, quindi c'è l'indicazione della provincia o comunque del posto dove è stata fatta.
+
+34:29 - Carlo Sanvoisin
+e poi sei tu che lì vai a ripartire su delle commesse italiane, a meno che non ci sta quell'eccezione che dici oddio questo lo posso mettere anche su una commessa estera. Però questo secondo ragionamento viene fatto a fronte di un'altra schermata, di un'altra visione che è quella che voi avete sul gestionale, su Dynamics, che vi indica quali sono le commesse di quel periodo. Da una parte è questo Excel dove ci sono tutti I costi divisi per appunto codice driver e periodo, da un'altra parte è la schermata delle commesse che sono attive in quello stesso intervallo di tempo e ad oggi tu fai manualmente questa associazione costi commessa.
+
+35:18 - Conference Room (Milena Stucchi) - Speaker 1
+Io ti dico che cosa faccio tecnicamente, apro questo file che mi arriva, apro il file dell'estratto delle commesse, metti che questa fattura mi è arrivata il 15 aprile, prendo, seleziono le commesse di aprile e vado a fare il match, seleziono solo le commesse di aprile e dico questi costi vanno su, se sfiga vuole le commesse sono poche in aprile, ma in realtà non c'è sempre abbastanza materia, comunque se metti che per caso le commesse sono poche, io non solo prendo il mese di aprile, ma prendo quelle di marzo e quelle di aprile, presupponendo che chi fa pieno di benzina, oppure aprile e maggio, no meglio aprile e maggio, presupponendo che chi fa benzina ad aprile magari lo utilizza anche nel mese di maggio per delle commesse di maggio, quindi a seguire faccio questo.
+
+36:20 - Carlo Sanvoisin
+Diciamo che qui sarebbe utile avere appunto questo Excel di partenza e avere il confronto della schermata che tu usi, quella dello scarico delle commesse come l'hai chiamata prima, e darci praticamente queste regole che tu mi stavi citando. Quindi la regola primaria è trova il match fra gli intervalli di tempo. Poi ci saranno una serie di regole secondarie ovvero se il match non è esatto quelle di marzo le vai a ricollocare su questo altro mese oppure se trovi due commesse che hanno lo stesso intervallo di tempo come gestisci quel costo cioè se lo dividi a metà fra una commessa e l'altra e via dicendo quindi allora non è impossibile diciamo che la variabilità di questi dati lo rende sicuramente più complicato, perché come dicevi prima non è che ci sta un match esatto tra l'intervallo di tempo della commessa e quello in cui si è generato il costo, però potrebbe darti fra virgolette una specie di replicativo bozza iniziale dal quale tu puoi sicuramente lavorare e trovarti l'81% del lavoro fatto.
+
+37:44 - Conference Room (Milena Stucchi) - Speaker 1
+si crea una condizione per cui devo solo guardare, nei momenti topici non lo guardo, viene registrato questo, lo si mette a posto dopo, tra virgolette. Quindi io sto pensando che cosa potresti fare?
+
+38:04 - Carlo Sanvoisin
+Questo lavoro andrebbe fatto, mi dicevi inizialmente una volta ogni quante settimane?
+
+38:11 - Conference Room (Milena Stucchi) - Speaker 1
+E ogni volta? Due volte al mese, perché poi sono due tipi di estratti, perché uno è le carte Utah, l'altro sono le carte di KV, ma che hanno la stessa situazione, perché sono I gestori. Per cui, come dire, due file ogni 15 giorni, potrebbero essere quattro file una volta al mese, se lo vogliamo dire così.
+
+38:33 - Carlo Sanvoisin
+Ma questo dipende, questa tempistica dipende dalle tempistiche in cui voi ricevete queste perché le fatture arrivano correttamente al 15, al 30 del mese, dipende la mole di lavoro nostra nel farlo subito o nel farlo subito dopo, oppure subito dopo un mese. Le ricevete, le mettete in queste cartelle su SharePoint, giusto?
+
+39:13 - Conference Room (Milena Stucchi) - Speaker 3
+Sono sul cartelle di rete.
+
+39:16 - Carlo Sanvoisin
+Ok, quindi ad oggi, diciamo il processo sicuramente più rudimentale che mi viene in mente, una volta il 15, una volta il 30, una persona si deve assicurare che sono state collocate le fatture nelle giuste cartelle online, che siano più SharePoint o che siano sul server, il fuoco cambia. Invece questa persona poi deve fare anche però lo scarico in un certo senso del gestionario, io immagino che questa vista con le varie commesse divise per intervalli di tempo si può scaricare, no?
+
+39:59 - Conference Room (Milena Stucchi) - Speaker 2
+Certo, sì.
+
+40:00 - Carlo Sanvoisin
+Quindi a quel punto la gente dovrebbe acchiappare da una parte il relocativo delle fatture, da un'altra quello delle commesse e metterle a confronto sulla base del intervallo di tempo creando poi questo match. Poi oggi questo lavoro come lo fate? Nel senso, da una parte avete il foglio delle fatture, da una parte avete quello delle commesse e poi cosa andate a creare? Cioè andate a creare un ulteriore report oppure un dato che andate a registrare sul gestorale?
+
+40:40 - Conference Room (Milena Stucchi) - Speaker 1
+Adesso io banalmente nello scarico della fattura del fornitore inserisco una colonna e scrivo dentro la commessa.
+
+40:50 - Carlo Sanvoisin
+Ok, quindi su questo file qui scrivete?
+
+40:53 - Conference Room (Milena Stucchi) - Speaker 1
+Sì, perché per me è più facile scriverlo io dentro.
+
+40:59 - Carlo Sanvoisin
+Ma queste altre colonne sono utili oltre a quelle di cui mi hai parlato?
+
+41:08 - Conference Room (Milena Stucchi) - Speaker 2
+Allora è utile sicuramente la Mount Novat perché noi poi dall'alto amministrazione nel momento in cui sono valorizzate tutte le commesse per numero di documento commessa e importo andiamo a fare un semplicemente una pivo per poi registrare il documento contabilmente sulle giuste commesse.
+
+41:56 - Conference Room (Milena Stucchi) - Speaker 1
+Inserisco quella bella colonna com, il concetto com proveniente da Vasco Rossini può essere cambiato!
+
+42:10 - Conference Room (Milena Stucchi) - Speaker 1
+Come fatturate, se fatturate con una società piuttosto che un'altra?
+
+42:19 - Carlo Sanvoisin
+Com è il numero di commesso.
+
+42:24 - Conference Room (Milena Stucchi) - Speaker 2
+Il numero di commessa essenzialmente è questo, poi si compone del numero dell'anno, perciò 24 sarà una commessa del 2024, 25 una commessa del 2025, una lettera che indica N sono quelle no loop, quindi tutte le commesse a cliente, le S sono invece delle commesse di spese generali, sempre dell'anno di no loop, la O sono commesse individuali, perciò sono clienti, persone fisiche che fanno questi eventi. Secondo me ti hanno parlato delle 25 K che sono differenti dalle 25 N, perché sono le commesse della figlia di No Loop, la Not.
+
+43:41 - Conference Room (Milena Stucchi) - Speaker 1
+C'è un'altra società fondamentalmente, però questi numeri di commesse sono quelli che avrai sentito nominare quando si dice apriamo la commessa, entra una lavorazione nuova, il gestionale, Dynamics, apre una commessa prendendosi I valori di quel famoso budget iniziale all'apertura della commessa stessa, è la codificazione dell'evento che entra, del business che Allora, quello che mi viene in mente oggi praticamente potrebbe essere il seguente metodo, ovvero ricreiamo un'interfaccia all'interno della quale di volta in volta voi trascinate dentro l'Excel dove ci sono I costi, io li ho chiamati costi di trasferimento, quelli che sono relativi carburante.
+
+44:43 - Carlo Sanvoisin
+Di questo file io forse lo andrei a pulire un pochino perché se non riservano tutte quante queste colonne è inutile poi che allo strumento gli diciamo di considerarle oppure anche senza pulirlo essenzialmente gli diamo l'indicazione di quali colonne deve guardare e in quel caso chiaramente le colonne si devono chiamare sempre nello stesso modo quindi ogni volta che gli passo un file se la colonna che mi interessa a me per esempio è datetransfer, come si chiama la colonna F, datetransfer.
+
+45:16 - Conference Room (Milena Stucchi) - Speaker 1
+Ma arriva dal fornitore, quindi per forza è sempre lo stesso, a meno che sia il fornitore che cambia l'applicativo.
+
+45:24 - Carlo Sanvoisin
+Io spero che sia un fornitore unico, ne avete più di uno?
+
+45:28 - Carlo Sanvoisin
+Sono due I fornitori.
+
+45:30 - Carlo Sanvoisin
+Sono due e hanno la stessa metodologia o sono due Excel diversi?
+
+45:35 - Conference Room (Milena Stucchi) - Speaker 1
+No, sono due Excel diversi.
+
+45:37 - Carlo Sanvoisin
+Ok, quindi noi dovremmo dare due regole senza una per un fornitore, una per un altro in cui gli facciamo riconoscere che le colonne che lui deve guardare sono sicuramente quella dei costi e quella degli intervalli di tempo e poi lui dovrebbe pescare da a questo punto non so se possiamo fare un'integrazione diretta con il gestionale dovrebbe pescare diciamo le commesse che sono avvenute in quel periodo di tempo e fare I match e restituirvi un altro Excel che poi potete scaricare che sarebbe l'Excel quello in cui avete costo commessa, codice driver e con l'associazione già fatta. L'unica cosa che mi chiedo è appunto quanto sia fattibile di integrare l'applicativo con Dynamics e questo bisognerebbe vedere se Dynamics appunto espone dell'API oppure dovrebbe essere per voi un ulteriore passaggio che tra l'altro è da mettere essenzialmente l'Excel dentro quello dei trasferimenti, ci dovete mettere anche quello delle commesse. Quindi a quel punto sarebbe, cioè il lavoro piuttosto che mettersi lì, scaricare tutti quanti I dati e fare le associazioni manualmente, il lavoro diventerebbe due volte al mese, una volta ci porto dentro l'Excel dei trasferimenti, una volta ci porto dentro l'Excel delle lui in quei cinque minuti fa le sue associazioni e ti dice il report è pronto, lo scarichi e ti tiri fuori il tuo Excel con le associazioni e ci lavori sopra eventualmente per fare le modifiche necessarie. Questo è ad oggi quello che mi viene in mente, chiaramente sempre come il solito leitmotiv per vedere se questo è praticabile avrei bisogno di un Excel insomma di tutte e tre gli Excel, quindi ad oggi un Excel sui trasferimenti più un Excel delle commesse per poterli mettere a paragone, un esempio di Excel finale dove avete fatto già l'associazione e poi mettere a confronto l'associazione fatta dall'agente con quella fatta da voi e verificare quanto è stato accurato. Chiaramente anche le regole di cui mi avete parlato, quindi la regola di associazione per esempio dell'intervallo di tempo è una regola abbastanza variabile, non è una regola precisa al millimetro, quindi a maggior ragione se mettete la regola principale più le eccezioni che si possono verificare, come quelle che mi dicevate prima, magari associo delle spese del mese successivo quando non ne trovo a sufficienza e via dicendo, queste regole anche me le dovreste, fra virgolette, standardizzare. Per iscritto in maniera tale che, come ci dicevamo anche l'altra volta, queste diventano come delle istruzioni che noi diamo a questo nostro nuovo dipendente per permettergli di svolgere il lavoro. Quindi io gli devo dare I dati in entrata, le regole su come trattare questi dati in entrata e poi verificare che il dato in uscita è allineato a quelle che erano le nostre aspettative.
+
+48:53 - Conference Room (Milena Stucchi) - Speaker 1
+Mi è chiaro, mi è chiaro. Sì. Ok.
+
+48:58 - Carlo Sanvoisin
+Mi direi che questo caso si potrebbe gestire in questo modo.
+
+49:04 - Conference Room (Milena Stucchi) - Speaker 1
+Perché può farvi lavorare solamente...
+
+49:07 - Carlo Sanvoisin
+Allora, innanzitutto questi strumenti lavorano meglio quando noi portiamo I dati dentro un applicativo, piuttosto che farlo lavorare su Excel. Quindi sicuramente questo passaggio di far un drag and drop dentro un applicativo in cui noi già abbiamo segnalato per esempio le colonne da guardare cioè se io gli dico quando tu mi porti dentro l'excel tieniti colonna A, B ed F lui tutti gli altri dati li scardina non li considera se invece io gli dico di lavorare su un excel lui necessariamente si ritrova davanti tutti quei dati e questo potrebbe portarlo a ridurre le sue performance o comunque a gestire una serie di dati che teoricamente non gli interessa, non devono interessargli perché tanto non ci interessano. Esattamente, invece fare questo passaggio per un applicativo ci permette di dargli delle regole più precise e di farlo concentrare su quelli che sono I dati. Sì, però è sempre un trade off perché in questo caso anche si prevede la creazione di una che chiaramente è uno sviluppo, quindi sempre ritorno al nostro discorso, stiamo parlando di tanti casi l'uso, stiamo parlando di tanti sviluppi, bisogna fare una priorizzazione perché è proprio a livello sia di effort, di tempi e di risorse.
+
+50:35 - Conference Room (Milena Stucchi) - Speaker 1
+Abbiamo visto che Paolo Donzelli ha fatto quel Remind sulla rincopia, sul concetto di fare in modo che tutti quanti noi fissino l'appuntamento con voi e fare quindi poi dopo un match di tutte le richieste, quindi evidentemente ci saranno le priorità, che magari non sarà questa del lavoro tecnico rispetto ad altre, però magari uno dice ok, questo lavoro qui se lo fa la sottoscritta per I prossimi tre mesi come ha fatto fino ad oggi, ma però nel 2026 sappiamo che questa cosa è fattibile e allora pensiamo nel primo quadrimestre di inserire un'applicazione di questo genere.
+
+51:16 - Carlo Sanvoisin
+perché sono poche, cioè se tu puoi vedere nel dettaglio, sono pochi dati da guardare, cioè qui veramente la regola, l'unica cosa difficile di questo strumento è che la regola che tu mi hai dato è un po' ampia, quindi non è una regola matematica, ma è una regola che prevede una valutazione, quindi comunque ci stiamo un po' affidando, l'intelligenza artificiale e stiamo, fra virgolette, dovremmo capire con dei test quanto la valutazione fatta dall'intelligenza artificiale si avvicina poi alle valutazioni che fate voi, perché se tu mi dici l'intervallo può avere diciamo un discostamento di tempo anche di tre giorni, quindi per dire anche se per tre giorni non c'è un match esatto fra le date io posso comunque fare questa associazione, quindi messa a costo. Poi il giorno che invece sono quattro giorni, quella volta che sono quattro giorni lui non riconosce più la regola e quindi non te lo associano in modo in cui avresti voluto tu. Quindi questa è la mia unica preoccupazione. Diciamo che su questo mi dovreste dare voi in maniera quanto più precisa possibile delle regole e poi vedere come le applica e se se per voi è soddisfacente. Fra I vari casi di uso che abbiamo visto questo deve guardare essenzialmente tre colonne, costi, commesse e intervalli. Pensi che sulla parte di intervalli di tempo ci siano effettivamente tante eccezioni o nella maggior parte dei casi si trova una coincidenza?
+
+52:59 - Conference Room (Milena Stucchi) - Speaker 1
+Direi che se il file nell'estrazione delle commesse non è automatico da Business Central è quello che, tra virgolette, pongo io, io ti libero di tutte quelle che possono essere quelle che possono creare la cosa. Perché? Perché non tutte le commesse hanno un'identificazione di data, perché ci sono business che magari coprono tre mesi, oppure sono business di servizio video che non c'entrano niente con quello che sono, sono che non sono legate alla data dell'effettuazione, io le vado a togliere e non gliele faccio già considerare a priori, perché tanto quando io estraggo I miei commesse, se io devo pensare di far ragionare lui solo sulle, ritorniamo al discorso, la fattura è quella del mese di aprile, è messa il 15 aprile, io gli farò vedere solo quelle un po' come quando io le filtro, vi faccio vedere solo quelle e tolgo quelle che sono dubbiose.
+
+54:10 - Carlo Sanvoisin
+Certo, assolutamente. Allora, se si fa questo lavoro prima, allora a maggior ragione poi dovremmo essere diciamo abbastanza sicuri che il risultato sia accurato, però chiaramente è un processo che automatizziamo a metà, perché da una parte uno comunque si deve assicurare che ci siano tutti quanti I file delle fatture registrate nel modo corretto, da un'altra parte bisognerebbe fare lo scarico del gestionale, pulire un po' il dato, fatto questo si trascinano gli Excel dentro l'applicativo, l'applicativo fa le associazioni e ti risputa fuori l'output finale con le associazioni fatte. Partibile, assolutamente, non è neanche troppo complesso rispetto ad altri casi d'uso che abbiamo visto, quindi io questo gli darei una complessità bassa, poi sarebbe da voi di far una valutazione su quanto tempo impiegate oggi su questa lavorazione.
+
+55:08 - Conference Room (Milena Stucchi) - Speaker 2
+Scusate aggiungo solo un elemento, ti dicevo il timesheet perché in realtà quello che ci manda DeGioia è un cumulativo, ma in realtà loro lo compilano giorno a giorno, ora a ora.
+
+55:23 - Conference Room (Milena Stucchi) - Speaker 1
+Però il cumulativo lavora su quel mese e quindi si presuppone che se tu quel giorno hai lavorato su tre commesse… magari quella commessa lì è del 2026, è una roba che non è un evento magari confermato, quindi è comunque un dato che tiro fuori, perché noi abbiamo un altro file che arriva in modo tra virgolette automatico che è il time sheet, quello che tutti I dipendenti fanno ogni mese in base loro a carico lavoro e quindi attribuendo il loro tempo alle commesse in base a percentuali che il sistema di Zucchetti ci dà, l'applicativo ci dà. Detto questo però lì c'è dentro di tutto, c'è dentro anche quello che sono pratiche non concretizzate, noi abbiamo più interesse di non mettere su quelle concretizzate e poi eviterei di spaccare troppo una fattura.
+
+56:19 - Conference Room (Milena Stucchi) - Speaker 2
+Sì, è la sua maniera di ragionamento.
+
+56:24 - Conference Room (Milena Stucchi) - Speaker 1
+Io faccio la preview perché così tu hai idea di quello che abbiamo già visto con Marco Merli l'altro giorno e poi Elisa ti espone la sua idea. Come hai visto l'altra volta, noi abbiamo una cartella all'interno della rete che raccoglie tutte quelle che sono le procedure, quindi non I processi, ma le procedure che sono tecnicamente legate ai modus operandi delle attività operative, per cui ti dicevo io lavoro poi in coppia con quello che è la parte amministrativa, perché quelle sono situazioni che vanno poi a identificare il lavoro di loro che gestiscono la parte amministrativa. Quindi fai conto di tutte quelle procedure che sono all'interno della cartella procedura e tieni conto che c'è una cartella in un altro percorso, analoga, dove anziché soltanto il PDF c'è anche il Word, perché ovviamente per fare il PDF io parto dal Word, questo ti piace un po' di più. Detto questo, la nostra necessità al di là di aggiornare le procedure come abbiamo detto l'altro giorno, io oggi faccio una modifica e devo rifare tutto il processo a manella di questa cosa e lì abbiamo già visto che l'intervento può essere fatto. Però che cosa creiamo alle persone? Creiamo anche il fatto che è vero che in rete ci sono quelle procedure, però in teoria le persone che entrano per ricordarsi di una particolare situazione o chiedono o devono andare a spulciarsi un elenco di 30 procedure e cercare un po' la sua risposta all'interno.
+
+58:28 - Conference Room (Milena Stucchi) - Speaker 2
+Quindi da qui Elisa dice, Rai? No, quella che era l'idea era creare una chatbot essenzialmente, cioè questa chatbot dove facendo la domanda questo agente va a ricercare nelle varie procedure e magari mette insieme la domanda.
+
+58:49 - Carlo Sanvoisin
+Si può fare assolutamente e ripeto anche questo, il fatto che voi avete già una repository di dati molto ben ordinata, strutturata e aggiornata lo permette a maggior ragione. Quindi qui si tratterebbe di trasformare quella repository in una specie di nulla base dell'intelligenza artificiale in maniera tale che a domanda dell'utente lui risponde andandosi a controllare fra virgolette questi documenti interni. Quindi lì la parte diciamo fra virgolette più complessa è quella di spiegare alla gente l'intelligenza artificiale qual è la struttura di questi file. Perché? Perché io non posso Ogni domanda dell'utente lui prende e controlla I 150 documenti che sono dentro la repository, lui deve essere guidato, quindi in poche parole dobbiamo spiegare, è come se noi dovessimo dargli da una parte tutti quanti I documenti e da un'altra un documento che spiega la struttura dei documenti, cioè gli dice esattamente cosa trova in ogni cartella e cosa trova in ogni documento e quindi una specie di linea guida per rispondere all'utente quindi se l'utente ti fa una domanda su una procedura la procedura è d'andarsi a ricercare nella cartella appunto procedure del duemilaventicinque eccetera eccetera quindi dovremmo capire bene com'è creato questo albero di di cartelle con tutti quanti I documenti che voi avete dentro e poi creare quest'ulteriore documento in cui spieghiamo essenzialmente come funziona questa struttura all'agente e dargli praticamente delle regole per rispondere, cioè se ti chiedono questo ambito di domande qui, se ti fanno una domanda che sta in questo ambito, tu devi rispondere seguendo questo documento qui e via dicendo.
+
+1:00:56 - Conference Room (Milena Stucchi) - Speaker 1
+Sì magari dandogli anche delle indicazioni preventive, cioè le prime domande mi immagino I vari servizi di help online che ci sono, prima di tutto ti chiedo di che argomento mi vuoi parlare, il mandato di pagamento e quest'altro di modo che lui già sa a quale, piuttosto che il documento andare a pescare e… lega in quel momento lì, a me capita quando faccio queste cose qua, uno dice ok dove trovo quel documento per… e uno ti dice ok lo trovi lì, piuttosto che ti rimanda, piuttosto che ti dà anche un aiuto nel cercare quella risposta lì.
+
+1:01:49 - Carlo Sanvoisin
+Leggitela. Sempre fattibile, qui è una questione appunto di privacy dei dati, perché oggi voi li avete sul vostro server immagino sempre. E appunto bisognerebbe capire se si può collegare diciamo in maniera automatica eventualmente un agente di intelligenza artificiale con il vostro server per restituire il link che vi rimanda alla cartella corretta oppure effettivamente se dovreste riportare tutti quanti questi file su lo stesso server dove gira l'applicativo di intelligenza artificiale in maniera tale che lui magari invece ti ridà indietro direttamente il pdf scaricabile. Questo è un ragionamento che va approfondito però qui ci si mettono di mezzo diciamo tutte quante le vostre polisi sul trattamento dei dati, sull'archiviazione dei documenti e via dicendo. Quindi là dobbiamo capire come ci possiamo muovere in base a quelle che sono le vostre possibilità in termini di compliance. Però in linea di massima assolutamente fattibile e sicuramente anche molto molto utile quindi il fatto appunto che ci avete già una repository di dati ordinata lo rende cioè siamo a metà del lavoro in poche parole la parte più complicata sarebbe stato proprio organizzare I documenti il fatto di avere già I documenti organizzati se noi creiamo appunto quello che dice prima un buon metodo di filtraggio iniziale in cui si riesce a capire esattamente qual è la richiesta dell'utente e che cosa necessita, una volta fatto quello lui va a richiamare I documenti corretti e risponde. Dopo che ti ha dato la risposta gli dice vuoi anche il documento integrale? Sì, e la o ti genera il link o ti restituisce il pdf.
+
+1:03:48 - Conference Room (Milena Stucchi) - Speaker 2
+Assolutamente fattibile.
+
+1:03:49 - Conference Room (Milena Stucchi) - Speaker 2
+Sempre nello stesso ambito poi C'era anche l'idea, non so se l'avete già visto con Marco, di vedere se ci sono incongruenze.
+
+1:03:58 - Conference Room (Milena Stucchi) - Speaker 1
+Si, questo l'abbiamo affrontato sia da una parte procedurale che di sistema e, correggimi se sbaglio, ma fattibilissimo, nel senso che se c'è una incongruenza, perché nella procedura X ho scritto fai così e dall'altra parte l'ho negato, quella è un'incongruenza che mi permetterebbe di allineare.
+
+1:04:20 - Conference Room (Milena Stucchi) - Speaker 2
+Infine la valutazione per la relazione di impatto degli eventi che si sono sviluppati durante l'anno, non so se magari è possibile farlo nello stesso contenitore ma dando delle autorizzazioni diverse al tuo utente rispetto a quello che è un utente standard che può fare solamente una domanda e magari a te abilitare il fatto di dire, dimmi quali sono gli eventi più rilevanti di quest'anno nell'ottica della relazione di impatto.
+
+1:04:59 - Conference Room (Milena Stucchi) - Speaker 1
+La luce del fatto che una cosa mi è chiara, lui ragiona sulla base di input tangibili, quindi nel momento in cui però gli do una valutazione allora è come cercare sui della situazione?
+
+1:05:17 - Conference Room (Milena Stucchi) - Speaker 2
+In realtà a parte magari quello che sono gli eventi, io mi immagino che ogni volta che noi facciamo qualcosa che va nella relazione d'impatto, che sia un'implementazione della sicurezza sul lavoro piuttosto che il barattolo dei tappi, oppure l'ingresso e l'uscita, le percentuali di ingresso e di uscita delle persone ci sia comunque nella situazione.
+
+1:05:44 - Conference Room (Milena Stucchi) - Speaker 1
+Il numero di persone che vanno e vengono? Sì, perché è un file Excel, quindi vanno e vengono, quindi si può anziché fare una pivot che dica il movimento, lo facciamo fare come analisi, ma il discorso dei tappi, la cosa dei tappi è una cosa che sappiamo che esiste, un po' come facciamo una giornata plastic free, andiamo tutti da accattare la cosa. Quella è una relazione tra virgolette umana che racconta quello che è stato fatto. Noi abbiamo affrontato con Carlo questa cosa anche marginalmente, ma perché era al termine e quindi anch'io mortivo un po' questa situazione perché avevo capito come lui mi faceva ragionare. Quindi dal canto mio mi ero detta, mi prendo, la mia relazione, la che poi era una relazione non una relazione, una relazione delle attività, magari ci facciamo a posteriori un incontro, ti faccio vedere che cosa abbiamo fatto e ne prendo una e ne ho scaricata una di un nostro concorrente e vediamo invece lui che cosa racconta. Ora, quello che ho raccontato io a livello umano è quello che tecnicamente invece fanno I miei concorrenti, posso creare delle sinergie con I dati reali anziché mettermi a contare quante persone sono entrati e sono uscito, quanti corsi di formazione ho fatto, che tipo di corsi di formazione ho fatto, ma se devo raccontare che cosa abbiamo fatto la giornata di raccolta della plastica genuale, la devo raccontare, non è che può pescarla.
+
+1:07:24 - Conference Room (Milena Stucchi) - Speaker 2
+No, nel senso però se c'è da qualche parte invece il fatto che l'abbiamo fatta, metti lì e ti scordi… Ma non c'è da qualche parte che è stato fatto?
+
+1:07:35 - Conference Room (Milena Stucchi) - Speaker 1
+Cioè o muoro e poi qualcuno che c'era a conto apposto mio. Tant'è vero, tant'è vero che io per esempio mi sono dimenticata una cosa che abbiamo fatto l'anno scorso. Ma vorrebbe dire, ok, nel momento in cui noi facciamo un'attività ci mettiamo, che ne so quanti hanno partecipato che adesso ce n'è, che comunque è una roba che se appunto domani tu non ci sei per X ragioni magari abbiamo un posto dove… Sì, però questo è, non me lo deve dire, partendo da quello che ci ha raccontato Carlo, dobbiamo pensare di strutturare quell'attività in modo che abbia una traccia da qualche parte. Oggi la traccia è nel cassetto della stipendio della Caraiò, domani dovrebbe essere all'interno di un qualcosa, non lo so. Non ciò che l'ha pensato, però siccome dobbiamo farla entro a prima del 2026, almeno I dati che sono quelli che vengono fuori dai dati tangibili magari ci aiutano a tirarli fuori e non soltanto a raccontarli per sentito dire. Non è il bilancio d'impatto quello che facciamo, noi è la relazione per cui a molte meno diciamo che è molto più narrativa per evidenziare ciò che si fa anche un po' a scopo dei soci, dei revisori fiscali, un po' questo, per cui è molta narrazione, ma la narrazione si fa partendo per alcune azioni con dei dati veri e reali.
+
+1:09:25 - Carlo Sanvoisin
+Questo come ci dicevamo essenzialmente l'altra volta, nel caso in cui dovete scrivere una relazione, un report, se avete una struttura base in cui dite il report è solitamente strutturato in questi paragrafi, per scrivere questo paragrafo io attingo a questi dati e li elaboro nella seguente maniera. Fino a che rispettiamo queste caratteristiche qua, si può assolutamente fare. Nel momento in cui mi dici una parte di questo il rapporto sarà dedicata alle attività sostenibili che abbiamo fatto nel corso dell'anno e ci sta un documento al quale fa riferimento in cui ci sta scritta l'attività che la svolta, il periodo di tempo, di cosa si trattava è fattibile. Chiaramente come come anticipavi te bisogna dargli una struttura per ogni blocco di questa struttura bisogna dirgli dove deve guardare, dove deve cercare il dato, quindi questo dato deve essere registrato in qualche maniera e per ognuno di questi fonti di dati bisogna dirgli cosa deve prendere e come lo deve trascrivere o come lo deve elaborare. Se noi abbiamo questa struttura fatta in questo modo è assolutamente fattibile, genera il report di sostenibilità secondo le regole, le indicazioni che ti ho dato e lui fa l'introduzione sulla base di un dato più generico, poi parte con il primo capitolo deve acchiappare tre documenti e scriverli nel seguente modo con le indicazioni che gli ho dato e va avanti ti crea tutta quanta la bozza gli date la revisione finale e insomma il documento è fatto però come dicevate se oggi queste informazioni sono nella vostra testa chiaramente lui dalla vostra testa non le potrà raccogliere se invece le mettete giustamente in un documento in cui gli si dice guarda questo documento tu lo devi utilizzare per scrivere quella parte di report, questo è assolutamente fattibile.
+
+1:11:23 - Conference Room (Milena Stucchi) - Speaker 1
+Sì, anche banalmente quello che sta nella mia testa, che è il frutto di un preventivo, una situazione di analisi della giornata, dell'attività piuttosto che buttata giù alla brutta eva all'interno di un Word, è più gestibile, più fruibile dall'intelligenza artificiale e evita a me di doverlo scrivere in modo più costruttivo, strutturato.
+
+1:11:52 - Conference Room (Milena Stucchi) - Speaker 2
+Poi c'è questa tematica dove non so se è fattibile, però noi per ogni fornitore, per ogni commessa dovremmo fare richiedere ragazzi tre preventivi con una comparazione per scegliere il migliore e ovviamente c'è sempre un apporto umano che sia poi ok, questo mi chiede 10 euro di più, però ci lavoro tutti I giorni e so che mi consegna, però quella è una cosa successiva, però ci interessava capire se era possibile mettere dentro un repositorio questi tre preventivi e capire se è infattibile paragonarli, fermo restando che non sappiamo la struttura del preventivo, a meno che non forniamo noi al fornitore, ma su alcuni è un po' difficile.
+
+1:13:10 - Carlo Sanvoisin
+stesso servizio, quindi possono essere comparati solo sulla base del prezzo?
+
+1:13:15 - Conference Room (Milena Stucchi) - Speaker 2
+No, ovviamente lo facciamo più che altro sui beni piuttosto che su dei servizi, può essere che ne so, il trasporto, però è ovvio che se io vado a chiedere un trasporto a un NCC magari mi mette l'extra orario compreso, mentre l'altro mi quantifica l'extra orario a parte. Per fare un esempio, quindi non è detto che il solo metro è quello dell'importo, è anche capire la qualità.
+
+1:13:49 - Conference Room (Milena Stucchi) - Speaker 1
+Oggi come la fate questa comparazione?
+
+1:13:52 - Carlo Sanvoisin
+Voi ricevete le e-mail di tre fornitori, vi prendete I pdf di queste tre e-mail, le mettete a confronto?
+
+1:14:02 - Conference Room (Milena Stucchi) - Speaker 1
+Sì, sulla base della professionalità di chi dovrebbe acquistare e quindi quella capacità di capire se uno ha scritto un qualcosa o non l'ha scritta e la mette a conteggio lato.
+
+1:14:32 - Carlo Sanvoisin
+cioè cominciare a ragionare sul fatto che noi stiamo parlando di tante progettualità diverse che però in alcuni casi lavorano magari tutte quante sulle commesse, tutte quante sul cliente e via dicendo. Noi dovremmo forse cominciare a immaginare un ecosistema unico dal quale poi si possono fare diverse azioni a seconda dell'utente, perché se no stiamo costruendo tutti quanti nuovi Excel più carini, però dei nuovi Excel che sono tutti quanti separati. Invece qui dovremmo metterci un attimo a ragionare su come tutti quanti questi casi d'uso si parlano fra di loro e poi potenzialmente c'è, non ti dico una piattaforma unica che ti permette di accedere a tutti quanti questi dati, però l'obiettivo sarebbe quello. Perché se per esempio adesso stiamo lavorando sui fornitori, ci deve essere un'associazione I fornitori e la commessa, prima stavamo lavorando invece per esempio sui costi, allo stesso modo dovremmo ricondurre I costi alle commesse, allora comincia a crearsi un po' un ecosistema in cui non sarà proprio un secondo gestionale, però diciamo che l'idea più o meno è quella, io potrei avere tutte quante le commesse su tutti quanti I miei clienti e piuttosto che controllare dei che mi arrivano per e-mail, io ogni volta che mi arriva il file lo trascino dentro quella commessa e poi c'è la gente dietro che fa il lavoro sulla ripartizione dei costi, il lavoro sul budgeting, il lavoro su comparazione dei preventivi di fornitura, però quantomeno abbiamo tutti quanti I dati su un'unica interfaccia, perché se no stiamo veramente costruendo tante funzionalità È un po' il nostro obiettivo del portale fornitori se vuoi, perché è vero che poi questi fornitori, questi budget, questi preventivi vanno a sfociare in quello che sono delle commesse, ma appunto uno sono paragoni tra fornitori e quindi portare I fornitori dove uno se devo comprare un cappellino posso sapere già a priori che la mia collega tre mesi fa ha fatto una sorta di gara, quindi ha richiesto tre preventivi a quei tre fornitori per dei cappellini. Ma oggi ce l'avete già o è la vostra idea?
+
+1:17:08 - Conference Room (Milena Stucchi) - Speaker 1
+Oggi non viene fatta, oggi è ognuno, noi siamo in 120, se 120 persone devono comprare dei cappellini vanno avanti, vanno a cercare ognuno tre fornitori. Alla fine abbiamo 300 fornitori di cappellini. Per questo che probabilmente è il primo passaggio al contrario rispetto a quello che ti abbiamo detto fino ad oggi, cioè noi non vogliamo partire dal foglio Excel, vorremmo partire da qualcosa che poi arriverà a quello, oggi è tutto da costruire.
+
+1:17:48 - Carlo Sanvoisin
+che poi prima non l'avevo riconosciuto perché avete utilizzato magari il nome della soluzione di mercato, però Dynamics in generale è una soluzione che conosco abbastanza, che ha tanti livelli anche di parametrizzazione, come mai lo state utilizzando a livello così superficiale? Nel senso avete delle schermate molto simili… LM.
+
+1:18:06 - Conference Room (Milena Stucchi) - Speaker 1
+Perché noi lavoriamo un po' con lo discorso che ti ho fatto prima, dobbiamo decidere di non lavorare più con la mentalità degli anni 2000, ma con la mentalità dagli anni 1925 in poi. Quindi è difficile sradicare il concetto faccio prima con l'Excel, è un po' quella la condizione.
+
+1:18:32 - Carlo Sanvoisin
+Più che altro su Dynamics secondo me ci sono tante possibilità che non state sfruttando, per esempio mettere un'associazione fra fornitori e commesse in cui fate l'upload delle varie fatture o dei preventivi, dovrebbe essere una cosa molto banale, molto semplice su Dynamics. Per ogni fornitore potreste creare l'istanza fornitore ABC e poi nel momento in cui io devo cercare appunto un fornitore piuttosto che cercarlo da zero andare a vedere la lista di tutti quanti I fornitori di quella categoria di servizio e di prodotti che stanno già all'interno del gestionale, cioè io non vorrei crearvi degli applicativi che fanno la stessa identica cosa che poteste fare con Dynamics, poi la parte di analisi che facciamo con l'agente quello chiaramente lo dovete comunque fare con noi perché Dynamics da questo punto di vista non è che ha degli agenti particolarmente efficaci o comunque che vanno a fare esattamente le cose che servono a voi. Quindi da quel punto di vista ok, però nella collezione del dato l'obiettivo è sempre quello di rendere la vostra vita semplice, quindi io non vorrei creare tanti applicativi con dei login diversi, con delle interfacce diverse, quando magari in realtà si può fare il 90% del lavoro già su Dynamics o collegare Dynamics a un agente dell'intelligenza artificiale e lavorare su quei dati. Quindi adesso capiamo un attimo, come ci dicevamo prima, quali sono I casi d'uso prioritari. Una volta abbiamo capito quelli, secondo me sarebbe utile a questo punto fare un approfondimento della vostra attuale infrastruttura tecnologica, capire cosa vi ha portato poi a utilizzare l'Excel piuttosto che Dynamics, vedere se tramite Dynamics ci sono delle possibilità in più per andare a fare una registrazione di dati e documenti in maniera un po' più precisa e quindi capiamo, è solo una questione di cambiare il modo di lavorare e quindi d'ora in poi bisogna registrare più cose sul gestionale, oppure magari il gestionale effettivamente non espone questa possibilità e dobbiamo creare noi un'interfaccia più semplice di essi colleghi con il gestionale stesso, questa è una valutazione oggi chiaramente non posso fare, però che potrebbe essere sicuramente il prossimo passo, perché poi appunto come dicevo prima, l'obiettivo è rendervi la vita più semplice, non farvi navigare fra 100 pagine, 100 repository di date diverse, cioè dobbiamo arrivare alla fine a creare una specie di architettura, un'architettura in cui I dati stanno qui, l'utente lavora su questo strato di interfaccia che si parla con I dati che stanno dietro, la gente di dell'intelligenza artificiale è collegato in questo modo, dobbiamo avere poi una visione semplice e chiara di dove stanno I dati, dove si registrano I dati, dove si operano queste azioni, senza che ci siano 100 sistemi diversi che fanno 100 cose diverse e che sono difficili da far parlare fra di loro. Però comincia a essermi un po' più chiara la situazione e dobbiamo sicuramente fare questi meeting di approfondimento sicuramente a questo punto su Dynamics, capire bene come lo usate oggi, per esempio il fatto delle fatture che non ve le portate dentro, ma che le analizzate così in maniera più lasciata al singolo operatore, è un po' strano. Avete già tutto quanto un sistema informatico, mi rifiuta un po' strano che non lo utilizzate.
+
+1:22:27 - Conference Room (Milena Stucchi) - Speaker 3
+Ci sono delle fatture che non noi andiamo a leggere, nel senso quelle meno complesse delle UTA e delle DKV vengono in qualche modo importate dal gestionale tramite il sistema di interscambio, viene letta la riga di dettaglio, ci sono degli interventi che sono stati fatti sulle fatture, ovviamente quelle meno complesse, la DKV ha dietro del carburante ha dietro un ragionamento un pochettino più profondo rispetto a leggere banalmente il dettaglio che inserisce il fornitore, quindi fino a quella profondità non ci siamo andati, però su altre dove in base al dettaglio si capisce che cos'è, in automatico viene tradutta la commessa.
+
+1:23:26 - Conference Room (Milena Stucchi) - Speaker 1
+in un certo campo deve inserire il numero di commessa, quindi se questo avviene in modo corretto il sistema registra automaticamente.
+
+1:23:36 - Conference Room (Milena Stucchi) - Speaker 3
+C'è solo degli interventi che comunque sono stati fatti, queste del carburante è un po' più complessa.
+
+1:23:44 - Carlo Sanvoisin
+Allora io direi, oggi abbiamo raccolto altri casi d'uso, poi vi mando il make up con la minuta in cui che essenzialmente andiamo a evidenziare I casi d'uso di cui abbiamo discusso oggi, li aggiungiamo alla nostra fantastica lista della spesa. Poi io dovrei avere un altro paio di call, forse le ultime due.
+
+1:24:10 - Conference Room (Milena Stucchi) - Speaker 2
+Perdonami, visto che c'è una persona che mi interessa, per caso anche Davide ha fissato con te, Davide Settembrini.
+
+1:24:19 - Carlo Sanvoisin
+Mi ha mandato un'e-mail mentre eravamo in call. Lui è legale se non mi ricordo male? Sì. Anche lui vuole fare una call di approfondimento sempre su casi di uso di intelligenza artificiale?
+
+1:24:37 - Conference Room (Milena Stucchi) - Speaker 2
+Sì, ci riparlo un secondino io, perché vorrei capire due o tre cose che sono state prese in considerazione, quindi magari ti faccio riscrivere a breve.
+
+1:24:52 - Carlo Sanvoisin
+Tanto lui mi ha chiesto solo disponibilità per ora, quindi io ho ancora lui, poi ho Samantha Carlo, poi ne dovrei avere un'altra ancora, ho l'approfondimento sulle segreterie, va bene, sì, e poi c'ho quella sulle biglietterie invece con Lorena, e quindi diciamo che a fronte di queste...
+
+1:25:13 - Conference Room (Milena Stucchi) - Speaker 1
+Sì, diciamo che Samantha va a questa cosa, ok, abbiamo chiuso...
+
+1:25:17 - Carlo Sanvoisin
+Sì, direi che giovedì pomeriggio abbiamo finito la raccolta, a quel punto magari potrei anche mandare un'email unica riepilogativa in cui scrivo solamente per pallet point senza scrivere diciamo tutto il dettaglio, tutti I casi d'uso di cui abbiamo trattato, divisi magari per facendo insomma dei raggruppamenti.
+
+1:25:39 - Carlo Sanvoisin
+Quello che ti volevo chiedere, metti insieme tutto?
+
+1:25:42 - Carlo Sanvoisin
+Sì, faremo un attimo questa collezione dei pezzi del puzzle. Vi mando un'e-mail riepilogativa con tutti quanti I casi d'uso di cui abbiamo parlato, raggruppati magari per area e poi a quel punto mi fate sapere voi se vogliamo fare una call di approfondimento insieme in cui anche io vi espongo quelle che magari sono le mie opinioni su quali sono I casi d'uso più magari fattibili, che ci vuole meno tempo a metterli a terra, che restituiscono il maggior valore e via dicendo, ci ragioniamo facciamo una selezione su quelli che abbiamo selezionato andiamo a fare questi cosiddetti approfondimenti tecnici in cui mi fate vedere proprio bene oggi com'è gestito, mi mandate I file di riferimento, mi spiegate le regole una per una.
+
+1:26:31 - Conference Room (Milena Stucchi) - Speaker 1
+Noi o quelli dei punti d'area.
+
+1:26:34 - Carlo Sanvoisin
+Voi o chi appunto sia il referente per quell'area. Assolutamente. Chiarissimo.
+
+1:26:38 - Carlo Sanvoisin
+Va bene.
+
+1:26:39 - Conference Room (Milena Stucchi) - Speaker 1
+Ok. Grazie tanto. Grazie per il vostro tempo. Grazie mille.
+
+1:26:43 - Unidentified Speaker
+Ciao.
+
+1:26:44 - Unidentified Speaker
+FINE

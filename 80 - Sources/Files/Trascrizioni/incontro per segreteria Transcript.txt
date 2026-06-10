@@ -1,0 +1,608 @@
+incontro per segreteria
+Tue, Sep 2, 2025
+
+0:00 - Conference Room (Lorena Cavecchi) - Speaker 1
+Carlo, intanto che aspettiamo Laura, volevo capire se magari hai ricevuto intanto il file .exe che abbiamo compilato, anche se l'abbiamo compilato in minima parte, perché secondo me va spiegato più a voce. No, ancora non mi è stato mandato. Sì, te l'ho mandato ieri, nel link della call. Allora ti spieghiamo brevemente che cosa facciamo noi, così magari iniziamo a darti un'infarinatura di quello che è il nostro lavoro. Allora noi per quel che riguarda clienti e per tutti gli eventi che facciamo, noi gestiamo anche tutta la parte di segreteria, che vuol dire contatto con gli ospiti, la loro registrazione e partecipazione all'evento e l'invio di tutte le comunicazioni riguardanti il loro viaggio, piuttosto dove dormono, il programma dell'evento e poi tante altre informazioni che ci vengono richieste per ogni singolo cliente. Non abbiamo un format preciso da utilizzare perché ogni cliente ha le sue necessità, quindi di volta in volta realizziamo delle schede di registrazione fatte ad hoc. Quegli strumenti che usiamo? Per quelli semplici usiamo Microsoft Forma, quindi troviamo dei format che inviamo perché ci permette di raccogliere direttamente in file Excel tutti I dati che ci servono per la registrazione degli ospiti, quindi da dove partono, nome e cognome, eventualmente I documenti d'identità, se hanno bisogno del pernotto, allergie eccetera. L'altra cosa che invece facciamo è la registrazione online, ci appoggiamo a due fornitori con cui collaboriamo da e facciamo proprio dei siti web di registrazione ad hoc, quindi apriamo un dominio dedicato al cliente in base al nome che ci chiede e creiamo la scheda di registrazione online che loro compilano e abbiamo poi dei back office dove noi accediamo, dove abbiamo poi tutti I dati che ci servono. Su questo punto fammi capire meglio.
+
+2:48 - Carlo Sanvoisin
+Come mai per questi clienti fate addirittura proprio dei portali o comunque delle pagine web dedicate per raccogliere queste informazioni?
+
+2:58 - Conference Room (Lorena Cavecchi) - Speaker 1
+Perché ce le chiedono, ce le chiedono proprio perché poi all'interno mettiamo anche delle altre informazioni che può essere il programma, I viaggi eccetera eccetera.
+
+3:11 - Carlo Sanvoisin
+Ok, quindi ad oggi diciamo c'è un duplice scopo uno di raccogliere informazioni su quelli che sono I partecipanti all'evento barra viaggio incentive o comunque il servizio è stato friend da un'altra parte invece presentare proprio un programma o delle informazioni e questa è una prima parte alla quale poi immagino segue appunto quello che dicevi su I reminder le comunicazioni. Ok allora ti lascio raccontare così mi tutta quanta l'immagine, diciamo, di come viene gestito un progetto.
+
+3:48 - Conference Room (Lorena Cavecchi) - Speaker 1
+Ok, allora, tendenzialmente noi quando, vabbè, il Microsoft Form è facile, nel senso che poi uno scrive tutto a mano e fa tutto a mano. Per quel che riguarda I nostri siti online, invece, abbiamo dei back office che ci permettono di assegnare hotel, di assegnare viaggi, noi carichiamo sul portale I nomi degli hotel, il nome degli hotel, I vari operativi dei viaggi e poi abbiamo la possibilità di assegnarli selezionando dei gruppi particolari I vari viaggi. Ovviamente mandiamo noi l'invito a iscriversi, quindi nell'invito troveranno o un link che li riporta direttamente alla pagina dove ci sono I loro dati, oppure una login e una password che vi permette di entrare e vedere proprio I loro dati. Una volta che si sono registrati, ricevono una mail di conferma, grazie per esserti registrato, poi riceverai tutte le informazioni in dettaglio del viaggio e se non si iscrivono a chi non si è registrato, mandiamo un remind, sollecitandogli, dicendogli ricordati che ti devi registrare, così poi come mandiamo anche altre comunicazioni. Poi, quando il momento circa una settimana prima del viaggio, normalmente noi mandiamo la convocazione dove ci sono dentro I dettagli degli operativi dei viaggi, piuttosto che il nome dell'hotel e poi per quel che riguarda alcuni eventi, anche un QR code che servirà poi come registrazione all'evento. Lo staff che ha un iPad legge il QR code e rileva la presenza. Poi abbiamo anche un'altra cosa, non mi ricordo, adesso chiedo a Dariana che può commesse tutti e due oppure solo uno, messaggistica tramite sms. Nel senso che Abbiamo questo strumento che noi usiamo soprattutto quando siamo in loco e soprattutto per quegli eventi un po' più complessi di più giorni dove mandiamo tramite sms delle comunicazioni tipo il numero del tavolo se c'è una cena di gala nel tavolo riservato oppure ricordati di passare a vedere l'orario del tuo trasferimento oppure sappi che in convention è un posto riservato nelle prime file, insomma è un SMS che ci permette di mandare via massiva con la cattura di alcuni campi già preimpostati nel database, questi SMS chiaro, cioè al limite dei 160 caratteri.
+
+6:54 - Carlo Sanvoisin
+Ok, database che si riempie sulla base delle informazioni che avete raccolto con quelle pagine web, I form e via dicendo.
+
+7:05 - Conference Room (Lorena Cavecchi) - Speaker 1
+Entrambi I sistemi permettono di scaricare un file Excel che riporta dentro tutti I dati che noi abbiamo raccolto.
+
+7:15 - Carlo Sanvoisin
+Ok, quindi diciamo ad alto livello voi oggi nel momento in cui andate ad erogare un servizio a un cliente o tramite form o tramite pagina web raccogliete una serie di informazioni sui partecipanti. Dopodiché sulla base di quelle informazioni mandate o delle email o dei messaggi whatsapp per quanto riguarda...
+
+7:40 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, sms.
+
+7:41 - Carlo Sanvoisin
+Scusami, sms.
+
+7:42 - Conference Room (Lorena Cavecchi) - Speaker 1
+Ci tengo a specificarlo perché whatsapp ci piacerebbe tanto.
+
+7:47 - Carlo Sanvoisin
+E infatti, forse potrebbe già essere una piccola ottimizzazione, ok. Per quanto riguarda le email, anche parte delle email sono automatizzate oppure sempre mandate delle mail massive?
+
+8:00 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, alcune mail sono automatizzate, altre invece le mandiamo in via massiva.
+
+8:07 - Carlo Sanvoisin
+Ok, quindi voi avete essenzialmente poi da gestire questo servizio per questi partecipanti, che viene fatto massivamente tramite email o sms, in più immagino ci sono questi operativi che vengono assegnati al cliente, quindi avranno dei task specifici da seguire che non possono essere automatizzati o che oggi non vengono automatizzati, che sono un pochino più di dettaglio, da quello che ho capito. Mi sbaglio?
+
+8:38 - Unidentified Speaker
+Non ho capito cosa intendi.
+
+8:40 - Carlo Sanvoisin
+Nel senso, quando dicevi che un operativo viene assegnato a un determinato...
+
+8:44 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, perché ci tocchiamo a mano. Cioè, mettiamo gli orari che sono quelli che noi andiamo a comprare per il viaggio e poi li mettiamo all'interno del sistema e che poi vengono assegnati I singoli partecipanti.
+
+8:59 - Conference Room (Lorena Cavecchi) - Speaker 2
+Ovviamente abbiamo tutta una serie di criteri da seguire per assegnare, vada la distanza, l'agenzia, il gruppo di lavoro, in maniera tale che non siano casuali, a volte sono casuali.
+
+9:12 - Conference Room (Lorena Cavecchi) - Speaker 1
+Perché noi inizialmente riceviamo una lista da parte del cliente con le città di provenienza, in base a quello facciamo lo studio dei viaggi, e quindi capiamo da dove partono e poi da lì andiamo a fare l'acquisto dei viaggi e di conseguenza anche poi l'assegnazione per farglielo vedere.
+
+9:37 - Carlo Sanvoisin
+Ok, e quindi mi spiegate meglio il ruolo di questi operativi nel momento in cui sono stati assegnati?
+
+9:47 - Conference Room (Lorena Cavecchi) - Speaker 1
+Gli operativi sono proprio gli operativi operativi, gli orari dei voli o gli orari dei treni.
+
+9:55 - Carlo Sanvoisin
+Scusami, allora forse c'è un gap, diciamo, di nomenclatura. Cosa intendete bene con operativi? Perché io pensavo fossero delle vostre risorse.
+
+10:03 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, no, no, scusami, sono proprio gli orari dei voli o gli orari dei treni, gli orari dei viaggi.
+
+10:12 - Carlo Sanvoisin
+Ok, ok, quindi io pensavo fossero le risorse che si occupano di gestire, diciamo, tutto questo ambito qua, invece no, tu intendi proprio le informazioni relative al viaggio. Quindi è gestito tutto da voi in maniera centralizzata, in poche parole. Allora io a questo punto vi direi, se mi volete anche far vedere magari il sistema sul quale operate, così comincio un attimo a familiarizzare con che tipo di informazioni stiamo parlando, come vai raccolte e magari mi parlate un pochino di quali sarebbero oggi le vostre esigenze, cioè quali sono I passaggi più complessi, quelli che vi prendono più tempo, quelli che vorreste vedere magari supportati eventualmente da intelligenza artificiale o comunque da automazioni di processo.
+
+11:11 - Conference Room (Lorena Cavecchi) - Speaker 1
+Ok, allora adesso cosa possiamo fargli vedere? Allora, aspettate un attimo che apro la pagina. Sì, sì, figurati.
+
+11:34 - Unidentified Speaker
+Scusa, mi hai arrivato tanto solito.
+
+11:45 - Conference Room (Lorena Cavecchi) - Speaker 1
+Aspetta che mi chiede di cambiare la pasta. Questo è un nostro back office di uno dei fornitori che utilizziamo. Qui c'è il codice quello che ci permette di lavorare in piena serenità per un tema di gdpr quindi tutti I dati sono caricati solo su quel codice e non vengono poi mischiati a tutti gli altri. All'interno di ogni di ogni evento noi poi carichiamo I file di tutti I partecipanti e qui poi vengono raccolte tutte le informazioni. Ti faccio vedere una scheda per farti capire come sono le schede. Le schede noi le personalizziamo chiaramente in base a quelle che sono le nostre esigenze, quindi c'è tutta una parte di dati principali, che vedi qui, che sono fissi, quindi cognome e nome, login e password. La password non la potremmo mai vedere perché per privacy noi non possiamo vedere le password di nessuno. Tutti questi dati che sono abbastanza fissi, poi ci sono dei campi personalizzati che questi li creiamo noi all'interno della parte dei campi. Qua avevamo la data di soggiorno che perché avevamo due back to back, l'aeroporto di partenza, questo lo importiamo una volta che lavoriamo il file per capire da dove partono tutti gli ospiti e poi tutte le altre informazioni che possono essere assolutamente per noi utili.
+
+13:51 - Carlo Sanvoisin
+Ok, quindi in poche parole, da quello che ho capito oggi, per ogni commessa andate a creare una di queste diciamo istanze in questo Office e I parametri.
+
+14:03 - Conference Room (Lorena Cavecchi) - Speaker 1
+Potrebbe anche essere che per una commessa magari ne apriamo anche due alle volte, perché magari ci sono delle differenze sostanziali che ci richiede di... Però quasi mai adesso, perché comunque con la funzione gruppo... La differenza tra I partecipanti? Perché tu dici magari una lista e la partecipante deve dare... No, no, no, no di dati da richiedere o la differenza di dati che ci servono.
+
+14:36 - Carlo Sanvoisin
+Ma dico questa differenza poi dei dati su persone diverse oppure sulle stesse persone?
+
+14:43 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, su persone diverse.
+
+14:45 - Carlo Sanvoisin
+Ok, su persone diverse.
+
+14:47 - Conference Room (Lorena Cavecchi) - Speaker 1
+Perché effettivamente se le date sono le stesse ci serve solo avere dei dati diversi. C'è questa funzione gruppo che assegnando il gruppo dove vedi staff non loop, non so se è approvato in linea tu vedi però in base al gruppo possiamo far vedere o una scheda diversa o un programma diverso o entrambe le cose.
+
+15:12 - Carlo Sanvoisin
+Ok allora perché se questi dati diversi li dovete diciamo richiedere a persone diverse non utilizzate sempre questa funzione dei gruppi?
+
+15:20 - Conference Room (Lorena Cavecchi) - Speaker 1
+Diciamo che la usiamo al 99,9 per cento, è successo in alcuni casi che abbiamo dovuto creare database diversi, però adesso non succede quasi più di questo.
+
+15:32 - Carlo Sanvoisin
+Quindi di base poi, la prima cosa che fate, ragionate sulla tipologia di evento, viaggio in senti, proto show e via dicendo, sulla base di quello e delle caratteristiche dello stesso, stabilite quali sono I dati da raccogliere, corretto?
+
+15:51 - Conference Room (Lorena Cavecchi) - Speaker 1
+Esatto, soprattutto perché poi dipende anche dall'hotel perché la differenza grossa la fa proprio quali sono I dati che richiede l'hotel, perché di default noi una volta che lavoriamo le liste siamo noi a dirgli da quale aeroporto partiranno perché chiaramente noi abbiamo lo storico di quello che è stato proposto e che ci ha confermato il cliente, il partecipante finale non lo può sapere quindi dobbiamo, cioè siamo noi a lavorare le liste. Il tema della l'energia, l'intolleranza alimentare, le chiediamo sempre, perché questo è un dato che comunque ci serve laddove ci siano pasti. Quindi effettivamente quello che cambia è proprio il tema dei dati. Oppure, se ci sono delle escursioni, che sono escursioni alla CART, allora gli andiamo a chiedere quali sono le escursioni, oppure il workshop a cui vogliono partecipare, e lì messiamo poi un perché poi anche lì c'è un tema di disponibilità e capienza e mettiamo un contatore e anche questi dati li raccogliamo in questo database, sempre nella parte sotto dei campi personalizzati.
+
+17:06 - Carlo Sanvoisin
+Perfetto, quindi diciamo che prima fate questo ragionamento su quali sono I dati da raccogliere, voi create immagino questa scheda all'interno del back office e poi per raccogliere il vero e proprio dato, mi dicevi utilizzate uno di quei due metodi o tramite il form o tramite una pagina web dedicata, poi fate lo scarico e io immagino che c'è una specie di sincronizzazione con una cartella su SharePoint di questo Excel.
+
+17:39 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, questi Excel vengono importati. Allora noi lo importiamo prima di mandare via le comunicazioni e poi lo esportiamo di volta in volta, perché chiaramente I dati sono in continuo aggiornamento. Perché essendo online è chiaro che non tutti si iscrivono contemporaneamente. Infatti a un certo punto poi I siti vengono chiudi, nel senso che ai partecipanti viene detto il sito se vuoi ancora iscriverti contatta direttamente la segreteria perché altrimenti non riusciremo poi a tirare le fila di tutto.
+
+18:25 - Carlo Sanvoisin
+Ok quindi ad oggi non c'è una sincronizzazione diciamo automatica, voi ogni volta dovete, vi date una data e dire in quel giorno io faccio un nuovo import per vedere se...
+
+18:39 - Conference Room (Lorena Cavecchi) - Speaker 1
+Noi facciamo export, import è 1. E poi sono solo export. Noi esportiamo I dati per lavorare le liste e capire quali sono I nuovi scritti.
+
+18:53 - Carlo Sanvoisin
+Per capire, se una persona risponde sul form dopo che è stato fatto il primo import, questo dato viene sincronizzato contemporaneamente anche nel vostro back office?
+
+19:10 - Conference Room (Lorena Cavecchi) - Speaker 1
+Sì, sì, in questa pagina qua. Cioè, proprio qua, in questi numerini qua, vedi?
+
+19:17 - Carlo Sanvoisin
+Qua ci sono la lista totale.
+
+19:20 - Conference Room (Lorena Cavecchi) - Speaker 1
+Sì, sì, assolutamente sì, in tempo reale proprio. Qui ci sono dei grafici che ci dice quanti si sono iscritti giornalmente, lista totale, le rinunce, non iscritti e iscritti.
+
+19:34 - Carlo Sanvoisin
+Ok, quindi ad oggi Quindi qua in alto c'è proprio il… Quindi quando voi create, sia che create il form, sia che create la pagina web, per voi ormai questo è un processo standardizzato sul quale non dovete mettere mano più di tanto, nel senso una volta che avete creato il form, lo mandate, le persone rispondono, a mano a mano che rispondono si collezionano I dati, su questa parte tutto voi o c'è una parte di IT che vi segue, se ci sono problemi, insomma.
+
+20:12 - Conference Room (Lorena Cavecchi) - Speaker 1
+Anche per esempio la pagina web, chi la crea la pagina web? Sono due fornitori che noi usiamo e loro ci costruiscono il front office.
+
+20:23 - Carlo Sanvoisin
+Ok, questo per le pagine web immagino. Il form non lo occupate voi? No, no, il form lo facciamo noi.
+
+20:32 - Conference Room (Lorena Cavecchi) - Speaker 1
+Cioè tutto quello che è back facciamo noi, è solo la parte front che sono I fornitori che intervengono.
+
+20:42 - Carlo Sanvoisin
+Quando voi create un form, quindi ad oggi come lo linkate con questo back office per assicurarvi che ci sta la sincronizzazione dei dati?
+
+20:54 - Conference Room (Lorena Cavecchi) - Speaker 1
+È il codice dell'evento che sincronizza I dati.
+
+20:59 - Conference Room (Lorena Cavecchi) - Speaker 1
+Cioè, proprio questo qua.
+
+21:01 - Conference Room (Lorena Cavecchi) - Speaker 1
+Quando noi creiamo un evento, tutto quello che noi mettiamo qua dentro, in questo evento qui, si auto... Cioè, si sincronizza in automatico.
+
+21:13 - Carlo Sanvoisin
+Ok, magari questo passaggio lo vorrei vedere meglio, ma giusto per capire come avviene questa sincronizzazione proprio fra il Google Form... Cioè, il Form è di Google?
+
+21:27 - Conference Room (Lorena Cavecchi) - Speaker 1
+Mi dicevi? No, no. Allora il Microsoft lo gestiamo a parte. Quella è una cosa. Il form invece che noi creiamo, che è la scheda di adesione, noi la creiamo da questi campi per I siti online. Questi sono tutti I campi che noi possiamo selezionare, aggiungere. Poi ci sono I campi personalizzati che sono quelli che creiamo noi. Ma questo è quello per I siti online. Il form è form, cioè nel senso lo raccogliamo come Microsoft dice.
+
+22:04 - Carlo Sanvoisin
+Ok, però la mia domanda era, nel caso in cui fate il form, come si sincronizzano I dati? Cioè da dove lo create e come fate in modo che questi dati restano appunto connessi con questo back office?
+
+22:20 - Conference Room (Lorena Cavecchi) - Speaker 2
+Se lavoriamo su un form I dati non vanno sono due metodologie diverse.
+
+22:25 - Conference Room (Lorena Cavecchi) - Speaker 1
+E come fate poi in quel caso allora?
+
+22:29 - Conference Room (Lorena Cavecchi) - Speaker 2
+Il processo di lavorazione dei dati è sempre lo stesso, viene esportato quello che viene inserito dagli ospiti nel database e poi lo lavoriamo di base manualmente andando a incrociare I dati che ci servono per poi inviare l'informazione agli ospiti. E' chiaro che possiamo lavorare su un form solo un numero ridotto di ospiti e di variabili, altrimenti diventiamo matti.
+
+22:57 - Carlo Sanvoisin
+Ok, quindi in poche parole questo processo che tu mi stai facendo vedere da qua dentro in cui avete poi tutte quante le schede compilate...
+
+23:07 - Conference Room (Lorena Cavecchi) - Speaker 1
+Per ospiti online. Per ospiti online e tendenzialmente per una numerica elevata di ospiti. Infatti qua erano 1854.
+
+23:15 - Carlo Sanvoisin
+Ok, quindi questo processo che mi avete mostrato con tutto questo back-office così strutturato avviene solamente per gli eventi con un certo numero di participanti?
+
+23:25 - Conference Room (Lorena Cavecchi) - Speaker 1
+Sì, con I siti online in generale.
+
+23:28 - Carlo Sanvoisin
+Ok, quando tu dici siti online intendi un evento in cui la prima parte di raccolta dati è supportata da un sito online?
+
+23:37 - Unidentified Speaker
+Sì, da un front office.
+
+23:39 - Carlo Sanvoisin
+Da un front office, va bene, ok, è chiarissimo. E invece si crea una difficoltà nel momento in cui dovete raccogliere dati solo con il form in questo caso mi dicevate di Microsoft perché lì voi praticamente vi ritrovate invece di avere questo strumento diciamo di back office con tutte quante le schede cliente ordinate vi ritrovate un Excel sul quale lavorare in poche parole. Ok quindi e poi successivamente a questi passaggi in cui avete raccolto I dati sia che l'avete fatto in maniera più automatica sia che l'avete fatto in maniera più manuale ci sta tutta la parte di ragionamento essenzialmente sulle prossime azioni, quindi le comunicazioni e gli sms.
+
+24:28 - Conference Room (Lorena Cavecchi) - Speaker 1
+Le comunicazioni via mail e le comunicazioni via sms, al 100% le prime comunicazioni che escono sono solo via mail. Quelle che poi aggiungiamo in più sono gli sms ma quello quando siamo in evento.
+
+24:55 - Carlo Sanvoisin
+Mi volete raccontare un pochino più nel dettaglio che tipo di comunicazioni possono emergere da una casistica piuttosto che un'altra? La totalità dei casi, però cercare di spiegarmi grandi linee.
+
+25:16 - Conference Room (Lorena Cavecchi) - Speaker 1
+Allora, le comunicazioni che noi mandiamo via mail tendenzialmente sono la prima mail come save the date, il cliente magari ci chiede di mandare il save the date solo per bloccare l'agenda. La seconda comunicazione che mandiamo è un invito a registrarsi, quindi riceveranno la loro mail con le date e tutto quello che riguarda una lettera di invito con le credenti per clicca qui per iscriverti quindi loro cliccano lì e ipotesi sito online si trovano la pagina web con la scheda di registrazione dove devono compilare I dati ipotesi 2 e clicca qui in realtà è un collegamento che creiamo noi che poi vi porta sulla scheda di google form di microsoft e lì si aprono questa scheda e mettono dentro I dati, la inviano e noi la riceviamo nel nostro account di Microsoft in un Excel. Una volta che loro si sono iscritti, e queste le mandiamo noi manualmente perché chiaramente con condizione di causa noi sappiamo chi possiamo invitare e chi no. Quando si iscrivono, nel caso del sito online, una mail generata automaticamente dal sistema che gli dice grazie che sei registrato, questo è quello che tu hai scritto nella tua scheda. Nel caso di Microsoft Form ovviamente non succede niente perché non credo esista un modo per mandare una risposta automatica.
+
+26:57 - Carlo Sanvoisin
+L'email la gestite voi con un vostro software o è sempre tramite fornitore?
+
+27:03 - Conference Room (Lorena Cavecchi) - Speaker 1
+Quella dei siti tramite fornitore. Ok. Cioè proprio integrata dentro il sistema.
+
+27:10 - Carlo Sanvoisin
+Sì, per esempio il testo, grazie per esserti registrato, gestiscono tutto loro, testo, immagini. Sì, solo delle risposte automatiche, per il resto le gestiamo noi.
+
+27:25 - Conference Room (Lorena Cavecchi) - Speaker 1
+Ok, quindi che sono sempre uguali. Cioè I testi normali. Ma magari no, cambiano di volta in volta.
+
+27:35 - Carlo Sanvoisin
+Ok, quindi su questo è completamente delegato a loro e hanno libertà, fra virgolette, di manovra oppure voi gli date una specie di brief?
+
+27:46 - Conference Room (Lorena Cavecchi) - Speaker 1
+Cambia in base al cliente, quindi quando noi strutturiamo il sito e quindi lavoriamo con I fornitori, per quel singolo evento decidiamo cosa mettere. Poi la risposta automatica è sempre questa, Però non è detto che la risposta che noi diamo sul sito richiesto da Noloop sia uguale a quella richiesta da Fideuram, per intenderci.
+
+28:13 - Carlo Sanvoisin
+Quindi quello è quello che va cambiato di volta in volta. Mi potresti dare un esempio? Giusto per capire. Quindi questa modifica chi la opera poi?
+
+28:27 - Conference Room (Lorena Cavecchi) - Speaker 1
+Nel pratico? Chi si iscrive è assolutamente il fornitore. L'avete quando procede. Allora...
+
+29:28 - Conference Room (Lorena Cavecchi) - Speaker 2
+Noi avevamo interviuto per spiegarlo.
+
+29:34 - Unidentified Speaker
+Questo per esempio è un sito che abbiamo fatto. Vedi?
+
+30:03 - Unidentified Speaker
+Sì.
+
+30:05 - Conference Room (Lorena Cavecchi) - Speaker 1
+Allora io qua metto le mie credenze.
+
+30:17 - Unidentified Speaker
+Entro.
+
+30:21 - Conference Room (Lorena Cavecchi) - Speaker 1
+Grazie a tutti. Certo Ok Oggi per esempio come funziona?
+
+31:19 - Carlo Sanvoisin
+Una volta che voi avete deciso I campi, li selezionate direttamente dal back office e poi però il fornitore si deve occupare di riportare quegli stessi campi sulla pagina web crea doc per quell'evento?
+
+31:46 - Conference Room (Lorena Cavecchi) - Speaker 2
+Sì, fondamentalmente li collega.
+
+31:49 - Carlo Sanvoisin
+Ok, quindi lui si ritrova I campi da voi selezionati e poi fa la parte, diciamo, di design di questo front end.
+
+32:04 - Conference Room (Lorena Cavecchi) - Speaker 1
+Grazie per aver confermato la tua partecipazione. Vedi, questo sarà poi il testo che verrà anche nella mail di conferma. Perfetto. E questo è un caso. Però magari un cliente dice, anziché scrivere questo, può decidere. Grazie, questo è il tuo QR code per partecipare all'evento. E noi abbiamo finito. Perché questo poi dobbiamo dare di viaggio. Il programma. Invece in altri casi banalmente è contestuale, quindi li mettiamo direttamente in qualcosa di partecipazione e abbiamo finito.
+
+32:42 - Carlo Sanvoisin
+Ok, quindi su questo testo qui voi vi allineate con il cliente e fate da intermediario con I fornitori.
+
+32:50 - Conference Room (Lorena Cavecchi) - Speaker 1
+Esatto, e questo è l'unico testo che viene mandato in automatico. Poi noi invece con la gestione email qui creiamo le varie comunicazioni che servono a noi. Quindi vedi gentile nome cognome tutto quello che tra le graffe lo prende direttamente dal sito cioè dal back office e questo lo scriviamo noi.
+
+33:20 - Carlo Sanvoisin
+Ok quindi questo già ce l'hai perché l'avete scritto da zero e sulla base della tipologia di evento andate a creare dei template?
+
+33:33 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, perché ogni cliente decide cosa mettere dentro, non c'è una regola. Diciamo che noi prendiamo spunto dall'esperienza che abbiamo, sappiamo quali sono le informazioni che devono essere date eccetera eccetera, però tante volte è il cliente che ci dice come il testo, oppure se dargli del tu, se dargli del lei, se dobbiamo dargli qualche altra informazione. Quindi il testo va sempre in approvazione al cliente. Poi è chiaro che ci sono delle cose standard, tipo il dettaglio vogli, il dettaglio vogli accompagnatori, piuttosto che altre informazioni che sono abbastanza possibilità di standardizzazione.
+
+34:24 - Carlo Sanvoisin
+Ok, ma queste le prende per esempio, queste le mettete fra graffe, le prende direttamente dalle informazioni, dal black office.
+
+34:33 - Conference Room (Lorena Cavecchi) - Speaker 1
+Da ogni singola scheda del partecipante. Ok, ok.
+
+34:37 - Carlo Sanvoisin
+E quindi questo è per esempio un esempio di comunicazione non automatizzata che voi mandate massivamente sulla lista di partecipanti di quell'evento, in parte il test lo decidete insieme al cliente, l'altra parte è diciamo automatizzato, perché comunque sono le informazioni del singolo partecipante che si riprendono dal back office. Ok, quindi questo è un esempio. Essenzialmente io ho visto sia quella automatizzata e quella manuale. Gli sms pure li gestite da qui?
+
+35:10 - Conference Room (Lorena Cavecchi) - Speaker 1
+Sì, gli sms li gestiamo da qua. Guarda, sms. Vedi? Gentile ospite, il numero del tavolo è il campo perché noi nel main li abbiamo già inseriti, e presso il ristorante, qua era il ristorante Cassello, era una prova e se no anche questo potrebbe essere un campo C dove noi se abbiamo più ristoranti insieme lo personalizziamo nel backoffice.
+
+35:45 - Carlo Sanvoisin
+Ok, quindi essendo essenzialmente voi da qui poi gestite eh tutte quante le comunicazioni che siano tramite sms o che siano tramite email con le dovute eh personalizzazioni alcune scelte da voi eh diciamo in maniera manuale altre aiutate diciamo dal dal fatto ci sono dati a sistema. Esatto. Ehm ci sono diciamo altre azioni eh legate a questo processo oppure diciamo si può esprimere all'interno di queste possibilità di cui abbiamo parlato. Cioè una volta che quello che intendo è ci sono altre tipologie di azioni oppure di base è questo cioè o mando altri mail o mando altri sms poi questa attività si chiude. Come?
+
+36:37 - Conference Room (Lorena Cavecchi) - Speaker 2
+Di base l'attività di comunicazione che facciamo con gli ospiti è questa poi ci essere la necessità di magari verificare telefonicamente, piuttosto che sono tutte cose che devono necessariamente essere gestite da noi proprio manualmente.
+
+36:54 - Carlo Sanvoisin
+Ok, quindi ad esempio qual è una casistica in cui dovreste appunto fare la telefonata?
+
+37:02 - Conference Room (Lorena Cavecchi) - Speaker 2
+Ok, è chiaro cosa è stato inserito, se hanno inserito dati contraddittori, se per esempio c'è una variazione se ne riusciamo a contattare l'ospite, se loro stessi ci hanno fatto delle richieste particolari che dobbiamo capire se possiamo trattare e gestire in che maniera. Tutto il lavoro di relazione poi con gli ospiti purtroppo, includendo un fattore umano molto seppato e difficile da automatizzare.
+
+37:40 - Carlo Sanvoisin
+Diciamo che adesso ho capito il perimetro di questa attività e come si compone nei diversi step e un pochino gli strumenti che utilizzate. Sicuramente ci sarebbe poi da fare un approfondimento tecnico per capire meglio effettivamente come si parlano questi dati e via dicendo, però ad oggi mi è chiara qual è l'attività. Come mai avete tirato fuori questo caso d'uso e qual è il principale scoglio vorreste superare e sul quale vorreste supporto eventualmente tramite l'intelligenza artificiale?
+
+38:13 - Conference Room (Lorena Cavecchi) - Speaker 1
+Sono le cose che ti abbiamo scritto nell'excel, che abbiamo mandato in video, adesso magari lo recupero.
+
+38:19 - Carlo Sanvoisin
+Ok, gestione delle liste, no ce l'ho sotto mano, quindi tu dici, gestione delle liste per esempio che cosa intende?
+
+38:27 - Conference Room (Lorena Cavecchi) - Speaker 1
+Adesso ci spieghiamo, noi una volta che abbiamo, questo potete interrompere giusto perché tanto non ci serve più. Allora, noi quando riceviamo le liste e iniziamo a fare, cioè quando la segreteria è attiva, quindi le persone si iscrivono, noi non possiamo più cancellare o modificare, cioè togliere il database dal sistema, altrimenti le persone non si troverebbero più, non potrebbero più iscriversi. Succede alle volte che magari I clienti ci mandano I loro database, cioè I loro Excel aggiornati secondo le loro verifiche e noi dobbiamo magari spuntarli, cioè controllare qual è la modifica che il cliente ha deciso di fare su questo file. Ora, annetto che uno può usare dei sistemi di Excel che però magari il cliente non scrive esattamente il corretto cognome, magari toglie un cognome, magari sbaglia a scrivere il nome, magari mette il nome al posto del cognome, eccetera eccetera, quindi non possiamo neanche usare un banale verticale, ci porta via tanto tempo perché noi dobbiamo spuntare e mettere a confronto l'excel, quello che noi abbiamo con l'excel che ci manda il cliente, che per magari poi cancellarne due, perché bisogna cancellare due, o per inserirne dieci. Capisci che se un file è fatto da 20 nomi è facile, se un file è fatto da 1850 nomi è un altro discorso. Quindi quello che ci chiedevamo era con file 1 rispetto a file 2 come poter interagire con l'intelligenza artificiale per far sì che questo confronto lo possa fare lui al posto nostro.
+
+40:20 - Carlo Sanvoisin
+Quindi innanzitutto vorrei capire per chi si verifica questo, cioè se comunque il il sito web è online e I dati vengono dati direttamente dai partecipanti. Come fai se verifica questo?
+
+40:37 - Conference Room (Lorena Cavecchi) - Speaker 1
+Perché questi sono invitati, quindi il cliente dice no scusa guarda me ne mancano ancora. Ti ho aggiornato il file dove ti ho aggiunto altre 25 persone da invitare e ne troverai altri 5 che sicuramente non parteciperanno e quindi togli O metti lì come non partecipa. Se sono 1859 tu devi comunque, per recuperare questi 20 più 10, spuntarli tutti.
+
+41:10 - Carlo Sanvoisin
+Non sai chi sono.
+
+41:13 - Conference Room (Lorena Cavecchi) - Speaker 1
+O banalmente il cliente te li evidenzia, tu li vai a fare e poi vai a controllare e vedi che la numerica totale balla di due e tu non puoi mai sapere chi sono questi due se non fai un check completo delle liste.
+
+41:35 - Carlo Sanvoisin
+Io mi chiedo, se I dati sono teoricamente sincronizzati fra il sito online e il vostro back office, perché non... No, è il cliente, il cliente lavora sul sito.
+
+41:46 - Conference Room (Lorena Cavecchi) - Speaker 1
+Non sono sincronizzati I dati collezioni che ci viene dal cliente.
+
+41:50 - Carlo Sanvoisin
+Esatto, quello è un file... Raccogli a parte.
+
+41:53 - Conference Room (Lorena Cavecchi) - Speaker 1
+Quelli raccogliamo noi, noi proprio come loop, per lavorarle noi come serve a noi. Poi dopo il cliente comunque lavora sulle sue liste, che si crea lui, che si fa lui, che poi è la lista madre che a noi arriva, su cui poi noi facciamo le prime lavorazioni degli aeroporti di partenza, dei viaggi, degli hotel eccetera eccetera ma un master il cliente ce l'ha sempre in mano.
+
+42:26 - Carlo Sanvoisin
+Quindi quello che mi stai dicendo è voi raccogliete I dati che sia attraverso il form che sia attraverso il sito online e li avete poi nel back office nel caso del sito online in maniera sincronizzata nel caso del form li compilate comunque il back office cioè lo fate voi manualmente ma lo compilate giusto beh allora noi ci arriva un excel ipotesi 1 lavoriamo l'excel che ci arriva perché sono pochini ipotesi 2 noi possiamo utilizzare questo database come back office ma lo importiamo ma ci serve solo per fare roaming però non tendenzialmente non lo facciamo magari capita invece di caricarlo per gestire gli accrediti tramite esatto non perdonatemi se poi dovete mandare comunque email, massimo, sms. E quindi non vi conferrebbe importarli?
+
+43:20 - Conference Room (Lorena Cavecchi) - Speaker 1
+Eh no, perché il tema è che il back office che tu vedi è associato a un sito online, quindi questa pagina che io ti ho fatto vedere con I dati che ho raccolto era legata a un evento. Io non ho un sito online legato, non sono in grado di mandare via nessuna comunicazione.
+
+43:48 - Conference Room (Lorena Cavecchi) - Speaker 2
+Tieni conto che ci capita di aprire degli indirizzi mail, ma questo dominio non lo loop, per far sì che possiamo comunque comunicare con gli ospiti, ma quell'indirizzo specifico non può essere agganciato a questa piattaforma.
+
+44:05 - Carlo Sanvoisin
+Ok, mi sento un po' particolare come casistica, nel senso, quello che ho capito, Certo, ma quello che ho capito quindi è che l'email che voi mandate in maniera massiva a quelle liste di partecipanti non viene mandato dal dominio noloop.eu, ma viene mandato dal dominio del sito web?
+
+44:27 - Carlo Sanvoisin
+No, dal dominio specifico acquistato per l'evento, certo.
+
+44:30 - Carlo Sanvoisin
+Sì, sì.
+
+44:31 - Conference Room (Lorena Cavecchi) - Speaker 1
+Ah, e non potete… Sì, perché altrimenti gli ospiti non capirebbero mai chi siamo e perché esistiamo, perché loro sono invitati da una società, quindi è chiaro quello. Anche quando abbiamo gli indirizzi mail per mandare I form, c'è sempre davanti qualcosa che richiama il cliente, chiocciola, non loop.eu.
+
+44:52 - Carlo Sanvoisin
+Ok, quindi voi ad oggi con questi eventi più piccoli che fate, create un dominio anche lì ad hoc per mandare queste mail?
+
+45:04 - Conference Room (Lorena Cavecchi) - Speaker 2
+A volte sì, a volte creiamo semplicemente degli indirizzi mail.
+
+45:09 - Carlo Sanvoisin
+E perché non farlo comunque sempre da questo back office? Cioè, se ci fosse la possibilità di importare l'Excel e una volta che l'Excel è importato vi ritrovate tutte quante le schede clienti partecipanti.
+
+45:24 - Conference Room (Lorena Cavecchi) - Speaker 1
+Ovviamente la creazione di un sito, anche se banale, ha un posto e I clienti, non tutti, sono soprattutto quando sono poche persone, parlo di una cinquantina o cento persone, non è disposta a pagare un sito online, perché quello vorrebbe essere mano all'acquisto di un domino, comprare il certificato, creare un mini sito anche solo per raccogliere le informazioni. Quindi alcuni clienti non lo accettano e dicono facciamola veloce, facciamola con un Microsoft Form che mandate. Noi abbiamo solo il codice dell'apertura di un indirizzo email, se non abbiamo alcuni da riutilizzare e quindi quello è l'unico costo che ha. Invece l'utilizzo di queste piattaforme, quindi I fornitori esterni che ci devono lavorare, hanno un costo diverso. No, questo è chiaro.
+
+46:23 - Carlo Sanvoisin
+Mi chiedevo se ci fosse un modo di importare I dati del form su quel percorso. Si, li possiamo importare, ma poi non possiamo mandare perché non possiamo uscire con un nome che non è… Quindi non c'è modo di fare questa operazione di dominio oppure email, indirizzo email diverso, direttamente dal back office, quindi in quel caso voi siete obbligati a lavorare manualmente con tutto il dato di dettaglio su Excel e poi una lista di email e che vi gestite tramite Outlook, in poche parole. Usate Outlook o usate un altro software?
+
+47:10 - Conference Room (Lorena Cavecchi) - Speaker 2
+Usiamo Outlook o utilizziamo direttamente la versione web. Sempre le incastriamo su Outlook, quindi utilizziamo Outlook Online o se ci capita di aprire solo Domini o anche eventualmente un servizio di posta che si chiama Rampage.
+
+47:29 - Carlo Sanvoisin
+Per quanto riguarda il confronto dei dati mandatemi un esempio di Excel, di due Excel che dovete mettere a confronto in maniera tale che già cominciamo a dare...
+
+47:48 - Conference Room (Lorena Cavecchi) - Speaker 1
+Allora ti manderemo un pinto Excel, Carlo, perché noi non possiamo far uscire dati diversi.
+
+47:58 - Carlo Sanvoisin
+cosa deve essere confrontato e come sono strutturati, cioè deve essere verosimile.
+
+48:04 - Conference Room (Lorena Cavecchi) - Speaker 1
+Esatto, ci proviamo, però tieni conto che il confronto alle volte può essere il nome e il cognome, oppure può essere la matricola, il ruolo.
+
+48:16 - Carlo Sanvoisin
+Allora, chiaramente se mi mandate un caso più complesso è meglio, perché se riusciamo a gestire il caso più complesso allora va da sé che si gestisce anche quello più semplice.
+
+48:31 - Conference Room (Lorena Cavecchi) - Speaker 1
+Certo, va bene, facciamo così.
+
+48:33 - Carlo Sanvoisin
+Ok, e quindi diciamo questo già è un punto.
+
+48:38 - Carlo Sanvoisin
+Poi avete scritto analisi dati.
+
+48:40 - Carlo Sanvoisin
+Ok, che genere di analisi vorreste fare e su quali dati e con quali risultati attesi?
+
+48:48 - Conference Room (Lorena Cavecchi) - Speaker 2
+Il risultato atteso è sicuramente il supporto della suddivisione, degli ospiti per velocezzare l'operazione. Nei viaggi, negli alloggi, ci capita di fare eventi che hanno tipo 50 alberghi in cui devi vedere le persone con tutta una serie di criteri. Fai delle grandissime pivole alla fine. Diventa un po' come giocare a Sudoku. Io credo che il supporto dell'AI velocizzi questo tipo di attività.
+
+49:18 - Carlo Sanvoisin
+E però su questo mi dovreste esattamente dire Quali sono I criteri?
+
+49:23 - Conference Room (Lorena Cavecchi) - Speaker 2
+Certo che variano ovviamente da evento a evento, a volte la provenienza, a volte l'agenzia, il codice di assegnazione dell'area piuttosto che... Quindi può essere un unico criterio o tantissimi tutti insieme da valutare per evitare poi di essere sommersi dalle lamentele delle persone che giustamente vogliono essere associate a quelli che conoscono sulla base dei criteri interni all'azienda, che magari non sono proprio Allora, chiaramente affinché questo funzioni, dobbiamo avere quanto più chiari I parametri possibile.
+
+49:58 - Carlo Sanvoisin
+Quindi io anche su questo vi chiederei se mi mandate un esempio di caso complesso.
+
+50:06 - Conference Room (Lorena Cavecchi) - Speaker 2
+C'è una cosa che viene fatta veramente ad hoc, evento per evento, cioè non abbiamo una lista.
+
+50:15 - Conference Room (Lorena Cavecchi) - Speaker 1
+C'è sono I campi che noi impostiamo che sono tutti uguali che ci permettono di utilizzare I criteri e poi fare le pivot.
+
+50:26 - Unidentified Speaker
+Certo.
+
+50:27 - Conference Room (Lorena Cavecchi) - Speaker 1
+Quindi già I dati sono formati uguali e scritti uguali quindi magari se non diciamo finalmente usa la colonna area e la colonna viaggio e dividimeli in maniera tale che tutti quelli che hanno il viaggio della stessa area dormono nello stesso hotel cioè non abbiamo file che sono completamente, che hanno un record diverso, non so come dirlo.
+
+50:55 - Carlo Sanvoisin
+No, no, no, questo è chiaro. Diciamo che vorrei vedere un esempio di file sul quale voi oggi lavorate e mi date un esempio di regola da seguire in maniera tale che io quel file e quella regola le do ad un agente di intelligenza artificiale e come se la cava. Poi quale sarebbe l'output finale? Diciamo un Excel ordinato con delle colonne scritte in un determinato modo? Cioè il risultato finale qual è? Puoi partire da un Excel di dati. Avete delle regole per diciamo smistarli e l'output finale è?
+
+51:37 - Conference Room (Lorena Cavecchi) - Speaker 2
+È un Excel tendenzialmente con I dati ordinati con il risultato dell'assegnazione che poi noi possiamo andare ad adattare manualmente all'interno del database.
+
+51:48 - Carlo Sanvoisin
+Allora in questo caso ciò di cui avrei bisogno è l'excel in input, le regole e l'excel in output. In questo modo io posso provare a testare dando l'excel in input con le regole a un agente di intelligenza artificiale con quanta accuratezza è in grado di creare l'excel in output confrontando le con quello che mi avete dato voi, quindi con il lavoro essenzialmente manuale, così per verificare se ha gestito la casistica in maniera corretta.
+
+52:28 - Conference Room (Lorena Cavecchi) - Speaker 2
+Da quello che produrrà il sistema noi dovremmo poi andare a riverificare ed eventualmente fare delle variazioni sulla base delle questo è un'altra storia.
+
+52:44 - Conference Room (Lorena Cavecchi) - Speaker 1
+Togliere quel tempo dedicato dalle risorse umane che può essere comunque fatto da una risorsa di intelligenza artificiale e poi l'ultimo check viene fatto dalle risorse umane che vanno a verificare magari le case particolari, però il grosso del pacchetto che magari a noi veramente portavi anche una giornata intera, magari invece puoi andare e riuscire a parlare in due ore.
+
+53:21 - Carlo Sanvoisin
+Dico questo che è una cosa un po' tecnica però, giusto per farvi capire come funzionano solitamente questi processi. Solitamente si spiega ad un agente di intelligenza artificiale cosa deve essenzialmente eseguire con quei dati, quindi gli si dà gli si dice sulla base di questi dati applica queste regole e accoppia le persone per dire lui crea un output questo output non lo facciamo fare solamente da un modello di intelligenza artificiale ma lo facciamo fare da più di un modello di intelligenza artificiale in maniera tale che poi confrontano fra di loro gli output che sono stati creati e si capisce se essenzialmente è come se si controllassero a vicenda quindi questo per fare in modo che eh l'output sia quanto più corretto possibile invece di farlo fare da un solo modello lo facciamo fare da tre. Se tre modelli restituiscono lo stesso output allora io c'ho una buona sicurezza che è stato eh diciamo fatto in maniera corretta. Se due su tre danno risultato e uno ne dà un altro allora comincia a esserci una possibile accuratezza e addirittura noi potremmo restituirvi il foglio Excel finale con anche un'indicazione di quali sono le righe sulle quali sarebbe più opportuno fare un check manuale, per esempio, perché magari su alcune righe abbiamo avuto un 3 su 3, allora siamo sicuri al 100% che le ha, diciamo, gestite in maniera corretta, su altre abbiamo avuto un 2 su 3, un 1 su 3, allora in qualche è meglio che ci si rimette anche la persona. Quindi questo era una piccola anticipazione, però per farvi capire che solitamente si lavora in questo modo, quindi c'è prima di tutto una parte di elaborazione che viene fatta nell'intelligenza artificiale, si ha un certo grado di accuratezza, sulla base di quel grado di accuratezza si fa intervenire anche la persona umana, quindi chiaramente c'è, soprattutto quanto più è complesso il processo, quanto più non si può affidare al 100% l'intelligenza artificiale perché non è un modello matematico, è comunque un modello di linguaggio naturale, quindi non è che applica tutte le regole matematiche perfette. Esatto, non sono algoritmi e basta. Esatto, non sono algoritmi, è proprio quello il punto, non sono solo algoritmi ma è un modello di linguaggio, di conseguenza è per questo che un supporto poi umano per avere avere un'accuratezza del cento per cento soprattutto nel vostro lavoro che poi non si possono commettere questo tipo di errori ehm è necessario ok anche questo punto mi è chiaro quindi su questo vi chiederò un esempio di file input regole e un esempio di file output così che lo testiamo il prossimo punto mi avete scritto in vi massivi comunicazioni che di base da quello che ho visto già avete lo strumento per farlo che sia dal back office Outlook?
+
+56:27 - Conference Room (Lorena Cavecchi) - Speaker 1
+Eh però il problema su Outlook esiste, perché noi non possiamo mandare via in maniera passiva sempre le mail, altrimenti ci finisce in spam la mail. Ah, e come fate?
+
+56:43 - Conference Room (Lorena Cavecchi) - Speaker 2
+Facciamo dei grandissimi gruppi di invio botte di 10, le mandiamo a CCN, le mandiamo una a una, visto che non sempre lo inserire tutte le informazioni in maniera automatizzata.
+
+56:58 - Conference Room (Lorena Cavecchi) - Speaker 1
+Botte di stampa unioni e cose.
+
+57:01 - Conference Room (Lorena Cavecchi) - Speaker 2
+E penso che ci porta via una valanga di tempo su cose. Usare solo 100 mail ci metterà ancora. Allora scusate che non ho tanta connessione. Cioè voi mi state dicendo che il problema principale è che se non la supporto della piattaforma siamo quasi costretti a lavorare in maniera un po' manuale. Ma perché non utilizzare un software di mail marketing, insomma, diverso da Outlook?
+
+57:36 - Carlo Sanvoisin
+Perché Outlook effettivamente...
+
+57:37 - Conference Room (Lorena Cavecchi) - Speaker 2
+Tipo MailChimp o queste cose qua, perché c'è sempre il tema del nostro, ogni tanto ci abbiamo provato, c'è sempre il tema di utilizzare il dominion loop.
+
+57:50 - Carlo Sanvoisin
+Però io adesso non sono un esperto nel cimpo.
+
+57:53 - Conference Room (Lorena Cavecchi) - Speaker 2
+E' una questione di sicurezza e di politica aziendale per il cimpo come altri clienti di invio di posta, è il primo che mi è venuto in mente. Però abbiamo anche un tema di sicurezza Lorena, correggimi se sto sbagliando, per cui avendo sui nostri server e all'interno delle nostre comunicazioni dati di tantissimi clienti, è questa una policy di non utilizzare questo tipo di sistemi sul dominio Noloop. Ne abbiamo già discusso, dovremmo per farlo andare a creare magari un ulteriore dominio Eventi Noloop, dico una cosa a caso, da assegnare alle varie mail di segreteria per poterlo fare tranquillamente.
+
+58:38 - Carlo Sanvoisin
+Ma questo è più un tema aziendale. Nel senso su questo l'intelligenza artificiale non vi può aiutare perché quello è un limite di Outlook cioè un limite dello strumento che state utilizzando quindi a meno che non andate a cambiare lo strumento e di conseguenza vi adattate anche appunto a quelle che sono le vostre polisi aziendali su questo ho paura che non ci sia più di tanto che si può fare direttamente su Outlook perché se il problema è l'invio massivo e non vi permette di di eh inviare massivamente perché sennò lo manda in spam e possiamo vedere se è una questione di no ma non è neanche una questione di dominio perché a volte questo avviene perché il dominio di partenza viene riconosciuto come non eh diciamo di fiducia allora eh vengono mandati spam però voglio dire il vostro dominio non credo che rientri in questa casistica quindi che è un'e-mail professionale.
+
+59:41 - Conference Room (Lorena Cavecchi) - Speaker 1
+Se fai invii massivi succede. Infatti, appunto.
+
+59:45 - Carlo Sanvoisin
+Perché non è fatto per questo Outlook. Outlook è un'e-mail utilizzata a scopo professionale, non a scopo, diciamo, solitamente questi invii massivi vengono fatti per il marketing, quindi, o comunque per comunicazioni e via dicendo. E questa è una caratteristica propria dei software di mail marketing.
+
+1:00:08 - Conference Room (Lorena Cavecchi) - Speaker 1
+che vedete che ci alleghi un'immagine, figurati.
+
+1:00:11 - Conference Room (Lorena Cavecchi) - Speaker 1
+E certo, non è supportato per questo, non è supportato per allegare immagini.
+
+1:00:17 - Carlo Sanvoisin
+Io su questo posso solamente consigliarvi di fare, possiamo supportarvi eventualmente in una software selection, cioè voi ci dite quali sono I vostri parametri di privacy da rispettare, se questa è la cosa più importante, e noi li confrontiamo con con I vari parametri di privacy dei vendor, quindi di questi MailChimp, Klaviyo e via dicendo, e vediamo se ce n'è uno più adatto per voi. Però di base qui è una questione di strumento. Anche per esempio mandare il save the date tramite Outlook con l'immagine che è impossibile da mettere dentro è un'altra cosa che sicuramente si gestisce più facilmente cimp e della situazione.
+
+1:01:07 - Conference Room (Lorena Cavecchi) - Speaker 2
+Anche l'immaginazione grafica del testo che vuoi utilizzare più facilmente.
+
+1:01:15 - Conference Room (Lorena Cavecchi) - Speaker 1
+Sì, è impossibile.
+
+1:01:17 - Carlo Sanvoisin
+E questo io personalmente vi consiglierei di insomma di prendere un software di mail marketing perché sia dal punto di vista grafico, che dal punto di vista dell'invio massivo di comunicazioni non è nato per quello Outlook, quindi utilizzarlo in quel modo lì chiaramente per voi comporta un dispendio di tempo e risorse maggiore rispetto al necessario. Quindi vi possiamo aiutare a capire qual è il software migliore. Noi per esempio MailChimp l'abbiamo utilizzato, a me non dispiace, ce ne sono anche dei migliori. E' anche molto semplice da utilizzare. Sì, ma è semplice. È intuitivo. È molto intuitivo. Se volete un supporto su questo, ci dovreste spiegare bene qual è la polisi di riferimento e noi andiamo a confrontare quello con I requisiti di privacy e confidenziali di offerti dalla piattaforma. Se c'è un match, guardate che alla fine, operando questi passaggi, rispettate le vostre policy, c'è una protezione dei dati, di conseguenza lo potete utilizzare e al massimo vi possiamo supportare all'inizio nell'adozione dello strumento, se non l'avete mai utilizzato vi possiamo far vedere come si utilizza, però adesso non sono io il tecnico, posso parlare anche con Federico, però qui è una questione di strumento, non è metodologia, in intelligenza artificiale. Whatsapp, ok, messaggistica, comunicazione, whatsapp. Ok, su questo è una questione semplicemente di avere un whatsapp business e di utilizzare poi delle liste broadcast. Cioè ad oggi non lo fate? Sì, nel senso che lo facciamo.
+
+1:03:18 - Conference Room (Lorena Cavecchi) - Speaker 2
+Secondo me la vera tematica per noi è quella di far parlare il nostro database. Ma è diventata anche quella una roba che facciamo a mano associando banalmente un numero di telefono e stando davanti al cc o dare messaggi.
+
+1:03:39 - Conference Room (Lorena Cavecchi) - Speaker 1
+Allora su questo ti devo dire Carlo onestamente che io e Arianna qualche mese fa siamo andati a vedere quale poteva essere lo strumento. Non siamo poi più andati avanti perché non abbiamo più avuto tempo, però abbiamo visto che con Wati e 360 Dialog si poteva creare, avendo numero Whatsapp Business ovviamente, però ci sembrava un sistema che potesse importare, utilizzando un file Excel, fare dei messaggi personalizzati, quindi non che io lo vado a scrivere a mano, ma che ci poteva permettere di far sì che ci fossero dei campi che venissero catturati da un Excel. A noi questo servirebbe.
+
+1:04:33 - Carlo Sanvoisin
+Ok, quindi aspetta, spieghiamolo meglio. Praticamente voi avete l'Excel di partenza, che è sempre quello sui partecipanti all'evento, o comunque le persone sulle quali state lavorando.
+
+1:04:44 - Conference Room (Lorena Cavecchi) - Speaker 1
+C'è il famoso messaggio che tu hai visto prima di SMS. Dove c'era scritto sei al tavolo X presso il ristorante Castello. Il tavolo X è un campo. Ok. Oppure che poi è una cella di Excel e l'SMS ha un limite sempre di più perché tante persone che partecipano agli eventi hanno dei cellulari aziendali dove hanno gli sms bloccati, oppure banalmente quando vanno all'estero non ricevono gli sms.
+
+1:05:22 - Carlo Sanvoisin
+Ok, quindi questa casistica non è solamente nel caso in cui c'è l'evento più piccolo che voi gestite con il vostro Excel, ma questo lo vorreste incorporare nel vostro Office. Però, affinché funzioni tutto questo, dovrebbe diventare una funzionalità in più del vostro back-office cioè voi lì invece di avere sms vorreste avere whatsapp direttamente dal back-office oppure non potendolo implementare direttamente sul back-office che non è di nostra proprietà.
+
+1:06:02 - Conference Room (Lorena Cavecchi) - Speaker 1
+Per ambi I fornitori ci hanno detto che loro non lo fanno perché whatsapp ha Non è come l'SMS, ha delle limitazioni e della struttura dietro che per loro sarebbe controproducente. Per quello che io e Arianna eravamo andati a vedere come farlo e avevamo trovato questa soluzione che ci sembrava forse la più fattibile.
+
+1:06:35 - Carlo Sanvoisin
+Su questo mi servirebbe capire. Che lista di dati voi potreste avere da eventualmente importare in uno strumento che si collega con WhatsApp? Questo è molto semplice.
+
+1:06:48 - Conference Room (Lorena Cavecchi) - Speaker 1
+Il nome e cognome e l'informazione da dare, più il testo che scriviamo noi. Il testo lo dobbiamo scrivere noi, il testo cambia, quindi può essere nome e cognome, ovviamente il numero di telefono, perché il numero di telefono ci serve per WhatsApp, e il dato che dobbiamo comunicare, che deve essere collegato al testo. Non altre cose.
+
+1:07:13 - Carlo Sanvoisin
+Ok, quindi praticamente tu scrivi il testo, cioè tu vorresti scrivere il testo che è sempre lo stesso, però poi con quelle graffe che richiamano una certa scena.
+
+1:07:25 - Conference Room (Lorena Cavecchi) - Speaker 1
+No, il testo deve essere modificabile in base al messaggio che dobbiamo mandare e il dato messo, il famoso dato che hai visto tra le graffe, graffe che è quello che deve essere catturato dall'Excel.
+
+1:07:39 - Carlo Sanvoisin
+No, questo è chiaro, intendevo, cioè voi di volta in volta scrivete il messaggio, però poi il messaggio è uguale per tutti I partecipanti, il dato che cambia è quello fra graffe. Esatto, sì sì. Ok, no, questo intendevo, perfetto. Quindi voi vorreste avere un Excel essenzialmente, nome, cognome, numero di telefono, dati, diciamo, chiamiamoli parametrici, che potrebbe essere per esempio il nome del ristorante o lo e poi il messaggio in cui voi andate a scrivere il messaggio con le graffe e poi ve lo copiate e incollate praticamente su tutte quante le righe di questo Excel e in automatico lui dovrebbe acchiappare il dato dalle celle di riferimento per andarlo a sostituire rispetto alle graffe e poi integrarsi con WhatsApp e mandare massivamente il messaggio a tutte le persone che sono registrate. Non l'ho mai messa in pratica questa casistica, però sicuramente ci sarà un modo di farlo, quindi lo studio con il team tecnico.
+
+1:08:43 - Conference Room (Lorena Cavecchi) - Speaker 1
+Noi avevamo visto proprio questa cosa qua, Wati più 360 Dialog, cioè sono due sistemi che comunicano insieme e permettono di fare questa cosa, però l'abbiamo visto noi, magari poi I tecnici hanno sicuramente un sistema un po' più facile. L'importante è che sia facile.
+
+1:09:04 - Conference Room (Lorena Cavecchi) - Speaker 2
+Sì, c'è bisogno di vedere che ci devono lavorare sopra tante persone, tra l'altro.
+
+1:09:10 - Conference Room (Lorena Cavecchi) - Speaker 1
+Questa è una cosa che avevamo visto si poteva fare.
+
+1:09:15 - Carlo Sanvoisin
+Ok, diciamo che quello che io immagino è che voi lavorate questo Excel e poi quando l'Excel è pronto lo importate su uno strumento che opera, diciamo, la trasformazione dati, riscrive tutti quanti I messaggi sulla base appunto dei valori che ci stavano fra le graffe e poi però si dovrebbe integrare con WhatsApp per appunto mandare il messaggio alla persona di riferimento sulla base del numero. E questo diciamo la prima parte chiaramente una parte tecnica e che può essere fatta sia algoritmicamente che con un'agenda La seconda parte bisogna vedere quali strumenti si integrano con Whatsapp, perché chiaramente Whatsapp concederà un'integrazione diretta con l'applicativo solo a determinati... Esatto, quindi diciamo che lì è proprio una questione di andare a vedere Whatsapp con quali partner ha deciso di permettere questa integrazione e quindi poi lì diciamo la scelta sarà anche un po' obbligata a seconda di quali sono le soluzioni di mercato disponibili però ce la possiamo studiare assolutamente.
+
+1:10:42 - Conference Room (Lorena Cavecchi) - Speaker 1
+Ci rimane l'ultima che è il risponditore automatico per comunicazioni che cosa intendevate qui?
+
+1:10:51 - Conference Room (Lorena Cavecchi) - Speaker 2
+Tipo una cosa tipo la tua richiesta è stata presa in carico, vi risponderemo al più presto, piuttosto che alle richieste di qual è il mio itinerario, non me lo ricordo più, poter fare una...
+
+1:11:04 - Carlo Sanvoisin
+Ma queste richieste voi le ricevete tramite Outlook sempre?
+
+1:11:07 - Conference Room (Lorena Cavecchi) - Speaker 2
+Sì, tramite Outlook o tramite sistema di posta, a seconda di come stiamo comunicando con gli ospiti. È chiaro che se abbiamo un Outlook è un copy and call e manda, però se invece abbiamo un database più strutturato sarebbe utile far sì che questa risposta potesse, non lo so, tramite un'identificazione della domanda o essere inviata automaticamente.
+
+1:11:32 - Carlo Sanvoisin
+Domanda, questo voi oggi non avete la risposta automatica né nella casistica in cui gestire tramite backoffice, né nella casistica in cui gestire tramite Outlook?
+
+1:11:48 - Conference Room (Lorena Cavecchi) - Speaker 2
+No. Assolutamente banalissime.
+
+1:11:49 - Carlo Sanvoisin
+Scusate, non ho sentito, sul back office?
+
+1:11:54 - Conference Room (Lorena Cavecchi) - Speaker 2
+C'è l'unica risposta automatica che utilizziamo. Caso estremo di chiusura dell'ufficio mettete la risposta automatica. Abbiamo la risposta automatica impostata.
+
+1:12:06 - Carlo Sanvoisin
+Ok, quindi per capirci.
+
+1:12:08 - Carlo Sanvoisin
+Allora un conto è da Outlook, un altro conto sarebbe dal perché a questo punto... Ah, innanzitutto che abbiamo un secondo. Il dato che serve per rispondere. Chi lo ha? Nel senso dovete fare voi un ragionamento oppure c'è un modo di recuperare quel dato?
+
+1:12:31 - Conference Room (Lorena Cavecchi) - Speaker 2
+A meno che non siamo in una fase molto preliminare, il dato esiste ed è un dato base.
+
+1:12:39 - Carlo Sanvoisin
+Ok, quindi diciamo che qui la cosa ideale sarebbe avere un collegamento con il vostro database in cui, a domanda del cliente, lui riconosce il nome del cliente, va a cercare l'informazione sulla base di quel nome cliente e crea una bozza di risposta che voi poi potete rivedere e inviare. Questo potrebbe essere una soluzione per voi? Ok, questo sicuramente Outlook in un certo senso è più semplice perché possiamo creare un'estensione magari ecco anche semplicemente un pulsantino che voi avete sul vostro Outlook che nel momento in cui lo attivate lui va ad acchiappare appunto sulla base del nome cliente le informazioni dal database e vi scrive un draft di risposta che poi voi rivedete e inviate mi chiedo come potrebbe funzionare dal back office non conoscendo però diciamo ho capito il punto su questo possiamo fare degli approfondimenti ok allora vi ho rubato 15 minuti in più però mi è tutto molto chiaro tranquillo no no vi chiedo solamente di condividere I file esatto per questi casi d'uso di cui abbiamo parlato, quelli che prevedono appunto un file in input e un file in output, di mandarmeli così almeno possiamo già darci un'occhiata. Poi ci rimane praticamente l'invio massivo di comunicazione, io ne parlo col team tecnico però, come vi dicevo, penso che sia più che altro una questione di strumento. Per WhatsApp potete mandarmi un esempio, se ci avete, diciamo che l'ho capito più meno però è infatti alla fine quello nome cognome numero parametro e messaggio il processo ce l'ho bisogna solo capire qual è lo strumento che lo supporta e invece per rispondere automatico comunicazioni anche lì è solo una questione di capire come in cioè la tecnologia esiste si può fare assolutamente vi dico anche che in realtà su Microsoft con la licenza di Copilot voi già direttamente da Outlook potresti avere una risposta preimpostata. Il punto però qual è? Che il copilot guarda le informazioni all'interno dell'ambiente di Outlook stesso. Quindi se io per esempio ho un thread con quel cliente, lui posso dire rispondi tu, lui recupera tutto quanto il thread con il cliente e risponde, ma non è collegato al database. Quindi diciamo che è lì che dovremmo intervenire noi e fare in modo modo che uno strumento che sia copilot o che sia un'altra qualsiasi intelligenza artificiale abbia accesso al database eh capisca esattamente di che cliente si tratta con un ID o con un nome e cognome diciamo un qualcosa che lo eh identifica in maniera univoca e poi vi vi scriverò la risposta che è la cosa più facile. Cioè qui è solo una questione di capire come si parlano I sistemi e il vostro database tramite questo agente e stesso discorso per quello del backend quindi diciamo che per questi ultimi tre casi d'uso è una questione di studio della soluzione per quello della gestione liste analisi dati invece mi dovete dare gli Excel di riferimento così è più chiaro. A questo proposito vi chiedo anche siccome almeno tu Lorena eri in call anche ieri per quanto riguarda l'Excel insomma di mi ha parlato ieri Laura, lo stesso se riuscite poi ad inviarmelo e io vorrei fare un approfondimento anche su quello per capire meglio I dati che ci sono dentro, perché le richieste che lei ha fatto di analisi alla fine sono semplici, lei ha chiesto il margine, la quota di fidelizzati, la quota di new business eccetera eccetera, I dati che lei vorrebbe fuori, ok, vorrei vedere I dati che ci mettete dentro, quali sono, nel senso l'excel me lo potete anche mandare prima. Magari è tutto chiarissimo, non ho domande, però poi se vedo che ci sta una colonna che non capisco che dato ci sta dentro o come lo compilate eccetera eccetera, pure su quello forse sarebbe meglio fare un approfondimento. Quindi colgo l'occasione per chiedervi anche questo, tutto qui.
+
+1:17:19 - Conference Room (Lorena Cavecchi) - Speaker 1
+Senti Carlo, giusto per capire quali sono I prossimi step? Cioè nel senso, parlando con Laura, Laura mi ha mi ha detto che ci sono moltissime opportunità per agevolare le segreterie, eccetera. Tu sulla base di quello che hai detto, oltre a lavorare su quello che ti abbiamo detto noi, poi tu ci dirai, guarda potrebbero anche esserci questi sistemi o queste cose che possono aiutarvi?
+
+1:17:54 - Carlo Sanvoisin
+Diciamo che voi avete un grosso constraint, un limite legato al fatto che lavorate appunto principalmente con quel fornitore, su quel back office, che da quello che ho capito difficilmente si possono fare implementazioni su quello strumento lì. Quindi noi possiamo lavorare soprattutto su I piccoli eventi e tutta quella gestione che voi fate invece tramite Form, Excel e Outlook. Su quella parte lì potremmo, cioè teoricamente noi potremmo anche fare una versione più semplificata di quel backoffice molto molto più semplice molto più diciamo un'interfaccia utente più facile da utilizzare con meno campi meno meno complicazioni diciamo però almeno che è collegata al form quindi per esempio non dovete poi non avete il problema dell'import eccetera eccetera ma vi sincronizziamo I dati la colleghiamo in maniera magari integrata con il software di mail marketing quindi anche lì quando dovete mandare le email massive o I messaggi whatsapp fate tutto quanto da una stessa interfaccia ci mettiamo il supporto dell'agente quindi sia a livello operativo che vi aiuta appunto a magari fare quelle operazioni che mi avete raccontato prima su accoppiamento di dati, smistamento eccetera eccetera e poi vi può aiutare nella scrittura delle email, nella creazione magari anche delle immagini per fare gli inviti, insomma su quel processo lì ci si può lavorare molto di più. Quindi tutto quello che noi gestiamo offline per intenderci con I forum che creiamo direi di sì perché io nel senso non andrei a toccare tutto quel back office adesso che l'avete messo in piedi. Allora non mi piaceva tantissimo l'interfaccia, mi sembrava un po' complesso e anche un po' old school, però nel senso mi sembra anche che funzioni bene o male.
+
+1:20:02 - Conference Room (Lorena Cavecchi) - Speaker 1
+Quindi noi abbiamo due, questo più vecchio, poi ne abbiamo uno più aggiornato che non ti abbiamo fatto vedere per non te li arrivo. Cioè il sistema è lo stesso, più o meno. Però è fatto più giovane.
+
+1:20:16 - Carlo Sanvoisin
+Ok, di base, siccome vedo che avete dei processi rodati e che comunque a livello tecnico funziona, io personalmente, Andrea...
+
+1:20:26 - Conference Room (Lorena Cavecchi) - Speaker 1
+Grazie, ci stai dando una buona notizia, perché noi quelli che sono online sono più gestibili per noi, sono quelli che sono offline, con I form, che diventano un po' più più lunghi nelle cose da fare, perché come dici tu si possono fare interagire più cose.
+
+1:20:50 - Carlo Sanvoisin
+Facciamo così, voi avete fatto le vostre richieste e su questo facciamo gli approfondimenti e poi magari a questo punto anche con Federico facciamo una mezz'ora magari di approfondimento specifico sulla gestione invece dei clienti offline Certo, sì, ma infatti questo ci aiuta molto. Esatto, e abbiamo una soluzione che potrebbe rassomigliare al modo di gestirli online che ho utilizzato con quel sistema che vi ha dato quel fornitore, però lo facciamo molto più pulito, semplice e minimalista. Mettiamola così, senza rimettere su uno strumento pazzesco.
+
+1:21:33 - Conference Room (Lorena Cavecchi) - Speaker 1
+Sì, ma è stata una cosa pronti via, lo usiamo sinceramente.
+
+1:21:38 - Carlo Sanvoisin
+se ce l'abbiamo pronto lo usiamo se ci serve oggi ce l'abbiamo lo usiamo via, partiamo subito una cosa dove siamo molto molto autonome perché tanto I form ce li creiamo noi e sarebbe esatto possiamo introdurre delle piccole automazioni in alcuni punti del processo quindi esempio creato il form e già un'ottimizzazione sarebbe semplicemente si può sincronizzare I dati del form con uno strumento che crea le le liste di partecipanti con con I dati e che a sua volta collegato con un software di mail marketing in cui poi ti ritrovi con la stessa lista clienti e puoi mandare una comunicazione massivamente cioè andiamo a lavorare su questi passaggi manuali che fate quindi io vi direi eh questi casi d'uso di cui abbiamo parlato oggi. Noi ci studiamo delle soluzioni per quelle che sono le vostre richieste e magari per settimana prossima invece ci fessiamo una mezz'ora di approfondimento solo sul processo offline. Io intanto glielo racconto già a Federico per tutte le informazioni che mi avete dato oggi e così magari quando arriviamo a un call già noi ci siamo fatti un'idea di quello che si può fare e vi facciamo delle domande più specifiche per aiutare ancora di più a capire questo processo e poi anche su quello vi facciamo una proposta di come gestire in maniera più automatizzata questi eventi più piccoli che non vengono passati attraverso sito web e back office. Perfetto.
+
+1:23:20 - Unidentified Speaker
+Va bene. Va bene.
+
+1:23:22 - Carlo Sanvoisin
+Grazie mille allora per il vostro tempo.
+
+1:23:25 - Conference Room (Lorena Cavecchi) - Speaker 1
+Grazie, anche a te. Ciao, buona giornata.

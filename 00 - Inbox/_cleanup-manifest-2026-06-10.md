@@ -84,6 +84,12 @@ Pitch concluso 5/6 (esito soft-defer → workshop H2'26). Proposta di triage per
 - Distillazione pre-archive (Weekly Review): [[Lezioni dalla gara Angelini Academy]] in `40 - Resources/Concetti/`
 - Wikilink: risolvono per basename (v4) anche post-move — verificato dal run bis del checker. Recupero: `git mv` inverso o `git checkout pre-overnight-2026-06-10 --`
 
+### Smistamento _DA_DOWNLOADS ESEGUITO (sera 10/6, decisione §6 #16 sbloccata da Carlo)
+
+- 134 file smistati da `00 - Inbox/_DA_DOWNLOADS_2026-06-06/` (gitignored) → `80 - Sources/Files/<Cliente>/` (ora TRACKED nel repo): NoLoop 34 · NOT 18 · Angelini 16→Angelini Academy · Futuritaly 7 · Eldis 4 · HeyAI 3 · PresidIA 2 · Achipont 1 · **Trascrizioni 48** (call non attribuite, ricercabili full-text)
+- `axel.txt` → FUORI vault (`~/vault-trash-2026-06-10/`, decisione Carlo: tutto fuori) · `HeyAI Job descriptions.txt` (vuoto) → trash · `_INDICE.md` staging → trash
+- Cartella staging `_DA_DOWNLOADS_2026-06-06` RIMOSSA. Recupero: file ora tracciati in git; axel/indice nel trash esterno
+
 ### ⚠️ Nota operativa rilevata ~14:15 — terzo writer attivo
 
 Il plugin **Obsidian Git ha pushato in autonomia** gli 8 commit locali dei fix (Obsidian aperto, auto-sync ~10'). Nessun danno (commit validi, già destinati a main), ma la strategia "trattengo i push finché il run cloud non atterra" non regge col plugin attivo: il run cloud `vault-link-checker` (lanciato 13:55 circa) dovrà mergiare al push. Se il run fallisce il push → ri-trigger.

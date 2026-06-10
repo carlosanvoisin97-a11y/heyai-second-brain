@@ -1,0 +1,1549 @@
+Trascrizione
+10 febbraio 2026, 03:05PM
+
+Carlo Sanvoisin trascrizione avviata
+
+Arianna  Giordanella   0:03
+Traffico di Daily, ma ce la sto facendo perché chiede che.
+
+Federico Saladino   0:04
+Beh, speriamo, speriamo sempre tutti bene allora.
+
+Carlo Sanvoisin   0:08
+Arianna è collegata da Daily, sì.
+
+Arianna  Giordanella   0:09
+Sì, in realtà io mi diverto a fare ste cose.
+
+Carlo Sanvoisin   0:13
+No, ma siete tutti quanti sempre in giro.
+
+Lorena Cavecchi   0:14
+Però poi non te la vendere, scusate l'introduzione e l'interruzione, ma non te la vendere come vado a fare yoga in ritiro e il ritiro è nel traffico perché quello non ti aiuta. Ci credo che poi torni più sclerata di prima.
+
+Arianna  Giordanella   0:26
+No, lo haré allora.
+Sono stata tre giorni dagli zii indiani che mi conoscono da quando sono nata, quindi mi hanno rimpinzato come un tacchino, appioppato il loro autista, mi hanno vietato di girare senza di lui.
+Adesso però sono partiti, sono andati a Hong Kong perché sono molto girelloni, quindi io sono libera e posso andare a fare yoga da domani.
+
+Carlo Sanvoisin   0:50
+Beh, non è un cattivo programma. Comunque ogni volta che sento qualcuno di no loop, c'è chi è in Cina, chi è di qua, chi è di là, quasi quasi mi faccio assumere pure io in no loop, così comincio a viaggiare che sto sempre su questa sedia in Camera mia a Roma.
+
+Lorena Cavecchi   0:50
+OK, capito?
+
+Carlo Sanvoisin   1:06
+Isolato dal resto del mondo.
+
+Federico Saladino   1:06
+Sì.
+Carlo, Carlo non mette. Esatto, no, non mette, non mette piede fuori da 10 anni da come si chiama l'isola che c'è di mezzo. Il Transtevere abita lì, è lì fermo, chiuso nelle chiuso.
+
+Arianna  Giordanella   1:09
+Come vino.
+
+Carlo Sanvoisin   1:20
+Sì, esatto, esatto.
+
+Federico Saladino   1:23
+Quell'isola lì.
+
+Carlo Sanvoisin   1:25
+Sì, la mia unica finestra sul mondo è questo computer, praticamente è il mio parlare con avatar costantemente e con l'intelligenza artificiale. Comunque direi, cominciamo che immagino che dovremmo insomma fare tanto in poco tempo.
+Quindi, come anticipavo a Lorena agenda del giorno, raccogliamo i feedback di Arianna innanzitutto e poi cerchiamo di andare spediti su le funzionalità che erano ancora in sviluppo, così che insomma cerchiamo di chiudere in un'ora la call.
+
+Federico Saladino   1:44
+Sì.
+
+Carlo Sanvoisin   1:59
+Quindi parola ad Arianna.
+
+Federico Saladino   2:01
+Sì, ditemi voi come volete iniziare, cioè nel senso, vogliamo prima vedere le cose, guardate, ascoltiamo i primi feedback, comunque io un po' di roba da mostrare ce l'ho secondo me poi ne avremo anche altre di conseguenti a questa, cioè per.
+
+Carlo Sanvoisin   2:09
+Bye.
+
+Lorena Cavecchi   2:13
+Ma infatti forse sai Carlo che magari vediamo, vediamo le nuove funzionalità, poi se voi avete già recepito le modifiche, cioè le perplessità di Arianna, ci state già lavorando, magari poi facciamo uno step successivo.
+
+Carlo Sanvoisin   2:20
+OK.
+
+Federico Saladino   2:27
+Va bene.
+
+Lorena Cavecchi   2:29
+Con così magari andiamo ad aggiungere qualcosa facendo le prove con le cose nuove, no, che dite?
+
+Carlo Sanvoisin   2:36
+Assolutamente, assolutamente.
+
+Federico Saladino   2:37
+Allora a me, a me i feedback in verità di Arianna, cioè mi piacerebbe analizzarli un attimo uno a uno, ma semplicemente perché così posso rispondere a voce su magari cosa potrebbe essere giustamente appunto un feedback, un qualcosa che possiamo migliorare e implementare.
+O qualcosa che manca o magari semplicemente non lo so, la funzione è fatta o prevista in un'altro modo, cose cose così. Quindi se magari Arianna ha la lista di perplessità davanti velocemente 10 minuti li analizziamo un attimo assieme, potrebbe essermi molto utile a me.
+
+Lorena Cavecchi   3:15
+OK, va bene.
+
+Arianna  Giordanella   3:15
+Allora la prima cosa che mi era saltata all'occhio è che non riuscivo a caricare un'immagine, ma credo che non fosse ancora stata implementata la funzione ho capito male perché io ho letto la vostra mail quindi?
+
+Federico Saladino   3:23
+Sì, confermo, confermo.
+
+Carlo Sanvoisin   3:23
+Esatto.
+
+Federico Saladino   3:27
+Sì, esatto, cioè allora per questo.
+
+Arianna  Giordanella   3:28
+Quindi adesso riesco a farlo ma funziona con un drag and drop o c'è un tasto di upload? Devo dire che non ho provato oggi.
+
+Federico Saladino   3:33
+Allora al momento con l'ultimo rilascio però allora oggi adesso online non riuscirei a usarlo un attimo perché ho testato una build, cioè un piccolissimo errore di codice, semplicemente il backend non si builda però.
+Ce l'ho qua per voi il locale da mostrarvi appena chiudiamo la call vi mando su una versione che cioè che ranna semplicemente dovete capire che letteralmente.
+
+Carlo Sanvoisin   3:57
+Giusto per tradurre quello che dice Federico per il linguaggio degli umani, OKOKOK.
+
+Lorena Cavecchi   4:00
+Ho capito, ho capito.
+
+Arianna  Giordanella   4:03
+Ho capito io, dai.
+
+Federico Saladino   4:03
+Ma sì, ma questa qua comunque ma la ma la devi smettere dai han capito benissimo Madonna cosa fai mansplaining cioè Purtroppo però nel codice se c'è anche una virgolina storta e una proprio ne basta non si rompe tutto quindi fixando quella però poi dopo si.
+
+Lorena Cavecchi   4:16
+Pasta.
+
+Federico Saladino   4:19
+Sì, parte insomma, no a scherzo ovviamente comunque va bene, allora io vi faccio lo share, dai, vi faccio lo share intanto allora per rispondere comunque al discorso del.
+
+Carlo Sanvoisin   4:26
+Grazie fede, grazie vai.
+
+Federico Saladino   4:37
+Del fatto che non funzionassero gli upload e sì, cioè mancava semplicemente lì, era tutto implementato, pronto per gestire gli upload, mancava solo l'integrazione con effettivamente quello che è un lo storage, lo storage system diciamo di che abbiamo implementato per noi.
+OK.
+Prossimo.
+
+Arianna  Giordanella   4:56
+OK, la mia parola è una domanda diversa, non so se mi sono espressa male, non riesco a caricare un'immagine del Form.
+
+Federico Saladino   5:01
+OK.
+Non riesce a caricare un.
+
+Arianna  Giordanella   5:04
+Però adesso con l'intestazione grafica pagamento.
+
+Federico Saladino   5:07
+OKOK allora nel form l'immagine si carica tramite selezione, cioè non è un drag and drop comunque allora adesso guarda dove lo guardiamo un attimo assieme, controllo, controllo con te e vediamo un attimo sto entrando.
+
+Arianna  Giordanella   5:10
+Certo.
+OK, ti ringrazio.
+
+Federico Saladino   5:23
+Sto entrando anche da lì.
+
+Arianna  Giordanella   5:28
+E condividendo uno schermo che io non vedo.
+
+Federico Saladino   5:32
+Non ancora, sono entrato un attimo anche dal computer e mi stava facendo il classico loop.
+
+Arianna  Giordanella   5:36
+OK.
+
+Federico Saladino   5:40
+Mi mancava, mi entrava l'audio dopo. Allora vediamo un attimo. Ecco qui la Tab.
+Che dovrebbe essere.
+Questa qui.
+Dovresti vedere.
+
+Lorena Cavecchi   6:02
+Sì.
+
+Federico Saladino   6:02
+Perché sull'altro dispositivo vedo allora ad esempio.
+
+Arianna  Giordanella   6:07
+Sì.
+
+Federico Saladino   6:08
+Allora creiamo, creiamo un attimo un nuovo evento clean, sì, diciamo.
+Siamo sereni.
+C'è un creative ente.
+Chiamiamo.
+Temo due.
+Demo.
+E mettiamo delle date.
+14.
+Al 16 di questo weekend.
+Allora?
+Io adesso vado in management di demo due.
+E se vado dentro alla landing giusto mi dicevi non c'era l'allegato dentro che riuscivi a caricare un'immagine mi hai detto.
+Allora io metto il template, una colonna per esempio.
+Poi dopo ci metto dentro un'immagine.
+Scusatemi un attimo, c'è il mio computer che ha deciso di laggare come un matto.
+Scarico dentro l'immagine.
+E qua faccio edit e poi posso fare scegli file qua voi adesso non lo vedete però mi si è aperto il.
+
+Lorena Cavecchi   7:41
+Sì, lo vediamo quello dove ci sono tutte le faccine di Sally.
+
+Federico Saladino   7:44
+Eccolo, esatto, esatto, per esempio faccio Apri un file, dovrebbe caricarlo.
+
+Arianna  Giordanella   7:50
+Completelo lo.
+
+Federico Saladino   7:52
+E se faccio salva l'ha caricato.
+In preview anche disponibile.
+
+Arianna  Giordanella   8:01
+El manga proprio.
+
+Carlo Sanvoisin   8:02
+Chiaramente il layout di questa immagine non è ottimizzato per essere orizzontale.
+
+Arianna  Giordanella   8:05
+No.
+
+Lorena Cavecchi   8:06
+Sì, no, certo, sì, chiaro.
+
+Federico Saladino   8:06
+Sì, allora cioè qui no, ma qui allora questo è un discorso che al momento al momento il discorsi, cioè queste sono su queste cose qua potete a 100% anche non cioè poi ovviamente il feedback è sempre apprezzato, però non concentrarvi cioè.
+
+Carlo Sanvoisin   8:07
+Per quanto mi riguarda, questa immagine non dovrebbe esistere.
+
+Arianna  Giordanella   8:08
+Va bene?
+
+Federico Saladino   8:22
+Al momento alcune cose sono appunto state già curate, dal punto di vista tecnico manca qualche rifinimento funzionale, cioè è chiaro che tipo alla funzione immagine occorre una sorta di feature che consenta di fare resize.
+Magari ritaglio posizionamento dell'immagine sono.
+Purtroppo non so, vorrei dire che son piccolezze, ma non lo so perché bisogna mettersi lì, devo costruirmi un editor per fare in modo di fare l'immagine, di ritagliarla, di spostarla.
+
+Lorena Cavecchi   8:52
+Diciamo che la priorità è vedere tutta la parte funzionale per vedere se lì effettivamente ci sono delle dei delle cose da.
+
+Federico Saladino   8:58
+Esatto, esattamente.
+Esattamente, esattamente, esattamente poi come richiesto vi ho dato, vi ho implementato adesso che mancava appunto l'upload di allegato.
+La pagina.
+Giusto per farvi vedere un po meglio che magari lo vedete un po piccolo. E questo come funziona? Semplicemente è possibile implementare un.
+Un nome che verrà utilizzato poi per l'associazione del contenuto all'utente, quindi se voi qua lo chiamate patente e qua scegliete ovviamente i le estensioni accettate PDF, Jpg, Png quello che vorrete.
+Dopodiché il sistema lo linkerà con questo determinato tag che avete che gli avete dato, quindi patente o carta d'identità per esempio, no?
+Allora comunque altre funzioni molto molto interessanti intanto che vi ho vi ho preparato.
+E poi vabbè ovviamente se Arianna avevi qualcos'altro da aggiungere perché mi sta già venendo in mente un po' di cose che vi devo raccontare oltre all'upload hai visto qualcosa che non si è visto qualcosa di non insomma non funzionante o che.
+E qualche altro feedback?
+
+Carlo Sanvoisin   10:17
+C'era quella parte e volevano aggiungere una pagina extra al Form di registrazione per le attività che inizialmente gli avevo detto che effettivamente non l'avevamo mai discussa. Non era proprio nello scope iniziale. Arianna si è disconnessa e riconnessa.
+
+Federico Saladino   10:22
+Sì.
+
+Carlo Sanvoisin   10:33
+Arianna, eccoci, ci senti.
+Italia chiama Arianna.
+
+Lorena Cavecchi   10:45
+Sì, per intenderci è una pagina dove noi possiamo mettere, che ne so, il programma o la descrizione delle attività o dei piccoli pop-up che escono per se magari li mettiamo.
+
+Federico Saladino   10:58
+Esatto.
+
+Lorena Cavecchi   11:03
+Che ne so, vuoi partecipare all'escursione rafting? E però da qualche parte dobbiamo fare in modo che esca la descrizione, perché magari dobbiamo dirgli sì, se tu partecipi però sappi che devi portarti il costume, devi portarti delle ciabattine da spiaggia.
+
+Federico Saladino   11:19
+Comunque.
+
+Lorena Cavecchi   11:20
+E poi ci sono 600 scalini a scendere, 400 gradini AA salire.
+
+Federico Saladino   11:26
+Sì, allora ecco.
+
+Lorena Cavecchi   11:28
+E allora c'è un po' di descrizione dell'attività, così come il programma dei by Day.
+
+Federico Saladino   11:31
+Carlo, Carlo, Carlo.
+Certo allora in questo momento in verità il sistema prevede una landing OK, però per esempio per fare operativamente quello che mi stai mi stai spiegando adesso io non vedo grossi problemi perché io posso fare un contenitore.
+Con la regola di rendering condizionale. Esempio, vuoi partecipare al rafting booleano? Quindi è True false, vero o falso? Metto sì vero? Se l'utente schiaccia sì, voglio partecipare al rafting compare una sezione, appunto.
+Esplicativa appena sotto che dice quell'immagine, magari la descrizione del programma, cioè ti dovrai portare con dovrai portare con te un costume, delle ciabatte eccetera eccetera e l'attività.
+
+Lorena Cavecchi   12:17
+E invece si può fare scusami una cosa tipo se vuoi avere maggiori informazioni clicca qui.
+
+Federico Saladino   12:24
+Allora sì, io ve lo.
+
+Lorena Cavecchi   12:24
+Perché magari uno non lo sa sì, se no, se non sa il programma prima, capito?
+
+Federico Saladino   12:30
+Sì, allora esatto. Cioè dicevo appunto, come ve l'ho spiegato io, nel momento in cui uno clicca sì, gli compare il programma letteralmente davanti al naso. No, comunque sì. Cioè nel senso, si può fare anche il click e raggiungere un'altro, un'altra pagina esterna.
+In verità io lo sconsiglierei da un punto di vista funzionale, perché noi dobbiamo guidare l'utente, cioè noi. Io se dovessi implementare una roba del genere e l'utente mi clicca e desideri fare rafting, puoi schiacciare sì, no, ma non è che hai ancora fatto, diciamo la submit dei dati, no?
+Schiacciando sì gli compare appunto quello che comporterebbe fare rafting, quindi noi lo guidiamo nella scelta invece che semplicemente dirgli sì, no. E poi c'è un link dove uno schiaccia con scritto informazioni, ulteriori informazioni. Non so, per esempio.
+Che se l'utente non clicca non andrà mai a leggere.
+
+Lorena Cavecchi   13:21
+Sì, no, l'importante è che cioè l'importante è che lui possa leggere prima di dire sì o oppure se mentre legge e a lui pensava di dire sì, poi alla fine dice no perché dice io non li faccio 1000 scalini per fare rafting.
+
+Federico Saladino   13:27
+Certo.
+Esattamente, cioè allora qui sarebbe appunto allora, per esempio, richiedi all'utente.
+Se desidera.
+Fare le attività di rafting.
+Mandiamo Sally.
+Sì o no? Ratio conferma no, adesso lo salvo.
+Vado poi nel builder qua del landing.
+E qui posso appunto per esempio sarebbe una roba del genere. Adesso aggiungo due contenitori in uno c'è il desideri fare attività del rafting questo qua vado in impostazioni dicendogli.
+Che ha un conditional rendering.
+Poi come vi dicevo l'applicativo ve lo tradurrò anche completamente in italiano e gli dico che questo field è legato al desideri fare attività di rafting no? E gli dico che se è uguale a sì allora il.
+Contenitore si renderizza no, poi per esempio.
+Metto, che ne so?
+Mettiamo un titolo.
+E se tappiamo, appunto, che ne so qui rafting?
+Salva.
+Poi.
+Mettiamo.
+Sì, un'immagine.
+Eccolo qui.
+E qui, per esempio.
+Adesso, adesso sto prendendo un po di roba.
+Così, proprio per dare e farvi vedere come verrebbe, prendo un'altro testo semplice, text block.
+E lo piazzo qui.
+Qua sotto ci inserisco, che ne so, la descrizione dell'attività salva.
+Dopodiché ho un'immagine, qua ci sono dei simpatici signori in Valtellina, salva immagine col nome salva.
+Carico l'immagine scegli.
+Ecco qua.
+A questo punto, cioè nel senso, questo è per mostrarvi anche che l'attività è molto, cioè in verità non è complessa da fare, no salva a questo punto, appunto, nel momento in cui l'utente sta viaggiando nella pagina, se decide.
+
+Lorena Cavecchi   16:43
+Sì.
+
+Federico Saladino   16:53
+Di fare attività di raphing e schiaccia sì, gli compare la sezione dedicata, cioè piuttosto che invece mettergli un link che dove deve andare su un'altra pagina gli dice l'attività in breve.
+
+Carlo Sanvoisin   17:01
+Certo.
+
+Lorena Cavecchi   17:02
+OK, va bene, tanto poi c'è il registra sta per conferma la confermi giusto il register preview che vedo cosa si intende che lui dà l'ok definitivo a partecipare?
+
+Federico Saladino   17:10
+Allora?
+Questo è perché per.
+Allora questa è praticamente un questo è un registra generico, è un registra di qualsiasi cosa, no? Poi questa è la è la preview diciamo della landing. Però cosa significa? Cioè io qua in questa landing sarà la landing di registrazione, ve lo dovete immaginare, cioè avrò.
+
+Lorena Cavecchi   17:25
+OK.
+Certo, sì.
+
+Federico Saladino   17:33
+Nome, cognome, data e poi avrò questa sezione qua che se sempre tutta nella nostra pagina dove se l'utente mi clicca sì mi spiega l'attività di rafting, quindi a quel punto lì l'utente se ha cliccato sì no e si è letto.
+
+Lorena Cavecchi   17:37
+OK.
+
+Federico Saladino   17:48
+Si è letto che qua sotto che deve fare 400 gradini e non li vuole fare, gli basta cambiare di nuovo su no, cioè ripeto, è anche di nuovo, è molto.
+
+Lorena Cavecchi   17:57
+Certo, sì, capito, capito?
+
+Federico Saladino   17:59
+Guidato perché piuttosto sono sul link esterno, poi dopo uno magari vi arriva là il giorno e vi dice cavoli ma io non riesco a fare 400 scalini come faccio a partecipare? Quindi? E voi mi dite beh allora non è che gli dite dovevi aprire il link andare a vedere c'era la descrizione però no gli dite cavoli quando gli schiacciato si.
+
+Lorena Cavecchi   18:08
+No, certo.
+
+Federico Saladino   18:19
+È comparso davanti al muso che c'era 400 scalini da fare? No, per intenderci. Quindi questa è un po l'idea di dietro a rendering.
+
+Carlo Sanvoisin   18:28
+Ritorna come insomma funzionalità in questo modo.
+
+Lorena Cavecchi   18:32
+Sì.
+
+Carlo Sanvoisin   18:34
+Ok, super. Allora l'ultimo punto di Arianna vede invece era sui colori, qualcosa sui sui template colori Arianna, se vuoi ce lo.
+
+Lorena Cavecchi   18:34
+Sì.
+
+Arianna  Giordanella   18:37
+Sì.
+
+Federico Saladino   18:41
+Allora ecco, sui colori in verità tendenzialmente vi dico, mi pare strana questa segnalazione, nel senso che in teoria qui è tutto molto preciso, più che altro ve lo devo rendere un pochino più.
+Un pochino più self, cioè più autoesplicativo, perché spiegavo anche con Carlo che il gergo che c'è qua dietro è un po' troppo tecnico, nel senso che stiamo parlando quasi proprio delle regole CSS, si chiamano adesso, senza entrare nel dettaglio, ma.
+È il linguaggio che si usa nel web per descrivere lo stile di una pagina, mentre magari appunto un delle etichette più esplicative possono essere comunque poi vi dico anche, potrebbe anche essere magari che la segnalazione.
+Possa esserci, cioè possa essere corretta la segnalazione di Arianna, magari qualcosa effettivamente non funziona.
+
+Arianna  Giordanella   19:33
+Può essere che fosse anche un mio problema di visualizzazione, ma erano nettamente differenti.
+Avevo messo un giallo neone e sembrava quasi arancione, però magari è la visualizzazione.
+
+Federico Saladino   19:47
+OK, c'è tipo come sfondo.
+
+Arianna  Giordanella   19:51
+Come colore del tasto e anche come colore del tasto, soprattutto differiva.
+
+Federico Saladino   19:52
+Ciao.
+Bottoni, colore del bottone.
+
+Arianna  Giordanella   19:59
+Tasto quello registrato.
+
+Federico Saladino   20:02
+Tu avevi messo un giallo neon, sì, poi c'ho allora mi pare molto strano.
+
+Arianna  Giordanella   20:06
+Sì, è un di quei gialli sparatissimi.
+
+Federico Saladino   20:09
+Sì, proprio un giallo pieno, insomma, una cosa del genere. Questo è quasi questo è praticamente giallo puro, quello che ho trovato perché 255 255 0 di blu.
+Lo faccio fatto, lo salvo. Se vado in preview verrebbe da dire che il colore è proprio quello impostato. Insomma bottoni. Questo qui è un esadecimale 1FF00 se adesso vado in ispezione di pagina vediamo ma.
+E si è chiusa un attimo la landing, sono andato indietro senza volere.
+No, ti direi che allora mi pare giusto. Ecco, sì o no? Allora un momento, ora ho capito, ho capito il tuo, la tua segnalazione, no, è un è una cosa assolutamente. Cioè se è questa è quel se è come ho capito tu adesso mi dici.
+Non è dello stesso giallo? Allora sì, ma perché il bottone ha uno status che è quello disabilitato, cioè finché il Form non è completato e tutti i dati sono validati, il colore del bottone non è attivo, è disabled, che generalmente viene calcolato.
+
+Arianna  Giordanella   21:20
+Esatto.
+
+Federico Saladino   21:32
+Applicando appunto un colore leggermente diverso, più scurito a livello di trasparenza nel momento in cui io poi.
+
+Arianna  Giordanella   21:41
+Ma questa era difficile da capire.
+
+Federico Saladino   21:42
+Schiaccio questo puoi vedere che il bottone come.
+
+Arianna  Giordanella   21:48
+Dico che era un po difficile da capire, non ci sarei mai arrivata.
+
+Federico Saladino   21:48
+E allora?
+
+Lorena Cavecchi   21:49
+Ha detto.
+
+Federico Saladino   21:52
+Allora sì, perché in verità è piuttosto chiaro, ma chiaramente dando la possibilità di scegliere qualsiasi colore diventa complicato capirlo, proprio perché uno sta usando un colore che non è visivamente satisfying, non permette bene di capire.
+La funzione no, nel senso del disable del bottone, allora su questo ti posso dire.
+O metto il controllo semplicemente anche per scegliere il colore del bottone se bottone disabilitato no e quindi dove anche quando bottone disabilitato scegli tu il colore potresti mettere un qualsiasi altro colore oppure vedi adesso cioè nel senso non è che il colore è sbagliato è che non essendo mancando dei campi lui.
+E disattivato no. Se invece lo compilo tutto diventa blu pieno perché è attivo adesso. Comunque allora per questa cosa qua ti dicevo, le soluzioni va bene, è un buon feedback. Le soluzioni possono essere che.
+
+Arianna  Giordanella   22:47
+OK.
+
+Federico Saladino   22:53
+O nascondiamo proprio il bottone, cioè il bottone di Submit non compare finché tutti i campi non sono validati, o lo mettiamo in scala di grigi, quindi viene filtrato in bianco e nero indipendentemente dal dal colore che si sceglie, come il bottone che secondo me è una scelta molto efficace. Perché?
+Indipendentemente bene o male dal colore che vai a scegliere del tema, la scala di grigi funziona sempre oppure ci mettiamo una scelta per un'altro colore? Però OK, mi è chiaro il tuo feedback, penserò a una soluzione.
+
+Carlo Sanvoisin   23:23
+Voi cosa preferireste? Io sono d'accordo sulla scala di grigi, perché almeno così si vede che da grigio si colora ed è cliccabile piuttosto che non metterlo proprio e farlo comparire.
+
+Arianna  Giordanella   23:25
+Grazie.
+Io anche mi sembra chiaro.
+
+Carlo Sanvoisin   23:36
+Ritorna poi no.
+
+Lorena Cavecchi   23:37
+Tío.
+
+Arianna  Giordanella   23:40
+Sì, il mio turno.
+
+Carlo Sanvoisin   23:40
+OK.
+Vai e anche questa altri feedback che magari non ci hai segnalato per email, però nell'utilizzare lo strumento ti è saltato qualcosa all'occhio, qualcosa che non sei riuscita a fare che non e magari hai trovato che non era proprio super funzionare il processo super fluido.
+
+Arianna  Giordanella   24:03
+Ma l'unica cosa che mi ha però poi c'ho ragionato in realtà è una mia, è solo un'abitudine che ho il fatto che non vedo l'esito del mio lavoro finché non vado su, ma quella è una cosa, un'abitudine che si può perdere secondo me.
+
+Federico Saladino   24:19
+Dici nella landing?
+
+Carlo Sanvoisin   24:21
+Sì.
+
+Arianna  Giordanella   24:22
+Yes sì, cioè che monto cose e poi ora capisco come è venuta fuori, devo cliccare su preview?
+
+Federico Saladino   24:23
+Nel builder.
+
+Carlo Sanvoisin   24:23
+E.
+
+Federico Saladino   24:25
+Ma allora?
+Sì, allora anche questo è un ottimo feedback e qui più che altro ci sono più strade da prendere, però io sinceramente resterei su questa per un motivo molto semplice, cioè il fa.
+Detto che la diciamo che la modalità di build più o meno ti dà un'idea di come verrà, però ovviamente io nella modalità di build devo inserirti anche una serie di funzioni.
+Di editing, come appunto tutte queste icone, sezioni per spostare, trascinare, modificare il singolo elemento eccetera eccetera, Metterti la Tab qui, magari che ti dice se un se un rendering di un determinato contenitore condizionale eccetera eccetera.
+Fare in modo che le due matchino proprio in fase assoluta è un po' complicato, no? Compreso anche il fatto che appunto un'altro esempio, le sezioni di rendering condizionale in preview si mostrano giustamente per quello che realmente sono, cioè io posso avere anche una pagina.
+Una build, una landing qua nel configuratore che è lunga che cavolo ne so 10 m verticalmente però quando apro in preview leggo solo il titolo perché magari appunto tutti i contenitori sono condizionali ad esempio no? E quindi cioè io direi proprio che il modo giusto è proprio.
+È questo, cioè nel senso che qui questo contenitore, cioè io non posso mostrarti già la landing, anche perché appunto magari un contenitore come questo è condizionale, quindi se io te lo mostrassi già in preview, la visualizzazione di quel contenitore dipenderebbe da valori che devono essere compilati.
+Non so se.
+
+Arianna  Giordanella   26:17
+Chiaro.
+Ma infatti mi ci devo prendere un attimo la l'abitudine, come si dice.
+
+Carlo Sanvoisin   26:22
+No.
+
+Federico Saladino   26:23
+Piuttosto, magari, che ne so, poi io che andrò piano piano sempre a migliorare un po le cose, cioè potremmo iniziare a pensare ad aggiungere.
+Anche shortcut di tastiera, cioè appunto, magari semplicemente schiacciando, che ne so, un tasto comodo in tastiera passi in modalità preview, così puoi switchare velocemente dalla tastiera senza dover andare a cliccare il bottone manualmente tutte le volte.
+Ad esempio.
+
+Arianna  Giordanella   26:51
+Quello sarebbe bellissimo.
+
+Federico Saladino   26:53
+Sì, assolutamente lo potremmo fare, non è non è un problema. Allora pulisco un attimo questa splendida landing che poi vabbè, potevo anche lasciarla così, però partiamo così con un progetto pulito e se non ci sono altri feedback volevo far vedere un po' le nuove, le nuove feature.
+Ciao.
+
+Lorena Cavecchi   27:12
+Okay.
+
+Federico Saladino   27:14
+OK, allora?
+Intanto ospiti vado adesso di nuovo a fare un upload.
+Basta.
+Import Excel.
+Avevo una cartella con tutti i file, vediamo un po se la trovo.
+Cedi file, vado dentro a desktop, dovrebbe essere projects.
+No loop, no documents in no loop cloud demo, eccolo.
+Vi porto questa lista di invitati.
+No, un attimo, ho demo files che ho visto.
+Come ho fatto un'ulteriore cleanup dei dati per rendere tutto più semplice, poi in verità non fa nessuna differenza. Guest import, Apri.
+1800 ospiti. Mi chiede cosa voglio mostrare, appunto giustamente, perché non sapendo mettiamo il nome e cognome.
+E email, non so.
+Le città.
+Scusate, è il mio PC che sta ha deciso di laggare come un matto.
+OK.
+Che città dicevo, salvo.
+OK, quindi noi qua adesso abbiamo la lista di invitati, allora prima feature, primissima feature.
+Noi adesso abbiamo fatto un import.
+E quindi purtroppo da siccome essendo un import da Excel, il sistema considera semplicemente ogni valore come stringa qualsiasi, cioè non c'è validazione, non c'è tipizzazione di dato.
+OK, non so se vi torna, se vi è chiara questa cosa, allora un esempio qual è? Un esempio potrebbe essere proprio questo, no che il no ho sbagliato. Scusate, non la scadenza documento ma volevo il tipo documento.
+
+Lorena Cavecchi   29:24
+Sì.
+
+Federico Saladino   29:37
+Allora tipo documento adesso molti non li hanno compilati in questi dati purtroppo però immagino che uno è CI che è carta d'identità.
+Oppure l'altro sarà PA, che è patente di guida, giusto?
+OK, tuttavia.
+
+Lorena Cavecchi   29:52
+Gassa per passaporto.
+
+Federico Saladino   29:55
+OK, passaporto per esempio? No. Qual è il discorso però è che chiaramente per il sistema non c'è un valore. No, questa è una stringa. Uno potrebbe scriverci quaquaraquà anche dentro, per lui non cambia niente.
+Quindi cosa ho fatto in sostanza? Adesso se io vado dentro non ho eliminato il rafting elimina. Se io adesso vado dentro alla sezione documento tipo documento, vedete che il tipo documento lui dice che è un tipo.
+Testo vi ho aggiunto una nuova funzione sempre per migliorare con sally quindi dove praticamente sally guardando i valori popolati all'interno dell'import decide se c'è un field specifico migliore.
+Tipo qui infatti suggerisce un tipo radio con carta d'identità o passaporto, perché appunto non ha senso mettere un testo libero quando di fatto in verità i valori selezionabili sono questi due OKO uno l'altro non è che può essere entrambi o.
+Può essere un valore non esistente? Diciamo no. Poi chiaramente se voi lo sapete questo stiamo parlando di import, quindi questo funziona con dati già esistenti, quindi è perfetto. Vuol dire che nei dati non esiste un'altra scelta. Se voi state creando invece ovviamente un form vostro per far registrare le persone, poi potete aggiungere quello che vi pare.
+OK.
+
+Lorena Cavecchi   31:18
+Certo, sì.
+
+Federico Saladino   31:20
+Questo serve solo per bonificare i dati in sostanza. OK, questo è il senso, cioè gruppo. Per esempio questi qua sono un'altra cosa, no? Dove nell'excel che abbiamo importato c'erano tot casistiche, c'era appunto il gruppo Fideuram. Ho visto.
+Magari qualcosa come ospiti o aggiunte o cose del genere. No, al momento è un gruppo di testo perché per me non ha nessun valore, ma se gli facciamo il miglior accounsally lui andrà a vedere tutti i dati, a fare un'analisi e a dire cavoli questo campo qui ha solamente fideuram ISPB all period case terze accompagnatore tour leader eccetera.
+
+Lorena Cavecchi   31:40
+Certo.
+
+Federico Saladino   31:55
+Eccetera e quindi ti crea un per esempio un drop down OK ora dopo che abbiamo devo salvare ora che abbiamo fatto ste migliorie se io vado in ospiti e per esempio mi aggiungessi dentro al filtro.
+Il gruppo.
+Qui e me lo metto, qui mi metto il gruppo tra i filtri che voglio poter utilizzare.
+Salva.
+Gruppo non è +1 barra di ricerca dove ci scrivo dentro io, è una select perché lui ovviamente staff DJ no? Cioè c'abbiamo i bomber che si mettono dietro la Consolle, Fabrizio e Luca No, perché lui adesso facendo un'analisi ha capito che queste sono le possibili scelte.
+E quindi non lascia più diciamo scrivere a mano no? E quindi non darti risultati ti costringe anche nel filtro a trovare a utilizzare i valori, gli unici valori accettati per la ovviamente basandosi sulla lista input.
+
+Lorena Cavecchi   32:58
+**** questo.
+
+Federico Saladino   32:59
+No.
+OK, questo intanto è uno ora, ora, ora, ora, ora, ora. Vorrei spostarmi un attimo sul discorso gruppi e roaming che non abbiamo visto l'altra volta. Allora gruppi. Intanto la prima cosa da fare questa sezione dedicata.
+Esclusivamente alla creazione dei famosi gruppi. Che cos'è un gruppo? Il gruppo è semplicemente una parte di utenti, una parte di scusate dei nostri invitati che corrispondono a determinati filtri.
+Quindi io dalla mia lista di invitati voglio selezionare solamente le persone del management OKE come posso fare allora ovviamente devo avere i dati per farlo, però mettiamo per esempio che in questa casistica che ne so?
+Solamente le persone di fideuram e che vengono dalla città di Milano. Stiamo facendo una cosa, è un è un esempio, siamo certi essere il management perché fideuram ha non so tutte le altre sedi in giro per l'Italia.
+Mentre la sede di Milano, dove c'è l'Ufficio a Milano, è la sezione di management. OK, dobbiamo quindi magari dargli un servizio, dargli un servizio di favore fra.
+Io mi creo il mio filtro qua dentro vedo tutte appunto le persone per cui il filtro è stato impostato. In questo caso scriviamo Milano. Ora qui trovo solamente le persone di Milano, giusto? Diciamogli anche.
+Che vogliamo il gruppo Fideuram, quindi Fideuram Milano. Quindi queste sono solamente persone che avevano il gruppo Fideuram e che vengono dalla città di Milano. Se vedete qualche errore di impaginazione di layout qui sono robe piccole, non fixate. Adesso ci concentriamo sulla parte funzionale.
+
+Lorena Cavecchi   34:51
+No, sì, esatto.
+
+Federico Saladino   34:52
+Sono in totale sono in totale 51 ospiti. OK, io adesso posso creare il gruppo. Mi è stato creato un gruppo management con appunto i filtri città Milano e gruppo Fideuram. OK, ora io questo gruppo lo posso usare.
+Ovunque nell'applicazione dove per esempio noi avevamo prima visto l'altra volta i le assegnazioni dei transfer, se adesso io vado a non so tirarne uno adesso.
+Per esempio poi vabbè c'è il solito import in verità che è un po' più veloce, potremmo anche importare importiamo che ci mettiamo bene importa andate vado dentro qui a demo e faccio cans andata importa.
+E mi ha creato la mia nostra solita mappa che siamo già abituati a vedere adesso dentro itinerari o i vari itinerari c'era qualcosa che partiva da Milano. Forse ad esempio non è necessario? Ovviamente sì, non è non è strettamente necessario. Però vabbè.
+
+Lorena Cavecchi   35:49
+Di sera.
+
+Federico Saladino   35:54
+Per esempio, questo qua.
+Cioè questo diciamo il sistema agnostico su questo questa è un'assegnazione che fate voi. Però io posso andare appunto su assegna itinerario c'è già il gruppo management che ho creato conferma assegnazione adesso d'ora in avanti management sa che viaggerà sulla base di.
+Di questo specifico itinerario perché partono da Milano e partono da Milano dall'Hotel Brera. Adesso lasciamo stare che c'è scritto hotel Brera è solo un esempio dentro la sezione ospiti. Adesso ovviamente nel momento in cui io vado, adesso metto a.
+Appunto il filtro fideuram, anzi in vista mi aggiungo, come abbiamo visto prima, poi ci potrebbe essere utile anche una cosa da aggiungere, forse la il filtro per gruppi. Quindi dove posso cercare gruppi non gruppo come inteso qua valore, ma gruppi come quelli che stiamo creando noi, gruppi della nostra applicazione.
+Avevamo detto che il gruppo interessato va alla città di Milano, per esempio.
+Quindi mi aggiungo anche questo filtro un attimo qua così ce l'ho.
+Se adesso io cerco.
+Una persona qualsiasi che appunto è del gruppo Fideuram e Milano e vado dentro a dettagli come abbiamo visto ovviamente in itinerario. Adesso troverò associato il specifico itinerario della persona. OK, c'è il discorso biglietti, l'abbiamo già visto l'altra volta, si può fare l'upload, c'è l'o CR, lo associo automaticamente eccetera.
+Ci sono però tutte queste bellissime nuove sezioni, adesso che sono il camere, il check-in eccetera eccetera, ora come funzionano queste?
+Importiamoci per esempio adesso un roaming allora a questo punto la prima passaggio è di importare l'inventario, quindi l'inventario sta proprio nel tutte le camere tra virgolette che sono disponibili a importare quel file che mi avete dato.
+Il file ha una SHAPE specifica.
+Che sono appunto hotel name, room type code, capacity e poi le date. Allora la capacity sta per il posti tra virgolette disponibili nella stanza. OK, perché è così. In questo modo voi avete la possibilità di chiamarvi tipo Camera.
+Come volete stelle uguale non è un problema, però il sistema deve sapere comunque un numero fisico di quante persone possono stare nella Camera, indipendentemente che sia una doppia con il letto singolo o una doppia con i due letti separati.
+Per intenderci, OK, poi l'assegnazione in Smart sta a voi per il momento ovviamente no.
+Fino qua mi torna, abbiamo importato una cosa. Allora a questo punto cosa succede? Prima di poter fare l'assegnazione abbiamo appunto una funzione di raggruppamento camere anche OK. Come funziona? La funzionalità di raggruppamento Camera dipende appunto dall'import.
+
+Arianna  Giordanella   38:34
+Sì.
+
+Federico Saladino   38:48
+Io posso mettere, per esempio, che gli hotel di Riccione con 5 Stelle.
+5 Stelle eccolo qua che sono questi due sono il prominade e il the ben e lo chiamo non so.
+Luxury piccione, per esempio.
+Questo sezione adesso ha dentro appunto dei delle sezioni di camere che sono appunto di Riccione e hanno almeno 5 Stelle. Ora posso andare all'assegnazione, quindi qui io posso dirvi che voglio che il.
+Gruppo management che ha un totale di 51 ospiti. Dorma nelle tipologie di camere che ho filtrato, che in questo caso sono le luxury, lasciamo stare che ho messo Riccione. Non importa però se appunto la Camera ha la caratteristica non so di avere il dus o non avere il letto singolo o avere il 5 Stelle.
+Avere non importano, il filtro lo creiamo noi qui importo quindi seleziono che voglio che siano le camere che io ho filtrato ho creato il gruppo Camere Luxury, voglio assegnarle a loro data di inizio data di fine. Questo ci dice già anche le disponibilità attuali che adesso scusate che c'è la data americana devo formattarla.
+Però dal 140226 al 160226 e sono le doti disponibili ad inventario faccio assegna.
+A questo punto lui mi dà un feedback che mi dice che gli ospiti totali sono 51, sono stati assegnati tutti quanti sono stati sparsi e ora vediamo come se andiamo in panoramica vediamo che per esempio li hanno messi, li ha messi tutti al promenade.
+E ci segnala giustamente solo in giallo Giampiero che è stato messo in una Camera dus da solo, esempio.
+E qui ci ha già praticamente fatto in automatico tutto il roaming. OK, nulla toglie, nulla vieta ovviamente anche di poter creare altre tipologie di filtri quindi tipo che se io.
+Posizione, non lo so, scusate stelle, metto i tre stelle che sono questi e scrivo, che ne so?
+Operatori per esempio che lavorano con noi nel nostro evento e abbiamo deciso di risparmiare un pochino sul loro roaming. Mi vado a creare anche scusate qui nei gruppi un gruppo operatori.
+Ospiti.
+Uffa quanto lagga questo PC adesso lo cambierò gruppi avevamo cosa c'è staff sport, ecco quelli che fanno per esempio palestra che consideriamo di basso valore.
+No, scherzo, allora metto staff palestra, per esempio.
+Creo il gruppo, sono in totale 21 persone e adesso banalmente adesso ho bisogno di fare il roaming dentro al roaming posso andare in assegnazione, guardare lo staff palestra e metterlo dentro a le camere che abbiamo predisposto per gli operatori.
+Assegno.
+E il sistema fa tutto in automatico, quindi non devo più preoccuparmi di niente.
+Eccolo qua.
+E adesso, sempre in panoramica, mi troverò anche i le persone che sono state assegnate non al promelade ma appunto a gli hotel per la per gli operatori, insomma, OK.
+Ora qui abbiamo un'altro valore che di cui volevo parlare, che è il valore stabilità, il valore stabilità semplicemente vi dice.
+E ovviamente varia sulla base della disponibilità degli alberghi.
+Quanto sono stabili le persone nelle camere? Cioè mettiamo che per esempio per x motivi è un momento **********, il l'hotel promenade vi dà disponibilità solo per due notti, voi l'avete l'evento di tre e quindi dovete di fatto purtroppo magari far fare agli ospiti uno switch d'albergo.
+OK, in quel caso lì adesso non so se succede, però ovviamente non so se vi succede. Però dicevo, il sistema ovviamente deve deve poter gestire tutto. In quel caso lì lui quando andrete a fare l'assegnazione metterà per le prime due notti gli ospiti al promenade e l'ultima notte al the band.
+Di Riccione, per esempio, e.
+
+Lorena Cavecchi   43:22
+No, ma infatti questo magari Federico ci succede per esempio perché abbiamo eventi dove dormono magari in una settimana in tre hotel diversi.
+
+Federico Saladino   43:34
+Ok, anche sempre nella stessa città vi succede proprio che non c'è disponibilità di alberghi, giusto?
+
+Lorena Cavecchi   43:39
+No, magari è un viaggio itinerante, che ne so, la ho due notti a Singapore e poi 5 notti a Bali. E quelle 5 notti a Bali dormono tre notti a Ubud e due notti AA Nusa Dua.
+
+Federico Saladino   43:41
+Vieni.
+Certo.
+
+Arianna  Giordanella   43:47
+Grazie.
+
+Federico Saladino   43:50
+Sì.
+Sì, OK, chiarissimo. Allora? Beh, chiaramente se un viaggio è itinerante, il concetto di stabilità non ha senso tra virgolette, quello lì, il concetto di stabilità è se in un per un per una casistica in cui diciamo il l'evento sta in una in una location singola.
+E gli ospiti devono spostarsi proprio perché il the band vi dice, non riesco a tenervi queste altre 5 camere in più, dovete andare in un'altro albergo, il sistema lo prevede e vi sposta gli ospiti magari in un'altro albergo di disponibilità.
+Però ovviamente va a variare questa stabilità vi dice gli ospiti sono 99%, sono stabili, cioè arrivano, fanno il check-in il primo giorno e se ne stanno lì finché l'evento non è finito. Magari c'è quel 2% di non stabilità perché appunto un albergo magari non aveva.
+La disponibilità di tenere le persone e quindi due cristiani magari devono spostare di Camera, ad esempio.
+
+Lorena Cavecchi   44:47
+Ho capito, ho capito cosa intendi.
+
+Federico Saladino   44:48
+Poi chiaramente se il viaggio è itinerante no, cioè questo in questo caso qua no, assolutamente lì in quel caso semplicemente gli andiamo a segnare le camere, cioè gli alberghi per le varie i vari i vari punti del dell'itinerario insomma, quindi non è un problema. Ecco allora.
+
+Lorena Cavecchi   45:04
+Però noi possiamo, cioè possiamo assegnare più hotel contemporaneamente, visto che poi le persone restano le stesse.
+
+Federico Saladino   45:13
+Sì, certo, una persona può aver assegnato più alberghi, assolutamente in più date, cioè dipende ovviamente dalle date. Non esiste una coincidenza di stare la notte in due alberghi nella stessa data, quello non esiste chiaramente.
+
+Lorena Cavecchi   45:16
+Ok.
+Esatto.
+No, quello non esiste, confermo.
+
+Federico Saladino   45:28
+Però però sì, certo, io se adesso le persone le devo spostare no dal della data del 16 dormo da un'altra parte in un'altro albergo, non è un problema. Questo viene semplicemente poi segnato, viene segnato qui.
+E verrà, si vede, ci sarà una linea, appunto a parte, con un'altro albergo e il blocco nella notte del 16, insomma, in sostanza.
+Domande, perplessità su questo punto.
+Suggerimenti anche.
+
+Arianna  Giordanella   46:02
+No, devo metterci le mani, poi mi verranno tutte su.
+Ma prima devo un attimo giocarci un po'.
+
+Federico Saladino   46:07
+Tutto.
+Sì, OK.
+Allora va bene, allora a questo punto spostiamoci nelle prossime nuove, vi voglio mostrare un attimo il builder.
+Per le mail OK, ora facciamo un esempio pratico, volendo anche non li ho preparati, sto facendo qua con voi, ma anche proprio per sempre, perché lo scopo è mostrarvi che l'applicativo è bello comodo.
+Avevamo prima il discorso del rafting, così abbiamo anche già l'immagine e quindi a questo punto vabbè, ho tolto il campo, ma ne creo uno nuovo. Chiedi al nostro ospite.
+Desidera fare attività?
+Il profting.
+Genero il campo.
+Lo aggiungo.
+Ora, salvo il modulo, in questo caso nessuno dei nostri ospiti ovviamente ha questo valore perché nessuno l'ha compilato avendo fatto un import no? Però ovviamente nulla vieta, come dicevamo, di poter andare adesso a chiedere questa informazione agli ospiti successivamente.
+Quindi appunto, per esempio creando una landing che in questo momento serve solamente per chiedere questa informazione aggiuntiva, no, vuoi fare rafting? Sì, no.
+Sta roba si può fare adesso no, e quindi posso appunto creare una colonna, dirgli come avevamo messo.
+
+Lorena Cavecchi   47:47
+Certo.
+
+Federico Saladino   47:56
+Safting adesso poi questo in questo caso noi ovviamente stiamo appunto chiedendo una formazione specifica, quindi appunto possiamo anche sbizzarrirci in modo in modo diverso, no?
+Tipo rafting.
+Fall creo ma metto la nostra immagine che avevamo messo prima, scegli file.
+Bene.
+Il suo tempo non è l'applicativo ricordo, esser lento è il mio computer, purtroppo sì, perché l'applicativo è web, quindi in verità non a lui non gliene frega niente insomma, e qui non lo so, gli possiamo mettere una sezione dedicata a caricare per esempio.
+
+Lorena Cavecchi   48:38
+Il tuo PC.
+
+Federico Saladino   48:52
+Assicurazionepersonalecosechesiusarispondingcontroterziunr.ca RCT scusate che deve essere in PDF per esempio.
+L'utente, cioè l'utente, il guest si deve portare la sua assicurazione, ovviamente adesso, per fare un esempio, perché immagino che si è fatto un'attività di rafting, probabilmente vi assicurate.
+
+Lorena Cavecchi   49:12
+Certo, certo.
+Ti copriamo anche con la sicurezza, sì, certo.
+
+Federico Saladino   49:20
+Esatto, esatto, ci sono 600 scalini eccetera eccetera, salva.
+Allora a questo punto un utente può andare a compilare queste queste informazioni specifiche, quindi in questo caso la specifica richiesta dell'attività di rafting. Nulla vieta ovviamente anche di poter aprire un cristiano. Adesso prendiamo Emanuele.
+Assicuriamoci che qui nei campi dettaglio, che al momento è vuoto, ci sia il rating salva configurazione vado dentro a Emanuele. Ecco, facciamo una cosa, prendiamo i fideuram Milano.
+Quell'altra volta così sono anche già in un gruppo e dentro a dettagli adesso io troverò il discorso del Rafting.
+Come dicevamo qua nulla mi vieta a questo punto anche di poterlo fare manualmente. Succede qualcosa lo seleziono su sì salva perfetto.
+Stessa roba invece che non avete ancora visto è appunto il discorso di upload. Quindi se adesso io scelgo un file ora non so qualche PDF possa avere sinceramente vediamo un attimo Trenitalia, questo è vostro.
+e faccio Apri
+Lo carica e a questo punto faccio registra adesso abbiamo registrato un utente ovviamente nuovo quindi non c'è, non avrà dati, avrà solamente il.
+E infatti che è questo qua però avrà l'allegato. Volevo mostrarvi questo adesso praticamente se voi andate dentro i dettagli di un utente che avete fatto registrare prevedeva l'allegato qua come potete vedere avete una sezione allegati meravigliosa che vi consente di vedere i documenti in anteprima o di scaricarli. Questi sono quelli.
+Caricati dall'utente, quindi, potrebbero essere appunto.
+
+Lorena Cavecchi   51:22
+Perfetto.
+
+Federico Saladino   51:24
+Potrebbero essere documenti, cose eccetera eccetera.
+Ok, OK.
+E abbiamo visto anche questa cosa. Ora cosa volevo mostrarvi? Volevo mostrarvi anche un'altra cosa, ovvero l'email sender. OK, la sezione dedicata all'email adesso è pronta e anche questa qua funziona con un builder.
+Più i valori ospiti disponibile.
+Che adesso sono questi, quindi appunto il gruppo ragione sociale eccetera eccetera.
+Qua scegliete un nome del template.
+Che potete mettere, potete mettere a piacere, rafting appunto, che ne so, rafting, hideuram.
+OK, qua scrivete il coso.
+No rafting fideuram.
+Experience.
+OK, qui posso scegliere se devo mandarlo a un gruppo specifico.
+Potrei mettergli management, no?
+C'è qualcosa che si è schiantato, però diciamo sicuramente una cavolata. Comunque questo è semplicemente per mostrarvi, anche perché poi non voglio metterlo lì. In verità adesso lo sposto, era per testare. Vi metterò in verità nel momento in cui non sta lavorando una mail.
+Il destinatario non ve lo metto qua, ve lo metterei piuttosto invece nella sezione invia, quindi quando poi dovete inviare 1 1 mail potete scegliere se mandarlo a tutti gli ospiti OA determinati gruppi.
+Come sempre.
+Cioè.
+Casting con Fideuram.
+Hasting, io adesso posso dire che ne so, qui vado e gli dico, inserisci un layout, una colonna, metti un header che sarebbe appunto un titolo.
+Ciao Ciao e poi dopo posso mettere per esempio il nome e cognome.
+Poi aggiungo un testo.
+Preparati a vivere una esperienza.
+Unica.
+Unica nel suo genere.
+L'assicurazione la mettiamo noi, ovviamente una società assicurativa, direi fideuram, OK.
+Adesso abbiamo questa cosa, ovviamente anche qua è possibile sempre mettere una meravigliosa immagine, mettiamoci il solito rafting.
+Ok, bella un po' bella impegnativa tra l'altro e va beh, ti aspettiamo presto.
+Ti aspettiamo.
+Con tanta energia.
+Ecco qua.
+Faccio il salva del template.
+A questo punto questo è un meraviglioso template mail.
+Se vado in anteprima sulla base degli ospiti selezionati.
+Io posso vedere come vedranno le persone, quindi con quello che vedranno nel template. Ciao Laura Calvo, preparati a vivere un'esperienza unica nel genere, ti aspettiamo con tanta energia. Praticamente posso vedere tutte le preview, tutti gli utenti vari che ci sono OK?
+E questo è un esempio di template, con ovviamente il soggetto e il contenuto della mail.
+Feedback, idee, bello, mi piace.
+
+Lorena Cavecchi   55:44
+Sì, molto interessante anche che si possano vedere le anteprime, ma noi di questo.
+
+Carlo Sanvoisin   55:44
+È in linea con le aspettative.
+
+Federico Saladino   55:47
+Ti piacciono?
+Sì.
+
+Carlo Sanvoisin   55:49
+Preview.
+
+Federico Saladino   55:50
+Certo, ci piacciono molto anche i complimenti a noi, se è possibile.
+
+Carlo Sanvoisin   55:57
+Che secondo me sono sempre cariche di informazioni che ci devono poi mettere le mani perché poi secondo me in background dicono vedi, adesso che ho capito questa funzionalità sembra molto ****.
+
+Federico Saladino   56:07
+Sì, beh, allora ci sta. Nel senso, noi qua, noi qua voliamo ovviamente, perché di solito abbiamo un'ora, dobbiamo vedere un sacco di cose. Però sì, facciamo così.
+
+Lorena Cavecchi   56:14
+Sì, no, anche perché poi dopo un po' anche le nostre teste si riempiono di informazioni e soprattutto la mia che sono un po' più vecchia di voi, dopo un po' entra in crisi di over information.
+
+Federico Saladino   56:18
+Certo.
+
+Lorena Cavecchi   56:29
+Quindi no, mi piace proprio l'idea che si possano vedere le varie le varie preview di tutti, di tutti, di tutte le mail che mandiamo.
+E ma noi possiamo già fare delle prove, cioè questa mail potrebbe essere funzionante.
+
+Federico Saladino   56:46
+No, al momento manca semplicemente l'ultima integrazione che sta nell'email sender. Stiamo un attimo ragionando quali provider usare però nella sezione invia ovviamente adesso andremo anche a migliorare una selezione che vuole mandare a raft.
+E vi dice appunto, vedete che l'email attualmente è disponibile prossimamente, però comunque puoi visionare i template. Però sì, tendenzialmente dopo di che voi potete mandare è chiaro che questo email sender è fatto per gli eventi, cioè lo potete usare per gli eventi, dovete avere la lista di.
+
+Lorena Cavecchi   57:09
+Certo.
+
+Federico Saladino   57:19
+Di recipiens dentro all'evento.
+
+Lorena Cavecchi   57:20
+No, certo, sì, Assolutamente sì. Lo so, quello lo so.
+
+Federico Saladino   57:25
+Sì, no, beh poi dopodiché se vuoi un domani dite cavoli però ci troviamo bene, vogliamo usare anche per mandare delle comunicazioni, potete farlo, vi portate la lista di destinatari e lo usate, cioè a noi non cambia niente, anche perché.
+
+Lorena Cavecchi   57:36
+No, perché in realtà in realtà noi alle volte dobbiamo mandare delle comunicazioni che siano generiche uguali a tutti, quindi lo si può utilizzare anche per quello una volta che lo fai.
+
+Federico Saladino   57:42
+Certo.
+Sì.
+Sì, esatto, esatto, esatto, lì poi magari piuttosto, allora siccome stiamo lavorando a un ecosistema, se mi ci dite questa è una funzione che ci servirebbe, cioè un qualcosa di più comodo, un CRM che ci consenta di mandare mail massive, comunicazioni eccetera eccetera.
+Sì, poi lo facciamo, magari specifico, cioè funzionerà come questo, però è pensato per i clienti anziché per appunto gli ospiti dell'evento. Insomma, è sempre più.
+
+Lorena Cavecchi   58:17
+No, io parlo degli ospiti dell'evento che magari c'è sciopero e quindi dobbiamo dire a tutti di presentarsi in aeroporto anziché due ore prima, tre ore prima e una mail cumulativa che mandi a tutti gli invitati, quindi quella la si può fare.
+
+Federico Saladino   58:30
+Sì, certo, no, questo lo puoi fare assolutamente. Certo, ti crei un template nuovo, lo chiami sciopero come vuoi. Insomma, questo è un nome che vedete solo voi, inserisci tutto il contenuto e dopodiché fai un destinatario a tutti gli ospiti e lo mandi.
+
+Lorena Cavecchi   58:39
+Sì, esatto.
+
+Federico Saladino   58:46
+Gli arriva la comunicazione.
+
+Lorena Cavecchi   58:50
+E quindi non c'è il provider che state valutando.
+
+Federico Saladino   58:55
+Sì.
+
+Lorena Cavecchi   58:57
+Permette di mandare, cioè non ha un, cioè non deve avere un limite di mail da mandare al giorno.
+
+Federico Saladino   59:04
+No, non c'è l'ha, non c'è l'ha assolutamente. E il discorso qual è?
+I nostri server possono mandare le mail, non è che hai capito? Non è che per forza dobbiamo fidarci a terzi. Tendenzialmente però ci si affida a terzi.
+
+Lorena Cavecchi   59:20
+No, sennò finiscono nello spam.
+
+Federico Saladino   59:21
+Perché?
+Esattamente, esattamente. E la verità è che diciamo, c'è un po' una sorta di mafia dietro, nel senso che gli amici di Amazon dicono a Google se ti mandiamo delle mail noi anche se te ne mandiamo un milione le mostri e non va nello spam. E Google dice sì, va bene, mi paghi, io lo faccio.
+Si mettono d'accordo e stessa roba nell'altra direzione, no? Se invece noi mandiamo a non so appunto la ditta Fideuram mandiamo 1800 mail e fideuram diciamo magari non usa Microsoft 365 ma usa.
+
+Lorena Cavecchi   59:42
+E beh, certo.
+
+Federico Saladino   1:00:00
+Va beh, anche se usa Microsoft 365 Outlook dice cavoli, sono arrivate 1800 mail per questa persona. Mi puzza un po no? Magari li manda nello spam, no? Per esempio sono arrivate 1800.
+
+Lorena Cavecchi   1:00:11
+No, ma II server, i server della nostra maggior parte dei clienti, soprattutto quando sono banche, loro addirittura dicono stanno arrivando 1000 mail dallo stesso indirizzo email le blocchiamo, infatti noi dobbiamo fare aprire le classiche White list.
+
+Federico Saladino   1:00:25
+Sì, certo.
+
+Lorena Cavecchi   1:00:29
+Per evitare che le mail finiscano in spam.
+
+Federico Saladino   1:00:29
+Esatto, esatto, cioè lì. Poi quello probabilmente succederà lo stesso. Perché cioè il discorso qual è? Il discorso è che se voi dovete comunque mandare, cioè abbiamo degli invitati e non sto parlando magari di una ditta, di una ditta, ma.
+State organizzando l'evento tra virgolette più open, dove la gente si iscrive e vi arrivano invitati, ognuno con le sue mail private, tutte diverse, una è Virgilio, una è Gmail, una è Outlook, una è quello che volete, comunque lì l'utilizzo di un provider per mandare le mail.
+È sempre più tranquillo e più safe perché appunto essendo che le mail poi arrivano da un server trusted, cioè fidato tipo Amazon no, allora i sistemi dicono no OK, cioè al di là che sia comunque una comunicazione commerciale o quello che voglio, quello che vuoi.
+Arriva da un server fidato? No, non arriva da un server così di terze parti e quindi esatto, esatto, esatto. Quindi insomma, lì poi metteremo per questo mettiamo il provider, stiamo un attimo valutando, potrebbe essere, potrebbe proprio essere che sarà saranno dei servizi Amazon insomma, probabilmente noi adesso stiamo valutando.
+
+Lorena Cavecchi   1:01:22
+Certo sì, non arriva da.
+
+Carlo Sanvoisin   1:01:29
+Bene.
+
+Federico Saladino   1:01:38
+Lotando anche per farvi spendere il meno possibile, sempre. E vabbè.
+
+Lorena Cavecchi   1:01:42
+Ma lì Carlo devo fare, cioè devo fare il passaggio.
+
+Carlo Sanvoisin   1:01:46
+Un passaggio con Marco eventualmente? Sì, io direi che aspettiamo un attimo che Federico ci fa la proposta e poi facciamo un passaggio con Marco. Quindi giusto per fare il big recap, Arianna ci ha mostrato quelle che sono state, diciamo i suoi dubbi.
+
+Lorena Cavecchi   1:01:49
+Infatti.
+Esatto.
+Perché lì dobbiamo vedere tutta la polis in tempo.
+
+Federico Saladino   1:01:56
+Cioè io esatto per.
+
+Carlo Sanvoisin   1:02:04
+P mentre utilizzavo lo strumento li abbiamo visti insieme e da quello in realtà abbiamo tirato fuori anche dei piccoli enhancement che poi andrò a ricapitolare per email e che magari appunto vi chiederemo poi di testare. Abbiamo visto le nuove funzionalità, direi che lato email mi è sembrato tutto quanto chiaro e abbiamo visto anche tutta la parte nuova della landing.
+Mi è sembrato tutto chiaro, secondo me avete bisogno di testare soprattutto la parte di roaming e grouping che è complessa ma è proprio il valore dello strumento, quindi a maggior ragione io vi chiederei di testarlo.
+
+Lorena Cavecchi   1:02:28
+Sì, Assolutamente sì.
+
+Federico Saladino   1:02:30
+Però ecco, però, però.
+
+Arianna  Giordanella   1:02:31
+Sì, decisamente.
+
+Federico Saladino   1:02:34
+Lo so che comunque io lo so che siete stanchi tutti, siete stanchi tutti, però dovete dovete reggermi ancora 20 minuti.
+
+Carlo Sanvoisin   1:02:42
+Ed è se aspetta, chiediamo prima se c'è il tempo, non so se Lorena e Ryan hanno fatto.
+
+Federico Saladino   1:02:46
+Sì, ovviamente, ovviamente ha detto in modo colloquiale, no, però dovrei davvero assolutamente mostrarvi anche un'ultima funzione, che è una delle cose secondo me che davvero vi svolterà il lavoro è assolutamente extra, diciamo, rispetto alle funzionalità richieste.
+
+Lorena Cavecchi   1:03:01
+No, per me va bene, non so Arianna com'è messa perché essendo lei dall'altra parte del mondo, ma per me va bene, mezz'ora, 20 minuti CE la faccio.
+
+Federico Saladino   1:03:06
+Certo.
+Anche meno, anche meno saranno, insomma.
+
+Arianna  Giordanella   1:03:10
+No, io sono dispo, si dice.
+
+Federico Saladino   1:03:15
+Disposizione available.
+
+Carlo Sanvoisin   1:03:15
+OK, benissimo, allora vamonos.
+
+Lorena Cavecchi   1:03:15
+Allora vamos.
+
+Arianna  Giordanella   1:03:15
+Sono assolutamente disponibile.
+
+Federico Saladino   1:03:19
+OK, allora super veloce. Allora vi ho creato questa nuova sezione che è una meraviglia. Si chiama operatori. Allora la sezione operatori vi consente praticamente di.
+Bene o male praticamente creare degli operatori dell'evento, creargli delle sessioni e di dargli la possibilità di fare quelli che in sostanza sono dei check-in. Ok, cosa vuol dire? Vuol dire praticamente che.
+Dentro io alla sezione operatori.
+Posso creare un operatore che per esempio adesso non abbiamo associato attività, però possiamo inventarcene una? Non lo so. Executive.
+Diners.
+Questo non è per tutti gli ospiti, ma per esempio è solo per il management e l'azione è appunto un check-in attività OKA questo punto schiaccio crea.
+E quello che è appena successo è il fatto che noi abbiamo creato una meravigliosa attività.
+E una vista operatore che può essere utilizzata per fare il check-in.
+Come funziona? Noi abbiamo visto anche un'altra cosa meravigliosa.
+I nostri amici adesso fideuram Milano hanno finalmente anche una loro sezione, ovviamente semplificata per ora, dopodiché io vi consiglierei di investire magari nello sviluppo di una.
+Applicazione vostra proprietaria non da installare ovviamente PWA che sta per Power web APP si auto installa senza bisogno di andare tramite Google Play Store o App Store, semplicemente uno dal lo può usare o da Internet o volendo installarsela per comodità.
+Abbiamo una sorta di sezione adesso per l'utente. Allora qui come vedete c'è un nuovo check-in che è l'Executive Dinner ed è un check-in attività per questo ospite non è stato ancora scansionato. Abbiamo fatto la sezione più hard.
+Che l'altra volta era in sviluppo. Questo è un QR univoco dell'ospite. L'ospite lo può usare per fare tutto, è la sua carta virtuale del vento. Può può usarlo alla sera per prendere i drink in discoteca, quanti vuole se all'open bar un numero numerato se non ha.
+Lo può usare per far tutto OK, non deve pensare più a niente. L'ospite deve mostrare solo questo cuore e non perderlo ovviamente, perché se lo dà qualcun altro siamo, siamo, cioè siamo fregati. Ovviamente se uno dentro le consumazioni ha un'altra persona, vabbè lì poi se lo se lo vedranno loro insomma.
+
+Lorena Cavecchi   1:06:02
+Esatto, sì, certo.
+
+Federico Saladino   1:06:10
+Comunque qui c'è una preview della vista ospite che consiglia appunto infatti di installare la l'applicazione, però questo adesso ve lo state vedendo così ve lo metto per come lo vedrà l'ospite simuliamo un attimo un dispositivo mobile.
+Per esempio un meraviglioso che ne so, facciamo un iPhone 14 pro Max infatti c'è qualche bagghettino ancora forse di vista, però l'ospite adesso come vedete ha il suo bellissimo piccola interfaccia nella quale può andare a vedere le informazioni che ha popolato.
+Le informazioni relative ai suoi itinerari che gli sono stati assegnati, le informazioni relative ai suoi pernottamenti che ha tre notti al promenade, una sezione dedicata alle attività che gli sono state assegnate e il suo fantastico badge.
+Ok.
+La stessa identica cosa esiste ovviamente per il nostro amico operatore OK operatore, gli potete far scansionare il QR per aprire OK.
+Ora non ve lo farei fare a voi volendo anche dal nostro telefono, ma siamo in locale quindi non funzionerebbe. Ma se fossimo online voi potete avreste potuto anche letteralmente scansionare ora in questo caso adesso mi copio semplicemente l'url.
+E me lo incollo in un'altra stupenda Tab.
+Anche questo lo mettiamo con una fantastica vista operatore. Cosa vede l'operatore? Si vede una tabella con le persone che ha scansionato per quella specifica cosa. Qui vedete il nome nome evento e la vista operatore, in questo caso l'executive timer.
+E qui c'è la lista di persone che sono associate AAA quella specifica attività. OK, adesso lasciate stare che la tabella la vedete così, la tabella contiene le colonne dinamiche che vi siete avete deciso di vedere.
+Nella vista ospiti quindi contiene queste colonne, quindi fate attenzione anche a questa roba perché se voi cambiate queste colonne in vista anche gli operatori vedranno delle colonne diverse qua poi sarà ovviamente graficamente più.
+Piccolo, magari il testo sarà più facile vedere e visionare. Ora io qui in mano ho una bellissima webcam, cosa succede? L'ospite adesso può andare. Ecco, forse qui sarebbe comodo farvi una sorta di.
+Vista splittata si dovrebbe poter fare, però così ne vedete uno.
+Quindi vi cambio un attimo lo share.
+Secondo solo.
+Condividi.
+Schermo intero.
+Eccolo qua.
+Voleste rivedere? Quindi noi siamo adesso in sostanza in una sezione dove abbiamo il nostro guest che ha la sua APP con le sue info eccetera eccetera e questa invece che è la vista operatore che avete dato a uno degli operatori, in questo caso all'operatore che farà il check-in della chain executive.
+Per esempio, andando su scansione QR, lui a questo punto può avviare una scansione, se chiederà la vista, vedrete me durante la vista.
+
+Carlo Sanvoisin   1:09:49
+Dai, vi faccio una domanda, voi normalmente queste persone che scansionano IQR code sono persone del vostro team, sono persone della struttura?
+
+Federico Saladino   1:09:55
+Complimento solo Carlo che passo l'operazione, scusami.
+
+Lorena Cavecchi   1:09:59
+No, quando facciamo il check-in per rilevare la presenza sono nostre persone.
+
+Federico Saladino   1:10:00
+Potete dare.
+
+Carlo Sanvoisin   1:10:05
+OKE, giusto per utilizzare il vostro gergo, scusami Fede, un secondo voi li chiamate, sono sempre gli operativi.
+
+Federico Saladino   1:10:06
+Sì, comunque la domanda.
+
+Carlo Sanvoisin   1:10:14
+O sono insomma, cioè hostess, quindi magari questa sezione la potremmo chiamare hostess, così è ancora più perfetto.
+
+Lorena Cavecchi   1:10:15
+Sono hostess.
+
+Federico Saladino   1:10:21
+Sì, va bene, certo, chiaro, penso questo poi.
+
+Lorena Cavecchi   1:10:23
+No, ma anche il check-in va bene, no, va bene anche il check-in.
+
+Federico Saladino   1:10:26
+Sì, però al momento si chiama operatori. Ho messo operatori perché è generico. Potrebbe essere appunto un hostess che fa check-in. Potrebbe essere anche una l'autista dell'autobus tecnicamente che fa una scansione di QR code di tutti quelli che salgono sull'autobus.
+
+Lorena Cavecchi   1:10:28
+Perché?
+
+Federico Saladino   1:10:43
+Cioè questo è completamente dinamico.
+
+Lorena Cavecchi   1:10:44
+Sì, no, certo, sì.
+
+Federico Saladino   1:10:46
+Comunque io dicevo ho qui la fantastica webcam, vado a scansionare il QR Code dell'utente che è questo qua.
+Semplicemente, appena lo inquadro, il sistema super simpatico lo riconosce.
+Elabora e vede che questo è il QR code del fantastico Andrea vitali. OKE, posso a questo punto confermare il check-in ora qui vedete un errore, ma semplicemente perché è un'attività ancora in development. Comunque questo cosa cosa cosa permetterà?
+Nel momento in cui poi ho scansionato e confermo i dati dell'ospite, ho messo uno step aggiuntivo per il semplice motivo anche di consentire eventualmente all hostess di all'hostess di.
+Verificare magari un documento, per esempio, se è necessario, chiaramente a quel punto può confermare e una volta confermato l'attività della persona specifica che adesso probabilmente non vedremo perché appunto.
+Manca ancora quella funzione, ma qui dentro a check-in noi vedremo che il determinato check-in, in questo caso l'executive dinner, è stato scansionato con l'orario di scansione.
+
+Lorena Cavecchi   1:12:01
+Ma quello si vede anche nella totalità di quanti ne abbiamo spazzonati.
+Cioè sono entrate, hanno fatto check-in 15 persone su 30.
+
+Federico Saladino   1:12:09
+Sì.
+Sì, esatto, non è qui perché questo è il dettaglio, questo è il dettaglio ospite, ma serane la vista operatori, cioè io posso andare all'interno del dettaglio dell'executive diner e li vedo la lista di invitati e la lista di scansionati, così come appunto lo vede anche l'operatore, cioè la persona che sta usando il QR Code.
+
+Lorena Cavecchi   1:12:14
+Ottimo, perfetto.
+Certo, sì.
+
+Federico Saladino   1:12:30
+Scanner no, quindi qui si vede la lista di tutti quelli, anche quelli non scansionati.
+
+Lorena Cavecchi   1:12:32
+OK, perfetto.
+Perfetto, bello.
+
+Carlo Sanvoisin   1:12:37
+Beh, direi che è un grande enhancement, quindi in poche parole noi abbiamo tutte le informazioni che sono legate a quel singolo partecipante dentro il QR Code e lui per ognuna di queste può andare a scansionare il QR code e sappiamo esattamente se.
+Ha fatto l'attività, ha completato il meeting.
+
+Federico Saladino   1:12:55
+Beh, abbiamo abbiamo sì, al momento è on-line, in verità è molto più potente questa feature di quello che avevamo preventivato, perché in sostanza consente di consente di creare una sorta di check-in.
+Ok, per qualsiasi cosa potrebbe essere una persona che appunto è l'autista dell'autobus che scansiona tutti quelli che salgono. Potrebbe essere un hostess che sta all'ingresso della cena e scansiona tutti quelli che vanno a cena. Potrebbe essere il tipo con i braghini corti che ti fa fare il Safari e ti carica sulla Jeep.
+Non importa, cioè hai capito voi, basta che lo create, però vi dà uno strumento per poter intanto raccogliere dati, sempre per fare analisi dopo, ma soprattutto anche per in fase proprio.
+
+Lorena Cavecchi   1:13:33
+Ecco, sì.
+
+Federico Saladino   1:13:47
+Diciamo.
+Di evento, OK, nel momento in cui cioè siamo all'evento avere un tool che non sia la lista stampata delle persone che devono salire sulla Jeep, OK, dove l'utente, dove il signore della Jeep deve leggere i nomi, trovarli e cancellarli con una penna.
+OK, questo lo fa in automatico, in sostanza, e vi dà un feedback live.
+
+Lorena Cavecchi   1:14:09
+No, anche perché poi in tempo reale tutti lo vedono dappertutto, cioè anch'io che sono in ufficio lo vedo per i.
+
+Federico Saladino   1:14:14
+E certo.
+Anche tu in ufficio puoi vedere che le persone stanno salendo sul sull'autobus, hanno fatto il check-in alla cena OO qualsiasi attività sia o hanno fatto stanno partecipando all'attività di cooking di per imparare a fare i tortellini bolognesi? Non lo so.
+Che non sono veri tortelli, come saprete, perché gli unici tortelli sono di Piacenza comunque no vabbè, diciamo che l'idea dietro è questa, insomma. E per quanto riguarda invece il discorso del QR Code che contiene i dati, non è il QR Code che contiene i dati. Il simpaticissimo ospite adesso si trova di fatto.
+
+Carlo Sanvoisin   1:14:41
+Sì.
+
+Lorena Cavecchi   1:14:43
+Certo.
+
+Federico Saladino   1:14:51
+Un'intera pagina pubblica dedicata a sé che dimostra le sue informazioni, gli itinerari.
+
+Lorena Cavecchi   1:14:55
+Cioè ma infatti io quella parte lì non ho capito come, ma quella parte funziona anche senza web APP, giusto?
+
+Federico Saladino   1:15:02
+Sì, esatto, cioè questa parte qua è dedicata, è praticamente collegata, vedete a un URL dove questo URL specifico è di questo ospite. OKE, chiaramente sta all'ospite non perderlo se l'ospite come esattamente come fosse un.
+
+Carlo Sanvoisin   1:15:03
+Sì, la può aprire anche da browser.
+
+Federico Saladino   1:15:22
+Ticket o un bracciale per entrare al concerto, se l'ospite glielo dà e poi lo perde e un'altro lo USA, non diciamo operativamente.
+
+Lorena Cavecchi   1:15:31
+No, vabbè, però sotto quel punto di vista lì sono cose che restano su mobile, quindi non lo perdono.
+
+Federico Saladino   1:15:38
+Esatto e poi in verità questo ha una funzione ancora in più, perché tendenzialmente se un'ospite dovesse perdere o per sbaglio dare a qualcuno il proprio URL voi potete invalidarlo quindi.
+Quell URL lì, non quel ticket lì, smette di funzionare e potete crearne uno nuovo per l'ospite in sostanza.
+Quindi anche in quel anche in una classifica del genere potete invalidare praticamente questo Wallet virtuale del dell'utente dell'invitato. Insomma, qua dentro ovviamente ci saranno anche per esempio le informazioni del Plus One.
+
+Lorena Cavecchi   1:16:01
+OK, perfetto.
+
+Federico Saladino   1:16:18
+OK, lì poi adesso valuto un attimo se avere anche una vista dedicata per i plus One io lo farei, cioè nel senso che anziché se io sono con la morosa sono invitato all'evento, devo scansionare per me.
+E per lei tutte le volte, anche per andare a cena, è chiaro che se non so il pernottamento, se dormiamo assieme faccio scansionare il mio QR Code, fa il check-in di entrambi, oppure se anche lei ha una side view sua personale dove vi posso mandare il link su Whatsapp?
+E lei c'ha il suo QR. Però vorrei un attimo adesso ragionarci bene perché voglio evitare di creare cose macchinose no da entrambi i punti di vista, perché anche il discorso del check-in. Faccio il check-in con un solo QRE fa il check-in sia di me.
+Che della mia morosa.
+Bellissimo, però non.
+
+Lorena Cavecchi   1:17:09
+E non è non è corretto, perché magari uno viene da solo alla fine.
+
+Federico Saladino   1:17:11
+Non è generico, anche perché esatto, non è generico perché mettiamo anche magari che invece di essere con la mia morosa sono con un collega che anche lui è un invitato, non è un plus One e abbiamo deciso di stare nella stessa stanza, cioè diventa poi magari un incubo dal punto di vista di sé.
+
+Lorena Cavecchi   1:17:25
+Hai fatto?
+
+Federico Saladino   1:17:28
+Taggio no, quindi piuttosto magari non so, ognuno avrà il suo QR, ora capiamoci, ci ragiono bene, farò in modo che la salute non.
+
+Lorena Cavecchi   1:17:34
+Ma allora per esperienza personale io farei farei vedere dentro la pagina ospite anche i dati dell'accompagnatore.
+
+Federico Saladino   1:17:48
+Sì, no.
+
+Lorena Cavecchi   1:17:50
+Perché tendenzialmente non succede mai. Poi magari se esiste, cioè se esiste lì vuoi girare tu, cioè che io Lorena Cavecchi decida di girare a mio marito i miei, i suoi, quei dati lì posso farlo io, ma non che.
+
+Federico Saladino   1:18:05
+Sì.
+
+Lorena Cavecchi   1:18:06
+Io come agenzia che tanto ho solo un dato che il partecipante di quindi Lorena cavecchi di default lo mandi anche a Luca Parasacco che è il marito.
+
+Federico Saladino   1:18:13
+Certo, certo.
+Sì, mi torna. Cioè io stavo pensando, adesso non so, sono ospite all'evento e nel pomeriggio c'è la possibilità di andare a fare un massaggio. Per esempio a me non me ne frega niente. Voglio andare al bar dell'albergo a bere delle birre e la morosa vuole andare a fare il massaggio.
+Ad esempio lei ha bisogno del suo QR, quindi posso mandargli effettivamente anche semplicemente il mio link e lo USA, oppure pensavo, come dicevo, di avere magari semplicemente una sotto vista, cioè che io ospite principale vedo sempre tu.
+
+Lorena Cavecchi   1:18:44
+Esatto.
+
+Federico Saladino   1:18:51
+Ovviamente però avere anche una piccola sotto vista per i miei invitati, cioè per i miei plus One che gli posso dare e dove loro dentro si trovano un loro QR insomma no, così addirittura poi in futuro in quel caso lì così poi.
+
+Lorena Cavecchi   1:18:58
+Ecco.
+Sì, no, infatti.
+Sì, è quello che intendevo io che lui lo vede nella sua schermatina dove vede itinerari pernottamenti ci saranno sia per lui che per il + 2+1, però quel +1 lui può decidere di inoltrarlo però lui.
+
+Federico Saladino   1:19:08
+A dopo.
+Certo, sì, Assolutamente no. Lo fa lui, lo fa lui sta sta all'ospite. Certo, anche lì, cioè nel senso, perché attenzione.
+
+Lorena Cavecchi   1:19:25
+Sì.
+Banalmente, quando ci sono i viaggi di i viaggi di i viaggi incentive, dove ci sono anche le mogli a carico che gli ospiti si portano le mogli, le mogli poi rompono le balle. Ecco, non mi hai ancora detto a che ora partiamo, ma io lo devo sapere. Ecco, non mi hai ancora detto qual è il programma, ma io devo preparare.
+
+Federico Saladino   1:19:38
+Certo.
+Sì.
+Sì.
+
+Lorena Cavecchi   1:19:46
+Fare la valigia.
+
+Federico Saladino   1:19:48
+Non so che attività ci sono, serve un costume così no eccetera eccetera no, chiaro no? Beh, ma allora lì io io lì per quello lo farei così. Perché allora, oltre ad avere.
+
+Lorena Cavecchi   1:19:49
+Sì.
+Esatto.
+Però il modo più semplice non che venga rigirato, cioè deve essere perché poi magari il marito gli dice no, questo è il programma, guardatelo da qua e gli passa il cellulare oppure gli dice, Senti, adesso non ho tempo di darti retta.
+
+Federico Saladino   1:20:02
+Sì.
+Certo.
+
+Lorena Cavecchi   1:20:14
+Te lo invio, ti vedi tutte le tue informazioni.
+
+Federico Saladino   1:20:15
+Certo.
+Sì, allora cioè il discorso è questo, io vi consiglierei poi perché sta a voi l'applicativo è completamente dinamico. Io tendenzialmente cercherei di fare in modo che gli ospiti utilizzino il più possibile la loro vista.
+Per un semplice motivo, cioè il fatto che la vista è dinamica. Se voi aggiornate qualcosa, cambiate un orario, lì è tutto live. Quando l'utente lo apre, vedi i dati, vedi i dati freschi, OK. Se invece mandate i programmi VIA mail, per esempio, e cambia quel coso, dovete mandare una mail di correzione.
+OK, di qua invece potete fare correzioni live e magari mandare una mail solo per notifiche e dire attenzione, è cambiato l'orario della cena. Consulta l'APP per avere ulteriori informazioni, no?
+
+Lorena Cavecchi   1:20:58
+Sì, certo.
+Lato.
+Però tutte queste cose qui sono le lui le raccoglie dal database.
+
+Federico Saladino   1:21:08
+Certo, quelli la vista qua sì, perché questo è live qua ha recuperato le informazioni dal database, nella mail le recupera dal database, ma dal nel momento in cui la mail viene mandata, se uno la legge tre giorni dopo vede informazioni vecchie di tre giorni.
+Le 20 in una mail se non sono arrivate nuove mail.
+
+Lorena Cavecchi   1:21:25
+E diciamo che noi diciamo che noi gli dobbiamo semplicemente dire di entrare e vedersi questa roba qua.
+
+Federico Saladino   1:21:33
+Per esempio, certo, certo, esatto, ma compreso anche il fatto che.
+
+Lorena Cavecchi   1:21:36
+Oppure.
+Oppure mandarglielo con Whatsapp.
+
+Federico Saladino   1:21:41
+Sì, allora qui per esempio i dati, infatti queste questi link di accesso per esempio si possono mandare via mail, cioè io metterò la funzione di che ne so proprio magari di.
+Sempre con template della mail. Adesso capisco, ci penso bene anche lì, ma un qualcosa dove sostanzialmente voi cliccate on board da ospiti no quando cliccate quella roba lì col template del caso.
+L'ospite nella mail si trova un link, quello lì è il link alla sua vista ospite che potrà usare poi per tutta la durata dell'evento no, per fare in modo che ogni ospite ovviamente.
+
+Lorena Cavecchi   1:22:19
+Certo, ma noi questa cosa qua perché la potremmo poi mandare anche via Whatsapp?
+
+Federico Saladino   1:22:28
+Ma per il momento no, cioè Whatsapp non è integrato discorso integrazione di Whatsapp è un po' più pesante perché dobbiamo integrarci con i servizi meta.
+Quindi li dobbiamo un attimo adesso capire, dobbiamo capire però tendenzialmente voi adesso comunque potete mandare tutto già via mail OK se un utente è registrato.
+
+Lorena Cavecchi   1:22:46
+OK.
+Sì, certo.
+
+Federico Saladino   1:22:58
+Dopodiché diciamo che io ci ragionerei bene sul discorso Whatsapp.
+Per il fatto che l'utente adesso comunque ha una sua vista ed è privata e lì ha tutto.
+Quindi una volta che noi l'abbiamo mandata la prima volta.
+Andare a, cioè recuperare nuove informazioni dell'utente basta che si apre semplicemente si apra semplicemente questo questa vista piuttosto che invece.
+
+Lorena Cavecchi   1:23:28
+Allora che questo non glielo possiamo mandare via mail va benissimo perché tanto gli si dice entra, gli si dà un link, entra e vede tutto il suo itinerario va benissimo. Il tema di Whatsapp però è quella cosa che noi avevamo detto dall'inizio, che quando siamo in loco molte volte noi mandiamo.
+
+Federico Saladino   1:23:30
+Sì.
+Sì.
+Certo.
+E non solo, ma addirittura l'acqua.
+
+Lorena Cavecchi   1:23:47
+Abbiamo 1000 SMSAAA mezze giornate.
+
+Federico Saladino   1:23:53
+Certo, certo, certo, sì.
+
+Lorena Cavecchi   1:23:56
+Perché poi le mail non se le guardano più?
+
+Federico Saladino   1:23:59
+Chiaro? No, assolutamente. Capiamo. Cioè perché potrebbe anche essere un non so, ci sono tante soluzioni, un SMS ora, cioè 1SMS11 mail, un whatsapp.
+
+Lorena Cavecchi   1:24:11
+L's MS però vede, ti dico che molti cellulari aziendali hanno inibito l'uso degli SMS, quindi non possono più riceverli.
+
+Federico Saladino   1:24:21
+Pronto.
+
+Lorena Cavecchi   1:24:24
+Perché hanno un costo? Whatsapp entra nel circuito dati e questo sopra.
+
+Federico Saladino   1:24:24
+Ma no, mi.
+Ma Whatsapp ha un costo molto più alto degli SMS, ha un costo per voi tra l'altro Whatsapp ha un costo.
+
+Lorena Cavecchi   1:24:34
+No, per noi, però per chi riceve in realtà ha un costo, cioè ha il costo del traffico dati che tutti i telefoni oramai al giorno d'oggi hanno traffico illimitato e gli SMS li pagano come se fosse oro colato.
+
+Federico Saladino   1:24:36
+No.
+Sì.
+Chiaro, chiaro, chiaro, chiaro, chiarissimo.
+
+Lorena Cavecchi   1:24:48
+Per intenderci.
+
+Federico Saladino   1:24:50
+Certo, certo, no, assolutamente.
+
+Carlo Sanvoisin   1:24:51
+Certo.
+
+Lorena Cavecchi   1:24:52
+Però c'è tempo, non vi preoccupate, in questo momento va benissimo mandarglieli via via via mail il tema del Whatsapp non dobbiamo.
+
+Federico Saladino   1:24:59
+Sì, e lo vedrà appunto come integrazione.
+Vedrai come integrazione futura io anche perché poi il discorso Whatsapp, cioè un domani potrebbe diventare anche un'assistente quindi dove proprio uno può scrivere un messaggio vi risponde le cioè gli risponde l'ai che sa ovviamente tutte le informazioni dell'evento.
+Quindi.
+
+Lorena Cavecchi   1:25:21
+Esatto.
+
+Federico Saladino   1:25:23
+L'utente si sente coccolato, si sente come se avesse trovato una persona proprio che l'ha aiutato in maniera super veloce sui dubbi che aveva. E è così. Insomma, no, però capiamo un attimo, poi dopo ne parlerò con Carlo, insomma.
+
+Carlo Sanvoisin   1:25:39
+Assolutamente sì, io direi che magari prima ci facciamo lo studio di quello che ci serve, anche lato loro, per esempio, immagino servirà un numero aziendale che deve essere riconosciuto da Whatsapp in quanto tale, che deve essere di no loop.
+
+Federico Saladino   1:25:39
+OK, direi che cioè poi io sono.
+Ha voglia? Sì, è molto complesso essere approvati, anche perché c'è da fare una richiesta a meta non è proprio immediato. Poi allora vi dico.
+
+Carlo Sanvoisin   1:25:53
+Esatto.
+Non è immediato, però intanto direi che gli abbiamo messo tutti quanti gli strumenti in mano per poter gestire in maniera anche molto più ottimizzata rispetto a prima tutto quanto quello che riguarda appunto la gestione di un evento e dei partecipanti e delle comunicazioni quindi.
+
+Federico Saladino   1:26:11
+Ma.
+
+Lorena Cavecchi   1:26:29
+Ma com'è lì?
+
+Carlo Sanvoisin   1:26:30
+Sviluppato da mostrarci? Sì, direi che anche lì dovremo probabilmente allinearci con Marco Merli.
+
+Lorena Cavecchi   1:26:37
+E a Marco e Mario ci penso io.
+
+Carlo Sanvoisin   1:26:39
+Ottimo, benissimo.
+
+Lorena Cavecchi   1:26:42
+No, Fedez, vero che non hai niente altro da farci vedere. La mia, la mia testa adesso è molto, molto fusa, quindi non riuscirei a darti retta. Semmai facciamo un'altra sessione. Sono onesta.
+
+Carlo Sanvoisin   1:26:52
+Ma sì, ma infatti immaginavo, io vi proporrei questo.
+
+Federico Saladino   1:26:53
+Sì.
+
+Lorena Cavecchi   1:26:55
+Perché ho visto tantissime cose fino cioè per il momento.
+
+Carlo Sanvoisin   1:26:57
+Esatto, però innanzitutto sono contento che ho visto comunque che mi sembra che le funzionalità vi tornino a livello proprio di user experience e di facilitazione del lavoro, quindi direi che questo lo prendo come un feedback positivo.
+
+Lorena Cavecchi   1:27:13
+Sì, poi mi piace proprio la visualizzazione dell'ospite che vede quella sorta di paginetta con tutte le sue informazioni.
+
+Carlo Sanvoisin   1:27:14
+1000.
+E che la può vedere dal telefono, che è una cosa molto, molto comoda. Poi se pensi anche al fatto che appunto, come diceva Federico, ogni attività può essere spezzata e voi avete la visione su tutto, cioè entrate quasi in modalità stalking se la vogliamo chiamare.
+
+Lorena Cavecchi   1:27:37
+Certo.
+
+Carlo Sanvoisin   1:27:38
+Monitoraggio, chiamiamola monitoraggio, monitoraggio completo a 360 ° quindi secondo me, da quello che ho percepito oggi, la parte che dovete testare di più e metterci le mani dentro è quella di grouping e roaming, che sono chiaramente le logiche più avanzate, nonché.
+Uno dei valori aggiunti in assoluto dello strumento. Perché vi ricordate all'inizio voi me l'avevate descritto un po' come fare il sudoku per via della complessità di cercare di unire i gruppi di persone, le camere e via dicendo, quindi chiaramente se insomma testatela.
+E fateci capire se effettivamente vi sta dando una mano. Se c'è qualcosa che non capite potete sempre chiamarci e siamo assolutamente a disposizione. Se per voi va bene, io vi proporrei questo. Prendiamoci un'altra settimana di testing in cui andate a.
+Provare le funzionalità che abbiamo visto oggi, magari sempre a cercare di produrre un flusso end-to-end, quindi dall'inizio fino alla fine e per prossima settimana ci fissiamo un'altra call in cui raccogliamo i vostri feedback, ci dite nel mentre se avete avuto dei problemi di qualsiasi tipo.
+E Federico sicuramente, siccome Natale viene in anticipo per noi, ci farà vedere insomma gli enhancement che ha prodotto durante la settimana e direi che siamo insomma quasi in chiusura, praticamente rimane aperto solo il tema Whatsapp.
+Come macro tema direi che gli altri macro temi li abbiamo toccati tutti.
+
+Lorena Cavecchi   1:29:08
+Sì Carlo, facciamo una cosa facciamola verso fine mese. Ti spiego perché. Arianna si è resa molto disponibile ma è in ferie, in realtà non è via per lavoro, quindi lei tornerà il 24 e io la fisserei per il 26 così almeno se non lei qualcun altro insieme a me.
+
+Carlo Sanvoisin   1:29:16
+OK, assolutamente.
+
+Federico Saladino   1:29:17
+OK.
+
+Carlo Sanvoisin   1:29:24
+Ok.
+
+Lorena Cavecchi   1:29:27
+A me farà delle prove e almeno abbiamo abbiamo il tempo di vederlo, poi magari lei se lo fa anche nel tempo morto però visto che è a che va in meditazione.
+
+Arianna  Giordanella   1:29:38
+No, io scusate, ve lo faccio sicuramente.
+
+Carlo Sanvoisin   1:29:38
+No.
+
+Arianna  Giordanella   1:29:42
+Se volete fare delle call posso organizzarmi, l'unica cosa vi chiederei di mantenere questo orario qui perché qua e sera io riesco a essere più o meno.
+Fissa da un posto.
+
+Carlo Sanvoisin   1:29:53
+Ma guardate, noi ci rimettiamo alle vostre di tempistiche, nel senso che se per voi non è un problema.
+
+Arianna  Giordanella   1:29:54
+Questo è.
+
+Federico Saladino   1:29:57
+Sì, no, ma va bene, io sarei io sarei con fine mese in verità, perché così possiamo possiamo andare avanti un po' anche col refinement di qua di alcune cose, cioè perché vi faccio un esempio, cioè per me l'unica cosa che mi manca, nel senso proprio che vi avevo promesso e che secondo me, ripeto a me poi.
+Di tutte le altre cosine, cosette belle eccetera eccetera. A me la parte che piace di più è quella che davvero mi avete lamentato quando ci siamo conosciuti e che va a risolvere un problema che in questo caso per esempio è il roaming in particolare no nel disco o comunque il transfer.
+Nella parte del Rooming adesso manca una sola cosa, cioè sono le logiche di chi, chi e come si dorme assieme, OK, quindi il famoso discorso di un'ospite mi ha detto che vuole dormire col collega.
+E devo avere una funzionalità comoda che mi consente di fare il link delle camere oppure un'ospite al suo Plus One e dorme col suo plus One. Questo diciamo è una cosa un pochino che manca.
+
+Lorena Cavecchi   1:31:01
+E che il e il Plus One lo aggiunge l'ospite in fase di iscrizione.
+
+Federico Saladino   1:31:09
+Sì, diciamo è indifferente. Può aggiungere l'ospite in fase di iscrizione, possiamo mandargli una mail separata, possiamo fare qualsiasi cosa, possiamo chiederglielo dopo o solo successivamente in procinto dell'evento. Non ci cambia nulla. A noi è tutto dinamico.
+
+Lorena Cavecchi   1:31:23
+No, ti dico che normalmente succede così, perché quando noi mandiamo gli inviti.
+
+Federico Saladino   1:31:26
+Sì, me l'avevi me lo me lo dicesti, certo me lo dicesti, me lo dicesti. Infatti dicevo appunto anche l'altra volta, è indifferente, cioè si può mettere semplicemente la sezione accompagnatore dinamica e chiedere i dati lì, oppure si possono chiedere separatamente aggiungendo il coso?
+Guest, cioè si può fare qualsiasi cosa è indifferente per il sistema.
+
+Lorena Cavecchi   1:31:49
+OK, ma noi possiamo già farlo adesso.
+
+Federico Saladino   1:31:52
+Sì, certo.
+
+Lorena Cavecchi   1:31:52
+Cioè nel nostro, nei nostri test possiamo anche aggiungere l'accompagnatore ce lo registra.
+
+Federico Saladino   1:31:58
+Assolutamente sì, assolutamente, Assolutamente sì. E vi dico, c'è una macro funzione che stavo un attimo valutando, cioè perché potete già aggiungerlo, nel senso che semplicemente.
+
+Lorena Cavecchi   1:32:00
+Ok, perfetto.
+
+Federico Saladino   1:32:13
+Potete creare una sezione dinamica nome accompagnatore e cognome accompagnatore ad esempio no e quello viene comunque salvato. Però vi stavo creando una nuova funzione che praticamente consiste nei campi accompagnatore quindi che quando ho creato un campo nome accompagnatore e cognome accompagnatore.
+Non solo è un campo ovviamente per la compilatore, ma lo si può anche settare proprio come campo accompagnatore, perché così il sistema sa che qualora questi dati vengano venissero compilati, non sono semplicemente degli altri dati di testo dell'utente, ma sono effettivamente un'altra persona.
+Perché così poi posso usare questa informazione nel roaming per calcolare che quelle sono due, sono due cristiani, non è uno, ad esempio.
+
+Lorena Cavecchi   1:32:53
+Ottimo.
+Certo, sì, chiaro.
+
+Federico Saladino   1:33:03
+Quindi lì vi dico sì, potete iniziare a testare assolutamente, darmi anche feedback, comunque lì ci sto ancora anche lì un po ragionando per fare in modo che sia più funzionale possibile.
+
+Carlo Sanvoisin   1:33:05
+Ottimo.
+Piccola nota sui test, Lorena, siccome io ti ho abilitato anche a minutes, che è quell'altro strumento che lavora le trascrizioni, ricordati se volessi mai testare crowd di utilizzare il link che ti ho mandato per email, esatto.
+
+Lorena Cavecchi   1:33:21
+Sì.
+L'altro link certo, sì.
+
+Carlo Sanvoisin   1:33:29
+Perché altrimenti cloud che sta in produzione, che sarebbe appunto l'ambiente ufficiale, Federico ancora non ci mette tutte le funzionalità nuove che sviluppa, quelle sono nell'ambiente di test, quindi se Apri e ti ritrovi tre funzionalità invece che 11 è quello il motivo.
+
+Lorena Cavecchi   1:33:40
+Certo, certo.
+No, lo apro dall'altro link che mi hai girato.
+
+Carlo Sanvoisin   1:33:49
+Esatto, perfetto. Beh, direi fede innanzitutto. Grazie insomma per averci mostrato tutte quante le nuove funzionalità. Grazie Lorena e Arianna per il vostro tempo. Direi che mando un recap dei punti che abbiamo toccato oggi, quindi diciamo soprattutto dei prossimi passi, quindi funzionalità in sviluppo.
+OE prossimi incontri ci teniamo a questo punto per il 26 chiaramente qualsiasi anomalia o dubbio o domanda che dovesse emergere durante eventuali test fateceli sapere a stretto giro, così abbiamo.
+
+Lorena Cavecchi   1:34:20
+Sì, magari vi iniziamo a scrivere che poi magari sono cose che Federico può andare avanti anche in previsione del 26.
+
+Carlo Sanvoisin   1:34:28
+Appunto, così magari quando arriviamo al 26 sarà proprio insomma una last call.
+
+Arianna  Giordanella   1:34:31
+Zio.
+
+Carlo Sanvoisin   1:34:37
+Arianna, volevi dire qualcosa?
+
+Arianna  Giordanella   1:34:41
+No, volevo solo dire che magari le cose che a me non tornano sono cose che semplicemente non si capisce. Non ho capito come devo fare, quindi sicuramente vi scriverò.
+
+Carlo Sanvoisin   1:34:48
+Però quello è sempre un feedback che hai visto oggi, per esempio vedevamo la parte del colore e magari appunto partendo da un'incomprensione. Poi Federico si è reso conto che a livello di user experience c'era un modo ancora più, diciamo veloce, dimostrativo di farlo.
+
+Arianna  Giordanella   1:34:50
+Non era niente di.
+
+Carlo Sanvoisin   1:35:05
+Quindi mettendo i bottoncini grigi.
+Quindi qualsiasi feedback è ben accetto.
+
+Arianna  Giordanella   1:35:15
+Bene.
+
+Lorena Cavecchi   1:35:15
+Ottimo, va bene, grazie 1000 ragazzi, siete stati come sempre gentilissimi e super operativi.
+
+Carlo Sanvoisin   1:35:15
+Ok.
+Grazie a voi, grazie a voi.
+
+Arianna  Giordanella   1:35:21
+Sì.
+
+Lorena Cavecchi   1:35:24
+A presto.
+
+Arianna  Giordanella   1:35:24
+Grazie.
+
+Carlo Sanvoisin   1:35:24
+Ciao, a presto, Ciao Ciao.
+
+Lorena Cavecchi   1:35:26
+Ciao, ciao, ciao, ciao.
+
+Arianna  Giordanella   1:35:27
+Ciao.
+Ciao Ciao.
+
+Federico Saladino   1:35:29
+Grazie a presto Ciao Ciao Ciao.
+
+Carlo Sanvoisin trascrizione arrestata

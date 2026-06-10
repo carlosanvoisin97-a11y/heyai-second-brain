@@ -1,0 +1,920 @@
+Noloop | Deep Dive Requisiti: Piattaforma Gestione Eventi
+gio 2 ott 2025
+
+0:00 - Oratore non identificato
+non ti so rispondere sulle tempie.
+
+0:00 - Carlo Sanvoisin#+#Lorena Cavecchi
+Comunque oggi è una visita medica quindi capiremo. Ciao Arianna. Ciao. Allora Federico ci raggiunge a breve ma ha scritto che sta arrivando.
+
+0:07 - Carlo Sanvoisin
+Lato vostro chi deve partecipare oltre a voi? Se partecipa qualcuno.
+
+0:11 - Arianna Giordanella#+#Carlo Sanvoisin
+Voi.
+
+0:11 - Carlo Sanvoisin
+Secondo me solo noi due. Esatto.
+
+0:14 - Oratore non identificato
+Fantastico.
+
+0:14 - Arianna Giordanella#+#Carlo Sanvoisin#+#Lorena Cavecchi
+Allora intanto vi faccio diciamo l'incipit tanto Federico già è allineato.
+
+0:18 - Carlo Sanvoisin
+Essenzialmente nella call di oggi noi vogliamo entrare un pochino di più nel dettaglio di quelli che ti devono essere requisiti da rispettare affinché la nuova piattaforma di gestione eventi vi permetta di mantenere la vostra operatività attuale. Quindi quello che pensavo è che ci mostrate il processo dall'inizio alla fine sulla vostra attuale piattaforma, schermata per schermata, in maniera tale che ci mostrate proprio tutti I campi che sono presenti sulla piattaforma e che dovete mantenere, tutte quelle che sono le funzionalità della piattaforma voi oggi utilizzate e che vorreste vedere anche nel nuovo applicativo e come per esempio avevo anticipato a Lorena ho visto che già mi avete mandato alcuni template di email che voi utilizzate all'interno di questo applicativo quindi essenzialmente il punto è ci siamo già dati quelli che sono le funzionalità base di questo applicativo già l'abbiamo discusso anche appunto con Simone Federico però oltre a quelle che devono essere le funzionalità base vorremmo entrare un pochino più nel dettaglio di alcuni particolari che vogliamo evitare di perderci oggi per poi dover fare un rework in un secondo momento quindi quelle che io vi ho dato sono solamente degli spunti a questo punto vi dico anche altre piccole cose che mi ero segnato per esempio mi ero segnato un esempio di lending quindi ci fate vedere magari una landing page di registrazione evento per farci capire anche un po' lo stile di come devono essere costruite che non sono standardizzabili nel senso che ogni volta queste liste ai partecipanti le fate sulla base di regole differenti però se intanto ci date le regole che capitano più spesso noi cominciamo a testare lo strumento e vedere quanto è bravo a raggruppare I partecipanti sulla base di queste regole un'altra cosa che mi veniva in mente è la questo applicativo si può fare reportistica magari oggi ci fate vedere sull'applicativo attuale eh che tipo di reportistica potete fare quindi questi sono solamente eh degli esempi chiaramente però penso che vedendo il processo con magari le varianti che possono capitare dall'inizio alla fine schermata per schermata riusciamo a entrare nel dettaglio e farci un'idea le regole, le funzionalità che assolutamente dobbiamo salvare e mantenere affinché appunto potete poi entrare nel nuovo applicativo e vi ritrovate comunque gli elementi che sono per voi utili. Quindi vedo che è entrato pure Federico, ditemi se per voi è chiaro diciamo lo scopo della call e poi eventualmente partiamo. Direi di sì, personalmente mi è chiaro quello che vi serve.
+
+3:08 - Arianna Giordanella
+Ovviamente vi facciamo vedere alcune cose che abbiamo in esercizio in questo momento, sempre tenendo conto che tutto viene adattato e personalizzato a seconda delle necessità del singolo evento. Poi è chiaro che in realtà non facciamo delle piattaforme in stile NASA, quindi sono sempre basate solo ed esplosivamente sulla necessità contingente del fare arrivare le persone piuttosto che del gestire gli ospiti. Ottimo.
+
+3:40 - Carlo Sanvoisin
+a maggior ragione allora è utile per noi vedere appunto il processo dall'inizio alla fine magari ci ci potresti citare quelli che sono I punti in cui eh dovete poi applicare una personalizzazione evento per evento insomma cominciamo proprio ad entrare nel dettaglio in maniera tale che poi quando entrate sul nuovo applicativo potete ripetere eh questo processo e poi chiaramente Federico è qui proprio perché magari certe funzionalità poi oggi siete abituati a vederle in un certo modo però magari sul nuovo applicativo potrebbero essere potrebbero essere semplificate, potrebbero essere migliorate e potrebbero essere più user friendly e via dicendo quindi ehm chiaramente quello che è necessario mantenere lo manteniamo però se possiamo fare dei miglioramenti o delle semplificazioni diciamo che il lavoro di Federico e Simone è proprio questo. Ok. Poi c'è un un ultimo punto, so che avete due applicativi eh mi chiedevo se è necessario che li vediamo entrambi o se se mostrandocene uno, riuscite, secondo voi, a farci capire essenzialmente tutte queste funzionalità che deve avere il sistema? Se ci sono delle grosse differenze fra uno e l'altro, insomma, fatemi capire anche voi qual è la situazione a riguardo. Allora, aiutami anche tu su questo punto.
+
+4:56 - Arianna Giordanella
+Secondo me sono abbastanza differenti due applicativi, anche se poi alla fine è il risultato che otteniamo è lo stesso. Differiscono fondamentalmente impostazione grafica, uno è più moderno, passatemi il termine, dell'altro sicuramente, e anche un pochino più user-friendly perché ci permette di strutturare noi sia la forma di registrazione che un eventuale front office. In quel caso, a meno che non siano cose complicatissime che è necessario gestire a livello di programmazione, facciamo tutto noi in maniera autonoma.
+
+5:28 - Carlo Sanvoisin
+Ok, allora diciamo che sulla base di quello che hai detto forse sarebbe il caso di vedere l'applicativo diciamo più evoluto e sì diciamo che come dicevi te se poi il risultato è lo stesso questa è la cosa importante.
+
+5:44 - Arianna Giordanella
+Il risultato è lo stesso solo che appunto l'applicativo precedente mi viene da dire comunque che usiamo da più tempo non ci permette se non ci permette di modificare I testi delle mail ma non per esempio di agire sul front office sulla struttura che verrà poi visualizzata dagli ospiti.
+
+6:03 - Carlo Sanvoisin
+Allora, a maggior ragione, se quell'altro è più evoluto e vi permette di fare più cose, prendiamo quello come punto di riferimento di partenza.
+
+6:12 - Oratore non identificato
+Ok.
+
+6:12 - Arianna Giordanella
+Scusate solo un secondo, io mi sto facendo una scheda perché è stata tolta che l'evento che vi voglio far vedere è oggi, quindi ci stanno lavorando sopra.
+
+6:23 - Carlo Sanvoisin#+#Lorena Cavecchi
+Non ti preoccupare.
+
+6:24 - Lorena Cavecchi
+Ah, ricordo una cosa, ma su quello più nuovo, le rooming escono alla stessa maniera? No, perché le dobbiamo fare aggiungendo I campi?
+
+6:33 - Arianna Giordanella#+#Lorena Cavecchi
+Secondo me li possiamo vedere entrambi, in realtà.
+
+6:36 - Lorena Cavecchi
+Perché magari solo quella parte lì, che secondo me è abbastanza fondamentale, gli farei vedere l'altra.
+
+6:43 - Carlo Sanvoisin
+Perfetto, questo era proprio quello che volevo raggiungere, cioè cercare di prendere un po' il meglio da entrambi, o comunque quei punti fondamentali, così con Federico capiamo come integrare tutto quanto e, insomma, rendere il flusso ottimale.
+
+6:58 - Arianna Giordanella
+Allora adesso a brevissimo vi condivido il mio schermo così capite di cosa stiamo parlando. Vi faccio vedere sia la dashboard che il back office che quello che emerge dal front office alla fine che è veramente molto semplice ovviamente essendo una cosa che gestiamo noi.
+
+7:45 - Arianna Giordanella
+Ditemi se vedete tutto. Questo è una parte del back office in cui ho preso il template dell'invito che abbiamo fatto. Vi faccio vedere tutta la parte di personalizzazione e mi sono mandata una scheda in maniera tale che possiate vedere quello che è il percorso che poi effettivamente fa chi riceve l'invito. Vi faccio vedere prima il front office e poi tutto quello che succede dietro. Spero che mi sia arrivato meglio a te. Quindi questa è la mail che io ho ricevuto, l'immagine l'abbiamo realizzata noi, il test ovviamente l'abbiamo inserito, il bottone è un pezzo di template. Cliccando qui vado direttamente alla pagina di registrazione. Qui c'è un testino che cambia di volta in volta a seconda delle richieste, questo è molto molto semplice, come vi dicevo l'evento è oggi quindi a breve attiveranno anche la funzione di accredito credo alle 19. Cliccando su partecipo vado al forno di registrazione. In questo caso sono stati I clienti a chiederci di mettere la privacy in cima che io trovo che non sia l'idea migliore, ma la volevano così. E il format è in doppia lingua, sempre perché questa è una richiesta diretta.
+
+9:13 - Arianna Giordanella#+#Federico Saladino
+Non volevano due pagine differenti, volevano che fosse tutto sulla stessa.
+
+9:16 - Arianna Giordanella
+Anche questa non è la migliore delle opzioni, tuttavia è quello che è stato fatto. Nome, cognome e me sono campi fissi, sono presenti di default. Tutti gli altri li andiamo ad attivare o ad aggiungere mano a mano, a seconda di quello che ci serve per poter identificare farle partecipare. In questo caso è solo una serata qui, è una cena di gala fondamentalmente. Non abbiamo una parte di viaggio, se non per alcuni che hanno diretto ai transfer, e non abbiamo una parte di hotel, se non per poche persone. Quindi il form di base è molto molto semplice, nome, cognome, mail, telefono, azienda. Hanno già confermato quando loro vedono questa schermata da che paese vieni, se hai del necessità alimentari. Posso farti una domanda, Arianna, veloce? Sì.
+
+10:03 - Arianna Giordanella#+#Federico Saladino
+Volevo chiederti, per esempio, un campo come phone number, in questo caso, è considerato sempre free text o non accetta? In questo caso non ha, non riconosce né il tipo di carattere che viene inserito né il numero di caratteri.
+
+10:18 - Arianna Giordanella
+Né validazione, neanche nella mail?
+
+10:20 - Arianna Giordanella#+#Federico Saladino
+Cioè c'è un qualche, qualche cosa nell'applicativo che vi consente di, o per determinati campi, Nei campi data c'è la possibilità di limitare dalle range, piuttosto che questo campo del telefono è un vertex qualsiasi. Certo, lo fissate, cioè questi campi data quindi li impostate voi insomma? Sì, adesso dopo ti faccio vedere tutta la parte di costruzione. In questo caso... Volevo fare un'altra domanda, anche scusami, ti interromperò ogni tanto perché ho qualche... Se preferisci me le appunte, te le chiedo dopo. Dimmi tu, eh. Se preferisci me le appunte...
+
+11:00 - Federico Saladino
+Vai, vai, dimmi, dimmi. No, volevo anche chiederti... Ha questo la possibilità anche di avere, per esempio, scelte di tipo drop-down?
+
+11:08 - Arianna Giordanella#+#Federico Saladino
+Cioè, supporta un po' tutti I campi form?
+
+11:11 - Arianna Giordanella
+Sì, supporta sia I drop-down che le scelte come... Come si chiamano quei due...
+
+11:16 - Arianna Giordanella#+#Federico Saladino
+due, tre, quattro, cinque... Checkbox, ratio back... Bravo, non mi veniva.
+
+11:20 - Arianna Giordanella
+Free text, selezione di orario, ovviamente...
+
+11:22 - Arianna Giordanella#+#Federico Saladino
+Precaricato, condenso formato, selezione di data limitabile.
+
+11:26 - Arianna Giordanella
+Ottimo, grazie. Abbiamo inserito delle condizioni per cui solo se clicchi sì ti facciamo delle domande sui transfer e sull'eventuale alloggio. In questo caso se mi dici, non avendo fatto I viaggi, se li sono organizzati in autonomia, se mi dicono che vogliono avere il trasferimento, Devo chiedergli dove li devo andare a prendere anche ora. Vedi questo per esempio è il campo dell'orario, è già preimpostato, non è un fray text, posso inserire solo I numeri in questo formato.
+
+12:06 - Carlo Sanvoisin
+Tutto il resto è testo libero.
+
+12:09 - Arianna Giordanella
+Perfetto. Adesso mi velocizzo perché tanto.
+
+12:12 - Oratore non identificato
+Ok.
+
+12:12 - Arianna Giordanella
+Può mettere dei numeri.
+
+12:15 - Lorena Cavecchi
+Dicevo che anche il tema di chiedergli il trasferimento piuttosto che l'hotel, questa cosa qua viene poi sistemata di volta in volta in base anche al tipo dell'evento, perché ci sono anche eventi per esempio dove di default avranno la camera e il volo, per cui noi banalmente gli diciamo quando partono, cioè gli diamo gli operativi dei voli e poi invece magari l'hotel glielo daremo in un secondo.
+
+12:50 - Arianna Giordanella
+Dopo vi faccio vedere magari il form di un altro evento che ha questa funzionalità per cui facciamo vedere l'operativo preassegnato che loro possono confermarci o meno, diciamo che tipo di sistemazione abbiamo previsto per loro ma che l'hotel siccome sono tanti diversi in base all'adesione poi gli sarà comunicato. Più avanti. Basta, direi che ho completato tutti I campi, in questo modo. Basta, mi sono registrata, vedo una semplice thank you page molto molto elementare e poi mi arriva invece una mail di conferma.
+
+13:33 - Lorena Cavecchi
+Io non ho visto, magari Ari l'hai fatto subito veloce, che nessuna delle schede si può chiudere se prima non hanno autorizzato la prima.
+
+13:44 - Arianna Giordanella#+#Carlo Sanvoisin
+Sì, infatti, forse non si è visto, io non l'ho sottolineato, ma avevo saltato un campo e mi è uscito un po' paprosso sotto dicendo che dovevo compilarlo.
+
+13:54 - Lorena Cavecchi
+Ecco, in quel caso, alle volte è un testo che noi dobbiamo importare, oppure una presa a visione, ma magari è una presa a visione che non ti fa andare avanti se prima non apri l'allegato, cioè si aprono, devi aprire link che ti fa vedere le informazioni.
+
+14:12 - Federico Saladino
+Ok vi faccio una domanda, questo applicativo vi dà la possibilità, dà la possibilità a un customer, quindi un utente che sta andando, sta compilando il form, di abbandonare la pagina e qualora ritorni di trovarsi lo stato precedente della pagina, quindi senza dover compilare tutti I dati?
+
+14:36 - Arianna Giordanella#+#Federico Saladino
+Se può riaccedere deve ricompilare.
+
+14:38 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Ok.
+
+14:39 - Arianna Giordanella#+#Federico Saladino
+Perché non può riaccedere senza aver salvato I dati, cioè senza aver compilato tutto, altrimenti esce e deve rifare.
+
+14:49 - Federico Saladino
+Ok. L'altra domanda è se consente l'invio di link specifici. Intendo, attenzione, cosa intendo? Intendo che diciamo che io ho una lista di invitati, ok? E per esempio posso già differire tramite link, dove di fatto il link è lo stesso e si atterra tutti sulla stessa pagina, ma ogni link che è stato inviato a una mailing list, per esempio, ha un identificativo diverso.
+
+15:17 - Arianna Giordanella
+Sì, funziona esattamente così, visto che non mi ha chiesto ne password, ne... Perché sono tutti link univoci ai quali sono associate.
+
+15:26 - Arianna Giordanella#+#Federico Saladino
+Quindi manda link univoci a tutti gli invitati della mailing list. Esatto.
+
+15:31 - Arianna Giordanella
+Quindi la scheda funziona, sono un'esperta di tecnologia, però funziona perché si identifica, si lega al codice assegnato alla scheda, non alla mail, non alla password. In questo caso abbiamo anche un QR code perché servirà agli ospiti per accedere, ma non sempre ce l'abbiamo. E la mia registrazione è completata, quindi non è niente di super complesso.
+
+16:00 - Lorena Cavecchi
+Però sicuramente quel tema del QR code è importante perché ci serve in evento, in tempo reale, ad avere la mia presenza. Quindi questo va considerato?
+
+16:20 - Federico Saladino
+Assolutamente, è chiaro che per noi non è una feature assolutamente complessa. Anzi, addirittura noi lavoriamo tantissimo con il PWA, si chiamano, cioè Progressive Web App. Noi addirittura possiamo creare strutture, in sostanza, dove qualsiasi utente nel momento in cui poi accede e riceve la conferma, semplicemente salvando in home, cioè una procedura guidata, noi mettiamo di solito, sono due clic, aggiunge alla schermata home, diciamo la pagina di registrazione alla pagina dell'evento, è come se si creasse un'applicazione sul telefono, che non è una reale applicazione scaricata dallo store, ma è personalizzata per l'evento, quindi è molto premium di solito come feeling, e l'utente poi può tornare per eventualmente tirar fuori il QR code quando gli serve, eventualmente consultare il calendario delle attività evento, cose di questo tipo qua. Comunque sì, diciamo che...
+
+17:20 - Arianna Giordanella#+#Federico Saladino
+Però ogni tanto lo facciamo, quando ce lo chiedono lo facciamo, però ovviamente non è una cosa che gestiamo in una back office, ma dobbiamo farla realizzare. L'abbiamo fatto tipo per quanta roba delirante.
+
+17:33 - Federico Saladino
+Noi qui diciamo che stiamo facendo, io vi sto dando ogni tanto qualche idea, stiamo facendo brainstorming, butteremo in piedi una struttura da zero, quindi meno male possiamo fare, con l'informatica si chiama Godmode, possiamo fare un po' quello che ci va.
+
+17:53 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Mi piace come parola. Non abbiamo grossi limiti.
+
+17:56 - Federico Saladino
+È chiaro che capiamo nel senso poi sono delle cose che possono avere una complessità troppo elevata, nelle cose invece che possiamo considerare un quill, semplici, da aggiungere come feature, o poi eventualmente anche in futuro noi lavoriamo in modo modulare, cioè intanto avremo una prima buonissima applicazione che ci consentirà di coprire quasi tutti gli use cases, poi dopo di che nel futuro potremo andare ad integrarlo ulteriormente con funzioni che magari anche semplicemente utilizzandolo e lavorando con questa applicazione vi rendete conto in futuro potrebbero essere utili come aggiunte e non c'è nessun problema, si aggiungeranno.
+
+18:36 - Carlo Sanvoisin
+Io ho una domanda, io vedo qui che avete il builder per l'email, che chiaramente è una delle funzioni che già abbiamo discusso e inclusa nel futuro applicativo, invece mi chiedevo per la landing page...
+
+18:49 - Arianna Giordanella#+#Carlo Sanvoisin
+No, no, no, in questo caso lo facciamo noi, abbiamo un builder anche di quella che adesso ti faccio vedere. Quindi avete un builder anche per le landing, perfetto.
+
+19:00 - Carlo Sanvoisin
+Le gestite in autonomia, create le immagini, mettete il copy.
+
+19:04 - Arianna Giordanella#+#Carlo Sanvoisin
+Esatto. Ok.
+
+19:05 - Arianna Giordanella
+Poi chiediamo supporto, come dicevo, solo se vengono fatte richieste particolarmente complesse magari di sistemi di selezione, di filtro che non riusciamo a gestire noi da back office, chiediamo l'intervento dei tecnici perché non stiamo ingrando banalmente.
+
+19:19 - Arianna Giordanella#+#Carlo Sanvoisin
+Questo è l'interno, non so se vi serve vedere tutte le funzioni, ma è veramente abbastanza basic.
+
+19:26 - Carlo Sanvoisin
+Federico, su questo lo chiedo a te, nel senso loro hanno sia il builder delle mail che delle landing, vogliamo vederli velocemente per segnarti diciamo le funzionalità basiche che hanno?
+
+19:37 - Carlo Sanvoisin#+#Federico Saladino
+Perché tanto sono standard. Sì, sono abbastanza standard secondo me.
+
+19:41 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Ho visto anche altre piattaforme che ce l'hanno, identico quindi.
+
+19:45 - Carlo Sanvoisin#+#Federico Saladino
+È un qualsiasi, in pratica, website builder.
+
+19:48 - Federico Saladino
+Non so se te mai è capitato di usare uno di quei siti Carlo dove puoi fare I siti praticamente drag and drop.
+
+19:59 - Carlo Sanvoisin#+#Federico Saladino
+Tipico!
+
+19:59 - Federico Saladino
+Perché alla fine queste strutture qui sono... Tutto quello che vedete qui è HTML. L'HTML è un linguaggio praticamente che si usa per descrivere layout, impaginazione e contenuti. Sti builder qua non fanno altro che trascinare blocchi di HTML.
+
+20:16 - Arianna Giordanella#+#Federico Saladino
+Vedo tra l'altro infatti ecco infatti non a caso. Si vedi sono tutti dei blocchetti di testo, di testo un altro pezzo, l'immagine, poi ci saranno le colonne, ci saranno I grid per mettere le robe in grid. Ci sono dei moduli di funzionalità per cui se devo aggiungere gli extra guest quando li aggiungo posso mettere l'elenco di quelli che sono associati, il piano di viaggio.
+
+20:40 - Federico Saladino
+Vedo infatti che c'è anche la possibilità di inserire html libero, non è caso.
+
+20:45 - Arianna Giordanella#+#Federico Saladino
+Sì, io non l'ho mai ovviamente usato.
+
+20:48 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Sì, con I codici insomma.
+
+20:50 - Federico Saladino
+Ti chiedo una cosa, ti dà la possibilità di mettere blocchi dinamici basati su condizioni?
+
+20:55 - Arianna Giordanella#+#Federico Saladino
+C'è una parte dedicata alle condizioni?
+
+20:57 - Arianna Giordanella
+Sì, non c'è, non c'è nella mail, nel senso che devo creare differenti modelli e poi associarli in base alle condizioni, ma sì, per esempio sull'euro page ci sono e li usiamo spesso.
+
+21:10 - Federico Saladino
+non so, se l'ospite è al sesso femminile, allora aggiungi questa sezione, ad esempio, no?
+
+21:17 - Arianna Giordanella#+#Federico Saladino
+Si, o allora visualizza tutto il campo.
+
+21:21 - Federico Saladino
+Dovresti fare due template diversi.
+
+21:23 - Arianna Giordanella
+Mi faccio due template diversi e poi rispetto alle regole di invio agisco sui filtri in quel caso, posso agire da lì e non sul modello di mail.
+
+21:38 - Federico Saladino
+Sarei curioso dopo per capire appunto come poi vai a creare I gruppi mail e assegnare I template. Adesso te lo faccio vedere, tanto volevo passare alla sezione del form che contiene anche questo tipo di funzionalità.
+
+21:56 - Arianna Giordanella
+O preferite che ti faccia vedere prima l'editor delle pagine? Vediamolo velocemente ma mi aspetta.
+
+22:04 - Federico Saladino
+che sia pressoché identico a quello delle mail.
+
+22:07 - Arianna Giordanella
+Sì, in realtà sì, nel senso che qua ci sono una serie di impostazioni che ti dicono se è aperto, se è chiuso, se devi continuare a mostrare la pagina o se va direttamente ad un messaggio automatico, ma non c'è niente di particolarmente complesso. Sono tutte funzioni che attiviamo noi in caso di necessità. Questa è la landing che abbiamo costruito. Se vedi qui, Se te lo fa vedere qua puoi aggiungere le display conditions, in questo caso non ci servivano, però le abbiamo messe sul blocco. In questo caso lo vedono solo se è stato invitato ma non si è ancora registrato. Stessa cosa per il blocco dei tasti perché non avrebbe senso se...
+
+22:52 - Federico Saladino
+Con le colonne grid e divisione...
+
+22:55 - Arianna Giordanella
+Esatto, qua lo vedi se hai detto che non viene, in questo caso... E il foro...
+
+23:01 - Arianna Giordanella#+#Federico Saladino
+quello che abbiamo attivato quando abbiamo bloccato le registrazioni.
+
+23:04 - Federico Saladino
+Sarei curioso a questo punto di far capire come funziona perché avrà appena una logica immagino di storing perché c'è quello che state facendo qui adesso è che tu stai cliccando un tasto viene popolato un valore invariabile e quella variabile viene usata poi per constare una sezione cioè in pratica quando tu clicchi quel tasto cos'hai una sezione azioni che dici cosa fa quel tasto?
+
+23:27 - Arianna Giordanella#+#Federico Saladino
+Quando clicco il tasto questo Cioè se mi clicco un attimo un tasto giusto per vedere le configurazioni del tasto quali sono? Quelle che stai vedendo adesso, quelle che vedi sulla sinistra.
+
+23:41 - Arianna Giordanella
+In realtà il tasto in questo caso è un tasto di RSVP quindi ha delle funzioni limitate.
+
+23:48 - Arianna Giordanella#+#Federico Saladino
+Sarei curioso di come viene impostata l'azione del tasto, cioè il fatto che quel tasto lì se non partecipo. Questo tasto qui è uno di questi che adesso non si vede, ma è già impostato per essere un tasto non partecipo.
+
+24:06 - Arianna Giordanella
+Non lo cambio perché attivo, ma se invece clicco su qua, che non posso aggiungerlo, magari facciamo una pagina nuova, dal tasto button in realtà posso aggiungere, posso aprire un altro sito, posso aprire un'altra pagina, posso... Quindi lui è questa questo pezzo qua ha la possibilità di aggiungere tutta una serie di azioni che sono ovviamente pre-impostate.
+
+24:30 - Federico Saladino
+Allora, vorrei vedere com'è la condizione sulle appunto, ci dispiace che non parteciperai, cioè che cos'è che imposta che si vede quella roba lì? C'è già tutto di default, non c'è un...
+
+24:43 - Arianna Giordanella#+#Federico Saladino
+No, è legato al fatto che l'ospite ha cliccato su non partecipo.
+
+24:48 - Arianna Giordanella
+Posso vedere sotto la pennetta lì di show is Yes.
+
+24:52 - Federico Saladino
+Devi collegare una variabile. Magari ti faccio vedere come ne costruisco una o una che non è in uscita.
+
+25:00 - Arianna Giordanella
+No, va bene. Mi è chiaro.
+
+25:03 - Arianna Giordanella#+#Federico Saladino
+Era proprio per capire. Se clicco qua, forse ti è più utile. Ecco, esatto. Queste qui sono proprio interessate.
+
+25:10 - Federico Saladino
+Le display condition. Volevo sapere se con I bottoni in pagina fosse possibile alterare il valore di una di queste condizioni. Tutto qua. Cioè, clicco il bottone, no? Anzi che adesso per esempio avere un form, ho proprio un bottone con scritto sono celiaco. Se lo clicchi mette la condition celiaco a true, a vero. E poi quindi metto un blocco display if condition celiaco true. Col bottone non credo, non l'ho mai fatto.
+
+25:41 - Arianna Giordanella#+#Federico Saladino
+Con la compilazione del campo sì.
+
+25:44 - Oratore non identificato
+Capito.
+
+25:44 - Arianna Giordanella
+Però è chiaro che devo fare, devo creare tutta una di comandi precompilati, quindi non posso lasciargli il testo libero, ma gli devo mettere una selezione multiple piuttosto che un menù tendina. Se vuoi vedere cosa c'è qua dentro, te li faccio vedere. No, no, ma mi è chiaro.
+
+26:04 - Federico Saladino
+Poi tanto noi avremo il nostro design, insomma, sicuramente. L'importante è che riusciate a fare queste cose.
+
+26:11 - Arianna Giordanella
+Ti tieni conto che solitamente utilizziamo Tipo questo l'usatore di solito utilizza la funzione show block in base a partecipo o non partecipo o by list quando abbiamo più liste diverse.
+
+26:27 - Arianna Giordanella#+#Federico Saladino
+Ok, molto chiaro.
+
+26:28 - Federico Saladino
+Ok, non so se ci sono altre pagine adesso.
+
+26:32 - Arianna Giordanella
+Questa qua ha veramente due pagine ma te le faccio vedere uno un pochino più articolato magari. Ok, da qua secondo me. Possiamo uscire, possiamo andare a vedere, fermatemi se sto andando troppo veloce o se ci sono cose che vi interessa sapere. La struttura del forum invece la gestiamo dalle liste degli ospiti, quindi se io clicco qua, questi sono un botto, e vado qui. Questo è l'editor dove vado ad inserire tutti I vari campi che vi Sempre sulla destra. Perfetto. Ok, quindi il form è una che trovo fondamentalmente.
+
+27:16 - Arianna Giordanella#+#Federico Saladino
+Sì, sì, vedo. Perché vedo che stai seguendo anche la stessa impaginazione che hai in pagina.
+
+27:23 - Federico Saladino
+Nome, cognome di fianco sotto la mail.
+
+27:26 - Arianna Giordanella#+#Federico Saladino
+Sì, se voglio li sposto, li inverto. Sì, sì, sì. C'è anche qua quindi I grid, la divisione in colonne.
+
+27:34 - Carlo Sanvoisin
+Senti, vedi, sarebbe utile forse avere tutta questa lista destra delle possibilità dei campi che loro oggi possono costumizzare così che...
+
+27:45 - Federico Saladino
+Già noi l'avevamo in mente così...
+
+27:49 - Carlo Sanvoisin#+#Federico Saladino
+Tu dici sempre tutto base questo...
+
+27:52 - Arianna Giordanella#+#Federico Saladino
+Non bisogna reinventare la ruota quando ci sono delle cose che...
+
+27:58 - Federico Saladino
+cioè se tu devi fare un composer di pagine web o di... Se vuoi se aprite Webly, aprite Altervista, aprite Squarespace, aprite quello che volete, sono tutti degli HTML Builder, funzionano tutti così, drag and drop, perché per una persona la cosa più comoda è proprio avere I blocchetti e andare a spostarli.
+
+28:24 - Arianna Giordanella
+Soprattutto se hai una conoscenza di codice limitato.
+
+28:28 - Arianna Giordanella#+#Federico Saladino
+No, ma cosa c'entra quello?
+
+28:30 - Federico Saladino
+Non c'entra assolutamente nulla, è per il fatto che anche, cioè a chiunque, io se dovessi fare un form, scriverlo a codice a mano, cioè anche io che conosco il codice, ci metto, non so, 30 minuti, 40 minuti, trascinando dei blocchi ce ne metto 5. Una volta che sai cosa ci devi mettere dentro ci metti veramente poco tempo. Se devo fare invece un form nel quale ho delle richieste molto specifiche, appunto, allora quel punto lì conviene usare il codice, perché con il codice posso fare quello che qui ovviamente ho delle limitazioni definite dai tipi di blocchi.
+
+29:07 - Oratore non identificato
+Esatto.
+
+29:07 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Questi qui sotto su travel e on hospitality sono più particolari?
+
+29:13 - Carlo Sanvoisin
+Questi sono, in senso che gestiscono la selezione da parte degli ospiti, perché poi le varie informazioni sono inserite da un'altra sezione.
+
+29:23 - Arianna Giordanella
+Se io metto questo qua dentro, adesso vi faccio vedere uno dove c'è, quello che faccio e andare a mostrare all'ospite sul front office, sulla piattaforma, il viaggio che io gli ho assegnato o farglielo scegliere. Magari gli crea un menù a tendina che dice vuoi partire da Roma o da Milano, questo è l'itinerario da Roma, se cambi dalla tendina vende pure quello da Milano e poi lo selezioni.
+
+29:46 - Oratore non identificato
+Ok.
+
+29:47 - Federico Saladino
+E quando magari ci sono delle route, quindi dei viaggi già, cioè c'è la partenza da Roma e da Milano, li ho già configurati, si parte con questo volo, si prende sto treno eccetera eccetera.
+
+29:57 - Arianna Giordanella#+#Federico Saladino
+Esatto. Scegli questo o quello. Esatto, scegli questo o quello, o questo è quello che io ti ho assegnato.
+
+30:04 - Arianna Giordanella
+Però lo gestisco l'assegnazione da un'altra sezione, questo qua è solo per far sì che venga visualizzato all'interno delle forme di registrazione.
+
+30:12 - Federico Saladino
+Certo, cioè non è un ridolli feed, ridolli. Sì, non so cosa vuoi dire.
+
+30:17 - Arianna Giordanella
+Ridolli è solo lettura, è solo in lettura.
+
+30:20 - Arianna Giordanella#+#Federico Saladino
+Esatto, bravo, esatto, una sola lettura di quello che hai assegnato poi sulla lista.
+
+30:25 - Arianna Giordanella#+#Carlo Sanvoisin
+Ok, ottimo.
+
+30:26 - Arianna Giordanella
+Una cosa che è molto utile è questa, quella che si chiama Activities, che in questo caso non è stata utilizzata, ma mi permette, non so se ci sono diverse riunioni, piuttosto che delle attività extra durante un viaggio, di assegnarle alle diverse persone, far sì che per esempio vengano poi visualizzate all'interno del QR code, per cui se ho bisogno spuntare l'accredito e quante persone salvano sul bus X o quante persone vanno a vedere il museo, lo posso fare utilizzando lo stesso QR code che contiene, passatemi il termine poco tecnico, tutte queste informazioni al suo interno se io le associo alle attività.
+
+31:12 - Federico Saladino
+Ok, sì perché allora il senso è questo, cioè come si può gestire un QR code? Tanti modi, cioè c'è il core code può contenere fino a tot kilobyte di informazioni, no? Quindi nel core code tu ci puoi proprio andare a scrivere il nome e il cognome del partecipante, il nome delle attività e segnare se può partecipare o meno. E a quel punto lì, con un lettore apposta, che quindi sa come interpretare quel core code, anche senza internet, se sei in una galleria, lo puoi leggere e vedere che questa persona può fare questo, questo e quest'altro. Altrimenti, se ovviamente abbiamo internet, sta questione non si lascia scritta nel QR code, il QR code è solo un identificativo, Federico Saladino. Quando il mio lettore lo legge, chiama il server, il server legge le attività che ha registrato Federico Saladino e me le mostra, che è anche più sicuro, però ovviamente dipende dalle esigenze.
+
+32:11 - Carlo Sanvoisin#+#Federico Saladino
+Sono tutte soluzioni tecniche. Perfetto. Su questa attendee finder lo usate mai, per esempio?
+
+32:16 - Federico Saladino
+L'Attendee Finder.
+
+32:17 - Arianna Giordanella#+#Federico Saladino
+C'è che non l'ho mai usato. Credo sia per cercare tra I partecipanti. Potrebbe anche essere una cosa che hanno aggiunto di recente perché questa piattaforma è...
+
+32:28 - Arianna Giordanella
+Continuo sviluppo. Sì, nel senso che a volte gli facciamo delle richieste, vengono accolte, io questa parte onestamente non l'avevo mai vista. O che non me ne sono mai accorta, comunque non l'ho mai usata. Non so come succede se clicco qua.
+
+32:45 - Carlo Sanvoisin
+Per noi l'importante era capire oltre a quelle standard di quelle un pochino magari più particolari, quali utilizzate in maniera tale che siamo sicuri appunto che le manteniamo, mi pare di capire appunto che queste che ci ho fatto vedere sono quelle che usate di più. Sì, sono quelle che usiamo molto di più.
+
+33:04 - Arianna Giordanella#+#Carlo Sanvoisin
+Questo attend finder, giuro che non so cosa sia e l'ho anche aggiunto adesso, cerco il vino per che si trattivo.
+
+33:12 - Arianna Giordanella#+#Federico Saladino
+Lista di invitati. Come? Certo sia per cercare tra la lista di invitati.
+
+33:17 - Federico Saladino
+Sì, ma me l'ha aggiunto, non so dove.
+
+33:20 - Arianna Giordanella#+#Federico Saladino
+Tra tutti I campi.
+
+33:22 - Arianna Giordanella
+Alcuni poi sono nascosti, perché sono quelli che servono a noi, magari per contenere delle informazioni, per segmentare il database. Questi grigini, perché noi li abbiamo creati, ma non...
+
+33:33 - Federico Saladino
+Puoi provare, schiacciando F3, che cerchi in tutta la pagina e provare a cercare nome del nodo. Come si chiamerà mai?
+
+33:43 - Arianna Giordanella
+Attendi I find. Non lo so.
+
+33:46 - Arianna Giordanella#+#Federico Saladino
+Chi lo sa? Vediamo se lo trovo.
+
+33:50 - Federico Saladino
+Lì l'ha trovato nella lista di fianco.
+
+33:53 - Arianna Giordanella
+Eh, ma non mi sembra una grande...
+
+33:57 - Arianna Giordanella#+#Federico Saladino
+Se faccio find, niente, ho distrutto il sito mentre ci stanno lavorando.
+
+34:03 - Arianna Giordanella
+Eccolo qua, guarda.
+
+34:05 - Arianna Giordanella#+#Carlo Sanvoisin
+No, in realtà non sempre, sennò l'avrei vettato subito.
+
+34:11 - Arianna Giordanella
+Generalmente lo seleziona appena dopo all'ultimo elemento selezionato.
+
+34:17 - Federico Saladino
+Scusate, ma già chiamano per sapere se possono andare.
+
+34:23 - Arianna Giordanella
+Non posso più eliminarlo. Adesso chiedo loro se me lo eliminano. Mi faccio vedere, se volete, un altro... Non è vero, voglio far vedere questa funzione qua, che è quella dove vado ad associare I vari modelli di mail alle diverse liste, poi alle diverse funzionalità. Qua vedete invece la funzione di aggiungere delle condizioni dove posso mettere tutta una serie di campi, ne posso aggiungere diverse. Non mi sono mai posta la questione, in tutta onestà, di quante ne posso aggiungere. Fino a tre, quattro, è un fatto. Vi serve vedere altro su questa... No, io chiedo di vedere...
+
+35:19 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+A livello di form ti sembra completo, diciamo...
+
+35:22 - Carlo Sanvoisin#+#Federico Saladino
+No, no, no.
+
+35:24 - Federico Saladino
+Siamo nel Chili Pops. No, volevo chiedere... Chiedere invece, a questo punto, dove si vedono poi la lista di partecipanti? La lista dei partecipanti si vede da qua.
+
+35:37 - Arianna Giordanella#+#Federico Saladino
+Dopo che hanno risposto, cioè anche per esempio, diciamo, da qui tu hai tutti gli attendees, c'hai pending, attending, che differenza abbiamo?
+
+35:47 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Questa è la lista dei partecipanti.
+
+35:50 - Arianna Giordanella#+#Federico Saladino
+Attending han confermato, pending stiamo aspettando risposta, giusto? Pending sono quelli che noi abbiamo...
+
+35:56 - Arianna Giordanella
+in realtà che non hanno mai risposto, per cui non possono più accedere.
+
+36:02 - Arianna Giordanella#+#Federico Saladino
+Ci sono direttamente gente che è già arrivata, che sono già entrati, che li stanno accreditando evidentemente.
+
+36:10 - Arianna Giordanella
+I not attending sono quelli che hanno cliccato su non partecipo o che noi abbiamo segnato perché ci hanno scritto dicendo che non sarebbero venuti Perfetto.
+
+36:23 - Carlo Sanvoisin
+Invece Waiting cos'è?
+
+36:24 - Arianna Giordanella
+Waiting sono quelli che hanno ricevuto l'invito, adesso in questo momento non c'è più nessuno perché abbiamo chiuso, ma che non si sono ancora registrati. In realtà lo status di Pending glielo abbiamo assegnato noi, ma questo in maniera un po' impropria, nel senso che ci serve per bloccarli, perché questo status di Pending in realtà è legato alla funzione dei pagamenti. Cioè io l'ho forzato in questo momento per metterlo... Pending sono persone che hanno confermato che hanno un pagamento da fare, ma non hanno ancora fatto.
+
+36:55 - Arianna Giordanella#+#Carlo Sanvoisin
+Ah, ok. Quindi waiting non hanno proprio fatto nulla. Waiting non hanno fatto nulla.
+
+37:00 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Ok.
+
+37:00 - Carlo Sanvoisin
+Pending hanno detto che sarebbero venuti, ma non hanno ancora fatto il pagamento, quindi non li consideriamo. Ha messo che debbano pagare.
+
+37:07 - Arianna Giordanella#+#Carlo Sanvoisin
+In questo caso non dovevano pagare, ma mi serviva cambiargli lo status per poter gestire il database, quindi li ho messi in pending.
+
+37:14 - Oratore non identificato
+Carissimo.
+
+37:14 - Federico Saladino
+Ti volevo chiedere, questi stati qua sopra li puoi creare tu a piacere?
+
+37:19 - Arianna Giordanella#+#Federico Saladino
+sono fissi? No, sono fissi.
+
+37:21 - Federico Saladino
+Cioè waiting, pending, attending, checked in, checked out, not attending, sono tutti?
+
+37:25 - Arianna Giordanella#+#Federico Saladino
+Sì, esatto, non ce ne sono altre di cittura a questo livello.
+
+37:30 - Carlo Sanvoisin
+E a parte questa forzatura che hai fatto tu, normalmente, diciamo, questi sono dinamici, nel senso che cambiano a seconda di un trigger, cioè quindi per esempio il pagamento, una volta che hanno fatto il pagamento diventano degli attendee in automatico?
+
+37:47 - Oratore non identificato
+Sì.
+
+37:47 - Arianna Giordanella#+#Carlo Sanvoisin
+Ok. Solo se l'hanno fatto con carta di credito.
+
+37:51 - Arianna Giordanella
+Se hanno fatto un bonifico, questo qua è collegato a Stripe ovviamente.
+
+37:55 - Arianna Giordanella#+#Federico Saladino
+Fatto manualmente, certo. Si sblocca in automatico se pagano con carta di credito, se fanno un bonifico, devo farlo io.
+
+38:03 - Carlo Sanvoisin#+#Federico Saladino
+Deve fare tu manualmente guardando il bonifico.
+
+38:06 - Arianna Giordanella
+Non dovendo pagare diventano attending direttamente nel momento in cui cliccano su partecipo.
+
+38:11 - Arianna Giordanella#+#Federico Saladino
+Si può integrare anche con altri sistemi di pagamento, con Paypal, No, al momento no. Abbiamo solo Stripe, quindi la carta di credito, o il... Ok.
+
+38:23 - Carlo Sanvoisin#+#Federico Saladino
+Invece per, dicevi, check-in e check-out, quali sono I trigger?
+
+38:28 - Carlo Sanvoisin
+La credito.
+
+38:29 - Oratore non identificato
+Ok.
+
+38:29 - Arianna Giordanella
+Cioè, se c'è check-in, sono veramente check-in perché l'evento è in corso, se sono I VIP che sono già arrivati, che hanno creditato.
+
+38:43 - Federico Saladino
+Scusa, mi dicevo, con Accredito intendi che hanno scansionato il loro QR code all'arrivo?
+
+38:49 - Arianna Giordanella#+#Federico Saladino
+Sì, sì, sì, sì.
+
+38:51 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Ok, perfetto.
+
+38:52 - Arianna Giordanella
+Lo posso comunque forzare io manualmente in caso l'abbiamo fatto, posso agire su questi tasti ovviamente da Mac Office. Però ufficialmente quando sono cenditi vuol dire che sono stati accreditati.
+
+39:05 - Carlo Sanvoisin
+Quindi abbiamo le conferme di partecipazione tramite appunto il click sul Abbiamo il pagamento e abbiamo la scansione del QR code come trigger. Tu vedi su questi trigger automatici per fare il passaggio dei status, vedi complessità?
+
+39:25 - Oratore non identificato
+Perfetto.
+
+39:25 - Arianna Giordanella#+#Carlo Sanvoisin
+Come fate a fargli fare il checkout?
+
+39:29 - Arianna Giordanella
+Lo facciamo molto raramente in realtà, però capita che chiedano di sapere chi è entrato, chi è uscito, magari ci sono delle delle riunioni o delle sale quindi in quel caso sempre tramite coud o tramite stanzione o gestione manuale c'è anche il numero lo c'è chi gli mette I check out.
+
+39:54 - Carlo Sanvoisin
+Ottimo su questa lista hai domande fede vedo che ci sono delle piccole funzionalità vedo il carrello. Il carrello in questo caso non è attivo ma è la parte pagamenti, che funziona un po' come...
+
+40:11 - Arianna Giordanella
+come si dice? Come un e-shop?
+
+40:14 - Arianna Giordanella#+#Federico Saladino
+Devo chiedervi, questo voi lo usate per tutti gli eventi? No. Ok. Cioè questo cosa, questa funzione dei pagamenti?
+
+40:24 - Federico Saladino
+No, no, dicevo la piattaforma in generale.
+
+40:28 - Arianna Giordanella#+#Federico Saladino
+Sì, lo usiamo per tutti gli eventi per cui ci viene richiesta una piattaforma.
+
+40:35 - Arianna Giordanella
+Ok. Di front office possiamo usare per tutti poi alcuni li gestiamo sull'altra piattaforma quelli più piccoli come abbiamo già già discusso che non hanno budget li gestiamo magari su dei forum eccetera eccetera e questa è pay per use in abbonamento come funziona cioè si funziona per singole pay per use in questo caso poi esistono credo delle opzioni di accordi quadro eccetera eccetera che però non abbiamo Stabilito. Quindi ogni volta che abbiamo necessità di fare una piattaforma chiediamo un preventivo e procediamo.
+
+41:12 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Chiarissimo.
+
+41:12 - Arianna Giordanella
+Non so cosa posso farvi vedere, se volete vi faccio vedere un altro esempio di piattaforma sempre su questo sistema che ha la visualizzazione dei viaggi così capite come vengono visualizzati.
+
+41:26 - Arianna Giordanella#+#Federico Saladino
+No, volevo vedere se c'è appunto qualcosa di simile alla nostra proposta di Google logic.
+
+41:33 - Federico Saladino
+No, loro fanno tutto a mano.
+
+41:36 - Carlo Sanvoisin#+#Federico Saladino
+Anche con questa piattaforma c'è nel senso dei momenti in cui...
+
+41:41 - Arianna Giordanella
+Qua ci sono due liste perché erano radicalmente diversi, sennò all'interno del form tutti quei campi che vedete nascosti, quindi in grigetto, che sono invisibili servono a noi per lavorare sul raggiuntamento degli ospiti, magari per filtrare l'invio di qualche piuttosto che al cliente per identificarli. Se gli dici tizio, tizio mi dice sì ma chi è il suo area manager?
+
+42:13 - Oratore non identificato
+Io vado a vederlo.
+
+42:15 - Lorena Cavecchi
+La personalità di cui abbiamo discusso Federico in realtà non l'abbiamo da nessuna parte, cioè quello proprio è ex-novo.
+
+42:27 - Federico Saladino#+#Lorena Cavecchi
+Lo vedo vedremo per la prima volta con voi.
+
+42:31 - Federico Saladino
+Il senso di quella funzionalità secondo me è una cosa che ho pensato dopo che mi avete descritto un pochino il vostro flusso, no? Perché diciamo che una volta che io comunque poi ho questa lista gigante di invitati e devo comunque prenotare una serie di alberghi, una serie di mezzi di spostamento un tot di tavoli con determinate preferenze eccetera eccetera. Poter diciamo creare questi macro gruppi può aiutare a semplificare tantissimo poi le attività manuali che dovete fare per interfacciarvi appunto con alberghi, compagnie aeree eccetera eccetera insomma. Ok, quindi sarebbe una fornizione ex nuovo, va bene. A questo punto volevo sapere se la piattaforma vi consente di inviare... Mail l'abbiamo visto. Mail successive già, diciamo, alla raccolta inviti, anche, quindi mailing list dove mandiamo mail informative.
+
+43:37 - Arianna Giordanella#+#Federico Saladino
+Sì, invia, sì, sono tutte le convocazioni, però qualsiasi campagna... Creiamo dei filtri e poi le inviamo se sono diversificate.
+
+43:49 - Arianna Giordanella
+Perfetto.
+
+43:49 - Federico Saladino
+Invece robe, quindi, come invece messaggi, Sms, cioè c'è questa funzione.
+
+43:56 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino
+Questa dobbiamo traslarla su Whatsapp, però intanto vediamo come funziona.
+
+44:00 - Federico Saladino
+Sì, diciamo che comunque noi possiamo fare sia Sms che Whatsapp, allora non ci cambia niente, che sicuramente sono sempre funzioni più pay-per-use queste, perché...
+
+44:12 - Arianna Giordanella#+#Federico Saladino
+Sì, questo qua fa acquisti un blocco di messaggi, infatti in questo momento non è operativo, perché non l'abbiamo Su WhatsApp questo funzionerebbe nello stesso modo, Federico?
+
+44:25 - Carlo Sanvoisin#+#Federico Saladino
+Sempre devi...
+
+44:26 - Federico Saladino
+Allora, sì e no, nel senso che quelli di WhatsApp sono dei bei forbetti. Nel senso che se è il customer a scriverti è gratis. Se sei tu a comunicarlo, comunicati direttamente, ci sono dei costi. Ok. E se vale la doppia direzione?
+
+44:50 - Arianna Giordanella#+#Federico Saladino
+Come? Se utilizzi entrambe le funzionalità, quindi comunque paghi?
+
+44:54 - Arianna Giordanella
+No, no, no.
+
+44:55 - Arianna Giordanella#+#Federico Saladino
+Se l'utente ti ha scritto in primis, tu poi ci puoi chattare liberamente, a costo zero.
+
+45:01 - Federico Saladino
+No, però se io magari invece ho bisogno di...
+
+45:05 - Arianna Giordanella#+#Federico Saladino
+non lo so, gli mando una comunicazione, poi l'utente ovviamente mi deve rispondere o fornire delle informazioni.
+
+45:11 - Arianna Giordanella
+In quel caso il pagamento?
+
+45:13 - Federico Saladino
+No, no, no. Il pagamento è proprio se inizi per primo la conversazione.
+
+45:18 - Arianna Giordanella#+#Federico Saladino
+E quindi sì.
+
+45:19 - Arianna Giordanella
+Sì.
+
+45:20 - Federico Saladino
+si parla di un costo ridicolo, nel senso, parliamoci chiaro, cioè, ora non ricordo sinceramente, però è un costo irrisorio, diventa grosso se devi mandare 40.000 messaggi.
+
+45:40 - Arianna Giordanella#+#Carlo Sanvoisin#+#Federico Saladino#+#Lorena Cavecchi
+Speriamo di no.
+
+45:43 - Arianna Giordanella
+Sì, ma è comunque Sì, però non sono mai tutti insieme, magari sono 3 in vida, 3.000, quelle robe lì.
+
+45:54 - Arianna Giordanella#+#Lorena Cavecchi
+Ah sì, certo.
+
+45:55 - Arianna Giordanella
+Per 40.000 l'unico botto mi viene un po' di ansia.
+
+45:59 - Carlo Sanvoisin
+Ok, quindi in poche parole voi quando dovete mandare un messaggio, un'e-mail, andate a selezionare essenzialmente la lista di attendee per la quale dovete mandare questa comunicazione, lista che voi o avete creato in maniera diciamo automatica perché era molto semplice, esempio dipendenti dipendenti oppure, nella maggior parte dei casi, liste che create secondo delle regole diciamo che stabilite voi e quindi le andate a creare in maniera un po' più manuale. Dopodiché nel caso dell'email vi trovate il builder e andate a creare un template email per lista. Nel caso dei messaggi andate essenzialmente a creare il messaggio e lo inviate massivamente. Ok, direi che per ora torna tutto. Magari la parte della reportistica? Non so se su questo strumento fate reportistica.
+
+46:50 - Arianna Giordanella#+#Carlo Sanvoisin
+Sì, sì, certo. Ok. Ora ve la faccio vedere da fuori.
+
+46:56 - Arianna Giordanella
+Se il mio computer collabora. Perfetto. Un'altra domanda.
+
+47:00 - Carlo Sanvoisin
+Le email le create sempre da zero o usate dei template? Le creiamo da zero, tendenzialmente.
+
+47:08 - Arianna Giordanella
+Nel senso che poi sono sono quasi tutte uguali, quindi il template ce l'abbiamo noi nella testa.
+
+47:15 - Arianna Giordanella#+#Federico Saladino
+Abbiamo la possibilità, per esempio, di partire da una mail che avete già mandato, da un template che avete già scritto e modificare quello?
+
+47:22 - Arianna Giordanella
+Sì, possiamo o trascinarcelo da un altro evento, se magari è lo stesso, per lì cambia la grafica. O qua ce ne sono alcuni di preimpostati che io non uso quasi mai perché poi alla fine graficamente non corrispondono a quelle che sono le nostre necessità. Però sì, possiamo anche, per esempio, da qua io posso fare copia quindi lo copio e lo sposto su un altro evento qua ci sono tutti gli eventi in essere e lo posso spostare.
+
+47:50 - Carlo Sanvoisin
+E questo è importante quindi questo pure cerchiamo di mantenerlo in maniera tale che se avete già creato un email di cui dovete magari modificare un pochino il testo e cambiare l'immagine ce la teniamo.
+
+48:04 - Arianna Giordanella#+#Carlo Sanvoisin
+Sì.
+
+48:04 - Oratore non identificato
+Ok.
+
+48:04 - Carlo Sanvoisin
+Quelli che mi ha mandato per email sono diciamo, le più rappresentative?
+
+48:09 - Arianna Giordanella
+Sì, sono credo quelle di Quest, soltanto sono veramente tutte molto molto simili. La cosa che cambia più spesso è la mail di convocazione, perché ovviamente può essere molto molto complessa in base a come è strutturato l'evento, quindi gli puoi dare informazioni di viaggio, informazioni sull'estensione, oppure solo ti aspetto quel giorno perché è già lì, a seconda di quello che c'è. Quindi quella mail viene un po' difficile per mandarvi un modello che sia esemplificativo di tutti, quindi ve ne ho mandato, credo, se non sbaglio, uno col viaggio e uno senza.
+
+48:45 - Arianna Giordanella#+#Carlo Sanvoisin
+Perfetto, sì.
+
+48:46 - Carlo Sanvoisin
+Difatti vedevo prima quando facevi vedere il builder dell'e-mail c'era per esempio un blocco che si chiamava tipo itinerario di viaggio.
+
+48:55 - Arianna Giordanella#+#Carlo Sanvoisin
+Esatto, inserendo quello mi viene visualizzato il viaggio che ho segnato nella lista.
+
+49:00 - Carlo Sanvoisin
+Ok, quindi essenzialmente c'è poi un testo, non è che ti dice chissà che cosa, ti va solo a specificare qual è il viaggio di quel partecipante.
+
+49:10 - Arianna Giordanella
+Mi mostra l'itinerario, mi dà per esempio la possibilità di inserire il biglietto da scaricare, che è fondamentale ovviamente, perché se ti devo mandare il biglietto del treno o dell'aereo devi averlo.
+
+49:22 - Carlo Sanvoisin
+Ok.
+
+49:22 - Federico Saladino
+Ecco, questa è una vera domanda importante, cioè diciamo che io a questo punto ho il gruppo invitati Roma e il gruppo invitati Milano, no? E devo mandare tutti quanti tramite il mailing, tramite il mailing template, il proprio biglietto. Yes. E noi faccia fare l'associazione, c'è del biglietto Federico Saladino, il biglietto di Carlo, il biglietto di eccetera eccetera e che lui si occupi di mandare a ognuno il proprio biglietto. Lo carico nella scheda di ciascuno.
+
+49:55 - Arianna Giordanella#+#Federico Saladino
+Quindi manualmente tu devi inserire per ogni utente il biglietto Poi lo rendo scaricabile ovviamente dalla funzione a scarico anche uno scaricatore al suo.
+
+50:06 - Lorena Cavecchi
+Però Federico, adesso non è il caso di questa e neanche dell'altra. Abbiamo usato in passato una piattaforma di un cliente con cui lavoravamo che li caricava manualmente, cioè in automatico, mettendo il nome e il cognome in un determinato modo, lui leggeva nome e cognome e li inseriva nella scheda.
+
+50:33 - Federico Saladino
+Questo diciamo che è una funzione che possiamo fare in tutta tranquillità, per esempio mettendo dei matching fields dell'utente sul nome file. Però questo ovviamente, come si fa a renderlo smart? Mi porto un po' nella mia mente adesso. Come si fa rendere una cosa del genere utile, smart? Perché mettiamo che magari compro mille biglietti Trenitalia, quella volta lì Trenitalia vi sputa fuori I biglietti solo con I cognomi, ok? A patto che non ce ne siano due uguali adesso. O vi spara fuori I biglietti con nome underscore cognome underscore un ID o il numero del treno.
+
+51:18 - Arianna Giordanella#+#Federico Saladino
+No, scusami, ti fermo perché tu sei troppo avanti.
+
+51:21 - Lorena Cavecchi
+Nel senso che A parte Trenitalia, perché tu il nome e cognome te lo tira fuori come singolo. Quando noi compriamo I biglietti e sono biglietti comitiva, magari ci sparasse fuori il biglietto con il nome e cognome. Quindi quello noi lo dobbiamo creare.
+
+51:42 - Federico Saladino#+#Lorena Cavecchi
+Velo dividete a mano, dividete tutti I biglietti pagina per pagina.
+
+51:46 - Arianna Giordanella#+#Federico Saladino#+#Lorena Cavecchi
+Bravissimo!
+
+51:47 - Oratore non identificato
+Esatto!
+
+51:47 - Lorena Cavecchi
+Così come anche le boarding pass, perché noi trattando gruppi, a Ryanair esigenti insomma l'Helocost che è l'obbligo della carta d'imbarco. Quando le scarichi le puoi scaricare solo insieme, non te ne fa scaricare una per una. Quindi noi quel passaggio, poi magari se tu riuscissi a parlare con Ryanair e Trinidad ci aiuteresti.
+
+52:11 - Carlo Sanvoisin#+#Federico Saladino#+#Lorena Cavecchi
+Vi rispondo già allora, però so già la risposta.
+
+52:14 - Federico Saladino
+Vi potrebbe interessare un tool che vi divide queste cose in automatico e vi I nomi dei file, splitti PDF? Assolutamente sì, impiegheremo un quintuplo del tempo.
+
+52:28 - Lorena Cavecchi
+Io a maggio ho passato notti a dividere carte d'imbarco.
+
+52:34 - Federico Saladino#+#Lorena Cavecchi
+Mamma mia, che lavoro!
+
+52:36 - Carlo Sanvoisin#+#Federico Saladino
+Non lo auguro a nessuno.
+
+52:39 - Federico Saladino
+Ok, PDF. Questo vede? Che facciamo? Ce lo segniamo con un nice to have?
+
+52:47 - Carlo Sanvoisin
+Adesso vediamo.
+
+52:48 - Federico Saladino
+Buon di un pass. Vedo già, Carlo preoccupato perché sta pensando al budget, lui.
+
+53:01 - Carlo Sanvoisin#+#Federico Saladino
+Esatto, ci rimetto io dalla mia quota.
+
+53:08 - Carlo Sanvoisin
+No, capiamo, Federico punta sempre al massimo della funzionalità.
+
+53:17 - Lorena Cavecchi
+è veramente una funzionalità che aiuta due reparti, la biglietteria e la segreteria, perché tendenzialmente quello di dividere le carte d'imbarco, normalmente è un compito della biglietteria, perché una volta che hai messo il biglietto poi fa la carta d'imbarco e poi le salvia in cartellina, tante volte però la biglietteria è incartata e quindi lo fa la segreteria e se anche la segreteria è incartata lo fa l'operativo, per cui porta via tanti tempo io e anche Arianna abbiamo passato notti a dividere carte d'imbarco. Quando hai un gruppo da 2000 persone è veramente tempo che sprechi e che poi se non le hai ti blocca tutto il resto del lavoro. Non puoi mandare le convocazioni, ferma tantissimi altri meccanismi che poi sono successivi alla al salvataggio delle carte d'imbarco. Perfetto, direi che questo è super chiaro.
+
+54:19 - Carlo Sanvoisin#+#Lorena Cavecchi
+Comunque sì, Federico, ci interessa. Benissimo.
+
+54:22 - Federico Saladino
+Il senso qua è che io mi aspetto di dare la possibilità di caricare una lista di biglietti del treno, per esempio. Ce ne sono dentro 1.200 e questo me li va a splittare, me li va a segnare I vari E' anche vero che questa funzione, per essere davvero dinamica, ha bisogno di un po' di ingredienti. Vabbè, intanto l'estrazione, quindi dobbiamo avere un pdf a persone. Quello non ci piove perché ognuno deve avere il suo il suo biglietto. Punto 1. Punto 2, a questo punto, diciamo che il problema di nomenclatura del biglietto non è, diciamo, non è di come si nomina il singolo file, a noi non interessa. Perché se lo straiamo noi lo diamo noi diciamo il nome del file però deve essere interessante capire poi come associare il singolo file al singolo utente e perché questo dipende ovviamente dai dati che abbiamo raccolto dell'utente così come dai dati biglietto tendenzialmente sarà nome cognome per esempio a questo punto abbiamo un terzo problema che è il fatto che ogni pdf deve effettivamente contenere questi numeri informazioni, cioè chiaramente se questi biglietti sono biglietti univoci e non hanno dentro né nome né cognome, vanno semplicemente smistati come biglietti del museo per esempio, quelli non sono a nominativo, in quel caso lì deve semplicemente estrarre e assegnarne una testa. Quarto problema sta nel fatto che il pdf deve contenere l'informazione e deve essere anche contenuta testualmente. Mi spiego meglio. Se il pdf contiene Federico Saladino ma Federico Saladino è scritta in un'immagine, io non ho modo, a meno che proprio non andiamo ancora più nel complesso, di sapere che quella pagina lì contiene Federico Saladino. Se invece è scritto come testo rasterizzato all'interno del pdf, io posso filtrare il pdf e vedere che c'è scritto Federico Saladino, fare un match non case sensitive con il nome partecipante e a quel punto gli so che la pagina è di Federico Saladino. Poi c'è un quinto problema, lo step di pagina, cioè un biglietto è sempre una pagina, potrebbe essere due pagine, se è due pagine vuol dire che io mi devo rendere conto dinamicamente che la prima pagina contiene il nome, la seconda pagina magari contiene il QR code, la terza pagina contiene un altro nome, quindi lo step di ripetizione due andare a ciclare. Quindi non è proprio un tool, diciamo, che si fa così velocemente. È fattibilissimo e secondo me vi porterebbe via tantissimo tempo, vi aiuterebbe tantissimo il lavoro.
+
+57:13 - Carlo Sanvoisin#+#Federico Saladino
+Però bisogna pensare a tutti.
+
+57:15 - Carlo Sanvoisin
+Questa è una stima di complessità e poi ritorniamo dal team. Pensi che ti potrebbe essere utile avere un esempio di un pdf completo da cui partono oggi per fare, per spezzarlo così per cominciare a facile quello ragazzi sono proprio una carta d'imbarco di Ryanair.
+
+57:34 - Federico Saladino#+#Lorena Cavecchi
+Se ce l'avete così e non vi interessa, fa comodo sicuramente averla. Sì, ve le recuperiamo, tanto abbiamo caso uno e caso due.
+
+57:46 - Carlo Sanvoisin#+#Federico Saladino#+#Lorena Cavecchi
+Perfetto, ottimo.
+
+57:47 - Lorena Cavecchi
+Perché per esempio le carte d'imbarco hanno le due pagine.
+
+57:52 - Carlo Sanvoisin
+Eh, baby, quindi queste sono.
+
+57:54 - Arianna Giordanella
+Non sono divise tra la territoria, Tutte le carte d'imbarco di andata e tutte le carte d'imbarco di ritorno. Nello stesso file?
+
+58:03 - Arianna Giordanella#+#Federico Saladino#+#Lorena Cavecchi
+Nello stesso file o in due file diverse, a seconda.
+
+58:07 - Arianna Giordanella#+#Federico Saladino
+Ma quanto ci mette quando schiacciate il tasto download a Ryanair? Ci metterà due anni a mandare? Cioè se lo fa?
+
+58:14 - Federico Saladino#+#Lorena Cavecchi
+Perché immagino che la fate voi con il back office di Ryanair quando prendete così tanti biglietti o lo fate sempre tramite una pagina web?
+
+58:23 - Lorena Cavecchi
+Tramite Ryanair fa fare le carte d'imbarco come fosse, cioè, normalmente, non ha un altro sistema per le agenzie. No, no, ok, ok.
+
+58:32 - Federico Saladino#+#Lorena Cavecchi
+Quindi ci metto un po'.
+
+58:34 - Federico Saladino
+Sarei curioso di quando si clicca download quanto vi fanno aspettare per stampare un pdf da, non so, da 2.400 pagine, secondo me c'è un po'. Vabbè. No, non sono mai così tanti perché sono sempre gruppetti, eh, non sono mai tutti duemila insieme.
+
+58:51 - Carlo Sanvoisin
+C'hanno le liste, chiaramente, chi parte da una direi che siamo giunti al termine della call di oggi però secondo me è stato molto utile abbiamo raccolto un sacco di requisiti di dettaglio abbiamo capito anche appunto le funzionalità della piattaforma e per voi sono importanti vi chiederei siccome appunto abbiamo ragionato oggi insieme in quest'ora e credo che l'obiettivo adesso è ancora più chiaro se vi vengono in mente altri elementi che dovete assolutamente per mantenere oppure come abbiamo visto adesso eh dei processi che oggi sono farraginosi, ripetitivi e che vorreste cercare di migliorare chiaramente ehm potete sempre scriverci quindi ce li potete mandare anche offline oppure se vediamo che abbiamo raccolto tante altre esigenze o comunque osservazioni che volete portare eh a Federico possiamo anche fare poi una quella di follow up.
+
+59:48 - Carlo Sanvoisin#+#Federico Saladino
+Eh non siamo riusciti a poi chiudi pure con calma. Io devo proprio scappare.
+
+59:55 - Federico Saladino
+Comunque, questo di oggi è l'esempio lampante, secondo me, di attività che vi conviene comunicarci, perché sono le cose che, se si possono, le possiamo digitalizzare e andare a migliorare tantissimo l'efficienza.
+
+1:00:10 - Arianna Giordanella#+#Federico Saladino
+Sono quelle attività ripetitive, lunghe e noiose, tendenzialmente, che conviene.
+
+1:00:15 - Lorena Cavecchi
+Allora, d'accordo, ma infatti io suggerirei una seconda cosa, per vedere il pezzo che non siamo riusciti a vedere oggi, così almeno vi abbiamo dato l'infarinatura di tutto a 360 gradi delle nostre funzionalità che abbiamo oggi e magari, come è venuto fuori oggi, a Federico sono venute in mente delle altre cose, quindi secondo me è meglio parlarne e vederlo così piuttosto che scrivervi, perché sennò ci manca questa scintilla di di discussione da cui poi nasce la possibilità di valutare altre cose, o che magari a noi non ci vengono in mente perché usiamo quello che abbiamo. Noi impariamo, siamo autonomi nell'imparare a usare quello che abbiamo e non sappiamo andare oltre, chiaramente non è il nostro mestiere. Ci vengono delle idee, poi ci sono delle idee che possono essere percorribili e altre che magari sono o troppo dispendiosi o non ancora fattibili come vorremmo noi e questo ci aiuta anche a parlarne con voi. Quindi io fisserei prima un'altra call, finiamo il ciclo delle attività di questa piattaforma e poi magari iniziamo veramente a parlarci, cioè voi così avete il tempo di lavorare.
+
+1:01:42 - Arianna Giordanella#+#Lorena Cavecchi
+E poi da lì capiamo come risentirci. E lì allora quel punto ha senso inviarvi delle informazioni in più di follow up per dirvi ci siamo dimenticati anche questo, però voi intanto avete già tutto il resto.
+
+1:01:58 - Carlo Sanvoisin#+#Lorena Cavecchi
+Certo, magari a stretto giro.
+
+1:02:00 - Carlo Sanvoisin
+Allora liberiamo Federico.
+
+1:02:01 - Carlo Sanvoisin#+#Lorena Cavecchi
+Grazie Federico.
+
+1:02:02 - Arianna Giordanella#+#Carlo Sanvoisin#+#Lorena Cavecchi
+Grazie mille Federico. Grazie. Ciao Federico. Ciao.
+
+1:02:05 - Carlo Sanvoisin
+È stato un piacere parlare con voi.
+
+1:02:08 - Federico Saladino#+#Lorena Cavecchi
+buona giornata! Alla prossima! Ciao ciao!
+
+1:02:10 - Arianna Giordanella#+#Federico Saladino
+Ciao!
+
+1:02:11 - Carlo Sanvoisin
+Sì, Lorenzo, sono assolutamente d'accordo e così vediamo la parte di reportistica che oggi non abbiamo visto. Poi tu avevi citato, se non mi ricordo.
+
+1:02:21 - Lorena Cavecchi
+È fondamentale quella, Carlo, è veramente fondamentale, cioè è una cosa che noi non possiamo assolutamente perdere, perché poi quando sei in loco o devi mandare via le roaming all'hotel e le liste, veramente pane per noi perché altrimenti... Perfetto, quindi direi che quello assolutamente è un punto.
+
+1:02:41 - Carlo Sanvoisin
+Poi tu a inizio collo avevi citato il fatto che sull'altra piattaforma c'è un'altra funzionalità che su questa più evoluta non ho capito se proprio non c'è...
+
+1:02:52 - Lorena Cavecchi
+Non è una funzionalità ma è una reportistica perché sono le famose rooming list che sono le liste che si mandano agli hotel che devono avere dei parametri precisi E quella dall'altra parte è uno studio che l'abbiamo fatta impostare così dopo 25 anni di modifiche e collaborazione, per cui ritengo che quella sia più funzionale rispetto a quella del sistema più nuovo.
+
+1:03:23 - Arianna Giordanella#+#Carlo Sanvoisin#+#Lorena Cavecchi
+Sì, allora lo sistemiamo a mano ogni volta, quindi aggiungiamo campi, togliamo campi.
+
+1:03:32 - Carlo Sanvoisin
+Allora direi che quello è assolutamente un altro punto e poi in questi giorni se vi vengono in mente altre…

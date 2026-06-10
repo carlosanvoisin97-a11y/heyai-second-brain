@@ -1,0 +1,99 @@
+I tre stadi del budget 
+Il processo prevede lo stesso schema informativo ripetuto a tre livelli di precisione crescente:
+Stadio 1 — In gara / previsionale macro Numeri macro basati sul budget dato dal cliente. Si prevede quanto si spenderà per macro-area. Serve per aprire la COM e per il primo cash flow planning. Sono stime.
+Stadio 2 — Pre-chiusura (prima della partenza per l'evento) Obbligatorio per tutti. Si fanno previsioni più accurate: quanto si spenderà effettivamente, come e quando pagherà il cliente (cash flow attivo), previsione delle uscite verso fornitori (cash flow passivo). Questo stadio congela la situazione attesa prima dell'evento.
+Stadio 3 — Chiusura (entro 15 giorni dal ritorno) Obbligo sui producer di recuperare le effettive fatture emesse dai fornitori e di mandare i template reali per la fatturazione attiva verso il cliente. È il consuntivo vero.
+
+Fatturazione attiva e passiva 
+Ciclo passivo (fatture DAI fornitori): I producer/operativi hanno autonomia parziale in BC: possono creare anagrafiche fornitori, inserire fatture, sottometterle per il pagamento. Il responsabile approva o respinge. Ogni fattura ha già un codice identificativo della COM → è riconducibile a una commessa.
+Ciclo attivo (fatture VERSO il cliente): CONFIDENZIALE — I producer/operativi compilano un template Excel in maniera precisissima con PO, importi, codici IVA. Lo mandano per email a Elisa Remigi credendo che sia un automatismo che lo inserisce in BC. In realtà è Elisa che manualmente prende quell'email e la inserisce in BC. Questo "barbatrucco" esiste perché BC non permette di bloccare viste sensibili agli operativi.
+Il match da fare: Calajò/Remigi devono far quadrare la fatturazione passiva (gestita dagli operativi) con quella attiva (i cui numeri vengono forniti solo dagli operativi, che sanno quanto chiedere al cliente per i servizi). La parte attiva Calajò non la vede fino a quando l'operativo non manda il template.
+
+Il Progress oggi
+Excel compilato a mano. Contiene: status commessa, budget per reparto, responsabile, marginalità. Calajò conferma che il Progress non è usato per comparazione con BC — è più uno strumento di impegno persone e distribuzione lavoro.
+
+I pain point confermati dal cliente
+* Doppio inserimento Progress ↔ BC
+* Zaghi perde ore sul Progress: deve rincorrere i commerciali per dati che non condividono spontaneamente
+* Fatture dimenticate: operativi che non recuperano fatture → fornitori aperti a fine anno senza documentazione (Calajò: "se non le andiamo a rincorrere noi...")
+* 120 email/settimana: Calajò risponde a domande procedurali ("non distinguono una fattura da una ricevuta")
+* Spese Revolut non collegate: se non processate subito → appaiono in contabilità 3 mesi dopo
+* Nessuna tracciabilità dell'evoluzione budget: Garbarino lo vuole per il facing ma non esiste un sistema che lo faccia
+
+LA NOSTRA SOLUZIONE
+
+Principio guida
+Non sostituiamo Excel. Creiamo un piano di produzione digitale flessibile all'interno del nostro ecosistema che diventa lo strumento di lavoro quotidiano. Chi vuole continuare a lavorare su Excel può farlo e poi caricare, ma il sistema offre un'esperienza migliore con template, AI e automazioni.
+Le stesse informazioni lavorate dagli operativi e dai producer nel piano di produzione fluiscono automaticamente:
+* → verso Business Central (per la contabilità e il cash flow)
+* → verso il Progress digitale su Link (per la reportistica Garbarino)
+In questo modo il nostro strumento diventa un pre-controllo prima di BC: la chiusura non può essere mandata verso BC finché tutte le voci del budget non hanno una fattura associata. E Link diventa lo strumento di reportistica che sostituisce il Progress Excel.
+
+Il Piano di Produzione (PDP) digitale
+Il cuore della soluzione è il piano di produzione digitale, che vive dentro al nostro ecosistema (da definire se dentro Flow o dentro Link — vedi nota sotto).
+
+Funzionamento:
+1. Template intelligenti: ogni producer/operativo ha a disposizione dei template di PDP basati su:
+    * Lo storico delle commesse simili
+    * La sua figura/ruolo (operativo, producer, programmazione, biglietteria)
+    * Il contesto della commessa corrente (già catturato da Minutes nel brainstorming)
+    * L'AI propone un template prepopolato con le voci più probabili per quel tipo di evento
+2. Template del cliente: se il cliente fornisce un proprio template/format di budget, il producer lo può trascinare dentro lo strumento e riusarlo come nuovo template sul quale costruire il proprio PDP. Lo strumento lo importa e lo adatta.
+3. Flessibilità totale: ogni voce proposta può essere modificata. Colonne possono essere aggiunte, tolte, nascoste o filtrate. È uno strumento di work in progress, non un form rigido.
+4. Associazione fatture alle singole voci: ad ogni voce del PDP deve essere associata la relativa fattura (passiva) o il template di fatturazione (attiva). Questo è il meccanismo che permette la quadratura e il blocco alla chiusura.
+5. Input non strutturati via Sally: se il producer vuole annotare qualcosa con un messaggio vocale, inserire un'email, una nota scritta, la foto di uno scontrino o qualsiasi altro input non formattato, può farlo. Sally lo aiuta a formalizzare questi dati e a inserirli nella riga corretta del PDP.
+6. Suggerimento fornitori: tramite integrazione con BC, il sistema può suggerire fornitori già registrati che sono stati utilizzati in commesse simili. (NB: solo il nome del fornitore come ipotesi, NON il costo — sarebbe rischioso.)
+7. Upload contratti e accordi: quando il producer riceve un contratto, un accordo o una ricevuta da un fornitore, può caricarlo e associarlo alla voce del PDP. Sally estrae automaticamente: importo, condizioni di pagamento, scadenze di cancellazione, deadline (rooming list, emissione biglietti, ecc.) → questi diventano reminder nel Task Management System o restano nella memoria di Sally.
+8. Approvazione e invio: il PDP viene approvato internamente (per clienti importanti dalla Garbarino), poi la versione cliente viene esportata/inviata. Internamente, il PDP continua a evolversi come work in progress.
+
+Il flusso del budget nei 3 stadi
+Stadio 1 — In gara (numeri macro)
+* Il brief arriva → Minutes cattura budget cliente nel brainstorming
+* Il commerciale/producer crea la commessa → si apre su Link → push a BC
+* I reparti lavorano sul PDP (ognuno la sua sezione) con le stime macro
+* Quando il PDP è pronto → va al cliente (versione esportata) + snapshot su Link per il facing
+* Se la gara è persa → status "non confermata" su Link → chiusura COM su BC
+
+Stadio 2 — Pre-chiusura (previsioni accurate)
+* La gara è vinta. Passaggio pratica all'operativo. Il PDP si evolve con dati più precisi.
+* L'operativo aggiorna le voci con i costi contrattati, carica contratti e accordi
+* Sally estrae scadenze dai contratti → reminder sul task management
+* Il sistema manda alert a tutti i responsabili per aggiornare la pre-chiusura prima della partenza
+* Previsioni cash flow più accurate: come e quando pagherà il cliente (attivo), previsione uscite fornitori (passivo)
+* Snapshot pre-chiusura su Link → push a BC per il facing
+
+Stadio 3 — Chiusura (consuntivo reale, entro 15 giorni dal ritorno)
+* L'operativo ha 15 giorni per recuperare le effettive fatture dai fornitori
+* Deve compilare i template reali per la fatturazione attiva (come verranno incassate le fatture dal cliente)
+* BLOCCO: il PDP non può essere messo in "completed" e mandare i dati sul Progress finché:
+    * Tutte le voci del budget non hanno una fattura passiva associata (sia che siano in BC, sia che siano in capo al producer)
+    * I template di fatturazione attiva sono stati compilati e inviati
+    * C'è un check di quadratura tra il nostro strumento e BC
+* Gestione spese Revolut: cross-check con le spese carta non associate a nessuna COM
+* Una volta che tutto quadra → chiusura confermata → dati finali vanno su Link (Progress) e su BC
+
+La quadratura con Business Central
+Ogni fattura ha già un codice identificativo della COM (processo già in essere a Noloop). Questo ci permette di creare un flusso di check fra BC e il nostro strumento:
+* Fatture passive: l'operativo le emette/registra su BC con il codice COM → il nostro sistema verifica che per ogni voce del PDP ci sia la corrispondente fattura in BC (o caricata direttamente nel PDP)
+* Fatture attive: l'operativo compila il template sul nostro strumento (stessa UX dell'Excel attuale) → il sistema può pushare i dati a BC via API → Elisa conferma in BC. Questo elimina il passaggio email mantenendo la percezione dell'operativo che "c'è un automatismo dietro" (che questa volta è vero).
+* Check finale: prima della chiusura, il sistema confronta le voci del PDP con ciò che risulta in BC. Se non quadra → blocco + segnalazione di cosa manca.
+
+Il Progress diventa reportistica su Link
+Con il PDP digitale e le 3 snapshot (gara → pre-chiusura → consuntivo), il Progress Excel non serve più.
+Link diventa lo strumento di reportistica per Garbarino. Riceve automaticamente i dati aggregati dal PDP:
+* Status commessa per BU, per commerciale, per tipo cliente
+* Budget per reparto/cluster (logistica, biglietteria, comunicazione, PM)
+* Marginalità calcolata automaticamente
+* Facing nel tempo (evoluzione attraverso i 3 stadi)
+* Comparazione previsto vs consuntivo
+* Analisi in linguaggio naturale con Sally ("qual è il margine sulla commessa X?")
+
+Sally come assistente procedurale nel PDP
+Quando il producer o l'operativo lavora sul PDP o sulla chiusura, Sally è disponibile per:
+* Rispondere su template, procedure e documentazione da utilizzare
+* Guidare nella compilazione corretta (riducendo le 120 email/settimana a Calajò)
+* Formalizzare input non strutturati (audio, foto scontrini, email) in voci del PDP
+* Estrarre dati da contratti caricati (scadenze, importi, condizioni)
+* Suggerire fornitori dallo storico BC per commesse simili
+* Fare da primo filtro prima di escalare al controllo di gestione
+

@@ -1,0 +1,160 @@
+﻿DUE DILIGENCE DI MERCATO E ANALISI CRITICA COMPETITIVA: PROGETTO NOLOOP ON TRADE (NOT)
+1. Mandato Strategico e Perimetro dell'Analisi
+Il presente documento costituisce un rapporto di Due Diligence strategica e di mercato commissionato per validare le assunzioni fondamentali alla base del progetto Noloop on Trade (NOT). In risposta alla richiesta esplicita di agire come "Avvocato del Diavolo", l'analisi non si limita a una verifica passiva dei dati presentati nelle slide preliminari (Executive Summary, Business Model Canvas, Dati di Mercato, Matrice di Posizionamento), ma procede a uno stress test rigoroso delle ipotesi di business. L'obiettivo è duplice: confermare la solidità delle fondamenta analitiche su cui poggia la strategia di NOT e, contestualmente, illuminare i "punti ciechi" — competitor sottovalutati, dinamiche di prezzo omesse, barriere strutturali — che potrebbero compromettere l'esecuzione del piano industriale.
+L'approccio metodologico adottato integra l'analisi documentale dei materiali forniti con una ricerca forense su fonti terze indipendenti, bilanci depositati, visure camerali aggiornate e report di settore. In un contesto in cui il confine tra Field Marketing tradizionale, Retail Media e Digital Activation diventa sempre più labile, la precisione nella definizione del campo di gioco (TAM - Total Addressable Market) e nella profilazione degli avversari non è un esercizio accademico, ma una necessità di sopravvivenza. Se NOT intende posizionarsi come un disruptor tecnologico in un mercato dominato da giganti "labor-intensive", deve dimostrare non solo di avere una tecnologia superiore, ma di aver compreso le logiche finanziarie e operative che hanno permesso ai suoi competitor di prosperare (o sopravvivere) fino ad oggi.
+Nelle sezioni che seguono, ogni dato presentato nelle slide originali viene sottoposto a verifica incrociata. Laddove i dati interni di NOT sono assunti come veritieri per definizione, ogni statistica esterna e ogni profilo di competitor viene sfidato. L'analisi rivela un panorama competitivo molto più sfaccettato della semplice dicotomia "Tradizionale vs Digitale" spesso utilizzata nei pitch deck delle startup. Emergono colossi da 80 milioni di euro di fatturato che stanno silenziosamente investendo in Business Intelligence, agenzie che nascondono la loro reale potenza di fuoco dietro strutture societarie complesse e player di nicchia che presidiano l'esperienza umana con una qualità difficilmente replicabile da un algoritmo. Questo rapporto fornisce le munizioni analitiche necessarie per affinare la strategia, correggere il tiro e presentare agli stakeholder una proposta di valore inattaccabile.
+________________
+2. Analisi Macroeconomica e Dimensionamento del Mercato
+La prima fase della verifica riguarda il contesto macroeconomico e la definizione dimensionale del mercato. Le slide di NOT fanno riferimento a statistiche di crescita del "Temporary Retail" e del mercato esperienziale. È imperativo disaggregare questi numeri per comprendere se il vento in poppa citato nel pitch è una brezza reale o un artefatto statistico derivante dall'aggregazione di mercati non pertinenti.
+2.1 Il Vero Valore del "Campo da Gioco": Field Marketing vs Retail Media
+Una delle criticità più frequenti nei business plan del settore è l'errata identificazione del mercato indirizzabile. Se NOT si definisce un operatore di "Field Marketing", entra in competizione per una torta che, in Italia, vale circa 780 milioni di euro.1 Questo dato, aggiornato alla fine del 2024, descrive un settore maturo, presidiato da circa 200 aziende, dove la crescita è organica e legata alla ripresa dei consumi fisici post-pandemia. Competere in questo spazio significa lottare per quote di mercato contro operatori consolidati, lavorando su margini compressi dalla competizione sul costo orario del personale (promoter, merchandiser).
+Tuttavia, l'analisi delle tendenze suggerisce che la vera opportunità per un player "tech-enabled" come NOT non risieda nel Field Marketing tradizionale, bensì nel Retail Media. I dati confermano che la spesa in Digital Advertising in Italia ha raggiunto i 5,5 miliardi di euro nel 2024, con una crescita del 12% sull'anno precedente.2 All'interno di questo macro-aggregato, il Retail Media — ovvero la pubblicità venduta dai retailer sui propri spazi fisici e digitali — sta esplodendo, con una crescita stimata del +27% che porta il valore del segmento a circa 510 milioni di euro nel 2024, con una proiezione a 640 milioni per il 2025.3
+Insight Strategico: Se la presentazione di NOT cita "miliardi" di valore di mercato, è tecnicamente corretto solo se il modello di business trascende la gestione operativa dello spazio fisico per abbracciare la vendita di audience e dati. Se NOT si limita a gestire pop-up store, il suo tetto è il mercato da 780 milioni. Se NOT vende "impression fisiche digitalizzate" e dati di conversione ai brand, allora può legittimamente attaccare i budget del Digital Advertising (5,5 miliardi). La validazione del mercato dipende quindi strettamente dalla Revenue Model adottata: NOT è un'agenzia immobiliare/logistica (mercato piccolo, margini bassi) o una piattaforma media (mercato grande, margini alti)? L'analisi dei competitor suggerisce che i player attuali sono ancora ancorati al primo modello, lasciando il secondo ampiamente scoperto.
+2.2 La Rinascita del Fisico e la Saturazione del Digitale
+Il contesto di mercato è favorevole al modello "Phygital" proposto da NOT. Dopo l'ubriacatura digitale del biennio pandemico, si assiste a una stabilizzazione dell'e-commerce (che in Italia penetra per l'11% sul totale retail) e a un ritorno prepotente dell'esperienza fisica.4 Tuttavia, il costo dell'acquisizione clienti (CAC) online è esploso, rendendo paradossalmente il canale fisico un'alternativa competitiva per l'acquisizione di lead qualificati, purché misurabili.
+Il fenomeno dei Temporary Store non è più una tattica di "guerrilla marketing" sporadica, ma un canale strutturale. Le Grandi Stazioni Retail gestiscono flussi di 2 milioni di visite al giorno e hanno dedicato un'intera divisione (Retail Group) alla commercializzazione di spazi temporanei.5 Questo dimostra che la domanda da parte dei brand esiste ed è forte. La criticità, evidenziata dall'analisi del mercato immobiliare, è la rigidità dell'offerta: i canoni di locazione per spazi commerciali temporanei a Milano (città pilota per eccellenza) possono variare drasticamente, dai 3.000 ai 14.000 euro al mese per location di pregio in zone come Tortona o Brera.7
+In questo scenario, il mercato è polarizzato: da un lato l'offerta immobiliare rigida (affitti, fideiussioni, costi di allestimento), dall'altro la domanda dei brand che cerca flessibilità e ROI misurabile. NOT si inserisce in questo gap, ma deve dimostrare di poter variabilizzare i costi fissi immobiliari, altrimenti rischia di essere solo un altro intermediario che aggiunge fee a una struttura di costi già pesante.
+________________
+3. Due Diligence sui Competitor: Fact-Checking e Analisi Finanziaria
+Questa sezione costituisce il cuore dell'analisi "Avvocato del Diavolo". Le slide di NOT presentano una selezione di competitor con relativi dati di fatturato e posizionamento. La verifica puntuale rivela discrepanze significative che potrebbero alterare la percezione del rischio competitivo.
+3.1 PARDGROUP S.p.A.: Il "Golia" Tecnologico Sottovalutato
+Nelle presentazioni di startup, il market leader incumbent è spesso dipinto come un dinosauro lento, costoso e privo di tecnologia. L'analisi approfondita di Pardgroup S.p.A. suggerisce cautela nell'adottare questa narrazione.
+Verifica dei Dati Finanziari:
+Le fonti confermano che Pardgroup è un gigante solido. Il fatturato consolidato si attesta intorno ai 78-79 milioni di euro (dati riferiti ai bilanci recenti 2023/2024).9 Questo posiziona Pardgroup su un ordine di grandezza completamente diverso rispetto alla maggior parte degli altri player citati. La crescita dei ricavi è stata costante negli ultimi anni (dai 61 milioni del 2021 ai ~79 attuali).11
+Tuttavia, emerge un segnale di debolezza operativa: l'utile netto ha subito una contrazione significativa, scendendo da circa 4,94 milioni di euro nel 2023 a 2,04 milioni di euro nel 2024, un calo del -58%.12
+Analisi Operativa e Tecnologica:
+È fondamentale correggere l'eventuale assunzione che Pardgroup sia "bassa tecnologia". L'azienda dispone di una divisione dedicata, PardForce, e pubblicizza attivamente servizi di Business Intelligence, dashboard proprietarie per l'analisi dei dati di sell-out, e sistemi di CRM integrati.13 Il loro stack tecnologico include soluzioni enterprise come Microsoft Azure e Informatica.14
+Pardgroup non manca di tecnologia; il suo problema potrebbe essere l'integrazione e l'agilità. Essendo una struttura pesante con centinaia di dipendenti diretti e migliaia di collaboratori, la loro tecnologia serve spesso a gestire la complessità interna piuttosto che a fornire valore agile al cliente.
+Implicazione per NOT: Non attaccate Pardgroup sull'assenza di dati (li hanno), ma sulla loro capacità di trasformare quei dati in azioni in tempo reale e sulla flessibilità del modello di servizio. Il crollo degli utili suggerisce che la loro struttura di costi è sotto pressione, rendendoli vulnerabili a un competitor più snello.
+3.2 PROMOMEDIA: L'Errore di Identità e la Potenza della GDO
+Qui risiede la trappola analitica più pericolosa. Se le slide di NOT attribuiscono a Promomedia un fatturato modesto (es. 2-5 milioni), stanno analizzando la società sbagliata o solo una frazione del gruppo.
+Verifica dei Dati Finanziari:
+Esistono entità distinte. La "Promomedia S.r.l." con sede a Bari ha effettivamente un fatturato contenuto, intorno ai 1,5 - 1,9 milioni di euro.15 Tuttavia, il vero motore del gruppo è Incentive Promomedia S.r.l., che registra un fatturato massiccio di oltre 55 milioni di euro.17
+Posizionamento Reale:
+Promomedia è un colosso del retail marketing, ma con un baricentro molto specifico: la Grande Distribuzione Organizzata (GDO). Sono leader nella gestione di volantini, concorsi a premio, loyalty program e attivazioni in-store nei supermercati e centri commerciali.20
+Implicazione per NOT: Se il target di NOT sono brand del lusso, fashion o tech che cercano pop-up store in centro a Milano, Promomedia è un competitor marginale (posizionamento "Mass Market"). Ma se NOT intende scalare nella GDO o nei centri commerciali generalisti, Incentive Promomedia è un avversario formidabile con relazioni consolidate e capacità finanziaria enorme. La matrice di posizionamento deve riflettere questa specializzazione verticale: Promomedia è "Alta Scala / Basso Prestigio", mentre NOT potrebbe essere "Alta Scala / Alto Prestigio".
+3.3 TRADE S.p.A.: La Trappola del "Labor Intensive"
+Trade S.p.A. rappresenta l'archetipo dell'agenzia di Field Marketing tradizionale basata sulla forza lavoro.
+Verifica dei Dati Finanziari:
+Il fatturato è confermato a 21,4 milioni di euro (2024).21 Tuttavia, il dato più allarmante è la perdita di esercizio di -417.756 euro riportata nell'ultima rilevazione.21 L'azienda impiega un numero elevatissimo di addetti (citati oltre 1.300, presumibilmente includendo la forza lavoro flessibile).21
+Analisi Operativa:
+Appartenente al gruppo internazionale ASM Group 22, Trade ha spalle larghe ma piedi d'argilla. La perdita operativa in un anno di crescita del mercato suggerisce che il modello basato sulla vendita di ore/uomo a basso margine è in crisi strutturale. I costi di gestione, formazione e amministrazione di una forza lavoro così vasta erodono i margini.
+Implicazione per NOT: Trade S.p.A. è la validazione perfetta della tesi di NOT. Il mercato ha bisogno di automazione perché il modello puramente umano non regge più finanziariamente. NOT deve posizionarsi come l'alternativa che offre gli stessi risultati di Trade ma con un modello "Tech + Human" che ripristina i margini.
+3.4 FREEWAY: L'Esperienza Umana come Differenziatore
+Anche nel caso di Freeway, l'analisi rivela una frammentazione societaria che potrebbe trarre in inganno.
+Verifica dei Dati Finanziari:
+Esistono diverse entità: "The Freeway S.r.l." (Roma) con fatturato di 1,65 milioni di euro 23 e "Freeway S.r.l." (Favara) con circa 730.000 euro.24 È probabile che il brand commerciale aggreghi queste attività o operi tramite la società romana per i grandi clienti.
+Posizionamento Reale:
+Il loro claim "Shopper Experience into Human Experience" 25 definisce chiaramente il campo. Non cercano di essere i più tecnologici, ma i più "umani". In un'era di AI, c'è una nicchia premium per il servizio "white glove" che Freeway presidia.
+Implicazione per NOT: Non sottovalutare il fattore umano. Se la tecnologia di NOT disintermedia troppo la relazione, potrebbe perdere contro player come Freeway su clienti che valorizzano l'empatia e la qualità del personale sopra i dati.
+3.5 BEREADY: Il Challenger Digitale
+Beready S.r.l. mostra un fatturato di 2,86 milioni di euro 26, un dato superiore a quello di molte agenzie "boutique".
+Analisi: Si posizionano all'intersezione tra agenzia digitale e supporto alle imprese. Con un team interno snello (20 dipendenti), hanno un fatturato per dipendente molto alto, suggerendo un modello efficiente, forse più simile a quello a cui aspira NOT rispetto ai giganti del field. Sono un competitor diretto per i budget "smart" e veloci.
+3.6 SIDECAR EVENTI & SPAZIO TEMPORARY: I "Gatekeeper" Immobiliari
+Questi player non competono sul software o sui promoter, ma sull'asset più scarso: la location.
+Analisi: Sidecar Eventi si definisce l'inventore del temporary store a Milano e offre pacchetti "chiavi in mano".27 Spazio Temporary gestisce un portfolio di location.28
+Implicazione per NOT: Se NOT non possiede muri, dipenderà sempre da questi player o dai proprietari immobiliari. La strategia di NOT deve chiarire se intende disintermediare questi agenti (costruendo un proprio network di spazi) o collaborare con loro (diventando il loro layer digitale). Ignorarli nella matrice significa ignorare chi detiene le chiavi fisiche del negozio.
+________________
+4. Analisi dei "Dark Competitors": I Player Mancanti
+Una Due Diligence rigorosa deve identificare chi non è nella stanza ma dovrebbe esserci. L'analisi del mercato rivela l'assenza di tre categorie di competitor nelle slide preliminari di NOT.
+4.1 I Network Globali (Global Agency Networks)
+Mentre Pardgroup è una multinazionale italiana, mancano all'appello i veri giganti globali come CPM International (parte di Omnicom) o Dentsu. Questi gruppi gestiscono contratti paneuropei per brand come Samsung, Apple o Coca-Cola.
+Perché è rilevante: Se NOT punta a clienti "Enterprise" multinazionali, si troverà a competere in gare d'appalto dove la capacità di attivare una campagna contemporaneamente a Milano, Parigi e Berlino è un requisito mandatorio. La tecnologia di NOT è scalabile internazionalmente? Se sì, questo è un vantaggio competitivo contro le agenzie solo italiane.
+4.2 Le Piattaforme di "Space-as-a-Service"
+Il modello "Airbnb del Retail" esiste già. Piattaforme come Storefront (leader globale) o player locali digitali permettono ai brand di prenotare spazi temporary online.
+Perché è rilevante: Se la Value Proposition di NOT è "trovare e aprire uno spazio facilmente", allora il competitor non è Pardgroup (che offre servizi), ma queste piattaforme (che offrono accesso). NOT deve differenziarsi offrendo gestione e performance, non solo accesso.
+4.3 I "Landlord" Evoluti (Grandi Stazioni Retail)
+Grandi Stazioni Retail non è solo un fornitore di spazi, ma un competitor integrato. Attraverso la controllata Retail Group, gestisce direttamente 34 temporary store con un modello "chiavi in mano" che include personale, allestimento e permessi.5
+Perché è rilevante: Hanno un vantaggio incolmabile: il traffico garantito (monopolio naturale nelle stazioni). NOT non può competere sul flusso passivo, ma deve competere sulla conversione di quel flusso o sul presidio di aree urbane dove il traffico va conquistato (e quindi serve la tecnologia di NOT per misurarlo).
+________________
+5. Stress Test della Matrice di Posizionamento e del Modello di Business
+Sulla base dei dati raccolti, è possibile ricostruire e criticare la matrice di posizionamento di NOT.
+5.1 Critica agli Assi della Matrice
+È probabile che la matrice attuale utilizzi assi come "Bassa Tech / Alta Tech" e "Basso Servizio / Alto Servizio".
+Il Problema: Come dimostrato, Pardgroup ha "Alta Tech" (BI, Azure) e "Alto Servizio" (Full Service). Posizionarlo in basso a sinistra è intellettualmente disonesto e rischioso.
+La Correzione: Gli assi dovrebbero riflettere i veri pain point del mercato che NOT risolve e che i giganti non possono risolvere per struttura.
+* Asse X: Agilità / Time-to-Market. (Giorni vs Mesi). I giganti sono lenti; NOT è istantanea.
+* Asse Y: Modello di Costo. (Capex/Fisso vs Opex/Variabile). I giganti chiedono budget fissi; NOT condivide il rischio (o variabilizza i costi).
+In questa nuova matrice, Pardgroup rimane "Alto Servizio" ma "Bassa Agilità/Costi Fissi". NOT occupa lo spazio "Alta Agilità/Costi Variabili", che è molto più attraente per un CFO moderno.
+5.2 Verifica del Modello "Revenue Share"
+Il Business Model Canvas di NOT ipotizza (presumibilmente) un modello di revenue share sui temporary store. L'analisi di mercato suggerisce estrema cautela.
+Analisi dei Rischi:
+   1. Marginalità Strutturale: Nel retail fisico, i margini netti sono sottili. Shopify prende il 2% 30 perché il costo marginale di un negozio digitale è zero. Nel fisico, se NOT deve pagare affitto e staff, una % sul fatturato potrebbe non coprire i costi vivi, a meno che il volume di vendita non sia stellare.
+   2. Attribuzione: Nel field marketing, l'obiettivo è spesso la brand awareness o la prova prodotto (sampling), non la vendita immediata. Se un cliente prova un profumo nel pop-up di NOT e lo compra su Amazon la sera stessa, NOT (in revenue share) incassa zero, pur avendo generato valore.
+   3. Resistenza dei Proprietari: I landlord (proprietari dei muri) raramente accettano revenue share puro senza un minimo garantito sostanzioso.
+Raccomandazione: Il modello dovrebbe evolvere verso un "Hybrid SaaS + Service". Una fee fissa per la tecnologia e la gestione (a copertura dei costi vivi) + una success fee sulle vendite o sui lead generati. Questo protegge NOT dal rischio di invenduto e valorizza la generazione di dati (lead) anche in assenza di transazione immediata.
+5.3 Il Concetto "Chiavi in Mano"
+L'analisi di Sidecar Eventi 27 e Retail Group 5 mostra che il "chiavi in mano" esiste già ed è molto sofisticato (include permessi, VV.F., logistica, staff formato).
+Verifica: Se NOT promette "chiavi in mano" basandosi solo su un'app, sottovaluta la complessità operativa (permessi comunali, logistica dell'ultimo miglio, gestione turni staff). Per essere credibile, NOT deve dimostrare di avere una rete di partner operativi che eseguono la parte "sporca" del lavoro con la stessa efficienza con cui l'app gestisce i dati.
+________________
+6. Sintesi dei Dati per le Slide
+Per facilitare l'aggiornamento della presentazione, ecco una sintesi tabellare dei dati corretti e verificati da inserire.
+Tabella 1: Correzione Dati Competitor (Fact-Checking)
+Competitor
+	Fatturato Reale (Stima Consolidata)
+	Note Strategiche per "Avvocato del Diavolo"
+	Posizionamento Consigliato nella Matrice
+	Pardgroup
+	~79 M€ (non 50-60)
+	Utile in calo (-58%). Hanno BI interna. Pesanti ma completi.
+	Leader Tradizionale (Alto Servizio, Bassa Agilità).
+	Promomedia
+	~55 M€ (Incentive Promomedia)
+	Fortissimi su GDO e Mass Market. Non sottovalutare la potenza di fuoco.
+	Mass Market Leader (Alta Scala, Basso Prestigio).
+	Trade S.p.A.
+	~21 M€
+	Perdita operativa. Modello in crisi. Forza lavoro vasta ma costosa.
+	Legacy Player (Basso Margine, Alta Intensità Lavoro).
+	Freeway
+	~1,6 M€
+	Focus su "Human Experience". Nicchia qualitativa.
+	Boutique Experience (Alto Tocco Umano, Bassa Tech).
+	Beready
+	~2,9 M€
+	In crescita. Modello ibrido digitale.
+	Digital Challenger (Simile a NOT, da monitorare).
+	Sidecar Eventi
+	N/D (Boutique)
+	Pionieri del Turnkey. Gatekeeper delle location.
+	Real Estate Partner (Accesso Location, No Tech).
+	________________
+7. Conclusioni e Raccomandazioni Operative
+L'operazione di Due Diligence ha confermato che l'intuizione alla base di Noloop on Trade (NOT) è corretta: il mercato del Field Marketing è maturo per una disruption. I giganti sono appesantiti da strutture di costo rigide e margini in calo (vedi Pardgroup e Trade), mentre i player più piccoli sono frammentati o iperspecializzati. Esiste un vuoto di offerta per una soluzione che porti l'agilità, la misurabilità e la variabilità dei costi del digitale nel mondo fisico.
+Tuttavia, per trasformare questa intuizione in un business solido, è necessario indirizzare le criticità emerse:
+      1. Ridefinire il Mercato (TAM): Smettere di presentarsi solo come alternativa al Field Marketing (780M€) e posizionarsi aggressivamente come piattaforma di Retail Media (5,5B€). I dati di crescita del Retail Media (+27%) sono il vero traino per attrarre investitori.
+      2. Rispettare i Competitor: Non liquidare Pardgroup o Promomedia come "vecchi". Riconoscere la loro forza (relazioni, scala, finanza) e colpirli dove fa male: l'incapacità di essere agili e di offrire modelli di business a rischio condiviso.
+      3. Modello di Revenue Ibrido: Abbandonare l'idea del "Revenue Share Puro" se non si hanno asset proprietari. Adottare un modello che copra i costi fissi (affitti, staff) e lasci il margine variabile sulla performance. Questo è l'unico modo per essere sostenibili senza bruciare cassa in affitti.
+      4. Alleanze Strategiche: Considerare partnership con i "Gatekeeper" (es. Sidecar Eventi o piattaforme immobiliari) invece di combatterli. NOT porta il cervello (dati/tech), loro portano il corpo (muri/permessi).
+In sintesi, la ricerca di mercato originale ha individuato i bersagli giusti, ma ha sottostimato la loro corazzatura. Con i dati corretti e un posizionamento più sfumato e consapevole, NOT può passare da essere una "scommessa rischiosa" a una "soluzione inevitabile" per l'evoluzione del retail.
+Bibliografia
+      1. "Field Marketing? Un mercato che in Italia vale circa 780 milioni di euro ed è presidiato da 200 aziende" - AziendaTop, accesso eseguito il giorno dicembre 6, 2025, https://aziendatop.it/2024/12/24/field-marketing-un-mercato-che-in-italia-vale-circa-780-milioni-di-euro-ed-e-presidiato-da-200-aziende/
+      2. La spesa in Digital Advertising in Italia ha raggiunto i 5,5 miliardi di euro nel 2024, in crescita del 12% rispetto al 2023 - Consorzio Netcomm, accesso eseguito il giorno dicembre 6, 2025, https://www.consorzionetcomm.it/la-spesa-in-digital-advertising-in-italia-ha-raggiunto-i-55-miliardi-di-euro-nel-2024-in-crescita-del-12-rispetto-al-2023/
+      3. Retail Media in Italia: il mercato cresce del +27% - Osservatori Digital Innovation, accesso eseguito il giorno dicembre 6, 2025, https://www.osservatori.net/comunicato/retail-media/retail-media-italia-mercato/
+      4. Online retail growth in 2022: the data from "Osservatorio eCommerce B2C" - Qapla, accesso eseguito il giorno dicembre 6, 2025, https://www.qapla.io/blog/ecommerce-data/growth-e-commerce-2022/
+      5. Temporary Store - GSR, accesso eseguito il giorno dicembre 6, 2025, https://www.gsretail.it/it/temporary-store/
+      6. EXPERIENCE - Grandi Stazioni Retail, accesso eseguito il giorno dicembre 6, 2025, https://www.gsretail.it/wp-content/uploads/2024/07/05_GSR_ENG_bilancio2023.pdf
+      7. Immobili e Attività commerciali in affitto a Milano - Casa.it, accesso eseguito il giorno dicembre 6, 2025, https://www.casa.it/affitto/commerciale/milano/
+      8. 1.508 locali in affitto a Milano - Idealista, accesso eseguito il giorno dicembre 6, 2025, https://www.idealista.it/affitto-negozi/milano-milano/con-locali/
+      9. PARDGROUP SPA, Partita IVA: 03369761204, Fatturato, Dipendenti, PEC, accesso eseguito il giorno dicembre 6, 2025, https://www.ufficiocamerale.it/9405/pardgroup-spa
+      10. PARDGROUP SPA - 03369761204 - Dati aziendali, bilanci, fatturato, costi, utili, accesso eseguito il giorno dicembre 6, 2025, https://aziende.money.it/aziende/pardgroup-spa-03369761204
+      11. PARDGROUP SPA BO, 03369761204– Dati Azienda, accesso eseguito il giorno dicembre 6, 2025, https://reportazienda.it/aziende/BO/pardgroup-spa-513799
+      12. PARDGROUP SPA (MI), gratis i fatturati, bilanci, indici... - ReportAziende.it, accesso eseguito il giorno dicembre 6, 2025, https://www.reportaziende.it/pardgroup_spa_mi_03369761204
+      13. Field Marketing – PardForce & Pardees | Pardgroup, accesso eseguito il giorno dicembre 6, 2025, https://www.pardgroup.com/en/business/field-marketing
+      14. Pardgroup - Overview, Competitors, News, and Employees | Clodura.AI, accesso eseguito il giorno dicembre 6, 2025, https://www.clodura.ai/directory/company/pardgroup
+      15. PROMOMEDIA S.R.L. (BA), gratis i fatturati, bilanci, indici... - ReportAziende.it, accesso eseguito il giorno dicembre 6, 2025, https://www.reportaziende.it/promomedia_srl_ba_05564830726
+      16. PROMOMEDIA S.R.L., Partita IVA: 05564830726, Fatturato, Dipendenti, PEC, accesso eseguito il giorno dicembre 6, 2025, https://www.ufficiocamerale.it/5070/promomedia-srl
+      17. INCENTIVE PROMOMEDIA S.R.L. (BA), gratis i fatturati, bilanci, indici... - Report Aziende, accesso eseguito il giorno dicembre 6, 2025, https://www.reportaziende.it/incentive_promomedia_srl_ba_04584900726
+      18. INCENTIVE PROMOMEDIA S.R.L., Partita IVA: 04584900726, Fatturato, Dipendenti, PEC, accesso eseguito il giorno dicembre 6, 2025, https://www.ufficiocamerale.it/3279/incentive-promomedia-srl
+      19. INCENTIVE PROMOMEDIA S.R.L. - 04584900726 - Dati aziendali, bilanci, fatturato, costi, utili - Aziende Money.it, accesso eseguito il giorno dicembre 6, 2025, https://aziende.money.it/aziende/incentive-promomedia-srl-04584900726
+      20. Promomedia Adv raccoglie 4 milioni nei primi mesi di attività e conferma gli obiettivi per il 2022 | Engage, accesso eseguito il giorno dicembre 6, 2025, https://www.engage.it/media-industry/promomedia-adv-raccoglie-4-milioni-nei-primi-mesi-di-attivita-e-conferma-gli-obiettivi-per-il-2022.aspx
+      21. TRADE S.R.L., Partita IVA: 10717010010, Fatturato, Dipendenti, PEC - Ufficio Camerale, accesso eseguito il giorno dicembre 6, 2025, https://www.ufficiocamerale.it/2483/trade-spa
+      22. Field Marketing Agency, leader in Italy - Trade SRL, accesso eseguito il giorno dicembre 6, 2025, https://trade-srl.eu/en/about-us/
+      23. THE FREEWAY S.R.L., Partita IVA: 06295531005, Fatturato, Dipendenti, PEC, accesso eseguito il giorno dicembre 6, 2025, https://www.ufficiocamerale.it/5943/the-freeway-srl
+      24. FREEWAY S.R.L., Partita IVA: 02799730847, Fatturato, Dipendenti, PEC - Ufficio Camerale, accesso eseguito il giorno dicembre 6, 2025, https://www.ufficiocamerale.it/4407/freeway-srl
+      25. Field Marketing & Shopper Experience - Free-Way, accesso eseguito il giorno dicembre 6, 2025, https://www.freeway.it/en
+      26. BEREADY S.R.L., Partita IVA: 05193110961, Fatturato, Dipendenti, PEC - Ufficio Camerale, accesso eseguito il giorno dicembre 6, 2025, https://www.ufficiocamerale.it/1302/beready-srl
+      27. Temporary Store — Sidecar Eventi Official, accesso eseguito il giorno dicembre 6, 2025, https://www.sidecareventi.it/temporary-store/
+      28. Bacone 4 - Spazio Temporary - Assotemporary, accesso eseguito il giorno dicembre 6, 2025, https://www.assotemporary.it/assotemporary/cerca-sedi-e-location/associati/Bacone-4-Spazio-Temporary/
+      29. Temporary Space - Il motore di ricerca per location, accesso eseguito il giorno dicembre 6, 2025, https://www.temporaryspace.it/
+      30. What is the revenue sharing model for Shopify? - Quora, accesso eseguito il giorno dicembre 6, 2025, https://www.quora.com/What-is-the-revenue-sharing-model-for-Shopify

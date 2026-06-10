@@ -1,0 +1,455 @@
+HeyAI | Progetto Ricerca Gare
+lun 17 nov 2025
+
+1:18 - Carlo Sanvoisin
+Ciao a tutti Ciao Lorenzo!
+
+4:13 - Oratore non identificato
+Ciao!
+
+4:18 - Carlo Sanvoisin
+Come va, tutto bene?
+
+4:20 - Lorenzo
+Bene, bene, è che non riesco a accorgermi dal computer, per cui lo faccio dal telefonino, chissà perché.
+
+4:29 - Carlo Sanvoisin#+#Lorenzo
+Teams, questo è il magico Teams. Eh sì. Diciamo Microsoft ha inventato I computer quantistici, ma non risolve I problemi su Teams. Sì. Senti, invece gli altri due sai se riescono a collegarsi?
+
+4:47 - Carlo Sanvoisin
+Chi sono I due?
+
+4:48 - Carlo Sanvoisin#+#Lorenzo
+Massimiliano e poi è stato aggiunto un certo Del Bufalo.
+
+4:53 - Lorenzo
+Ora dovrebbero iniziare, sì, perché io faccio praticamente da tramite, quindi siccome Massimiliano è un mio caro amico al quale lavoro e che adesso ha iniziato a lavorare, vi faccio così un preambolo, ha iniziato a lavorare con questa azienda che si chiama Futurita, di questa società dove fanno tante cose, forse pure troppe, e allora mi diceva no, perché adesso dobbiamo fare questa gara, ma dobbiamo implementare, siccome gli raccontavo anche di questi sistemi di intelligenza artificiale che voi riuscite a sviluppare, eccetera, ho detto ah, interessante, potrebbe essere per noi molto utile, quindi gli ho mandato quel link che loro ogni tanto utilizzano. E santo cielo, c'è uno che mi chiama, ma se io non ti rispondo mi stavi raccontando appunto di questa società dove lavora e che adesso vogliono implementare forse una cosa così per cui volevano che tu sappia è per un utilizzo loro interno oppure per perché la vogliono commercializzare. No, no, no, non lo utilizzo loro interno, perché così offrono questo servizio alle aziende che I loro clienti gli dicono ci sta questo bando, questa gara europea eccetera, siccome hanno molti contatti con grosse aziende potrebbero targettizzarle e dire ci stanno questi contratti dell'Unione Europea piuttosto che in questo senso. Voi come state andando invece?
+
+6:36 - Carlo Sanvoisin#+#Lorenzo
+No, noi stiamo andando molto bene, fin troppo.
+
+6:40 - Carlo Sanvoisin
+Abbiamo troppi clienti, troppo lavoro.
+
+6:43 - Carlo Sanvoisin#+#Lorenzo
+Non siamo usciti neanche a fare il punto interno noi per sistemare anche le cose, no?
+
+6:51 - Lorenzo
+Tra, diciamo, tra tutti voi e quindi...
+
+6:55 - Carlo Sanvoisin#+#Lorenzo
+ma RN chi è? Eh no, RN è il mio no-taker.
+
+7:00 - Carlo Sanvoisin
+È una piccola intelligenza artificiale che si prende delle note e poi mi manda il recap a fine call.
+
+7:09 - Lorenzo
+Ma dai, mi insegni?
+
+7:11 - Carlo Sanvoisin#+#Lorenzo
+E' semplice, a fine call ti arriverà un'e-mail, se tu ti registri… No, ma come faccio a fare quando faccio la call mia?
+
+7:20 - Carlo Sanvoisin
+Sarà già integrato, se tu a fine call ti arriva un'e-mail che ti dirà qui c'è il recap della call alla quale hai partecipato, ci clicchi sopra, ti chiederà di registrarti, ti registri, lo connetti con il tuo calendario, se usi Outlook metti Outlook, se usi Google Calendar metti Google Calendar, e poi una volta che tu ti sei fatto il tuo profilo, lui automaticamente entra nelle tue call. Ma lui chi?
+
+7:51 - Carlo Sanvoisin#+#Lorenzo
+Ma tu mi parli così, ma io se ti parlo di un contro ricorso incidentale in cassa di cinema, ho iniziato che mi dici? Questo utente virtuale entra nelle call e poi alla fine della call ti manda l'email dicendoti questo è il riassunto, questa è la registrazione e ci sta un po' tutto. E come lo trovo?
+
+8:14 - Lorenzo
+Cioè come faccio ad attivarlo?
+
+8:16 - Carlo Sanvoisin#+#Lorenzo
+Ti ho detto, quando è finita questa call, dopo circa una mezz'ora arriverà un'email che è utilizzato per entrare dentro la call. Ma perché tu l'hai attivato?
+
+8:26 - Carlo Sanvoisin
+Perché io l'ho attivato.
+
+8:28 - Carlo Sanvoisin#+#Lorenzo
+Ma arriva a tutti I partecipanti. No, per le mie call. Quando ti registri. Dove mi registro? All'email.
+
+8:37 - Carlo Sanvoisin
+Quando ti arriverà quest'email, ti dirà se vuoi vedere il riassunto della call ti devi registrare. Sì.
+
+8:46 - Carlo Sanvoisin#+#Lorenzo
+Fai la procedura di registrazione.
+
+8:48 - Carlo Sanvoisin
+Una volta che ti sei registrato, in automatico lui parteciperà alle call, chiaramente se lo ammetti. Un altro utente. E poi dopo il primo mese ti dirà che se vuoi continuare a vedere I riassunti eccetera eccetera devi pagare mi pare sono 16 euro al mese o qualcosa del genere. Ma è molto semplice vedrai quando poi ti arriva l'email basta eseguire I passaggi.
+
+9:20 - Lorenzo
+Sì però devo essere io a organizzare la call?
+
+9:25 - Carlo Sanvoisin
+organizzare la colla, sì.
+
+9:27 - Lorenzo
+Non è male per me. Ho fatto due progettoni su chat, saresti fiero che mi guardi tratti. La cosa di cui sono fiero è che ho chiesto a lui, devo fare un Progetto su questo, questo, questo e questo, e lui ha cominciato da fare ma poi dico se io poi ti metto come ti metto le leggi vuoi che ti metto il codice civile metti questo metti questo lo stiamo facendo insieme.
+
+10:02 - Carlo Sanvoisin#+#Lorenzo
+Il metodo è quello è anche proprio farsi aiutare nella costruzione anche io spesso.
+
+10:06 - Lorenzo
+Adesso non so come lo chiami lo chiamo Progetto per esempio l'ho fatto perché ho visto che l'avevo fatto e mi funzionava con le due diligence per esempio per lì mi serve il contratto se c'è il change of control se cambia proprietario capi tutte cose così e devo dire che è fighissimo.
+
+10:23 - Carlo Sanvoisin#+#Lorenzo
+Lo so, è molto molto utile e anche facile da creare un Progetto su GPT. L'unico dubbio, fino a che non si collegano mi viene in mente, ma loro poi sono in grado di sostenere un costo di sviluppo di uno strumento del genere, unicamente l'utilizzo interno, Io non so adesso questa società che dimensioni ha.
+
+10:53 - Lorenzo
+No, è piccola però, credo si svilupperà, piccola per il nostro, credo, fattore in paio di milioni.
+
+11:00 - Carlo Sanvoisin#+#Lorenzo
+Perché se fosse stato a scopo di commercializzarlo, allora io magari te lo prendo per dire sparo cifre 30 mila euro, però tu sai poi che lo commercializzi, quindi lo fai diventare una piattaforma alla quale tutti si possono connettere pagando un un mensile e si trovano queste care e allora a quel punto poi ci rientrano dell'investimento ma se lo devono fare per un'ottimizzazione interna se poi loro vendono e se riescono a venderlo a tante aziende il risultato non l'utilizzo, l'utilizzo è loro. No, no, è chiaro, è chiaro, è un'ottimizzazione. Poniamo uno loop, no?
+
+11:45 - Carlo Sanvoisin
+perché ehm è un'ottimizzazione interna nel senso tu quello che mi stai dicendo lo puoi fare ma lo fai in maniera più manuale con lo strumento che ti faccio io magari invece che metterci un pomeriggio ci metti un'ora.
+
+12:19 - Oratore non identificato
+Sì.
+
+12:19 - Carlo Sanvoisin
+Ma quel risparmio di tempo ti ti giustifica uno sviluppo? Per me probabilmente sì.
+
+12:24 - Carlo Sanvoisin#+#Lorenzo
+Secondo me sì.
+
+12:25 - Lorenzo
+Questo lo stabiliscono loro.
+
+12:27 - Carlo Sanvoisin#+#Lorenzo
+E questo lo stabilisco loro.
+
+12:29 - Lorenzo
+Dobbiamo capire e chiarirgli quanto è un vostro costo per una cosa del genere. Allora cerchiamo di capire.
+
+12:35 - Carlo Sanvoisin#+#Lorenzo
+Adesso ho sparato una cita eh. L'ho sparata proprio. Scusa non l'ho quanto è?
+
+12:41 - Oratore non identificato
+Sessanta?
+
+12:41 - Carlo Sanvoisin
+No, adesso le ultime soluzioni le abbiamo vendute a qualcuna pure a settanta, ottanta. Grande quello!
+
+12:48 - Lorenzo
+Questo però ritorniamo a bomba sul concetto che bisogna sistemare un po' le cose all'interno tra di voi, perché come al solito queste cose sfuggono all'inizio, dove all'inizio invece si riesce tutti a bocce ferme a capire le cose e ora forse dobbiamo capire bene chi fa cosa perché mi ha detto Bruno un po' di cose, no?
+
+13:14 - Carlo Sanvoisin
+Sì, per quanto mi riguarda io mi affido su queste cose, io mi occupo dell'intelligenza artificiale, basta.
+
+13:23 - Lorenzo
+No, però è importante invece, io sono diciamo proiettato verso I giovani e quindi a indicare ecco un percorso che deve essere virtuoso perché poi all'inizio Basta niente che si… Lo so, infatti adesso stiamo facendo tutto insieme in maniera un po' parallela, lavoriamo sui clienti e ci strutturiamo. Visto che sta funzionando, forse adesso vorrebbe la pena fare questo modo di capruno, visto che è una cosa che funziona, a dicembre scorso poteva essere anche la solita cosa che proviamo e vediamo che succede, invece qui funziona come se forse un'azienda importante e quindi sulla base di questo ora bisognerebbe fare qualche ragionamento di governance, intendo.
+
+14:17 - Carlo Sanvoisin
+Io su questo sono super disponibile, sentiti, anche con Bruno penso che si verrà d'accordo.
+
+14:29 - Carlo Sanvoisin#+#Lorenzo
+Capiamo se si collegano, ma gli mandare un messaggino a Massimiliano? Sì, poi glielo metto, sì.
+
+14:40 - Lorenzo
+E mi ha detto ok, arrivo tra poco, alle 16.00.
+
+14:47 - Oratore non identificato
+Eccolo. Ok.
+
+14:48 - Carlo Sanvoisin#+#Lorenzo
+Ciao Massimiliano, piacere.
+
+14:50 - Lorenzo
+Eccomi.
+
+14:51 - Oratore non identificato
+Ciao, scusate il ritardo.
+
+14:53 - Carlo Sanvoisin#+#Massimiliano Morana
+Ciao, figurati, nessun problema.
+
+14:56 - Carlo Sanvoisin#+#Lorenzo
+Scusate, io sto col telefonino e non riesco a Non riesco a farlo partire dal computer, non so perché.
+
+15:06 - Lorenzo#+#Massimiliano Morana
+Però sono al studio. Guardate, sono al studio.
+
+15:08 - Carlo Sanvoisin#+#Lorenzo#+#Massimiliano Morana
+Non si vede. Non si vede, anche io sono in ufficio.
+
+15:12 - Carlo Sanvoisin#+#Massimiliano Morana
+Allora, Lorenzo mi ha fatto una breve intro.
+
+15:15 - Carlo Sanvoisin
+Intanto io mi presento. Sono Carlo, in questo momento rappresento AI, che è la nostra società che si occupa, diciamo, a due anime. Una più sul marketing e l'altra più sviluppo software e intelligenza artificiale. Io sono una persona che si occupa di gestire I progetti di sviluppo software e intelligenza artificiale e solitamente appunto diciamo che I primi passaggi sono un po' capire quello che è la richiesta del cliente, capirne la fattibilità e poi eventualmente studiare insieme quella che è una proposta di messa a terra. Ho ricevuto la tua richiesta e me la sono già studiata e ti posso serenamente dire che è molto fattibile e che oltretutto diciamo grazie a delle leggi che sono insomma delle leggi abbastanza recenti per le quali le informazioni sui bandi, sulle Gare devono essere pubblicate e ci devono essere le cosiddette API. Le API sono essenzialmente... Ok sei già.
+
+16:17 - Massimiliano Morana
+Vengo dal mondo dei tribunali e quindi tutte le informazioni che devono essere messe nei tribunali quando ci sono delle operazioni cosiddette o fallimenti o esecuzioni immobiliari, quindi operazioni di questo tipo, devono essere pubblicate attraverso tutta una serie di elementi che ci sono, no? E quindi lo stesso vale per le Gare, cioè bisogna rendere l'evidenza pubblica di queste Gare.
+
+16:44 - Carlo Sanvoisin#+#Lorenzo#+#Massimiliano Morana
+Quelle che dobbiamo intercettare sono quelle di evidenza pubblica, no? Esatto.
+
+16:49 - Carlo Sanvoisin
+Infatti io stavo vedendo che di quelle fonti che tu mi hai dato, su 10 e spongono API.
+
+16:56 - Carlo Sanvoisin#+#Massimiliano Morana
+Cosa sono le API?
+
+16:58 - Carlo Sanvoisin
+Essenzialmente è la possibilità di connettere un nostro software che noi creiamo con queste fonti di dati e raccoglierli in maniera automatica. Quindi non bisogna più fare un po' I pirati come facevano tanti aggregatori prima che andavano a...
+
+17:16 - Carlo Sanvoisin#+#Massimiliano Morana
+Come? Con I crawler che facevi...
+
+17:19 - Carlo Sanvoisin
+Esatto, gli scraper e crawler sono software essenzialmente che navigano la pagina come se fossero un utente reale e rubano I dati invece adesso non c'è più necessità di rubarli perché sono messi a disposizione quindi diciamo che siamo in un momento storico ottimo per creare una piattaforma di questo tipo però diciamo prima di proseguire io vorrei capire alcuni punti il primo essenzialmente io vorrei capire questa piattaforma come anticipavo un po' Lorenzo voi la vorreste utilizzare per una vostra ottimizzazione interna di processi e quindi velocizzazione del cliente?
+
+17:56 - Massimiliano Morana
+No, sono per I nostri processi interni, cioè per analizzare il mercato sia per noi ed eventualmente proporlo in partnership ai nostri clienti.
+
+18:09 - Carlo Sanvoisin
+Allora, diciamo che inizialmente, solitamente quando mi vengono proposte soluzioni di questo tipo, la possibilità è che o la l'azienda se la compra per poi eh rivenderla a a subscription quindi metterla sul mercato proprio con la possibilità poi di altre aziende o persone fisiche di eh iscriversi sul no perché noi dovremmo dare poi il servizio no?
+
+18:36 - Carlo Sanvoisin#+#Lorenzo
+Dovremmo dare poi il servizio nello stava dicendo Carlo ci sono due tipi di due possibilità. Esatto.
+
+18:44 - Carlo Sanvoisin
+Che tu fai partecipare tu per una questo software e loro si collegano e trovano da sole oppure se tu che lo fai per I tuoi clienti e quindi rimane solo al tuo interno rimane al nostro interno e vendiamo il servizio ai clienti ok sono due modelli diversi uno ha un ritorno diretto perché io faccio un investimento facevo l'esempio a Lorenzo adesso sparo delle cifre non sono assolutamente cifre reali né ne ragionate mettiamo conto 30 mila €. Poi io so che nel primo anno prenderò 200 clienti che si iscrivono alla piattaforma e pagano 50 € mensili, ci sono rientrato. Nell'altro caso, se io sto accelerando I miei processi interni per arrivare più velocemente sul cliente, è una scommessa che voi fate nell'investimento e dite io ho fatto una valutazione. So che se oggi riesco in un anno a gestire 100 clienti, con questo strumento noi riesco a gestire 300. Quindi comunque per me è un investimento valido. La faccio più sintetica e più breve.
+
+19:48 - Massimiliano Morana
+Non è il problema di gestire clienti, ma di avere le informazioni per poi fare promozione e trovare nuovi clienti. Cioè dal momento in cui io ho I siti, quelli che ti ho mandato o motori di Ricerca, sono limitati al fatto che devo mettere operatori e persone a fare lo scouting di quelle attività. Quindi se c'è una cento Gare che ne vediamo ne tiriamo fuori tre o quattro e se tre o quattro facciamo la strategia con partner per vincere la gara o per partecipare alla gara. Ok? Quindi il tema qual è? Essere diciamo in qualche modo prima degli altri per intercettare opportunità valutarle ed essere come dire la pripista da sollecitare ti faccio un esempio se noi c'è una gara che adesso abbiamo fatto con la regione Sardegna dove sollecitata noi, ok? Quindi se il KPMG avesse avuto uno studio di organizzazione Gare probabilmente non ci avrebbe mai chiamato. Quindi noi ci siamo presentati là dicendo tu hai I requisiti per fare la capofila, noi possiamo farti un pezzetto di quell'attività, lo facciamo insieme? Capito? Ho fatto un milione la gara, noi ci prendiamo centomila. Più o meno è questo il rapporto, capito? Assolutamente.
+
+21:01 - Carlo Sanvoisin
+No, no, no, per me è chiarissimo, per me era importante capire questo come come modello. Già questo punto mi è chiarissimo. A questo punto vi faccio un'altra domanda ovvero io ho visto che esistono online degli aggregatori come banchedati.biz, digitalpia, telemat, fareappalti, bandicaria.it insomma ce ne sono parecchi. Voi questi aggregatori già li utilizzate e li avete trovati? In parte abbiamo gli abbonamenti e li utilizziamo.
+
+21:33 - Massimiliano Morana
+ma non gli facciamo fare la selezione al di là del fatto che poi ci vogliono persone per fare la selezione. Quindi l'idea mia è, anche dal momento in cui questi aggregatori di informazione che sono specifiche per questa tipologia, trovare un sistema che in qualche modo non mi sviluppa un nuovo software di rintraccio, ma un nuovo software di selezione di quelle informazioni.
+
+22:01 - Carlo Sanvoisin
+più chiaro, ora è più chiaro. Allora diciamo che infatti mi chiedevo, dal momento che esistono effettivamente gli aggregatori di banchi, è inutile rifarlo? Cioè diciamo un punto, che questi aggregatori io ho visto che ancora non si sono integrati con l'API, ma ancora stanno facendo scraping, quindi di fatto sicuramente I dati che hanno arrivano più lentamente, invece facendo tutto un software con l'API le avresti in real time quindi appena viene pubblicato qualcosa tu ce l'hai subito sul tuo software e questo diciamo già è un vantaggio però è molto più interessante quello che mi stai dicendo cioè tu vorresti proprio che l'intelligenza artificiale a quel punto interviene su questi dati che sono stati reperiti e fa una valutazione dalla quale poi esce una selezione sulla quale voi andate a fare eventualmente la parte diciamo finale controllo umano.
+
+22:59 - Massimiliano Morana
+Se io tramite appalti e Gare seleziono 100 Gare, devo essere in grado che in base a degli algoritmi di Ricerca che gli do io all'intelligenza artificiale, mi da praticamente quattro Gare che sono alla nostra portata. Di quelle quattro Gare io non mi focalizzo perché io non posso andare a vedere tutte cento. Faccio già la scrematura, istruisco la macchina per fare quella scrematura e affino la Ricerca su quattro Gare. Mi focalizzo su quelle quattro Gare e in tempo rapido io riesco a promuovere quello che è l'opportunità creando partnership e andando sul mercato a cercare soggetti che possono fare la gara insieme a me.
+
+23:51 - Carlo Sanvoisin
+Perché se non mi per darti un'idea di quanto potrebbe volerci in termini di tempo e costi per creare uno strumento del genere, dovrei innanzitutto fare un approfondimento su in che modo vengono esposte queste informazioni, cioè sono delle pagine web, sono dei pdf, sono dei documenti scaricabili, insomma, proprio il formato delle informazioni, perché è molto importante per l'elaborazione artificiale e poi chiaramente la seconda cosa che devo capire e questo lo devo fare soprattutto insieme a te è I parametri cioè quali sono queste condizioni per le quali l'intelligenza artificiale deve capire che una determinata gara è adatta o meno quindi su questo faremo sicuramente un approfondimento però io già da oggi ti chiedo di cominciare magari a ragionare a buttare giù dei punti in cui mi dici questi sono I parametri che devono essere rispettati affinché io possa dire che questa gara sta dentro o sta fuori il perimetro di selezione. Se capiamo già queste regole e facciamo un approfondimento sulle fonti dei dati, allora abbiamo un quadro un po' più chiaro per poter dire ok, siamo in questo range di effort, però assolutamente vanno fatte queste quindi sulla parte diciamo di proprio training, lo potremmo chiamare addestramento del modello, quelle regole me le dovrei chiaramente dare tu, nel senso che tu sai quali sono le regole da rispettare, mi fai una lista, la dividi per casistiche, vedi un attimo quale potrebbe essere una soluzione.
+
+25:36 - Massimiliano Morana
+Prendi per esempio il sito, allora guarda ti faccio vedere questo, ti condivido, vediamo se me lo fa condividere qua.
+
+25:51 - Massimiliano Morana
+Allora, se tu vedi, ad esempio, questo è il sito chiamato Fasi, ok? Amministrazione trasparente. Tu entri, vedi Progetto dove ci sono praticamente I contatti. Se tu vai sulle attività ci dovrebbero essere avviso pubblico, procedura di integrazione, Gare e bandi. Non so se qui serve...
+
+26:16 - Carlo Sanvoisin#+#Massimiliano Morana
+Ciao Leonardo, piacere.
+
+26:19 - Massimiliano Morana
+Se tu vedi per esempio gli articoli pubblicati, se tu prendi l'articolo Regione Marche 33, lui ti rimanda praticamente nel sito www e probabilmente l'indicazione di capire dov'è la gara. Forse Leo è più bravo di me, siamo arrivati al punto di capire. Cosa ci potrebbe servire a noi? Non ci serve creare un software per andare a pescare attraverso API tutta una serie di dati sul mercato che riguardano avvisi, bandi, manifestazioni di interesse e Gare. In questa fase, proprio perché andrebbe strutturato quello che io definisco e voglio definire un osservatorio strategico, Gare pubbliche o Gare private che poi vedremo nello specifico come strutturarle, noi dobbiamo dare delle indicazioni per capire quale informazioni il sistema, l'intelligenza artificiale deve andare a prendere. Ok Leo, allora il tema qual è? Giustamente Carlo diceva, ma in che formati arrivano queste Gare?
+
+27:36 - Leonardo Del Bufalo#+#Massimiliano Morana
+Io penso che le Gare arrivano in pdf per la maggior parte, con html, qual è il che noi andiamo a vedere queste Gare?
+
+27:47 - Leonardo Del Bufalo
+Allora, qua ci vorrebbe sicuramente Lidia ne sa di più, però io ho visto varie cose. Allora, ci sono sicuramente link, perché poi dipende chi è l'ente che gestisce la gara, quindi delle volte se la stazione appaltante è per esempio in Vitaglia o queste cose, così, sicuramente è fatto tutto tramite un loro sito. Il sito di Invitaglia, il sito del GSE, il sito di Mase o chi per loro. Quei programmi grossi europei, anche direi, però però può non essere sempre così. C'è sicuramente una parte di PDF, quindi secondo me è un po' mista l'origine, anche di formati e di tipologie. Non c'è grande uniformità, però di nuovo io mi riservo anche di fare un doppio verifica con Lidia, che è quella che proprio li naviga di più, perché io faccio più la parte su quali sono le opportunità eccetera. Poi dopo appunto da quello che vedo io ci sono molti informati.
+
+29:19 - Carlo Sanvoisin
+Non è necessariamente un problema, però a questo punto il mio dubbio è vogliamo raccogliere I dati come li raccogliete voi oggi, quindi mi specificate esattamente quali sono le piattaforme dalle quali prendete I dati e che tipo di dati sono contenuti all'interno di quella piattaforma magari spiegandomi la procedura con cui appunto andate a fare Ricerca per ognuno di queste fonti oppure e poi passiamo alla parte di elaborazione oppure effettivamente creiamo l'aggregatore nostro che sfrutta l'API che è sicuramente molto più efficace e poi sull'aggregatore facciamo l'elaborazione. Vi spiego la differenza. Se io devo simulare la vostra Ricerca e fare in modo che vi raccolta le informazioni, una volta che le ha raccolte, le elabora e poi vi resti voi l'output già rifinito, selezionato, più circoscritto, c'è il problema che è più complicato da una parte, ma più che altro il problema è che di fatto stiamo facendo una cosa che è semilegale, nel senso che queste piattaforme non vogliono che un robot navighi sulla piattaforma, prenda I dati e poi appunto li vada E' chiaro quello che dici, direi già assolutamente non semi-illegale, direi.
+
+31:06 - Leonardo Del Bufalo
+Mi sento di dire un momento l'altro.
+
+31:09 - Carlo Sanvoisin
+No, anche perché per esempio, come diceva Massimiliano prima, alcune di queste piattaforme, voi le utilizzate su un pagamento mensile?
+
+31:18 - Carlo Sanvoisin#+#Leonardo Del Bufalo
+Sì, esatto.
+
+31:19 - Leonardo Del Bufalo
+Per esempio, quella più nota, non so se è la migliore, però la più nota è Fasi, dove c'è una buona mensile, quindi se tu non hai l'abbonamento vedi solo l'inizio degli articoli tipicamente, quindi capisci che si parla, però non hai...
+
+31:36 - Carlo Sanvoisin#+#Leonardo Del Bufalo
+Se tu devi fare...
+
+31:38 - Carlo Sanvoisin
+se c'è un abbonamento significa che c'è un login, quindi tu già devi inserire uno username e una password.
+
+31:45 - Carlo Sanvoisin#+#Leonardo Del Bufalo
+Già se io vado a simulare quest'azione e lo faccio fare al robot, già siamo nel grigio, già siamo nel grigio perché...
+
+31:53 - Carlo Sanvoisin
+non so se siete presente quando vi chiedono l'entrata in un un sito e ti chiede di verificare. Non essere una macchina. E' per quello, esattamente per questo motivo che viene fatto. Quindi, se volessimo fare questa soluzione in maniera perfetta, sia dal punto di vista della qualità dei dati che dal punto di vista della legalità, allora non possiamo andare su piattaforme che già aggregano dati, ma dobbiamo andare alla fonte La fonte diretta in questo caso è TED Europa, ANAC, MEPA, Gazzetta Ufficiale, UNGM, World Bank.
+
+32:41 - Leonardo Del Bufalo
+Io lo farei proprio così anche come qualità della Ricerca. Approccio alla Ricerca. Dicevo che, al di là del problema della zona grigia legale, io la farei nel secondo modo, perché è proprio meglio come approccio alla Ricerca, al di là della componente di rischio. Però lo farei proprio così, proprio come approccio che secondo me è meglio.
+
+33:30 - Carlo Sanvoisin
+Allora, su questo una considerazione importante. Non è che queste banche dati ti offrono immediatamente la cosiddetta API, questa chiave per aggiungere I dati. Devi seguire un processo di accreditamento Quindi ci sta una parte proprio burocratica, in un certo senso, che prevede una procedura per cui bisogna registrare o voi o noi come società che crea il software all'interno di un registro di questi software che sono abilitati a raccogliere I dati da queste fonti ufficiali in particolare questo per l'Anac e quindi adesso io dovrei fare uno studio su questo e capire un attimo quali sono I requisiti per poter rientrare in questo registro e quali sono poi le tempistiche. Quindi diciamo che dal punto di vista tecnico è molto meglio perché io vado direttamente alla fonte dei dati. Come dicevo prima anche a Massimiliano in real time, perché non appena vengono pubblicati su una di queste piattaforme, diciamo, noi possiamo raccogliere il dato in maniera automatica. Il dato è pulito, I formati sicuramente sono uniformati e poi, diciamo, una volta che c'è stata tutta la raccolta, possiamo passare alla parte di elaborazione, che adesso vedremo insieme. Però a livello proprio di architettura tecnologica, di struttura, è molto più pulita come soluzione. Il problema è quello burocratico, è di questo passaggio burocratico, quindi io non so anche se eventualmente, magari voi che siete più del campo, già avete fatto una pensata su questo, già conoscete un pochino qual è l'ambito, eventualmente se ci potete dare supporto su questa parte più legale amministrativa, Se no me lo prendo come punto e ci ragioniamo.
+
+35:38 - Leonardo Del Bufalo
+No, io personalmente no, nel senso che appunto non l'ho considerato, quindi è sicuramente una cosa da verificare direi.
+
+35:50 - Carlo Sanvoisin
+Ok, allora facciamo così, su questo io magari approfondisco quali sono I canali fare questa richiesta, quali sono I requisiti e poi eventualmente trattandosi più di una cosa amministrativa o legale sicuramente se ci lavoriamo insieme su questo in sinergia andiamo più veloci. Quindi prendiamoci questo punto da capire. Poi se voi siete d'accordo allora io continuo a sviluppare questa soluzione, questa idea escludendo le piattaforme di aggregatori e tenendo in considerazione le fonti ufficiali, come quelle che vi ho citato prima.
+
+36:32 - Carlo Sanvoisin#+#Massimiliano Morana
+Anatme, Pag.it ufficiale, World Bank.
+
+36:34 - Carlo Sanvoisin
+Siete d'accordo su questo? Vi torna? Pensate che poi queste fonti vi permettono di avere il 100% delle informazioni?
+
+36:42 - Carlo Sanvoisin#+#Leonardo Del Bufalo
+Non sono del campo, però immagino che… Come dire, le fonti, c'è flessibilità, nel senso che poi si possono aggiungere altre fonti, se a un certo punto ci rendiamo conto che Ci risentirebbe qualcos'altro in più? Mi dovete essenzialmente fare una parte incrementale.
+
+37:05 - Carlo Sanvoisin
+Mi aveva passato Lorenzo un elenco di fonti. Diciamo che di quelle la maggior parte espone le API e quindi siamo tranquilli.
+
+37:22 - Oratore non identificato
+Alcune no.
+
+37:24 - Carlo Sanvoisin
+io non sono del settore, ripeto facendo una Ricerca di alto livello da quello che ho capito quelle che non espongono l'API sono fra virgolette non così sono degli aggregatori quindi non sono così necessarie perché di fatti stanno già rimanipolando un dato che però c'è alla fonte quindi se io prendo adesso parlo proprio ad alto livello se io prendo probabilmente non mi serve andare su su un aggregatore perché l'aggregatore pure prende dati dall'anac quindi di fatti se io vado alla fonte ufficiale non penso che dovrebbe avere problemi di completezza poi magari voi che siete del mestiere mi contraddite su questo però logicamente...
+
+38:14 - Massimiliano Morana
+allora io non sono proprio del mestiere nel senso che comunque un po' che stiamo costruendo. Io quello che cosa che ti dico sicuramente gli aggregatori che sono stati fatti con una concezione differente rispetto all'intelligenza artificiale hanno creato dei motori di Ricerca probabilmente sul sistema che dicevamo prima, quindi tramite le API facevano un crawler di richiesta di informazioni, qualcosa se lo perdevano, qualcosa se lo prendevano perché magari tutti I siti non riuscivano ad agganciarli e quindi nemmeno avevano il 100% delle informazioni, tanto è vero che dove andiamo noi non è detto che ci stanno il cento per cento delle Gare no? Ok? Mhm. Allora eh quindi questo sicuramente dobbiamo un attimo capirlo. Loro allora quello che potremmo fare eh se lei è d'accordo noi dovremmo avere l'abbonamento di questo Fasi e capire le come estrapolare le informazioni dal Fasi ma mi sembra anche che ce l'abbiamo anche di un altro aggregatore che era quello come si chiamava l'altro che c'avevamo?
+
+39:18 - Leonardo Del Bufalo
+Gari appalti?
+
+39:21 - Carlo Sanvoisin
+Io vi dico subito che questi aggregatori qual è il loro vantaggio di mercato? Che hanno I dati. Cosa vendono loro? I dati. Quindi non c'è un modo legale di prendere I dati in maniera automatica.
+
+39:37 - Carlo Sanvoisin#+#Massimiliano Morana
+No, no, sto dicendo un'altra cosa.
+
+39:40 - Massimiliano Morana
+Allora, un conto è l'archiviazione dei dati e lo storico dei dati. Un conto è prendere le informazioni sulla pubblicazione ufficiale della gazzetta, del sito ministeriale, di quelli internazionali.
+
+39:52 - Carlo Sanvoisin#+#Massimiliano Morana
+Allora tu devi prenderli nel momento in cui esce, in cui il bando è attivo.
+
+39:58 - Massimiliano Morana
+Perché se non li prendi in quel momento, a volte li perdi. Allora che succede?
+
+40:05 - Carlo Sanvoisin
+A noi non serve il motore di Ricerca.
+
+40:08 - Massimiliano Morana
+Abbiamo detto che andiamo tramite API a prenderci queste informazioni.
+
+40:12 - Carlo Sanvoisin#+#Massimiliano Morana
+Esatto.
+
+40:13 - Massimiliano Morana
+Li archiviamo e dal momento in cui le archiviamo possiamo fare da data base tutta la serie di estrapolazioni. Assolutamente sì, assolutamente sì.
+
+40:22 - Carlo Sanvoisin#+#Massimiliano Morana
+Questa è l'architettura che che auspico.
+
+40:24 - Massimiliano Morana
+Ok, allora quello che dobbiamo vedere con Leo è capire quali sono I siti dove danno API e quali sono quelli di nostro interesse per andarci a prendere tutte quelle che sono le informazioni.
+
+40:38 - Carlo Sanvoisin#+#Massimiliano Morana
+E questa è la prima cosa.
+
+40:40 - Carlo Sanvoisin
+Esattamente. Questa è la prima cosa. Quindi lista completa dei siti dai quali vorreste prendere le informazioni. Poi mi potete anche passare la lista e lo verifico io se espongono l'API o meno, che magari per voi potrebbe essere un pochino più complicato, è una cosa un po' più tecnica. Quindi se voi già mi date, però vi faccio questo ragionamento, è stato importante oggi per dirci, non mi date I siti degli aggregatori perché è inutile, l'aggregatore non ci esprimerà mai le API.
+
+41:10 - Leonardo Del Bufalo
+C'è una lista di base, quella che ha fatto l'ho mandato io. Vabbè vabbè poi dopo mandamela.
+
+41:17 - Leonardo Del Bufalo#+#Massimiliano Morana
+Sì sì. Sì sì. Vediamo se intanto mi ritrovo con quelli che ci sono.
+
+41:23 - Leonardo Del Bufalo
+Poi ovviamente chiederei anche gentilmente a Lidia di darci uno sguardo visto che anche lei è più sulla Ricerca. Sì.
+
+41:32 - Oratore non identificato
+Eh.
+
+41:32 - Leonardo Del Bufalo#+#Massimiliano Morana
+Ma l'ho fatta la l'ho fatta con Lidia questa eh. Comunque aspetta. Ah ok.
+
+41:38 - Leonardo Del Bufalo
+Ah vabbè allora.
+
+41:39 - Massimiliano Morana
+Allora allora.
+
+41:40 - Leonardo Del Bufalo#+#Massimiliano Morana
+La vedo la vedo Insomma così vi dico se secondo me c'è tutto, se manca qualcosa.
+
+41:52 - Carlo Sanvoisin#+#Leonardo Del Bufalo#+#Massimiliano Morana
+Perfetto.
+
+41:53 - Carlo Sanvoisin#+#Massimiliano Morana
+E questo è il primo passaggio.
+
+42:00 - Massimiliano Morana
+Allora, fammi vedere dove stanno...
+
+42:09 - Oratore non identificato
+Ecco qua.
+
+42:13 - Massimiliano Morana
+Allora, inoltre...
+
+42:24 - Massimiliano Morana
+Questo l'avevo fatto con l'intelligenza artificiale, la guida al portale Fasi.eu, dove c'erano le finanze agevolazioni, strategie e investimenti e poi c'erano I siti se apri I cosiddetti motori di Ricerca dove c'erano per Gare pubbliche italiane, per Gare europee, per Gare internazionali e quelli che erano I primi magari non so tutti però erano una parte di questi erano chiamati proprio motori di ricerche però bisogna capire che ne so la gazetta ufficiale e questo è sicuramente che hai incontrati I pubblici gari appalti questo c'è la sessione dei ppi per andarla a prendere no?
+
+43:18 - Carlo Sanvoisin
+Io ti dico che su ANAC, Gazzetta Ufficiale, TED, MEN, GM e World Bank abbiamo tutto.
+
+43:27 - Carlo Sanvoisin#+#Massimiliano Morana
+No, MEPA no. MEPA non risponde alle API. No. Però da una Ricerca che ho fatto mi diceva che in realtà appunto I dati che uno trova su MEPA sono già... Cioè li puoi trovare già tra...
+
+43:47 - Carlo Sanvoisin
+già li puoi trovare tramite le fonti, le altre fonti.
+
+43:52 - Carlo Sanvoisin#+#Massimiliano Morana
+Quindi io direi, primo passaggio, rifiniamo questa lista.
+
+43:56 - Carlo Sanvoisin
+Voi dal punto di vista proprio più funzionale e poi io ci rifaccio un passaggio tecnico per vedere quali effettivamente spongono le API e andare a confermare.
+
+44:09 - Leonardo Del Bufalo
+Secondo opzione dovremmo fare un test, qualcosa, una prova?
+
+44:13 - Carlo Sanvoisin
+Beh sì, chiaramente ci sarebbe quanta la fase di testing. Diciamo che la prima cosa è definire proprio l'architettura. Quindi da una parte abbiamo le fonti, dall'altra parte invece la parte importante di elaborazione dei dati. Quindi a quel punto sarebbe utile per me avere delle linee guida su come fate questa selezione oggi. Io non so se appunto a seconda per esempio se si tratta di una gara pubblica italiana o europea internazionale cambia il criterio di selezione, se cambia da piattaforma a piattaforma, se ci sono degli altri parametri che insomma vi guidano in questo processo di selezione. Diciamo che più siete chiari nel raccontarmi come avviene questo processo di selezione, che è la cosa che poi dobbiamo addestrare l'intelligenza artificiale a fare, più siete chiari e più io riesco a capire, diciamo, la complessità e la fattibilità. Di conseguenza. Se riuscite a restituirmi questa lista un po' rivista, più tutti I criteri per la selezione ordinati, a quel punto potrei anche eventualmente fare un test, ma sicuramente ne devo parlare prima con I tecnici. Di fatti non vedo quello il grande scoglio, l'unico vero scoglio sarà, secondo me, la parte burocratica di accreditamento per per ANAC, perché poi le altre invece non hanno questo processo. Le europee internazionali non hanno questo processo di accreditamento, sono API aperte, quindi si possono utilizzare... Penso basti fare una richiesta e nel giro di pochi giorni o settimane ti accreditano, ti mettono dentro, le puoi usare. Quindi I passaggi essenzialmente sono questi. Fonti, regole per elaborare le fonti e parallelo portiamo avanti il discorso amministrativo legale. Se riusciamo a mettere in piedi questi tre passaggi siamo in grado di farvi una valutazione di quanto tempo ci vorrà e di quanto eventualmente costerebbe questa soluzione. Ottimo, ottimo.
+
+46:20 - Carlo Sanvoisin#+#Massimiliano Morana
+Direi che I punti erano questi.
+
+46:22 - Carlo Sanvoisin
+Mi faccio un check sulle note per vedere se vi ho fatto tutte le domande che volevo farvi, ma mi pare proprio di sì. Una cosa era se volete partire su subito all-in, cioè subito con fonti nazionali, internazionali, europee, mondiali, insomma già dalla prima soluzione avere tutto quanto. Però immagino di sì a questo punto.
+
+46:45 - Leonardo Del Bufalo
+Diciamo ci sono delle implicazioni particolari, cioè nel senso da un punto di vista magari tecnico è meglio iniziare con meno e poi aggiungere, se non c'è un tema tecnico direi tutto è subito.
+
+47:01 - Carlo Sanvoisin
+nel senso che a livello tecnico è sempre meglio fare le cose per release, per rilascio quindi io ti faccio il primo rilascio che è la prima soluzione di base poi ti aggiungo mano in mano io mi sarei aspettato che faccia un percorso più... Una progressione allora facciamo così se non c'è proprio un'iper necessità di cominciare da subito con tutte quante le fonti io magari stabilisco una roadmap insieme a nostro reparto di sviluppo per cercare di non aumentare troppo la complessità iniziale ma anche per voi magari di andare a step anche proprio a livello di quotation però insomma è tutto quanto da valutare ad oggi dobbiamo capire essenzialmente la complessità tecnica poi magari non è neanche così complesso come uno si aspetta e possiamo partire con tutte quante le fonti integrate fin dal primo rilascio quindi per me era più capire le vostre intenzioni quindi direi che ci possiamo lasciare con questi tre punti poi manderò anche un'email di recap e insomma ci lavoriamo poi soprattutto sulla parte legale appena c'ho diciamo un avanzamento magari vi chiedo anche un pochino di supporto Ditemi voi, secondo voi, che tempistiche potreste avere per fare questa selezione delle fonti e per mettermi un po' per iscritto le regole di classificazione e di selezione?
+
+48:54 - Carlo Sanvoisin#+#Leonardo Del Bufalo
+non lo so. Ci vogliamo andare a metà settimana prossima?
+
+48:58 - Leonardo Del Bufalo
+Sì, cazzo di sì. Non lo so.
+
+49:01 - Carlo Sanvoisin#+#Leonardo Del Bufalo
+Vediamo pure. Va bene.
+
+49:02 - Oratore non identificato
+Va bene. Va bene.
+
+49:04 - Leonardo Del Bufalo
+Facciamoci un ragionamento interno e vediamo.
+
+49:06 - Massimiliano Morana
+Intanto tu ragiona su questo e noi ci facciamo un attimo il punto su quelle che possono essere le informazioni, le indicazioni e quello che potremo tirare fuori. E appena ti diamo poi qualche informazione, fai qualche ragionamento perché poi dobbiamo condividere con l'amministratore quelli che sono un po' il budget, I tempi e anche il Progetto nello specifico, capito?
+
+49:30 - Carlo Sanvoisin#+#Massimiliano Morana
+Assolutamente.
+
+49:30 - Carlo Sanvoisin
+Ti ho detto, se voi riuscite a restituirmi la lista e I criteri, già sulla base di quello riesco a fare una prima votazione. Invece per le tempistiche non mi preoccupa tanto il punto di vista tecnico quanto quel processo amministrativo, quindi io farò l'approfondimento su quello per poi darvi un quadro completo.
+
+49:51 - Carlo Sanvoisin#+#Massimiliano Morana
+molto bene.
+
+49:54 - Carlo Sanvoisin#+#Leonardo Del Bufalo#+#Massimiliano Morana
+Grazie mille. Ciao.

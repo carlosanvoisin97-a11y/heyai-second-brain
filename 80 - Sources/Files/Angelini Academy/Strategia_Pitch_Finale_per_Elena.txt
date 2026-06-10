@@ -1,0 +1,162 @@
+﻿HeyAI · Angelini Academy
+ANGELINI ACADEMY — PITCH FINALE
+Strategia di posizionamento e architettura della proposta
+Documento di lavoro HeyAI per FuturItaly  ·  10 maggio 2026
+Premessa
+Questo documento sintetizza la lettura HeyAI del progetto di gara Angelini Academy in vista del pitch finale di fine maggio. Non è la proposta che andrà al cliente: è la spina dorsale strategica condivisa con FuturItaly che, una volta allineata, alimenterà il pitch deck, il prototipo del sito e la proposta economica.
+La struttura del documento riflette il ragionamento con cui costruiremo l'offerta. Prima la lettura del problema reale di Angelini Academy — quello che il brief dichiara e quello che il brief lascia implicito. Poi i quattro pilastri della nostra proposta, ciascuno costruito come conseguenza diretta della lettura del cliente, non come voce di catalogo. A seguire la dichiarazione esplicita di cosa abbiamo deciso di non proporre, perché un fornitore che dimostra di sapere cosa togliere è più credibile di uno che propone tutto. Infine la traduzione della strategia in architettura concreta del sito, il modello economico e le decisioni operative da chiudere insieme nell'allineamento di lunedì 11 maggio.
+Il documento è asciutto per design. La densità è il messaggio: Caterina Caboni ha chiesto di vedere il nostro ragionamento, non di sentirsi convincere. Qui c'è il ragionamento.
+La tesi di vincita
+In una frase: HeyAI non propone di “fare il sito” di Angelini Academy. Propone di costruire un laboratorio editoriale permanente che converte la ricerca scientifica di Angelini Academy in posizionamento digitale, in due fasi modulari, sui target reali del piano di comunicazione 2026.
+In sessanta secondi davanti a Caterina suona così. Angelini Academy ha una strategia 2026 chiara — quattro pilastri, sei cluster target, tre fili rossi, un calendario di lancio che culmina al Festival di Trento — e il sito è la spina dorsale digitale di tutto questo. Il vostro problema non è “fare un sito nuovo”: è avere qualcuno che continua a tradurre la ricerca in posizionamento mentre il piano 2026 si dispiega. Un sito istituzionale serve una volta, un'infrastruttura editoriale serve tutto l'anno. Vi proponiamo questo laboratorio, su due fasi modulari: un restyling coerente entro giugno, in continuità con quello che state già lanciando, e una ristrutturazione completa post-Trento costruita sulla doppia anima istituzionale e commerciale che oggi non emerge dal sito. Una sola feature AI, ben dimensionata sui vostri volumi reali, e un modulo di intelligenza editoriale che varia i contenuti per i target che ci avete raccontato. Modulare: decidete voi quali fasi affidarci e quali tenere ai vostri fornitori in essere.
+Come leggiamo il problema di Angelini Academy
+Caterina è stata esplicita nella call dell'8 maggio: “fate voi una proposta, ma siete voi a doverci dire perché”. Vuole vedere il ragionamento, non sentirsi vendere. Il pitch finale deve quindi aprirsi con la loro strategia, non con la nostra tesi. Solo dopo aver dimostrato di aver capito il loro problema, la nostra proposta diventa credibile.
+I tre fatti del cliente
+Primo. Angelini Academy è un'evoluzione, non una startup. Sta passando da business unit interna a SRL autonoma. Il rebranding “Academy Evolution” non chiede di rifare tutto: chiede di rendere visibile, all'esterno, una sostanza che già esiste — partnership accademiche internazionali, ricerca pedagogica, MBA con IE Madrid, Hackathon, masterclass. Caterina lo ha detto in una frase: “essere coerente, non rifare tutto adesso”.
+Secondo. Il sito vive dentro un piano di comunicazione integrata, non come isola. Il calendar 2026 — Pre-lancio, Festival Trento a maggio, Roadshow universitario, Forum con possibile premio Nobel — genera traffico ricorrente che deve atterrare da qualche parte. Oggi il sito esistente non è dimensionato per essere quel punto di atterraggio. Non gli serve essere bello: gli serve diventare la spina dorsale che accoglie il traffico LinkedIn (canale forte, ER 33%), il Roadshow universitario, il funnel MBA, gli eventi seeding.
+Terzo. Il cliente ha una doppia anima che oggi il sito non gestisce. Da un lato istituzionale: dialogo con ricercatori universitari, partnership con London Business School, IMD, IE, UCL, SDA Bocconi, LUISS, valorizzazione della ricerca su modelli educativi. Dall'altro commerciale: lead generation per MBA Gateway, Roadshow, Hackathon, Forum, masterclass. Sono due percorsi utente diversi, con priorità diverse, che il sito attuale “Growing together” appiattisce in tre voci di menu generiche.
+Il fatto che il cliente non ha detto, ma che è il vero gap
+Tiziana Carnicelli ha già un content creator esterno. Il gruppo Angelini ha un'agenzia tecnica IT con economie di scala. Quello che manca, e che nessun fornitore in essere oggi copre, è la regia editoriale-tecnica integrata: chi traduce la ricerca scientifica in posizionamento digitale, chi decide come la complessità della Engaged Research diventa contenuto fruibile, chi guida l'AI senza farne un catalogo di feature. È il gap che il laboratorio editoriale permanente colma. Ed è il gap su cui costruiamo il differenziale rispetto agli altri concorrenti.
+I quattro pilastri della proposta HeyAI
+Ognuno dei pilastri qui sotto è una conseguenza diretta della lettura del cliente. Non sono “servizi che HeyAI vende”: sono risposte a un problema specifico che il brief Angelini Academy ha posto.
+1. Laboratorio editoriale permanente
+È il differenziale principale e il filo che tiene insieme tutta la proposta. HeyAI non è un'agenzia che consegna il sito e poi se ne va. È un'infrastruttura editoriale-tecnica continua, con cadenza mensile o bimestrale, che riceve dalla Engaged Research di Angelini Academy ricerche, paper, casi pedagogici e li traduce in formati pubblicabili: sezioni del sito, articoli del blog, hooks per LinkedIn, contenuti per il Roadshow. Mantiene la coerenza editoriale del posizionamento mentre il piano 2026 si dispiega. Coordina chi produce contenuti — il content creator esterno di Tiziana — e chi li mette online — il fornitore tecnico, sia esso il fornitore IT del gruppo Angelini o HeyAI.
+Funziona per Angelini Academy perché copre un gap reale che oggi nessun fornitore in essere copre; perché non sovrappone i fornitori già attivi, anzi li coordina; perché è dimensionabile in pacchetti ore mensili, allineato con il pacchetto di outsourcing PM/operations che il brief stesso chiede alla slide 33-34.
+Funziona per noi perché trasforma una relazione one-shot in una relazione ricorrente. È lo stesso pattern che abbiamo costruito con FuturItaly per l'Osservatorio AI, e su Angelini Academy il fit è ancora più forte data la presenza esplicita di un nucleo di ricerca (Engaged Research) che chiede traduzione editoriale continua.
+2. Sito modulare su due fasi
+La call dell'8 maggio ha ribaltato l'ipotesi pre-call (sito rifatto in un colpo solo). Caterina ha chiesto, parole sue, “essere coerente, non rifare tutto adesso”. La nostra proposta lo accoglie e lo struttura.
+Fase 1, restyling coerente entro giugno. Allineamento estetico e di contenuti del sito esistente al lancio comunicazione che è già in atto. Architettura della fase 1 progettata in modo da accogliere la fase 2 senza dover essere rifatta. Possibile delivery: fornitore tecnico del gruppo Angelini, sotto regia editoriale HeyAI. La modularità permette ad Angelini di scegliere se questa fase resta in casa o ci viene affidata.
+Fase 2, ristrutturazione completa post-Trento. Architettura nuova costruita sulla doppia anima istituzionale e commerciale, percorsi utente differenziati, integrazione lead generation su MBA Gateway, Roadshow e Forum, feature AI dimensionata, modulo di intelligenza editoriale. Lo stack tecnico va definito dopo la verifica con l'IT del gruppo sulla porta aperta che Caterina ci ha lasciato in call.
+La modularità non è una cortesia: è una scelta strategica. Caterina ha chiesto una proposta a scaglioni e ha dichiarato che non c'è un paletto di budget definito. La modularità toglie il rischio “tutto o niente” che renderebbe la nostra proposta più aggredibile dall'ufficio acquisti ostile che già ha contestato a tavolino l'ingresso di FuturItaly.
+3. Una sola feature AI strategica — chatbot sulla ricerca scientifica
+Nella call dell'8 maggio abbiamo proposto tre funzionalità AI consecutive — chatbot conversazionale, agente raccomandazione percorsi, calcolatore borse complesso — e ne abbiamo prese tre NO in quattro minuti. La lezione è chiara: l'AI presentata come catalogo non passa. L'AI presentata come leva strategica, dimensionata sui volumi reali del cliente, passa.
+La feature che proponiamo nel pitch finale è una sola: un assistente conversazionale dimensionato sui contenuti dell'Engaged Research, accessibile dal nucleo del sito, che permette a ricercatori, prospect MBA e partner accademici di interrogare la ricerca Angelini in linguaggio naturale. “Quali ricerche avete su neuroscienze dell'apprendimento applicate al corporate learning?”, “Che metodologia usate per misurare l'efficacia di una masterclass?”. Non chiede al cliente di essere “di frontiera”, perché parla solo di ciò che Angelini Academy ha già pubblicato. Ridimensiona il rischio “boomerang” che ha bloccato Caterina.
+Questa feature è anche la dimostrazione concreta del laboratorio editoriale: è il laboratorio editoriale che alimenta il chatbot. Le due cose si tengono insieme nella narrazione del pitch.
+4. Target mapping serio come prima slide del pitch
+La prima slide del pitch finale ricostruisce i target operativi di Angelini Academy in modo che il cliente lo veda fatto da fuori, professionalmente. Non i sei cluster generici del brief alla slide 15 — quelli ce li hanno già scritti loro. Ma i target che impattano direttamente l'architettura del sito e la lead generation.
+* Istituti accademici di ricerca tipo Insead e Oxford, già attivi su pedagogia e modelli educativi innovativi, come interlocutori dell'Engaged Research.
+* Studenti ISEE/ISPE eleggibili per le borse MBA totali, da intercettare con form e percorsi dedicati su MBA Gateway.
+* Mercato Angelini esteso oltre il farma — biotech, robotica, food (Fater) — per popolare Pilastro 2 sull'innovazione tecnica e manageriale come vetrina pubblica.
+* Ricercatori internazionali del network di Tiziana Carnicelli, da attivare per il Forum e gli eventi seeding.
+* Alumni dell'Hackathon 2025, comunità attiva che ha generato i contenuti più performanti su LinkedIn, da riattivare come ambasciatori naturali.
+Questo target mapping è il deliverable pre-pitch che Carlo ed Elena costruiscono nei prossimi giorni a partire dai dati e dalle conoscenze interne FuturItaly. Va portato al pitch finale già consolidato, non come slide vuota.
+________________
+
+
+Cosa NON proponiamo, e perché
+La disciplina informativa è una dimensione su cui abbiamo lavorato dopo la call dell'8 maggio. La proposta finale deve dichiarare apertamente cosa non faremo, perché un fornitore che dimostra di sapere cosa togliere è più credibile di uno che propone tutto. Una slide del pitch finale sarà dedicata esattamente a questo: “Cosa abbiamo deciso di non proporvi, e perché”. È un'inversione del pattern del fornitore tipico che vende tutto.
+Cosa NON proponiamo
+	Perché
+	Catalogo di feature AI multiple
+	Caterina ha bocciato 3 feature AI consecutive in 4 minuti l'8 maggio (“di frontiera per noi”, “ho paura di un boomerang”)
+	Calcolatore borse complesso
+	Cliente vuole un singolo parametro reddito (“talmente semplice, non la farei più complicata”)
+	Form MBA dimensionato per traffico massivo
+	Massimo 45 candidati post-screening IE Madrid (“tienete conto della dimensione”)
+	Area eventi pubblica del sito
+	80-90% degli eventi Angelini sono interni; eventuale area riservata oscurabile in fase 2
+	E-commerce attivo nel 2026
+	Architettura predisposta e oscurata, accendibile in fase 2 con due opzioni (custom integrato vs gateway separato)
+	Full optional con video promozionali
+	Caterina lo ha bocciato esplicitamente in call (“strategia prima, effetti speciali dopo”)
+	Scope-creep su social, content, video, brochure, gadget
+	Il cliente ha fornitori in essere; porta aperta diplomatica, non insistere
+	Rebranding visivo o nuovo brand book
+	Brand book 2024 confermato, logo invariato (decisione cliente 8/5)
+	Library fotografica nuova strutturata
+	Foto autorizzate già disponibili sul sito esistente
+	Traduzione strategia in architettura del sito
+Questa tabella è il ponte fra la parte strategica e la parte concreta: spiega, dimensione per dimensione, come la lettura strategica del cliente si trasforma in scelte progettuali specifiche del sito. È anche la struttura narrativa del pitch deck e il brief operativo per il prototipo.
+Dimensione strategica
+	Trasformazione sito
+	Elemento concreto visibile
+	Engaged Research come nucleo del posizionamento
+	Hub editoriale centrale, non sottosezione
+	Sezione “Ricerca” con feed continuo + chatbot conversazionale sulla ricerca
+	4 pilastri come asse narrativo del cliente
+	4 sezioni vetrina con priorità diverse fra istituzionale e commerciale
+	Pilastro 4 MBA Gateway con form 45 candidati e calcolatore borse semplice
+	Doppia anima istituzionale e commerciale
+	Doppio percorso utente esplicito
+	Header navigation duale: “Per ricercatori” / “Per studenti e manager”
+	Piano comunicazione 2026 = traffico ricorrente da eventi
+	Sito come spina dorsale lead gen multi-canale
+	Form Roadshow + Forum + tracking UTM per cluster di campagna
+	Target diversificati (Insead, ISEE/ISPE, biotech, network Tiziana)
+	Modulo di intelligenza editoriale
+	Contenuti e CTA variano dinamicamente per cluster target (A/B test)
+	Coerenza prima del rifacimento
+	Architettura fase 1 accoglie fase 2
+	Stack modulare, scelte irreversibili evitate, CMS che permette upgrade
+	LinkedIn ER 33% canale forte
+	Sito come destinazione naturale traffico LinkedIn
+	Pagine pilastro ottimizzate per landing da LinkedIn, share semplificato
+	“So What?” cliente: vincono persone, volti, eventi
+	Layout people-first
+	Galleria Hackathon, ritratti partner accademici, foto masterclass
+	Profilo LinkedIn personale CEO Morbidelli (brief slide 31)
+	Integrazione personal brand CEO sul sito
+	Pagina dedicata + feed di thought leadership
+	Bilinguismo IT/EN nativo
+	Matrice copertura linguistica per pagina
+	MBA Gateway primariamente EN, Masterclass primariamente IT, Engaged Research paritetico
+	________________
+
+
+Modello economico
+Pricing modulare costruito su quattro voci che il cliente può comporre liberamente. È coerente con la richiesta di Caterina di una proposta a scaglioni, senza budget vincolante dichiarato, e con la modularità che dichiariamo come scelta strategica.
+* Restyling coerente fase 1 (entro giugno) — pacchetto a sé, eventualmente anche escluso dalla proposta se Angelini lo affida al fornitore IT del gruppo.
+* Ristrutturazione completa fase 2 (post-Trento) — cuore della proposta, scope con margini di scelta sullo stack tecnico.
+* Laboratorio editoriale permanente — pacchetto ore mensile o bimestrale ricorrente, allineato al pacchetto outsourcing PM/operations richiesto nel brief (slide 33-34).
+* Feature AI strategica + modulo intelligenza editoriale — voce separata, dimensionata sui volumi reali.
+I range numerici vanno affinati con il dimensionamento ore di Michele dopo la decisione di lunedì 11 maggio sullo scope finale. Prima di mettere numeri nella proposta scritta è necessario chiudere quali fasi quotare e con quale profondità.
+Margine FuturItaly — due modelli
+La richiesta esplicita di Elena nel debrief dell'8 maggio è che la proposta HeyAI permetta a FuturItaly di marginare. Va dimensionato nel pricing fin dall'inizio, non come ripensamento successivo. Le opzioni sul tavolo sono due.
+Modello
+	Come funziona
+	Pro
+	Contro
+	A — Markup integrato
+	HeyAI fattura a FuturItaly, FuturItaly applica markup e fattura ad Angelini
+	Cliente vede una sola voce, FuturItaly capofila chiara
+	HeyAI invisibile al cliente, responsabilità contrattuale tutta su FuturItaly
+	B — Fattura separata + commissione
+	HeyAI fattura direttamente Angelini per il sito, FuturItaly applica commissione % sul valore come canale di commercializzazione dichiarato
+	HeyAI ha relazione cliente diretta, utile per il laboratorio editoriale ricorrente; trasparenza commerciale
+	Cliente vede due voci, possibile attrito con l'ufficio acquisti ostile
+	Una possibile via di mezzo è ibrida: modello A sulla fase 1 (deal one-shot, FuturItaly capofila) e modello B sul laboratorio editoriale (relazione continua, HeyAI in relazione diretta). Ne discutiamo lunedì.
+Linkage ai criteri di valutazione di gara
+Il brief Angelini fissa sei criteri di valutazione con pesi espliciti. Il 75% della valutazione è qualità sostanziale: Strategia 30%, Contenuto 30%, Creatività 15%. Il prezzo conta soltanto il 10%. La nostra proposta è costruita per vincere su quelle dimensioni, non sul ribasso.
+Criterio
+	Peso
+	Come la nostra proposta lo vince
+	Strategia
+	30%
+	Lettura del problema reale (gap del laboratorio editoriale non coperto da fornitori in essere) + tesi di posizionamento chiara
+	Contenuto
+	30%
+	Target mapping serio come prima slide + copywriting strategico nel perimetro proposta + esempi concreti di traduzione ricerca-in-contenuto
+	Creatività
+	15%
+	Una feature AI ben dimensionata (chatbot ricerca scientifica) + modulo intelligenza editoriale come prova di AI applicata strategicamente
+	Prezzo
+	10%
+	Modularità che permette al cliente di scegliere il proprio livello di investimento senza vincoli “tutto o niente”
+	Team
+	10%
+	HeyAI + FuturItaly come team integrato editoriale-tecnico-strategico; case history dell'Osservatorio FuturItaly
+	Case history
+	5%
+	Doppia anima istituzionale e commerciale già consegnata sul progetto Osservatorio FuturItaly come parallelo diretto
+	Decisioni operative da chiudere lunedì 11 maggio
+L'allineamento interno HeyAI + FuturItaly delle 12:00 di lunedì 11 maggio deve chiudere le decisioni che oggi sono aperte e che condizionano lo scope, la regia e la struttura economica della proposta. Sono cinque punti.
+* Regia del pitch finale. Proposta operativa: Daniele apre con la lettura del problema e la tesi del laboratorio editoriale (dieci minuti); Carlo subentra solo sulla feature AI ben dimensionata e sull'architettura tecnica delle due fasi (otto minuti, quando chiamato in causa); Elena chiude su margine, pricing e modularità (cinque minuti). Target operativo: Carlo non oltre il 30% del tempo parlato (in call 8/5 è stato circa il 70%).
+* Modello di margine FuturItaly. Scegliere fra modello A (markup integrato), modello B (fattura separata + commissione) o ibrido. La scelta condiziona la presentazione economica al cliente.
+* Chi tira la corda con Caterina sull'IT. Caterina ha lasciato aperta la porta a valutare proposte tecniche alternative al fornitore di gruppo. Va deciso se l'apertura si attiva via Elena, via Daniele direttamente, o se aspettiamo che emerga.
+* Riattivare Tiziana o no. Il concetto di laboratorio editoriale era stato concordato Elena ↔ Tiziana e non è uscito in call 8/5 per confusione di Caterina sui contenuti. Va deciso se Tiziana viene coinvolta esplicitamente per il pitch finale o se resta sullo sfondo.
+* Slide del NO nel pitch. Verificare che FuturItaly sia allineata sull'inserire una slide dedicata a “cosa abbiamo deciso di non proporvi, e perché” come pattern-break rispetto al fornitore tipico. È un'inversione di posizionamento, va condivisa esplicitamente prima del pitch.
+Sintesi
+La proposta HeyAI per Angelini Academy ha quattro pilastri intrecciati: un laboratorio editoriale permanente come differenziale, un sito modulare su due fasi che accoglie il cambio di scope chiesto da Caterina, una sola feature AI ben dimensionata che inverte il pattern del catalogo, e un target mapping serio come prima slide del pitch.
+La proposta è costruita per vincere sul 75% della valutazione che è qualità sostanziale, e dichiara apertamente cosa non proponiamo come prova di discernimento. Lascia al cliente la libertà di scegliere quali fasi affidarci, riducendo il rischio politico interno e dando a FuturItaly la posizione di capofila che merita.
+L'allineamento di lunedì 11 maggio chiude le cinque decisioni operative che oggi sono aperte e libera la stesura della proposta scritta per il cliente.
+Strategia pitch finale — documento di lavoro · Pag.

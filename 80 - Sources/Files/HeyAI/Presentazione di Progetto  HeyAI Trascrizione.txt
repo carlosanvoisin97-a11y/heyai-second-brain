@@ -1,0 +1,239 @@
+Presentazione di Progetto  HeyAI
+mer 19 nov 2025
+
+0:00 - Michele Mattucci
+Io direi che la facciamo gestire più da parte di carlo, in modo tale che spieghi un po' le nostre unità e non so se andrei a presentare Matteo.
+
+0:16 - Andrea
+Sì, allora Matteo è il CTO dei GAD, responsabile di tutte le attività tutto il coordinamento del gruppo di sviluppo e niente, solo questo, Matteo, non solo questo. L'organizzazione, eccetera, eccetera. Esatto, la coordinazione dello sviluppo, un po' la supervisione, tutto quello che è l'area tecnica di KIT. Ok, ottimo.
+
+0:57 - Carlo Sanvoisin
+Allora, vado io, mi presento, sono Carlo, diciamo che all'interno di AI rappresento un po' la persona che si occupa della gestione dei progetti basati su sviluppo, software o intelligenza artificiale. C'è capitato fra le mani un Progetto, diciamo, carino, a poco a che vedere con l'intelligenza artificiale, ammetto, non è livello innovativo, però qual è il punto? Che essenzialmente essendoci arrivato per vie traverse da una persona molto cara, o da uno dei nostri clienti più importanti, ci è stato chiesto di trattarli bene con la quotazione, in poche parole. Quindi siccome noi collaboriamo con altri sviluppatori che insomma sono molto bravi, molto molto bravi, però sono abituati a fare delle cose diciamo un pochino più alta e complessa dal punto di vista della soluzione dell'architettura mi chiedevo magari voi che siete un pochino più strutturati probabilmente avete una serie di risorse a cui fare riferimento magari anche un po' più junior e via dicendo se magari presentandovi quello che è il Progetto mi riuscivate a trovare una risorsa in linea che è in grado di di fare diciamo questo sviluppo qui e e allo stesso tempo magari cerchiamo di contenere quelli che sono I costi perché ve lo dico proprio eh in maniera trasparente e qui l'obiettivo è cercare di fare una soluzione più semplice più possibile eh per eh rispettare quella che insomma è è la richiesta principale mi hanno detto vorremmo una cosa semplice però che allo stesso tempo funziona eh e non siamo in questo momento non abbiamo le risorse per per spendere tantissimo essenzialmente. Però questo è impossibile per noi farlo low budget perché c'è un certo grado di complessità e via dicendo e amen però diciamo che io intanto vi presento il quadro per quello che è anche perché sennò poi se mi sparate diciamo una cifra altissima non è tanto per me quanto vi ho detto c'è proprio un costre in tal livello di cliente. Allora la soluzione sarebbe essenzialmente loro hanno bisogno di una piattaforma che permetta a risparmiatura. Già sei partito male!
+
+3:23 - Andrea#+#Carlo Sanvoisin
+Ragazzi sono con le mani legate, nel senso mi arriva questa patata bollente a me e io sto cercando di mollarla a qualcun altro. Quello è chiaro, dai. Vabbè comunque sì lo so che sono partito male.
+
+3:42 - Carlo Sanvoisin
+Allora se Diciamo la piattaforma deve avere queste funzionalità, deve permettere a imprenditori, ristoratori nel mondo Oreca, quindi principalmente proprietari di ristoranti, di iscriversi e di postare degli annunci di lavoro e allo stesso tempo cuochi, capisala, camerieri e qualsiasi altro dipendente mondo Oreca deve potersi iscrivere, mettere il suo CV, e diciamo proporsi qual è la grande rivoluzione che lui ha pensato per cui si andrebbe a differenziare da quello che già esiste e dice che essenzialmente questo è quello che gli serve perché loro hanno già un network di 600 fra imprenditori e lavoratori che proprio passano tra virgolette tramite loro sono un po' una società una grossa società di HR mettiamola così e quindi lui loro partirebbero da questi 600 che c'hanno dentro ma che sono in crescita e vorrebbero raggiungere questa funzionalità di recensioni cioè io cameriere posso fare la recensione del proprietario che mi ha fatto lavorare dicendo questo è bravo oppure questo è cattivo non paga a fine mese eccetera eccetera e viceversa quindi il proprietario fa la recensione del cameriere dice questo arriva al ristorante che non è lucido ok qualsiasi altra cosa Cosa che capita spesso nel mondo della ristorazione. Questo non è che c'è altri requisiti di fatto. Sarebbe una specie di job form con la possibilità di farsi recensioni a vicenda.
+
+5:31 - Andrea#+#Carlo Sanvoisin#+#Matteo Battisti
+Vabbè, è un marketplace del lavoro.
+
+5:36 - Matteo Battisti
+C'è stato pensato un modo per stabilire se veramente quel lavoratore ha lavorato presso un guidatore di lavoro? Ecco, e qui è la chiave del tutto.
+
+5:48 - Carlo Sanvoisin
+Io ci ho parlato pochissimo, sono sincero, e devo fare approfondimento, però da quello che ho capito, siccome lui parte dal suo network interno, io da quello che ho capito ha delle risorse che essenzialmente quindi te lo confermo, te lo voglio confermare perché so che è un punto chiave mi verrebbe da dire che il lavoratore può fare la richiesta di di recensione se solo se c'è stato fra virgolette uno uno sblocco da parte di una risorsa loro interna che conferma che effettivamente quella persona sta lavorando lì perché se ho capito bene il loro lavoro di intermediai di fatti, se loro fanno un po' la parte di HR, ce l'hanno l'informazione se poi una persona è stata assunta o meno, loro si sono occupati comunque di… normalmente oggi trovano le risorse, le propongono, le seguono, quindi io mi aspetto che quella persona lì dentro la loro… che fa parte del loro HR, del loro recruiter sappia poi effettivamente chi lavora e chi non le varie aziende quindi può mettere una specie di validazione.
+
+7:06 - Andrea
+Allora per l'esperienza nostra su cose dello stesso tipo conta che adesso stiamo facendo marketplace simile più complesso però perché riguarda un altro ambito allora lì perché te lo diceva Matteo perché essenzialmente con termine e condizioni nel momento in cui uno si iscrive alla piattaforma tu gli puoi mettere il fatto che è soggetto a querele eccetera eccetera su diciamo recensioni false e robe di questo tipo allora che succede tu essenzialmente quando li vai a far registrare gli fai lo tp tramite cellulare no prova di esistenza no quindi essenzialmente io mi iscrivo accetto delle condizioni di metto il mio numero di cellulare nel momento in cui scrivo una falsità ed è riscritto che è una falsità io sono soggetto a querela, che poi la legge di tutte le piattaforme è regolato dall'agicom, eppure dalla legge italiana, quindi bisogna capire soltanto se nel momento in cui si registra un profilo utente che sia lato ristoratore, rato e lato chef eccetera eccetera, se lì dobbiamo legare un numero di telefono se dobbiamo fargli una validazione del processo o è un tool che va interno a quest'azienda che ve l'ha chiesto?
+
+8:36 - Carlo Sanvoisin
+Ecco, infatti è proprio la prima cosa che gli ho chiesto perché gli ho detto guarda che se a te questa cifra, perché lui mi ha fatto vedere una cifra, ti sembra alta c'è qualcosa che non va al momento e lì gli ho fatto la domanda se effettivamente questo tool sarebbe stato un tool l'utilizzo interno o da buttare nel mercato e commercializzarlo.
+
+9:00 - Andrea#+#Carlo Sanvoisin
+Sono due cose completamente diverse. Sì, cambia come lo costruiamo, no? Sembra che lui non ha le idee chiarissime, se devo essere piuttosto sincero con voi, però da quello che io ho capito è se lo vuole mettere interno per il suo network interno con la prospettiva poi di espanderlo anche del mercato.
+
+9:24 - Carlo Sanvoisin
+Comunque lui è vincolato alle stesse regole.
+
+9:28 - Andrea
+Allora, guarda, vado in maniera pragmatica al suolo. Noi lo possiamo fare, ok? A livello economico, se è cheap, diteci il budget e ci regoliamo noi, ok? Perché noi poi abbiamo un programma di sviluppo per cui praticamente se magari una cosa è chip ci teniamo noi il codice anche e lo sfruttiamo per altri clienti ok?
+
+9:59 - Carlo Sanvoisin
+Quindi l'ideale è che ci date il budget perché sennò così sì allora ti dico aspetta aspetta voglio riprendermi la quotazione che mi ha girato lui per farti capire cosa lui ha considerato alto comunque se vuoi poi nello specifico per approfondire dei punti, mi dice esattamente quali e gli ciro le domande.
+
+10:26 - Andrea
+Guarda, te le dico subito, perché è piuttosto lineare quello che ha chiesto, lo possiamo fare, non è un problema.
+
+10:37 - Matteo Battisti
+Certo, dobbiamo esplorare un po' alcune funzioni.
+
+10:42 - Andrea#+#Matteo Battisti
+Il nome lui è stato un po' troppo prescontato.
+
+10:47 - Andrea#+#Carlo Sanvoisin
+gli faccio un attimo il volo delle domande che fa il cliente.
+
+10:55 - Carlo Sanvoisin
+Allora guarda, non ti piacerà questa cifra, lui ha considerato alto 25.000 euro per lo sviluppo, però gli avevano messo anche 2.500 euro annui di manutenzione.
+
+11:12 - Andrea#+#Carlo Sanvoisin
+Il paradosso è che costa Sì, hanno invertito. Infatti io mi chiedo come sono arrivati a calcolare questi 2.500 euro annui di manutenzione.
+
+11:25 - Andrea
+Allora, detto questo, per l'offerta economica facci fare un passaggio, ok? Tecnicamente possiamo venire incontro con questo programma che noi facciamo al massimo due clienti all'anno su questo Progetto, quindi questo diciamo un problema che ce lo vediamo io e Matteo, lato economico.
+
+11:48 - Andrea#+#Carlo Sanvoisin
+Lato pratico, le cose da chiedergli a questo sono, se è una piattaforma uso pubblico, ok?
+
+11:54 - Andrea
+Per cui, che lui la tiene come tool interno, tool esterno, però è a uso pubblico, perché tu nel momento in cui dai un'utenza a questi 600, no? È già uso pubblico, non so se mi sono spiegato, no? No, ti sei spiegato, è la domanda che gli ho fatto, ti dico.
+
+12:12 - Carlo Sanvoisin
+te la approfondisco però da quello che io ho capito poi lui non è tecnico quindi neanche io però non è che mi seguiva tantissimo da quello che ho capito deve funzionare un po' tipo portale non come piattaforma quindi io faccio l'iscrizione ma di fatto io faccio l'iscrizione e vengo accettato se faccio parte del loro network cioè quindi è sempre pubblico uguale è un pubblico è un semi pubblico sì però è sempre pubblico uguale.
+
+12:41 - Andrea
+Abbiamo tanta expertise. E' pubblico perché tu tratti I dati sensibili delle persone. Tu lo tieni solo per te. Noi abbiamo la Trima, che è la più grossa azienda in Svizzera, per farti intendere la manpower svizzera. E quelli sono per privati I dati, addirittura non sono neanche pubblici, tu devi essere iscritto per entrare e vedere I dati, no? E lì non c'è la GDPR, lì c'è la LPD, no? Che è un po' blanda, no? E comunque tu stai alle stesse regole. Quello che bisogna chiedere al tizio, semplicemente, è se ha già sondato gli aspetti legali. Se non li ha sondati, li dobbiamo fare noi, ok?
+
+13:34 - Andrea#+#Carlo Sanvoisin
+E credimi che quelli comandano, ok?
+
+13:36 - Andrea
+Quindi io ti faccio l'iscrizione, bene, siccome tu sei soggetto a recensioni, allora non ci fossero le recensioni, tu non saresti passibile il rispetto delle norme che riguardano le community online, no? Perché un marketplace è comunque una community, ok?
+
+13:56 - Andrea#+#Carlo Sanvoisin
+Quindi che succede?
+
+13:57 - Andrea
+Se mi iscrivi a Bincopallina e butto una secchiata di merda sul mio ristorante, io devo avere da parte di questo la spunta che ha approvato termini e condizioni, il suo numero di cellulare eccetera affinché la controparte danneggiata dalla sua recensione abbia modo di fare un'azione legale.
+
+14:22 - Andrea#+#Carlo Sanvoisin
+Essenzialmente a noi ci serve sapere solo questo.
+
+14:26 - Carlo Sanvoisin
+Ma tu dici che questo avviene anche se effettivamente loro fanno praticamente la validazione di tutti I rapporti di lavoro? Cioè se io sono Carlo e veramente ho lavorato qui sotto al ristorante Il Mattarello e quello non mi ha pagato, io lo scrivo?
+
+14:46 - Andrea#+#Carlo Sanvoisin
+Cioè lui ha comunque delle basi per correlarmi?
+
+14:50 - Andrea
+Allora, la legge italiana, la legge europea, la legge italiana è chiara. Esempio TripAdvisor, no? Piuttosto che Google, no? Nel momento in cui io ricevo una recensione negativa è una cosa ok però ci può stare il pazzo che dice guarda sono andato in quel ristorante il ristoratore ha toccato il sedere a mia moglie ok quello è un penale no ok il ristoratore scrivendo a google riconduce chi ha scritto la recensione ok stessa cosa su facebook cioè su facebook scrivi a uno io ti ammazzo e cioè il giorno dopo arriva la lettera d'avvocato, perché questi sistemi ci sono, cioè ti ripeto noi abbiamo tanta esperienza in merito, l'unica cosa che ci deve dire lui se il lato legal già ce l'ha, cioè che ha fatto la gdpr, termini e condizioni, cioè tutte quelle cose per cui noi nel momento in cui iscriviamo un utente che ce lo diano pure loro, cioè quindi non un utente libero, è un utente dato da loro, questo deve aver approvato privacy policy, GDPR, termini e condizioni e dato il numero di telefono. Perché tu devi avere tracciatura nel momento in cui piazzi una recensione. C'è un sistema di valutazione più univoco, quindi io valuto te, tu valuti me. Perché sei soggetto a un Cioè, ti può capitare il pazzo che te lo danno loro, quindi loro ti danno un cuoco e ti dicono, guarda, iscrivete questo, perché ce l'hanno loro. Questo cuoco una mattina si spazisce e scrive su tutto il motore a tutti quelli presenti che I ristoratori sono dei pezzi di merda e che li vuole ammazzare tutti. Ripeto farla per noi la piattaforma non è un problema I tempi quanto t'hanno chiesto?
+
+17:01 - Andrea#+#Carlo Sanvoisin
+non mi ha dato un'indicazione di tempi l'ho visto abbastanza rilassato sui tempi diceva tanto tempo che la mettete su da 600 saremmo passati a 2000 l'unica cosa da valutare è l'aspetto legal cioè se lui c'ha termine condizioni, se già gli ha già gli ha definiti eccetera eccetera.
+
+17:25 - Carlo Sanvoisin
+Se gli diciamo ok ti veniamo incontro sul prezzo però ti devi fare tu tutta la parte di legal noi ti mettiamo solo.
+
+17:32 - Andrea#+#Carlo Sanvoisin
+No no quello comunque se la deve fare lui cioè non gliela possiamo. Ah quindi lo chiedi per capire se c'è qualcosa di bloccante.
+
+17:40 - Andrea
+No se per sapere se lui si è mosso rispetto a quelle cose no? Quindi se se sa che tirare su marketplace con sistema di recensioni eh Deve sapere che ti vincola a determinate attività Liga. Quando andiamo a fare la piattaforma, noi dobbiamo avere nel database che Carlo ha spuntato termine e condizioni in data X, ha accettato privacy policy in data Y. Noi dobbiamo crearle in modo tale che c'è la tracciatura di ogni utente. Ci cambia, poi il resto è un marketplace, ci sono appunto, come diceva Matteo, delle caratteristiche, no? Tu la UMM come la vuoi, che te li mettiamo, che criteri di ricerca vuoi, no?
+
+18:31 - Carlo Sanvoisin
+Ma ci saranno I filtri, ci saranno due filtri, uno per imprenditore, uno per tipo di lavoratore e uno per località. Tiè, tre che c'è, gli facciamo il minimo indispensabile, tre filtri, un login, con profilo utente profilo utente dove si carica il cv della descrizione e stesso per eh il ristoratore che fa invece il profilo ehm come si dice insomma profilo del ristorante del dell'attività ci carica le foto, la descrizione e può postare gli annunci.
+
+19:09 - Andrea
+Questa è la base. Eh con la bozza con la bozza con quello che ti possiamo definire e ti dico si può fare anche carino no con classificazione filtri una mappetta ora passiamo con Matteo Matteo poi ci sentiamo oggi lo facciamo con Marco Cure no ok raga l'unica cosa è vedere se questo c'è chiari aspetti legali ste cose qua.
+
+19:36 - Carlo Sanvoisin
+Stavo rileggendo il documentino che mi ha mandato con la votazione e mi dice e come ti dicevo che avevo insomma supposto che essendo un network interno comunque quantomeno non non ha bisogno di una convalida automatica della referenza perché sai la prima cosa che ti viene in mente sarebbe complicato se il tool dovesse andare a fare match fra le informazioni di eh lavoratore, imprenditore, magari che ne so, anche tramite documentazione, vi dicendo e verificare che quello veramente ha lavorato lì. Quella sicuramente sarebbe una convalida che se automatica ti cambia completamente la votazione invece leggevo che ti confermo che lui lo vuole cioè basta manuale quindi convalida manuale del team se la persona effettivamente abbia o meno lavorato presso una determinata sede che poi c'è stato tutto l'ambito di querella io questo per esempio non lo sapevo me l'hai aggiunto te e quello rimane perché è per legge però quantomeno la convalida è database mettiamo la tracciatura, quindi studiamo un attimo il metodo migliore, però sì, qualsiasi cosa diffamatoria online è soggetto a querela, denuncia e le recensioni sono proprio l'orto dove crescono queste verdure.
+
+20:59 - Andrea
+Certo, certo. Comunque facciamo così, la fatturazione In questo caso penso di sì. Matteo non so se tu c'hai da aggiungere altro.
+
+21:12 - Matteo Battisti
+Io avrei un paio di domande Carlo per chiarirci un attimo un po' di più l'idea anche noi in questa fase. La prima è se l'accesso alla piattaforma è comunque vincolato all'iscrizione, nel senso un utente non può vedere le offerte di lavoro che ci sono all'interno senza essersi prima registrato e fatto l'accesso, giusto?
+
+21:34 - Carlo Sanvoisin
+Allora questa è la mia comprensione e te la voglio confermare questa cosa ed è la mia comprensione perché siccome loro sono un network di professionisti che è gestito da loro mi verrebbe da dire è chiaro che il tuo vantaggio qual è e io metto a disposizione questa piattaforma tu devi rientrare nel mio network, quindi te lo confermo però sì. Cioè da quello che ho capito io funziona così.
+
+22:05 - Matteo Battisti
+Ok bisogna essere eh iscritti ok già questo Andrea leva un mezzo problema in realtà dal lato privacy perché eh se comunque le offerte non sono pubbliche e comunque la visibilità è limitata a chi è iscritto e a chi è logato all'interno della cassaporta.
+
+22:24 - Andrea#+#Matteo Battisti
+Sì, sì, sì. Comunque lui deve avere termini e facciano una piattaforma.
+
+22:28 - Matteo Battisti
+La seconda cosa Carlo mi parlavi di duemila e cinquecento euro l'anno di manutenzione no?
+
+22:34 - Carlo Sanvoisin#+#Matteo Battisti
+Che licenze in realtà erano più che altro costi di licenze.
+
+22:38 - Matteo Battisti
+Ah ok ok non manutenzione fisica diciamo solamente la. Ah avevo capito pure.
+
+22:44 - Carlo Sanvoisin
+Ah gli ha messo un po' tutto insieme ci ha messo un po' di manutenzione e poi vedevo che in realtà le le botte grosse eh gli ha detto che sono legata alle licenze perché lui gliela avrebbe costruito con Webflow, Wyst, Memberstack e Xano che onestamente neanche li conosco alcuni.
+
+23:09 - Andrea
+Sono tutti tool compositivi, ma da chi è andato l'ammatoriale?
+
+23:15 - Oratore non identificato
+Evidentemente.
+
+23:16 - Andrea
+Vabbè comunque ragà, noi vi strutturiamo l'offerta e il Progetto di base e noi L'unica cosa che ci servirebbe è sapere le tempistiche, se lui ha una data.
+
+23:32 - Andrea#+#Carlo Sanvoisin
+Perché per abbattere I costi ce la prendiamo comoda.
+
+23:37 - Andrea
+Se c'ha fretta dobbiamo trovare una soluzione, ma la vedo difficile sotto Natale. Ok? Quindi, più che altro far sapere questo. Noi comunque vi mandiamo I giorni uomo ci servono a svilupparla. Tanto lui non vuole app, vuole soltanto versione web.
+
+24:00 - Carlo Sanvoisin
+Io mi vado a chiarire questo punto di termine e condizioni e poi vi vado a confermare il fatto che le persone si debbano iscrivere sulla piattaforma e quindi non sono pubbliche tutti quanti l'annuncio. Avete altri dubbi che volete confermare più specifici? Le tempistiche mi faccio dare delle tempistiche più precise ma da quello che ho capito non c'è un'urgenza è fortissima nelle tempistiche.
+
+24:33 - Andrea
+Per quello che paga gli teniamo dei giorni uomo un po' larghi in modo tale che noi non ci rimettiamo e lui è contento insomma. Di certo non gli diamo sei mesi eh. Sto a facciamo un attimo I conti pure per vedere, vediamo un attimo.
+
+24:52 - Matteo Battisti
+Con le domande non scendere più nel tecnico in questa fase qui, magari se lui ci risponde alle domande che abbiamo fatto oggi, magari tiriamo già giù una prima bossa di analisi funzionale e poi magari partiamo da quella per scendere un po' più nel tecnico, nelle funzionalità più che nel tecnico.
+
+25:15 - Carlo Sanvoisin
+sì detto che appunto secondo me lui sarebbe soddisfatto con quelle base che ti dicevo quindi facciamoglielo noi dobbiamo scendere un attimo più nel dettaglio magari I dati che gli servono a livello grafico I dati che gli servono a livello aziendale eh chi vede cosa ecco questi dati qui ho visto che ci sta un sito che fa praticamente la stessa cosa che gli mancano però la parte di recensioni essenzialmente che se non mi ricordo male si chiama proprio turismoitalia.it quindi se volete un attimo una reference del finland look che lui si era immaginato potete utilizzare quello c'è proprio quei tre filtri che vi ho detto gli annunci però manca tutta la parte di recensioni e credo addirittura che non abbia la parte di profilo delle persone che si iscrivono, a meno che forse non lo posso vedere io perché sono un esterno, lo possono vedere solo appunto gli imprenditori.
+
+26:33 - Andrea#+#Carlo Sanvoisin
+Ma Turismo Italia non si occupa di...
+
+26:37 - Carlo Sanvoisin
+portale per per I turisti non per I lavoratori aspetta che ti sto cercando il nome preciso perché voglio dirti cavolate lavoro turismo.it scusatemi Fai partire la tua carriera.
+
+27:16 - Andrea#+#Carlo Sanvoisin
+Io c'ho pure un ristorante, ragazzi, ammazzerei tutti. Di buttare una bomba a mano sui cuochi tutti I cuochi I caverieri il ristorante ho preso un bagno di sangue che la metà basta ci metterei I robot dentro guarda e si ci stanno arrivando sono stato a Milano li ho visti ma non sono ancora abbastanza c'era un robot che proprio manco lo vedo No, ti giuro, guarda, nel mondo li odio tutti, ho capito pure perché questo ci ha vogliato fare questa cosa. Eh no, perché dove gli è nata l'idea che loro sono un po' gli intermediari HR, no?
+
+28:15 - Carlo Sanvoisin
+E quindi, da una parte c'erano I ristoratori che dicevano, ma questi arrivano drogati al ristorante e non sanno lavorare.
+
+28:22 - Andrea#+#Carlo Sanvoisin
+Sì, tutti drogati, sì, ma è vero. Ma io poi mi chiedo, ma perché proprio nel mondo dai ristorazioni sono tutti drogati?
+
+28:29 - Carlo Sanvoisin#+#Matteo Battisti
+Cioè qual è il messo?
+
+28:31 - Andrea#+#Carlo Sanvoisin#+#Matteo Battisti
+Sì, ma dovrebbero fare una piattaforma che te fa il test.
+
+28:38 - Andrea#+#Carlo Sanvoisin
+No, soprattutto I drogati, I preagoni, I saccenti, è una categoria veramente che fa schifo.
+
+28:47 - Andrea
+E ti dico, noi ce la lavoriamo, noi abbiamo dei clienti top, ok, ma ti giuro se abbiamo peggiori di tutti.
+
+29:00 - Carlo Sanvoisin
+Poi anche I ristoratori chiaramente non si riferiva a te nello specifico, non pagano fine mese.
+
+29:09 - Andrea#+#Carlo Sanvoisin
+No, non te danno una lira, non te danno una lira, no. Sono tutti pagatori e ristoratori. Sì, sì.
+
+29:19 - Andrea
+No, ma ragà, sono una cosa, sono da sparare appena nati.
+
+29:25 - Andrea#+#Carlo Sanvoisin
+Ecco qua. Sì, comunque io facciamo pure il software.
+
+29:31 - Andrea#+#Carlo Sanvoisin#+#Matteo Battisti
+Guardate, tempo stasera vi mandiamo offerte il Progetto.
+
+29:37 - Carlo Sanvoisin
+Fantastico, poi considerate chiaramente che tutta la parte di relazione con il cliente, gestione, poi normalmente io personalmente faccio pure un po' di quindi eh in questo caso dovreste mettere solo dentro risorse proprio tecniche. La parte PMO, gestione del cliente me ne posso occupare io chiaramente. Guarda tanto Carlo questo lo usiamo anche eh per fare un po' di informazioni, per fare un po' di informazioni, per fare un po' di
+
+30:24 - Andrea
+tra me, te, Michele e Matteo per prenderci il metro.
+
+30:28 - Andrea#+#Carlo Sanvoisin
+Perché è il primo lavoro, poi dopo vediamo.
+
+30:31 - Andrea
+Noi siamo molto sciolti, non siamo incamerati.
+
+30:33 - Andrea#+#Carlo Sanvoisin
+Mi dispiace che ti ho portato questa bomba a mano come primo lavoro. Guarda, stamattina non sei il primo, ti posso dire questo. Sono le dieci e mezzo e manco sono il primo, andiamo a vedere.
+
+30:47 - Andrea
+Perché lavorando pure con gli Stati Uniti le bombette ci arrivano durante la notte.
+
+30:52 - Andrea#+#Carlo Sanvoisin
+Grazie mille per il vostro tempo, ci aggiorniamo!

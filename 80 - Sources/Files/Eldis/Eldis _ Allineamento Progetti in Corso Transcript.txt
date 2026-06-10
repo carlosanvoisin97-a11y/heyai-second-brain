@@ -1,0 +1,956 @@
+Eldis | Allineamento Progetti in Corso
+Wed, Sep 3, 2025
+
+8:28 - Unidentified Speaker
+Ciao Stefania!
+
+8:29 - Unidentified Speaker
+Ciao!
+
+8:29 - Unidentified Speaker
+Eccoci!
+
+8:30 - Conference Room (Stefania Solidoro) - Speaker 1
+Ah, ci sei solo tu, ok! Pensavo che ci fosse anche Andrea. Allora...
+
+8:36 - Carlo Sanvoisin
+Perché poi alla fine oggi essenzialmente vediamo soprattutto la parte di compilatore, poi ci diamo dei piccoli update, diciamo, mi sono segnato delle cose. E ti direi... Aspetta, mi segnalo io, sennò me ne dimentico sicuramente. Allora, primo punto, ci dicevamo una volta ritornati operativi a settembre di fare una call con I commerciali e con Giovanna e Antonio in cui ci diamo l'ok finale sul perimetro di progetto del compilatore ed è un po' un momento di validazione di quella che sarà eh la soluzione che vogliamo sviluppare in maniera tale che una volta che loro dicono ok eh siamo d'accordo tutti quanti sul perimetro di progetto parte ufficialmente la fase di sviluppo detto che ehm I ragazzi hanno lavorato eh del di agosto e hanno già fatto eh delle proof of concept per testare soprattutto la parte di classificazioni che non so se ti ricordi era quella più complessa in cui bisognava prendere le informazioni dei pdf non sempre si si chiamano nello stesso modo nomenclature diverse e abbiamo ottenuto degli ottimi risultati quindi obiettivo della col sarebbe mi confermi scusa ti faccio subito la domanda che mi sta a cuore mi conferma che perché quello che manca sostanzialmente è il file con le indicazioni per le caratteristiche estese dei prodotti, l'ordine, quello che manca, giusto?
+
+10:31 - Conference Room (Stefania Solidoro) - Speaker 1
+Sì, e delle altre piccole cose che mi sono segnato. Allora, io e Marta a ritorno siamo perfettamente consapevoli che avremmo dovuto riprendere questo lavoro, ma come puoi immaginare siamo il 3 settembre e ogni giorno ci diciamo anche oggi. Ogni giorno ci diciamo allora pomeriggio vediamo quello.
+
+10:55 - Carlo Sanvoisin
+Ti capisco perfettamente, ogni volta ti dico adesso faccio questo lavoro sull'analisi, orca in serie.
+
+11:04 - Conference Room (Stefania Solidoro) - Speaker 1
+A questo punto visto che questa settimana è andata e magari uno l'approccia per riprendere confidenza, secondo me se ancora tutta la prossima ce la dobbiamo prendere però lasciami dire questi lavori possono andare in parallelo nel senso scusa no scusami non badare mai il mio tono molto assertiva non è quello che dobbiamo far approvare proprio quello quindi se io non ho completo non ti basta dici e fa vedere un esempio per categoria.
+
+11:46 - Carlo Sanvoisin
+Tu dici che loro devono approvare proprio tu tutte le tipologie di descrizioni per come l'avete standardizzate voi?
+
+11:52 - Conference Room (Stefania Solidoro) - Speaker 1
+Sì non ti dico di entrare nel dettaglio del trita rifiuti che non gliene frega niente a nessuno ma le mato categorie principali Olivia e noi ce le dobbiamo avere pronte tutte. Gli viene un dubbio ma questo come pensate quindi di farlo? Cosa cambia? Perché ma sai perché te lo dico? Perché lavoro magari vengono già in mente delle domande a me e Marta che possiamo segnarci e poi dargli in evidenza durante quel anno. Noi l'abbiamo pensato così, o preferite cosa?
+
+12:26 - Carlo Sanvoisin
+Però allora permettimi di dire, io la call la intendevo di più alto livello, nel senso se dobbiamo stare lì a vedere ogni singola descrizione e su quello c'è una discussione allora.
+
+12:41 - Conference Room (Stefania Solidoro) - Speaker 1
+Scusa, io ti avevo detto, non serve una call list, io avrevo bisogno di te presente per anche dare evidenza della... In questo caso sento di aver bisogno, penso che sia necessario una riunione in presenza su questo. Secondo te è fattibile?
+
+13:08 - Carlo Sanvoisin
+Dove entrare? È fattibile, però il mio consiglio è prima condivideteglielo, il file. Non ci danno, no, no, no. Ah, non ce l'hanno preparato, dobbiamo fare insieme.
+
+13:19 - Conference Room (Stefania Solidoro) - Speaker 1
+No, ma nel senso sono file complessi che, se lo mando, non lo guarda, o se anche facciamo la condivisione interna, cioè, la, il, quell'ora di riunione è più fruttuosa e magari, eh, o aiuti, serve l'elemento esterno, perché oppure su alcune cose magari poi entriamo troppo, allora tu ci riporti dite guarda tanto questa cosa magari così nel dettaglio non riusciremo a farle così inizia a rendere un po' tutti consapevoli fino a che punto possiamo arrivare perché se ti ricordi posso riaprirlo un attimo per rientrare questo punto perché tanto è quello centrale allora siamo bene o male, sul resto dei requisiti siamo tutti quanti d'accordo.
+
+14:08 - Carlo Sanvoisin
+Tu vuoi entrare nel dettaglio della parte di descrizioni tecniche con I referenti commerciali?
+
+14:15 - Conference Room (Stefania Solidoro) - Speaker 1
+Eh sì, perché il resto è già stato tutto condiviso, cioè che le cose vadano classificate in quel modo. Abbiamo fatto giunioni precedenti dove già so che sono accordati. Sul nostro dovendo standardizzare un qualcosa che finora è stato non è stato di fatto certo perché è stato fatto in maniera manuale è stato fatto un po' anche in momenti diversi è più difficile ci resta da fare questo questo lavoro che aspetta materiale di ente fammi vedere un po' dove stanno regole di trasformazione e Aspetta che ti condivido così mi guidi anche un attimo a farmi rientrare in questo fantastico mondo.
+
+15:08 - Carlo Sanvoisin
+Però dai, c'è una buona notizia che l'altra parte più agente AI, quindi non algoritmica ma lasciata in mano l'agente, quella di classificazioni, funziona, che era una cosa sulla quale avevamo paura perché abbiamo fatto un testo con un frigorifero e ha categorizzato tutto bene, quindi per esempio l'ha messo nella categoria freddo, ma non è che nella scala tecnica ci fosse scritto freddo, quello è un nome che avete dato voi, quindi la gente è stato bravo nel dare la categoria giusta, poi ha ripreso le misure, ma hanno detto che il problema principale principale sarà sui colori, perché alcuni colori, cioè, fra virgolette, voi vi siete dati quella nomenclatura, esempio, nero opaco. Non c'è scritto nella scheda tecnica che quel nero è un nero opaco, quindi la gente non sa proprio come definire se quello è un nero lucido, un nero opaco, eccetera eccetera. Quindi alla fine della fiera probabilmente la cosa più complessa sarà fargli prendere queste varianti di colore che io oggi non so voi come fate a stabilire se un nero è opaco, è lucido, se lo capite dall'immagine, se conoscete il prodotto, eccetera, eccetera.
+
+16:32 - Conference Room (Stefania Solidoro) - Speaker 1
+No, c'è scritto, però più che altro magari mi dirai che uno lo può chiamare black, una volta che c'è scritto black matte e per noi diventa, che ne so, nero opaco, sono alcune trasformazioni, facciamo in questo senso però soprattutto sui frigoriferi ci stanno tanti nomi che effettivamente uniformiamo noi proprio per non dare una e non ti saprei qua davvero non saprei neanche di costruirli e quindi semmai uno di quei campi che resteranno ma lui può dare un'indicazione che sarà secondo me giusta al 70 per cento delle volte perché comunque vedete se c'è scritto rosso maggiè lui riporta rosso magenta se voi rosso magenta lo chiamate eh porpora eh chiaramente eh da questa trasformazione lo dovete la dovete fare voi però lui di base l'informazione sul colore la riporta è che se se nella scheda tecnica è scritto o col nome che gli dà il fornitore difficilmente poi riusciamo a dargli una categorizzazione Ti faccio l'esempio, adesso ci so, sono arrivata, Toto ha seguito, ma nel frattempo sono anche arrivata a rivedere qui. Quindi siamo sui frigoriferi, ad esempio, no? Frigoriferi, questa che unitè, unit free. Allora, frigoriferi, noi la cosa che abbiamo scritto è classe energetica, capacità netta totale, sistema di raffreddamento, raggruppamento normale, display indicazioni su reversibilità porta, lascia riga vuota di separazione prima e dopo le dimensioni. Va bene. In realtà se vado a vedere un esempio, qui c'è ad esempio Cool Switch, è possibile settare la temperatura da più 4 o meno 18 trasformandolo in frigorifero, cioè questo frigo ha un'area che si chiama Cool Switch, sarà un cassetto adesso questo esempio, piuttosto che due scomparti. Ma questo sarebbe corrispondente al sistema di raffreddamento? No, no, no, sistema di raffreddamento è raffreddamento statico, quindi quello che ti voglio dire è che ci sono le famose caratteristiche, ti ricordi inizialmente avevo detto, tutte le altre, riporta le altre caratteristiche, è accettabile. Io su questo perché ti chiedo questo sforzo di farlo anche, non lo faremo ripeto per tutte quante, intanto andremo sulle categorie principali, però o perché viene un qualche idea loro, anche se ripeto la vedo davvero difficile.
+
+19:35 - Carlo Sanvoisin
+E no, perché è sempre lo stesso problema, c'è altre caratteristiche, siccome nel pdf ce ne sono 50 di caratteristiche, se non gli diciamo esattamente qual è caso per caso, lui potrebbe scrivere qualsiasi cosa.
+
+19:51 - Conference Room (Stefania Solidoro) - Speaker 1
+Adesso te la dico perché te la devo dire, ma magari ti viene qualche idea. Ma secondo te ci potrebbe essere nella Quando io sto leggendo una descrizione, l'avere l'anteprima della scheda, perché l'operatore anche per andare a integrarlo e fare un copia e incolla, no? In questa descrizione, dovrebbe avere accanto a quel codice il pdf. Lo so che noi finora non l'abbiamo contemplato, vabbè. Uno, la prima ma è fattibile che ti estrapola tutto quello che c'è scritto? Poi no, quello che c'è scritto già mi rispondo da sola, magari tu mi dici sì, tutto il testo posso dire a lei di portarmelo in una casella di testo unico di seguito, giusto per una base dove io parto col programma.
+
+20:48 - Carlo Sanvoisin
+Sì, è la prima cosa che avevo pensato.
+
+20:51 - Conference Room (Stefania Solidoro) - Speaker 1
+E questa è una. Segnate un attimo ti dico anche l'altra. Potrebbe non essere esaustiva questa, perché invece le mettono come icone alcune cose quindi se invece avessi il pdf che ce l'ho già capito cioè non devo riaprire un'altra cartella andare cerca il coso mi sto immaginando la griglia una volta che c'ho nell'interfaccia io c'è il codice secondo me può essere un doppio click l'iconicino del pdf che me l'apro guardo e vedo bene questa c'ha questo c'ho il pdf aperto posso anche fare copia e colla di alcune caratteristiche e me le metto nel mezzo.
+
+21:30 - Carlo Sanvoisin
+Allora ti dico, se ho capito come hanno strutturato già la base di strumento, che poi conoscerai anche Simone, che è l'altro collaboratore che si occupa dello sviluppo insieme a Federico, da quello che ho capito loro, nel momento in cui tu vuoi modificare una riga, clicchi sulla riga e ti apre un pannello che è dedicato a quel prodotto. E c'hai la possibilità di scrivere te.
+
+21:58 - Conference Room (Stefania Solidoro) - Speaker 1
+Come? Mi perdoni un secondo solo che tanto c'è Marsa qua accanto voglio... È importante su questo punto perché così... Marsa, puoi approcciarmi un secondo? Perché pensavamo, dobbiamo... È arrivato il momento, diciamo, tra questa adesso ci diamo la scadenza, finire di completare il famoso file delle descrizioni estese. Per riprendergli, perché stavo ribadendo, ci sei Carlo? Sì, sì, sì.
+
+22:33 - Carlo Sanvoisin
+Eccoci, buongiorno.
+
+22:34 - Conference Room (Stefania Solidoro) - Speaker 2
+Ciao Marta.
+
+22:35 - Conference Room (Stefania Solidoro) - Speaker 1
+Ribadendo a Carlo che secondo me è importante che poi l'approvazione da parte dei commerciali, l'approvazione a noi serve soprattutto su questo discorso dell'ordine delle caratteristiche, perché tutto il resto, le classificazioni, sono già state provate recentemente. Su questo il tema è dare evidenza anche a loro o capire come gestire poi noi il fatto che qui noi siamo stati in grado di ordinare le caratteristiche principali facilmente identificabili, ma questo è un esempio, il fatto che abbia una zona con switch, che abbia due scomparti o qualsiasi altra caratteristica, non possiamo darlo all'intelligenza artificiale. Stavo chiedendo a Carlo, dico ma se noi abbiamo la possibilità di avere tipo l'iconcina della scheda, non conto che tu sei sulla griglia, clicchi, la scheda prodotto ti si apre e magari fai copia e incolla dei prezzi e comunque una per velocizzare il lavoro.
+
+23:31 - Carlo Sanvoisin
+E Carlo mi stava rispondendo, vai. Sì, che praticamente il pannello per modificare le informazioni di un prodotto, da quello che ho inteso per come hanno costruito lo strumento ad oggi, funziona così. Tu hai tutta la tabella con tutte quante le righe, ogni riga un prodotto diverso. Clicchi sulla riga ti si apre un pannello che ha quindi tutti I vari campi sistemati da codice gamma fino a descrizione tecnica scritta per esteso di quell'articolo e a questo punto siccome comunque c'è l'associazione fra scheda tecnica immagine e prodotto io posso provare a proporre a Federico di inserire in quel pannello anche la fonte campo fonte o campo scheda tecnica così che tu clicchi sopra, ti si apre il pdf e ti rimane su una pagina il pdf e su una pagina la schermata diciamo di quel prodotto. Quindi eventualmente tu ti copi la funzione extra, la aggiungi, salvi e poi ritorni sulla griglia riga per riga e continui il tuo check.
+
+24:41 - Conference Room (Stefania Solidoro) - Speaker 1
+Questo io lo posso proporre.
+
+24:44 - Carlo Sanvoisin
+prodotto che abbiamo detto tanto essenziale perché devo capire se allora se loro non l'avevano preventivato e avevano messo questa lettura della scheda tecnica solamente in back andarlo a inserire chiaramente nel front end dove voi potete cliccare visualizzare e modificare sarebbe un requisito in più. E ti dico, già sono sovraccarichi, cioè già mi sono un po' lamentati della quantità di requisiti.
+
+25:19 - Conference Room (Stefania Solidoro) - Speaker 1
+Per passarli e caricarli il passaggio preventivo lo dobbiamo aver fatto, nel senso che abbiamo comunque creato, abbiamo fatto un upload, quindi esisterà una cartella dove ci sono tutti I pdf corrispondenti all'excel, questa è la premessa, quindi noi diciamo ce l'abbiamo quella, quindi però un conto è, rivai, tu stai lavorando lì, un conto è su quella riga, ripeto, quindi io la domanda la farei, poi se provo a chiudere...
+
+25:51 - Carlo Sanvoisin
+Si, ma è chiaro, poi Federico potrebbe dire, guarda te lo includo, oppure mi dice, guarda, siamo già obberati di lavoro su questo progetto, ti devo chiedere un'integrazione per aggiungerti questa cosa, quindi io chiaramente provo a vedere se In un modo o nell'altro, gliela riesco a mettere come una cosa che già c'eravamo più o meno messi d'accordo. Vediamo come risponde. Non posso neanche tirare troppo la corda perché c'è tanto, tanto sviluppo dietro questo strumento rispetto, insomma, a quello che è il budget, ce lo possiamo dire chiaramente. È un bello strumento. Comunque va bene dai ci proviamo.
+
+26:38 - Conference Room (Stefania Solidoro) - Speaker 1
+Allora libero Marta dicendo e penso sarei d'accordo anche sul fatto che è inutile che ce la vediamo io e te con un commerciale anche se organizziamo una colle, non seguirci su questo. Chiedevo lo sforzo a Carlo di venire lui un'ora, due ore, quello che ci verrà, ci vorrà in presenza. Adesso capiamo un attimo se potrebbe essere ad esempio Il 15 c'è la cosa con Renato. Devo capire con Renato. Vabbè, male che vada, Renato è uno che anche da remoto segue. Mi preme avere, diciamo, fisicamente in presenza Alessandra e anche Roberto, comunque una volta che sta qui. Non dobbiamo andare, credo, oltre al 16, se ho capito bene quello che stavi dal tono da come era partita la chiamata. Giusto Carlo?
+
+27:33 - Carlo Sanvoisin
+Ma dipende da voi nel senso quanto più avete fretta di vedere questo strumento prendere forma quanto più anticipiamo e facciamo partire I sviluppi ufficialmente. Chiaramente loro ad oggi hanno costruito queste cosiddette POC però lo sviluppo dello strumento vero e proprio lo cominciano a fare nel momento in cui c'è un ok generale sul progetto e sui requisiti da parte del team. Insomma, di progetto, altrimenti rischiamo di fare doppio lavoro.
+
+28:07 - Conference Room (Stefania Solidoro) - Speaker 1
+Io scrivo ipotesi, presentazione e approvazione, perimetro, come lo chiami tu, perimetro di progetto a commerciali, ovviamente Giovanna e Antonio poi si vorranno partecipare, Giovanna sicuramente è proprietà, Settimana. Il 16 c'è l'evento, il 16 c'è l'evento.
+
+28:34 - Carlo Sanvoisin
+Che poi è la sera, quindi il 17 pure è bloccato. Io ti direi o il 18 o il 19.
+
+28:46 - Unidentified Speaker
+Eh sì. Il 19.
+
+28:48 - Carlo Sanvoisin
+Anche comunque a voi serve tempo per rifinire tutta questa parte. Nel mentre siccome loro la POC l'hanno fatta sulla parte di classificazioni, provo a dirgli se vogliono fare questo stesso lavoro sulla parte di descrizioni, così che verifichiamo anche com'è un output creato dalla gente. Con questi casi già fatti. Infatti, I casi che già avete messo dentro io provo a dirgli di fare il test su quello e nel parlarci gli dico anche questa cosa, anzi fammela segnare questa, di poter visualizzare pdf da front-end. Visualizzare pdf scheda prodotto da front-end tra parentesi così operatore può modificare la descrizione tecnica facilmente.
+
+29:52 - Conference Room (Stefania Solidoro) - Speaker 1
+Tu ti hai disegnato delle altre domande, puoi dire le altre cose che mancano così facciamo il testo insieme?
+
+30:02 - Carlo Sanvoisin
+Assolutamente, più test aspettano in società, descrizioni e poca. Ok, allora sì, innanzitutto I file import. Ho visto un po' di file import e non mi tornava tantissimo la struttura, perché che cosa ci siamo detti noi all'inizio questo progetto.
+
+30:22 - Carlo Sanvoisin
+Aspetta, sono tutti quegli importi tanto sto condividendo?
+
+30:25 - Carlo Sanvoisin
+Sì, sì, sì, listini cornettoni standardizzati, sarebbero questi. Praticamente, che cosa mi aspetto? Ah, dovevamo rinominarli forse. A parte la rinomina, la rinomina è la parte finale. La cosa che per me è più importante è che, cioè noi siamo tutti quanti d'accordo su come deve funzionare questo strumento, ovvero ci sono delle colonne che avranno tutti quanti I fornitori e che sono ehm necessarie per operare le trasformazioni di dati e quelle colonne devono sempre essere presenti. Poi ci sono delle colonne che alcuni fornitori hanno e altri no e comunque per quei fornitori dove le abbiamo sono utili e quindi devono essere incluse. In quel caso I fornitori che ce l'hanno avranno la colonna con il valore. I fornitori che non ce l'hanno però comunque devono avere quell'intestazione e magari avere valore nullo. Aspetta un secondo, aspetta, aspetta.
+
+31:23 - Conference Room (Stefania Solidoro) - Speaker 1
+Non l'ha distratto, non l'ha chiamato come tiene. Va, vediamo un esempio concreto, te lo sei segnato?
+
+31:29 - Carlo Sanvoisin
+Ma, guarda, basta che ne apri uno qualsiasi, cioè per me il punto qui qual è...
+
+31:35 - Conference Room (Stefania Solidoro) - Speaker 1
+Ah, abbiamo POSC e APROCN, aspetta.
+
+31:37 - Carlo Sanvoisin
+Allora, qual è il punto che voglio segnalare, cioè io qui quando entro dentro questi listini ho bisogno di vedere anche in ordine diverso ma sempre le stesse colonne perché lo strumento funzionerà con quelle colonne lì quindi lo strumento legge l'intestazione e deve leggere sempre codice marca codice famiglia codice articolo fornitore alias barcode descrizione modello possono essere in ordini diversi ma devono riportare sempre lo stesso nome e devono essere sempre le stesse no però sì però vedi qua ci abbiamo per esempio settori gamma No, questo però non ce l'avevamo detto di pulirli eh, o di aggiungerli sugli altri, è follia ovviamente, diventa... Allora aspetta, dobbiamo avere, quello che noi ci siamo detti è che I file che noi importiamo devono avere la stessa, I stessi nomi colonna, però che possono essere in ordine diverso, questo non è importante l'ordine, però I nomi delle colonne devono essere sempre gli stessi.
+
+32:43 - Unidentified Speaker
+Aspetta.
+
+32:44 - Conference Room (Stefania Solidoro) - Speaker 1
+Ah, forse questi sono... Aspetta, aspetta. No, non mi convincere.
+
+32:50 - Carlo Sanvoisin
+Non m'hai convinto.
+
+32:51 - Conference Room (Stefania Solidoro) - Speaker 1
+Allora, questi sono uguali. Aspetta.
+
+32:54 - Carlo Sanvoisin
+Ma ci sono colonne dove c'è scritto Vedi Regola per Altezza.
+
+33:00 - Conference Room (Stefania Solidoro) - Speaker 1
+Aspetta, aspetta. Codice articolo fornitore dove sta? Eccolo qua. Questo, Questa è la descrizione del modello per import contro l'X.
+
+33:34 - Conference Room (Stefania Solidoro) - Speaker 2
+risponde a questo.
+
+33:36 - Conference Room (Stefania Solidoro) - Speaker 1
+Aspetta, forse manca il volume, qua ci dovrebbe essere in quello nostro origine, vado a prendere un attimo.
+
+33:45 - Carlo Sanvoisin
+C'è anche questo listino V che c'ha dei prezzi, l'ho visto in alcuni listini e mi chiedevo come mai, cioè nel senso c'eravamo detti che I prezzi in questa prima fase non erano da conoscere.
+
+34:02 - Conference Room (Stefania Solidoro) - Speaker 1
+Questo è un punto importante. Aspetta un secondo, però, non andare... Vai, vai, vai. Rallento un attimo io, perché non riesco ad andare io veloce. Mi sono rimasti un attimo questi due campi. Fammi aprire sempre quello che è il modello.
+
+34:20 - Carlo Sanvoisin
+Dove sta il modello? Ricordami un attimo. Il modello...
+
+34:24 - Carlo Sanvoisin
+Ah, dentro il requirement log.
+
+34:26 - Conference Room (Stefania Solidoro) - Speaker 1
+No, no, no, sta qui.
+
+34:28 - Carlo Sanvoisin
+L'ho rimesso anche lì dentro.
+
+34:31 - Conference Room (Stefania Solidoro) - Speaker 1
+devo spostare sto coso sta qua ed è quello uguale per tutti I cognitori voglio vedere un secondo solo sulla colonna peso è come sì ecco la volume guarda l'unico che non sta scritto bene lì, ma nello specifico su cm è scappato il volume, questo si doveva chiamare così. Anche se non si sa se è il volume comunque dell'imballo o il volume comunque netto del singolo prodotto, capito?
+
+35:16 - Conference Room (Stefania Solidoro) - Speaker 2
+Quindi ecco perché non lo misi all'epoca, perché non sapevo se effettivamente su cm loro intendono per volume il volume perché noi parliamo dell'imballo, chiaramente in questo senso, quindi anche qui bisogna avere chiarezza dal fornitore eventualmente.
+
+35:34 - Conference Room (Stefania Solidoro) - Speaker 1
+Sì, però mettiamo il caso, mettiamo il caso corretto. Oppure, questo me lo lascio aperto di riferimento, ritorno su quest'esempio che stavamo vedendo. Quello che voglio dire, per assurdo, se qua trovi scritto volume, me lo escludi? Cioè non si chiama per me il modello è quello lì che abbiamo visto prima. Vanno qui inseriti. E che devo cercarmi nel PDF e non ce li ho nell'Excel?
+
+36:06 - Carlo Sanvoisin
+Sì, quello che non trovi nell'Excel vai a cercare nel PDF, questo senza dubbio. Allora, ne devo parlare con Federico perché lui inizialmente, e l'avevamo anche scritto nel requirement log, di fatti, aveva chiesto di avere sempre le stesse colonne, quindi di non avere colonne extra, quindi quelle colonne che non sono utili per la compilazione, di cancellarle.
+
+36:30 - Conference Room (Stefania Solidoro) - Speaker 1
+Siamo due a due, io e Marta ci abbiamo mai detto il fatto delle colonne, anzi mi ricordo proprio che Federico ha detto, ti ha cambiato le carte in tavola perché si è reso conto che è un problema o è un altro conto, però aspetta che ti guardo.
+
+36:46 - Carlo Sanvoisin
+No, ma l'abbiamo scritto anche nel requirement log.
+
+36:49 - Conference Room (Stefania Solidoro) - Speaker 1
+più e condividimelo e fammelo vedere adesso dove stava scritto però il fatto che le colonne in più che non erano quelle nominate con I nomi dei campi non c'era problema di lasciarle. L'importante è che I campi che devo andare a leggere saranno solo quelli che si chiamano nello stesso. Allora vediamo.
+
+37:13 - Carlo Sanvoisin
+Guarda un attimo.
+
+37:14 - Carlo Sanvoisin
+Posso anche ridiscuterla con Federico questo proprio non sarà la cosa più, diciamo, che sposta la bilancia. Allora... Vediamo un attimo, import.
+
+37:39 - Unidentified Speaker
+Comunque, a prescindere questo io lo devo chiedere.
+
+37:47 - Conference Room (Stefania Solidoro) - Speaker 1
+Ma noi li abbiamo anche visti insieme, proprio questi file. Qui stavo vedendo, vedi...
+
+38:03 - Conference Room (Stefania Solidoro) - Speaker 2
+divisi le tre dimensioni su stelle diverse.
+
+38:06 - Conference Room (Stefania Solidoro) - Speaker 1
+C'è solo una cosa che mi ricordo, forse su questo ti posso dire che potrebbe non essere stato completato il discorso, perché eravamo ridosso delle ferie e quindi un campo così, se non sbaglio, ha detto che dobbiamo aver fatto derinominarli effettivamente.
+
+38:23 - Conference Room (Stefania Solidoro) - Speaker 2
+Io ho tanti campi derinominati, però mi sembra di aver lasciato in arancione I campi su cui non avevo della certezza.
+
+38:32 - Conference Room (Stefania Solidoro) - Speaker 1
+Allora, ecco, vediamo, guardiamo, guardiamone anche, cioè, magari se riguarda Marta, allora, prima ancora delle cose, delle descrizioni dove ha lasciato l'arancione, ti chiama proprio e ti dice adesso vediamo questo caso specifico.
+
+38:47 - Carlo Sanvoisin
+Allora, facciamo così, io mi allineo con Federico per capire se possiamo dire allo strumento di tenere conto solo le colonne nominate nel seguente modo. E ci mettiamo quelle dieci, dodici, quindici colonne che c'hanno l'intestazione standard. Qualsiasi altra cosa lui non trova. Che sono queste.
+
+39:07 - Conference Room (Stefania Solidoro) - Speaker 1
+Che sono. Che poi non sono proprio quelle Stefania.
+
+39:11 - Carlo Sanvoisin
+Adesso a parte non stai condividendo. Immagino che tu ti riferisci.
+
+39:15 - Conference Room (Stefania Solidoro) - Speaker 1
+Aspetta, aspetta, aspetta, aspetta. No, arrivo.
+
+39:18 - Carlo Sanvoisin
+Capito quale intendi. Però facciamo un attimo chiarezza su questo. Qui noi abbiamo il l'output. Non è detto che sono le stesse colonne in input. Cioè sono le colonne in output. Di queste colonne in output per ogni colonna c'è una regola su un'informazione che deve riprendere da un'informazione in input che sia nell'Excel o che sia nella scheda tecnica.
+
+39:40 - Conference Room (Stefania Solidoro) - Speaker 1
+Questa si chiama, se devo riportare qua dentro esattamente un campo del file di input, la colonna, l'intestazione di quella colonna nel file di input si chiamerà alias, se deve essere identica.
+
+39:52 - Conference Room (Stefania Solidoro) - Speaker 1
+Sì, questo senza dubbio.
+
+39:53 - Carlo Sanvoisin
+Quello che stavo dicendo è, non è che perché noi non è che nel file Excel di input abbiamo già tutte queste colonne perché se no era già fatto il lavoro e questo volevo dire quindi io immagino cioè quello che vorrei vedere quando apro quei file di import oltre al fatto di rinominarli magari in maniera un pochino più leggibile di vedere subito a colpo d'occhio sempre quelle stesse colonne nominate nello stesso modo con lo stesso format quindi anche per dire la prima lettera è maiuscola le altre sono sempre nello stesso modo e da una parte descrizione tecnica esatto nello stesso modo però per esempio ecco descrizione modello trattino basso x import la volete tenere così?
+
+40:38 - Conference Room (Stefania Solidoro) - Speaker 1
+Si no mica la possiamo cambiare che mi fai richiamare a spendere altri soldi tutto il sistema per eh cioè questo si chiama così sul tracciato è così però il tracciato è sempre l'output.
+
+40:54 - Carlo Sanvoisin
+L'output, ok, va benissimo, lo chiamiamo così, ma in input, quando il fornitore dimanda il suo listino, mica ce l'hai chiamata così la colonna, o sì?
+
+41:03 - Conference Room (Stefania Solidoro) - Speaker 1
+No, ce l'hai chiamata, ognuno la chiama in un modo diverso, dovendo te l'uniformare, non stava uniformato.
+
+41:08 - Carlo Sanvoisin
+Se tu lo vuoi uniformare e gli vuoi dare lo stesso nome, certo è bruttissimo come nome di colonna, però va bene, ok, perché se tu al modello gli dici la regola è descrizione modello X input, è lo stesso valore di descrizione modello, tu la colonna la puoi chiamare descrizione modello, non so se mi sono spiegato però è uguale.
+
+41:32 - Conference Room (Stefania Solidoro) - Speaker 1
+Questa è una scelta vostra nel senso su questo se per capirlo anche meglio la vogliamo chiamare allora a questo punto direttamente modello via Federico lo sappiamo.
+
+41:44 - Carlo Sanvoisin
+Qui dentro la regola diventa il campo descrizione modello trattino basso x in import è uguale al valore della colonna modello nel file di input. Perché io li vedevo così e mi sembrava un po' strano vedere un nome colonna del genere considerato che era il file del fornitore.
+
+42:07 - Conference Room (Stefania Solidoro) - Speaker 1
+Loro lo chiamano codice per dirti. Nel file input questa colonna si chiama codice.
+
+42:14 - Carlo Sanvoisin
+Tanto la regola è la stessa, cambierà il del parametro. E' esattamente uguale. L'importante è che ci siamo chiariti su come deve essere l'output finale. Poi, per esempio, vedi, avevo visto questi qua in arancione e mi ero chiesto come mai...
+
+42:30 - Conference Room (Stefania Solidoro) - Speaker 1
+Aspetta, diciamoci un attimo questi perché era rimasta la domanda che non c'è stata poi modo di farlo. Allora, nel file di input loro ce lo danno così. Allora, io ho messo arancione, aspetta, l'arancione c'era nella leggenda questa, aspetta... Per segnalare comunque l'anomalia. Come la gestiamo questa?
+
+42:50 - Conference Room (Stefania Solidoro) - Speaker 2
+In teoria sul file che io uso per fare poi le importazioni sono tre celle diverse delle dimensioni. C'è una cella per la larghezza, una per l'altezza e una per la profondità. E spesso I volenti agricornitori ci danno una casella unica con tutte tre dimensioni insieme.
+
+43:15 - Conference Room (Stefania Solidoro) - Speaker 2
+Ecco perché ho del dubbio in merito.
+
+43:20 - Unidentified Speaker
+Ho capito.
+
+43:21 - Carlo Sanvoisin
+Diventerebbe una doppia regola per lo strumento, cioè se trovi colonna altezza, colonna lunghezza, colonna volume. Scusa, guardiamo questa del RAE.
+
+43:37 - Conference Room (Stefania Solidoro) - Speaker 1
+Con RAE, come ci siamo ci siamo detti, in realtà il RAE non glielo passiamo noi con questo, ma glielo passiamo con la regola, con quest'altro. Così facciamo un ripasso, Carlo. Quindi, di fatto, noi il RAE lo passiamo con quest'altro. Quindi, lui si legge l'importo.
+
+44:02 - Carlo Sanvoisin
+E la marca.
+
+44:04 - Conference Room (Stefania Solidoro) - Speaker 1
+Però, lo sai che forse non siamo arrivati a questo di dettaglio con Federico questo pezzo c'è per noi era chiaro come avevamo spiegato ma da quello che mi stai dicendo forse non è chiaro perché io sì questa è la tabella quella delle regole quella che ti ho dato ma io questo valore dove te lo vado a dare te lo vado a dare in questo campo aspetta eh aiuto aiuto da quello che io ho capito colonna B e colonna C di quell'excel prezzi RAE sono due colonne presenti perché sulla base di marca e del prezzo RAE la cui combinazione mi dà un valore univoco di quelle altre due colonne che devono essere create. Allora, questo bisogna stabilire una convenzione. Prezzo RAE. Perché? La chiamiamo prezzo RAE? Ok. Vediamo come si chiama nel file della regola. Costomat. Indifferente. Indifferente.
+
+45:05 - Carlo Sanvoisin
+L'importante è che uguale su tutti quanti I listini e in questo caso, siccome deve essere uguale anche qua, deve essere uguale anche qua.
+
+45:20 - Conference Room (Stefania Solidoro) - Speaker 1
+Quindi a questo punto mettiamo costomat, marca già ce l'abbiamo e in Output invece si devono creare quelle due colonne. Costomat va bene, questo formiamo come formato è così. 378 quindi se io vado costomat non sarà costomat uno di questi campi perché qua dentro non esiste. L'importante è che questa cosa sia chiara. Vedi le regole.
+
+45:52 - Carlo Sanvoisin
+Certo tu hai quei due. Sì sì sì sì.
+
+45:57 - Conference Room (Stefania Solidoro) - Speaker 1
+In quest'altro vado in quest'altro posto e vado a cercare tre euro e vabbè non c'è adesso sì vabbè questo allora se lo senti vuoi un appunto per segnalare quindi rinominare vabbè file, verificare vabbè stanto solo Bosch un secondo solo Carlo c'è l'Iva. Sì. Si pregoni e scegli campi arancioni e campi arancioni Quindi questo l'abbiamo sciolto.
+
+46:31 - Carlo Sanvoisin
+Un'altra cosa che mi viene in mente è che vedo che alcune sono in minuscolo, altre in maiuscolo. Su questo vogliamo dare una formattazione unica?
+
+46:45 - Conference Room (Stefania Solidoro) - Speaker 1
+Abbiamo detto che, ripeto, si chiamano un po' per voi da problemi dell'intelligenza della macchina.
+
+46:53 - Carlo Sanvoisin
+Allora Federico mi chiede sempre di anche il formatting. Adesso non so quanto quanto effettivamente crea I problemi. I campi si chiamano così.
+
+47:03 - Conference Room (Stefania Solidoro) - Speaker 1
+Io non ho mai fatto la prova. Cioè, se ogni volta tu mi dai un output, ho capito che tu dici, magari nel file di input me lo metti tutto maiuscolo e poi io alla macchina dico che nell'output invece deve essere scritto questo.
+
+47:19 - Carlo Sanvoisin
+L'output deve rispettare, l'output deve rispettare assolutamente campi tracciato, punto. No, io sto parlando solo delle coloni dei coloni però a questo punto ha fatto tutto il lavoro questo doveva essere detto prima perché a questo punto Marta si rinomò ad accettare che adesso se li deve ripassare ma a questo punto ti dico tutte queste risposte daccele prima che Marta si ripassa tutto così almeno lo ripassa già alla luce di quello che allora desiderata di Federico va bene detto che sul formatting nel senso se poi dovesse accadere che ci dice no voglio tutto in minuscolo in 15 file, entro, seleziono la prima riga, metto minuscolo, posso fare anche io, ci metto 20 minuti, non è un problema adesso il formatting. Per me la cosa importante è avere su tutti I file in bianco le celle che sono valide per l'import. Se ci sono celle non valide per l'import, come avete fatto, me le segnate in rosso, mi rimane...
+
+48:18 - Conference Room (Stefania Solidoro) - Speaker 1
+Aspetta, aspetta, aspetta, aspetta. Questo nasce così ora come mai il listino... I prezzi di listino, se non ricordo male, aiutami un attimo, l'acquisto abbiamo detto sicuramente no, la vendita sì, stigliamo così e quindi sì, no, questo è giusto. Quindi sì, vabbè, qua è rosso solo perché il rosso è il colore del fornitore, ma se andiamo, fammi vedere un attimo solo una cosa, prendo proprio un fornitore con Vediamo, a Beco probabilmente anche c'è il blu. Sì, aspetta, no, voglio prenderne uno. Oscar, guarda un po'. Aiuto. Perché se abbiamo I colori nominali. Qual è questo? Loro per esempio hanno tutto bianco. Loro hanno tutto bianco, quindi perché pure sta cosa dei colori? Cioè, se la regola... No, no, no, aspetta Stefania, però, aspetta, aspetta.
+
+49:15 - Carlo Sanvoisin
+Noi ci siamo detti che tutte le colonne devono avere eh dobbiamo comunque avere evidenza di quali sono le colonne sulle quali noi lavoriamo giusto?
+
+49:25 - Conference Room (Stefania Solidoro) - Speaker 1
+Quelle che si chiamano come sta scritto qua eh quelle che si chiamano come sta scritto qui quelli che si chiamano diverso non le guardo oso gialle oso verde però no aspetta Stefania già già ce l'abbiamo detta questa cosa queste sono le colonne in output le colonne in input sono un set diverso ma le colonne in input devo considerare solo saranno scritte in questo modo. È una regola da dare. Nei file di input tu considera solo le colonne con intestazioni, con queste intestazioni.
+
+49:55 - Carlo Sanvoisin
+Ecco, con queste intestazioni, però queste io vorrei...
+
+49:58 - Conference Room (Stefania Solidoro) - Speaker 1
+Non ci saranno tutte. Perché visivamente? Mica c'è un essere umano che guarda.
+
+50:03 - Carlo Sanvoisin
+No, però anche per me semplicemente dire a Federico, guarda Fede, presi tutti quanti questi listini, queste sono... Anche avere semplicemente la lista separata da qualche parte, cioè dobbiamo abbiamo ehm avere qual è il set di colonne di partenza poi tutte le altre colonne daremo la regola di ignorarle però almeno quelle di partenza avere una scritta una cosa scritta una cosa colorata qualsiasi informazione che dice queste sono le dodici colonne hanno questi nomi le ritroverai uguali in tutti I file di import dei fornitori tutto il resto escludilo aspetta, no davvero, scusa, perché sennò a volte magari, siccome erano tante le informazioni all'inizio, magari su alcune cose siamo andati, ricominciamo.
+
+50:52 - Conference Room (Stefania Solidoro) - Speaker 1
+Questa frase che hai detto adesso corrisponde a questi, I nomi dei campi, questi sono I possibili campi che potresti trovare. Noi già sappiamo che ne trovi soltanto alcuni, una minima parte perché per gli altri ci sono le altre regole, sia per quelli delle classificazioni, quelle della visibilità, quelle del RAE e quelle del RAE, aspetta, vediamo se ritorno su regole, abbiamo quindi regole per classificazioni, per il fornitore e per il RAE. Quindi il concetto è che Sono questi I campi che devo considerare. Perché devo aggiungere un altro elemento in questo o questo file? Scusa, vado su questo foster. C'è colore, non colore. Questa la prendo. Io, perché adesso la do a memoria, però la macchina. Questa la prendo, questa la prendo e questa non la prendo. Questa la prendo, la prendo, la prendo. La prendo, non la prendo. Non la prendo, ma non perché la vedo in grassetto, perché non sta in quell'elenco.
+
+52:07 - Carlo Sanvoisin
+ok va bene allora possiamo anche sì diciamo che quell'elenco non sarà mai corrispondente al file import perché codice gamma è un qualcosa di vostro non ci sarà mai nel file infatti quello è scritto qui che è questo è scritto qui adesso la riscopro questo era quello uguale per tutti I fornitori l'ho fatto, l'ho cancellato tanto solo copia no non salvo aspetta lo riapro comunque ok però anche semplicemente per scrivere alla regola e se trovi queste colonne tenere conto codice gamma non lo troverà perché di base è stata impostata quest'altra regola sì infatti ecco però vedi già ci sta una cosa codice marca e codice famiglia? Noi ce l'abbiamo in questa riga 2? Non lo so. Dove stai leggendo codice famiglia?
+
+53:10 - Conference Room (Stefania Solidoro) - Speaker 1
+No, no, no, fammi la domanda, aspetta, se io non capisco la domanda non posso risponderti.
+
+53:16 - Carlo Sanvoisin
+No, è che ci stiamo complicando la vita. Quello che sto chiedendo è solo la lista standardizzata di solo le colonne che devono essere considerate per fare I calcoli algoritmici. Senza che io a memoria devo dire, ok, codice articolo no, codice fornitore sì, alias sì, articolo fornitore oddio non sono sicuro, cioè prendiamo questa lista di colonne la più estesa.
+
+53:39 - Conference Room (Stefania Solidoro) - Speaker 1
+Sono le verdi, le avevamo individuate con il colore verde che non capisco infatti perché qui non ci sia scritto pure il verde, ah perché avevamo messo le regole altre, questo infatti il nome del file era regole campi tracciato import uguali per tutti I fornitori.
+
+53:56 - Carlo Sanvoisin
+Sì ma non è necessariamente vero che sono le verdi per che alias per esempio lo potrei trovare, descrizione modello.
+
+54:06 - Conference Room (Stefania Solidoro) - Speaker 1
+Vado e vedi regola fornitore nella regola fornitore nella regola fornitore nella regola fornitore in base al fornitore c'è scritto che devi inserire nell'alias per quel fornitore il codice articolo fornitore questo qua che trova nel file import.
+
+54:29 - Carlo Sanvoisin
+Però capisci che così è molto architettoso, cioè nel senso già lo state facendo il lavoro su quei file di import, di razionalizzazione.
+
+54:37 - Conference Room (Stefania Solidoro) - Speaker 1
+Ma l'abbiamo fatto insieme, l'abbiamo costruito insieme così, non me lo smontare adesso.
+
+54:41 - Carlo Sanvoisin
+Ma non ti smonto niente, quello va benissimo per impostare le successive regole e quello che ti sto dicendo, avere solo la... Quando io apro un listino fornitore, qualsiasi esso sia, vorrei vedere la lista delle colonne corrette, poi che ci sono tutte le altre che io andrò a a fare discard cioè che non mi interessano adesso lo vedo con con Federico non dovrebbe essere un problema però intanto voglio avere questa lista base per dire al mio modello tutte le colonne dal dalla uno alla dieci eh che ti sto dicendo esattamente I nomi considerale qualsiasi cosa che non riporta questo nome nell'intestazione non lo considerare. Oppure no. Ok. Certo. Descrizione modello.
+
+55:25 - Conference Room (Stefania Solidoro) - Speaker 1
+Questo qua che stiamo vedendo adesso, aspetta che lo chiudo senza salvarlo e lo riapro. Allora, ah che cavolo, vabbè questa la cancelliamo, tanto era soltanto. Facciamo un bel cancello. Eccoci, questo fai così, al di là dell'arancione che ancora non ho capito, ma ci diciamo come sciogliere, è che è l'unico arancione rimasto, questa così va bene?
+
+56:04 - Carlo Sanvoisin
+Va bene, però mi serve l'indicazione di quelle che devo dire al modello che sono quelle da considerare in maniera tale che puoi escludere tutte le altre. Non puoi fare sì ma a parte che qua dentro ci sono delle cose in più cioè perché gli dovrei dire se trovi codice gamma che non lo troverà mai codice gamma cioè mi chiedo anche qual è lo in questo caso lo sforzo nel senso ce l'abbiamo già qui sono queste ma datemi solo un'indicazione di quali sì e quali no e io a Federico gli dirò ok per la regola di esclusione usa queste qui. Punto.
+
+56:53 - Conference Room (Stefania Solidoro) - Speaker 1
+Però non mi dispiace davvero non ti sto accadendo perché ti devo dire escludi quelle rosse vuol dire che tutti su tutti I merchi ti devo fare per dirti quelle rosse così non posso dirti quelle che non mi basta solo il set delle bianche per capirci non sono quelle bianche.
+
+57:14 - Carlo Sanvoisin
+momento.
+
+57:14 - Conference Room (Stefania Solidoro) - Speaker 1
+Ma in Bosch ce l'avrà questo set, un altro fornitore ce l'avrà...
+
+57:19 - Carlo Sanvoisin
+E se lui non la trova quella, se non la trova la colonna, va a prendere l'informazione dalla scheda prodotto, però intanto io escluso tutto il resto.
+
+57:30 - Conference Room (Stefania Solidoro) - Speaker 1
+No, non ci siamo capiti. Perché? Allora, perché io insisto a dirti che, magari sto sbagliando, adesso ci arriviamo alla regola, però perché insisto a dirti, dagliele tutti. L'uno che non gli puoi dare è questo, va bene, sono d'accordo con te. Non gli dai il codice gamma perché quello non ci sarà mai nel file input. Tutte le altre gliele puoi dare. Allora, se sono tutte le altre... Sì, sono tutte le altre. Ti spiego perché. Perché tutte le altre, tranne queste rosse qua, vabbè che le abbiamo detto di escludere, si potrebbe togliere questo, decidiamo allora quale togliere di queste sono d'accordo con te però decidiamo quale togliere al contrario però decidiamo allora da qua perché è vero che qua alias però si io ti rimando alla regola ma siccome se alias esattamente il fornitore già me lo dà il campo io chiamo alias ma te lo chiamiamo così nel file excel è inutile che ti rimando un'altra regola eccetera ma certo se non lo trovo allora se non lo trovi che perché quella colonna non c'è allora lui andrà. La sua regola è vado in scheda tecnica e cerco No, no, no, non è, non vado in scheda tecnica, cerchiamo, ricominciamo, serviva questo ribasso. Se non la trovo, se non la trovo, ci sono, se esiste vabbè sì, ci sono tante regole diverse, un modello, colore, questo che è fornitore alias vediamo quali campi ci stanno qua dentro quindi se il campo alias aspetta qui ecco qua io ho dato le regole per marca e famiglia abbiamo dato le regole per codice fornito codice fornitore alias descrizione modello per import Quindi se io non troverò nel file di input, non troverò codice fornitore, praticamente mai, non trovo alias e non trovo descrizione modello per import, so che devo andare ad agire secondo queste regole. Queste regole qui sono chiare. Se lo trovo lo prendo direttamente La regola principale è quella, tipo gerarchia, se lo trovi in file di import lo metti, se non lo trovi utilizzi le regole secondarie. Quindi tu mi stai dicendo a questo punto dobbiamo definirci di questi campi quali dobbiamo dire se trovi questi campi, tieni questi, tutto il resto non li considera.
+
+1:00:44 - Carlo Sanvoisin
+Tutto il resto non lo considerare. Questa è la regola per l'import, quindi è la regola base per l'import.
+
+1:00:53 - Conference Room (Stefania Solidoro) - Speaker 1
+Colorateli come ti pare, indicateli come ti pare, come lo vogliamo fare.
+
+1:00:58 - Carlo Sanvoisin
+mi metti in grigio quelli da escludere in maniera tale che io do questa regola per l'import a Federico e poi una volta che lo strumento sia andato a leggere solo le colonne valide per l'analisi qualsiasi cosa non trova nell'excel di import o non riesce a applicare le regole algoritmiche che gli abbiamo dato perché non c'è il valore o qualsiasi altro motivo lui lo fa tramite la lettura della scheda tecnica e via dicendo con tutte le altre regole che ci siamo dati quelle sono delle regole sottostanti però intanto io sono andato a escludere tutte le colonne che non mi interessavano e ho fatto in modo che il modello non le leggesse essenzialmente e neanche magari le importa cioè quei dati proprio li li sgancia scusami un secondo eh abbiamo definito I campi da considerare nel primo check dei file input.
+
+1:02:21 - Conference Room (Stefania Solidoro) - Speaker 1
+Facendolo in questo modo, effettivamente mi sorge una domanda.
+
+1:02:26 - Unidentified Speaker
+Perché?
+
+1:02:26 - Conference Room (Stefania Solidoro) - Speaker 1
+Questo ci può essere, questo ci può essere. Descrizione tecnica. Ad esempio, in realtà, lì per lì, noi l'abbiamo messo, Marta, qui, perché questa sarebbe la descrizione tecnica fornita dal fornitore. Però, a questo punto comincia la domanda. Se io la chiamo descrizione tecnica. Il programma non andrà forse neanche più a cercarsi il pdf?
+
+1:02:56 - Carlo Sanvoisin
+No, perché per come lo stiamo impostando, in realtà Venza di default legge la scheda tecnica, anche se ci sono informazioni nell'Excel di import. Detto questo, io personalmente, siccome la descrizione tecnica comunque non vi è utile e le informazioni le deve leggere la scheda tecnica.
+
+1:03:24 - Conference Room (Stefania Solidoro) - Speaker 1
+Quasi mi verrebbe da dire che questa informazione neanche me la importo, quindi io la terrei in greggetto in maniera tale che non la va neanche a guardare. Qui.
+
+1:03:41 - Carlo Sanvoisin
+E poi per voi è utile avere questa lista ben scritta, anche perché quando vi arriveranno I nuovi listini fornitore, voi quelle colonne in intestazione le dovete rinominare, quindi avere già, come hai fatto prima, ti copi la riga, te la incolli da qualche parte e ti vai a mettere I nomi colonne giuste in maniera tale che lo strumento le può leggere, quindi avercela questa lista completa Però vedi che adesso stiamo facendo chiarezza su quelle da tenere e quelle da fare discard. Perfetto.
+
+1:04:16 - Conference Room (Stefania Solidoro) - Speaker 1
+Quindi questo è così, questo è risalto a più e pari, ho tolto anche lo stato articolo perché è un valore fisso e non te lo metterò mai, questo pure è grigio, questo invece lo potresti questi li tolgo. Allora, questo, ritorniamo un attimo, aspetta, sono valori fissi, perché li hai messi in grigio? In grigio mi hai detto che non devo, non li trovo lì, in grigio stiamo mettendo.
+
+1:04:56 - Carlo Sanvoisin
+Perché non ci sono proprio nei file.
+
+1:05:00 - Conference Room (Stefania Solidoro) - Speaker 1
+No, questo è il numero uno.
+
+1:05:03 - Carlo Sanvoisin
+Ok, quindi questo è il campo che per il vostro gestionale semplicemente va popolato con quel valore.
+
+1:05:10 - Unidentified Speaker
+Perfetto.
+
+1:05:10 - Carlo Sanvoisin
+No, no, no, ma sulla regola sono hiper d'accordo. Vedi però che a maggior ragione serviva fare questo lavoro perché ci rendiamo conto che queste colonne io non le troverò mai nei file import. Non pensavo fosse un problema un problema darsi la lista più lunga tanto se poi non la trovavi cioè come escludo un campo che si chiama Pinco Pallino così escludevo un campo che magari no però invece così io dico tieni conto di listino V e di eh profondità lunghezza altezza eh codice famiglia codice marca tutto il resto scarta e in questo modo almeno ogni volta che trova che ne so dieci colonne in più scarta, è quello che mi serve. Mi serve il minimo comune denominatore da dare a questo strumento per poter escludere tutto il resto. E poi chiaramente queste celle bianche che stiamo lasciando, come le troviamo nominate qui dentro, le troveremo nominate nel file input, quindi questo...
+
+1:06:21 - Conference Room (Stefania Solidoro) - Speaker 1
+Ok. E questo è tutto, ovviamente. Tutto grigio, quindi. Aspetta, ritorniamo sulle dimensioni. Ci sta una doppia casistica.
+
+1:06:37 - Unidentified Speaker
+Le riconto, eh.
+
+1:06:39 - Conference Room (Stefania Solidoro) - Speaker 1
+Le conto così sono. Una, due, tre, quattro, cinque. C'è l'amore. 5, 6, 7, 8, 9, 10, 11, 12, 13. Credo basta. Poi, questo te lo faccio, confermami, che le altre siano scritte, rosse, gialle, bianche, bianche, bianche il nome della colonna. Sulla formattazione fai tu la domanda a Federico e poi ci farei sapere.
+
+1:07:23 - Carlo Sanvoisin
+Sì, ma al massimo lo posso anche fare io, non è quello il problema.
+
+1:07:29 - Carlo Sanvoisin
+Basta che ci diamo una regola, la formattazione tanto me lo segno.
+
+1:07:35 - Conference Room (Stefania Solidoro) - Speaker 1
+Studiamo questa questione delle dimensioni, perché spesso capita che siano così. Io mi ricordo che sulle dimensioni o è stato veloci, perché qui ho scritto, vedi, regola per altezza, lunghezza, profondità e vediamo cosa abbiamo scritto invece qui sul file delle regole. Sulle dimensioni c'eravamo scritte. Mi ricordo che qua lui è andato molto veloce, perché? Per riportare, questo è secondo me perché lui le vuole far pescare.
+
+1:08:11 - Carlo Sanvoisin
+Sì, direttamente dalla scala tecnica.
+
+1:08:13 - Conference Room (Stefania Solidoro) - Speaker 1
+Per notare le dimensioni del prodotto imballato in centimetri presi da file input, quindi se ce li ho scritte così in centimetri sul file input è bene, o più diente.
+
+1:08:25 - Carlo Sanvoisin
+Io penso che l'approccio di Federico sia di partire dalla scala tecnica onestamente, perché come la deve interrogare in ogni caso, lui una volta che lo fa raccoglie tutti quanti I dati. Quindi se io in questo lo sciogliamo quindi questo lo possiamo anche chiamare direttamente altezza per lunghezza per profondità e lo lascio lo metto rosso adesso però un campo che non verrà a letto e non verrà a letto esatto lui per questo fornitore qui è come se non la trovasse e se la va a prendere dalla scheda tecnica mettiamola così perché sennò sarebbe un'ulteriore regola da sviluppare se secondo me non ce n'è proprio bisogno, perché comunque lo strumento è bravo a leggere la scheda tecnica. L'unica cosa che mi preoccupava era l'imballo o non imballo, se c'è scritto poi dentro la scheda tecnica, perché lui deve prendere, se non mi ricordo male, quelle imballate di dimensioni.
+
+1:09:26 - Conference Room (Stefania Solidoro) - Speaker 2
+Si mettono se la dimensione del prodotto in sé che quelle dell'imballo, cioè distinguono I due tipi di dimensione. Però c'è scritto che un Dimensioni in ballo, dimensioni in prodotto.
+
+1:09:39 - Carlo Sanvoisin
+Ok, basta che c'è scritto dimensioni in ballo.
+
+1:09:44 - Conference Room (Stefania Solidoro) - Speaker 1
+L'unica cosa è che, in un caso in cui, per assurdo, perché io questi comunque li lascerei non grigi, questi qua, perché metti che ci dice la volta che lo prendi. Se c'è lo prendi. La conversione. Esatto. Se io scrivo, li scrivo come il campo del file di input, li scrivo in questo modo, come altezza cm. Devo necessariamente averli trasformati. Io ho vale questa regola, riportare le dimensioni del prodotto imballato in centimetri prese da file input o pdf. Cioè l'algoritmo capisce se sono scritte in centimetri o millimetri. Questa io a Federico la farei come domanda perché mi ricordo questa regola l'abbiamo scritta insieme.
+
+1:10:41 - Carlo Sanvoisin
+L'abbiamo scritto e secondo me se lui la ritrova in millimetri nella scheda tecnica sa che quando deve scriverla in output la deve scrivere in centimetri e quindi fa la conversione. Ma se io gli ho detto prendi il valore dalla colonna altezza cm e voi incollate altezza cm nel listino import e in realtà non sono in centimetri ma sono in millimetri quella è una regola algoritmica non c'è ragionamento dietro il valore lo pesca e basta quindi io vi direi quasi che forse come abbiamo fatto per quell'altra arancione di prima se ce l'avete in millimetri o lo convertite oppure non lo mettete e lo fa prendere dalla scheda tecnica Facciamo che una delle colonne che non...
+
+1:11:29 - Conference Room (Stefania Solidoro) - Speaker 1
+Faccio un esempio, magari non viene in mente, cm, lc. Lc non ha le schede tecniche, ma ha I file Excel. Allora, a quel punto, la scheda tecnica, ricordati, non è che deve essere una cosa vincolante, che non lavora la macchina se non ce l'ha, perché ci saranno casi, no? E quindi, se non ce l'ha la scheda, li prendo da qua, noi sappiamo che nel file input andrà messo il valore in centimetri.
+
+1:11:56 - Carlo Sanvoisin
+Sì, sarebbe meglio. A parte che poi forse da Excel pure si può fare, non lo so, però mi verrebbe da dire che probabilmente è un'operazione molto semplice.
+
+1:12:08 - Unidentified Speaker
+Vabbè.
+
+1:12:09 - Conference Room (Stefania Solidoro) - Speaker 2
+Un'altra cosa, spesso e volentieri sulle scate tecniche non riportano l'imballo, le dimensioni, però in casi appunto come questi noi possiamo prenderci come misura dell'imballo le dimensioni del prodotto singolo, quindi nel caso in cui un sistema non riuscisse a trovare appunto l'imballo, possiamo fare riferimento alle dimensioni.
+
+1:12:30 - Conference Room (Stefania Solidoro) - Speaker 1
+Lo vuoi aggiungere nel requirement log?
+
+1:12:32 - Carlo Sanvoisin
+Sì, lo posso aggiungere, ma di base la gente farà così. Cioè, se tu alla gente gli dici riportami le dimensioni e lui trova solo un set di dimensioni, non c'è scritto imballo, lui prenderà quelle.
+
+1:12:46 - Carlo Sanvoisin
+Ok, perfetto.
+
+1:12:47 - Carlo Sanvoisin
+Lo posso specificare e chiederlo a Federico. Se non trovi imballo, prendi quelle.
+
+1:12:53 - Conference Room (Stefania Solidoro) - Speaker 1
+L'obiettivo finale è che poi qui dentro io ho le stesse 13 che ho visto nell'altro.
+
+1:13:11 - Carlo Sanvoisin
+Non è detto che ce l'abbia sempre tutte, No, o tredici al massimo, o anche meno.
+
+1:13:25 - Conference Room (Stefania Solidoro) - Speaker 1
+No, no, Stefano, ce l'abbiamo fatta a capirci.
+
+1:13:30 - Unidentified Speaker
+Modifiche?
+
+1:13:30 - Conference Room (Stefania Solidoro) - Speaker 1
+No, qua abbiamo solto solo dei filtri, chiudiamo, non abbiamo fatto niente. No, non abbiamo fatto nulla. Alla faccia si è stato utile questo confronto.
+
+1:13:44 - Conference Room (Stefania Solidoro) - Speaker 1
+Eh, te l'ho detto che serviva.
+
+1:13:48 - Carlo Sanvoisin
+Ok, io ho qualche altra piccola domanda. Allora, vabbè, mi ero segnato che non mi avete ancora caricato l'Excel Prezi Promo, però tanto quello serve più per la parte del compilatore fisico, del catalogo fisico, quindi possiamo... Come ha fatto l'Excel Prezi Promo?
+
+1:14:04 - Conference Room (Stefania Solidoro) - Speaker 1
+Non ce lo siamo mai detto, ma questo me lo dici, me lo puoi scrivere come lo vuoi? Nel senso, aspetta... Aspetta aspetta giusto al volo reparto commerciale se vuoi ti ricordo quello che c'eravamo detti fino a oggi no no non mi ricordare niente fermo la bevo bevo le premier aiutami con gli occhi con le premier ecco le quattro per prendere una cosa semplice Ok. Aspetta. Secondo me questo lo dobbiamo un attimo vedere, perché il codice nei file delle promo, il file di input sempre il codice gamma quindi teoricamente per fare l'associazione devi portare soltanto il alla fine il prezzo perché poi il codice gamma se già codificato si porta tutto quanto teoricamente ti dovrei dare al massimo queste tre il listino che quello ti serve anche il listino ok se ti serve sì perché questa informazione fanno sì che quando io poi vado a comporre mi vedo il listino di vendita ce l'ho già in pancia questo listino potrebbe essere se io te lo passo qua potrebbe essere il listino selection quello dei cataloghi già promozionali nostro il prezzo è ulteriormente ribassato rispetto a quello magari accontentando ad un set quindi se vogliamo farla completa poi se non te lo do che vuoto vuol dire che c'è l'argento pancia, ce l'ha già in pancia.
+
+1:16:04 - Carlo Sanvoisin
+Questa fa parte delle colonne che voi importate, sarebbe il listino buono.
+
+1:16:09 - Conference Room (Stefania Solidoro) - Speaker 1
+Aspetta, questa ce la vediamo, voglio liberare Marta un attimo. Fai l'altra domanda e questo me lo lascio aperto perché ti devo fare una domanda, lo definiamo.
+
+1:16:18 - Carlo Sanvoisin
+Se ci vogliamo aprire velocemente quell'Excel note, perché là ci stavano infatti delle cose che secondo me adesso ce le siamo già chiarite, perché le cose che non mi tornavano sono le cose poi che abbiamo adesso però per sicurezza lo chiudo il questionario solo dove l'ho salvato vabbè non me lo chiudo e il file delle note allora sì la nota era quello che hai fatto tu aiuto aiuto siamo sempre qui sì siamo nei materiali cliente regole trasformazione ecco là Tu mi avevi scritto, per esempio, innanzitutto marchi con schede mancanti. Non hanno proprio sicuramente I pdf, non ce li hanno di natura loro. Ok, e per questi marchi, quando un'informazione non sta nel file input, oppure I loro file input sono perfetti e ci hanno già tutto?
+
+1:17:27 - Conference Room (Stefania Solidoro) - Speaker 1
+Come facciamo? Resta una lavorazione manuale Ellis. Ok. Ok. O il pdf del catalogo esiste un programma, cioè si dà in pasto ad AdogWriter e dice estrai ogni pagina come fai il singolo e però poi come te lo rinominano annualmente?
+
+1:17:43 - Conference Room (Stefania Solidoro) - Speaker 2
+Ci sono più prodotti su una pagina. Esatto, più prodotti in primis e poi magari lo stesso prodotto viene spiegato magari all'inizio del catalogo e alla fine con dei input più quindi pure andarsi a pescare, secondo me, il prodotto dentro il catalogo diventa complicato, a mio avviso.
+
+1:18:03 - Conference Room (Stefania Solidoro) - Speaker 1
+Questa era quasi più di consapevolezza interna. Sì, sì, sì.
+
+1:18:07 - Carlo Sanvoisin
+Ok, ok. Poi vedevo questo, quindi questi praticamente, ci stiamo dicendo, non li importiamo nello strumento, questi li continuate a fare manualmente?
+
+1:18:16 - Conference Room (Stefania Solidoro) - Speaker 1
+Tendenzialmente sì, almeno che poi dal fornitore non riusciamo ad avere.
+
+1:18:20 - Conference Room (Stefania Solidoro) - Speaker 1
+Però è quasi impossibile.
+
+1:18:22 - Conference Room (Stefania Solidoro) - Speaker 2
+Quanto meno, forse a te, potremmo avere qualcosa, però tutti gli altri no.
+
+1:18:27 - Carlo Sanvoisin
+Perfetto. Poi c'era questa indicazione, marchi, format, listino identico e qui mi veniva il dubbio nel senso, l'abbiamo appena discussa, tutta la parte di come deve essere il listino import, quindi… No, questo era solo per dirti, no, questo era solo per dirti, sì, volte che ad esempio, non ha senso che ti faccia un esempio carico sia Bosch che Siemens in caso è libera, troverai probabilmente un unico file di tutti questi, di questi tre marchi, in caso è libera. Perché rivolta alle stesse colonne, ok. Ma tanto comunque, vabbè sì, per I test è meglio comunque per I test avere più alternative possibile. Chiaramente, giustamente, l'alternativa è da riga 12 a riga 18, uno per. Eh, certo.
+
+1:19:15 - Conference Room (Stefania Solidoro) - Speaker 1
+Anzi, se già in questi casi stavo vedendo lc, bisogna fare col file Cioè lei è l'Excel. Sì, sì, sì, tempo, magari, in modo che si possa chiedere.
+
+1:19:53 - Conference Room (Stefania Solidoro) - Speaker 2
+Ci sono tanti che mandano I listini, so, mandano gli screen, addirittura, che non sono lavorabili e quindi non dovete neanche star lì, insomma, ad ascoltare insieme.
+
+1:20:05 - Carlo Sanvoisin
+Ok, e invece mi chiedevo quest'ultima tabellina che utilità c'aveva per noi, me la so dimenticata, onestamente.
+
+1:20:13 - Conference Room (Stefania Solidoro) - Speaker 2
+Io aspettavo di ricordare quello che ho fatto un attimo.
+
+1:20:18 - Conference Room (Stefania Solidoro) - Speaker 1
+questo era le schede, allora per farvi fare I test rispetto ai vari marchi, qui era una sorta di promemoria, anche questo quindi va poi continuato, ad oggi se lui andasse a pescare le schede prodotto qui nel materiale, c'è una scheda prodotta, allora era per dire se vogliamo fare un test per capire come funzionano I forni, benissimo, ok prendi Bosch, con Bosch, con Ok. E serve per guidare un po' nei test.
+
+1:20:51 - Carlo Sanvoisin
+Ok, quindi magari scriviamo per test.
+
+1:20:54 - Unidentified Speaker
+Per test.
+
+1:20:55 - Conference Room (Stefania Solidoro) - Speaker 1
+Bellissima questa. Perfetto. Ora è chiaro, ora è chiaro.
+
+1:21:00 - Carlo Sanvoisin
+Perfetto. Poi, hai visto, gli altri dubbi già ce li avevamo risolti. Per me era una questione importante avere questa standardizzazione sulla parte di import e l'abbiamo raggiunta. Benissimo. Non ho altre domande per le quali potrebbe servire Marta, quindi posso sganciare Marta. Grazie, ciao Marta. Per questo allora ci siamo dati nostra scadenza interna diciamo entro, non lo so, il 14-15 e poi ci sarà la call che posso anche dimmi tu se vuoi che la La segno intanto, io metterei che ne so la mattinata, perché poi vedrai che ci passeremo tutta la mattinata.
+
+1:21:50 - Conference Room (Stefania Solidoro) - Speaker 1
+Guarda, visto che è un periodo molto denso, ti lascio proprio questa palla, tu mandala la mail a tutto il, come si chiama il gruppo, come si chiama il steer, no lo steer committee. Eh oddio, tu sai, gruppo di lavoro, sì, il team progettuale. Anche Marta però stavolta, perché questo essendo molto operativa è corretto che ci sia anche Marta, a convocarla per il 19. Aspetta che ti guardo però in diretta così non diamo data a caso gli impegni. Così intanto sciogliamo questa.
+
+1:22:38 - Carlo Sanvoisin
+Metto tutti quanti, quindi anche Giovanni Antonio, sì. I commerciali metto tutti? Renato, Salvatore, Roberto e Alessandra, più Marta.
+
+1:22:54 - Conference Room (Stefania Solidoro) - Speaker 1
+Ok, perfetto. Vediamo, Antonio. Venerdì libero. Salvatore, pure. Giovanna, pure. Alessandra, va bene. Anche Roberto, forse. No, va bene, non ce l'ho. Di Roberto e di Renato non ce l'ho, ma va bene, dai.
+
+1:23:25 - Carlo Sanvoisin
+Ok, io personalmente la metterei onestamente di tre ore. Dalle 10 alle 13, stai d'accordo? Perfetto, ok. Allora, su tutta la parte di ambito di sviluppo ci siamo, era questo. Molto velocemente fino in troppo altro tempo... No, no, andiamo su file prezzi pro un attimo, così scegliamo questo e so come...
+
+1:23:54 - Conference Room (Stefania Solidoro) - Speaker 1
+Ah, ok, ok, ok.
+
+1:23:56 - Carlo Sanvoisin
+E così chiudiamo davvero l'argomento.
+
+1:24:00 - Conference Room (Stefania Solidoro) - Speaker 1
+Allora, io direi ci siamo detti, diciamo, tre campi. Aspetta che me lo salvo tipo come esempio. Aspetta, fammelo mettere. Però lo lascio sciolto fuori così adesso e faccio esempio file prezzi promo proprio così. Allora perché ti dicevo questo non lo intendo come listino vendita, perché quello è un campo che già ci avrete pancia. Quindi ti faccio vedere una cosa così magari ti viene meglio il modo in cui tu Federico, diciamo lo può capire anche Federico, Allora. Tu in pancia c'hai l'istino. Ma non hai, ad esempio, il prezzo selection. Perché noi facciamo due tipi di cataloghi, se ti ricordi. Le selection, che sono quelle dove facciamo la prima selezione, sono quelle che durano tipicamente anche un anno, diciamo sei mesi, sicuramente. E poi facciamo dei promozionali, che siano reset, che siano abbinate di altro tipo, di durata anche inferiore, dove magari perché li compri in set ti diamo un vantaggio ulteriore. Ovviamente se dobbiamo realizzare lo strumento non lo dobbiamo pensare soltanto per simulare un catalogo della selezione scelgo la griglia, ma magari potrei usarlo anche per ragionare su come comporre il set. Questo è un requisito per carità che non è stato dato e magari non è importante tanto fare la somma, avere a video il valore della somma, poi vivendo, vedendo, già avere il prezzo in evidenza, calcolatrice alla mano, voglio dire, si fa presto, no? Io in quel caso ti dovrei passare comunque I due prezzi per poter vedere e fare le valutazioni.
+
+1:27:20 - Carlo Sanvoisin
+Se tu hai due e ti servono tutti e due collegati a quello stesso codice gamma, me li porti tutti e due.
+
+1:27:32 - Conference Room (Stefania Solidoro) - Speaker 1
+Magari, giusto per capirci, qui lo potremmo chiamare proprio listino selection.
+
+1:27:39 - Carlo Sanvoisin
+nell'altro.
+
+1:27:39 - Conference Room (Stefania Solidoro) - Speaker 1
+Perfetto.
+
+1:27:40 - Carlo Sanvoisin
+Il sistema si prende quei codici gamma, sul codice gamma si trova appunto un prodotto per il quale c'è quel listino selection e prezzo promo, sono quei prodotti che lui andrà a mettere in cima, nella cosiddetta lista, da cui voi potete fare drag and drop dei prodotti e metterli nel layout. Esatto.
+
+1:28:15 - Conference Room (Stefania Solidoro) - Speaker 1
+Se li stino selection? No, però io li... Sì, tra l'altro quando facciamo le valutazioni tanto ce le portiamo sempre. Sì, tutti e due. Probabilmente, bene. Non le rendere obbligate... Diciamo, non so se mi verrebbe da dirti, nel senso che magari sto lavorando un catalogo dove ti devo dare solo questi due, magari sto lavorando uno dove ti devo dare solo codice gramma e prezzo promo.
+
+1:28:47 - Carlo Sanvoisin
+C'è la casistica in cui porti solo il codice gramma e il prezzo lo decidete proprio sul momento Però se sto immaginando, no, semmai poi lo possiamo cambiare eventualmente, però un prezzo, noi partiamo sempre dai famosi Wi-Fi, l'Excel, ti ricordi?
+
+1:29:10 - Conference Room (Stefania Solidoro) - Speaker 1
+Quindi là dei prezzi di simulo per fare, quindi... Allora io ti direi, vabbè, comunque la regola può essere.
+
+1:29:22 - Carlo Sanvoisin
+Comunque questo è un segreto, secondo import quindi il secondo import ha la regola se ehm in questo secondo import trovi un codice gamma da associare a un prodotto quel prodotto rientra nella lista eh prioritaria del catalogo fisico se c'è anche il eh il prezzo selection il prezzo promo portateli se eh se ne trovi solo uno portane uno se ne trovi tutte e due esattamente così perché la prima volta che faccio la selection io dentro non solo appunto dentro non ce l'ho, quello che avrò come riferimento di fascia di prezzo è il listino vendita quindi mi deve ricordare I codici di cui non sì sì così come l'hai detta tu è perfetta. La regola per l'import è quando io importo una seconda volta e questo cioè sarà un import distinto cioè magari saranno due bottoni separati due finestre separate per fare l'import. Quando io porto un Excel nella finestra import.
+
+1:30:28 - Conference Room (Stefania Solidoro) - Speaker 1
+È proprio diversa l'interfaccia, è proprio diversa perché io sto facendo un'altra operazione.
+
+1:30:33 - Carlo Sanvoisin
+Sì sì sì esatto quindi sarà un'altra finestra che si chiamerà fai conto import per catalogo fisico. Quando io metto là dentro un Excel tutti I codici gamma che riconosce da quell'Excel sono I prodotti da mettere in cima. Se ci trovo attaccata un'altra informazione di prezzo se la riporta.
+
+1:30:53 - Conference Room (Stefania Solidoro) - Speaker 1
+La porta nel sistema e me lo farà vedere. Questo sicuramente dovremmo affinarlo, affinarlo sicuramente in uno step poi magari successivo perché avevamo anche visto I filtri da far vedere perché se me la riporti, ma me la riporti.
+
+1:31:12 - Carlo Sanvoisin
+Esatto, o tre o addirittura quattro filtri però sì.
+
+1:31:16 - Conference Room (Stefania Solidoro) - Speaker 1
+Dove ce li eravamo scritti Carlo?
+
+1:31:20 - Carlo Sanvoisin
+lavoriamo su tutto il tracciato quando abbiamo finito quello cominciamo a lavorare sul fisico però di base adesso ci siamo anche più o meno te lo segni questa parte qua?
+
+1:31:36 - Conference Room (Stefania Solidoro) - Speaker 1
+Secondo te non è no vedere non è fattibile vedere nulla più di quello che abbiamo già visto però almeno I filtri li condividiamo lì Ok, ok, ce l'abbiamo, ce l'abbiamo.
+
+1:31:52 - Carlo Sanvoisin
+Aspetta se io cerco il filtro, vediamola.
+
+1:31:56 - Conference Room (Stefania Solidoro) - Speaker 1
+Filtri per catalogo fisico, chiamiamolo così, catalogo fisico. Come utente desidero dei filtri per trovare velocemente prodotti da aggiungere al catalogo.
+
+1:32:09 - Carlo Sanvoisin
+Prezzo, marca, descrizione famiglia, descrizione gruppo, sottogruppo, gruppo statistico 1. Quindi addirittura tutti questi. Abbiamo inserito.
+
+1:32:18 - Conference Room (Stefania Solidoro) - Speaker 1
+Li rivediamo comunque in quell'occasione che ce li rimotiviamo e vediamo se effettivamente siamo tutti questi che ho fatto bene la valutazione, insomma.
+
+1:32:29 - Carlo Sanvoisin
+Sì.
+
+1:32:30 - Conference Room (Stefania Solidoro) - Speaker 1
+E questo è requisito rentuno, se lo vuoi rivedere. Ah, ok, grazie.
+
+1:32:36 - Unidentified Speaker
+Requisito rentuno.
+
+1:32:37 - Unidentified Speaker
+Ok.
+
+1:32:37 - Carlo Sanvoisin
+Ehm, perfetto. Ok. Direi che ci siamo. Io devo fare il mio allenamento con Federico e su quei punti che ho in dubbio.
+
+1:32:52 - Conference Room (Stefania Solidoro) - Speaker 1
+Voi invece fate questo lavoro sui listini, lo ultimate e sulle regole di descrizione.
+
+1:33:06 - Carlo Sanvoisin
+E a quel punto ci rivediamo. Perfetto, perfetto. Sì, assolutamente. Poi io ho altre cose piccole che ti volevo chiedere. Era una, mi ricordi che giorno avete voi gli agenti in sede in cui gli vogliamo far fare quel piccolo... Lotto, lunedì 8. Ok, allora noi l'abbiamo pensata praticamente così, cioè Michele che si sta studiando uno strumento in cui tu hai praticamente come se fosse il sondaggio, quindi con dei valori cliccabili, però quando tu hai finito una pagina, che è la pagina sul primo cliente, scorri a destra e ti ritrovi già il secondo cliente, scorri a destra e ti trovi il terzo, in maniera tale.
+
+1:33:58 - Conference Room (Stefania Solidoro) - Speaker 1
+Ma c'è il cerca?
+
+1:34:00 - Conference Room (Stefania Solidoro) - Speaker 1
+Devi fare per forza col cerca? O averceli tutti? Cioè che scorri così, parliamo di Tra I 50 e I 100, sì.
+
+1:34:11 - Unidentified Speaker
+No, più anche.
+
+1:34:13 - Conference Room (Stefania Solidoro) - Speaker 1
+Ma ti dico per agente, eh. Eh, per agente. Allora, guarda. 11 giorni. Vabbè, io ti dico, poi ovviamente si fa quel che si può, eh, non è, non la vedere fammi vedere, qua c'è già qualche filtro. Allora, stiamo parlando solo dei mobilieri, giusto?
+
+1:34:47 - Carlo Sanvoisin
+Sì, sui mobilieri dobbiamo fare pure quell'ulteriore distinzione, ma in realtà c'è detto, già che stiamo facendo sto lavoro, di farci dare anche...
+
+1:35:06 - Conference Room (Stefania Solidoro) - Speaker 1
+Perché questo?
+
+1:35:07 - Carlo Sanvoisin
+Perché noi ci avevamo detto anche di fargli dare un'indicazione se sono low ticket o high ticket, cioè se uno che ha, insomma, grosse capacità di acquisto o basse capacità di acquisto, se c'è detto fra noi, se è un punto vendita un po' più sfigato o è un punto vendita grande.
+
+1:35:34 - Conference Room (Stefania Solidoro) - Speaker 1
+No, questa adesso non... Mi ero persa questo passaggio.
+
+1:35:37 - Carlo Sanvoisin
+Allora, noi dobbiamo...
+
+1:35:39 - Conference Room (Stefania Solidoro) - Speaker 1
+guarda, te li ripeto un attimo, così mi dici se ti do. Sono 174, 150 sono un po' troppi, capito?
+
+1:35:47 - Conference Room (Stefania Solidoro) - Speaker 2
+E io ti pongo un altro livello di complessità.
+
+1:35:51 - Carlo Sanvoisin
+Noi ci siamo detti, in realtà...
+
+1:35:53 - Conference Room (Stefania Solidoro) - Speaker 1
+No, perché, tra l'altro, se ricorda ci hanno detto perché va bene, quindi I completi vanno là, se no quando stanno dal punto vendita vanno e capisci che se così uno può chiedere anche nel tempo di implementarlo, ogni volta che vai apri.
+
+1:36:11 - Carlo Sanvoisin
+Diciamo che questa non è una casistica che mi piace molto perché ci blocca, nel senso fino a che non abbiamo questa lista, noi non possiamo poi rifare I corrispettivi delle liste email per carità settembre ce l'abbiamo tutto coperto ormai con I contenuti e probabilmente anche che ne so metà ottobre quindi ok però poi per creare queste liste email in cui le comunicazioni sono separate e sono separate sulla base della tipologia cliente se è premium o è low ticket eccetera eccetera dobbiamo avere questo dato.
+
+1:36:47 - Conference Room (Stefania Solidoro) - Speaker 1
+Quali sono le informazioni per questionare agenti. Aspetta.
+
+1:36:52 - Unidentified Speaker
+Sì.
+
+1:36:52 - Conference Room (Stefania Solidoro) - Speaker 1
+Vai. Per I mobilieri distinzione se sono store o autonomi. Te lo dico che non è solo per I mobilieri e mobilieri EGS perché ci sono alcuni genitori sanitari. Ok. Aspetta che c'è. Si affiliano. Sì, confermo. Cioè un igienico sanitario può essere proprio affiliato a un produttore di cucine? Sì, e questo è perché magari il business principale sono le mattonelle. Ma la parte che aveva dedicato alle cucine decide a dedicarla solo a scapolini.
+
+1:37:50 - Carlo Sanvoisin
+Però deve essere a quel punto proprio che ha le condizioni commerciali di vendita con scapolini.
+
+1:37:56 - Conference Room (Stefania Solidoro) - Speaker 1
+Sì, sì, sì. Ok.
+
+1:37:58 - Carlo Sanvoisin
+Allora lo assimiliamo a uno store. Perfetto. Nel caso che ci sia uno store devono dire qual è il produttore di cucine. Quindi se è una stosa o se è uno scapolini, eccetera, eccetera.
+
+1:38:11 - Conference Room (Stefania Solidoro) - Speaker 1
+Domanda, aspetta. Indichiarare Brand. Qui avete detto che avreste fatto l'elenco, lo prendevi dai primi dieci? Sì, dal CIS. L'unica complessità, già te la pongo, noi qui ci siamo detti che in realtà non è più per ragione sociale ma è per punto vendita e io non so se però voi eh devo scusami la devo passare ok quindi ce l'avete cioè nel senso voi riuscite a fare il collegamento non a gente ragione sociale ma gente punto vendita come posso prendere un po di tempo per rispondere nel senso che nel sistema l'informazione ce l'abbiamo e non vi ricordo Non mi ricordo più perché non lo faccio da un secolo come si esporta, forse perché la preoccupazione era stata importarla. Lo sai che non mi ricordo se esiste l'esportazione al massimo affatta. Quindi questo me lo scrive a grande così. Nota bene. File. Punti vendita. Ma tu come te li porti dentro? Dove pensavi di portarti dentro? C'è un elenco dei clienti, quale avresti usato? Adesso non ce l'ho, me lo devi mandare.
+
+1:39:47 - Carlo Sanvoisin
+Se me lo devi mandare per punti vendita me lo devi mandare. Io adesso ho solo le ragioni sociali e oltretutto non ce l'ho associata agli agenti. Cioè il passaggio successivo è che tu mi mandi la lista, le liste per ogni agente dei punti vendita e noi per ognuno di quegli agenti creiamo una specie di eh sondaggio separato quindi c'è la gente sempre con Google form non è un Google form useremo un altro strumento perché ehm c'ha una compilazione più semplice così è più veloce per la gente però il punto è che per Carlo Valentino io avrò ottanta punti vendita per ognuno di quei punti vendita io la domanda eh se è un mobiliere eh No, no, no, facciamo a cascata questa. Poi, oltre a questo... Ah, no, aspetta, aspetta, scusami eh, scusami, ti stavo deviando, aspetta.
+
+1:41:09 - Conference Room (Stefania Solidoro) - Speaker 1
+No, è che ho paura che, come giustamente dici tu, venga fuori una brutta sbrodolata. No, ti ho deviato, perché se ti ricordi l'esempio che ha fatto Antonio...
+
+1:41:22 - Carlo Sanvoisin
+Sì, quello della stessa ragione sociale che c'ha tre punti vendita, che sono... Anche anche sì eh no per questo io farei forse forse farei tutti I punti vendita separati e mi devi dire per ogni punto vendita s'autonomo store se è store mi devi indicare il produttore di cucine però questa cosa ce l'ho solo per I mobilieri in genico sanitario poi sì poi che invece e poi ti dico sempre per per mobilieri per I genico sanitari anche numero di cucine esposte quali sono le cucine e I brand di elettrodomestici, però in realtà quello...
+
+1:42:03 - Conference Room (Stefania Solidoro) - Speaker 1
+No, abbiamo detto no. Perché no?
+
+1:42:06 - Carlo Sanvoisin
+No, nell'ultima call ci siamo detti che ci interessavano. Con te, Alessandra, Giovanna eravamo nella call delle promozioni. Eravamo io, te, Alessandra, Giovanna, mi pare forse anche Salvatore.
+
+1:42:21 - Conference Room (Stefania Solidoro) - Speaker 1
+No, solo noi in quella call c'eravamo.
+
+1:42:24 - Conference Room (Stefania Solidoro) - Speaker 1
+Numero di di cucine esposte?
+
+1:42:27 - Carlo Sanvoisin
+Sarebbero ci siamo detti le domande che stanno nel sondaggio Mopilieri eh all'inizio da numero di cucine esposte fino a marchi di elettrodomestici di farle compilare agli agenti no non era proprio così ce lo siamo detto un po' troppo a un passanno aspetta un attimo eh No, aspetta.
+
+1:42:55 - Conference Room (Stefania Solidoro) - Speaker 1
+Domande. Da questa qui ci interessava.
+
+1:43:01 - Unidentified Speaker
+Un numero di cucine esposte.
+
+1:43:05 - Carlo Sanvoisin
+Marchi di cucina e quello autonomo, vabbè.
+
+1:43:11 - Unidentified Speaker
+Se autonomo...
+
+1:43:13 - Conference Room (Stefania Solidoro) - Speaker 1
+Marchi di cucina esatto.
+
+1:43:17 - Conference Room (Stefania Solidoro) - Speaker 1
+Però se esposte l'abbiamo.
+
+1:43:20 - Conference Room (Stefania Solidoro) - Speaker 1
+elettronomestici? Io mi ricordo distintamente che non è possibile, anche Alessandra diceva, perché cambiano, ce li hanno tutti, forse c'è stato un quibro qua.
+
+1:43:35 - Carlo Sanvoisin
+Io ho capito di mettere come possibilità sempre I primi dieci più importanti, Bosch, Beck, Whirlpool, No.
+
+1:43:46 - Conference Room (Stefania Solidoro) - Speaker 1
+No.
+
+1:43:46 - Carlo Sanvoisin
+Tu dici ce l'hanno tutti esposti, anche se c'hanno una sola cucina in esposizione.
+
+1:43:54 - Conference Room (Stefania Solidoro) - Speaker 1
+Sì, sì, sì, guarda che qui c'è la domanda, scusate, mi salvo, sono contrario, io ho sempre, capito, mi ritrovo allo, perché per niente una amica mi chiede, un punto è Scusa, ma pensa tu che ho fatto Carlo, mi sono portata presso il cellulare come se stessi parlando con te al cellulare.
+
+1:44:41 - Carlo Sanvoisin
+Forse adesso le dico che non la sento così da lontano. Scusa. No, no, figura, comunque ho capito.
+
+1:44:49 - Conference Room (Stefania Solidoro) - Speaker 1
+No, la escludiamo questa, quindi facciamo... No, ti dirò di più che... Anche que... Ma perché mo mi sta facendo così? Scusa, eh, fammela chiudere un attimo qua. Via. Come se fossi in modifica. Ma non c'è un dato sull'equilibrio, perché entra così? Vabbè. Perché stavamo simulando oggi a pranzo la somministrazione del questionario clienti durante gli eventi e infatti uno dei punti che dovevamo, ci siamo detti stamattina con Michele, magari te l'avrei visto con te, perché lui si concentra su quello per gli agenti, magari dopo rifai un attimo il punto su quali domande appunto eliminare, sapeva che ce l'avevi. Tutte queste facciamo agli agenti e le eliminiamo da qui. Anche se io in questa fase, non lo so, il fatto che ce li hai lì, I clienti li prendi, non che non mi fido di quello che mi dici, e che anche tu pensi agli agenti che li costringiamo perché, non lo so, sono un po' in dubbio. L'unico dubbio che ho è effettivamente su questo, quali marchi elettrodomestici esponi più spesso. Questa effettivamente...
+
+1:46:17 - Carlo Sanvoisin
+Te la metto così, te la rigiro. Siccome comunque noi facciamo l'analisi sulle vendite.
+
+1:46:23 - Conference Room (Stefania Solidoro) - Speaker 1
+Agli agenti sicuro no, ma forse anche agli stessi clienti, riragionandoci, qua infatti esponi più spesso. Però forse volendolo semplificare e accorciare mi verrebbe da dirti sicuro non va affatto agli agenti e forse la toglierei in generale.
+
+1:46:40 - Carlo Sanvoisin
+Allora questa non la mettiamo in questo sondaggio agenti e comunque noi questo sondaggio una volta che abbiamo fatto quello agli agenti lo andiamo a semplificare togliendo le domande in eccesso.
+
+1:46:55 - Conference Room (Stefania Solidoro) - Speaker 1
+Sul resto però ti trovi chiaramente adesso sarà tutta una questione complicata di numeri cucine siamo arrivati quindi al numero cucine esposte quindi su e e poi le altre informazioni invece per tutte le categorie di clienti erano ehm guarda praticamente l'abbiamo visto e tutto cosa avevamo detto no c'era una questione del cellulare aspetta che mi prendo l'appunto dell'armonia dell'altro giorno sì il cellulare numero di telefono, numero di telefono del titolare, cellulare ovviamente, numero cellulare non telefono perché a noi serve per whatsapp numero cellulare titolare, numero cellulare venditore e nel caso del venditore devi capire come formulare il fatto se può ricevere le promo oppure no, perché c'è il discorso di non scavallare il titolaggio.
+
+1:48:19 - Carlo Sanvoisin
+Sarebbe poi avere una comunicazione promozionale diretta con l'addetto alle vendite.
+
+1:48:26 - Conference Room (Stefania Solidoro) - Speaker 1
+Se sì, se registra il cellulare. Nome e cellulare.
+
+1:48:30 - Conference Room (Stefania Solidoro) - Speaker 1
+No, ovviamente nome e cognome e cellulare.
+
+1:48:34 - Carlo Sanvoisin
+Sì, di promo sul addetto.
+
+1:48:37 - Conference Room (Stefania Solidoro) - Speaker 1
+Magari nome e cognome non lo rendono obbligatorio, cellulare sì, però certo sarebbe anche bello sapere.
+
+1:48:45 - Carlo Sanvoisin
+No, mi sto chiedendo perché chiedergli poi nome e cognome e cellulare del titolare e in alcuni casi dell'addetto diventa allora a quel punto su 80 punti vendita diventa veramente… No, queste domande sono per ragione sociale. Sì, però anche per ragione sociale comunque poco cambia, a parte che poi se c'ho gli addetti alle vendite e poi sono tanti comunque sotto una ragione sociale.
+
+1:49:14 - Conference Room (Stefania Solidoro) - Speaker 1
+Vabbè, però non è l'anno Sì. Diventano tanti. No, non sono tanti. E sì, però non abbiamo altro modo per raccoglierli, eh.
+
+1:49:24 - Carlo Sanvoisin
+Non lo so. Cioè, io sono stra d'accordo. Ti dico sempre trade-off, complessità, risultato. Nel senso, non vorrei che rendiamo così lungo sto questionario che finisce che non ce lo fanno, non ce lo terminano, si scocciano, lo fanno male.
+
+1:49:40 - Conference Room (Stefania Solidoro) - Speaker 1
+Infatti, sul numero di telefono non mi interessa avere numero di cellulare per comunicazioni promo. Dimmi se ritorna. Cioè la domanda è, qual è il numero di cellulare per l'invio delle comunicazioni promo su WhatsApp e ti danno il numero. Poi dici, di chi è? Titolare o venditore?
+
+1:50:01 - Unidentified Speaker
+Esatto.
+
+1:50:01 - Carlo Sanvoisin
+Altro numero, sempre titolare, più aggiungi numero.
+
+1:50:04 - Conference Room (Stefania Solidoro) - Speaker 1
+Non lo so se è il programma che state scegliendo, però alla fine hanno interesse di avere almeno un numero numero per ogni punto vendita, diamoci gli obiettivi minimi, no?
+
+1:50:16 - Carlo Sanvoisin
+Sì, allora ti aggiungo una cosa, siccome noi stavamo ragionando se fare una specie di piccolo programma loyalty per gli addetti alle vendite, perché mi spiegava Alessandra in una delle nostre call che in passato è stato fatto, cioè quella per esempio iniziativa degli iPhone, era sugli addetti alle vendite, non era sul proprietario del negozio, quindi se vogliamo riattivare qualcosa del genere tu come lo contatti l'addetto alle vendite per dirgli guarda che da oggi se vendi quel set da 4.000 ti prendi anche l'iPhone cioè se noi non abbiamo né il numero né l'e-mail non lo possiamo fare. No no proviamoci senti Stefania ci vorrà più tempo se gli eroderà un pochetto gli agenti però il lavoro che vogliamo fare si basa su questo. Se non abbiamo questi dati non ci regge più niente, quindi è utile e necessario. Ok, quindi praticamente noi abbiamo per mobilieri e igienico-sanitari tutte queste domande complete, tutte.
+
+1:51:31 - Conference Room (Stefania Solidoro) - Speaker 1
+Per I negozi elettrodomestici... Prima di abbandonare il telefono e poi ti lascio dire, ho capito che vuoi aggiungere quell'altra cosa del low ticket high ticket. Però sul numero di telefono stavo pensando, in realtà la questione del venditore può o non può, secondo me quella forse ce la possiamo perdere. Ti spiego perché. Allora, adesso tanto ragionerete con Michele in base anche a quello che lo strumento consente di fare, uno raccoglie appunto titolare, venditore. Se il tuo formula Monte la domanda. Venditore che può ricevere le promo per una cosa. Non mi è chiaro, forse non è chiaro in questo momento neanche a te, ce lo lasciamo come punto interrogativo in questo momento. Come fai a dire? O dobbiamo effettivamente specificare il discorso delle loyalty, perché è un discorso diverso dalle promo.
+
+1:52:26 - Conference Room (Stefania Solidoro) - Speaker 1
+Perché effettivamente, adesso che mi hai recitato le loyalty, Magari quel venditore non può ricevere le promo, non può ricevere le promo con gli omaggi, perché le promo in generale… Un conto è chi è la persona alla quale indirizzo la promo, cioè per quel punto vendita la promo è un qualcosa che io manderei al proprietario o manderei all'addetto alle vendite, chi se ne occupa, chi la riceve.
+
+1:53:07 - Carlo Sanvoisin
+Un altro conto è, lo posso attaccare con un programma di loyalty o facendo una cosa del genere. Io questo non so se è una sensibilità dell'argento.
+
+1:53:19 - Conference Room (Stefania Solidoro) - Speaker 1
+Ma scherzi, loro non vedono l'ora, ma sai ce lo chiedono ogni anno, ogni volta che possono. Assolutamente sì facciamolo magari questo proprio perché gli interessa rispondere alle vendite vi chiedono questi gli agenti I nostri agenti per poterle proporre le vecchie le vendite quindi loro lo sanno se un certo detto alle vendite la può ricevere o meno questa ok bene quindi si anzi forse fallo proprio il riferimento questo discorso anche delle royal della parlo perché poi l'ha detto ce lo farei vedere questo è importante condividerlo con appunto anche Renato Roberto che sono quelli che Alessandra Renato e Roberto che conoscendo gli agenti vedono anche se sofformulate bene se è tutto chiaro poi per come loro ok e poi per tu per tutti lo ticket ai ticket e però lo sai lo ticket ai ticket non si capisce nel senso potenziale?
+
+1:54:22 - Conference Room (Stefania Solidoro) - Speaker 1
+Eh qualcosa del genere penso qualcosa del genere.
+
+1:54:26 - Conference Room (Stefania Solidoro) - Speaker 1
+Noi usiamo la parola potenziale di solito.
+
+1:54:29 - Carlo Sanvoisin
+Sì l'ha usata pure Salvatore in call quindi penso che mh lo scriveremo così. Quindi praticamente mh siccome abbiamo escluso I marchi di elettrodomestici eh esposti.
+
+1:54:40 - Conference Room (Stefania Solidoro) - Speaker 1
+Carlo che me lo porti su?
+
+1:54:43 - Conference Room (Stefania Solidoro) - Speaker 1
+Quando scendo basta che lo vedi che sta lì me lo lasci in vista sul No, lasciamelo a vista. Sennò da Stefania Frangella lo devi riportare sulla scrivania di Stefania Frangella, che è meglio. Scrivania di Stefania Frangella. Non c'è più Stefania, ciao.
+
+1:55:11 - Carlo Sanvoisin
+Se parliamo di potenziale, alto, medio, basso? Semplicemente per una questione poi anche di cioè poi di effettivamente operativa cioè se noi questa distinzione ci serve per creare liste email diverse poi ho considerato pure che ci sta tutto il fatto delle zone geografiche considerate che sono divise per clienti cioè facciamo liste da due persone poi sì ok perfetto e mi sa che abbiamo finito fammi rileggere un attimo I miei punti Sì, diciamo io avevo un ultimo punto che era l'ultimo Excel che mi hai mandato, ordini web, agente cliente. Scusa sì, ordine web, ordine tramite agente oppure l'ha fatto il cliente proprio. Perché io non vedevo il dato che mi serviva, adesso non mi ricordo bene.
+
+1:56:09 - Conference Room (Stefania Solidoro) - Speaker 1
+Quello, infatti, volevo vedere con te. Dov'è, Portogalli? Ma scusa, mi vesto così, sembra che mi hai fatto venire tu sonno, ma no, è l'orario della stanchezza. Allora, eh. Agente sì, cliente no? Ok. Allora, tu questa informazione, facciamo il contrario, mi dici su quali di questo report, su questo tu hai bisogno di avere tipologia cliente e tipo ordini, su questo tu hai lavorato?
+
+1:56:49 - Carlo Sanvoisin
+Eh sì, il problema che mi dicevate, questo non è veritiero, perché magari ordine web è stato fatto...
+
+1:56:57 - Conference Room (Stefania Solidoro) - Speaker 1
+No, però io quindi tu lavoreresti qua dentro, aspetta un attimo, Allora, apriamo anche questo.
+
+1:57:04 - Unidentified Speaker
+Ah, ma qui non ha il cliente, questo è per tipologia.
+
+1:57:09 - Conference Room (Stefania Solidoro) - Speaker 1
+Questo è per tipologia, che a me in realtà va bene per tipologia.
+
+1:57:16 - Carlo Sanvoisin
+Cioè io posso dire, in generale, le ferramenta sono... Cioè che poi in realtà non ce l'ho neanche le ferramenta.
+
+1:57:27 - Conference Room (Stefania Solidoro) - Speaker 1
+No, attento, però qui ce l'hai, infatti. Vediamo che cosa io ti dovrei portare la descrizione macro categoria che è il dom tradizionale internet questo ah no ce l'abbiamo anche la categoria sì A e B mi servono ti dovresti portare questa informazione qua dentro sì esattamente qua dentro sì ecco no voglio un attimo anche vedere Giusto che ce l'abbiamo davanti, se tu mi scorri la colonna per capire se effettivamente ha fatto… Questa, questa sulla operatore.
+
+1:58:09 - Carlo Sanvoisin
+Sì, no. Ah, operatore sì, no.
+
+1:58:12 - Carlo Sanvoisin
+E questo è?
+
+1:58:14 - Unidentified Speaker
+Il problema qual è?
+
+1:58:16 - Conference Room (Stefania Solidoro) - Speaker 1
+Che secondo me potrebbe essere, guarda se io l'ordino per ragione sociale, cliente che è questa, no? Visualizzo solo I miei dati.
+
+1:58:29 - Carlo Sanvoisin
+Forse io ho filtrato qualcosa.
+
+1:58:33 - Conference Room (Stefania Solidoro) - Speaker 1
+No, volevo vedere, secondo me esiste un caso. Vediamo se è vero, magari no. Eccolo qua. Ad esempio otto arredamenti. No, volevo ragionare con te per otto arredamenti e prevalentemente lo inserisce il cliente, in due casi l'ha inserito l'agente. Sto pensando, se io semplicemente su questo ti metto qui il campo, io ti metterei soltanto questo, scusa, solo la categoria, la B.
+
+1:59:17 - Carlo Sanvoisin
+se io metto questa qui come te la considererà? Vabbè, tanto andrà a percentuale io devo fare la percentuale, esatto io su Eldom vorrei dire Eldom ha il 65% di ordini fatti dall'operatore Quindi non è molto digitalizzato, che poi non è il contrario, perché Eldome in realtà è uno di quelli più digitalizzati, però ci siamo capiti, no?
+
+1:59:57 - Conference Room (Stefania Solidoro) - Speaker 1
+Va bene, dai, ti aggiungo adesso questo campo qui, qua dentro.
+
+2:00:02 - Conference Room (Stefania Solidoro) - Speaker 1
+Lo faccio subito. Esatto, questo qua, fine.
+
+2:00:05 - Unidentified Speaker
+Allora, ti saluto.
+
+2:00:06 - Carlo Sanvoisin
+Ce l'abbiamo fatta. Ce l'abbiamo fatta, dai, era utile però. Utile.
+
+2:00:11 - Conference Room (Stefania Solidoro) - Speaker 1
+Sì, grazie a te anche del tempo.
+
+2:00:15 - Carlo Sanvoisin
+Ma figurati, grazie a te Stefania. Ti aggiorno, ciao!

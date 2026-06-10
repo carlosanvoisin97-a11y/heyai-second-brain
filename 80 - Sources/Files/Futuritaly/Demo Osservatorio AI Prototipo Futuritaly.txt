@@ -1,0 +1,25 @@
+(Transcribed by TurboScribe.ai. Go Unlimited to remove this message.)
+
+Ciao a tutti, quello che vedete qui è un prototipo funzionante dell'osservatorio strategico AI, ovvero la piattaforma che stiamo progettando per Future Italy. Chiaramente si tratta di una demo illustrativa che è stata costruita sull'analisi che abbiamo fatta insieme, dentro ha solamente dati simulati e ovviamente alcuni parametri non sono super precisi proprio perché non abbiamo concluso l'analisi, però vi serve per darvi un assaggio concreto di quella che potrebbe essere l'esperienza d'uso e di quelle che potrebbero essere le funzionalità che andrebbero ad accelerare il vostro lavoro day to day. Ora che cosa vediamo? Ci facciamo un giro sulla piattaforma. 
+
+Qui abbiamo la dashboard dove ci sono i principali KPI, quindi ad esempio i bandi attivi, quelli che rispettano i parametri che noi abbiamo dato all'intelligenza artificiale per fargli capire effettivamente dei bandi attivi quali sono realmente coerenti con la nostra realtà, quelli in scadenza, quelli che sono stati esclusi. Poi qui, sempre secondo la stessa logica di coerenza e di rilevanza, abbiamo le priorità rilevate dall'intelligenza artificiale in cui ci dice qual è il bando, qual è la fonte, se è sopra soglia, lo score di rilevanza, il valore, la scadenza e via dicendo. Addirittura ci dà anche dei consigli strategici proprio di come operare su questo singolo bando, distribuzione delle fonti, qualità delle opportunità, insomma, questa è la pagina principale dove si può avere una vista dall'alto.
+
+Poi abbiamo la funzione di ricerca bandi, ovviamente, che possono essere ricercati tramite la barra di ricerca oppure possiamo utilizzare i filtri avanzati. Questi filtri sono quelli che mi avete fornito voi, quindi ad esempio il perimetro geografico, l'enterogatore, le soglie economiche, i settori, le dimensioni dell'impresa e via dicendo, possiamo cercare di applicare i filtri, altrimenti vediamo anche dei risultati qui sotto. È interessante vedere che oltre a tutte quante queste informazioni possiamo addirittura cliccare sui dettagli e vedere i dettagli o addirittura scaricare il bando.
+
+Stesso discorso vale per gli incentivi, chiaramente i filtri saranno diversi perché li cerchiamo con i filtri che ci fornirete voi. Anche qui avremo poi il risultato della ricerca che è stata fatta tramite le API ufficiali sui vari database dove si trovano appunto le informazioni originali relative agli incentivi. Anche qui abbiamo tutte quante le nostre informazioni facilmente visibili, possiamo cliccare su scheda completa e vedere la scheda completa anche qui.
+
+Dopodiché abbiamo le analytics che potremmo studiare insieme, quindi trend di come sono andate le opportunità nel tempo, se abbiamo convertito clienti o meno, quindi anche questo ci potrebbe aiutare. Addirittura potremmo creare una mappa con la copertura geografica, però questo è solamente un suggerimento, un'idea che abbiamo avuto. Chiaramente questo potrebbe essere fatto tutto quanto insieme e poi calato realmente nella vostra realtà.
+
+Abbiamo il profilo cliente che in questo caso è relativo all'azienda, però poi effettivamente ognuno potrebbe avere il proprio profilo personale all'interno di questa piattaforma e potrebbe settare già delle regole di ricerca. Quindi per esempio qui abbiamo delle regole personalizzate che verranno sempre applicate e sono quelle sulla base delle quali vengono stabiliti gli score di priorizzazione, di coerenza. Quindi anche queste possono essere poi modificate per avere dei risultati sempre più pertinenti.
+
+E poi abbiamo l'assistente AI con il quale possiamo chattare. In questo caso io gli faccio questa domanda se ci sono novità sui bandi PNRR e lui mi risponde. Chiaramente questi sono dei risultati simulati, però nel momento in cui colleghiamo effettivamente questo strumento con quelle che sono le fonti ufficiali da voi citate, lui andrebbe a controllare sulle fonti e poi restituisce i risultati di conseguenza.
+
+Quindi anche qui molto funzionale, molto utile e poi ovviamente ci può aiutare anche a fare dei ragionamenti, delle elaborazioni sui risultati che troviamo. Infine abbiamo le notifiche. Anche le notifiche possiamo essenzialmente modificarle come potrebbero essere utili per voi.
+
+Per esempio se c'è una scadenza su un bando, se c'è stato un aggiornamento e via dicendo. Quindi torno sulla dashboard. Diciamo che questo è chiaramente come dicevo solamente un prototipo.
+
+Molte parti sono ancora da definire insieme. I dati sono simulati, però l'obiettivo era quello di mostrarvi la direzione, ovvero uno strumento che ogni mattina può dirvi cosa c'è di nuovo, cosa è pertinente, cosa fare e vi permette di raccogliere dati e filtrare dati in maniera velocissima e super accelerata. Quindi probabilmente con un grande risparmio di tempo.
+
+Vi ringrazio e sono sempre disponibile per approfondire tutto quanto in una call dedicata.
+
+(Transcribed by TurboScribe.ai. Go Unlimited to remove this message.)

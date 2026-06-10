@@ -1,0 +1,467 @@
+Noloop | Crowd: Conferma Scope di Progetto
+Tue, Nov 4, 2025
+
+0:09 - Carlo Sanvoisin
+Ciao Laura! Come va?
+
+0:11 - Carlo Sanvoisin#+#Lorena Cavecchi
+Ciao! Mi senti? Ciao! Sì, tu mi senti?
+
+0:16 - Unidentified Speaker
+Sì!
+
+0:17 - Carlo Sanvoisin#+#Lorena Cavecchi
+Allora, eccoci qui. Oggi siamo noi.
+
+0:21 - Carlo Sanvoisin
+A meno che non partecipa la tua collega, Arianna.
+
+0:26 - Carlo Sanvoisin#+#Lorena Cavecchi
+Ah, non mi ricordo se gli avevi mandato o no il link. Sì, sì, c'è, c'è lei. Allora dammi solo un secondo che le scrivo che non vorrei mai che si spieghi.
+
+0:46 - Lorena Cavecchi
+Sì.
+
+1:26 - Unidentified Speaker
+L'ho scritto. Intanto vogliamo iniziare a parlarci. Assolutamente. Allora, Incipit.
+
+1:31 - Carlo Sanvoisin
+Praticamente, il lavoro che ti dicevo, questo del requirement log, essenzialmente è andare a mettere per iscritto tutti quelli che sono I requisiti di cui abbiamo parlato fino a questo momento e cercare di classificarli come dei requisiti must have, per I quali si intende appunto questi sono assolutamente contenuti all'interno del perimetro, e I cosiddetti nice to have, ovvero sarebbe bello averli. Ecco la Rianna, fantastico.
+
+2:06 - Unidentified Speaker
+Ciao Rianna!
+
+2:07 - Carlo Sanvoisin
+Ciao, scusate! Figurati! Allora, guarda, avevamo appena cominciato, essenzialmente stavo spiegando a Lorena che abbiamo fatto questo lavoro di requisitazione con la quale si intende essenzialmente mettere per iscritto tutti quelli che sono I need quindi le vostre necessità rispetto alle funzionalità che deve avere il sistema e si dividono fra quelli che sono assolutamente obbligatori e quindi un qualcosa che la piattaforma deve fare affinché il suo funzionamento sia corretto e quelli che invece sono dei nice to have quindi sarebbe bello averli in questo momento ancora non ci rientriamo col budget attuale però li mettiamo lì quindi in maniera tale che se vogliamo fare un secondo rilascio, un'ottimizzazione della piattaforma, già essenzialmente le abbiamo tracciate. Quindi è anche un modo per dire, d'ora in poi, mano a mano che lavoriamo, vi vengono in mente idee, vi vengono in mente cose, noi comunque queste cose le teniamo in considerazione e le andiamo a segnare in questo registro. Quindi intanto ve lo mostro, così cominciate a capire di che cosa sto parlando. Quindi questo è il nostro meraviglioso Excel. Abbiamo l'id, la capability con la quale intendiamo la macro area di funzionalità, il nome della singola funzionalità, la descrizione, la categoria che come vi dicevo è must have, sta dentro, nice to have, lo mettiamo in pausa e poi cerchiamo di capire quando riusciamo a inserirlo dentro. Lo stato cambierà, adesso sono tutti quanti proposti, poi diventeranno ongoing, nel momento in cui ci cominciamo a lavorare, diventeranno completed quando saranno appunto completati, diventeranno on hold nel momento in cui, che ne so, succede un disastro e dobbiamo un attimo metterne in pausa uno, insomma questi sono I vari stati di completamento della funzionalità. Richiedente io adesso di default ho messo sempre Lorena, però magari metti caso, arriva un'idea, arriva una richiesta, dà un altro reparto, qualsiasi cosa, lo possiamo inserire. Ad oggi è quasi perché c'è scritto Lorraine cento volte, commenti se avete commenti e poi una colonna per la prossima wave per andare proprio a sottolineare quali vogliamo inserire in una futura wave e poi potenzialmente fra questi che andiamo a inserire nelle future wave potremmo anche decidere di dividerli fra questi li vogliamo subito nel senso che magari già da gennaio ci cominciamo a lavorare, questi invece veramente non sono così tanto utili sarebbero proprio delle raffinatezze, delle Kik.
+
+4:37 - Carlo Sanvoisin#+#Lorena Cavecchi
+Passa in più assoluto che sì, è chiaro quello che stai dicendo.
+
+4:41 - Lorena Cavecchi
+Ok, fantastico.
+
+4:42 - Carlo Sanvoisin#+#Lorena Cavecchi
+Poi, questo è come è strutturato.
+
+4:44 - Carlo Sanvoisin
+Detto questo, io vi ho fatto una spiegazione veloce, ma sappiate che siccome vi voglio bene, vi sono messo lì e vi ho scritto tutte quante le istruzioni, però essenzialmente no, parte di scherzi. Qui ci sono delle regole più che altro per come non utilizzare questo strumento. Nel senso che certe celle, tra virgolette, le tocco soltanto io e altre invece le andate magari a maneggiare anche voi. Questo lo metterò su un canale team condiviso in maniera tale che ci potete lavorare anche voi, lo potete studiare, leggere, rileggere, commentare e via dicendo e ci seguirà durante tutto il corso del Progetto quindi a mano a mano anche che noi completiamo per dire una funzionalità io metto lì e la passo di status oppure se se ci rendiamo conto che c'è un requisito aggiuntivo di base, se avviene durante una call, lo vado a scrivere io e poi vi notifico e vi dico ho aggiunto requisito 45, ok? Quindi di base sarà un foglio su quale lavoriamo in maniera collaborativa, però chiaramente per una questione proprio di project management, certe celle le vado a toccare solamente io. Esempio, la descrizione della funzionalità. Voi mi potete mettere un commento, poi la descrizione che poi è la descrizione da quale prendono I tecnici nel momento in cui vanno a fare gli sviluppi, la gestisco essenzialmente. Io ho il passaggio di status e via dicendo. Se invece volete aggiungere un nuovo requisito, siete chiaramente libere di farlo. La categoria, in quel caso, se è una cosa aggiuntiva, di default va a nice to have. Poi magari io lo riscrivo nel linguaggio che vogliono I tecnici, però essenzialmente avete tutto quanto nelle istruzioni. Finora ci sono domande? No, nessuna.
+
+6:31 - Lorena Cavecchi
+Fantastico.
+
+6:32 - Carlo Sanvoisin
+Allora, io direi a questo punto, adesso ce li riscorriamo tutti, qual è la prefazione di tutto questo requirement log che essenzialmente noi siamo partiti da vogliamo digitalizzare il processo offline delle segreterie perché oggi il processo offline è molto farraginoso, prevede un sacco di operazioni manuali, ci toglie tantissimo tempo. Fantastico siamo partiti da qui poi mano a mano che eh facevamo le prime volte approfondimento abbiamo deciso di allargare un po' il perimetro di questo Progetto e dire ok ma se oltre a gestire eh questi cosiddetti processi offline cominciassimo a metterci dentro delle funzionalità che ci permettono poi di gestire un po' tutti quanti gli eventi sarebbe meraviglioso e quindi abbiamo cominciato a fare questo lavoro però al cento per cento proprio le piattaforme che utilizzate oggi qualche cosina a livello di budget non ci rientriamo però vi dico già che in realtà determinate eh sciccherie già saranno dentro il primo strumento quindi a mio parere ci saranno delle cose per le quali sarà meglio dei vostri strumenti attuali alcuni punti che adesso li vediamo sono quelli che saranno wave due che non possiamo gestire a livello di budget attuale poi una volta che avremo completato pure la seconda Wave, oggettivamente potrete completamente abbandonare gli altri strumenti e sarà oggettivamente meglio perché ci saranno pure una serie di funzionalità in più, aggiuntive. Quindi questa è un po' la prefazione. Andiamo, direi, requisito per requisito. Vai.
+
+8:17 - Lorena Cavecchi
+No, Carlo, solamente una domanda da farti. Ma questa parte dove c'è tutta la parte questo qua è come se fosse una cosa legata a una sorta di no loop, dove appoggiamo tutta sta roba? Cioè dobbiamo aprire un dominio a noi dedicato e poi voi ci lavorate dentro?
+
+8:50 - Lorena Cavecchi
+Tutta questa roba qua, perché vedo, cioè, quando tu, I campi del form e tutta quella roba lì che vedo, la direzione della landing page, tutta questa parte qua, dove la facciamo atterrare? Dominio vostro. Quindi o avete già un dominio, o compriamo un dominio appositamente. Eh, no, ma infatti quello che io volevo fare era proprio, cioè, questa domanda qua, ce l'avevo un po' da tempo da farti ma mi è venuta in mente adesso perché io posso eventualmente chiedere al nostro interno se ci danno un sottodominio o se comprarne uno completamente nuovo. L'unica cosa che io vorrei che facessero poi I nostri TI e che mettano a punto tutte quelle quelle condizioni di sicurezza che vengono chieste dai clienti, capito?
+
+9:50 - Carlo Sanvoisin
+Allora, guarda, ti rispondo subito, praticamente, siccome comunque noi stiamo costruendo tante soluzioni, non c'è solo questa di Crowd, ma ce ne sono anche altre, e poi, oltretutto, non vi ho mai chiesto se vi va bene il nome, l'abbiamo chiamato Crowd, ma se preferite un altro nome, lo possiamo sempre cambiare. Detto questo, anche altre soluzioni che stiamo sviluppando per voi, chiaramente, gireranno sui vostri server, quindi quello che eh noi faremo come diciamo eh requisito prerequisito fondamentale e che creeremo un ecosistema un ecosistema che è come se fosse una specie di interfaccia che io apro ed è l'interfaccia delle mie soluzioni eh intelligenti di no loop. Entro e mi dice hai il sistema di riportistica avanzato per la sociali di della Zaghi e via dicendo ci clicchi sopra se c'hai l'accesso chiaramente se ti è stato dato il permesso eh a livello proprio di di credenziale e tutto il resto puoi entrare in quell'applicativo ehm e lavorarci e tutto quanto girerà sui vostri server e se c'è bisogno di appoggiarsi su dei domini chiaramente meglio che sia un vostro dominio, un vostro sottodominio.
+
+11:09 - Lorena Cavecchi
+Inizialmente magari perché comunque questa cosa qua a noi a dei siti online fatta per I clienti, però noi avremo una piccola interfaccia dove il forma sarà visibile all'ospite, giusto?
+
+11:23 - Carlo Sanvoisin#+#Lorena Cavecchi
+Quindi è come se io dovessi creare una pagina web che è personalizzata a uno loop, poi quello che sarà dopo... Ok, quindi per quello io devo avere una roba che Esatto, un dominio o sottodominio.
+
+11:43 - Unidentified Speaker
+Assolutamente.
+
+11:43 - Lorena Cavecchi
+Quindi diciamo che I step quali saranno?
+
+11:47 - Carlo Sanvoisin
+Primo step, la soluzione girerà su un server nostro durante la fase di test. Quindi non ci sarà chiaramente in quel caso l'apporto del partecipante, del cliente vostro. Sarà ancora una fase di test in cui saremo noi a giocarci, il vostro team a smanettarci e ci saranno I bug da risolvere, ci sarà magari quella decitura che non mi piace com'è scritto così, non voglio che sia scritto partecipante, voglio che sia scritto membro, non lo so, qualsiasi cosa e quello sarà tutta la fase di test. Nel momento in cui l'applicativo diciamo ok, gira, funziona, mi piace, lo portiamo sui vostri server e a quel punto è gestito tutto quanto in caso E voi comunque ci darete supporto se noi dovessimo fare, cioè se non dovesse funzionare, se dovessimo fare delle modifiche in corso d'opera che ci vengono in mente, eccetera eccetera, giusto? Sì, chiaramente modifiche che sono contemplate qui dentro, sì, modifiche del tipo, non voglio più, che ne so, che vengano assegnate solamente I tipi ma devo assegnare anche quest'altra cosa in maniera automatica che non era stata contemplata chiaramente se è un qualcosa che non parlo di funzionalità, parlo proprio di modifica. La manutenzione è compresa chiaramente, gli interventi di manutenzione ordinaria sono compresi, saranno compresi anche probabilmente alcuni interventi di manutenzione straordinaria, però sempre questa call, questo strumento, questo foglio che vedete, serve proprio per delimitare I limiti, altrimenti il povero Federico e il povero Simone li possiamo chiamare e chiedergli qualsiasi cosa che sarebbe il mio sogno.
+
+13:44 - Carlo Sanvoisin#+#Lorena Cavecchi
+No, no, no, questo me ne rendo conto che non è così, è proprio per quello esistono I must have e I nice to have. Esatto, fantastico, vedi che cominciamo a parlare la stessa lingua.
+
+13:57 - Carlo Sanvoisin
+Allora, direi, vediamoci l'uno ad uno e poi ogni volta che ti vengono dubbi come questo ti è appena venuto mi fermi.
+
+14:05 - Carlo Sanvoisin#+#Lorena Cavecchi
+Ok?
+
+14:06 - Carlo Sanvoisin
+Quindi partiamo da capability gestione eventi e abbiamo la visualizzazione dashboard eventi quindi come membro del team segreteria voglio visualizzare una dashboard con l'elenco di tutti gli eventi per avere la visione d'insieme e creare rapidamente un nuovo evento o modificarne un esistente. Quindi è la visualizzazione della home page praticamente come ce l'avete sui vostri attuali sistemi. Vi tornano. Poi voglio poter clonare un evento passato in modo da duplicarne la struttura e velocizzare la configurazione di un evento ricorrente. Quelle qui funzionalità che avete oggi che viene rispettata.
+
+14:41 - Carlo Sanvoisin#+#Lorena Cavecchi
+Si tornano. Ok.
+
+14:42 - Carlo Sanvoisin
+Passiamo quindi a creazione landing page. Abbiamo il builder, quindi il builder come avete voi oggi che ogni volta lo dovete essenzialmente pagare in più con una fee. Invece questo sarà incluso e quindi avete il builder drag and drop per creare la pagina di registrazione con I campi. Ci saranno chiaramente dei campi preimpostati e poi avete la possibilità di avere dei campi custom come ci siamo detto.
+
+15:12 - Carlo Sanvoisin#+#Lorena Cavecchi
+E questa è la parte dashboard giusto? Dashboard solitamente si intende...
+
+15:16 - Carlo Sanvoisin
+Il nostro back office si intende?
+
+15:19 - Carlo Sanvoisin#+#Lorena Cavecchi
+Sì, il back office. Questo fa tutto parte del back della parte dello strumento dietro.
+
+15:27 - Carlo Sanvoisin
+Poi abbiamo il builder, cosa deve supportare, campi come testo, data, ora, menu a tendina, check box, radio button, scelte multiple e via dicendo. Quindi questo è sempre per permettere poi all'utente di compilare dati facilmente e sul data e ora possiamo mettere pure un validation, nel senso che tu non ci puoi scrivere armando nel campo data e ora ma ci devi scrivere una data essenzialmente come ci eravamo detti poi abbiamo la funzionalità di importazione da Excel quindi se voi avete e come mi avete detto quell'Excel dove già avete una serie di dei valori per I menu a tendina li potete importare quindi posso popolare le opzioni del menu a tendina tramite in colla da un file Excel. Quindi se io ho dieci valori che può assumere un determinato campo, li posso importare invece che scriverli manualmente uno ad uno. E mi pare che è qualcosa che già potete fare oggi.
+
+16:36 - Lorena Cavecchi
+Ti torna? Importiamo anziché fare copia e incolla, però direi che questa funzione forse ci aiuta di più, no Ari?
+
+16:45 - Arianna Giordanella#+#Carlo Sanvoisin
+Soprattutto se non si creano problemi di compatibilità di carattere.
+
+16:49 - Carlo Sanvoisin
+Chiaramente c'è sempre il fatto che quando voi dovete scrivere l'Excel dovete rispettare, cioè nel senso se avete dieci colonne che equivalgono a dieci campi, l'intestazione della colonna deve essere il nome del campo, poi le varie righe devono essere I valori assunti dal campo e chiaramente dovete essere precise voi a scrivere se è tutto minuscolo, è tutto minuscolo, se è tutto maiuscole, tutto maiuscole. Se non ci sono punti, non mettere punti.
+
+17:21 - Arianna Giordanella#+#Carlo Sanvoisin
+Se non ci sono gli spazi, non mettere gli spazi. Quindi dovete essenzialmente fare un lavoro di precisione sull'Excel, però poi ve lo potete importare e quei valori vengono acchiappati in automatico.
+
+17:34 - Arianna Giordanella#+#Lorena Cavecchi
+Certo, lavorare su un Excel e rispettare delle cose è molto più semplice se poi farlo di nuovo.
+
+17:41 - Carlo Sanvoisin
+Perfetto, anche perché ci potete lavorare, rilavorare, magari un'altra persona che dà un feedback diverso, dovete cambiare un valore, poi quando siete sicuri che, ok, questa è la struttura, me la importo. Fine. Poi, dove siamo arrivati? Ok, era questo, perfetto. Logica condizionale. Come membro del Team Secretaria voglio poter impostare campi condizionali nel forum in modo che la visualizzazione di sezioni successive dipenda dalle risposte fornite, rendendo la complicazione più snella. Quindi, come avevamo detto, se io ho selezionato, ne so, esperienze sì, allora poi magari mi escono fuori che esperienza vuoi fare durante il tuo viaggio, e ci sta, tour del Colosseo, degustazione di vini, eccetera eccetera. Se invece rispondo no, non escono fuori le altre domande. Mi tornano?
+
+18:36 - Lorena Cavecchi
+Esatto, e questa cosa può essere poi eventualmente aggiunta anche in un secondo momento, giusto?
+
+18:42 - Carlo Sanvoisin
+Ah, che se uno ricompila il form nuovamente?
+
+18:46 - Lorena Cavecchi
+No, è che magari noi a un certo punto dobbiamo chiedergli all'opera in realtà come se loro avessero già compilato il form, cioè loro hanno già compilato il form e poi il cliente ci chiede, voglio aggiungere queste possibilità di escursioni, mandate la richiesta per vedere che cosa vogliono fare.
+
+19:09 - Carlo Sanvoisin
+Penso che tu, senza problemi, lo puoi aggiungere manualmente, però tu devi entrare nella tua scheda partecipanti. Eh no, certo, rientra e...
+
+19:18 - Carlo Sanvoisin#+#Lorena Cavecchi
+Cioè, lo devi fare tu manualmente a quel punto.
+
+19:22 - Carlo Sanvoisin
+Cioè, tu intendi che gli vuoi rimandare il form a loro, oppure che vuoi manualmente assegnare delle esperienze in più a determinati gruppi? No, no, no, che lo mandiamo a loro.
+
+19:36 - Lorena Cavecchi
+C'è solo questa cosa qui, magari ci vengono richieste delle informazioni successive al form da richiedere. Noi basta che compiliamo quella parte extra e gli diciamo compilami questa parte qui, giusto? Allora, quindi comunque tu lo faresti ricompilare all'utente? Eh no, se mi deve scegliere l'attività, come faccio a non fargliela compilare a lui?
+
+20:01 - Carlo Sanvoisin#+#Lorena Cavecchi
+Ok, no no no, era per essere sicuro.
+
+20:04 - Carlo Sanvoisin
+lo chiedo Federico.
+
+20:07 - Lorena Cavecchi
+Perché questo normalmente lo facciamo, nel senso che avendo creato l'ID, gli aggiungiamo dei campi e gli diciamo scusa. Poi lui vedrà solo quelle che non ha ancora Che attività vuoi fare?" e appare il menu a tendina dove lui decide il colosseo, degustazione dei vini, niente.
+
+20:43 - Carlo Sanvoisin
+Ok, vediamo cosa ci dice Federico.
+
+21:04 - Unidentified Speaker
+Benissimo!
+
+21:07 - Carlo Sanvoisin
+Next! Per la privacy obbligatoria non prefleggata per impedire il completamento della registrazione senza il consenso. Facile, no? Perfetto. Poi qui abbiamo tre requisiti che vanno in Wave 2 che sono essenzialmente, ve lo dico una parola, la parte dei pagamenti. La parte dei pagamenti è un un qualcosa che chiaramente in fase iniziale siccome eravamo partiti eh dai processi offline quindi era qualcosa di molto molto più rudimentale non è stata mai discussa ed è essenzialmente una cosa molto complessa perché bisogna si parla di integrarsi con dei sistemi di pagamento come ad esempio c'è voi avete su quel su quell'attuale l'integrazione con non riusciamo a coprire la gestione dei pagamenti però a questo punto la domanda che viene spontanea è quanto è fondamentale per voi oggi già gestire anche I pagamenti tenendo in considerazione che questo strumento già vi andrà a semplificare molto la vita su tutta la parte di Progress Offline perché a questo punto è come se dovesse decidere se volete già da subito mettere dentro queste funzionalità molto complesse e andare praticamente fin da subito a creare uno strumento che sostituisce completamente le vostre attuali piattaforme oppure dire intanto noi ci sostituiamo tutti quanti I processi offline e gestiamo la maggior parte delle casistiche poi mano a mano che lo usiamo e ci affezioniamo a questo strumento ci lo cominciamo ad utilizzare in maniera diciamo sempre più ampia decidiamo di passare completamente esatto quindi questa è una vostra decisione chiaramente poi c'è anche la decisione di della Garbarino a livello proprio di eh di quotazioni, di di budget, di Progetto e tutto il resto però essendo voi le prime utilizzatrici diciamo il primo input parte da voi quindi dovete decidere voi se spingere su questo oppure dire intanto io sono contenta così e se poi a che ne so a metà dell'anno prossimo questo strumento mi copre anche la parte di gestione dei pagamenti, bene.
+
+23:30 - Carlo Sanvoisin#+#Lorena Cavecchi
+Quindi ditemi voi le vostre opinioni. Io inizierei proprio con quelli che sono il must have.
+
+23:37 - Lorena Cavecchi
+Andrei a vedere la funzionalità, lo farei funzionare, poi a integrare questa parte qua credo che anche per voi non sia un lavoro enorme dopo.
+
+23:48 - Carlo Sanvoisin
+Non è un lavoro enorme, semplicemente la gestione dei pagamenti Comunque ha un peso che non è semplicemente contenuto nel budget attuale. Non è una cosa impossibile.
+
+24:02 - Carlo Sanvoisin#+#Lorena Cavecchi
+Certo, certo.
+
+24:03 - Lorena Cavecchi
+Questo è un nice to have che possiamo vedere poi dopo.
+
+24:09 - Carlo Sanvoisin#+#Lorena Cavecchi
+Non è un vincolo per cui noi non possiamo iniziare ad usare la piattaforma, vedere come va e poi eventualmente integrarla successivamente. Ottimo, perfetto.
+
+24:21 - Carlo Sanvoisin
+Ti anticipo che sono veramente pochi I nice to have perché ho lavorato per voi, ho fatto un grande lavoro di convincimento su Federico e Simone per cercare di tirare dentro quante più cose possibili e su alcune cose sulle quali erano un po' incerte. Insomma, preferivo darvi in mano una piattaforma che fosse quanto più funzionale possibile piuttosto che darvi una piattaforma tra virgolette zoppa e magari certe cose non le faceva e poi per la qualità dello strumento ma proprio per il numero di funzionalità mi dicevate sì però con questo non riesco a fare x e quindi piuttosto certe cose magari me le sono accollate un pochino più io come società AI ho detto me le prendo io però preferisco che il cliente insomma soddisfatto lo strumento quindi ho fatto quest'opera di convincimento dei ragazzi quindi per ora come vedete questa parte pagamenti è fuori e ovviamente il passaggio di status che mi avete detto da waiting attending che dipende dal pagamento, il sistema non lo sa se è stato fatto o meno il pagamento quindi non ci può essere questo passaggio di status. Lo potrete eventualmente cambiare voi manualmente se lo volete.
+
+25:39 - Arianna Giordanella
+Magari lo status waiting senza collegarlo al pagamento in questo momento io lo terrei perché magari ci serve perché lo gestiamo eh ok allora lo segno pure questo a parte c'ho la colonna commenti potevo usare questa ehm possono gestire manualmente gli status quindi ah risei cioè ti torna che magari sono stati assegnati in base all'agenzia quindi sono tutti ma anche perché eh lo status secondo me è legato oltre che al pagamento anche alla partecipazione quelle che vincono a modifiche di uno statistico partecipante ci deve essere. Comunque mi torna, sì, anche che il fatto che il pagamento non sia vincolante.
+
+26:26 - Arianna Giordanella#+#Lorena Cavecchi
+Ah sì, effettivamente perché waiting, cioè come noi, perché giustamente quello che sta dicendo Arianna è che quando noi mandiamo gli inviti per noi sono tutti waiting, nel senso che ci devono poi rispondere con il sì o con il no. Quindi diventerà anche Dobbiamo avere il modo di capire, in qualche maniera con uno status, quali sono le persone che noi poi dovremmo andare a sollecitare.
+
+27:10 - Lorena Cavecchi
+che ci serve.
+
+27:12 - Carlo Sanvoisin
+Possiamo anche tenere l'attending come un campo che manualmente voi andate a modificare nel momento in cui avete la Conferma del pagamento. Però di default possiamo fare che sono tutti quanti in... Adesso non mi ricordo perché erano tre praticamente. Adesso magari non mi ricordo I nomi esatti, ve la metto così. Sono tutti quanti waiting oppure non response fino a che non hanno risposto a niente. Diventano waiting nel momento in cui danno il sì sul form, però da waiting a attending, se di mezzo c'è il pagamento, lo dovete fare voi manualmente.
+
+27:55 - Lorena Cavecchi
+Ok, va bene, però togliamoci un attimo il tema del pagamento, che quello è un nice to have. Nel must have noi che stati abbiamo? Cioè, quando noi mandiamo via la scheda di iscrizione, per noi sono in attesa, nel senso che ci devono rispondere e quindi questo è il primo stato.
+
+28:20 - Carlo Sanvoisin#+#Lorena Cavecchi
+Il secondo stato è confermato perché vuol dire che hanno risposto e hanno risposto sì, oppure no perché vuol dire che ha risposto e che non parteciperà.
+
+28:35 - Lorena Cavecchi
+Queste cose a noi servono anche perché nello stesso momento in cui noi dovremmo andare a sollecitare persone che non si sono iscritte, dobbiamo avere la visione di chi non si è iscritto. Poi magari quando arriverà il momento dei pagamenti, decideremo che non sarà più waiting o magari aggiungeremo uno status che riguarda il pagamento.
+
+29:05 - Carlo Sanvoisin
+Guarda per me c'è quello che potrebbe essere incluso, adesso me lo faccio confermare da Federico, è che voi avete di default tutti I suoi rating, quando dicono sì nel form diventano confirmed, quando arriva il pagamento lo sapete voi e voi manualmente li passate in attending. Questo potrebbe essere come il giro.
+
+29:26 - Lorena Cavecchi
+Sì che poi per me una volta che arriva il pagamento diventa confirmed, è più attending. Ah, ok, allora li scambiamo.
+
+29:35 - Carlo Sanvoisin
+Esatto.
+
+29:36 - Carlo Sanvoisin#+#Lorena Cavecchi
+Allora l'ordine è waiting, attending e confirmed. Perfetto.
+
+29:39 - Carlo Sanvoisin
+E poi ci sono I not confirmed, cioè quelli che dicono che non partecipano.
+
+29:46 - Carlo Sanvoisin#+#Lorena Cavecchi
+Certo, certo, certo. Quelli che mettono sì e quelli che mettono no dovrebbe essere gestito.
+
+29:53 - Carlo Sanvoisin
+L'informazione sul pagamento, non avendo la sistema, la dovete mettere manualmente. Non è gestito, ok.
+
+30:00 - Carlo Sanvoisin#+#Lorena Cavecchi
+L'importante è che siano gestiti sì e no e in risposta di base.
+
+30:07 - Lorena Cavecchi
+Poi c'è questa parte del pagamento che però metterei al momento uno status fake per intenderci che noi gestiamo manualmente perché abbiamo quello status in più che ci permette di capire che quelli sono gli attenzionati perché dobbiamo verificare il pagamento.
+
+30:29 - Carlo Sanvoisin
+esatto perfetto a questo punto andiamo avanti tutti questi tre next web sono praticamente tutti quanti sulla gestione dei pagamenti del passaggio di status è come se l'avessimo visti tutti ehm dashboard partecipanti filtrabile come membro del team voglio una dashboard dove ogni partecipante è una riga che contiene colonne chiave con status nome cognome email altri dati personalizzati per avere la visione di insieme immediata e poi del filtrare e ricercare su tutti questi campi. Quindi questa è essenzialmente quella stessa vista dove sopra avete tutti gli status con sotto tutti quanti I partecipanti e le informazioni chiave in colonna che si possono filtrare.
+
+31:18 - Lorena Cavecchi
+E ogni partecipante avrà il suo codice univoco, il suo ID, giusto?
+
+31:24 - Carlo Sanvoisin
+Sì, assolutamente. Poi questo va bene è quello che ci siamo detti prima che comunque io manualmente devo poter cambiare qualsiasi status.
+
+31:35 - Carlo Sanvoisin#+#Lorena Cavecchi
+Ah vedi allora è il pending. In realtà poi li avevo riscritti tutti.
+
+31:42 - Carlo Sanvoisin
+Abbiamo pending, waiting, attending, checked in, checked out, not attending. Di questi pending, waiting e not attending io cerco di scusami pending, attending e not attending cerco di metterveli con lo switch che diventa dal form. Quando lo compilano. Esatto.
+
+32:01 - Carlo Sanvoisin#+#Lorena Cavecchi
+Invece il waiting lo dobbiamo gestire manualmente. Esattamente.
+
+32:04 - Carlo Sanvoisin
+Penso anche il check-in check-out, perché non penso che riusciamo a includere che la scansione del QR code si parli con il sistema. Glielo chiedo a Federico, ma sono abbastanza sicuro che, a parte la risposta sul form, il resto lo dovete gestire manualmente allo stato attuale se volete assolutamente questa cosa gli posso chiedere quanto quanto ci viene in più per permettere anche questo questo switch beh ma scusami ma se non c'è che senso a mettere cioè come facciamo noi a mettere manualmente check in e check out? Allora possiamo anche non metterlo e basta comunque questo lo posso approfondire effettivamente non l'abbiamo passato velocemente questo non glielo ho chiesto quindi io vi posso dire questo vediamo cosa mi dice lui se ve lo riesce a mettere dentro se non ve lo riesce a mettere dentro io questi li cancellerei e basta come status e vi direi che inizialmente I quattro status gestire la piattaforma sono pending, waiting, attending e not attending ok però se io creo un compito devo sapere come poterlo leggere, sennò come lo leggo?
+
+33:25 - Lorena Cavecchi
+Che intendi? Perché sto andando al punto 14 e al punto 13. Come organizzatore di eventi voglio che il sistema generi un QR code univoco per ogni partecipante, in modo da poter gestire le operazioni di check-in in modo rapido e automatizzato.
+
+33:43 - Carlo Sanvoisin
+In base c'è il check-in, c'è la creazione del QR code, adesso non ti ti so dare la Conferma assoluta che la scansione del QR Code manda un input al sistema che cambia automaticamente lo status, quindi la creazione del QR Code e il fatto che nel QR Code sono contenuti...
+
+34:04 - Lorena Cavecchi
+Non è detto che debba aggiornarmi lo status, però io ho bisogno che il sistema mi legga il QR Code e che da qualche parte mi metta un'informazione che poi il QR Code è stato letto?
+
+34:19 - Carlo Sanvoisin#+#Lorena Cavecchi
+Non so se mi sono spiegato, mi deve cambiare per forza lo status, questo è assolutamente no.
+
+34:28 - Carlo Sanvoisin
+Ok, allora Conferma che il QR code è stato letto, più capire se possiamo legarlo al passaggio di status, questo ve lo faccio sapere.
+
+34:41 - Lorena Cavecchi
+Poi non è detto che mi debba cambiare lo perché magari sono due momenti diversi, nel senso che per me era un attending, ma ha partecipato e quindi io avrò un campo che mi dirà che lui ha partecipato perché gli ho scansionato il QR code, però mi resta attending. Quindi non è che deve essere per forza buttato nello stato ed essere aggiornato, però gli hobby che all'interno di quella scheda, intanto che il sistema legga il QR code, perché sennò io dove vedo, cioè come faccio a far leggere quel QR code da chi?
+
+35:26 - Carlo Sanvoisin
+Certo.
+
+35:27 - Carlo Sanvoisin#+#Lorena Cavecchi
+Perché le informazioni sono dentro a quel database, a questo sistema.
+
+35:31 - Carlo Sanvoisin
+Sì, infatti poi io ho il mio ID partecipante che è legato a tutte le informazioni del forum, più le informazioni assegnate rispetto agli itinerari, rispetto agli alloggi e via dicendo comprimo tutte queste informazioni in un QR code e poi se lo posso ritrovare nell'e-mail d'invito. Ce l'hanno?
+
+35:52 - Lorena Cavecchi
+Certo sì sì assolutamente però poi io che quando lui mi arriva con il QR code io qualcosa devo fare con quel QR code se no per cosa gliel'ho generato a fare?
+
+36:06 - Carlo Sanvoisin
+No no certo certo assolutamente quindi io sicuramente voglio questo punto e poi voglio capire se effettivamente ehm possiamo anche mandare questo messaggio al sistema che permette di fare eventualmente il passaggio di status però il fatto che eh c'hai un check fra virgolette del qualcosa è stato letto eh penso che sia sia assolutamente mh insomma una funzionalità inclusa anche perché il funzionamento del QR Code.
+
+36:41 - Carlo Sanvoisin#+#Lorena Cavecchi
+Bene, quindi generazione ce l'abbiamo, generazione del QR Code.
+
+36:47 - Carlo Sanvoisin
+Poi il QR Code del partecipante include le informazioni delle attività extra, va bene.
+
+36:56 - Lorena Cavecchi
+Per poter verificare e gestire l'accesso, quindi c'è.
+
+37:02 - Carlo Sanvoisin#+#Lorena Cavecchi
+Sì, sì. L'avevo pure scritto qui.
+
+37:06 - Carlo Sanvoisin
+questo considera che questo è stato validato tutto questo che stai leggendo è stato già validato da Federico quindi magari io certi dettagli tecnici che non sono un tecnico me li perdo però poi difatti se lui ha dato l'ok su questo eh va bene poi abbiamo questo che è praticamente splittato in due quindi io parto da quello che il sistema farà e poi vediamo quello che invece potrebbe fare quindi eh a livello di gruppi con filtri dinamici noi potremo creare dei filtri che sono sia I filtri del form, quindi io posso creare dei gruppi basati per esempio su, non lo so, la città di partenza, la città di destinazione o qualsiasi altra informazione che io richiedo all'interno del form, più posso inserire nel form, a livello di builder proprio, dei campi fra virgolette eh nascosti quindi se io per esempio so già che ho una lista di manager io posso inserire eh fleggare nel form che quelli sono dei manager e loro neanche lo vedono quando gli arriva il form da compilare però quando mi ritornano indietro le informazioni è come se fossero taggati è come se gli avessi messo un'etichetta che sono dei manager quindi io questo lo posso fare sia prima a priori se già lo so oppure lo posso fare dopo quindi magari io dopo sto lavorando su su sui gruppi ho detto mi piacerebbe fare una distinzione per vip lo sai solamente tu quali sono I vip non lo sa chiaramente il sistema chi sono I vip secondo non lo posso assegnare quindi io clicco su partecipante 1 13 e 24 so che quelli per me sono I vip e gli assegno questa etichetta. Quindi in poche parole, o lo faccio a priori a livello di creazione del form, o lo faccio a posteriori quando ho già raccolto tutti quanti I dati, però in ogni caso posso assegnare questi valori fra virgolette custom. Più ho tutti quanti I valori che stavano inclusi nel form, chiaramente, sulla base di tutti questi campi io posso fare qualsiasi combinazione voglio. Come se fosse una specie di Excel, quindi posso dire, mettimi in questo group tutti quelli che partono da Roma e tutti quelli che io ho etichettato come VIP e quelli magari sono le persone alle quali verrà assegnato il volo in prima classe. Ho fatto un esempio, ok? Quindi di base voi avrete la possibilità di creare questi gruppi sulla base di tutte le combinazioni di questi filtri, filtri di default o filtri custom e poi avrete un avviso del sistema nel momento in cui avete creato un gruppo che eccede la capienza eh di ciò che volete assegnare. Mi spiego meglio. Se voi volete assegnare questi voli di prima classe a quindici persone quindi avete fatto il filtro vi è uscito fuori un gruppo da quindici persone che erano le persone che partono da Roma e sono state etichettate come VIP però in realtà voi avete importato dentro il sistema dieci voli di prima classe e il gruppo da quindici. Allora il sistema ti dice? Guarda che sei sforato di cinque. Quindi tu in quel caso manualmente dovrai decidere di quei cinque chi togliere oppure di comprare altri cinque voli di prima classe e importarli.
+
+40:39 - Unidentified Speaker
+Ok?
+
+40:39 - Carlo Sanvoisin#+#Lorena Cavecchi
+Quale sarebbe l'evolutiva di tutto questo?
+
+40:43 - Carlo Sanvoisin
+Ad oggi voi dovrete, potrete importare, come ci siamo detti tutti quanti gli itinerari, però non c'è ancora l'assegnazione automatica come avevamo discusso l'altra volta che sarebbe una cosa molto diciamo eh funzionale per voi e che vi toglierebbe un sacco di tempo quindi io onestamente vi esorto a a farla da subito questa funzionalità onestamente. Se voi avete anche l'assegnazione automatica anche nella creazione dei gruppi siete estremamente facilitate perché già il sistema che ha assegnazione cioè se io al sistema io ho dato la regola tutti I VIP prendono I posti di in prima classe non dovete più fare voi l'in out cioè questo lo metto dentro questo lo metto fuori perché il sistema ha già assegnato il volo mi spiego? Quindi praticamente se andate a prendervi anche la funzionalità di assegnazione itinerari e assegnazione ticket che è anche quella cosa di non prendere il bid e e metterlo manualmente dentro eh la scheda del partecipante ma avere il sistema che lo fa al posto vostro chiaramente questo si riflette anche nel eh nel grouping quindi questo vi porta una facilitazione anche nel grouping se non mettete l'assegnazione automatica essenzialmente avete questo avviso che vi dice guarda che eh avevi dieci biglietti tu hai fatto un gruppo da quindici e poi quindi 5 ve li dovete gestire voi, in poche parole. Fino a qui è chiaro?
+
+42:24 - Carlo Sanvoisin#+#Lorena Cavecchi
+Sì, è chiaro. Ok.
+
+42:27 - Lorena Cavecchi
+Cioè, è chiaro la descrizione, cioè, andrebbe capito esattamente come sviluppare il requisito 15.
+
+42:35 - Carlo Sanvoisin
+Ecco, allora, sul 15, un'altra evoluzione ancora, cioè, se io ho un sistema che assegna già manualmente tutti quanti I voli. A quel punto, I voli, le camere, via dicendo, gli itinerari in generale, gli alloggi. A quel punto posso, siccome lui ha molte informazioni già a sistema, posso andare a lavorare proprio di intelligenza artificiale nell'elaborazione di questi dati. Quindi a quel punto, avendo tutte quante le informazioni in pancia, è come se lui potesse quindi non devi più filtrare come facevamo prima e quindi dire eh metto questo filtro, metto quest'altro filtro, vediamo quanti me ne escono. È proprio lui che ragiona su le possibili combinazioni e fa le assegnazioni. Poi una volta che ha fatto le assegnazioni voi ve le ricontrollate mi piace, non mi piace, lo modifico, non lo modifico. Però quindi per andare ad avere un agente di intelligenza artificiale che da solo ragiona su tutte le possibili combinazioni dobbiamo avere il prerequisito dell'assegnazione automatica quindi in poche parole per fare questo qua servirà adesso lo vado a beccare dove sta da qualche parte mi sa che questo no questa è una cosa di riportistica questa è un'altra cosa di sarà qui voglio ritenere aiuaggio vengono associati automaticamente al sistema partecipante quindi in poche parole se voi vi fate il trentacinque poi possiamo lavorare anche sul che cos'era il quindici quindici ok perfetto quindi eh quello è un prerequisito si può fare sempre per step secondo me questo è proprio il futuro cioè questa la vedo proprio come molto molto importante mentre l'assegnazione automatica bene o male non vi viene a costare tantissimo e rispetto al lavoro che fate voi ti parlo sempre di ehm costo beneficio cioè rispetto al vostro lavoro di andare ad assegnare ogni itinerario uno per uno a tutti I partecipanti in secondo me vi conviene. Questa dell'agente AI, per carità, pure questo vi toglie un sacco di tempo, però comunque lo dovete ricontrollare.
+
+45:10 - Carlo Sanvoisin#+#Lorena Cavecchi
+Lui può essere intelligente quanto gli pare, ma non conoscerà mai tutte quante le vostre dinamiche. Quindi comunque è un lavoro che devi ricontrollare.
+
+45:20 - Carlo Sanvoisin
+In più, sicuramente a livello proprio di sviluppo, è più costoso. Quindi magari sto facendo l'avvocato del diavolo con me stesso, però vi dico, se vi dovessi dare una priorità in termini di costo-beneficio vi direi partite alla sedizione automatica.
+
+45:36 - Carlo Sanvoisin#+#Lorena Cavecchi
+E poi su questo ci lavoriamo. Esatto, infatti c'è tempo. Let's go on. Perfetto.
+
+45:41 - Carlo Sanvoisin
+Poi abbiamo questo sistema che quanto mi fanno impazzire queste cose, mi ha cambiato tutto il formatting. Va bene. Come membro del team di segreteria voglio un editor integrato per creare e inviare le mail massive partendo dal template in modo da poter comunicare comunicare eh con I partecipanti quindi è tutto quello che ci siamo detti a livello di email mh nessun problema quindi tutto compreso avrete il builder chiaramente se voi avete creato il gruppo VIP Roma nel momento in cui vado a mandare l'email e una va a standard Roma una va a VIP Roma l'informazione se la riprende da tutte quante le caratteristiche eh di viaggio che sono associate a quel gruppo quindi mh VIP a Roma gli dirà sei in prima classe a standard gli dirà sei in economia eccetera eccetera perfetto quindi mh questo è quello che vi dicevo campi dinamici con un testo che viene popolato automaticamente poi abbiamo eh I contenuti logistici personalizzati quindi il contenuto dell'itinerario l'informazione personale viene modificato a seconda eh del del partecipante quindi si legge è come dire lo abbiamo diviso fra uno è l'informazione viene dal form mi chiamo Carlo Sambuasen e lui dirà ciao Carlo un'altra informazione che avete associato tramite l'itinerario e quindi è parto da Fiumicino mi dirà piatti da Fiumicino poi logica condizionale è quello che proprio mh vengono mostrati o meno a seconda del destinatario quindi se eh io faccio una distinzione di gender per cui agli uomini gli arriva una una certa scritta eh le donne un'altra questo lo posso lo posso impostare quindi questo è perché è diverso perché questo non dipende dai gruppi che ho creato questo non è VIP non VIP questo è proprio un qualcosa di ancora più ampio cioè eh magari io c'ho dei manager in gruppo e dei manager in un altro gruppo che uno parte da Roma, uno parte da Milano, quindi riceveranno comunque delle eh comunicazioni diverse però tutti I manager ricevono una frase in più mentre I dipendenti low level quella frase non la vedono esempio. A prescindere dai gruppi di cui fai parte. Ok, meraviglioso. Poi associazione questo è un altro che sta più in fondo sono quelli che io vi consiglierei di ehm di spingere che magari chiamate Laura e dite guarda Laura abbiamo visto tutto l'applicativo ci sono un paio di cose in più che si potrebbero fare se non portano tanto valore e poi mi devo ancora far fare una votazione da Federico e Simone su questi, ma mi hanno detto che non sarebbe una cosa esorbitante rispetto al lavoro che fate voi, che mi avete detto ci basta tre notti a separare questi pdf e assegnarli, quindi a questo punto invece che farvi lavorare di notte magari spendiamo qualche cosa in più e facciamo pure questo. Poi che cosa abbiamo? Le comunicazioni tramite Whatsapp, chiaramente questo è incluso come ci siamo detti quindi avere anche qui vero dobbiamo trovare un numero di un numero di telefono da trasformare come whatsapp giusto eh sì dovete avere chiaramente un account whatsapp aziendale beh no intanto io mi segno quelle cose da portare avanti eh certo poi questo agente whatsapp sarà ci avrà il motore di agenda ai dietro che risponde con le stesse informazioni quindi prendendoli di in questo caso mi sa che sarà legato al numero di telefono se non mi ricordo male mi ha detto Federico che siccome loro inseriscono il numero di telefono nel form se io ti scrivo da quel numero di telefono che è un po l'identificativo allora io ti rispondo sulle informazioni ok e già che parliamo di informazioni Tutta la parte poi che prevede la visualizzazione dei dati utenti, come ci eravamo detti, io le posso mantenere anche in futuro, una volta che è finito l'evento, ma quelle personali vengono oscurate. Quindi il nostro database non è che si tiene I numeri di telefono al di fuori dell'evento, perché non andiamo a violare il GDPR, però comunque io so quanti eventi ho fatto, quanti partecipanti c'erano e via dicendo.
+
+50:39 - Lorena Cavecchi
+Questo non lo possiamo fare noi, vero?
+
+50:42 - Carlo Sanvoisin
+In che senso lo potete fare voi?
+
+50:46 - Lorena Cavecchi
+Noi possiamo decidere quando offuscare queste informazioni?
+
+50:49 - Carlo Sanvoisin
+Faccio l'approfondimento con Federico, però penso che questo è un po' più che altro dato da policy e leggi.
+
+50:58 - Lorena Cavecchi
+Certo, però te lo dico perché I DPA che noi firmiamo con I clienti hanno delle regole diverse per il mantenimento dei dati all'interno cioè noi possiamo mantenere alcuni dati per tre mesi da fine evento altri per sei mesi altri un giorno altri un anno allora te lo metto così sicuramente questa è la regola la regola viene dettata dal dpa che noi firmiamo col cliente ok allora te lo metto così sicuramente partiremo dal requisito base di legge quindi probabilmente dai requisiti più stringenti in assoluto.
+
+51:40 - Carlo Sanvoisin
+Chiedo a Federico se possiamo già andare a, tra virgolette, costumizzare queste...
+
+51:47 - Lorena Cavecchi
+No, no, no, a me basterebbe solamente che ci fosse una roba che dice offusca I dati e poi lo facciamone manualmente.
+
+51:59 - Carlo Sanvoisin#+#Lorena Cavecchi
+Sennò come avviene?
+
+52:01 - Carlo Sanvoisin
+Io penso che di default eh di default si mette il requisito più stringente nel senso che il più stringente è ventiquattro ore dopo l'evento eh comunque ho vado a offuscare tutti I dati personali allora se quello è il più stringente in assoluto si applica direttamente il più stringente se poi vogliamo avere delle diverse parametrizzazioni di questo requisito capiamo con Federico se possiamo probabilmente metterlo manuale non dovrebbe essere un problema, quindi se lo mettiamo manuale penso che possiamo includerlo senza problemi. Intanto lo useremo. Perché non ho capito esattamente come funziona l'offuscamento?
+
+52:45 - Lorena Cavecchi
+Mi è chiaro che viene rispettata tutta la regolamentazione della GDPR, ma come adesso? Come è stata studiata?
+
+52:52 - Carlo Sanvoisin
+Non è che abbiamo fatto lo studio approfondito su questo, però io a logica ti direi che che lo lo strumento di base deve rispettare quello che è il la norma e su questo non ci sono assolutamente dubbi. C'è una regola specifica su quel cliente non so se quella regola specifica la possiamo gestire in maniera diciamo eh già automatica nel senso che io.
+
+53:20 - Lorena Cavecchi
+No no ma a me non serve che sia automatica quella veramente no perché poi magari tante volte dobbiamo fare dimostrare che noi abbiamo cancellato tutto, quindi il cliente deve essere certo che non ci sia più niente dentro e quindi dobbiamo cancellarli.
+
+53:40 - Carlo Sanvoisin#+#Lorena Cavecchi
+Per cui non ci lasciano neanche tenere nome e cognome per intenderci.
+
+53:46 - Lorena Cavecchi
+Questa roba qua, l'offuscamento dei dati se è una cosa che facciamo noi, cioè con tipo un tasto da schiacciare, almeno siamo autonomi e non c'è nessuna regola da mettere dietro, cioè è il nostro ditino che lo fa.
+
+54:08 - Carlo Sanvoisin
+Perfetto, questa sarà la prossima domanda che faccio Federico. Cosa abbiamo poi? Questa è una delle cose che sarebbe fuori, cioè la reportistica, quindi creare report statistici aggregati facendo la domanda allo strumento del tipo quante camere ho prenotato in questo hotel quest'anno non lo c'è questo non lo riusciamo ancora a gestire all'interno del nostro budget questo può ancora aspettare e poi immaginavo che poteva aspettare infatti non mi sembrava una cosa così fondamentale poi link univoco per evento chiaramente la creazione del link che è collegato a l'evento per poter visualizzare la pagina di registrazione. Il link che poi mandate per e-mail, ci clicco e si apre la pagina di iscrizione. Salvataggio del progresso registrazione, come partecipante vorrei che il sistema salvasse I dati che inserisco nel form di registrazione per non ricominciare da capo. Questo era quello che c'eravamo detti. Ho chiuso il form, però ho salvato I cookie. Quando riapro il form mi ritrovo già tutte le opzioni che avevo collegato.
+
+55:22 - Carlo Sanvoisin#+#Lorena Cavecchi
+Questo è il front del partecipante.
+
+55:26 - Carlo Sanvoisin
+Poi ok questa è l'associazione quindi dopo aver creato un gruppo voglio poter associare alcune specifiche componenti logistiche che è essenzialmente l'assegnazione degli hotel dei voli quindi voi ce l'avete al sistema come fate oggi e potete associare manualmente. Il night come ci siamo detti è te lo fai in automatico il sistema poi abbiamo autocompilazione del browser quindi essenzialmente io già avevo partecipato a un evento se vado a fare una nuova iscrizione l'anno successivo con lo stesso browser lo stesso computer e avevo salvato I cookie ai tempi quando apro mi trovo I dati pre compilati in poche parole oppure Io non so se lo nascerete.
+
+56:23 - Carlo Sanvoisin#+#Lorena Cavecchi
+Nome, cognome, email, metodo di pagamento.
+
+56:26 - Carlo Sanvoisin
+Cioè è come quando tu apri un'applicazione, clicchi sul campo nome e lui già ti suggerisce Lorena. Quello è. Ok. Su che campi li fa?
+
+56:39 - Lorena Cavecchi
+Questo dobbiamo stare attenti eh, su quale campi va lì per compilare. Guarda...
+
+56:45 - Carlo Sanvoisin#+#Lorena Cavecchi
+Sempre in funzione delle regole della GDPR.
+
+56:49 - Carlo Sanvoisin
+Sì, ma la logica di direi che sono nome, cognome, email e numero di telefono, fine. Perché chiaramente quelli di registrazione dell'evento, a parte potrebbero essere diversi, poi si tratta comunque di un nuovo evento. Magari ecco, forse anche la città di provenienza e la via, forse anche questo si prende. Perché ti faccio un esempio, che ne so, di Glovo. Se tu entri su Glovo, lui ogni volta ti ripropone tutti quanti gli stessi dati, non è che ti metti là e li ricompili da capo. Oppure se devi fare un acquisto online, anche che io entro su un nuovo e-commerce sul quale non ero mai entrato e devo fare la spedizione, lui lo sa che sono in Viale Giuseppe Mazzini 55 e via dicendo. Quindi questo sempre se io salvo I cookie sul mio browser e se uso lo stesso browser, chiaramente se una volta uso Chrome, una volta uso Safari, una volta uso Edge, è tutto. Identificazione del partecipante, devi identificare il partecipante in modo univoco tramite email, numero di telefono e questo è quello che dicevamo proprio per eh dare le giuste informazioni alla persona corretta. Poi potremo decidere quale campo utilizzare. Sicuramente per le comunicazioni WhatsApp come dicevo prima useremo il numero di telefono. Poi queste sono sono cose che possiamo valutare perché per esempio nome e cognome non conviene tanto per perché potrebbe capitare che ci sono due persone.
+
+58:19 - Carlo Sanvoisin#+#Lorena Cavecchi
+L'omonimia. Esatto.
+
+58:20 - Unidentified Speaker
+Certo.
+
+58:20 - Lorena Cavecchi
+Esatto.
+
+58:21 - Carlo Sanvoisin#+#Lorena Cavecchi
+E via dicendo. Gestione degli accompagnatori.
+
+58:24 - Carlo Sanvoisin
+Questo ho dovuto litigare. Ehm devi poter gestire uno o più accompagnatori extra guest all'invitato principale in maniera tale che il sistema riconosce la relazione e permette di visualizzare il numero e il nucleo completo. Quindi ehm si potranno mettere gli quando creo il form di registrazione voglio poter specificare se questo debba essere compilato anche per gli accompagnatori quindi possiamo decidere se l'accompagnatore diventa una persona extra che compila il form o io in quanto persona principale compilo il form per me e per l'accompagnatore. Lo possiamo decidere al back end. Poi cosa abbiamo qui? L'export quindi posso esportare I dati selezionando le colonne da includere nel file, quindi in poche parole questa sarà proprio una specie di stampa, una stampa di quello che ho a sistema, quindi dico voglio nome, cognome, città di partenza e volo, tac, seleziono questi quattro campi e lui mi stampa la tabellina. Perfetto. Import delle tratte, quindi questo è quello che abbiamo trattato l'altra volta, qui c'è stato un po' di tira e molla e l'abbiamo messo dentro, quindi importare massivamente Excel o CSV con le singole tratte, poi abbiamo l'assegnazione manuale ai partecipanti e poi c'è il nice to have dell'assegnazione automatica e su questo poi mi direte voi, pensateci, ragionatevi, fate sapere tra questa settimana e l'inizio della prossima se volete che facciamo la quotazione, anzi sapete che vi dico, io intanto mi faccio fare la quotazione da Federico e poi se voi mi dite sì Esatto, vi dico quanto sarebbe extra. Poi abbiamo il contatore di posti disponibili. Sì, questo l'abbiamo anche visto prima, l'abbiamo scritto pure separatamente. Chiaramente se io ho importato dieci voli, a quel punto il sistema lo sa che ci sono dieci voli.
+
+1:00:27 - Carlo Sanvoisin#+#Lorena Cavecchi
+Quindi nel momento in cui cerco di assegnare l'undicesimo mi dice che non c'è, essenzialmente.
+
+1:00:33 - Carlo Sanvoisin
+Poi tutta questa parte di reportistica, sempre nice to have. Io penso che anche questo possa aspettare. Quindi qui che cosa abbiamo? La rooming list per ogni hotel, formattata in maniera specifica.
+
+1:00:49 - Carlo Sanvoisin#+#Lorena Cavecchi
+Poi abbiamo il re-prologativo in cui voglio sapere... Quello purtroppo la 37 non è che può aspettare. Sì?
+
+1:00:58 - Carlo Sanvoisin
+Ok, allora questa qua gli chiedo quanto sarebbe in più essenzialmente, perché tutta la parte quindi eh manipolazione dei dati ehm pone il pagiatto attuale non ci rientriamo. Quindi se allora leggiamoli bene. Così mi dici se sono tutti e tre fondamentali oppure il trentasette intanto mi dico mi scrivo da quotare. Poi eh il trentotto è eh quando un evento involge più hotel poter generare il report persone, notte per notte, su tutte le strutture, con la visione di insieme. Questa può aspettare.
+
+1:01:41 - Carlo Sanvoisin#+#Lorena Cavecchi
+Può aspettare.
+
+1:01:42 - Carlo Sanvoisin
+Poi, stampare e sportare in pdf e customizzare già formattati, come transfert list per gli autisti, liste a credito per le hostess, per dare a ogni fornitore solo le informazioni di cui ha bisogno. Può votare. Può votare, vai.
+
+1:02:00 - Lorena Cavecchi
+Poi, next, riconoscimento del...
+
+1:02:03 - Carlo Sanvoisin
+Ah, questo è il famoso ricevo dei partecipanti in più, magari mi hanno dato I dati non completi, invece di mettermi lì, a scorrermi tutta quanta la lista e a chi è chi è la persona aggiuntiva me lo suggerisce il sistema quindi quel famoso delta gap fra 100 partecipanti adesso mi ha rimandato la lista sono diventati 103 ma non mi ha specificato che sono I tre aggiuntivi. Quindi vedi già queste sono tutte le funzionalità in più che il sistema fa se noi riusciamo a metterci anche le cose che mancano diventerà oggettivamente molto più voluto rispetto a quello che utilizzate oggi poi abbiamo il caricamento del biglietto chiaramente posso caricare il biglietto e associarlo come vi dicevo se facciamo quell'altro requisito che gli spezzetti e li assegna automaticamente c'avete anche l'assegnazione del biglietto quindi proprio del pdf ad oggi però chiaramente voi lo potete fare manualmente con un drag and drop o qualcosa del genere poi la scheda partecipante questa è un'altra vista, cioè io ho la vista di insieme, dove ci sono tutti I partecipanti, riga per riga, con tutte le informazioni. Poi, se io clicco su Carlo Sambuasen, mi si apre una nuova scheda che mi dice praticamente...
+
+1:03:37 - Carlo Sanvoisin#+#Lorena Cavecchi
+Si apre la tua scheda con il tuo storico e tutte le informazioni.
+
+1:03:43 - Carlo Sanvoisin
+Esattamente. Poi, prima abbiamo visto la dashboard dei partecipanti, avete anche la dashboard degli itinerari. Quindi, che ne so, volo Air France e tutte le informazioni su quel singolo volo.
+
+1:03:55 - Carlo Sanvoisin#+#Lorena Cavecchi
+Dieci voli Air France sono dieci.
+
+1:03:58 - Lorena Cavecchi
+Se dobbiamo modificarlo manualmente, perché magari il volo di Air France che prima era alle dieci, poi dopo due mesi ci dice che è alle undici, noi possiamo andare a modificare l'orario, corretto?
+
+1:04:12 - Carlo Sanvoisin
+Ma penso proprio di sì.
+
+1:04:14 - Carlo Sanvoisin#+#Lorena Cavecchi
+E infatti sì, perché se non lo lasciamo.
+
+1:04:17 - Carlo Sanvoisin
+cambiare manualmente I dati degli ok mi so personale ok e penso assolutamente di sì però io per togliermi ogni dubbio lo chiedo e poi che cosa abbiamo? L'import che questo l'abbiamo diviso in due forse perché uno era itinerari perché uno è itinerario e l'altro è l'assemblaggio Ti torna?
+
+1:04:49 - Carlo Sanvoisin#+#Lorena Cavecchi
+Magari ci sono I voli con scalo.
+
+1:04:55 - Lorena Cavecchi
+Quindi abbiamo sia questo import qui che...
+
+1:05:01 - Carlo Sanvoisin
+dove stava l'altro? Ce l'ho perso? Ecco, delle tratte. Perfetto. Poi cosa abbiamo? L'abbinamento compagni di Quindi, collegare all'accompagnatore un invitato principale sia due partecipanti indipendenti come compagni di stanza per gestire correttamente tutte le tipologie di abbinamento. Quindi potrete segnare anche questo. Invio dei allegati personalizzati.

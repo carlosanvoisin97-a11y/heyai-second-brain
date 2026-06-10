@@ -1,0 +1,389 @@
+Noloop | Prioritizzazione Casi d'uso AI 
+Mon, Sep 15, 2025
+
+0:00 - Carlo Sanvoisin
+Allora, bene, ho fatto veramente una miriade di call, quindi ormai conosco la vostra azienda in tutti I suoi reparti. No, però sono emerse delle cose molto interessanti e diciamo che sicuramente fare la panoramica con tutti quanti I reparti è stato utile, perché poi appunto ho parlato anche con Bruno, so che vi siete un minimo confrontati. Mi diceva che comunque avete un obiettivo proprio di digitalizzazione anche nel medio e lungo termine, quindi piuttosto che fare delle mini soluzioni fra virgolette buttate lì, metterlo all'interno di un piano invece di evoluzione aziendale, allora mi torna tutto e secondo me ha molto senso.
+
+0:46 - Conference Room (Lg) - Speaker 1
+Per noi è fondamentale arrivare ad avere un piano, poi è chiaro che non è che magari lo facciamo nel largo dei due mesi perché magari… una struttura per poter fare una cosa così tutta insieme voglio dire.
+
+1:02 - Carlo Sanvoisin
+Tutto insieme no, ma in generale siccome comunque ci sono delle soluzioni che vanno fatte prima, perché permettono di creare l'infrastruttura che permette poi la creazione delle soluzioni successive.
+
+1:14 - Conference Room (Lg) - Speaker 1
+Quello che tu dovevi capire.
+
+1:16 - Carlo Sanvoisin
+Esatto, infatti oggi vi mostro come l'abbiamo pianificato e in più diciamo anche che proprio dal punto di vista delle risorse anche vostre siccome per ognuno di questi progetti noi dovremmo fare molti approfondimenti con le vostre persone soprattutto con le persone più operative non possiamo neanche diciamo mettere in pausa l'azienda quindi chiaramente qualche cosa dovremmo farla diciamo a scaglioni altrimenti bloccheremo tutti quanti I vostri reparti contemporaneamente Perfetto, allora io vi direi io ho creato un Word in cui ho fatto praticamente un recap riassuntito di tutte quante le richieste che mi sono pervenute divise per area aziendale. Poi eh sulla base di ehm diciamo queste richieste che abbiamo ottenuto abbiamo ragionato insieme ai due sviluppatori e abbiamo cercato di metterle insieme in diciamo dei pacchetti di soluzioni con l'obiettivo di creare una sinergia, una sinergia sia dal punto di vista proprio tecnico dello sviluppo, quindi fare in modo che soluzioni tecnologia o che hanno un funzionamento simile vengono messe insieme in maniera tale che per loro eh un'accelerazione dal punto di vista dei tempi e per voi chiaramente risparmio dal punto di vista del budget e in più ehm alcune di queste hm diciamo piattaforme che poi al loro interno conterranno più soluzioni vengono usate in maniera trasversale quindi magari non sono delle piattaforme che usa solo la segreteria o solo la biglietteria o solo un suo modulo d'accesso e va poi effettivamente a sfruttare la gente, l'intelligenza artificiale o comunque la soluzione, la funzionalità che sta nella piattaforma per quelle che sono le sue mansioni, le sue attività. Quindi se volete io parto in condivisione e vi faccio prima il resoconto delle richieste, così che siete anche proprio a conoscenza di tutte quelle che sono le richieste.
+
+3:10 - Conference Room (Lg) - Speaker 1
+Io ti dico, io ho fatto una riunione oggi e ti dico le priorità che mi hanno dato a me I ragazzi, che non ho ancora parlato con Paolo, però tanto che tu le metti giù, poi io ce l'ho.
+
+3:24 - Carlo Sanvoisin
+Allora, magari poi andiamo a rivedere quel piano che abbiamo fatto sulla base delle priorità che mi dici tu, ok? Allora, io intanto vado in condivisione e abbiamo essenzialmente, qui vi ho messo un eseguto di Samari, semplicemente per dire appunto… Lo puoi anche condividere via mail, per favore?
+
+3:41 - Conference Room (Lg) - Speaker 2
+Certo, questo poi… Grazie, ora che più che altro io non vedo neanche, faccio fatica a vedere sui schermi grande, figurati sui telefonini.
+
+3:50 - Carlo Sanvoisin
+Certo, ma non c'è problema, questo tanto adesso ve lo racconto. L'obiettivo è quello che vi ho detto, quindi creare una roadmap di implementazione per fasi, la metodologia come sapete è stata quella di fare le sessioni di approfondimento con I vari reparti, I risultati principali che sono emersi sono che c'è bisogno di strutturare meglio la raccolta e la gestione dei dati per permetterci effettivamente di sviluppare una serie di soluzioni. Oggi c'è un vasto uso di Excel che per certi aspetti va bene, per altri diciamo se poi vogliamo creare delle soluzioni non non è possibile crearle su una parte.
+
+4:32 - Conference Room (Lg) - Speaker 2
+Deve essere valorizzata l'azienda per cui l'Excel non fa parte del patrimonio degli asset mentre una soluzione di questo tipo diventa anche una valorizzazione di asset.
+
+4:44 - Carlo Sanvoisin
+Certo, quello poi diventa un vostro asset. Esatto. Poi, secondo punto che hai messo, chiaramente, è la necessità di agenti AI specializzati. Cosa intendiamo con agenti? Essenzialmente, invece di avere una semplice automazione, l'agente AI con delle regole, con delle linee guida, è in grado di agire quasi autonomamente e svolgere dei task più complessi e quindi, per esempio, task di ricerca, task di analisi, dei siti di reporting e via dicendo e che come vi anticipavo prima, molte soluzioni possono essere costruite su delle piattaforme comuni, quindi questo permette di creare dell'economia di scala. Cosa raccomandiamo? Noi raccomandiamo chiaramente di partire con una prima fase su iniziative di media complessità ma con alto impatto trasversale, il che ci permette di porre le basi poi per le successive soluzioni e da qui cominciamo ma a mappare tutti quanti I casi d'uso che abbiamo raccolto. Il primo che c'è è appunto quello che abbiamo discusso insieme, relativo anche alla call che abbiamo fatto sul progress, quindi parliamo di analisi dati, reportistica avanzata su quel famoso Excel che abbiamo visto insieme, che ad oggi può rimanere ancora così come ci siamo detti.
+
+5:59 - Conference Room (Lg) - Speaker 1
+Rimane come Excel, quello non lo voglio fare perché a me quello mi serve, adesso abbiamo messo giù perfettamente tutti I dati che ci servono.
+
+6:08 - Unidentified Speaker
+Perfetto.
+
+6:08 - Conference Room (Lg) - Speaker 1
+Tutti lo fanno nello stesso modo, riusciamo a lavorare contemporaneamente sul file e a questo punto poi io ti dirò cosa ci serve, cosa deve estrarre, quali sono le cose che ci interessano a estrarre.
+
+6:36 - Carlo Sanvoisin
+le segreterie, essenzialmente le segreterie mi hanno raccontato che per eventi più complessi, più grandi, loro hanno già un sistema di back office integrato con software email per mandare comunicazioni, per operi e progetti più semplici invece c'è ancora una forte manualità perché devono creare… Quel back office di cui parli però è di una società terza… utilizzando tutto.
+
+7:05 - Conference Room (Lg) - Speaker 2
+Ecco, per cui probabilmente sarebbe interessante fare una valutazione anche se è possibile replicarla internamente.
+
+7:10 - Carlo Sanvoisin
+Allora, ti dico, secondo me, io non so quanto vi hanno fatto pagare per quel software lì.
+
+7:17 - Conference Room (Lg) - Speaker 2
+No, il costo no, ma noi lo stiamo utilizzando e penso che non paghiamo neanche quasi niente.
+
+7:23 - Conference Room (Lg) - Speaker 1
+No, no, tutte le volte che lo utilizziamo paghiamo 1.800 euro. Sì, vabbè, però in ambito… Però secondo te dicevi?
+
+7:31 - Carlo Sanvoisin
+Diciamo che secondo me andate a risparmiare perché ve lo fate vostro, lo potete cominciare a testare su gli eventi più semplici.
+
+7:40 - Unidentified Speaker
+Ma quanto può costare secondo te?
+
+7:42 - Carlo Sanvoisin
+Poi lo vediamo perché mi hanno fatto più o meno un prezzo gli sviluppatori, però è su un pacchetto di soluzioni in cui ci sono altre cose dentro.
+
+7:54 - Conference Room (Lg) - Speaker 1
+Io ti dico, la segreteria è rimasta di sazzo, sono innamorati di voi di sviluppatore. Infatti per la segreteria è stata quella che hanno messo tutti al primo posto, perché dove abbiamo il problema di grado. Lì è proprio dove abbiamo, che poi lo uniscono alla biglietteria.
+
+8:19 - Carlo Sanvoisin
+Esatto, infatti io segreteria e biglietterie l'ho messa nella prima wave di sviluppo. Comunque, quello che immaginiamo è un sistema che gli permette appunto di facilmente creare I nuovi form, che non saranno dei form, ma diventano, come fate per gli eventi più complessi, delle vere e proprie pagine web brandizzate, no loop. Quindi non sarà il Microsoft Form, che è un po' bruttino e antiquato, ma sarà proprio la pagina web di registrazione. Tu clicchi il link, ti si apre tutto quanto no loop, metti I tuoi dati e vi dice e via dicendo. Una volta che I partecipanti dell'evento inseriscono I dati allora si cominciano a creare in maniera automatica le liste quindi ci saranno le liste relative agli hotel, I voli e via dicendo basate su le regole che vengono date appunto dalla segreteria quindi se la regola è eh vorrei che la direzione d'azienda ehm debba stare in quest'ala dell'hotel mentre il management in quest'altro ancora, lui assegnerà insomma a liste secondo queste regole, poi chiaramente c'è un po' di controllo umano, però di base diciamo che gli va a togliere questo lavoro che loro oggi mi hanno detto è un po' tipo un sudoku, che devono incastrare tutto quanto, quindi questo lo andrebbe a fare in automatico e poi chiaramente integrato con un sistema di comunicazioni, sia WhatsApp che e-mail, fatto con un comunità.
+
+9:49 - Conference Room (Lg) - Speaker 1
+Perché noi in questo momento lo WhatsApp non riusciamo a mandarlo. Per esempio quando devi mandare I tavoli, devi mandare le cose, per noi devi mandare I messaggi che la gente non li vede, è un dramma. Magari non arrivano perché sembra che non arrivano I messaggi. Ormai è obsoleto, non riguarda nessuno.
+
+10:07 - Carlo Sanvoisin
+Quindi diciamo che noi questo ve lo integriamo con l'email per mandare email automatiche, con WhatsApp per mandare sempre queste comunicazioni e in più sulla parte di email è interessante perché oggi da quello che so per questi eventi più piccoli loro devono inviare l'email tramite Outlook che non ti permette di mandare tante email contemporaneamente perché altrimenti te le blocca e te le mette in spam quindi le devono a volte mandare a piccoli gruppi o addirittura una per uno senza la possibilità poi di renderle fra virgolette carine perché non si possono mettere le immagini dentro Outlook non hai un sistema quindi con questo che vi creiamo noi diventa un po' come I famosi mail chimp clavio insomma questi software di mail marketing che ti permettono di fare tutta l'email carina con le immagini e le scritte centrate, via dicendo. E in più, la cosa che secondo me è la più interessante in assoluto, non ci sono solamente gli invii automatici di WhatsApp, ma c'è anche una specie di agente di intelligenza artificiale che sta dentro WhatsApp vostro, di Noloop, quindi quando un partecipante chiede informazioni su WhatsApp, non è la persona ma è la gente che riconosce il nome del partecipante e il codice vento, ad esempio, e risponde subito e dice guarda tu hai il volo alle 7.30. Questa è proprio la ciliegina sulla torta, questo dovete decidere poi se implementarlo da subito oppure decidere di farci dei budget, lì devi essere bravo tu a mettermi giù di budget e così poi chiudiamolo, ok? Va bene, allora diciamo che già che tu mi… Famelo a pezzi, no?
+
+11:50 - Conference Room (Lg) - Speaker 1
+Comunque mi dici, facciamo questo, poi aggiungiamo questo, certo che almeno capiamo quanto dobbiamo… tieni conto che comunque tutti d'accordo di partire da lì.
+
+11:58 - Carlo Sanvoisin
+Ok, allora diciamo che se alla fine di questa call riusciamo a dirci proprio di tutte queste soluzioni quali vogliamo fare nella prima fase, io ti faccio una quotazione complessiva sulla prima fase e poi ti spezzo anche le e ti dico guarda se vuoi fare solo questo ti costa così e vi dicendo chiaramente facendo la maniera complessiva c'è un risparmio se volete andare per pezzetti magari le singole soluzioni costano un pochino di più però insomma ve la gestite anche meglio voi quindi questo poi lo stabiliamo invece reparti pm e produzione mi hanno chiesto di creare diciamo uno strumento per gestire I progetti a livello diciamo di calendario però molto visual quindi avere davanti questa specie di calendario con le attività dell'evento che vanno a creare questa specie di eh insomma di box sul tempo che quindi ti fanno capire da dove parte e dove finisce come una specie di e in più vorrebbero la possibilità di cliccare su un'attività avere questo menu che ti scende giù e ti dice tutti sotto task che fanno parte di quell'attività e assegnarle a delle persone specifiche quindi in questo modo diciamo sarebbe uno strumento di project management in cui ognuno viene assegnato un'attività, l'attività ha le sue scadenze, le sue milestone e I suoi parametri.
+
+13:19 - Conference Room (Lg) - Speaker 1
+Diciamo che non è priorità uno sicuramente.
+
+13:21 - Carlo Sanvoisin
+Ok, infatti questo l'abbiamo messo nella seconda. Poi un agente virtuale on-site questo si può diciamo unire ad altri casi d'uso che ho ricevuto da più reparti. Diciamo che molti hanno chiesto di avere degli agenti che guardano online e trovano eh soluzioni di nuovi fornitori. Quindi potrebbe essere la potrebbe essere in fase di gara, potrebbe essere in qualsiasi momento però in generale il need è dire io ho bisogno di sapere chi fa eh noleggio smoking o chi fa noleggio di auto di lusso o un altro qualsiasi fornitore che mi serve per quell'evento e vorrei poterlo avere in dei parametri di ricerca di no loop e questo è una richiesta che ho ricevuto su più fronti e sarebbe poi abbastanza simile a quello che abbiamo fatto per l'Antonello Smetti, solo che in quel caso era proprio tutto il processo della programmazione, invece qua ci andiamo a verticalizzare.
+
+14:22 - Conference Room (Lg) - Speaker 1
+In qualche modo lo potresti recuperare una parte da quello dell'Antonella come motore direttore.
+
+14:27 - Carlo Sanvoisin
+Sì, andiamo sicuramente a fare un lavoro ancora più di fino però assolutamente. Questo poi deciderete voi se metterlo prima o dopo. Poi abbiamo una serie di use case che erano proprio sulla parte più di contabilità relativa ad un evento. Quindi qua per esempio abbiamo la compilazione del file di chiusura contabile e quindi estrarre essenzialmente gli imponibili numeri fattura, I preventivi, le quotazioni dei fornitori e andare a creare il file di consuntivo che ad oggi anche questo è un excel essenzialmente quindi questo si tratterebbe di raccogliere tutti quanti questi dati contabili relativi a una determinata commessa e poi andare a compilare il file.
+
+15:10 - Conference Room (Lg) - Speaker 1
+Ti posso dire che io questo lo trovo un doppione con quello che facciamo già amministrativamente questo perché loro non hanno voglia di farlo non è che ci voglia una vita fare questa roba qua io questa non gliela passerei. Allora sai che ti dico magari io in Stiamo cercando una persona che purtroppo avevamo ritrovato e ci ha dato due di picche, che sia una risorsa interna che faccia, come si dice, una segista che l'aiuti in questa parte qua. Perché loro sono chi fa questo lavoro più creativo, più che sta in giro o qualcosa del genere, tutta la parte contabile è negata. Quindi non è che facendogli quello gli risolviamo un problema, perché sempre devono inserire e loro inseriscono anche nei nostri formati che abbiamo, amministrativi, gli inseriscono sbagliati dati. Quindi non è che risolviamo il problema creandogli una griglia, quello lì è proprio la testa che non c'è, non so come potervi dire, non lo vogliono fare. Voi preferisco avere una figura contabile all'interno che lo faccia bene, giovane, perché intanto lo sbaglierebbero comunque, buttiamo io I soldi con te e avremo sempre il problema.
+
+16:28 - Carlo Sanvoisin
+Certo, allora questi io li ho segnati in giallo perché mi ha detto che essenzialmente per ora li mettiamo in stand by, quindi mano a mano se mi dici qualcosa lo mettiamo in stand by io lo avrò segnato in giallo.
+
+16:42 - Conference Room (Lg) - Speaker 1
+Sbagliano a compilare le richieste di pagamento dai, I giorni, quando pagare, che è uno schema che devi mettere che è urgente, non lo scrivo e poi dicono, ah mi sono dimenticato, capisci? Non esiste.
+
+16:55 - Carlo Sanvoisin
+Diciamo che forse è meglio metterci uno stagista che impara.
+
+16:59 - Conference Room (Lg) - Speaker 1
+Esatto, è molto meglio uno stagista, guarda ti posso dire, l'avevamo già cercato, purtroppo, il problema è che quando è stato il momento non si è presentato.
+
+17:11 - Carlo Sanvoisin
+Sono d'accordo con te che quando si tratta di contabilità oppure aspetti legali è meglio sempre che ci siano delle persone di riferimento che prendono valore su questa attività.
+
+17:23 - Conference Room (Lg) - Speaker 1
+A chi fa la ricerca federica di non mettere reparto di comunicazione, di mettere ricerca di un amministrativo, perciò chi ti risponde è un amministrativo, perché se metti comunicazione la gente pensa di lavorare in comunicazione e poi quando è il momento non viene.
+
+17:39 - Carlo Sanvoisin
+Sono super d'accordo, per forza, serve una persona che sia specializzata in quello. A questo punto io quello lo metto in Se decidete posso anche cancellarlo direttamente, sennò vi metterò fra parentesi un tpt. Poi abbiamo il brief per il tool leader, ovvero recuperare tutte quante le informazioni che vengono scambiate per email relative ai vari fornitori.
+
+18:09 - Conference Room (Lg) - Speaker 1
+Queste qua sono cose bellissime, ma che ci andrà in seconda battuta. Io vorrei focalizzare l'attenzione sulle urgenze. La segreteria per me è fondamentale perché loro sono proprio in difficoltà.
+
+18:26 - Conference Room (Lg) - Speaker 2
+Secondo me questo qua del discorso tour leader, indipendentemente da quello che stavi dicendo e scusa se ti abbiamo interrotto, però è evidente che le persone che lavorano non vedono l'ora di farsi che tutto venga fatto in automatico, no?
+
+18:46 - Conference Room (Lg) - Speaker 1
+Perché è una menata fare briefe delle office.
+
+18:49 - Conference Room (Lg) - Speaker 2
+E ti dico anche di più, io non sono d'accordo, ma ti spiego perché.
+
+18:54 - Conference Room (Lg) - Speaker 1
+Quando tu fai il brief delle office, io ad esempio quando sono in campo, che ci vado io, il brief delle office me lo faccio io. Sai perché? Perché nel mentre metti giù I ruoli delle persone, ti rendi conto cosa ti sei dimenticato. Cioè, nel mentre tu metti giù la divisa metti giù quello che devi fare, ti rendi conto se c'hai sufficiente hostess per coprire tutto quello che stai facendo, se ti sei dimenticato delle cose. Quindi se ti chiedono una cosa del genere, non hanno capito l'utilità che non è quello di metterci il nome del contatto, ma proprio di mettere giù le mansioni che devono fare e se non lo fai, credimi, vuol dire che lo domande a qualcuno? Quello è un po' come fai in matematica la prova del 9.
+
+19:46 - Carlo Sanvoisin
+Allora diciamo che comunque gli rimarrebbe in mano il brief già completo sul quale loro devono fare un check, però se tu… No, ma non puoi guardare, l'intelligenza artificiale non te lo può fare una cosa del genere, credimi.
+
+20:01 - Conference Room (Lg) - Speaker 1
+Perché io quando sono lì, io scopro, io so quante persone ci vogliono per 1500 persone a gestire I flussi d'ingresso, come fa l'intelligenza artificiale a saperlo? Dove lo metti questo dato? Quello che mi hanno chiesto loro è semplicemente di andare a riprendere tutti I thread di mail relativi a un determinato evento e regolare le informazioni e metterle insieme, quindi non è tanto… Quello mi hanno fatto girare già le balle, perché se c'ero io in quella riunione che te lo chiedevano l'estrinavo, perché il piano delle hostess non è fare… alle hostess puoi anche non dirgli come si chiama il direttore dell'hotel, l'indirizzo dell'hotel, non gliene frega niente, ognuno ha le sue mansioni. Io ho sempre detto, dividetelo per mansioni, perché quella che sta in hotel, una volta che ha un'infarinatura generale del programma, lei deve sapere cosa succede in hotel e non si muove dall'hotel. Chi ha fatto una richiesta del genere, concettualmente non ha in mente cosa vuol dire fare un operativo. Non serve a niente, credimi. Quello proprio non glielo farò mai.
+
+21:09 - Carlo Sanvoisin
+Ok, facciamo una cosa, lo mettiamo proprio in rosso, poi lo cancello questo.
+
+21:14 - Conference Room (Lg) - Speaker 1
+Attima glielo spiego anche perché, voglio dire, ti dico, quando faccio I gruppi io che sono in loco me li faccio io, me li faccio io. Ho capito elettricamente il discorso e penso a questo punto, dopo anche che me l'hai raccontato, che forse è una di quelle metà… Ti ricordo che ho fatto adesso quello di Wind, che non l'aveva da 35 persone siamo arrivati a 46, perché mancavano le persone. Come faceva l'intelligenza artificiale a capire che mancavano 11 persone? L'ho fatto io, mi sono pensato che l'ho fatto.
+
+21:44 - Conference Room (Lg) - Speaker 1
+Questo è un qualcosa che potete fare solo voi, ho ragione, adesso devo raccontarvi.
+
+21:49 - Conference Room (Lg) - Speaker 1
+Per quello che ti dico, se uno te lo chiede vuol dire che non ha capito cosa vuole dire fare questo mestiere. Non è raccogliere tutte le mail che mi sono scambiata, quello me ne frega un cacchio, è capire se nel flusso dell'ingresso, se ci sono I parcheggiatori, tutto quello che serve, se ce l'hai tutto.
+
+22:12 - Carlo Sanvoisin
+Per fortuna non ho assegnato il nome della persona che me l'ha chiesto. Diciamo che sempre mi è arrivata quest'altra richiesta, è un duplicato, sarebbe appunto una ricerca specializzata per fornitori, qua c'è scritto arredi, talent, servizi, dicendo, ma appunto solo per sottolineare che questa richiesta me l'hanno fatta più reparti diversi, quindi potrebbe essere un qualcosa di cross.
+
+22:37 - Conference Room (Lg) - Speaker 1
+La ricerca di fornitori specializzati online, quindi un qualsiasi tipo di… Ma quello ci può anche stare, quello se lo utilizziamo. Sì, Antonio Citiello mi ha messo… E poi abbiamo preso quello della programmazione e va a implementare quello lì e mi va bene, quello ci può stare, non è un problema di quello, quello va bene.
+
+22:55 - Carlo Sanvoisin
+Vedi lui mi ha fatto tutta una lista di tutte le possibilità, vendita non leggi arredi, non leggi tenso strutture, bicchieri, catering e via dicendo. Quindi questo è Cico, sì. Quindi diciamo che questo potrebbe essere un caso d'uso utile perché molto cross, va su diverse parti dell'azienda. Poi l'evoluzione del budget di commessa. Praticamente cosa mi hanno raccontato? Che voi oggi sul gestionale che avete di Microsoft, quello Dynamics, andate essenzialmente a scrivere solo I budget finali, quindi diciamo l'ultima cifra che viene maturata, ma non c'è tutto il dettaglio dell'evoluzione. L'evoluzione invece la tracciate su un Excel dove essenzialmente si scrive… Il progress, quello nostro, quello che ho già io.
+
+23:46 - Conference Room (Lg) - Speaker 1
+Ok, ma quindi è lo stesso… Io a me ti posso dire che mi interessa relativamente, perché io quella tracciata che faremo poi dei dati da recuperare, io che cosa avrei recuperato sul progress? Commessa, nome del cliente, tipologia del cliente inteso, new business o cliente storico, gara o senza gara, che tipo di evento è? Road show, evento, viaggio, B2B, B2C, quel cacchio di evento che è? Poi io metto di effettuazione il mese, perché così so I mesi di punta dell'azienda, quando c'è più lavoro e ogni mese quanto c'ho di lavoro, poi metto il dato di apertura pratica con il margine di apertura pratica quando passa dalla programmazione all'operativo, quindi quando è stato confermato, è passato con un milione di Euro 5% e poi mi riporto in finale la chiusura che in base alla commessa va a prendere le chiusure di tutti I reparti e li somma, perché uno stesso COM puoi avere la biglietteria, l'operativo, IPM, quindi io ti farò dividere per biglietteria, si avrà un totale di fatturato e utile. Quindi io questo lo faccio già con quell'altro sistema di Microsoft. Allora io questo quasi lo cancellerei da qua.
+
+25:27 - Carlo Sanvoisin
+Ma sì perché te lo tiro fuori io con quello che sto facendo io, per quello che il progress per me è interessante.
+
+25:33 - Conference Room (Lg) - Speaker 1
+Perché poi ci saranno tutta una serie di colonne che a te non le devi neanche guardare, non me ne frega niente. E poi mi interesserà avere il nome di chi ha fatto le cose, per vedere il time sheet che loro fanno, se è in linea o no, o se se l'inventano.
+
+25:47 - Carlo Sanvoisin
+Perfetto, allora teniamolo tutto quanto dentro il lavoro che facciamo sul Progress.
+
+25:52 - Conference Room (Lg) - Speaker 1
+Avrei anche la numerica degli eventi, perché se io voglio sapere quanti eventi ho fatto inferiore ai 300, mi li tiro fuori subito. Cioè io adesso, se uno mi dice, ma Berbarino, qual è la media dei tuoi? Vado a spanne. Quanti eventi inferiore ai 100 persone fai?
+
+26:12 - Unidentified Speaker
+Non lo so.
+
+26:14 - Unidentified Speaker
+Certo.
+
+26:14 - Conference Room (Lg) - Speaker 1
+Cioè ci devo pensare Io ti dirò tutte le domande che voglio fare, quelle più pazze che ci vengono in mente, in maniera tale che io posso estrapolare qualsiasi dato, prendendo dieci colonne. Per me la COM sarà l'identificativo di tutto.
+
+26:41 - Carlo Sanvoisin
+Ok, il valore guidante, diciamo. Perfetto, guarda, per me ha senso, quindi ti dico, secondo me questo gestiamolo tutto quanto nello stesso applicativo relativo all'analisi.
+
+26:52 - Conference Room (Lg) - Speaker 1
+Esatto, quello che stiamo facendo con I ragazzi, che guarda, stiamo facendo un lavoretto che ti piacerà tanto, la buona matematica.
+
+27:00 - Carlo Sanvoisin
+Poi quando me lo mandate indietro… Sì, adesso te lo mandano, domani te lo mandano. Ottimo, perfetto. Poi abbiamo tre iniziative fatte da richieste dal reparto creativo, la prima era… per fare l'analisi strategica durante una gara, ovvero per raccogliere informazioni sui clienti, capirne il posizionamento, chi sono I competitor, che iniziative hanno fatto in passato. Come?
+
+27:25 - Conference Room (Lg) - Speaker 1
+Lo dovrebbero fare loro, ma non lo fanno, lo dovrebbero fare.
+
+27:31 - Carlo Sanvoisin
+Diciamo che questo potrebbe essere utile perché lui in poco tempo, magari in 5-10 minuti, raccoglie informazioni dal web.
+
+27:40 - Carlo Sanvoisin
+Ma questo serve anche agli account?
+
+27:43 - Conference Room (Lg) - Speaker 1
+Perché è sempre una questione di chi prende I brief, ma io se devo parlare con un cliente, io prima di parlare con quel cliente vado a informarmi di tutto quello che fa. Quindi una volta che tu ritiri fuori le informazioni, serve sia alla comunicazione e prima l'avrebbe dovuto utilizzare il commerciale se io ho il mio business, che non è il mio cliente storico. Perché quella ricerca lì la fai non sul cliente storico, ma sulla gara del mio business. Con questa ricerca qua, è una cosa che lega sia il commerciale, che non lo vede perché non lo vede utile, ma perché non hanno la testa su alcune cose. Ma io commerciale, se io ho un brief, io avevo Angelini l'altro giorno un brief e mi sono fatto una ricerca. Poi le maneggio ancora altre cose che io non sapevo. Però già mi ero ricercato per capire che cazzo facevano Angelini.
+
+28:40 - Carlo Sanvoisin
+Certo, e allora in questo caso ancora meglio perché questo implica che potrebbe essere utilizzato da due reparti.
+
+28:47 - Conference Room (Lg) - Speaker 1
+Sicuramente, il commerciale in fase di prima di fare la riunione col cliente di un business, perché perlomeno arriva, sa con chi lavorano, sanno cosa stanno facendo, sanno qual è la loro idea, cioè hai già un'idea di preparazione devi studiartela. Certo, assolutamente.
+
+29:04 - Carlo Sanvoisin
+Diciamo che questi casi d'uso che poi prevedono uno sviluppo ma applicazioni su diverse parti per voi sono molto strategici, quindi io poi sotto mi andrò ad aggiungere che questo va anche sugli account o commerciali. Perfetto, poi invece questi sono molto verticali sulla parte di chiaramente creativa perché uno è la creazione proprio di materiali visivi, quindi parliamo di mock-up, render, video teaser, e l'altro invece del copy. Chiaramente non ci siamo detti subito, io gli ho consigliato, non fatevi dare le idee di concept dall'intelligenza artificiale. No, loro mi hanno detto vorremmo fare noi il concept e poi sulla base del concept aiutarci magari nella scrittura, però fermo restando che comunque l'idea originale è umana perché altrimenti io ti faccio un'idea generata dalla I. Elaborata dalla I, deliberata dalla I, allora a quel punto non esiste più la componente umana.
+
+30:07 - Conference Room (Lg) - Speaker 2
+Quindi diciamo… LM – Quella è una cosa che per me è un po' dubbiosa. Perché quando diventa non più umana, cioè se è una modifica del 10%, però bisogna anche capire come fai a calcolare la modifica del 10%, ok rimane umana. Però quanto è questo 10% è qualcosa che a me non piace.
+
+30:31 - Conference Room (Lg) - Speaker 1
+Ma loro infatti, devo dire che I copi hanno detto che le vogliono fare loro, l'unica cosa. I copi hanno detto che le vogliono fare, c'era quella riunione lì, è una delle poche che ho partecipato perché volevo capire che cosa tiravano fuori. E loro ti hanno detto, io I copi non credo, è più sulla parte creativa che hanno bisogno per trovare loro hanno detto che loro magari gli interessa far più le ricerche su quello prima, per loro gli interessa più le ricerche, cioè la ricerca per poter arrivare a capire cosa hanno fatto, cosa non ho fatto per essere più in linea col target nel dare la cosa, ma io il resto non lo farei, farei quello della ricerca e poi al limite le immagini visive.
+
+31:20 - Carlo Sanvoisin
+Perfetto, allora teniamoci questi due e quest'altro infatti me lo sono messo in giallo. Poi abbiamo tutta la parte di amministrazione, controllo di gestione e legal ho messo insieme anche qui perché sono tutti diciamo molto simili fra di loro ovvero redazione, aggiornamento delle procedure e delle policy cambia, faccio un esempio, la policy su come va fatto l'hosting di un applicativo sui vostri server io ho la policy diciamo quella precedente, la versione precedente dico la mia intelligenza artificiale guarda che adesso è cambiata possiamo utilizzare anche server di provider esterni se se sono appunto legittimi eccetera eccetera e lui va a riscrivere diciamo quel pezzo di policy secondo le nuove direttive oppure in altri casi è proprio una redazione di report complessi quindi proprio la redazione da zero di un report che potrebbe essere ad esempio mi hanno parlato della relazione di impatto come può funzionare questo funziona che noi gli diamo un template di come deve essere scritto il report, gli diamo delle regole da seguire e gli forniamo I documenti da cui prendere le informazioni e lui scrive secondo questo template tutta quanta la bozza. Poi chiaramente ci deve essere sempre l'umano che controlla. Analisi contratti esterni, voi mi diceva, questo mi pare si chiama Davide Settembrini, il vostro legale, avete una serie di punti che andate sempre a controllare, quindi per esempio lo scarico di responsabilità, stabilità se venisse cancellato un volo e magari il cliente nel contratto proposto da lui cerca di scaricarlo su un online.
+
+32:59 - Conference Room (Lg) - Speaker 1
+Io dico scusami, se io ho un contratto, ho capito che ci sono quelle voci ma ce ne sono tante altre, come fa l'intelligenza artificiale se non c'è l'avvocato? Davide è un avvocato, se non c'è l'avvocato che se li legge tutti?
+
+33:17 - Carlo Sanvoisin
+deve fare è semplicemente che questa ti evidenzia in maniera istantanea tutti quei punti che potrebbero essere dubbiosi, oscuri, non completamente… LM.
+
+33:30 - Conference Room (Lg) - Speaker 1
+Ma come fa a sapere l'intelligenza la gente, come lo chiami tu, a sapere quali sono I dubbiosi se io non gli do la specifica dei dubbi?
+
+33:45 - Carlo Sanvoisin
+io ti posso fare un elenco di quei 20-25 casi che sono il 99% delle modifiche che io faccio a questi contratti e dati quelli… Questo lo mettiamo in terza fase, dai!
+
+33:57 - Conference Room (Lg) - Speaker 2
+E' quello che io l'ho detto, la Panteliga in realtà per me era… non lo so se poi te ne hanno parlato, lui fa un sacco di attività per BAT, sai le aperture, le SCIA, le TIA, le MIA, le PIA, non lo so… ha detto sicuramente sono attività che possono essere automatizzate. Non so se ne hanno parlate di queste aperture delle unità locali, di queste scia? No. E questa è la cosa più importante.
+
+34:26 - Conference Room (Lg) - Speaker 1
+Perché è una cosa standardizzata, quella fai presto, ti dico apri una scia e tu fai lì e ti dico prima cosa ci devi fare e fai presto e la apri.
+
+34:39 - Conference Room (Lg) - Speaker 2
+Ogni tanto bisogna iniziare con gli ordini, perché che cazzo stiamo a guardare lo sciarico di responsabilità? Guarda se è quello che fai dieci volte in un mese ed è una roba semiautomatica.
+
+34:52 - Conference Room (Lg) - Speaker 1
+Sì perché sai quando tu apri I punti vendita tu devi fare tutta una serie di pratiche che sono sempre le stesse. Se io ti dico quali sono alla fine tu me le automatizzi.
+
+35:04 - Carlo Sanvoisin
+Diciamo che in generale comunque sulla creazione di contratti standard lui mi ha detto ci sono dei contratti standard che comunque dei documenti legali standard che io devo creare, in cui la prima parte sono sempre le informazioni solidarie, poi viene sempre quest'altra parte qui, quindi diciamo che come casa di uso… Lui t'ha detto quello del cliente, non t'ha detto… La scia è un'altra cosa, è come quando devi ristrutturare una casa che devi andare in comune e dichiarare che ristrutturi la casa, è più o meno uguale.
+
+35:36 - Conference Room (Lg) - Speaker 1
+Quindi è da prendere, avere tutti, inserire… non è possibile, quindi non te lo chiede neanche.
+
+35:45 - Carlo Sanvoisin
+Poi mi hanno parlato dell'attribuzione costi carburante, quindi mi hanno fatto vedere l'excel dove ci sono tutti I costi carburanti che vengono attribuiti essenzialmente alle commesse sulla base dell'intervallo di tempo. Quindi quello che mi è stato detto, fare un match fra quando è stata prodotta questa spesa e la commessa attiva in quello stesso intervallo di tempo e andare a fare questa allocazione. Questo ok, mi sembra che è valido. Poi abbiamo supporto alla pianificazione e formazione HR.
+
+36:28 - Conference Room (Lg) - Speaker 2
+Questi sono, diciamo, un caso d'uso splittato in due parti.
+
+36:33 - Conference Room (Lg) - Speaker 1
+Questo è giusto e corretto.
+
+36:35 - Carlo Sanvoisin
+Sulla parte della formazione mi hanno detto che ad oggi c'è un Excel dove si segnano tutti I dipendenti, loro che hanno fatto, quali sono I corsi, il nome del corso, l'argomento e via dicendo. Quello che si potrebbe fare è automatizzare l'aggiornamento di questo Excel, in che modo? Facendogli leggere essenzialmente le vostre cartelle dove vengono messi questi certificati, questi attestati di partecipazione. Attestato di partecipazione al corso di intelligenza artificiale fatto da Carlo Sambuasen, prende I dati di questo attestato e li va a rinserire nell'Excel dicendo che è un corso. Poi abbiamo la comparazione dei preventivi fornitori, quindi raccogliere tutti quanti I e sono stati fatti nel tempo da diversi fornitori magari dello stesso servizio e andare a compararli e associarli alle relative commesse. Quindi diciamo uno strumento di analisi per capire magari quale è stato il fornitore.
+
+37:48 - Conference Room (Lg) - Speaker 1
+Anche questo non serve a niente perché ce l'abbiamo sempre nel report. Nel report scriviamo per ogni commessa il fatturato di ogni fornitore, quindi è già lì.
+
+38:00 - Unidentified Speaker
+lo teniamo dentro il primo.
+
+38:02 - Conference Room (Lg) - Speaker 1
+Ma nel report che stiamo mettendo in piedi, l'ho diviso che la parte di operativo ha, come ci eravamo detto, la colonna audio, video, service, scenografo, regista, quello che fa la scenografia, quello che fa gli allestimenti e mi devono mettere vicino il nome e il fatturato. Che altro ci devo mettere? Sarà quello che io ti chiederò, dirmi il giochi di luce, quanto ha fatturato e sui quali commesse e tu me lo chiedi fuori immediatamente.
+
+38:36 - Carlo Sanvoisin
+Ok, allora ha maggior ragione, magari non ci è stato.
+
+38:40 - Conference Room (Lg) - Speaker 1
+Non mi preoccupa che facciano queste domande, visto che hanno un foglio che stanno facendo per questa roba qui.
+
+38:47 - Carlo Sanvoisin
+Ma magari ho fatto la call prima.
+
+38:50 - Conference Room (Lg) - Speaker 1
+No, ma magari te l'ha chiesto qualcuno che non è di quelli che riempiono I moduli.
+
+38:56 - Carlo Sanvoisin
+Sì, diciamo che avendo fatto tante tante sessioni con diverse persone adesso non saprei proprio dirti chi me l'ha fatta nello specifico però ok ho capito il punto lo gestiamo assolutamente all'interno diciamo di quella funzione. Andiamo quasi in chiusura biglietteria mi ha chiesto di aiutarli nella creazione delle liste di viaggio preliminari cioè mi hanno detto la segreteria quando fa le liste ha già gli identificativi con tutti quanti I dati dei partecipanti ma noi abbiamo quindi ancora prima riceviamo un brief in cui ci si dice essenzialmente chi sono, da dove, cioè scusate, chi sono, mh, da dove partono e quanti sono e in base a mh il fatto se uno parte per dire da Ascoli Piceno loro devono capire qual è l'aeroporto, la stazione centrale più vicina ad Ascoli Piceno, come faccio a ottimizzare la logistica quindi diciamo che questo strumento andrebbe a prendere tutte capire quali sono gli hub più vicini.
+
+39:56 - Conference Room (Lg) - Speaker 1
+Anche questo è di seconda mandata, perché voglio dire, se io sono ad Ascoli, detto tra me e te, tu lo puoi sapere, non puoi sapere, non è che ho tanta scienza, o vado a Roma, o vado a Roma, o prendo il treno, non ho altre possibilità, cioè non è che ci voglia la scienza infusa, posso avere il dubbio in un posto che sia, lasciami dire, più vicino a Bari o a Napoli, ma voglio dire, vado internet, guardo la distanza degli aeroporti e c'è quello che è finito. Cioè questo lo vedo proprio come uno, se non ogni altro lo può fare.
+
+40:31 - Carlo Sanvoisin
+Siccome dobbiamo fare quello più avanzato, che è proprio quello che tiene conto di tanti parametri che ci dicevamo prima, quindi la seniority delle persone, da dove partono, a che ora partono, eccetera, eccetera, quel famoso gioco del sudoku che devono fare.
+
+40:46 - Conference Room (Lg) - Speaker 1
+Quello che deve fare per la segreteria.
+
+40:48 - Carlo Sanvoisin
+Esatto, però andando a costruire quello, una volta che l'ho già costruito, a questo punto lo vuoi usare anche per questo passo più preliminare?
+
+40:56 - Conference Room (Lg) - Speaker 1
+Benissimo, mi va bene, lo usi per il prima.
+
+40:59 - Carlo Sanvoisin
+Allora dai, lo tengo insieme a quello delle segreterie così diventa poi quello in evoluzione. Mi hanno chiesto ricerche logistiche avanzate per aeroporti, quindi capire quanti terminal, se c'è congestione, se hanno procedure restrittive o meno, configurazione degli aerei, quindi capire le mappe dei posti, le classi.
+
+41:15 - Conference Room (Lg) - Speaker 1
+Ragazzi io quella cosa lì me la rifiuto perché vanno a reggersela, sennò che uno che fa biglietteria che non sa quelle cose lì. Poi se uno della biglietteria mi chiede una cosa del genere voglio capire se non sa quelle cose di cosa stiamo parlando.
+
+41:32 - Carlo Sanvoisin
+Allora diciamo che loro mi hanno fatto molto focus sul per esempio ho una tratta e io voglio sapere su questa tratta se esistono delle compagniere secondarie magari meno conosciute.
+
+41:44 - Conference Room (Lg) - Speaker 1
+Questo lo potrei capire di più perché magari ci sono delle compagnie locali che noi non conosciamo o non l'abbiamo sistema. Quello sono d'accordo.
+
+41:53 - Carlo Sanvoisin
+Mi tengo quello e poi un'altra cosa che mi hanno chiesto è I requisiti per visti per destinazione internazionale. Quello ci può essere anche perché cambiano anche velocemente.
+
+42:03 - Conference Room (Lg) - Speaker 1
+Ti faccio l'esempio della Cina che fino a dicembre non ci ha visto e a gennaio non sappiamo cosa succeda.
+
+42:11 - Carlo Sanvoisin
+Io ti ho segnato in giallo la prima parte.
+
+42:14 - Unidentified Speaker
+Queste due le teniamo.
+
+42:16 - Carlo Sanvoisin
+e queste due le teniamo. Poi abbiamo non loop on trade e questo secondo me è un progetto veramente interessantissimo di cui mi ha parlato Massi e lui mi diceva che essenzialmente nei pop up in particolare quelli di GLOW quello che si vorrebbe fare è riprendere con delle telecamere il comportamento d'acquisto del cliente vedere che cosa hanno osservato senza comprare come se fosse una specie di carrello abbandonato e poi con l'intelligenza artificiale capire appunto qual è il prodotto che hanno osservato e mandare magari una comunicazione istantanea che dice ehi so che ti interessa la glow rossa perché l'hai guardata l'altro giorno alla galleria commerciale di acquistala qui subito con il link d'acquisto quindi questo è questo è molto complesso ma aspetta un secondo, ma non ti han chiesto niente? Separato da tutto il resto.
+
+43:14 - Conference Room (Lg) - Speaker 1
+Questa è bella, ma sulla parte operativa non ti hanno chiesto niente?
+
+43:19 - Carlo Sanvoisin
+Oddio, la parte operativa… Ma tu hai parlato solo con Massi?
+
+43:23 - Conference Room (Lg) - Speaker 1
+No, io ho parlato anche con Kikko.
+
+43:26 - Carlo Sanvoisin
+Ah, Kikko e Massi te l'hanno fatta questa qua? No, questa me l'ha chiesta solo Massi, poi Kikko invece mi ha detto che essenzialmente loro hanno dei processi molto simili al resto dell'azienda, ma che sono verticali su quindi loro andrebbero a beneficiare delle soluzioni create per gli altri, essenzialmente.
+
+43:50 - Conference Room (Lg) - Speaker 1
+Ma che gira quel conto proprio?
+
+43:55 - Carlo Sanvoisin
+Non ha lo stesso processo? No, Kikko dicevo, Kikko gestisce il capo di Chico, I BAT non c'entrano. Io ho avuto in una call appunto Chico Nobile e forse anche appunto Antonio c'erano e loro mi hanno detto che essendo verticali su determinati clienti loro gestiscono tutto dall'inizio alla fine nei loro processi quindi se noi costruiamo per dire uno strumento che è utile al team operativo o IPM o alle segreterie in realtà loro ne vanno a beneficiare perché essenzialmente fanno gli stessi processi dall'inizio alla fine però non avvalendosi sempre sempre degli altri reparti di non loop, almeno questo è stato ciò che mi hanno detto. E poi abbiamo gli ultimi che sono trasversali su tutta l'azienda, un assistente virtuale per fare le minute e I next step delle riunioni, una formazione sull'utilizzo della AI, quindi proprio un training che potremmo farvi, poi questo in generale secondo me potrebbe essere utile, a maggior ragione stiamo facendo questa iniziativa, e infine un chatbot interno per la consultazione quindi ho la mia eh diciamo knowledge base interna quindi io chiedo a questo fai conto tipo c'ha gpt gli dico senti ma come funziona se devo richiedere un preventivo e ti scrive esattamente la procedura senza che me la devo andare a cercare nei meandri del server questo Il magazzino della gestione, della logistica del magazzino, non ti hanno chiesto niente?
+
+45:38 - Conference Room (Lg) - Speaker 2
+No, magazzino no, logistica no.
+
+45:40 - Conference Room (Lg) - Speaker 1
+Infatti per me era la cosa più importante loro, perché chi non ha, non fa le stesse cose che facciamo noi, ha tutto il magazzino che io non ho, perché campare lì gestiamo il magazzino e quelle sono le cose più importanti che noi non abbiamo sotto controllo uguale a zero. Anche di BAT, di tutti e due. L'hanno preso tanto, hanno fatto la colpa che gli è scritto di far la colpa, non ci hanno messo neanche la testa. Perché secondo me il magazzino per loro è una condizione sine qua, come la biglietteria da noi, come le segreterie da noi. Ed è abbastanza. Io ho fatto una riunione, chiaramente non l'ho fatta con 5 cose sulle cose più importanti, però io l'ho fatta con… Io non l'ho fatto, però loro, scusami, ma il magazzino è la cosa più importante. È molto importante da vedere. Magari fate un passaggio interno e se ci sono delle cose da recuperare le recuperiamo. Però tanto tu l'autora comincia a farci un po' di budget sul discorso della segreteria?
+
+46:44 - Carlo Sanvoisin
+Assolutamente.
+
+46:45 - Conference Room (Lg) - Speaker 1
+Quella cosa che devi solo mettere insieme, ti giro il discorso del report, quindi il fatto che quello è semplice, solo da unire delle cose, non c'è l'intelligenza artificiale, sono d'accordo. Le piattaforme comuni, quelle che ci sono, ma tante le lasciamo fare dopo. Poi mi piacerebbe avere un'idea del costo, di fare, come ti ha detto Paolo, una cosa nostra della segreteria, cioè non dover dipendere da qualche di un altro. E l'altro è quello che ti ha chiesto Maxi, per capire quanto può costare.
+
+47:19 - Carlo Sanvoisin
+Quello ci vuole un po' di studio, te lo dico subito. Su questa parte qua della gestione eventi per le segreterie, te lo posso fare anche in un paio di giorni, ma per quell'altro ci vorrà molto più studio approfondito perché bisogna capire la complessità. Io insieme a questo report vi giro anche questa overview in cui ho segnato prima wave e seconda wave di sviluppo e infatti tutta questa parte rosa è la gestione degli eventi che abbiamo messo nella prima. Questa parte azzurrina è la parte della che è già dentro quindi l'abbiamo messa semplicemente per dire questa è la delivery attuale quello che vi daremo c'è un prerequisito il prerequisito per far funzionare tutto questo è creare un vostro workspace cioè creare un'interfaccia unica dove tutti I vostri dipendenti che devono usare funzioni di AI possono entrare e a seconda del reparto al quale appartengono o del loro ruolo se sono degli amministratori o meno possono visualizzare diciamo le varie funzionalità di AI. Questo è come se fosse l'ombrello. Dentro questo ombrello poi ci sta tutto il resto. Nella seconda wave io vi ho messo essenzialmente tutto il resto però sulla base di quello che ci siamo detti oggi io andrò a cancellare alcuni di questi applicativi. Poi direi che se voi fate un passaggio interno per esempio su questo fatto della logistica, del magazzino o la creazione dei documenti per le scie o qualsiasi altro caso d'uso che per voi è prioritario, io vi vado a fare le quotazioni, poi mi dite voi essenzialmente se li volete mettere subito nella prima wave o volete aspettare la seconda. Le tempistiche quali sono? Se noi cominciamo molto velocemente all'inizio ottobre, per fine novembre quello delle segreterie è fatto.
+
+49:13 - Conference Room (Lg) - Speaker 1
+E questo a noi ci andrebbe bene perché poi inizia tutto il lavoro. Mettiti la mano su tre coscienze, fate dei preventivi, fate bene.
+
+49:26 - Carlo Sanvoisin
+Diciamo che fortunatamente lavoriamo con degli sviluppatori che sono molto bravi.
+
+49:32 - Carlo Sanvoisin
+Le ragazze, ti dico che ne capiscono di segreteria, sono rimaste affascinate.
+
+49:40 - Conference Room (Lg) - Speaker 1
+Ha detto che si capiva che conosce il mestiere, perché non dice molte volte quando parli con il programmatore, tu cominci a spiegare e capisci che questi non l'hanno mai fatto, fanno altre cose e ci metti una vita. Invece loro tutto quello che chiedevamo loro ti davano immediatamente la risposta che era giusta.
+
+50:02 - Carlo Sanvoisin
+Esatto.
+
+50:03 - Conference Room (Lg) - Speaker 1
+E sono chiassato. Non alzare il prezzo con questa sviolinata.
+
+50:06 - Carlo Sanvoisin
+No, però glielo dico così sono contenti dai. Ci penso io al prezzo. Va bene, allora poi sistemo un po' queste cose e domani mattina vi mando tutto quanto il materiale, vi lascio anche, se riesco, già delle quotazioni magari di range. Allora grazie mille per il vostro tempo e ci sentiamo presto!

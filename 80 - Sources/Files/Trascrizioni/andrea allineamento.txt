@@ -1,0 +1,521 @@
+Speaker 0:
+
+Ciao Andrea come stai? Che bello sentirti così da paura No, no, no ma figure ti avevo immaginato insomma che è andato lungo non preoccuparti Allora io oggi ti chiamo perché? Vabbè, una serie di cose in realtà. Innanzitutto partiamo dal tema più urgente che è la quotazione che tu mi hai mandato. Allora io su questa quotazione devo capire un paio di cose.
+
+Primo, come mai alla fine hai deciso di quotarmela tu personalmente e che cosa significa? Cioè significa che se io domani ti resti in mano al progetto tu lo prenderesti in mano oppure è sempre un qualcosa di illustrativo? No,
+
+Speaker 1:
+
+no, no, questo l'ho quotato io personalmente, perché l'ho detto, ho fatto una quote illustrativo scritto, ho detto eventualmente c'è da considerare che potrebbero variare nel caso, lo vogliamo fare con Giacala perché sicuramente magari cambiano le varie... I variatori possono mettere più o meno giornate, io ho fatto una stima di massima che è più o meno quello che mi aspetto di dover spendere per poterlo fare in più ti dico per quanto riguarda le giornate sono giornate grosse 48 giorni è un po' di tempo però alla fine non ho diciamo così ti ho messo dentro un po' tutto quanto all'architettura che ti aveva chiesto nel business requirement con l'inciso che secondo me l'LLM per fare il ricorrecimento pattern lo metterei in fase 2 assieme anche al chatbot perché si risparmia facciamo tutto insieme cioè da includere costo cloud e coste LLM che al momento non sono perché sono generalmente a carico appunto
+
+Speaker 0:
+
+del cliente. No no no quello non mi interessa più di tanto però voglio ritornare su questo punto cioè io vorrei capire meglio tu quando mi dici questo è come se mi fosse capitato sul cavolo sul tavolo giacala cosa implica cioè che io domani tu mi avevi detto vabbè innanzitutto mi avevi detto che se per partire con giacala uno dovrebbe avere da 50 1000 euro in su di progetti ma questo non è un problema perché noi non abbiamo altri di progetti che devono partire però vorrei capire e quindi questo è del tipo guarda se tu mi passi un altro progetto da 25 arriviamo a 50 e te li gestisco io internamente a giacala più o meno con queste quotazioni che potrebbero salire del 10% oppure era io con le mie competenze senza passare per giacala te lo faccio io me lo gestisco io e ti costo 25.000 euro circa
+
+Speaker 1:
+
+no no no no no era anche come se te lo gestissi giacala
+
+Speaker 0:
+
+ok no perché volevo essere scuro perché quella frase oggi non ci aggiunge il
+
+Speaker 1:
+
+suo pezzetto ma aveva un po'... No no no, c'era giusto, io personalmente, come Andrea Pasquari, ma secondo me si potrebbe fare anche a qualcosa di meno se lo facciamo includendo qualcuno affermiamo dei junior, lo fai internamente e si abbassa molto il prezzo
+
+Speaker 0:
+
+non mai aspendo
+
+Speaker 1:
+
+quelli che si fanno
+
+Speaker 0:
+
+ok quindi però cioè nel senso se io volessi procedere e se...mettiamo caso mettiamo caso io ti do adesso ti passo un altro progetto che c'è un altro sempre tema avvocati
+
+Speaker 1:
+
+no, non c'è bisogno, nel senso che ti dico, io ti faccio fare, io la conoscenza con l'azienda l'azienda ti conosce, ti faccio da aggancio, mi fa arriva I progetti, io li mando sul tavolo del mio capo e gli faccio, guarda, c'ho questa azienda che procede con sta roba, queste secondo me sono le three escorts, me lo sono trovato io il cliente, mi sono gestito, c'ha più o meno le price code in testa, c'ha tutto quanto davanti non dobbiamo ingaggiare nessuno se non in minima parte altre business line tipo per sviluppare la dashboard e vediamo che cosa mi rispondono, Poi le price code le dovranno rifare perché ti devono fare le price code con gli ufficiali.
+
+Speaker 0:
+
+Però tu mi stai dando un po' una garanzia perché non voglio... Siccome c'è un cliente che mi sta un po' rompendo le scatole che vuole avere un'idea di prezzo, io con quanto preferirei non fare questa cosa oggi lo sento è un minimo di range che glielo devo dare non vorrei dargli un range che sia totalmente sbagliato quindi se io poi lo vado a basare sull'idea che mi ha dato te e poi mi arriva la presquot ufficiale di juggernaut su 20 1000 euro in più e allora lì mi metto in una diffusa. 20.000
+
+Speaker 1:
+
+euro in più per me non è 20.000 euro in più se puoi star tranquillo invece di 25 spara gli 30 cioè prendi in testa 30 se puoi star tranquillo che qualunque cosa ma al limite facciamo in modo che sta subito.
+
+Speaker 0:
+
+No va bene questo è ottimo Sempre tu mi stai parlando di full ownership in questo caso a noi perché compriamo noi come AI con possibilità comunque di lavoro flessibile quindi se ci si rende conto lui aveva detto che una notifica doveva fare abc invece no deve fare ab y però il funzionamento è simile ce l'assorbiamo senza che stia nascendere quest request ecco domanda su questo tu non è che mi hai riscritto tutto il requirement log quindi voglio capire delle cose tu le hai implicitate o le hai escluse?
+
+Speaker 1:
+
+No le ho implicitate
+
+Speaker 0:
+
+quindi quello che io ti ho mandato di fatto c'è tutto
+
+Speaker 1:
+
+esatto perché tante cose che io ho letto di quello che tu mi avevi girato per me erano cose molto business e poco tecniche della serie requirement 3 ti dice caricamento dei cedolini vaga requirement 4 estrazione dei cedolini vabbè per me è la stessa cosa
+
+Speaker 0:
+
+diciamo che da una parte è una funzionalità di upload che è una cazzata però dall'altra parte l'estrazione invece è cominciare ad esserci tutto quel tema OCR e poi ecco per esempio tu quello come lo avresti gestito perché questa è una domanda che ci avevo perché io so che uno potrebbe farlo in maniera pesante col parsing oppure lo potresti fare con la lettura OCR e un training cioè sai cosa ho fatto per un cliente c'era una cosa simile loro ricevevano dei listini di cataloghi prodotti e tutti I fornitori avevano dei listini diversi e questo sistema doveva riconoscere I diversi prodotti ma rimetterli nella stessa tabella perché poi andavano pubblicati, lui era un intermediario in B2B, andavano pubblicati sul suo portale quindi dovevano rispettare il template. Chiaramente all'inizio sarà difficile perché lui prendeva al 95-96% I dati corretti da questi pdf dei fornitori diversi Poi però gli abbiamo messo una finestrella praticamente costumizzabile dove loro dopo che hanno verificato come avevano interpretato I dati lllm, se aveva sbagliato e invece di scrivere su un prodotto acciaio inox aveva scritto solo acciaio, loro scrivevano inox e lo salvavano. La volta successiva quello aveva imparato che quello stesso fornitore praticamente quando dava un certo pdf il risultato che andava estratto era acciaio inox.
+
+Io vedo 3 possibilità, OCR semplice e poi c'è l'umano che si
+
+Speaker 1:
+
+deve mettere là e deve ricontrollare però mi sembra un
+
+Speaker 0:
+
+po' una soluzione diciamo non top anche perché se poi le notifiche e I messaggi e gli alert dipendono da quei dati che vengono le cedolini, se tu anche hai fatto un 4% di errori nelle interpretazioni di quei dati, questi errori possono portare a uno strumento di un... Seconda possibilità, hibrida, quindi faccio un training di questo modello in corso e lo lascio, questo per noi è un minimo effort, perché lo lascio a mano al cliente cioè gli dico 6 tu adesso cliente che hai una compagine per per le prime volte che carichi I cedolini, controllare che è tutto corretto. Qualora vedi che una cosa non è corretta la correggi tu e magari gli scrivi anche una frase all'LM e gli dici guarda che quando ti arriva il cedolino di zucchetti il numero matricola non è questo che hai messo tu in basso a sinistra ma è quello in alto a destra e magari il modello non pare a
+
+Speaker 1:
+
+questo modo questa è una cosa che abbiamo fatto che ha funzionato.
+
+Speaker 0:
+
+Per questa possibilità passi su tutto però quello significa che poi ci dobbiamo mettere noi a studiare cedonino per cedonino tutte le regole e tutte queste regole vanno formalizzate e vanno messe dentro. Chiaramente questo è un effort per noi, non indifferente. Quindi io ti dico, alla luce di queste 3, dalla più ferrea alla più fallace, tu che cosa hai pensato, cosa hai quotato ed eventualmente dopo aver parlato con me cosa cambiaresti? Allora,
+
+Speaker 1:
+
+per quanto riguarda la parte dossiera sicuramente non esiste la formula magica perfetta che ti fa funzionare tutto al primo colpo. Questo è poco ma sicuro perché dipende sempre molto da quello che viene utilizzato come tecnologia. Se tu hai visto sul basso io ti ho messo costo LLM da definire. Questo perché io quando avevo fatto la votazione ti ho fatto una votazione di una stima di massimo e ho detto uno siard generico base più un elaborazione diciamo un aggiustamento lato umano potrebbe volerci circa 2 settimane di lavoro full ok?
+
+Speaker 0:
+
+Ma tu intendi che noi facciamo test su tutte le tipologie di cedolini e quindi praticamente facciamo questa parte di
+
+Speaker 1:
+
+alcuni che ci sia un subset di cedolini che viene mandato o quantomeno la struttura bene o male sia sempre la stessa perché io cambio 3 aziende e bene
+
+Speaker 0:
+
+o male il cedolino quello è 7-8 fornitori mi sa in Italia
+
+Speaker 1:
+
+ma poi in generale cambia, noi abbiamo avuto 3 cedolini diversi ma non è meglio lo pure io, ho avuto difficoltà in alcuni momenti
+
+Speaker 0:
+
+io anche quando stavamo te le notte non ci capiamo niente, mamma mia
+
+Speaker 1:
+
+esatto, per cui te dico, come... Diciamo come grado crudo io tengo... Non sono un essere umano, cioè io sono fondamentalmente un LLM e che non conosce I cedolini e quando ho aperto le prime volte I cedolini ci ho messo un po' a capirlo perché è un po' un casino però se io sono arrivato a capirci qualcosa e a 99% a capir che cosa mi interessa se abbiamo l'informazione di un consulente del lavoro che ti aiuta e ti dice sì io so capace, sì io le cose le posso fare in questo modo
+
+Speaker 0:
+
+ah quindi tu mi stai dicendo giriamo gli la palla, magari questo io lo dico subito oggi, dico se tu già predisponi fra virgolette gli 8 template del cedolino primari e me li spieghi andandomi a cerchiare l'informazione che te serve, perché è quella, dove te serve, in che alternative può comparire su cedolino primario, cioè se tu mi fai questo lavoro qui io ti riesco ad abbassare tanto il prezzo.
+
+Speaker 1:
+
+Più che abbassare il prezzo evitiamo contingency che ci possono far perdere tempo.
+
+Speaker 0:
+
+No perché sennò gli dovrei, gli la dovremmo fare a noi questa cosa e questo avrebbe un costo e gli dovrei mettere proprio il parsing preciso
+
+Speaker 1:
+
+esatto, esatto altrimenti l'alternativa, per cui questo era l'ossi R base l'alternativa era darle in pasta un antropi di turno perché comunque Claude su ste robe
+
+Speaker 0:
+
+funziona tanto
+
+Speaker 1:
+
+bene e gli si può dare tranquillamente quello però quello li ha un costo un costo intrinseco perché tanto più lo utilizzi tanto più te costa
+
+Speaker 0:
+
+vabbè però quello tu ma tu dici la funzione
+
+Speaker 1:
+
+optimale secondo me è un ibrido fra I 2 ok si fa lo siar fin tanto che funziona e smazziamo il grosso perché ci sono dei cedolini che sono facilissimi da leggere e quindi li diamo in pasto all'OCR. Quando arrivano dei cedolini un po' più complessi dove la curasi non è sicura perché fondamentalmente la curasi la calcoli con l'LM, cioè gli fai fare un sistema multi agente dove un agente ti fa un Lossier brutale stupido che lo riesce a estraere e un altro agente ti fa la controparte che ti fa l'antagonista e verifica che effettivamente il dato che ha estratto, il dato che lui legge da Cedolino, funzioni, no? Una volta con questi 2, se so scontrati e hai una curasi, per ogni record che viene inserito, io te metto una percentuale di accuratezza quando la percentuale scende sotto un limite che potrebbe essere il 98 per 100 per restare tranquilli o del 99 per 100 a quel punto ti rifo un alert e nei primi mesi di rodaggio ci serve l'aiuto del cliente che il cliente ti dirà ah sì questo no questo è giusto no questo è letto però
+
+Speaker 0:
+
+domanda giusto per mia comprensione, Antropic comunque noi l'alleniamo con quel lavoro che deve fare il cliente inizialmente o tu dici siccome Anthropic è fortissimo riuscirebbe da solo a raggiungere il 98 99 per 100 anche senza che gli diamo istruzioni template con indicazioni.
+
+Speaker 1:
+
+No no no aspetta aspetta aspetta aspetta a Anthropic lo siamo in modalità multiagente.
+
+Speaker 0:
+
+Ok ma dico questa agente è un agente che è stato allenato con dei cedolini
+
+Speaker 1:
+
+si auto allenano, cioè tu fondamentalmente gli dai una serie di... Allora bisogna dargli un po' di gram trut, cioè io aspetto che da questo cedolino, un cedolino facciamo il few shot, lo start a few shot, quindi fondamentalmente prendiamo un template per ogni cedolino e gli da una parte scriviamo quello che ci aspettiamo che esca fuori. Quindi 8, bastano 8 righe. Una srozzata che se lo fa a mano. Dopodiché gli diamo una serie di...
+
+Gli diamo degli agenti che fanno una l'estrazione e sgluppano il codice per fare l'estrazione. E un altro che fa l'antagonista e verifica che il codice è estratto con l'imi con il dato che trova nella tabella.
+
+Speaker 0:
+
+Ok.
+
+Speaker 1:
+
+Mi facciamo generale N cedolini, ovviamente più cedolini abbiamo il meglio è, e lui da solo impara a estrarsi le informazioni a cercare...
+
+Speaker 0:
+
+Però qualcuno lo deve correggere chiaramente se sbaglia.
+
+Speaker 1:
+
+Assolutamente sì, si fanno le autocorrezioni. Si fanno diverse operazioni, diverse ANN finché non... Ambe e 2 imparano che cosa devono fare.
+
+Speaker 0:
+
+Cioè tu dici fino a che tutti e 2 non arrivano allo stesso risultato, ma se arrivano tutti e 2 al risultato sbagliato si sono insegnati una regola sbagliata?
+
+Speaker 1:
+
+Non possono arrivare entrambi a un risultato sbagliato perché tu a uno dei 2 gli dai il risultato che ti aspetti.
+
+Speaker 0:
+
+Ah ok perfetto, quindi comunque noi prepariamo le 8 casistiche con input output? Sì. Ok. E secondo te sono sufficienti? Perché poi quelle 8 casistiche magari ci sono delle casistiche particolarmente differenti?
+
+Speaker 1:
+
+No sono d'accordo quindi per questo io dicevo come partenza come com start si può partire con 8 casistiche e avere un modello che già defunziona al 90% poi nei casi strani ovviamente se ci danno degli esempi ci aumentiamo da parte se non ci ritanno degli esempi benissimo facciamo eseguire e gli facciamo dare comunque un putteggio da fidabilità ok
+
+Speaker 0:
+
+ma tu questa cosa la gestiresti sempre back che poi ce li forniscono a noi oppure come ti raccontavo che abbiamo fatto per quel cliente gli diamo un'interfaccia per cui se lui... A scelta tua, a scelta tua, a scelta tua. Tu lo vorresti in back, però è più lavoro per noi. Cioè ogni volta dobbiamo parametrizare una nuova...
+
+Speaker 1:
+
+Tu uscirebbe soltanto I primi mesi. I primi mesi mi immagino che tu usciranno più casi, a mano a mano questi lavanti I casi sono sempre di meno e alla fine il lavoro che tra virgolette tu dovresti fare è aprirti un report perché inseriamo ad Antropi che ti mandi un alert, aprirti un report che ti dice oh ci sono questi 50 che vanno controllati, tu 50 che gira il consulente e gli fa oh ma ti torna che questi 50 sono così? Ma metti sì no su una spunta.
+
+Speaker 0:
+
+Ok quindi io gli devo spiegare che il lato suo ci sarà un lavoro per mantenere I costi più bassi e papapero, il lato suo ci sarà un lavoro di controllo su quello che noi non riusciamo diciamo autonomamente a insegnare alla gente e noi diciamo anche piuttosto che come stavo proponendo essenzialmente io piuttosto che partire dal basso e costruire tutti gli use case possibili e immaginabili e darli già in pasto per una questione di flessibilità in realtà andiamo a partire da quelli che ti coprono magari l'80% delle casistiche e poi se ci sono delle vigenze dove la curatezza scende sotto al 98% la segnaliamo e tu me la gestisci.
+
+Speaker 1:
+
+E poi perdonami Carlo ma così te conviene di più anche a te perché tu così che puoi vendere anche una manutenzione. E' certo. Ah perché sti stessa roba però mi devi pagare un fissa al mese che almeno così.
+
+Speaker 0:
+
+Diciamo che potrebbe far pazzi come comunque questa è una roba che noi gli abbiamo detto deve funzionare così, quindi serve un po' una paraculata perché poi di fatti se noi gli abbiamo detto che la gente gli estrae gli estrai dati, che lui gli estrai dati anzi se vuoi neanche dal giorno 0, neanche dal giorno 0 gli estrai dati perché lui, quello che gli stiamo dicendo è estrarrà I dati affinché lo faccia bene, ci sarà un periodo di training autonomo più laddove non ce la fai in maniera autonoma dovremo intervenire noi, ovvero.
+
+Speaker 1:
+
+Ma se invece gliela metti in maniera diversa e gli dici che c'è un controllo che viene fatto dove magari abbiamo bisogno di qualche suo input eventualmente per far sì che mantenga sempre le migliori prestazioni il modello e quindi se lo vogliono sempre aggiornato devono pagare un fissermite se no mi paghi tutto quanto all'inizio e quello che ti becchi ti becchi e non mi ti rompe le palle
+
+Speaker 0:
+
+allora sì io posso dire detto che io ce l'ho altre cose perché tu immagina per esempio queste regole CLLN0 il contrario non lo so cambia no non LLLM questa è il commercio lavoro insomma la cosa che gli detta CCNL bravo, CCNL gli cambia le regole una volta ogni 6 mesi, una volta l'anno, quindi comunque c'è una manutenzione che noi dovremo fare a sistema. Esatto, cioè io gli direi a questo punto guarda tu avrai delle manutenzioni da fare su questo sistema cioè per partire più gliela metto così Per partire più light e permetterti di avviare il progetto, perché comunque questo immagina che è una persona singola, non è un no loop. Per abbatterti I costi, noi ti stiamo predisponendo un sistema per cui ci saranno delle manutenzioni, soprattutto sulla parte di riconoscimento dei cittolini da fare. Di queste manutenzioni tu dovrai occuparti della parte teorica, cioè le vere e proprie regole che magari sono state sbagliate nell'interpretazione e noi invece dovremo essenzialmente ogni volta riaprire il sistema in backhand, rismanettarci e fare in modo che funzioni. Mi senti ancora?
+
+Ok, super. Ok, quindi questo ti torna, meraviglioso. Tutto questo di cui abbiamo parlato è essenzialmente come l'avevi immaginato tu, quindi siamo in linea sempre col prezzo di quotation giusto?
+
+Speaker 1:
+
+Sì, corretto.
+
+Speaker 0:
+
+Ok, poi allora vediamo un attimo perché io poi qualche altra così la me l'ero segnata. Lalalala, Quindi tu mi hai detto sono coperti tutti I requisiti. Però a questo punto ti faccio una domanda anche che mi rispondi velocemente. Serve veramente lo CR o se il cliente è disposto poi a spendere non è a questo punto meglio partire direttamente con antropik e eliminare il rischio di di fare una roba cafonata mi fido di te che 6 il tecnico ok ok ok
+
+Speaker 1:
+
+ok ok ok ok ok ok ok fantastico fantastico mi ok ok. Cioè tutto frappato dentro Antropic ma nell'Antropic ci fare fare una parte di OCEA apposta.
+
+Speaker 0:
+
+Ok fantastico, fantastico, come hai risposto. Poi tu il sistema notifiche differenziato l'hai considerato nei requisiti?
+
+Speaker 1:
+
+Intendi ognuno per ciascun, diciamo, le notifiche a...
+
+Speaker 0:
+
+Lavoro, a consulente, sicurezza, al referente della sicurezza. Ok, quindi hai tenuto conto chiaramente di una multi tenancy, della visibilità dei dati, del fatto che esistono sotto clienti che stanno sotto a un certo studio di consulenti del lavoro, che quelli possono vedere solo I propri dati e invece lo studio del lavoro può vedere I dati dei propri clienti e a sua volta magari c'è il Marco Murolo che c'ha visibilità su tutti quanti gli studi consulenti del lavoro che hanno aderito, cioè tutta questa struttura di tenanzi di coni di visibilità l'hai considerata?
+
+Speaker 1:
+
+Avevo capito che era più semplice, ossia che era il BATIB che ci sono stati in un unico db e poi ogni consulente del lavoro ha le proprie associazioni. Non avevo capito che c'era eventualmente qualcuno sopra che può vedere gruppi di consulenti del lavoro. Potrebbe cargare un po' l'architettura, sì, però quello lato più che altro, quello lato di data engineering, non la vedo, complicata, ma sicuramente già la parte di dashboarding si può fare la parte di notifica non c'è problema perché lo mettiamo a dashboard non lo mettiamo a dato quindi è la dashboard
+
+Speaker 0:
+
+Cioè tu immagina che questo è Marco Murolo che è di fatti la persona che smercia a questo servizio e vuole vedere come gli sta andando, vuole vedere che utilizzo e ne fanno I propri studi dove l'ha venduto è come se fosse una sua dashboard da amministratore da super amministratore di tutto
+
+Speaker 1:
+
+il sistema
+
+Speaker 0:
+
+no deve
+
+Speaker 1:
+
+vedere gli aggregati No,
+
+Speaker 0:
+
+deve vedere gli aggregati Ok parliamo di un 2 3 4 ok però per il resto tu mi dici tu l'hai pensata come un database unico chiaramente che con rispetto della privacy cioè rispetto tutta la parte privacy confidenziali di cyber security, obbligatoria quindi tu non l'hai menzionata perché è la data per scontata ok fantastico e poi c'è il tema comunque del multi tenancy già incluso cioè se io sono I dati tutti ci stanno tutti nello stesso database però ci sono con le divisibilità considerati
+
+Speaker 1:
+
+in maniera tale da poter dire ok l'amministratore decide di dare che cosa a qualcuno come sulla base di possiamo crearlo come campo ossia Mettiamo a caso che tu e io siamo 2 consulenti del lavoro di 2 gruppi diversi. Quindi io devo vedere dei clienti e tu ne devi vedere altri, ok? O ti creo proprio 2 tabelle separate, quindi se client xy viene messo nella tabella Andrea Masquali, scusa nella tabella, gruppo azienda di consulenza del lavoro 1 dove faccio parte di io, io lo vedo e tu no? Oppure te lo posso mettere come colonna, dipende se ci sono proprio delle aziende separate. Se sono aziende separate, facciamo tabelle separate, che ci frega.
+
+Ok.
+
+Speaker 0:
+
+Non è un problema. No, no, no, per me l'importante era poter dire che noi stiamo gestendo sia le diverse aziende di consulenti che I loro clienti sotto, che ognuno ha visibilità solo di quello che deve vedere e a questo punto diciamo il prossimo passo che volevo capire con te perché non me l'hai nominato però probabilmente sempre una delle cose che fra virgolette sono state per scontate e questo tu hai considerato che deve sorreggere un modello a subscription quindi che io che sono un consulente del lavoro devo pagare 600 euro al mese per offrire questo servizio ai miei clienti L'hai tenuto in qualche modo in considerazione oppure questi diventano dei requisiti che dobbiamo aggiungere per farlo funzionare?
+
+Speaker 1:
+
+Allora, lì onestamente mi verrebbe da dirti che è qualcosa che non va a toccare l'architettura.
+
+Speaker 0:
+
+Ok, a meno che non ci metti... Ok vai.
+
+Speaker 1:
+
+Tu avrai una cosa per creazione delle accade di account. Se quello te paga l'account io la ciescente paga io, levi.
+
+Speaker 0:
+
+Ok, e tu però il metodo di pagamento l'hai tenuto dentro oppure questo è un pagamento bonifico?
+
+Speaker 1:
+
+No, il metodo di pagamento è proprio qualcosa che è lì, ti dico, lì finisce la mia expertismo, non ho idea di come sbatterla dentro.
+
+Speaker 0:
+
+Ok, ok.
+
+Speaker 1:
+
+Perché piattaforme con metodo di pagamento so che ci sono un po' di tool che ti permettono bisogna fare tutti degli accordi con nexy tutta una serie di robe ad esse nexy o chi
+
+Speaker 0:
+
+strada non abbiamo usato stripe
+
+Speaker 1:
+
+eccetera sì ma non penso che sia pubblicata, mi immagino che ci siano delle API, delle robe dietro da studiare e si possa fare.
+
+Speaker 0:
+
+Ok diciamo che quindi tu per ora come l'hai pensata che quello si trova un nuovo consulente del lavoro che gli dice bello sto servizio gli fa un bonifico e lui gli apre l'account e gli passa le credenziali
+
+Speaker 1:
+
+brutalmente
+
+Speaker 0:
+
+brutalmente sì ok vediamo è però che cambia la quotation perché dobbiamo intercite dentro integrazione sistemi pagamenti e poi una lending.
+
+Speaker 1:
+
+Però se tu metti dentro la votazione dei pagamenti più il lending devi considerare anche tu c'è tutta quanta la parte legal da considerare che sapre tutto quanto
+
+Speaker 0:
+
+Tu dici la parte tipo youbenda, queste cose qua perché c'ho...
+
+Speaker 1:
+
+Extra youbenda, cioè proprio tutta una parte legal di termini, condizioni, servizi, contrattuali, bisogna stipolare il contratto, che la gente che ti fa la subscription ti deve accettare il contratto, cioè non è proprio semplice semplice, bisogna mettere su un dp anche di...vabbè il dp è una s*****a però per intento...
+
+Speaker 0:
+
+Allora io gli direi così, fase 1, fase 1 non hai bisogno perché non sappiamo neanche quanti ti comprano e puoi fargli un bonifico, cioè puoi farti fare un bonifico e gli metti fattura. Però la può far parte. Cioè noi la dobbiamo fare noi.
+
+Speaker 1:
+
+No, esatto, ma deve far parte a qualcuno. Fase 2 gli potremmo mettere dentro la parte del ok diventa un servizio a pagamento gli facciamo subscription, tutti ti appoggiamo a stripe o a chi vuoi e quindi il servizio diventa automatizzato per cui se non paghi ti 6 auto chiude fase 3 ti ci butto dentro tutto quanto l'extra, I fronzoli, le iai e quello che vuoi
+
+Speaker 0:
+
+ecco momento perché come ci devo parlare secondo te a parte la parte di riconoscimento cedolini che tu me l'hai già messa dentro e ce la siamo a gestire in questo modo che io mi dobbiamo raccontare. Quando tu dici I fronzoli, te riferisci alla gente?
+
+Speaker 1:
+
+Sì, esatto.
+
+Speaker 0:
+
+Che però tu in realtà mi hai quotato, quindi io teoricamente se lui mi dice senti ma io lo voglio subito ce l'ho il prezzo di riferimento oppure non lo devo considerare perché non l'hai approfondito abbastanza
+
+Speaker 1:
+
+secondo me è una cazzo da fare subito perché c'è troppa poca informazione non c'è ancora le fac non c'è ancora un sacco di roba ed è semplicemente un costo inutile che metteresti adesso che ti costa di più piuttosto che affogarlo in momento in cui stai sviluppando l'LM dall'altra parte usare lo stesso cervello per metterlo pure qua. Ok. Lo paga 2 volte. Detto proprio in estremità lo paga 2 volte. Per me è una stronzata mettere adesso.
+
+Speaker 0:
+
+Perché tu dici aspetta perché quello che tu
+
+Speaker 1:
+
+mi hai messo a parte vediamo un attimo da mettere in fascia 2 anche la partita assistente
+
+Speaker 0:
+
+riconoscimento pattern però siamo giunti alla conclusione che lo possiamo gestire inizialmente giusto? Cioè parliamo dell'estra oppure un'altra cosa per il riconoscimento pattern?
+
+Speaker 1:
+
+Ah, il riconoscimento pattern parla quando diceva ah no, c'è questo che tutti I mesi... Ti ho visto un esempio che ti diceva che ogni mese arriva a ritardo il pagamento Ahhhh
+
+Speaker 0:
+
+ok, ok, ok, ok Quello
+
+Speaker 1:
+
+è la cosa pattern lì, secondo me non ha senso metterla adesso perché non c'hai il dato, non c'hai tante informazioni ok ok ok no ok secondo me si potrebbe tranquillamente far passare quando va a integrare l'LLM in maniera più strutturata metterlo adesso crea una complessità che uno ti fa sporare sicuramente la price code ma sicuro della fa sporare perché c'ha talmente pochi dati che quando ti metto nel dato tu vai per aggiustare una parte che si rompe dal...
+
+Speaker 0:
+
+No ho capito ho capito io qui gli dico non abbiamo dati per fare un riconoscimento pattern dobbiamo fare in modo che questo strumento venga utilizzato almeno per 6 mesi, un anno a seconda anche di quanta gente lo acquista e poi te lo mettiamo. Detto questo, una cazzata di agente che risponde solo sui dati che stanno... C'è, ti dico, l'esempio pigro che ti avevo fatto l'altra volta. Sono pigro, non so leggere una dashboard. Me la voglio far raccontare dalla gente.
+
+Senza che faccia riconoscimento pattern. Deve solo vedere I dati che stanno avere una memoria di contesto e una memoria di lavoro che è legata a chi ha fatto il login e sulla base di chi ha fatto il login può leggere I dati che lui vedrebbe in pagina e rispondere. Questo me lo riesci a estrapolare da quel prezzo lì e mettermelo in quotazione oppure anche questo ritieni che è rischioso.
+
+Speaker 1:
+
+Ma se io non ho capito di quale pari, di quale set sto cercando, forse era nel brief, no, me l'hai rimandato forse nelle immagini.
+
+Speaker 0:
+
+Questo era la sua idea di agente.
+
+Speaker 1:
+
+Stava nella immagini, nel presidia e chart dashboard, quello come hai girato.
+
+Speaker 0:
+
+Sì, forse nel prototipo proprio.
+
+Speaker 1:
+
+Era quella che tu mi dicevi le segnalazioni? Questa è
+
+Speaker 0:
+
+proprio una chat, c'è una chat con un agente in cui io invece di Entrare nella dashboard e vedere chi ha sforato le ferie gli vado in chat chiedo c'è qualcuno che ha sforato le ferie lui si legge I dati miei che sono carlo san buassin Ho fatto login come carlo san buassin quindi c'è la mia memoria di lavoro del Io ti te la dico così magari sono poco tecnico, io me la vedo come... La parte di sviluppo cos'è? È rifare un front-end con una chat e metterci un endpoint su cloud.
+
+Speaker 1:
+
+No, non è così semplice, non puoi mettere endpoint su cloud. Perché se tu vendi questo strumento, cloud lo devi aver installato sulle 2 macchine. Perché altrimenti il dato o la privacy si
+
+Speaker 0:
+
+fa facilemente. Però aspetta, ci sono modi di impedirli di allenare il modello dietro se compriamo le licenze giuste noi compriamo per esempio licenze open router che ci danno ulti modelli e gli diciamo di switchare su anthropic modello che decidiamo noi mettiamo in off e si può fare lo fatto dei setting allenamento del modello e praticamente lui è un antropic.
+
+Speaker 1:
+
+Però attenzione, il problema non è tanto che tu metti in off l'allenamento dei modelli quanto il fatto che tu stai mandando dei dati che loro si caricano e si tengono a DB e quindi tu fondamentalmente c'è una violazione della privacy in corso anche se loro poi I dati non li usano.
+
+Speaker 0:
+
+E se togli la cronologia però che li cancellano dopo?
+
+Speaker 1:
+
+La cronologia è soltanto tua visualizzazione, non è di Libby, loro se tu vuoi leggere I termini e le condizioni ti dicono tutto quello che mandi hanno la facilità di mantenerlo per x tempo
+
+Speaker 0:
+
+ok
+
+Speaker 1:
+
+più che altro, ma si può fare, tu l'LLM lo puoi installare, adesso ci sta con l'A, ma se possono ci sta con I peggio trick Ok,
+
+Speaker 0:
+
+no no no, mi stai dicendo, magari dobbiamo fare noi come iai o lui un investimento di server però poi di fatti il costo dello sviluppo qui non è paradossale perché si tratta di interfaccia chat con puntamento a Cloud e dargli il contesto che 6 un consulente del lavoro, agisci sui dati che vedi in pagina.
+
+Speaker 1:
+
+Non si fanno più I codi così per Cloud, ma sì, fondamentalmente tu gli definisci un contesto, gli dici che cosa deve fare e lui ti fa l'estrazione. Quello si non è un problema, si può anche fare. Per questo ho messo costo Cloud, costo LLM.
+
+Speaker 0:
+
+No, quello è da definire perché dipende da quanto consuma questo. Quanto consuma se deve comprare il server e va bene. Su questo nessun problema.
+
+Speaker 1:
+
+E' anche una roba per AI. Nel senso quello prenditelo anche come una cosa per AI.
+
+Speaker 0:
+
+Si, che posso metterci il markup. Sì, chiaro.
+
+Speaker 1:
+
+Si mette il markup, ma in più tu ti installi la versione di cloud sul tuo cloud e a quel punto tu puoi fare tutti gli agenti che vuoi certo, certo capito
+
+Speaker 0:
+
+Ok, quindi giusto per fare un wrap up togliamo un attimo I 4.000 e 8.000.
+
+Speaker 1:
+
+Se puoi sta tranquillo, che diciamo così, eventuali problemi, invece di guardare con I 23 e 4, prova a guardarli come 30 o 35 così 6 tranquillo. 35 siamo altini però
+
+Speaker 0:
+
+mi riesci a rimanere sui 3. Ok però abbiamo gestito tutto cioè non è che qui a parte il riconoscimento pattern, a parte il riconoscimento pattern abbiamo gestito tutto con anche tutto quel tema del dashboard aggiuntiva per il super admin. Con insomma segregazione dei dati tramite conno di visibilità, con una architettura che ti permette in un futuro anche di creare landing page e attaccarci dei dei cose di pagamento come si dice e integrarci metodi di pagamento senza farlo ora però comunque ti permette di farlo in futuro poi ecco un'altra cosa che mi ero segnato era il Q&A normativo questo requisito ok se volevo essere sicuro l'avevi considerato ok no proprio con tutta la vettorializzazione del cc nl il chunking
+
+Speaker 1:
+
+quello è proprio facile ok
+
+Speaker 0:
+
+e poi il motore invece di regole parametrico che alimenta I semafori qui chiaramente le soglie dei semafori sono la cosa che ti dicevo che cambia cioè tu hai considerato immagino un primo una prima parameterizzazione che dipende dalle regole che ci dà il cliente poi se dopo 6 mesi queste regole cambiano tu ci dovrai fare un fix e mi aggiungerai una fee, giusto? Certo, ok, va bene, e allora basta, ti ho rincoglionito abbastanza e ti ho fatto tutte le domande che ti volevo fare. Adesso per me mi hai messo molto al sicuro su questo fatto perché io inizialmente avevo pensato proprio ho detto ma forse Andrea per ridurmi I costi mi ha fatto stavotazione di come me l'avrebbe fatta lui io mi... Ok ok ottimo. Beh allora ti posso dire che se questa è la situazione io ti voglio passare altri progetti perché non è che mi hai fatto un prezzo, mi aspettavo più alto quindi mi sembra competitivo, cioè per il modo in cui lavorate, per il tipo di anche design che mi stai aiutando a fare e la scelta delle soluzioni, il modo di mettere sull'architettura e la tua disponibilità poi nel gestire eventuali complessità con il cliente, così sui 30 è competitivo.
+
+Se già andiamo sui 35 o saliamo dai 35 e comincia a avere un po' la cinghia corta sui miei margini però però ci siamo e quanto tempo secondo te se oggi ci parlo lui mi dice mi dà insomma le informazioni che mi mancano e mi dice allora guarda io sono sono allineato in questo metodo di lavoro voglio partire quanto tempo per farvi partire come giacala?
+
+Speaker 1:
+
+Mi devo informare con le scarpe ma secondo me è una mesata al massimo ma secondo me si riesce a partire anche nel preve. Fantastico. Non più per una mesata. Cioè, in maggio si parte tranquillamente. Una mesata e si parte.
+
+Speaker 0:
+
+Una mesata e si parte con tu mi hai detto 48 giornate lavorative che però poi di fatti saranno splittate su più persone quindi si riesce a fare in meno di 2 mesi effettivi il primo rilascio Ti sto attirando No dicevo tu mi hai messo 48 giornate lavorative che però magari si splitano su più persone quindi poi si riesce a fare qualcosa in meno a livello proprio di sviluppo e rilascio della prima release
+
+Speaker 1:
+
+cioè se
+
+Speaker 0:
+
+Va beh senti se ci teniamo larghi dico tu fra 3 mesi c'è il primo rilascio
+
+Speaker 1:
+
+potrebbe essere perché a fine abbiamo 48 giornate, fai 20 giornate a mesi, maggio, giugno, per luglio dovremmo essere apposta
+
+Speaker 0:
+
+ok bene bene dai direi che ci siamo direi che ci siamo io va scusami scusami andrea però super utile super utile grazie dai ti aggiornò ti aggiornò io ciao ciao ciao

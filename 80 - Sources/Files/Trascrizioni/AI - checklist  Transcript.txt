@@ -1,0 +1,326 @@
+AI - checklist 
+Wed, Sep 3, 2025
+
+0:22 - Unidentified Speaker
+Ciao Carlo!
+
+0:26 - Unidentified Speaker
+Ciao, buongiorno! Eccoci, buongiorno! Ciao Carlo, buongiorno! Tutto bene e tu?
+
+0:48 - Unidentified Speaker
+Bene!
+
+0:51 - Marketing
+Grande partecipazione oggi, siamo in tanti.
+
+0:54 - Marketing
+Ciao, ciao.
+
+0:55 - Marketing
+No, allora ti volevo dire che cosa abbiamo fatto noi e intanto ci presentiamo velocemente. Ma io ed Enrico abbiamo coinvolto in questa riunione direttamente tutte le persone che lavorano con noi. Io sono laura mazzola, qui di fianco a me c'è Enrico Spagnolo.
+
+1:18 - Carlo Sanvoisin
+Molto piacere.
+
+1:19 - Marketing
+Poi abbiamo Antonella Beretta, Rosanna Migliaccio e Valentina Passalacqua. Noi, come ti spiegavo Carlo al telefono, siamo un distaccamento di NoLoop, non abbiamo ancora un nome ma a breve lo avremo e in questo momento siamo due gruppi di lavoro che stanno lavorando sia con sistemi no loop, ma anche con sistemi move. Per darti una spiegazione, Valentina, Rosanna ed Enrico lavoravano prima in move, io e Antonella lavoravamo in no loop. Ci siamo uniti in questa nuova realtà. Ti faccio già subito una domanda, Carlo. Quando io ho acceso il collegamento, ho visto che c'è qualcun altro oltre a noi.
+
+2:27 - Carlo Sanvoisin
+Sì, sarebbe il mio noteaker che si prende le note e fa la registrazione.
+
+2:35 - Marketing
+Perfetto. Era la prima domanda che avevamo. Nel senso che noi abbiamo compilato, vai Enrico, Scusaci, ma siamo in operatività di evento e c'è un cliente che ha appena chiamato Enrico e si deve assolutamente staccare, non può partecipare in questo momento alla riunione.
+
+2:56 - Carlo Sanvoisin
+Per oggi l'importante è che diciamo come team, poi magari mi farò degli approfondimenti con le singole persone, mi raccontate un po' nell'interezza, il processo o comunque l'attività che vorreste gestire o che gestite oggi sulle quali possiamo fare ottimizzazione.
+
+3:15 - Marketing
+Ma noi siamo stati forse anche più bravi, nel senso che ci siamo attenuti alla tua richiesta e abbiamo compilato il foglio di checklist. Ok, quello che tu ci hai mandato noi abbiamo cercato di compilarlo. L'abbiamo compilato però per la funzione che maggiormente noi utilizziamo, ovvero la parte di operatività. Quando ha mandato la lista delle aree di miglioramento su cui ci immaginavamo o su cui richiedevamo un intervento per la parte di intelligenza artificiale. Ha parlato di ottimizzazione del progress, gestione delle segreterie, l'utilizzo dell'intelligenza artificiale nei social e nei progetti di comunicazione, sistemazione dell'archivio e comunicazione e noi ci siamo chiesti come mai non viene menzionata invece l'operatività, perché è proprio il core di quello che fanno le persone che vedi intorno a questo tavolo. Quindi noi ci siamo detti ma come mai l'operatività non c'è?
+
+4:28 - Carlo Sanvoisin
+L'avete aggiunto come foglio immagino.
+
+4:30 - Marketing
+Sì, non so se non deve essere esserci e non deve essere prevista, o se invece può esserci un utilizzo dell'intelligenza artificiale anche su questo punto. Quindi non so se abbiamo fatto un lavoro sbagliato, l'ho richiesto. LM.
+
+4:46 - Carlo Sanvoisin
+Secondo me no, anche perché laura stessa nella sua email di invito iniziale aveva detto valutiamo I casi d'uso che sono già stati evidenziati e possibili altri casi d'uso, quindi diciamo che c'è un'apertura anche ad Io vi faccio prima una domanda, dei casi d'uso che erano emersi inizialmente e che ha evidenziato laura, oltre a questa operatività che voi avete aggiunto, vi riconoscete in uno degli altri quattro? Perché io ho già visto progress e segreterie. Voi avete in capo uno degli altri due? No. Ok, quindi diciamo che questo sarebbe proprio extra.
+
+5:22 - Marketing
+Sarebbe una cosa in più questa, progress e segreterie. Infatti io adesso te lo proietto, il file che tu ci avevi mandato, noi per la parte di progress e segreterie, progress non lo abbiamo all'interno della nostra piccola realtà, segreterie ci appoggiamo a tutto quello che fa che ha no loop, quindi chi meglio di no loop possa avere questa...
+
+5:45 - Carlo Sanvoisin
+Già l'ho fatto ieri la call con Lorena che mi ha raccontato il lavoro delle segreterie, quindi di base io tengo in considerazione quello che mi hanno raccontato loro, se il vostro lavoro è diverso però comunque comunque siete stati inclusi in questo gruppo di lavoro evidentemente perché si voleva fare o comunque permettere un'ottimizzazione anche sulle vostre attività. Quindi io vi direi, intanto voi mi raccontate il lavoro che avete fatto sull'Excel, sulla base di quello capiamo un attimo quali sono le possibili soluzioni e poi ritorniamo anche da laura con un'identificazione delle attività esise, quindi come vengono fatte oggi, potrebbero essere fatti domani, se ci sta un ok lato CDA allora si prosegue poi con un approfondimento e gli sviluppi necessari.
+
+6:41 - Marketing
+Allora faccio un passo indietro rispetto alla parte di file sulla parte di operatività e ti dico che all'interno di questo gruppo di lavoro io sono un po' la persona che si occupa del motore commerciale, quindi se io potessi avere un Allora, se potessi avere uno strumento e poter utilizzare uno strumento come il tuo assistente che ci sta ascoltando in questo momento e che fa un riassunto di quello che viene detto, durante l'apprendimento di un brief da parte di un cliente sarebbe uno strumento fantastico. Io so che questo strumento esiste, ho già fatto delle call con clienti che lo utilizzano e l'hanno utilizzato, facendo una call allargata di brief con diverse agenzie. Finita questa call, dopo dieci minuti noi che avevamo partecipato e tutte le altre agenzie hanno ricevuto il riassunto di quello che era stato detto e analizzato dal cliente, durante la presentazione di questo brief. So anche che per poterlo avere come agenzia deve essere però normato, perché io ho dei clienti che mi hanno chiesto, clienti importanti, società che sono delle SPA, che mi hanno chiesto di indicare se utilizziamo l'intelligenza artificiale di andare a normarla nel momento in cui viene usata. Quindi da un punto di vista commerciale ti dico che lo strumento che a me piacerebbe che mi semplificherebbe la vita tantissimo, è uno strumento che mi consenta, nel momento in cui c'è la discussione di un brief da parte insieme al cliente, di poter registrare quello che viene detto e di poter avere un riassunto che evidenzi e che sottolinei anche in maniera oggettiva e non soggettiva quello che è stato detto durante l'incontro.
+
+9:04 - Carlo Sanvoisin
+Certo, questo si può fare in cento modi diversi, diciamo, bisogna capire essenzialmente, diciamo, quello scoglio sicuramente più importante è proprio quello del rispetto delle policy, cioè sicuramente quella è la parte più complessa, perché per esempio questo notetaker che sto utilizzando io in questo momento, come dicevi te, registra la call e manderà la call registrata e le note che ha preso, il transcript e tutto il resto sia a me che a voi che siete partecipanti della call. Detto questo, visto anche il mio background da PM, io personalmente ci lavoro sempre su questi riassunti, quindi non affido mai al 100% l'onere di fare la minuta, il recap e I prossimi passi all'intelligenza artificiale, perché innanzitutto diciamo la trascrizione in italiano è abbastanza accurata, ma non è ancora allo stesso livello della lingua inglese, quindi magari certe parole non le comprende, non comprendendole alcune parti magari del recap sono sfalsate e in più perché comunque ritengo che l'intelligenza artificiale debba essere un supporto e mai al 100% una sostituzione del lavoro umano. Fatta questa Questa premessa, diciamo, le vie sono due. O si studia uno strumento e si va ad analizzare, per esempio, come utilizza I dati, come registra I dati, si va a verificare che effettivamente, per esempio, le registrazioni, il transcript di qualsiasi call vengono utilizzati solamente all'interno di un ambiente protetto, quindi questi dati non non vengono condivisi né con terze parti né con il modello sottostante l'intelligenza artificiale, perché voi immaginate che un modello intelligenza artificiale è fatto in maniera tale che ogni volta che un utente ci dialoga, ci lavora, lui impara. Però questo significa anche che prendete I dati. Quindi bisogna verificare che eventualmente lo strumento si possa bloccare questo apprendimento, quindi fare in modo che I dati voi ci lavorate sopra ma non vengono trasmessi diciamo allo strato sottostante oppure un'altra possibilità più semplice sicuramente con meno diciamo complessità dal punto di vista della policy è semplicemente voi chiedete di fare la registrazione a inizio call il cliente vi dà l'ok sul fare la registrazione e poi con quei dati che voi avete del transcript li utilizzate direttamente in un ambiente protetto che non noi creiamo per voi, quindi non appoggiandosi a uno strumento già esistente che avrà tutte quante le sue policy, il modo in cui lavora I dati e via dicendo, ma noi creiamo per voi uno strumento al quale solo voi avete accesso.
+
+12:11 - Marketing
+Quindi a quel punto di scaricata.
+
+12:13 - Carlo Sanvoisin
+Quello sicuramente è la cosa più funzionale perché cosa significa? Che è come dire che io sto scaricando il transcript della chiamata e poi quel transcript lo sto dando a un mio dipendente e gli sto dicendo questa è la trascrizione della chiamata, lavoraci sopra e fammi il recap. Allo stesso modo come lo posso chiedere a un dipendente, lo posso far fare un agente di intelligenza artificiale che ha lo stesso peso nel momento in cui lui lavora solo all'interno di questo ambiente protetto, questi dati rimangono diciamo nel vostro ecosistema, voi per esempio lavorate su ecosistema Microsoft, lavorate su SharePoint, questi dati non vanno al di fuori dei vostri server, non vanno al di fuori del vostro ecosistema, non allenano il modello di intelligenza artificiale sottostante e quindi magari c'è quel passaggio in più di scaricare la trascrizione e poi darla alla gente, però quel passaggio in più ci evita tante rogne dal punto di vista di privacy e confidenzialità.
+
+13:16 - Marketing
+Quindi questa è sicuramente Ecco, io non so, per esempio in questo sheet che ci hai mandato non c'era il cluster commerciale, quindi non l'abbiamo, cioè è una richiesta, questa mia spot che ti faccio occupandomi io di commerciale, quindi avendo il rapporto con il cliente questo mi potrebbe essere di molto aiuto.
+
+13:40 - Carlo Sanvoisin
+Ok, quindi di base questa è una prima richiesta, questa l'avete tracciata sull'Excel? No. Ok, non l'avete tracciata?
+
+13:48 - Marketing
+No, perché ho proprio visto che non c'era proprio, non si parlava di, cioè l'operatività ci è venuto spontaneo inserirlo, aggiungerlo proprio e ti abbiamo fatto adesso se vuoi io ti condivido lo schermo e ti faccio vedere che cosa abbiamo compilato.
+
+14:08 - Carlo Sanvoisin
+Sì, che poi oltre tutto l'esempio che avevo aggiunto nel primo foglio era proprio relativo alla trascrizione e gestione delle call. Sì, aggiornamento progetti, tu avevi proprio scritto.
+
+14:20 - Marketing
+Esatto, infatti per quello che mi sono detta, perché uno strumento del genere non ce l'abbiamo, la risposta me la sono subito data, nel senso che so che deve essere normato, perché proprio quel caso specifico è capitato a me, a inizio agosto con un cliente che ci ha proprio chiesto di compilare un assessment di cyber security e ci ha proprio chiesto di indicare se utilizzavamo l'intelligenza artificiale per il trattamento del dato cliente. E se lo utilizziamo, se utilizziamo l'intelligenza artificiale per trattare il dato del cliente e fare un accolto nel cliente e trattare il suo dato, immagino, deve essere rimato.
+
+15:00 - Carlo Sanvoisin
+Sì, però sì, vi ripeto, questo lo possiamo gestire nel momento in cui io non mi sto affidando a una soluzione di terza parte, come in questo caso Read AI. In Read AI io dovrei andare lì e dovrei vedere esattamente come gestisce dati, come li tratta, con chi li condivide, come vengono salvati. Quindi ci sono una serie di osservazioni che uno deve fare prima di poterlo utilizzare con un cliente con la quale magari ci sta pure un rapporto più delicato e via dicendo. Nel momento in cui io me lo porto nel mio ambiente protetto io ci posso fare quello che voglio. Per esempio esiste uno strumento che è connaturato in Microsoft che sarebbe il Copilot. Io quando avvio la registrazione, se ho pagato la licenza anche di Copilot, posso utilizzarlo. Questo manda automaticamente una notifica al cliente che gli dice la call sta venendo registrata e verrà utilizzata il copilot e se lui insomma vede questa notifica dall'ok siete fra virgolette coperti. Quindi esistono tanti metodi. Adesso vediamo sicuramente qual è il più adatto a voi. Se vogliamo partire da questo Excel per me va benissimo così intanto mi racconti quello che avete già tracciato.
+
+16:29 - Marketing
+Ti chiedo solo scusa un attimo che mi sta venendo un attacco di tosse incredibile. Allora, abbiamo seguito l'impostazione, vedi che ti abbiamo aggiunto una cartella che si chiama E operativo, ok? Poi ne abbiamo fatta un'altra che si chiama F programmazione, perché ci sono un paio di cluster. Poi ne abbiamo creata un'altra che si chiama On-site, che però la lascerei per ultima perché è un po' il nostro mondo dei sogni e volevamo capire con te se l'intelligenza artificiale certe cose le e se le fa, se può essere utile o meno. Partiamo con la cartella E operativo, quindi il primo processo che noi facciamo, una quotidianità del lavoro delle nostre risorse e colleghe operative, è quello di impostare e aggiornare liste, rooming list e transfer list. Noi facciamo eventi, un evento ha come base il pernottamento in un albergo e il trasferimento nella destinazione dove si fa l'evento, elaboriamo questi file Excel, chi se ne occupa è l'operativo, il trigger ad ogni estrapolazione master list dalla segreteria e l'invio della lista al cliente, quindi noi lo creiamo quando estrapoliamo una master list dalla segreteria e lo inviamo al cliente, la frequenza è sempre on demand, io ho visto che tu hai messo una tendina su questa colonna, giornaliera settimanale, mensile, trimestrale, on demand.
+
+17:58 - Carlo Sanvoisin
+Chiaramente dipende da progetto a progetto, avete l'evento dove fare quest'operazione.
+
+18:03 - Marketing
+Anche dei mesi, il mese di maggio è un continuo e quindi è un picco giornaliero, magari il mese di luglio è settimanale. La descrizione degli step, quindi noi che cosa facciamo per impostare roaming list e transfer list? Raccogliamo le informazioni dalla master list che ci manda la segreteria o il cliente, impostiamo le liste, quindi la roaming e la transfer in base ai criteri specifici dell'evento e ai input specifici che ci vengono date. Evidenziamo I dati aggiornati ad ogni versione successiva, quindi sono dei documenti che vivono nel tempo e archiviamo in una cartella apposita con sicurezza OPS queste liste che elaboriamo. Che cosa utilizziamo? Outlook, Excel, I database della cartelle di rete. Quali sono le aree di miglioramento? Il miglioramento è sicuramente nella gestione del tempo, tempo impiegato nella creazione, nell'archiviazione, ma anche errori che ci possono essere da incrocio di dati dimenticati, informazioni che sono disperse, cioè questo lavoro viene fatto principalmente manualmente.
+
+19:16 - Carlo Sanvoisin
+Su questi famosi Excel. Domanda, giusto per capire se ho capito, Qui noi stiamo parlando della creazione di queste liste che voi chiamate hotel rooming, no, transfer rooming, ok? Essenzialmente io, da quello che ho capito, è un qualcosa del tipo se 20 partecipanti di questo evento partono da Roma e 30 partono da Milano, io quelli che partono da Milano li mettono una certa lista, quelli che vengono da Roma li mettono un'altra per fare il transfer, per prendere I voli e poi ci saranno altri non lo so, regole di match per metterli, per esempio, in un'area dell'hotel piuttosto che in un'altra e via dicendo.
+
+20:01 - Marketing
+Stiamo parlando di questo lavoro qui? Sì, principalmente sì. Antonella, se hai qualcosa da dire intervieni pure.
+
+20:11 - Antonella Beretta
+Parla ora. Sì, è questo, sostanzialmente questo. È un po' più complesso, nel senso che nella master list magari noi raccogliamo veramente tantissime informazioni e quindi dobbiamo dire all'intelligenza artificiale come poi riordinarle e quali utilizzare per ciascuna lista. Però sì, il meccanismo è quello. Sono tanti dati, ecco.
+
+20:37 - Carlo Sanvoisin
+Perché questo me ne hanno parlato anche le ragazze della segreteria, mi ha parlato anche Lorena, mi ha spiegato che anche loro fanno questo lavoro, quindi fatemi capire anche come vi allineate, nel senso tutti quanti fate questo lavoro, loro fanno questo lavoro in parte e poi ve lo passano, anche per avere proprio io I riferimenti di chi si occupa di cosa, perché mi state parlando tutti e due di un caso molto simile, quindi vorrei capire… Allora Carlo intervengo io, prendi pure come riferimento Lorena in questo, però ti ripeto, il nostro gruppo di lavoro è principalmente fatto di operativi, Lorena diciamo che è il responsabile della parte operativa, ok?
+
+21:17 - Marketing
+Quindi probabilmente tutte queste cose che noi ti abbiamo compilato sono le stesse che ti hanno dato anche le colleghe con cui hai già parlato.
+
+21:29 - Carlo Sanvoisin
+Questa qua è molto simile, quindi di base quello che io immagino è, voi avete un Excel di partenza che è lo scarico del database insomma sul quale hanno lavorato per un evento dove ci hanno tutti quanti I partecipanti con I dati su questi partecipanti, che da quello che ho capito esistono I dati di default, del tipo se questo ha allergie eccetera eccetera, che vengono sempre chiesti, poi ci sono quelli che richiede l'hotel, quindi l'hotel chiede determinati dati sui partecipanti, e poi ci sono altre considerazioni che vengono fatte sulla tipologia di viaggio, di evento che viene fatto, quindi se ci sono partecipazioni, escursioni, cose genere. Sulla base di tutti quanti questi dati, che questi vengano dal database che è stato compilato tramite quelle pagine di login che vengono create da un provider esterno, o che provenga da un Microsoft Form, perché da quello che ho capito voi raccogliete dati o con delle landing page, dove I partecipanti entrano proprio su pagina web e danno I propri dati, oppure con dei Microsoft Form. Comunque questi dati possono essere poi scaricate negli Excel. Voi avete per ogni partecipante queste informazioni e sulla base di regole che vi date e I dati appunto all'interno di questi Excel, poi tirate fuori queste liste.
+
+22:54 - Antonella Beretta
+Corretto.
+
+22:55 - Antonella Beretta
+L'aggiungo che magari capita a volte che la segreteria la faccia al cliente, quindi ci arriverà un Excel, però sempre di Excel stiamo parlando normalmente. Ci arriva un Excel del cliente con la e tutte le informazioni.
+
+23:10 - Carlo Sanvoisin
+Diciamo, le fonti sono o che me lo dà il cliente, o che è il risultato del Microsoft Form, o il risultato del, loro l'hanno chiamato Backoffice.
+
+23:20 - Antonella Beretta
+Sì, sì, della database di Backoffice della segretaria.
+
+23:23 - Carlo Sanvoisin
+Mi confermate che queste sono le tre possibilità, il risultato è sempre un Excel. Su questo Excel voi ci lavorate manualmente per capire come accoppiare le persone, essenzialmente. Esatto.
+
+23:34 - Marketing
+E lo step in più, era proprio questo, cioè la richiesta nostra era è possibile avere un supporto, un aiuto dall'intelligenza artificiale per evitare che questo file excel venga poi lavorato nuovamente manualmente?
+
+23:49 - Carlo Sanvoisin
+Sì, allora questo me l'hanno chiesto appunto, me l'ha chiesto anche Lorena ieri. Io quello che ho chiesto a Lorena è un esempio anche anonimizzato, quindi togliendo magari I nomi o mettendo dei dati diciamo non non veri sui vostri clienti, sia un esempio di l'Excel in input che in output con le regole che avete utilizzato per crearlo. Quindi io prima avevo tutta la lista completa, quello poi allineatevi se insomma volete partecipare o comunque supportare nel condividere questi materiali, per me sarebbe molto utile perché poi quello cambia da caso a caso perché quello che io ho capito è che voi applicate delle regole regole specifiche per evento per evento, quindi non è che c'è una regola generale di accoppiamento o comunque magari sulla base dell'esperienza qualcosa che ricorre c'è, però qui sarebbe proprio da allenare la gente, cioè io devo allenare la gente a ragionare come ragionate voi e di volta in volta voi gli dovreste dare delle regole specifiche.
+
+24:57 - Antonella Beretta
+Ci sono delle regole generali che sono sempre le stesse, c'è un argomento raccoglie sempre le stesse informazioni. Poi ci sono però dei casi specifici e vanno un po' implementate in base all'evento, a quello che è richiesto dall'evento.
+
+25:15 - Carlo Sanvoisin
+Ottimo. Qui è una questione di test, cioè noi dovremmo dare in mano all'agente l'excel iniziale, dargli le regole, vedere come lui le applica, confrontare l'excel finale che produce lui con quello che avreste voi e verificare quanto è stato accurato. L'obiettivo finale è ottenere almeno un 80-90% di accuratezza in maniera tale che voi andate poi a lavorare su qualche caso diciamo più estremo, specifico, però di base il 90% del lavoro lo ha fatto lui in maniera corretta. Va bene, direi che questo è chiaro.
+
+25:53 - Marketing
+Vado sul secondo punto allora Carlo, visto che questo è già stato giustamente toccato da come è corretto che sia.
+
+26:01 - Antonella Beretta
+Questo è stato toccato in ambito segreteria, come se la segreteria facesse poi le liste per gli operativi.
+
+26:10 - Carlo Sanvoisin
+Esatto, mi è stato descritto come I passaggi sono, prima la raccolta dei dati di tutti I partecipanti, poi la creazione di queste liste e poi sulla base di queste liste le comunicazioni.
+
+26:26 - Unidentified Speaker
+Le convocazioni.
+
+26:27 - Carlo Sanvoisin
+Convocazioni e comunicazioni successive che vengono fatte in maniera massiva, sia tramite lo strumento di Backoffice, per eventi più semplici da quello che mi hanno detto utilizzano Outlook, che non è molto efficace come soluzione, ma poi questo lo vedremo. Però sì, mi hanno detto questi tre passaggi, raccolta dati, elaborazione e invio comunicazioni. Questo me lo chiedi perché parte di questo lavoro lo fate voi o anche...
+
+26:50 - Antonella Beretta
+No, perché sì, finora non sono le segreterie che ci fanno le liste, ecco, ci passano la master e noi operativi lavoriamo e creiamo le liste.
+
+27:00 - Marketing
+Ma probabilmente Antonella ha fatto una riunione a cappello, essendo Lorena il capo e il responsabile dell'AIS, sotto di sé ha la responsabilità sia delle segreterie sia dell'operativo, quindi ha unito le cose.
+
+27:15 - Carlo Sanvoisin
+Sì, però ho maggior ragione, tu sei la persona che si occupa di creare le liste, quindi conosci sicuramente in maniera molto più dettagliata le regole che vengono applicate, ti chiedo magari di coordinarti anche con Lorena, così nella condivisione di questi materiali per fare I test io ho quanto più una visione, diciamo, dettagliata di queste regole che vengono applicate per la creazione della lista.
+
+27:43 - Antonella Beretta
+Lorena ne sa più di me.
+
+27:45 - Marketing
+Ok. Sì, esatto. Stavo dicendo la stessa cosa. E poi comunque Lorena ha al di sotto altre persone, che sono pari livello e pari funzione di Antonella a cui poterle chiedere. Quindi sicuramente sarà un punto che verrà sviscerato benissimo. Non so invece se ti hanno parlato in queste prime riunioni che hai fatto dell'impostazione briefing per le tour leader. No, non mi pare. Ne hai sentito parlare di questo? No. No? Allora questo è sempre un lavoro che viene fatto dall'operativo. Solitamente un trigger che parte 15 giorni, una settimana prima della partenza dell'evento. Chiaramente la frequenza è on demand in base a quando si fa l'evento e che cos'è? È la raccolta di informazione attraverso l'analisi di email con I fornitori, con il cliente. È l'impostazione di un documento con informazioni generiche, con il programma dei by day dell'evento che evidenzia tutte le aree di intervento all'interno dell'evento, quindi lo svolgimento, le aree di criticità, che cosa succede, viene continuamente aggiornato dall'operativo fino ad arrivare a consegnare la versione definitiva qualche giorno prima dell'evento e viene poi archiviato nella cartella di operativo di quella pratica. Per preparare questo documento Word, solitamente on Word, l'operativo usa sempre I soliti sistemi quindi Outlook, Microsoft Office e le cartelle di rete e le aree di miglioramento che sono state individuate sono proprio quelle del tempo, quindi migliorare il tempo per reperire le varie informazioni dai vari thread di mail, ci possono essere delle dimenticanze, ci può essere una dispersione di informazioni perché prendi queste informazioni da diversi strumenti. L'intelligenza artificiale è in grado di redare in automatico un briefing con tutte le informazioni necessarie allo staff in loco tramite l'analisi di mail, di documenti vari. Si può fare, si può pensare.
+
+30:05 - Carlo Sanvoisin
+Si può fare assolutamente e per darvi la fattibilità e poi come potrebbe funzionare lo strumento, dovreste fornirmi chiaramente un esempio di un documento completo, ma soprattutto quello che mi interessa di più è avere, se l'avete, una struttura standard, fra virgolette, degli elementi che devono far parte di questo documento e quali sono le specifiche fonti, cioè ci sta una criticità, ok? Quindi ci sta l'area criticità logistiche, Le criticità logistiche voi normalmente le discutete tramite e-mail con I vostri fornitori di logistica e allora la fonte è quella lì. Come deve essere organizzato poi quel paragrafo? È un paragrafo in cui si esprime questo concetto, in questo modo, in questo formato, in questa struttura, quindi dovrebbe avere da una parte come è strutturato l'output, quindi che cosa deve assumire.
+
+31:08 - Marketing
+mandiamo un esempio di manuale, chiaramente Carlo non possiamo mandarti un esempio, cioè dobbiamo togliere tutti I riferimenti, I dati sensibili?
+
+31:18 - Carlo Sanvoisin
+Sì, nel senso, mi pare che ho firmato un NDA a inizio progetto con Oloop, perché poi abbiamo già fatto dei progetti, diciamo che sono partiti qualche mese fa, quindi di base io credo che a me personalmente potete mandare tutto, un po' questo Facciamo un controllo, togliamo un po' di cose. Fate un check, forse lo potete fare con Marco Merli. Sì, certo, sento Marco. Io sentirei Marco, sentirei Marco per farvi dare un ok, altrimenti mi anonymizzate I dati. Però di base sì, mi servirebbe sapere cosa raccogliete e da dove. Poi anche qui mi chiedo, è standard? Dalla struttura di questo documento o varia da tipologia evento, cliente, commessa?
+
+32:12 - Marketing
+Dovrebbe essere standard ma non lo è mai fino in fondo perché ogni evento è veramente a sé.
+
+32:22 - Antonella Beretta
+Quindi secondo me si può fare uno scheletro generico che può essere più o meno standard con le informazioni che normalmente di base si mettono sempre, però poi sicuramente andrebbe di quelle specifiche di ciascun evento.
+
+32:40 - Carlo Sanvoisin
+Come si potrebbe ragionare? Si potrebbe ragionare per eccesso, cioè se voi mi date una struttura in cui ci sono tutte le possibili casistiche di dati che vanno raccolti, o magari per alcuni eventi o viaggi incentivi o quello che è, non si applicano, quindi quel dato non lo si trova e non viene popolato, però quantomeno io, andando per eccesso, ho preso tutte quante le casistiche. Quindi io so che esistono dieci tipologie di informazioni che potrei raccogliere nel massimo dei casi.
+
+33:15 - Marketing
+In questo momento io ne ho sei. Però mi viene un dubbio. Cosa intendi per numero massimo standardizzato? Perché ogni evento è fatto di mille sfumature diverse, quindi noi non abbiamo mai un evento standard. Se come categorie di dati standard tu intendi che il brief inizia sempre con l'elenco di tutti I fornitori coinvolti, inizia sempre con il programma del primo giorno, il programma del secondo giorno, il programma di ogni giorno e che inizia con un dettaglio degli allestimenti della sala plenaria se sono previsti, ci sono sempre I menu di tutte le cene e tutti I pranzi, sono dati standard. Più o meno ovunque, in ogni brief. Poi ogni evento ha le sue sfumature, anche perché ogni evento si svolge in paesi diversi, in città diverse, anche se siamo in Italia, quindi ci sono mille sfumature diverse.
+
+34:16 - Carlo Sanvoisin
+Certo, allora mi è chiaro, diciamo che noi dovremmo cercare di standardizzare quanto più possibile, perché dobbiamo dare delle indicazioni a questo agente. Nel senso, si può fare tutto questo? Sia I thread di mail che la vostra documentazione interna?
+
+34:37 - Marketing
+Adesso vediamo un attimo.
+
+34:39 - Marketing
+Che altre fonti avete oltre ai thread di mail?
+
+34:45 - Antonella Beretta
+Utilizziamo principalmente tutto via mail, giusto?
+
+34:48 - Marketing
+Se il cliente ti manda l'agenda, lo saldo via mail.
+
+34:54 - Carlo Sanvoisin
+che la gente si può integrare tranquillamente con Outlook e gli si può indicare mi vai a fare un approfondimento su tutte le mail che io mi sono scambiato con questo fornitore nell'ultimo mese e lui ti prende tutte quante le informazioni da lì e te le va a incasellare l'unica diciamo preoccupazione che ho è se all'interno di questi documenti o 3D mail ci sono delle informazioni informazioni che ehm diciamo non si possono ehm categorizzare in una di quelle aree che voi già avete messo nel documento quindi per esempio se è una un'informazione al di fuori del day to day del menu eh dei partecipanti o di qualsiasi altra cosa non vorrei che venisse persa quindi o facciamo una sezione diciamo dinamica del tipo altre caratteristiche o altre e lui ci scrive tutto quello che ha trovato oppure voi mi provate a dare quante più hm diciamo aree di attenzione possibile in maniera tale che noi già alla gente gli diciamo guarda che di base tu devi prendere queste sette cose che sono I I sette elementi che fanno sempre parte del brief però se trovi indicazioni su questo questo e quest'altro comunque sono informazioni utili e vanno recuperate quindi diciamo poi questo lavoro che approfondiamo però intanto mi come ci si lavora.
+
+36:20 - Antonella Beretta
+Sì, è l'unica, perché sicuramente ci sono tante informazioni. Tra l'altro ci sono cose che nel 3D Mail, non so, ci sono evoluzioni, cose che cambiano magari e che bisogna sempre dirgli di tenere il conto dell'ultimo dato Perché anche nel corso dell'operatività alcune cose cambiano e quindi se prima era stato scelto un menu può essere che nel frattempo cambi e deve prendere l'ultima informazione in ordine di tempo.
+
+36:59 - Carlo Sanvoisin
+Non mi preoccupa più di tanto perché oggi magari voi vi anticipate questo lavoro perché è un lavoro che vi prende tempo e quindi giustamente cominciate 15 giorni prima. Nel momento in cui un agente lo fa in in 20 minuti e voi ci dovete poi passare un'altra mezz'ora sopra per rifinirlo. Potete anche fare un ridosso con informazioni più aggiornate o comunque hai sempre una gente che ti supporta quindi se ci sono informazioni che sono cambiate io posso anche fare una query e dirgli mi verifichi che rispetto a questa versione qui non è cambiato nulla e lui si va a controllare le ultime mail e ti segnala. Eventualmente se qualcosa è cambiato. Però, ok, questo è chiaro. Mandatemi un esempio di documento, le casisti che si possono verificare e direi che per quanto riguarda le fonti me l'avete già detto, cioè le prendete dai 3D mail o documentazione interna. Se avete della documentazione interna esempio da condividermi, anche quello potrebbe essere utile. Del tipo, se il day to day o il menu lo avete su un documento documento, mandatemelo e magari io queste le posso utilizzare...
+
+38:15 - Marketing
+Ma tu l'avete una cosa fattibile Carlo, questa che ti stiamo chiedendo?
+
+38:20 - Carlo Sanvoisin
+Sì, sì, ma io per esempio questo già lo faccio per me personalmente. Io ho uno strumento che si collega con Outlook e se voglio sapere tutto quello che è successo in un determinato 3D mail con un cliente, per esempio con Oloop, lo posso fare. Ad esempio, l'ho fatto in passato, tutti I thread di mail che avevo con la laura Zaghi, che erano relativi a un determinato progetto che stiamo seguendo insieme, mi sono fatto fare un summary in un documento di tutto quello che ci siamo detti, strutturato in un certo modo.
+
+38:59 - Antonella Beretta
+Si fa. Potrebbe bastare, laura, nel senso che tanto le mani sicuramente bisogna mettercele, non non è pensabile che faccia tutto da solo, quindi sarebbe già tantissimo che recupera le informazioni principali e tutto ciò che invece non sa dove incasellare lo mette in fondo così anche random e io poi me lo vado a spostare in un brief nei day by day dove mi serve, però sparmi di tempo notevole comunque. Soprattutto ti aiuta a non perdere perché lui comunque ti mette tutto, poi li metti e tu cancelli.
+
+39:39 - Carlo Sanvoisin
+Esatto, esatto. Lì bisogna dare l'intenzione a dargli le indicazioni per raccogliere dati, quindi se il dato deve essere raccolto in tre thread di mail con tre fornitori diversi bisognerà scrivere bene nel prompt esattamente quali thread di mail deve guardare con l'indirizzo email corretto. Se voglio che guardi dentro un documento che è condiviso su SharePoint devo dargli la cartella di riferimento corretta cioè è tutto lì perché sennò se io gli dicessi controlla tutto il mio Outlook e cerca informazioni su questo fornitore non è efficace però una cartella operativo che ha all'interno diverse cartelle che sono collegate di 20 per avere un'efficacia. Se già gli do una cartella che ha più di 20 documenti, si comincia a perdere.
+
+40:40 - Marketing
+Cioè 20 documenti nella cartella, Antonella. Ci sono alcune cartelle che ne hanno molti di più.
+
+40:47 - Antonella Beretta
+Sì, ma io sto per il brief. Non so, mi viene in mente la Mortari che mi manda l'agenda del top private, dei by day degli interventi e mi ne manderà una decina con I vari aggiornamenti che poi posso anche salvare solo l'ultima, quella definitiva, e poi quando faccio il brief entra lì e ne trova un, due, tre.
+
+41:14 - Marketing
+Andiamo avanti che il tempo è tiranno, abbiamo 20 minuti ancora di call. Anche se secondo me alcuni argomenti sono superati ed evitiamo di trattarli in base a quello che ci stai raccontando e ci stai dicendo. Il terzo punto che non so se ti hanno detto, ma immagino di no, è l'impostazione del file di chiusura contabile evento. Allora, questo è sempre un documento che prepara l'operativo, il trigger è sicuramente post evento, la frequenza on demand. Che cosa succede? L'operativo deve raccogliere informazioni da file che possono essere pdf, immagini di fatture che riceviamo dai fornitori e del cliente archiviate che si trovano in cartelle del nostro server operativo. Prendendo I dati da questi documenti deve compilare l'operativo un file di excel con la chiusura contabile con I dati necessari delle fatture fornitori. I dati sono, devo inserire fornitore pinco pallino fattura numero 3 barra del 25 gennaio eccetera.
+
+42:28 - Carlo Sanvoisin
+Ti fermo perché è chiarissimo come caso d'uso su questo ti dico subito primo per testarlo mi serve come compilate l'excel come sempre quindi qui devo avere l'excel con tutte le voci che voi compilate a mano ad oggi e mi serve un esempio di pdf dal quale recuperate queste informazioni. Vi faccio subito un'osservazione importante. Questi strumenti funzionano se questi file pdf non sono file di 50 pagine, quindi vi chiedo subito di che lunghezza stiamo parlando.
+
+43:04 - Antonella Beretta
+Se la scarichiamo dal cassetto fiscale è una pagina. Se è quella che mi manda il fornitore, se è un hotel dove ho avuto un gruppo di 600 persone, Sono tante pagine.
+
+43:20 - Carlo Sanvoisin
+Se io gli do una pagina, quella per esempio che è scaricata dal cassetto fiscale...
+
+43:31 - Antonella Beretta
+Sarebbe da prendere l'ultima, a dire la verità, perché il dato a me serve l'imponibile di ciascuna IVA della fattura. Sull'ultima pagina per dire, non mi serve tutto il dettaglio.
+
+43:52 - Carlo Sanvoisin
+Per esempio, questa è una cosa importante che mi hai detto, si può anche semplicemente fare un passaggio in più manuale, cioè che tu separi quella ultima pagina del pdf dove ci sono le informazioni che ti servono e questo potrebbe essere uno strumento molto semplice in cui tu prendi questi pdf, li inserisci, dentro lo strumento e gli dici compila l'excel di riferimento lui dietro avrà una serie di regole del tipo appunto devi prendere l'importo imponibile e trascura quello non imponibile eccetera eccetera e va a compilare questi dati però per fare questo come ti dicevo noi gli diamo pdf di 50 pagine cerchiamo di dargli direttamente quelli che contengono le informazioni necessarie quindi su questo... Se non è il massimo non è il massimo però se tu mi mandi degli esempi io posso verificare se riesce a leggerle perché di base sì di base sì però poi dipende sempre dal formato dell'immagine da come è stata salvata da come è stata creata quindi prova a mandarmi degli esempi e noi facciamo dei test di di recupero informazioni con l'excel quindi devo avere l'excel con I dati da compilare, ok?
+
+45:17 - Marketing
+Va bene, poi proposta, viaggi e convocazioni io lo salterei perché praticamente è più o meno una ripetizione di quello che abbiamo detto al primo punto, cioè la parte di Rosanna, Valentina se dico una stupidata ditemelo però sono esattamente la creazione di liste che originano dal lavoro della segreteria. Quindi l'abbiamo già affrontato. Vado invece sul… dimmi Valentina? No, no, no, corretto, no, no, no.
+
+45:53 - Carlo Sanvoisin
+Corretto, ok. Quindi la vostra viaggio la saltiamo. Quell'ultima invece, scusami, stavi dicendo… Le convocazioni è sempre la parte di segreteria.
+
+46:07 - Marketing
+La stessa cosa che ti ha detto, che immagino, di cui ti abbia parlato Lorena.
+
+46:14 - Carlo Sanvoisin
+Sì, sì, sì, va bene.
+
+46:16 - Marketing
+Noi abbiamo fatto una parte, non so Carlo, se tu hai già fatto una riunione con la parte di programmazione. Antonella. Antonella Osmetti.
+
+46:27 - Carlo Sanvoisin
+Sì, questo tool l'abbiamo praticamente già creato allora.
+
+46:31 - Marketing
+Ah, basta.
+
+46:32 - Marketing
+Allora c'è ricerca hotel di suono.
+
+46:35 - Carlo Sanvoisin
+della presentazione.
+
+46:36 - Marketing
+Non lo sapevamo, ecco perché non c'era. Bene, basta. Allora, interrompo la condivisione un attimo così ti guardo e ti faccio una domanda, perché noi abbiamo anche sognato, abbiamo provato a sognare, o meglio una persona di noi ha sognato e ci siamo chiesti, ma l'intelligenza artificiale ci potrebbe aiutare a un durante l'evento, mi spiego banalmente dalla richiesta last minute che ci può arrivare da un cliente durante un evento ci chiede trovami qualcuno che mi lavi delle tute da pilota che devono essere in ifughe, che devono rimanere in ifughe e ho bisogno che tu me le riconsegni il mattino dopo. Banalmente qui basta avere, ma non c'è bisogno di uno strumento specifico no loop, immagino.
+
+47:39 - Carlo Sanvoisin
+Questo è semplice ricerca online con parametri fissi. Sì, chiaramente lo devi fare nel modo corretto.
+
+47:45 - Marketing
+Ma quello non è il caso, l'ho fatto apposta questo esempio per dire non c'è bisogno di avere uno strumento ad hoc per no loop, ognuno di noi lo può ricercare online con ChargPT, corretto? Allora, mettiamola così.
+
+48:05 - Carlo Sanvoisin
+Noi potremmo istruire un agente e dirgli tu sei l'agente virtuale di Noloop, azienda che si occupa di organizzazione eventi e viaggi per società medio-grandi, devi sempre proporre soluzioni che siano coerenti in linea con il posizionamento di brand di questa società, quindi con un posizionamento alto, premium e via dicendo. Quindi di base noi possiamo dargli delle istruzioni iniziali che spiegano alla gente come poi dovrà ragionare nel momento in cui fa la ricerca. Quindi se io ti chiedo una soluzione all'ultimo secondo per un nuovo ristorante, perché mi sono reso conto che questo ristorante non ha il menù per quelli che soffrono di diabete, non lo so, eccetera, eccetera. Se io ho una costumizzazione, una personalizzazione dell'agente e già gli ho dato un certo taglio, lui andrà a fare delle ricerche che sono coerenti con le soluzioni che proponete voi. Se lo faccio blank, cioè che vado così su chat gpt, gli faccio la richiesta, magari mi propone delle cose che non sono in linea e questo è un primo punto. Un secondo punto è comunque vi dobbiamo dare, diciamo, delle indicazioni e dei processi per fare in modo che questa operazione venga fatta bene. Vi faccio un esempio. Su chatgpt esistono tanti modelli diversi che hanno dei funzionamenti diversi e alcuni sono più adatti alla ricerca online rispetto ad altri e anche il modo in cui gli si chiede di fare la ricerca può cambiare completamente il risultato che ne emerge. Ad oggi per una cosa del genere io vi proporrei una soluzione che si integra meglio con Google, quindi una soluzione che si basa più su Gemini, che sarebbe l'intelligenza artificiale di Google. Perché? Perché chiaramente se è principalmente un agente di ricerca è meglio che sia super integrato con il motore di ricerca principale al mondo che è appunto Google. Quindi si può fare anche senza il supporto di noi come AI, come agenzia, però se lo volete fare, diciamo, avere una percentuale in più di accuratezza e ottenere delle risposte migliori, allora ci sono sicuramente delle piccole anche indicazioni che vi possiamo dare, ma che fanno in modo che il risultato finale sia meglio.
+
+50:41 - Marketing
+E questo è, chiamiamolo, un agente virtuale, un butler virtuale non loop durante l'evento. Ma invece tu vedi durante l'evento avere un utilizzo dell'intelligenza artificiale per gestirti criticità intese come, non lo so, io voglio che tu durante l'evento mi coordini lo staff di hostess che abbiamo in evento, quindi che gli ricordi, generi tu I turni di lavoro di queste persone, mi ricordi quali sono I remind da mandare e le aiuti nello svolgimento del lavoro. Stesso discorso per il team di allestitori che ho presenti in evento. Mi prepari tu una scaletta con il day by day dei tempi allestitivi, ricordi quali sono le criticità dell'evento, gestisci I turni, cioè è una cosa fattibile o la bellezza anche se vuoi del lavoro umano, del nostro lavoro deve rimanere e quindi noi siamo comunque figure indispensabili e tutto nella nostra mente deve esserci.
+
+51:56 - Carlo Sanvoisin
+Allora dovremmo vedere dei casi pratici e dovrei capire che informazioni avete oggi per poter poi guidare lo strumento a fare il ragionamento corretto, cioè se voi Teoricamente se voi fornite per esempio il numero di hostess, il numero di partecipanti, la mappa dell'evento e altre informazioni tipo ci deve essere sempre una hostess in quest'area, ce ne deve essere sempre una in quest'altra, in questa ce ne devono stare due, via dicendo, con una struttura chiara di dati e di regole sicuramente la gente riesce a dare un supporto.
+
+52:39 - Marketing
+Si fermo subito Carlo.
+
+52:41 - Carlo Sanvoisin
+Io ho paura che voi non l'abbiate questa struttura, poi anche perché cambierà da evento a evento.
+
+52:47 - Marketing
+Ma guarda, mentre tu ne parlavi io ero sempre più convinta che non era possibile, ma visto che è una cosa che appunto è venuta in mente, ci è venuta in mente per una miglior gestione dell'evento, ma secondo me non è una cosa questa fattibile Valentina, non riusciamo farla. Perché giustamente la gente dell'intelligenza artificiale lavora su schemi. Io so che una hostess è brava e l'ho sempre messa in sala mentre un'altra no, è una cosa che so io e l'intelligenza artificiale non lo sa.
+
+53:23 - Unidentified Speaker
+Esatto. Cioè è un esempio banale ma funziona sempre.
+
+53:27 - Carlo Sanvoisin
+No ma è così anche perché vi dico se io do, non all'intelligenza artificiale. Non gli do I dati e le fonti corrette, non gli do delle regole. Si può inventare un ragionamento, ma non sarà mai il ragionamento che voi stavate cercando.
+
+53:48 - Carlo Sanvoisin
+A meno amate, almeno qualcosa facciamo.
+
+53:51 - Marketing
+Allora Carlo, io mi porto a casa che noi lavoriamo sui primi tre punti. Faccio io un passaggio con le colleghe Nolub, quindi parlo un attimo con Lorena per sapere se I primi tre punti che sono la parte di segreterie, la parte di brief che non è stata toccata da lei e la parte di chiusura contabile interna possano essere dei temi da poter mettere sul piatto con te, altrimenti ci fermiamo alla parte di segreterie.
+
+54:23 - Carlo Sanvoisin
+Per la parte di programmazione parlo con Antonella, non sapevo che questi strumenti fossero già In questo momento in realtà abbiamo praticamente cambiato totalmente lo strumento perché OpenAI, che sarebbe diciamo il modello AI di GCPT, in quest'estate ha avuto delle modifiche drastiche e quindi per questo, come vi anticipavo, ci siamo appoggiati a Gemini, che è anche più integrato con Google. Quindi io la prossima settimana ho una call con Antonella per metterle a disposizione condividerle questo nuovo strumento che essenzialmente fa questo, fa la ricerca online delle location, dei ristoranti, dei trasporti, fa il day to day, propone una scaletta di presentazione eccetera eccetera. Quindi su quello diciamo che siamo stand by fino a settimana prossima che Antonella mi ha detto che sta sotto gara. Da settimana prossima che mi allino di nuovo con Antonella l'obiettivo sarebbe proprio quello di condividere questo strumento anche con le altre persone che lavorano su questo ambito e permettergli di testarlo. Però oggi lo strumento sul quale abbiamo lavorato finora è in pausa perché OpenAI ha cambiato troppe cose quindi ci siamo appoggiati adesso a Gemini.
+
+55:40 - Marketing
+Invece per la parte commerciale l'hai recepita qual è la necessità esigenza ma sappiamo che è una cosa… Sì, più che altro.
+
+55:49 - Carlo Sanvoisin
+Allora io vi direi, la segreteria sono abbastanza sicuro che sia dentro lo scope di progetto perché l'hanno menata anche la Carbarino. Fate questo passaggio per capire I brief e la parte di chiusura contabile. Perfetto. Se avete un ok su questi casi che li potete portare avanti, poi mi dovreste fornire, come vi dicevo, I documenti in maniera tale che noi possiamo subito verificare cosa si può fare e così abbiamo toccato praticamente tutto quindi io ti direi su su quei casi extra che avete portato voi prima che magari noi facciamo tutto il lavoro di studio della soluzione prima di un passaggio.
+
+56:36 - Marketing
+Vi chiederei questo. Benissimo. Ti ringrazio. Grazie. Grazie molte. Grazie a tutti. Ciao. Ciao.

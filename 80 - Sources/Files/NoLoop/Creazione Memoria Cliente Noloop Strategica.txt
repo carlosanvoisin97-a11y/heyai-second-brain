@@ -1,0 +1,198 @@
+﻿Analisi Strategica Integrata ed Ecosistemica di Noloop S.r.l. Società Benefit: Architettura Operativa, Performance Finanziaria e Roadmap per l'Integrazione dell'Intelligenza Artificiale
+1. Executive Summary e Visione Strategica
+1.1 L'Identità Aziendale e la Genesi del "No Loop"
+Nel panorama frammentato e iper-competitivo della Live Communication Industry italiana, Noloop S.r.l. Società Benefit emerge non come una semplice agenzia di eventi, ma come un aggregatore sistemico di competenze creative e logistiche. La genesi dell'azienda, formalizzata come brand unico nel gennaio 2023 ma operativa su basi legali consolidate nel 2022, rappresenta un caso di studio paradigmatico di consolidamento strategico nel mercato MICE (Meetings, Incentives, Conferences, and Exhibitions).1 La fusione tra MCM Comunicazione, fondata nel 2001 da Chicco Nobili e Marco Merli, e Lillabry Communication non è stata una mera operazione finanziaria, ma una mossa tattica volta a creare una massa critica immediata in grado di competere con i giganti storici del settore.2
+Il naming stesso, "Noloop", codifica una dichiarazione d'intenti operativa e filosofica: la rottura della ricorsività, l'interruzione dei pattern abituali e la negazione della routine creativa che spesso affligge le grandi agenzie strutturate. Il mantra aziendale "We are Cinema" non è solo uno slogan, ma riflette un approccio produttivo che mutua i linguaggi della cinematografia — narrazione, fotografia, scenografia immersiva — per applicarli al contesto effimero dell'evento corporate.5 In un mercato che tende alla standardizzazione dei format per ottimizzare i margini, Noloop si posiziona sulla direttrice opposta: la personalizzazione estrema ("Customer Tailor-made") e l'utilizzo inaspettato degli spazi ("Unexpected Spaces"), strategia validata dai riconoscimenti ottenuti ai Best Event Awards (BEA).6
+1.2 Posizionamento di Mercato e Traiettoria di Crescita
+L'analisi dei dati finanziari e delle dichiarazioni previsionali rivela una traiettoria di crescita aggressiva che ha superato le aspettative iniziali. Al momento della costituzione, il management aveva fissato un obiettivo di 50 milioni di euro di ricavi entro il 2025.1 I dati consuntivi mostrano che tale soglia è stata non solo raggiunta ma superata in anticipo, con un fatturato 2023 di 50,9 milioni di euro (+65% rispetto al pro-forma 2022) e una chiusura 2024 a 54,5 milioni di euro (+7% YoY).3
+Questo posizionamento colloca Noloop nella fascia alta del mercato ("Tier 1"), in diretta competizione con gruppi come Filmmaster Events e Balich Wonder Studio, sebbene con una struttura patrimoniale e operativa differente. La resilienza mostrata attraverso la rapida scalabilità, passando da 60 a oltre 75-100 collaboratori nel biennio post-fusione 3, indica una capacità di assorbimento della domanda di mercato e una solidità gestionale che va oltre la tipica volatilità delle agenzie creative indipendenti.
+1.3 Il Paradigma della Società Benefit
+Un elemento distintivo cruciale, spesso sottovalutato nelle analisi puramente finanziarie, è lo status giuridico di Società Benefit.11 Questa non è una etichetta di marketing, ma un vincolo statutario che impone agli amministratori di bilanciare l'interesse degli azionisti con il perseguimento di finalità di beneficio comune. Per uno Stratega Digitale, questo è un data point fondamentale: la necessità di produrre annualmente una Relazione di Impatto e di monitorare le esternalità sociali e ambientali trasforma la sostenibilità da "nice-to-have" a "compliance requirement".10 Ciò implica l'esistenza, o la necessità, di flussi di dati strutturati riguardanti consumi, emissioni e impatto sociale, creando il substrato ideale per l'implementazione di soluzioni di ESG Analytics e Predictive Modeling basate sull'Intelligenza Artificiale.
+________________
+2. Analisi Finanziaria Granulare e Performance Operativa
+Per progettare soluzioni digitali che abbiano un ROI (Return on Investment) calcolabile, è indispensabile comprendere la struttura di costo e i margini di manovra finanziaria dell'azienda.
+2.1 Analisi dei Ricavi e della Redditività
+I dati estratti dai bilanci e dai report di settore delineano un'azienda in salute finanziaria, capace di generare cassa operativa sufficiente a sostenere la crescita organica.
+Tabella 1: Progressioni Economico-Finanziarie di Noloop S.r.l.
+
+
+Indicatore Finanziario
+	Esercizio 2022 (Pro-forma/Aggregato)
+	Esercizio 2023 (Consolidato)
+	Esercizio 2024 (Consolidato)
+	Target Strategico 2025
+	Fatturato Totale
+	€ 31.905.777 8
+	€ 50.987.220 8
+	€ 54.522.696 8
+	> € 54.000.000 14
+	Variazione % (YoY)
+	-
+	+ 65% (Boost post-fusione)
+	+ 6,93% (Consolidamento)
+	Stabile / Crescita Organica
+	EBITDA (Margine Operativo)
+	N.D.
+	~ € 4.000.000 15
+	N.D.
+	N.D.
+	EBITDA Margin
+	-
+	~ 7,8%
+	-
+	-
+	Utile Netto
+	N.D.
+	N.D.
+	€ 2.045.227 13
+	N.D.
+	Addetti/Collaboratori
+	~ 60 2
+	~ 75-85 10
+	~ 100 / 348 (dato aggregato*) 5
+	Crescita Risorse Umane
+	Capitale Sociale
+	€ 15.000 (i.v.) 3
+	€ 15.000 (i.v.)
+	€ 30.000 13
+	-
+	Nota: Il dato di 348 dipendenti nel snippet 13 potrebbe riferirsi a un aggregato di gruppo o includere personale temporaneo per grandi eventi, mentre il "core team" stabile è citato tra le 75 e le 100 unità nelle interviste.3
+Insight Strategico: Un EBITDA margin del 7,8% è rispettabile nel settore eventi, dove i costi passanti (venue, catering, service tecnici) erodono significativamente il fatturato lordo. Tuttavia, lascia margini ristretti per errori operativi. L'investimento in AI deve quindi mirare non solo all'innovazione "spettacolare", ma all'efficienza di processo: riduzione delle ore-uomo per la pre-visualizzazione dei progetti, ottimizzazione della logistica per ridurre i costi di trasporto e minimizzazione degli sprechi (sostenibilità economica ed ecologica).
+2.2 Governance e Leadership
+La struttura di governance riflette una continuità con il passato imprenditoriale dei fondatori, garantendo stabilità decisionale.
+* Paolo Donzelli (CEO e Presidente): Figura chiave che incarna la visione strategica. Nelle sue dichiarazioni emerge una forte enfasi sull'"italianità" intesa come capacità di problem solving creativo e non come nostalgia. La sua visione "anti-routine" è il driver culturale per l'adozione di tecnologie disruptive.4
+* Chicco Nobili (Co-Direttore Generale): Custode dell'eredità operativa di MCM, focalizzato sulla concretezza esecutiva.5
+* Laura Garbarino (Co-Direttore Generale): Gestisce la complessità organizzativa e l'integrazione tra i reparti logistici e creativi, sottolineando l'importanza del "Customer Tailor-made".6
+* Ivano Romano (Direttore Comunicazione): Responsabile della narrazione del brand e, presumibilmente, delle strategie di comunicazione della sostenibilità come Società Benefit.5
+Questa leadership distribuita suggerisce che qualsiasi proposta di trasformazione digitale deve parlare due lingue: quella dell'efficienza operativa (per Garbarino/Nobili) e quella della visione innovativa (per Donzelli/Romano).
+________________
+3. L'Ecosistema Operativo e Tecnologico: Hardware, Software e Partnership
+A differenza di una software house, Noloop opera come un System Integrator di esperienze fisiche e digitali. Non possiede tecnologie proprietarie nel senso stretto (brevetti hardware), ma orchestra uno stack tecnologico avanzatissimo attraverso partnership strategiche vincolanti. Per uno Stratega Digitale, questa è la sezione più critica: qui risiedono le capacità tecniche reali su cui innestare l'AI.
+3.1 Il Core della Virtual Production: La Partnership con STS Communication
+L'asset tecnologico più rilevante di Noloop è l'accesso privilegiato alle infrastrutture di STS Communication, membro della PRG Alliance e pioniere italiano nella Virtual Production (VP).17 Questa partnership non è un semplice rapporto fornitore-cliente, ma una integrazione strutturale che abilita Noloop a offrire format "televisivi" e cinematografici impossibili per le agenzie tradizionali.
+3.1.1 Infrastruttura Hardware e Studi
+STS mette a disposizione due hub principali a Milano:
+1. Studio CR49: Progettato specificamente per produzioni cinematografiche virtuali. È dotato di un LED Wall curvo di 24m x 6m composto da pannelli Absen P2.5 XR Pro e un soffitto LED mobile.19 Include sistemi di camera tracking (probabilmente Stype RedSpy o simili, standard per questi setup) che sincronizzano la prospettiva della camera fisica con quella del mondo virtuale.
+2. Studio 1D: Dedicato a eventi online, talk show e presentazioni prodotto, con un LED wall e pavimento LED (18m x 4m).19
+3.1.2 Stack Software: Unreal Engine, Disguise e Brompton
+L'analisi tecnica rivela uno stack software di livello broadcast internazionale, pronto per l'integrazione con AI generativa video-to-3D.
+* Unreal Engine (Epic Games): Il motore di rendering in tempo reale. STS utilizza nodi di render dedicati per generare sfondi fotorealistici che reagiscono in tempo reale ai movimenti di camera.19
+   * Potenziale AI: L'AI (es. NVIDIA GauGAN o tool text-to-3D come Luma AI) può essere utilizzata per generare asset grezzi da importare in Unreal, riducendo drasticamente i tempi di modellazione 3D manuale.
+* Disguise (Media Servers): STS impiega server Disguise (probabilmente serie VX4 o GX3 per flussi XR).21 Disguise è la piattaforma leader per l'Extended Reality (xR). La sua architettura "RenderStream" permette di distribuire il rendering su più macchine.
+   * Potenziale AI: Disguise supporta plugin per l'AI generativa in tempo reale (es. Notch o integrazioni custom). Noloop potrebbe sviluppare scenografie che "mutano" in base al sentiment del pubblico analizzato dall'AI.
+* Brompton Technology (LED Processing): L'utilizzo dei processori Tessera SX40 è fondamentale per la qualità visiva.19 Funzionalità come "ShutterSync" garantiscono che non ci siano sfarfallii (flicker) nelle riprese, essenziale per l'approccio "We are Cinema" di Noloop. La calibrazione dinamica HDR assicura che i colori siano perfetti.
+3.2 L'Infrastruttura Audio/Luci: Il Ruolo di Novelty
+Per la componente fisica degli eventi (concerti, convention in presenza), Noloop si appoggia a Groupe Novelty, leader europeo nei servizi tecnici.24
+* Asset: Un inventario massiccio di oltre 8.000 equipment, inclusi sistemi audio L-Acoustics e Meyer Sound, e sistemi di illuminazione automatizzati gestiti via console GrandMA (standard industriale).26
+* Rilevanza AI: L'illuminazione moderna è controllata digitalmente (protocollo DMX/ArtNet). Un sistema AI potrebbe controllare le luci in tempo reale basandosi sulla musica o sul movimento della folla, trasformando l'evento in un organismo reattivo.
+3.3 La Gestione Dati e Registrazione: Digivents
+Per la gestione dei partecipanti, Noloop utilizza piattaforme consolidate come Digivents.5
+* Funzionalità: Gestione inviti, check-in con QR code, app personalizzate per eventi, gestione rooming list per i viaggi incentive.
+* Gap Strategico: Attualmente, i dati raccolti (chi ha partecipato, a quali sessioni, feedback post-evento) sembrano risiedere in silos dentro la piattaforma terza. Non c'è evidenza di un Data Lake proprietario di Noloop che incroci questi dati con quelli logistici o di sostenibilità.
+________________
+4. Sostenibilità Data-Driven: Il Layer ESG
+In quanto Società Benefit certificata ISO 20121, la sostenibilità per Noloop è un processo ingegnerizzato, non solo narrativo.
+4.1 Partnership con Tecno ESG e KontrolON
+La collaborazione con Tecno ESG fornisce a Noloop l'accesso a strumenti di misurazione industriale.27
+* KontrolON: È la piattaforma software utilizzata per il monitoraggio. Nata per l'industria manifatturiera, utilizza sensori IoT per misurare consumi energetici e sprechi in tempo reale.28 L'applicazione di questo tool agli eventi (es. misurare i consumi elettrici di un palco in tempo reale) pone Noloop all'avanguardia rispetto a chi fa solo calcoli stimati ex-post.
+* Metodologia Carbon Footprint: Il calcolo segue gli standard ISO 14064 (Gas serra). Il processo è: Previsione -> Monitoraggio Live -> Calcolo Finale -> Compensazione tramite Crediti di Carbonio certificati (es. Rete Clima).10
+4.2 Relazione di Impatto e Obiettivi
+La produzione della Relazione di Impatto annuale richiede la raccolta di KPI precisi.
+* Opportunità AI: L'attuale processo è probabilmente semi-manuale (raccolta bollette, report fornitori). Un sistema AI addestrato sui dati storici di KontrolON potrebbe predire l'impronta carbonica di un evento in fase di brief, permettendo al produttore di scegliere fornitori o materiali meno impattanti prima di confermare l'ordine (Design-for-Sustainability).
+________________
+5. Analisi del Portafoglio Clienti e Case Studies
+L'analisi dei progetti realizzati dimostra la capacità di Noloop di gestire complessità elevate su scale diverse.
+5.1 Il Cliente "Hero": Campari Group
+La relazione con Campari è un benchmark della qualità Noloop.
+* Progetto "We are Cinema" (Cannes 2024): Noloop ha gestito la presenza del brand al Festival di Cannes. Questo non richiede solo logistica, ma la capacità di integrarsi nel glamour internazionale con standard estetici elevatissimi.5
+* "House of Campari": Vincitore al BEA (Best Event Awards).24 Questo evento dimostra la capacità di creare "Brand Homes" temporanee, spazi immersivi dove il brand viene vissuto fisicamente.
+5.2 Automotive e Grandi Numeri: Ferrari e Formula 1
+La gestione delle Fan Villages per la Formula 1 (GP Monza) e Formula E 29 evidenzia competenze diverse:
+* Gestione Flussi: Movimentazione di migliaia di persone in sicurezza.
+* Edutainment: Creazione di stand interattivi (simulatori, pit stop challenge).
+* Rilevanza AI: Qui l'AI per la Computer Vision (analisi folla, heatmaps, sicurezza) avrebbe un'applicazione immediata e ad alto valore aggiunto per il cliente organizzatore (F1/FIA).
+5.3 Utilities e Narrazione: A2A
+Per A2A (Life Company), Noloop ha creato uno show basato sulla luce (laser, proiezioni) per narrare la transizione energetica.10
+* Insight: Trasformare un tema astratto e tecnico (energia) in uno spettacolo emotivo richiede una forte direzione creativa supportata da tecnologia AV di punta (Novelty/STS).
+5.4 Incentive "Tailor-made"
+L'organizzazione di viaggi incentive per clienti come Merz Aesthetics (settore farmaceutico/estetico) 30 mostra la capacità di gestire la logistica fine (hotel, trasferimenti) combinata con attività di Team Building sociale (Charity Building).
+________________
+6. Competitive Landscape e Analisi Comparativa
+Noloop opera in un oceano rosso dominato da squali storici.
+6.1 Filmmaster Events (Il Gigante Tecnologico)
+* Posizionamento: Cerimonie Olimpiche, grandi show istituzionali.
+* AI Asset: Filmmaster dichiara esplicitamente l'uso di "FilMaster", una suite AI proprietaria per l'estrazione di metadati semantici, previsione dei ricavi e generazione automatizzata di filmati.31 Utilizzano modelli come YOLOv5 per il riconoscimento oggetti e tool di editing predittivo.
+* Gap Noloop: Noloop non ha una suite proprietaria con un nome brandizzato. Si affida alla tecnologia dei partner. Per competere nella percezione di "Tech Leader", Noloop deve sviluppare o brandizzare il proprio stack AI.
+6.2 Balich Wonder Studio (L'Emozione su Scala Globale)
+* Posizionamento: Cerimonie Olimpiche, Luxury. Recentemente acquisita/partecipata da Banijay.
+* Approccio Tech: Forte focus sul design cinetico e immersivo, ma con un approccio molto "artistico" e sartoriale. Collaborano con studi di architettura (Studio Apostoli) per creare spa ed esperienze permanenti.32
+* Differenziazione: Noloop è più agile e "business-oriented" per il mercato corporate italiano rispetto alla scala olimpica di Balich.
+6.3 Casta Diva Group (L'Aggregatore Quotato)
+* Strategia: M&A aggressivo (acquisto di Prodea).
+* Concetto: "Open Imagination" (OI).
+* Confronto: Noloop è rimasta indipendente (non quotata) e Società Benefit. Questo le dà un vantaggio etico e di agilità decisionale, ma meno potenza di fuoco finanziaria per acquisizioni.
+________________
+7. Progetto "Noloop Neural Core": Roadmap per l'Integrazione AI
+Sulla base dell'analisi effettuata, si propone allo Stratega Digitale una roadmap per trasformare Noloop da "utilizzatore di tecnologia" a "piattaforma intelligente". L'obiettivo è costruire il "Noloop Neural Core", un sistema centrale che aggrega i dati dei partner (STS, Tecno, Digivents) per generare valore proprietario.
+7.1 Modulo A: "The Dream Engine" (AI Generativa per la Pre-visualizzazione)
+* Problema: La fase di gara (pitch) è costosa. Creare render 3D e storyboard richiede settimane di lavoro di art director senior.
+* Soluzione: Implementare un'istanza locale di Stable Diffusion o Midjourney (via API enterprise per la privacy dati), addestrata (Fine-Tuning) specificamente sull'archivio storico di Noloop e sugli asset di STS (le specifiche dei LED wall).
+* Output: Il team creativo inserisce un prompt: "Cena di gala Ferrari, stile futurista, location industriale, palette rossa e argento". Il sistema genera 50 varianti di moodboard in 10 minuti, perfettamente allineate con le capacità tecniche degli studi CR49.
+* Vantaggio: Riduzione tempi di pitch del 70%. Aumento del "Win Rate" grazie a visualizzazioni iper-realistiche immediate.
+7.2 Modulo B: "Eco-Logic Predictor" (Sostenibilità Predittiva)
+* Problema: Il calcolo della Carbon Footprint avviene spesso a progetto definito, quando è troppo tardi per fare cambiamenti strutturali senza aumentare i costi.
+* Soluzione: Sviluppare un algoritmo di regressione basato sui dati storici di KontrolON.
+* Funzionamento: Durante il budgeting, il Producer inserisce i parametri (Location: Roma, Pax: 500, Durata: 8h, Setup: Heavy AV). L'AI stima immediatamente le emissioni CO2 previste e suggerisce alternative: "Se usi il catering locale invece di trasportarlo da Milano, risparmi 2 tonnellate di CO2 e 5.000€".
+* Valore: Noloop vende al cliente non solo l'evento, ma la "Garanzia di Sostenibilità by Design".
+7.3 Modulo C: "Live Sentiment Response" (L'Evento Reattivo)
+* Problema: L'evento è statico. Se il pubblico si annoia, la scaletta non cambia.
+* Soluzione: Integrare le telecamere di STS con software di Computer Vision (es. OpenCV o soluzioni commerciali privacy-compliant) per analizzare le micro-espressioni o la densità della folla in tempo reale.
+* Integrazione: Collegare questo dato ai media server Disguise. Se l'energia della sala cala, il sistema suggerisce (o attua in automatico) un cambiamento nell'illuminazione (via Novelty) o nel ritmo dei contenuti video sui LED wall.
+* Case Study Potenziale: F1 Fan Zone. Se una coda diventa troppo lunga e genera frustrazione, i display digitali indirizzano automaticamente le persone verso un'area meno affollata, offrendo un voucher digitale.
+7.4 Modulo D: "Anti-Loop CRM" (Hyper-Personalization dei Partecipanti)
+* Problema: I dati dei partecipanti muoiono dopo l'evento.
+* Soluzione: Creare un Data Lake che storicizza le preferenze dei partecipanti (anonimizzate) dagli eventi Digivents.
+* Utilizzo: Utilizzare LLM (Large Language Models) per analizzare i feedback testuali post-evento e identificare trend latenti che i sondaggi a crocette non rivelano. "I partecipanti del settore automotive si lamentano sistematicamente del caffè, ma lodano le esperienze VR". Questo diventa un insight strategico per il prossimo evento.
+________________
+8. Conclusioni Operative
+Noloop si trova in una posizione invidiabile: ha la solidità finanziaria (€54.5M), la credibilità tecnica (STS/Novelty) e la struttura etica (Società Benefit) per guidare il mercato. Tuttavia, il rischio è rimanere un eccellente esecutore "analogico" in un mondo che va verso la generazione sintetica di esperienze.
+La raccomandazione strategica è di non tentare di costruire software da zero (costoso e rischioso), ma di agire come Orchestratore di AI: collegare i punti tra i dati di sostenibilità, la potenza di calcolo di STS e la creatività umana del team. Implementando il "Noloop Neural Core", l'azienda potrà giustificare margini più alti non solo grazie alla "bellezza" dei suoi eventi, ma grazie all'intelligenza misurabile che essi generano.
+L'adozione di queste tecnologie non tradirà il mantra "We are Cinema"; al contrario, permetterà a Noloop di passare dal cinema "muto" (l'evento statico) al cinema "interattivo e generativo" del futuro.
+________________
+Documento redatto per: Digital Strategist / C-Level Executive
+Data: 14 Gennaio 2026
+Fonti: Analisi basata su snippet di ricerca.1
+Bibliografia
+1. Nasce Noloop, agenzia di eventi e comunicazione con 30 mln di giro d'affari, 40 aziende clienti e l'obiettivo di 50 mln di ricavi entro il 2025. Alla guida Paolo Donzelli - ADC Group, accesso eseguito il giorno gennaio 14, 2026, https://www.adcgroup.it/e20-express/news/industry/industry/nasce-noloop-mcm-comunicazione-lillabry.html
+2. Eventi e comunicazione: nasce l'agenzia NoLoop - GuidaViaggi, accesso eseguito il giorno gennaio 14, 2026, https://www.guidaviaggi.it/2023/01/24/eventi-comunicazione-nasce-noloop/
+3. Noloop - ADC Group, accesso eseguito il giorno gennaio 14, 2026, https://www.adcgroup.it/e20-express/event-marketing-directory/agenzie/noloop.html
+4. Nasce Noloop, agenzia di eventi e comunicazione con un giro d'affari di 30 milioni di euro, accesso eseguito il giorno gennaio 14, 2026, https://www.engage.it/agenzie/nasce-noloop-agenzia-di-eventi-e-comunicazione-con-un-giro-d-affari-di-30-milioni-di-euro-.aspx
+5. Event Marketing Book 2024 by ADC Group - Issuu, accesso eseguito il giorno gennaio 14, 2026, https://issuu.com/adc_emagazines/docs/emb2024
+6. noloop - Diamo voce alla meeting industry italiana - Federcongressi, accesso eseguito il giorno gennaio 14, 2026, https://www.federcongressi.it/it/i-nostri-soci/organizzazione-congressi-eventi-provider-ecm/noloop/
+7. Noloop, accesso eseguito il giorno gennaio 14, 2026, https://www.noloop.eu/
+8. NOLOOP S.R.L. | Aziende Easy, accesso eseguito il giorno gennaio 14, 2026, https://www.aziendeeasy.it/AZIENDASELEZIONATA1969496-NOLOOP%20S.R.L.
+9. NoLoop chiude il 2023 a 50 milioni di euro di fatturato con una crescita del 65% - Engage, accesso eseguito il giorno gennaio 14, 2026, https://www.engage.it/agenzie/noloop-chiude-il-2023-a-50-milioni-di-euro-di-fatturato-con-una-crescita-del-65.aspx
+10. NOLOOP - Milano - ADC Group, accesso eseguito il giorno gennaio 14, 2026, https://media-video.adcgroup.it/DEM/e20_117_NOV_GEN_2024.pdf
+11. Codice etico - Noloop, accesso eseguito il giorno gennaio 14, 2026, https://www.noloop.eu/codice-etico
+12. Ultime Associate | Assobenefit, accesso eseguito il giorno gennaio 14, 2026, https://assobenefit.org/associazione/le-nostre-associate/ultime-associate
+13. NOLOOP S.R.L., Partita IVA: 13459880152, Fatturato, Dipendenti, PEC - Ufficio Camerale, accesso eseguito il giorno gennaio 14, 2026, https://www.ufficiocamerale.it/6249/mcm-comunicazione-srl
+14. NOLOOP chiude l'esercizio 2024 con solidi risultati ed in crescita, confermando gli obiettivi prefissati - Media Key, accesso eseguito il giorno gennaio 14, 2026, https://mediakey.it/news/noloop-chiude-lesercizio-2024-con-solidi-risultati-ed-in-crescita-confermando-gli-obiettivi-prefissati/
+15. Gruppo NoLoop: nel 2023 fatturato di oltre 51 milioni ed Ebidta di quattro milioni in crescita del 30% | Dailyonline, accesso eseguito il giorno gennaio 14, 2026, https://dailyonline.it/gruppo-noloop-nel-2023-fatturato-di-oltre-51-milioni-ed-ebidta-di-quattro-milioni-in-crescita-del-30
+16. NC 111 Nov-Dic-Gen 2025 by ADC Group - Issuu, accesso eseguito il giorno gennaio 14, 2026, https://issuu.com/adc_emagazines/docs/nc_111_nov-dic-gen_2025
+17. Virtual Production - STS Communication, accesso eseguito il giorno gennaio 14, 2026, https://www.stscommunication.it/en/virtual-production/
+18. Brompton, Absen and STS Bring LED Processing for Virtual Production to Life, accesso eseguito il giorno gennaio 14, 2026, https://www.digitalmediaworld.tv/production/brompton-absen-and-sts-bring-led-processing-for-virtual-production-to-life
+19. STS Communication studios boast Brompton processing - TPi Magazine, accesso eseguito il giorno gennaio 14, 2026, https://www.tpimagazine.com/sts-communication-cr49-and-studio1d-with-brompton-technology/
+20. UE Project Setup - Disguise User Guide, accesso eseguito il giorno gennaio 14, 2026, https://help.disguise.one/workflows/renderstream/unreal-engine/ue-project-setup
+21. STS Communication srl | Disguise, accesso eseguito il giorno gennaio 14, 2026, https://www.disguise.one/en/about/partners/solutions/sts-communication-srl
+22. Gwilym-Huws, accesso eseguito il giorno gennaio 14, 2026, http://www.gwilymhuws.com/
+23. STS Communication elevates virtual production capabilities for its CR49 and Studio1D with Brompton Technology LED processing, accesso eseguito il giorno gennaio 14, 2026, https://www.bromptontech.com/news/sts-communication-elevates-virtual-production-capabilities-for-its-cr49-and-studio1d-with-brompton-technology-led-processing/
+24. Bea Italia Festival 2024: guarda il programma dei contenuti. Acquista il pass e partecipa alla 21esima edizione della kermesse targata ADC Group - Best Event Awards, accesso eseguito il giorno gennaio 14, 2026, https://besteventawards.it/bea-italia-festival-2024-guarda-il-programma-dei-contenuti-acquista-il-pass-e-partecipa-alla-21esima-edizione-della-kermesse-targata-adc-group/
+25. Event production & audiovisual services for events - Novelty, accesso eseguito il giorno gennaio 14, 2026, https://novelty-international.com/en/
+26. Sound equipment rental for events - Novelty, accesso eseguito il giorno gennaio 14, 2026, https://novelty-international.com/en/sound-equipment-rental
+27. NOLOOP: UNA GIORNATA SPECIALE PER UN MONDO PIÙ ..., accesso eseguito il giorno gennaio 14, 2026, https://mediakey.it/news/noloop-una-giornata-speciale-per-un-mondo-piu-pulito/
+28. Consulenza sostenibilità aziendale - Tecno Group, accesso eseguito il giorno gennaio 14, 2026, https://www.tecno-group.eu/en/
+29. Annual degli Eventi 2024 by ADC Group - Issuu, accesso eseguito il giorno gennaio 14, 2026, https://issuu.com/adc_emagazines/docs/annual_eventi_2024_issuu
+30. Chairity Building: Team Building Innovativo che Unisce Solidarietà e Collaborazione | Teambuildingmilano.it, accesso eseguito il giorno gennaio 14, 2026, https://www.teambuildingmilano.it/team-building/team_building_sociali_e_sostenibili/chairity_building/chairity-building-per-merzaesthetics-noloop.html
+31. FilMaster: AI Film Production Suite - Emergent Mind, accesso eseguito il giorno gennaio 14, 2026, https://www.emergentmind.com/topics/filmaster
+32. Studio Apostoli and Balich Wonder Studio collaborate to create immersive Arché Water Path Luxury Experience | Architecture and design news | CLADglobal.com, accesso eseguito il giorno gennaio 14, 2026, https://www.cladglobal.com/news.cfm?codeID=360645
+33. Mocap | 60212: Interactivity & Computation, accesso eseguito il giorno gennaio 14, 2026, https://ems.andrew.cmu.edu/2016-60212/category/mocap/index.html

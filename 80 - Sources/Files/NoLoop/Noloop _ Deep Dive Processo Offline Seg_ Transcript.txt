@@ -1,0 +1,389 @@
+Noloop | Deep Dive Processo Offline Segreterie
+Wed, Sep 10, 2025
+
+0:01 - Carlo Sanvoisin
+interessante di tutto il reparto di sviluppo e che ci aiuterà a diciamo trasformare I nostri sogni in cose prima fattibili e poi da cose fattibili a cose reali.
+
+0:14 - Lorena Cavecchi
+Buon pomeriggio a tutti!
+
+0:16 - Unidentified Speaker
+Piacere!
+
+0:16 - Unidentified Speaker
+Piacere!
+
+0:17 - Unidentified Speaker
+Ciao!
+
+0:17 - Carlo Sanvoisin
+Allora, Federico, immagino che in arrivo ha crashato Teams, fantastico! Va bene, questi sono I classici problemi di Microsoft. Allora, io direi, siccome comunque abbiamo Simone, possiamo cominciare. L'obiettivo di oggi, siccome il caso d'uso che voi avete presentato, in particolare sul processo offline delle segreterie, è uno dei più concreti fino a oggi che sono stati presentati, che segue comunque un flusso e che ad oggi è decisamente poco strutturato, molto complesso, prevede una serie di passaggi manuali, ci sono diversi livelli in cui si possono creare degli errori umani, probabilmente sarà uno dei casi che verrà priorizzato, quindi abbiamo un po' anticipato l'analisi ed eccoci qui che oggi vogliamo ripercorrere un po' con voi quella che è la vostra richiesta e Simone e Federico ci spiegheranno quelli che sono stati.
+
+1:12 - Unidentified Speaker
+Ecco Federico.
+
+1:13 - Carlo Sanvoisin
+Ciao Federico, stavo facendo una piccola introduzione e ero arrivato appunto a dire che oggi tu e Simone farete un po' un recap eh degli step di questo processo andando a raccontare a Lorena e oggi abbiamo insieme a Lorena Arianna e quelli che saranno essenzialmente mh I miglioramenti dal punto di vista digitale e anche quei punti in cui eventualmente si potrebbe inserire una parte di gestione tramite intelligenza artificiale. Fatto questo approfondimento diciamo sfrutteremo la sessione di oggi anche per entrare nel dettaglio di alcuni passaggi eh permetteremo appunto a Simone e Federico di farvi delle domande magari su delle parti dove sono in dubbio, mostrarci alcune cose che fate voi oggi così vediamo esattamente come le fate e poi diciamo al termine di questa call sicuramente avremo un'idea più chiara e potremo portare avanti questo caso d'uso ed eventualmente anche appunto proporre una vera e propria soluzione dal punto di vista funzionale e tecnico ed eventualmente una quotation che, se accettata, prevederà essenzialmente l'inizio di questo progetto. Quindi fatemi sapere se avete domande su quello che ho detto, altrimenti partiamo.
+
+2:28 - Lorena Cavecchi
+No, nessuna domanda. Questa parte qui no, l'unica cosa Carlo che ti chiedo, rispetto a quello che abbiamo parlato la scorsa volta, I famosi due agenti per fare il confronto del checklist, ma sono di CACPT, cioè quali sono? È te lo dico onestamente, io devo capire a livello di GDPR se sono provider che hanno sicurezza.
+
+2:58 - Carlo Sanvoisin
+Lascerò rispondere Simone e Federico, però di base l'approccio è utilizzare un modello con il quale poi noi dialoghiamo tramite una nostra interfaccia e verosimilmente il modello sarà quello di OpenAI. Detto questo, chiaramente prima passare ad avvenire quella che sarà l'architettura tecnica, facciamo delle valutazioni.
+
+3:23 - Lorena Cavecchi
+Non serve solo sapere quanto sono per un tema di GDPR, perché il trattamento dei dati è un tema molto molto delicato.
+
+3:35 - Federico Saladino
+Assolutamente, comunque la risposta è allora intanto per il discorso di confronto non è assolutamente detto che entri per forza in gioco l'utilizzo di un modello. In molti casi magari questa cosa non dovrà proprio avvenire tramite l'utilizzo di agent, ma piuttosto tramite semplici algoritmi. Tutto il discorso di right to be forgotten verrà in ogni caso gestito dal momento in cui noi stiamo lavorando con dei dati personali, dati raccolti delle persone, quindi in particolare oltre alle regole del GDPR c'è anche il famoso right to be forgotten con l'eventuale cancellazione dei dati entro dieci anni se l'utente smette di utilizzare I servizi di terze parti, la gestione dei cookie e ovviamente anche nei momenti in cui l'utente va a inserire I propri dati, il fatto che l'utente consenta all'utrattamento dei propri dati personali. Queste sono tutte cose standard che noi andiamo a gestire. Nei momenti in cui poi noi andiamo a utilizzare un agente e magari questo gente con cui andiamo a conversare. Attenzione, non è detto che si va a utilizzare sempre I modelli di OpenAI. Quando noi parliamo di conversazione con un LLM possiamo offrire soluzioni che vanno da quelle paper use magari di aziende come anche OpenAI, piuttosto che anche soluzioni locali. Abbiamo la possibilità di rannare modelli localmente, quindi addirittura che noi quindi non condividendo informazioni al di fuori proprio della nostra azienda di gestione di gestione software. Insomma è chiaro comunque che nel momento in cui diciamo per esempio, qualche step avanti nelle varie soluzioni magari del dialoghi che avete avuto, l'utente deve effettuare una conversazione con un agente per chiedere informazioni su voli, spostamenti dell'evento, camere, numeri, alberghi, location e quant'altro. In questo caso noi dobbiamo ovviamente dare un contesto delle informazioni personali dell'utente al modello, per fare in modo che il modello possa rispondere in maniera naturale, con linguaggio naturale. In questo caso qui, sempre come stavo dicendo, l'utente avrà già a questo punto accettato il fatto di darci la possibilità di condividere le sue informazioni e gestire I suoi cookie. Tutto quanto quindi sarà una cosa che viene gestita poi anche a livello legal nel modo giusto.
+
+6:11 - Simone Montanari
+Per riassumere siamo in grado sia di gestirlo nel modo 100% compliant sia di fornirvi più opzioni per cui se avete voi dei vincoli per cui I server devono essere una determinata nazione o addirittura I server devono essere in locale noi possiamo studiare la soluzione in modo da poter costruire attorno a questo e anche in futuro nel senso che perché cambiare il modello col fatto che tutta la logica è gestita da noi e non lavoriamo con un agent di terze parti, non significa riscrivere tutto il codice, significa spendere qualche giorno di sviluppo per modificare I preprompt e agganciarci effettivamente al modello nuovo.
+
+6:54 - Lorena Cavecchi
+Quindi in sostanza non girerebbero, c'è il famoso confronto girerebbe in locale o comunque sul server? Cioè non viene utilizzata l'intelligenza artificiale per intenderci? Ho capito bene?
+
+7:08 - Simone Montanari
+Per il confronto delle liste l'obiettivo è riuscire a farlo totalmente algoritmicamente, chiaramente con asterisco, perché in fase di sviluppo se vediamo che un determinato confronto, uno specifico che magari non coinvolge un dato sensibile o magari coinvolge solo uno, dei 50 dati anagrafici magari dell'utente, non è incrociabile in modo totalmente algoritmico, possiamo pensare di delegare un agent, un modello LLM solo per quella verifica, ma il nostro obiettivo per fornirvi una soluzione molto più veloce, molto più efficiente, molto più economica, è quella di sfruttare la classica comparison che si usa all'interno dei database aziendali per incrociare il controllo versioni, per gestire le modifiche di più utenti e questo ci permette di essere molto più robusti.
+
+8:01 - Lorena Cavecchi
+Invece Federico tu parlavi di un'interfaccia con un agente che ti dice ciao e scusami mi dici io a che ora parto e dove dormo e lui ti dice ciao Federico tu dormirai qui all'hotel meridienne e avrai il volo che parte alle 5 da Malpensa. In questo caso, per esempio, ci sono molti trucchi.
+
+8:28 - Federico Saladino
+Non sono trucchi, sono strategie che si vanno a utilizzare proprio per evitare questa cosa. Diciamo che, Lorena, tu mi scrivi e io devo risponderti col modello. Io posso anche non dire al modello che ti chiami Lorena. Io gli dico rispondi ogni volta che vuoi utilizzare il nome dell'utente, scrivimi, non so, aperte quadre, nome, chiuse quadre. Questo poi viene sostituito algoritmicamente quando il messaggio riscritto ci viene ritornato e noi algoritmicamente sostituiamo quella stringa con il nome dell'utente. In questo modo non abbiamo condiviso informazioni personali, no? Per esempio, mentre magari se il modello deve fare ragionamenti che riguardano dati non sensibili, quindi in questo caso la città di partenza per andare un evento che non è per forza la città in cui vivi. Magari uno abita nei confini, nelle città di fianco a Roma e partirà da Roma. E' una informazione così. Quella, adesso per fare un esempio, si può condividere tranquillamente con il modello e appunto lì possiamo progenare.
+
+9:36 - Lorena Cavecchi
+Però in ogni caso puoi averla gestito nella maniera più specifica possibile. Nel mentre che vede che tu sei Federico e stai chiedendo da dove parti, magari si accorge anche che tu non hai ancora dato I documenti per la carta di imbarco e quindi I tuoi documenti d'identità. Magari puoi anche dire, grazie, tu parti a quest'ora, ricordati però che mi devi dare I dati del tuo...
+
+10:00 - Federico Saladino
+e scrivi, ah! Sì, diciamo che ne parleremo poi magari alla fine, perché adesso magari andiamo... Sì, infatti, è che mi hai aperto... È molto comodo, però ti dico, questo non sarà semplice, nel senso, agenti di questo tipo diventano belli complessi, nel senso, perché per poi renderli davvero così dinamici, davvero per dare anche l'impressione all'utente che non sta chattando col chatbot di poste italiane per intenderci adesso, per citare un qualcosa che è sì futuristico ma la gente anzi si arrabbia ancora di più perché dice c'è sto parlando con una macchina non capisce niente e gli viene ancora più il nervoso.
+
+10:39 - Lorena Cavecchi
+Quando si vogliono fare questo tipo Vodafone, ricordo come si chiama lui, che odio proprio in una maniera alucinante, ecco questo io vorrei, questo non mi piace.
+
+10:49 - Federico Saladino
+L'obiettivo qui è proprio fare in modo che la gente diventi così competente, al punto tale da fare in modo che si batte il famoso test di turing che si chiama, cioè che la persona non si rende conto che sta parlando con una macchina dall'altro lato, quindi con un linguaggio così.
+
+11:09 - Lorena Cavecchi
+Quindi nella prossima call, giusto?
+
+11:11 - Federico Saladino
+No, ne parleremo già in questa, però intanto io volevo iniziare con il famoso discorso di confronto liste. Partiamo un attimo da questa cosa. Allora, mi è stato detto in sostanza che voi al momento state gestendo di fatto queste liste all'interno di Excel. La mia proposta invece, la nostra proposta in particolare, è quella di andare invece a gestirla più su sempre base dati. Questo perché? Per permettere, per esempio, appunto in futuro anche a un agente di risponderti, accedere a tutte le informazioni in linguaggio naturale e dirti, ah ma tu, ciao Federico, certo allora ti viene a prendere un transfer al via, che è quella che hai indicato, ti porterà all'aeroporto dove dovrai imbarcare il volo per Milano. Ecco il tuo boarding ticket magari anche se ce l'ha, per esempio, in futuro. Addirittura se potrebbero farmi cose di questo tipo. Per fare queste cose però ne abbiamo bisogno di accesso ai dati, perché dobbiamo condividere, dobbiamo conversare con la gente e la gente deve poterci chiedere dati, informazioni e dobbiamo poterle scambiare e rielaborare tutto quanto. Queste sono cose che con un Excel in sostanza non si possono fare, cioè noi non possiamo, diciamo, lato server nostro, accedere a un Excel condiviso per leggere delle informazioni e operare. Dobbiamo lavorare con base dati, quindi proprio con database. Quindi, qual è il discorso? Mentre Carlo ci spiegava un pochino I due tipi di eventi che andate a gestire, che sono I famosi, quelli che avete chiamato, diciamo, più grandi e quelli che hai chiamato offline più piccoli, l'approccio che noi andremo a utilizzare, in verità, potrebbe essere un approccio simile a quello degli eventi grandi. Mi spiego meglio. Attualmente ci è stato detto che voi andate a raccogliere I dati dei partecipanti, magari utilizzando dei Google Forums o dei Microsoft Forums, corretto?
+
+13:05 - Federico Saladino
+Sì, per gli eventi piccoli, quelli che chiamiamo offline.
+
+13:09 - Federico Saladino
+Perfetto, allora in questo caso noi quello che andremo a fare è di crearvi di fatto un form per custom di NoLoop, quindi anche bello graficamente con NoLoop, benvenuto all'evento, inserisci I dati per iscriverti. Di fatto l'interazione utente è la stessa identica di Google Form, con il vantaggio ovviamente che tutto quanto è utilizzato. I dati non vengono raccolti su un Excel di Microsoft Forms, ma vengono già raccolti e storati nel nostro database. Lorena, che cosa si troverà a questo punto? Avrà una sua interfaccia dashboard. Lorena, il processo parte così. Lorena deve iniziare a organizzare un evento, si apre la sua dashboard dove troverà tutta la lista di eventi attivi, fa crea nuovo evento, nome. Qual è il nome dell'evento? Bene, quali informazioni ci quando I partecipanti ci serve nome, cognome, città di provenienza, azienda, data di nascita, sesso e quant'altro che possa essere informazionale. Tempo tra cui ruolo aziendale, eccetera, eccetera. Adesso ci arriviamo. A quel punto si fa, crea evento, viene generato un link e questo link, esattamente come nel forum, può essere poi mandato ai partecipanti per iscriversi all'evento. I partecipanti quando clicca sul link si troverà di fatto davanti un form brandizzato che gli consentirà di inserire I dati che abbiamo richiesto per partecipare e iscriversi a quest'evento specifico. Lo può fare la segretaria, lo può fare direttamente la persona interessata eccetera eccetera. Alla fine del coso gli arriverà una mail con la conferma benissimo sei stato iscritto, riceverai le prossime informazioni. A questo punto sempre quindi a questo punto dopo che abbiamo creato l'evento, avremo la lista di eventi. Cliccando sull'evento appena creato, inizieremo a vedere la lista di partecipanti che si popola. Con le informazioni relative ad ogni partecipante, quindi. Se, come come mi ci diceva Carlo, l'eventualità è quello che fa, che causa adesso questa problematica nel confronto Excel, ci fosse un late participant che aveva giunto più tardi, sarà sufficiente o aggiungerlo manualmente, perché a questo punto tu avrai la possibilità assoluta di aggiungere, eliminare, modificare gli utenti che si sono iscritti, I partecipanti, in questo caso. Vogliamo aggiungere altre persone? Possiamo rimandare il link a queste persone e queste persone possono ricompilare il forum e iscriversi. Questo link ovviamente può avere una data di scadenza, quindi dopo che ti scegli dopo una certa ora non ti iscrivi più, fine dei giochi. Può essere riattivato o può essere anche, non so, specifico, per esempio, per un'azienda. Noi possiamo creare il link per Ferrari e il link per Maserati, e sono due link separati, per esempio. Sono tutte funzionalità che poi ci consentono.
+
+16:12 - Lorena Cavecchi
+Adesso, non so se hai qualche domanda su quello che ho detto, più o meno, adesso.
+
+16:19 - Carlo Sanvoisin
+Non ti abbiamo sentito, Lorena.
+
+16:22 - Lorena Cavecchi
+Tutto chiaro per il momento.
+
+16:26 - Federico Saladino
+Mi immagino in sostanza che comunque adesso quando andate a raccogliere con I form alla fine poi vi scaricate l'excel generato su Office 365.
+
+16:42 - Lorena Cavecchi
+E poi lo lavoriamo con le informazioni che abbiamo ricevuto eccetera eccetera. Quindi il risultato sarebbe lo stesso, giusto?
+
+16:55 - Federico Saladino
+Il risultato sarebbe lo stesso, nel senso che noi stiamo progettando una soluzione end-to-end che ti permette di partire dall'organizzazione alla raccolta dei partecipanti, all'edit e da fare per fare voli, fare camere eccetera eccetera ed infine poi all'invio delle informazioni all'utente con il brochure mail mailing list. Tutto quello che sta dietro del mondo di comunicazione whatsapp che è ancora più veloce adesso delle mail soprattutto probabilmente per partecipazione a eventi con eventualmente il famoso chatbot di cui parlavamo prima non sarà nemmeno magari una pagina dedicata per l'utente, ma sarà proprio l'utente che può scrivere su WhatsApp a Nodup e Nodup risponde così, magicamente risponde dicendo, ciao Federico, sì allora per il tuo evento, oppure addirittura magari Federico ha due partecipazioni, ti chiede, ma di quale evento stai parlando? Eh, l'evento che dovrebbe esserci a Milano. Ah, ok, certo, allora per questo evento è già stato pronotato e ti risponde, insomma, a queste domande. Il senso appunto di fare questa cosa, in particolare per quanto mi riguarda, è la fase di grouping, che è quella successiva. Cioè abbiamo raccolto I partecipanti, abbiamo la lista di tutti I partecipanti, dobbiamo organizzare l'evento, dobbiamo prenotare gli alberghi eccetera eccetera. Allora a questo punto cui noi quello che abbiamo studiato è una soluzione di grouping Questa soluzione di grouping funzionerà con filtri, ovvero tutti gli utenti, tutti I nostri partecipanti provenienti dall'azienda ITS di Roma dovranno prendere questo volo e pernotteranno in questo albergo. Si crea il filtro, si chiama il filtro nome filtro, chiamiamo filtro azienda X. Scusami, ti interrompo un secondo.
+
+19:14 - Lorena Cavecchi
+Nell'eventualità, nel form che noi creiamo, siamo anche in grado di poter generare dei menu a tendina? Ti spiego perché conoscendo un po' il genere di persone che magari tu lavori all'agenzia agenzia 5 di Roma Piazza Fontana. Magari Simone lavora con te ma scrive solo agenzia Piazza Fontana quindi poi diventa un problema filtrarlo. Quindi questi dati qua però poi noi li possiamo comunque importare da un Excel o li dobbiamo scrivere a manina?
+
+19:59 - Federico Saladino
+Per creare il form, tu dici per creare quindi l'informe di evento. Quando possiamo ragionarci? Non ci abbiamo ancora ragionato. Tendenzialmente, se come su, immagino che vi aspettate, come per Google Form, la possibilità, Google Form e Microsoft Form, la possibilità di, quando si crea un nuovo form, importare un form esistente, per esempio vecchio, così non bisogna riscriverlo.
+
+20:24 - Simone Montanari
+E anche, che era anche la seconda metà della domanda, poter avere un modo intelligente di impostare le validazioni. Perché la cosa più importante effettivamente quando si fa una cosa di questo tipo è validare ogni dato inserito. Tipo, I maggiori aeroporti italiani poter mettere una lista di aeroporti e fare in modo che le persone, se il volo è a carico loro, non scelgano un posto a caso, ma mettano un aeroporto che è legittimo e da un menù a tesina di aeroporti.
+
+20:51 - Lorena Cavecchi
+Esatto, che magari il cliente ha messo a disposizione per quella persona. Magari tu vivi a Napoli, ma io il volo da Napoli non ce l'ho perché è un charter, quindi devi partire da Roma, quindi io posso farti vedere se tu mi scrivi Napoli, io non ti farò mai il Napoli-Vienna, invento, adesso sto dicendo cosa a caso, ma sarà Roma-Vienna.
+
+21:12 - Simone Montanari
+Diciamo che per comodità, una cosa molto comoda potrebbe essere quella di avere la possibilità di inserire, quando si crea un menu a tendina, scelta singola o scelta multipla, la possibilità di scegliere intanto che tipo di numero, di valore è. Se è un numero, se è un testo, se è una data e di conseguenza come si costruisce un form tradizionale, avere la possibilità di avere un builder abbastanza intelligente. La seconda opzione che tra l'altro manca a molti builder è quella di poter selezionare magari 100 colonne all'interno di un foglio Excel, Ctrl C o Command C, si va nella tab all'interno del form builder dove noi effettivamente stiamo popolando tutte le opzioni, incolliamo la parte, la porzione della tabella dal foglio Excel e lui automaticamente inserisce tutte e cento le opzioni validate, che è l'equivalente ancora più comodo di portarle in serie.
+
+22:10 - Lorena Cavecchi
+Ah, perfetto, quindi da quello uscirebbe la tendina, giusto?
+
+22:14 - Federico Saladino
+Ho capito bene? Esatto.
+
+22:16 - Lorena Cavecchi
+Che poi magari si popola man mano che tu scrivi anche, perché se sono cento campi immagino che diventi poi a scorrere lì, tipo un suicidio.
+
+22:28 - Federico Saladino
+Menù a tendina anche con scrittura, ti dò un'informazione aggiuntiva.
+
+22:33 - Lorena Cavecchi
+Man mano che scrivi ti viene fuori l'articolo, esatto.
+
+22:38 - Federico Saladino
+Noi informatici web, soprattutto di interfacce, quando parliamo di form, stiamo già parlando di qualsiasi tipo di campo per la raccolta dati, quindi sono testi semplici, quindi quelli che chiamiamo free text, puoi scrivere quello che vuoi. Date picker sono quelli per scegliere le date, menu a tendina che si chiamano drop down, ratio button permettono di scegliere tra più opzioni, check box eccetera. Tutte queste qua saranno funzionalità integrate, cioè perché diciamo per esempio che, faccio un esempio addirittura, mi spingo oltre una volta che questo build era in piedi. Bisogna scegliere, mi immagino per un evento, al giorno d'oggi purtroppo, magari qualcuno è vegetariano, qualcuno è vegano, qualcuno è celiaco, qualcuno è lactose intolerante, eccetera, eccetera.
+
+23:27 - Lorena Cavecchi
+Però guarda, ce ne sono migliaia! In questo nuovo mondo woke.
+
+23:31 - Federico Saladino
+Comunque, allora, no, diciamo che in questo caso, Peter, per esempio, questa è una soluzione, di solito, che si tratta con le checkbox, cioè che cosa non puoi, non so, cosa non puoi mangiare, sarà scritto magari con un italiano o meno da cavernicolo, no? Quali di questi non puoi mangiare, ho eventuali allergie, noccioline, latticini, eccetera, eccetera. Tu puoi selezionarne anche più di una, oppure semplicemente un esempio di caffè.
+
+24:03 - Lorena Cavecchi
+Oppure un campo libero e uno scrive perché poi... No, te lo dico perché poi ci sono I vegani che sono celiaci, che però mangiano le uova, oppure ci sono I vegetariani che però mangiano il pesce ma sono allergici al lattosio. No, guarda, io li odio.
+
+24:26 - Federico Saladino
+Allora, noi li andremo a semplificare l'operazione il più possibile, cioè nel senso che tutto quello che può non essere free text, a parte nome e cognome, perché ognuno è libero di essere stato chiamato dai propri genitori in qualsiasi modo, ma per il resto noi andremo quasi sempre a fare in modo che le scelte dell'utente siano forzate, a salvo certi casi. Per esempio, questo è un ottimo esempio delle allergie o delle preferenze. Celiaco vegano, non lo so, si chiamano pescatariano, adesso ci sono anche quelle cose lì, quale li puoi selezionare?
+
+25:10 - Lorena Cavecchi
+No, glutine che è diverso dal celiaco.
+
+25:14 - Federico Saladino
+o intollerante o proprio allergico. So solo addirittura che sugli aeroplani, per esempio, è vietato servire noccioline se c'è qualcuno a bordo che ha l'allergia alle noccioline, per intenderci. È una cosa che per I compagni aerei. Però comunque queste sono informazioni che noi raccogliamo. Dopodiché, se proprio dobbiamo, e ci mettiamo anche sotto, vuoi aggiungere informazioni aggiuntive, hai selezionato già il mondo terrestre, se puoi proprio uno, uno scassamaroni, passate il termine, scriverà anche sotto che mangia le uova anche se è vegano.
+
+25:50 - Lorena Cavecchi
+Magari sono allergico alla polvere, datemi una camera senza moquette.
+
+25:55 - Simone Montanari
+No, questa è la voce dell'istorienza.
+
+25:57 - Lorena Cavecchi
+No, io questo vi dico perché c'è successo. Purtroppo queste sono le casistiche che esistono nel mondo degli eventi. Poi vi evitiamo di dirvi le robe stupide che ci scrivono tipo sono allergico a mia moglie che per fare la battuta che in quel momento a noi disturba perché te ne trovi te ne trovi una in più che ti devi che poi devi cancellarti ecco però si capitato già sono allergico alla polvere camera senza moquette diciamo che in base alla quantità di informazioni da gestire e col fatto che tanto la soluzione la stiamo costruendo ad hoc anche con il seno di voi Io rido e scherzo su questa cosa, però effettivamente creiamo una base che a bottone di scelta sicuramente è molto più semplice, perché poi la raccogli uguale per tutti. C'è il tema di chi scrive una roba diversa e anche lì viene recepita in maniera diversa. Invece tutto uguale, tu lo sai, poi ti arriva un conto, li conti è facile, anche perché tendenzialmente noi ai catering non trasmettiamo mai cognome e nome perché c'è un tema di privacy, diciamo solamente la quantità e poi al momento della cena gli diciamo se ha un talloncino di questo colore sappi che devi servirgli il piatto vegetariano, proprio per evitare il più possibile di trasmettere dati sensibili perché altrimenti noi dovremmo far firmare a tutti forse sempre di più tema legati anche alla cancellazione dei dati, non è solo la trasmissione del dato di per sé, ma poi è tutta la cancellazione che c'è dietro, perché noi abbiamo degli obblighi sotto questo punto di vista con dei clienti importanti.
+
+27:56 - Simone Montanari
+Diciamo che se noi vediamo che tabellarizzare, categorizzare tutta questa parte molto più più sensibile, chiede tanto tempo e diventa molto dispendioso, abbiamo due strade. La prima è quella di tornare al campo libero e lasciare al catering l'interpretazione di questo dato. Se neanche questo è una cosa possibile, ci aumenta leggermente il costo di gestione del sistema, ma possiamo passare le richieste a campo libero tranquillamente in un LLM con il compito unico e solo di andare a spuntare le caselline degli allergeni messe giù a norma sanitaria e politico-sociale, per cui tutta la lista di allergeni ufficiali che esistono, più tutte le possibili diete comuni e non comuni.
+
+28:49 - Lorena Cavecchi
+Io farei esattamente una cosa dove possono digitarla oppure sceglierla tra I vari campi e mi fermerei lì. Se dovesse venire fuori l'allergia nuova della moda del momento e ne esce una nuova, allora magari la andiamo ad aggiungere. Partiamo dalle classiche, perché questo è quello che tendenzialmente cerchiamo di fare anche noi, ma più che altro perché veramente poi si rischia su 100 persone di fare 99 menu diversi, è impensabile anche nella gestione di un evento. Quindi partiamo da una standardizzazione queste informazioni. Poi è molto più facile che se uno rischia di morire, se mangia una cosa, ti chiama o te lo dice o te lo fa in modo di scrivertelo in qualsiasi maniera. Quindi io vivo su questa, cioè vivo su questa esperienza, quindi facciamo una cosa più semplice e più standard in maniera tale che sia anche più facile per l'utente nella compilazione. Io il campo libero se riusciamo ad evitarlo per questa tipologia va benissimo, ripeto, se uno rischia di morire trova il modo per scrivercelo. Tanto noi avremo una mail con cui comunicare e per cui riusciamo assolutamente a gestirla questa cosa, ma andrei sulle cose più semplici e standardizzate.
+
+30:19 - Simone Montanari
+Anche perché, ripeto, possiamo benissimo partire semplici e poi se vediamo che la maggior parte delle criticità convergono in un punto, quel punto lo facciamo dopo.
+
+30:31 - Federico Saladino
+Esatto, esatto.
+
+30:31 - Federico Saladino
+Ti volevo solo aggiungere un punto qua nel senso, al di là di poi come l'utente vedrà la sezione di raccolta dati, ci sarà anche la tua interfaccia dove vai a creare per quell'evento I campi che vuoi richiedere all'utente, no? E questo è quello che è importante capire. Che mi dicevi prima, c'è da compilare? Allora, magari la prima volta sì, o comunque lo faremo in modo tale che sia il più facile proprio possibile, perché sarà un'interfaccia, non so, addirittura drag and drop, quindi proprio ti prendi, qua voglio il nome, qua voglio il cognome, qui voglio la data di nascita, qui voglio il sesso, qui voglio gli allergeni, qui voglio questo, bam, finito. Dopodiché, che la prossima volta devi riorganizzare un evento, tu ti puoi salvare quel form di raccolta dati. Lo salvi come, non so, evento generico, evento con boli e cena, ad esempio. E la prossima volta che devi creare un nuovo evento, quando si tratta di andare a creare il form per quell'evento specifico, te ti importa del form che ti eri già creato l'altra volta, senza riscriverlo di nuovo tutte le volte, chiaramente, no? O con le classiche funzioni tipo anche clonaevento, cioè tu hai fatto un evento l'anno scorso, lo devi fare praticamente uguale, fai clonaevento, no? Ti clona tutto quello che è la struttura di impostazione dell'evento, tranne ovviamente I partecipanti. Dopodiché I dati verranno raccolti, come sempre, dal forum che arriva tramite link agli utenti, tu hai già fatto tutto, senza dover rimpostare niente Ti dico un'altra cosa, se non piacciono a te, se non piacciono a noi persone in generale, non ci piace molto il fatto che uno scriva Milano con il cast block e Milano tutto minuscolo o Milano con la M maiuscola, eccetera, eccetera, ti dico piaccia ancora meno ai computer, perché I computer vogliono proprio che quando si vanno a paragonare due cose I valori siano esattamente uguali. Per questo è che dicevamo, noi cercheremo di rimuovere il testo libero ovunque riusciamo, lasciandolo in modo comunque semplice, proprio perché vogliamo poi poter utilizzare questi dati come strutture standard, standardizzate, sempre uguali. Nel momento in cui il mio applicativo, dopo per esempio, ti deve creare il gruppo camere senza moquette, adesso faccio una stupidaggine per dire, tu quando crei questo filtro potrai selezionare semplicemente, crei il nome del gruppo, camere senza lo chiamino. Che cosa devo filtrare in questo gruppo? Metti persone che hanno espresso l'energia alla polvere. Fine. Che qualsiasi persona ha messo l'energia alla polvere, viene scritta solo. Ovviamente ti ho fatto l'esempio delle rocchette per fare una battuta, no? Però questo è per dire che se anche tu devi creare poi il gruppo a cui assegnerai l'hotel Perle d'Acqua, va bene? Che viene assegnato solamente ai dirigenti e non invece magari il resto delle persone, di una specifica azienda, tu puoi creare il filtro per hotel per le d'acqua, lo chiami e gli metti chi ci va dentro, l'azienda Maserati, ruolo, sono dirigenti, eccetera eccetera. Fine, ti ha già creato il gruppo.
+
+33:56 - Lorena Cavecchi
+Divisione delle stanze, per esempio, non so se magari vi capita di fare eventi dove ognuno ha sempre una singola stanza o a volte fanno dormire assieme, magari c'è un discorso di accompagnatore, No, no, assolutamente o con l'accompagnatore o addirittura due persone che sono invitate che possono decidere, possono scegliersi per dormire in camera insieme perché magari ci sono le camere twin e quindi sì sì ci succede sovente in entrambe le situazioni, non sono mai tutti in singola o portano un accompagnatore che può essere in esterno all'azienda, quindi o la moglie o qualsiasi altra persona comunque esterna all'azienda, oppure, ipotesi due, due colleghi che partecipano, che hanno ricevuto il loro invito singolo, che possono scegliersi tra di loro per dormire poi in camera insieme.
+
+34:57 - Federico Saladino
+Confermo. Questo era il punto. Mi rendo conto che forse però è più simpatico capire cosa raggruppamento. Però io mi immagino che in questo momento la vostra difficoltà sia proprio, nei momenti in cui poi siano questi Excel giganti, dove uno ha scritto il nome della compagnia per esteso, uno non ha messo le sigle, ha scritto PwC, l'altro invece ha scritto il nome esteso dell'azienda, eccetera. Andare poi a fare questi gruppi per voi deve essere una lavorata che non immagino. Nel senso, anche perché poi in base all'ordine cronologico con cui una persona ha inserito I dati, Microsoft Form ti spara fuori in Excel. Quindi a mano c'è da copiarsi le righe di Excel e collare sull'altro Excel eccetera. Tendenzialmente questa cosa non si farà più perché nei momenti in cui tu stai lavorando con il nostro dashboard, tu ti trovi già tutti gli sono stati già standardizzati dal nostro forum, quindi per la raccolta dati. Non ci saranno paragoni da fare. Sarà possibile aggiungere e togliere manualmente, così come generare altri link di invito, se dobbiamo farlo, eccetera, eccetera. E mi immagino poi appunto questa sezione è dedicata alla creazione di gruppi. Il mio obiettivo finale comunque è quello poi di farti avere una vista che ti consenta facilmente di poter chiamare un albergo e per alla fine viene fatto tutto per mail o per telefono. Quindi gli app sono raccolta dati, utenti, partecipanti, ce li abbiamo. Filtraggio, quindi qui per quanto possibile, queste sono delle esigenze estremamente specifiche, credo che l'hanno gestita anche un po' a mano, però mi immagino che il 99% dei casi saranno gestiti. Filtraggio, quindi qui creano I gruppi, si impostano semplicemente delle regole, proprio come per esempio le regole della mail, no? Anti-spam, eccetera eccetera, per farti immaginare. Una volta che hai settato questi, se vai alla pagina finale di output, qui tu ti troverai I gruppi già pronti. Quindi ci sarà il gruppo che hai chiamato, magari, per le d'acqua, che sarà stato scelto dinamicamente dagli utenti che si sono iscritti, perché questo gruppo corrisponde a determinate caratteristiche. Sono dirigenti vengono da Milano e sono dell'azienda... Non so, non è un'azienda qualsiasi, ok? Non so se è una cosa che potrebbe...
+
+37:35 - Lorena Cavecchi
+Ok, quindi noi filtriamo, cioè facciamo questi filtri che tu mi hai detto e poi ci sarà una roba dove noi scriviamo Hotel Perle d'Acqua, giusto?
+
+37:48 - Federico Saladino
+Sì, esatto, c'è l'Outcome, sarà una pagina che ti dice fatto le prenotazioni da fare, no? Perché ti dirà che questo gruppo di utenti, questo gruppo di partecipanti...
+
+38:00 - Lorena Cavecchi
+Rispettando la tua richiesta, io gli dico che va bene, me li hai selezionati tutti tra quelli che sono nel database, io a questi gli dico che dormiranno al Perle d'Acqua. Poi non sono più I dirigenti, ma sono I funzionari, quindi questi dormiranno all'hotel Miramonti. E quindi io tiro fuori questo e e scrivo in un campo a stegno, catturo da un altro campo che si chiamerà hotel, tra una tendina gli hotel che io in qualche maniera ho scritto senza dashboard come possibilità di soggiorni.
+
+38:36 - Simone Montanari
+L'obiettivo è proprio questo, avere nella nostra tabella con tutte le informazioni anagrafiche degli utenti di quell'evento che noi stiamo andando a comporre, la possibilità di creare dei campi che non sono semplici campi di testo che inserisce l'utente o che insegniamo noi a mano, ma sono dei campi automatici con un piccolo builder che ci permette di costruire le condizioni logiche per le quali questi campi sono in un certo modo. Quindi se noi creiamo il campo hotel e invece di scriverlo a mano, creiamo delle piccole logiche che ci permettono di assegnare l'hotel in automatico a partire da altre condizioni, noi facciamo in modo che quel campo hotel per I 40.000 partecipanti di un evento esagero ma a volte immagino che non si parli di numeri anche più alti, per cui il lavoro manuale è tanto. A questo punto vengono tutti assegnati a mano. Chiaramente più la condizione complessa, più serve investire un po' di tempo per andarla a costruire a mano. Se è un evento da 50 partecipanti con 30 possibili condizioni logiche diverse, magari è più veloce scriverle direttamente a mano senza usare il nostro builder, ma quando magari dobbiamo scegliere tra tre hotel e abbiamo 5000 partecipanti, costruire le logiche e usare questo sistema.
+
+39:49 - Lorena Cavecchi
+Ve lo sto chiedendo proprio perché a noi capita magari di avere alcuni eventi dove abbiamo duemila partecipanti che dobbiamo scondividere in 21 hotel perché questo succede tendenzialmente in eventi che facciamo a Rimini dove andiamo tra I 21 e I 30 hotel perché sono piccolini e noi come criterio diamo o l'agenzia o il piatto con cui arrivano, per evitare di… Ed è chiaro che quello che a noi serve in questo film qua è che anche una delle condizioni deve essere… Io al Perle d'Acqua ho 50 camere, magari all'Hotel Miramonti ne ho 10, quindi anche questo deve fare in modo che faccia coincidere più informazioni insieme per dire ok, questi li puoi mettere. Oppure, banalmente, non ci stanno tutti all'hotel Miramonti, ma non metterli alle perle d'acqua perché l'hotel Palace è più vicino all'hotel Miramonti. Quindi è walking distance e quindi per te è più facile anche perché sono vicini. Anche questo è importante per noi perché poi quando magari arrivano tutti con lo stesso treno, ma devo dividerli in più hotel e ho due hotel walking distance per me è più facile perché è un unico trasferimento anziché magari doverne fare due perché l'altro hotel è dall'altra parte. So che sto dicendo cose molto complesse, tanto sogno ad occhi aperti.
+
+41:32 - Federico Saladino
+No, non è sogno ad occhi aperti, però sono cose su cui andremo, non è sogno ad occhi aperti. Però sono cose che sicuramente potremmo andare a integrare cioè nel senso al momento secondo me siccome lo inizierete a utilizzare questo tool con gli eventi da 20, 50, 100, 200, 1000 persone, non lo so, 1000 magari ancora no.
+
+41:58 - Lorena Cavecchi
+È buono iniziare ad utilizzarlo con I piccoli perché da lì potremmo implementarlo per poi andare sui grandi. Esatto. Secondo me la base di lavoro su quello piccolo poi in realtà a partire dal grande è solo piccolezze.
+
+42:17 - Federico Saladino
+Si deve integrare delle varie funzioni. Quando cerco di fare soluzioni voglio facilitare il lavoro della persona che utilizzerà questa soluzione, cioè l'Emilia che attualmente il tuo grande lavoro manuale sta nel continuare a ricevere richieste di invitati, continuare a dover aggiornare l'excel con la lista degli invitati, raggruppare gli invitati sulla base delle aziende, sulla base dei requisiti, sulla base delle informazioni che hanno messo, per notare le strutture. Quindi, se io riesco per il più possibile, il 99%, ad autogestirti tutto quanto, dove tu devi solamente creare l'evento in sostanza, applicare le regole per filtrare le persone, e ti trovi poi una dashboard finale che semplicemente ti dice questo gruppo è un gruppo e dovrà soggiornare, sarà il nome del filtro in questo caso, se quello è chiamato filtro hotel perle d'acqua, come dicevamo prima, e è messo dentro che ci vanno quelli di un'azienda con un determinato ruolo, lui dopo nella pagina finale ti dirà semplicemente che devi fare questa pronunciazione per l'hotel perle d'acqua, questa è la lista di utenti perché è rientrata nel filtro gli altri utenti dell'azienda devono soggiornare l'altro hotel ad ambasciatori, ok? Benissimo. Devono soggiornare l'hotel ad ambasciatori, ti troverai la lista con ambasciatori e il numero di persone. ...che rispecchia questa caratteristica. Lui ti gruppa gli eventi. Questa tra l'altro è una cosa che ti diventa anche retrattiva, Lorena. Cioè, cosa vuol dire retrattiva? Vuol dire che se Se Federico, che è il classico tarattario dell'azienda, si iscrive dopo o più tardi, tu hai già creato le regole di gruppo, Federico non devi rioperartelo di nuovo dall'inizio, si iscrive dopo anche tra I link, finisce già nella lista Hotel Perle d'Acqua, perché rispettava quelle determinate caratteristiche.
+
+44:28 - Unidentified Speaker
+Ok.
+
+44:29 - Unidentified Speaker
+Secondo me.
+
+44:30 - Federico Saladino
+Come base su cui partire, questo potrebbe essere molto utile. In particolare per altri due motivi, ti dico. Uno, e questo non è gestione dei dati lato nostro. La prossima volta che vai a creare un evento con questo tool e Federico ricapita sulla pagina di raccolta dati il suo browser del telefonino o del suo computer, gli farai compilare I dati. Sono I dati però salvati sul suo browser, come quando ti scrivi un sottotitolo.
+
+44:54 - Simone Montanari
+La cosa bella è che noi possiamo salvare anche tutti I dati relativi agli allergeni e I dati sanitari sono I più sensibili in assoluto, per fare in modo che I prossimi eventi ci siano già, salvandoli sul browser dell'utente e non sui nostri server.
+
+45:13 - Lorena Cavecchi
+Quindi senza essere noi. Perché loro lo vedono, ma noi non ce l'abbiamo salvato da nessuna parte.
+
+45:21 - Simone Montanari
+È quello, cioè noi praticamente noi facciamo storage sul loro dispositivo. Loro provano con un computer diverso da cui si sono registrati la volta prima, non hanno niente. Noi proprio gli dichiariamo, gli garantiamo, e lo facciamo davvero, che tutti I dati sanitari che noi collezioniamo, ma tutti I dati in generale per I relativi eventi, noi li teniamo solo a loro, quindi loro possono scegliere se memorizzare o meno I dati del form in locale sul loro computer, quindi ci metteranno poi due minuti a mandare via le partecipazioni oppure possono anche scegliere di non farlo perché magari è la segretaria che compila per quattro manager diversi e quindi lei dice no, non voglio niente perché è una cosa in verità questa addirittura senza fare un sistema massimo che io penso cioè sfruttiamo semplicemente la funzione di pre compilazione del browser cioè non so se senti Lorena che tutti I computer quando tu apri lo sito ti metti I tuoi dati e quando magari tu metti mette dentro dei dati che lui ha salvato con il precedente. Se usiamo bene l'API del browser possiamo anche permettere all'utente proprio di, senza neanche costruire noi un sistema fatto apposta, che comunque dobbiamo spiegargli come funziona, usiamo quello nativo di Chrome o Safari ed è ancora meglio. Mi aggancia questo per un piccolo approfondimento su quello che abbiamo appena detto riguardo a tutti I possibili incroci di dati sia a livello di validazione sia a livello di logica. L'obiettivo è costruire ragionevolmente un sistema che ci permetta di fare la maggior parte di tutte le operazioni macchinose proprio in totale autonomia con un piccolo builder per fare in modo di fare questa cosa il più ottimizzata possibile. C'è anche un punto che riguarda poi quella quello che quell'altra parte che è molto più custom, da evento per evento, che potremmo risolvere semplicemente davvero lì con un agent che usa l'intelligenza artificiale per andare a incrociare qualcosa. Qual è l'unico punto di domanda? Qual è l'incognita principale di utilizzare le IAI per fare incrocio dati e compilare tabelle da questo punto di vista? Il costo per partecipante. Quindi un'informazione che potremmo discutere per capire di creare qualche scaglione, è quanto budget vogliamo allocare alle IAI, quindi quanto possiamo spendere in token di OpenAI o equivalente competitor per quanto riguarda gli LLM, per ogni utente per pre compilare più velocemente possibile le sue informazioni. Questo sicuramente avrà più scaglioni di budget diversi, perché se noi abbiamo un evento massivo dove vogliamo portare 10.000 persone in una piazza, il costo per partecipante per voi deve essere bassissimo, se no si esce fuori mercato solo perché spendiamo tutto il budget dell'evento in token, non funziona, deve essere tutto il più ottimizzato possibile. Dall'altra parte, se noi invece facciamo un evento per, che mi è capitato in passato, per 100 investitori di un brand di moda, gli abbiamo fatto proprio l'app fatta e finita sul device per permettergli di spostarsi di location in location interagire con tutta la parte di gestione del dell'evento stesso in modo estremamente custom. Lì il costo per partecipante in quel caso è salito di molto, perché è il costo di un'applicazione spalmata su 100 partecipanti e a quel punto, se noi abbiamo un sistema già che ci permette di dialogare su WhatsApp, possiamo dare più budget ai token per creare più interazioni personalizzate per ogni utente. Se ogni utente ci spende anche 3 a 4 euro di budget chattando con il nostro agent, siamo estremamente in linea con il budget allocato all'evento per partecipante. Quindi da questo punto di vista poi secondo me ha senso spostare questo dialogo più avanti, però ho sollevato il punto perché vi ho dato una metrica per leggere effettivamente come proprio tecnicamente andiamo ad approcciare questo tipo di task e quindi darvi la possibilità di darci un range nel quale tutto quello che può essere accelerato con l'AI ha senso per voi, perché rientra comunque nel budget partecipante che potete far spendere al cliente, perché poi chiaramente è un costo che si riversa tutto sul budget dell'evento, quindi deve funzionarvi, oppure quello che dobbiamo magari approssimare un po' di più, ma fare in modo molto più economico. E da questo punto di vista poi noi a costruire tutte le varie opzioni, I vari scenari.
+
+50:11 - Federico Saladino
+Sì, questo poi più che altro è anche molto nel senso per il futuro, però io più che altro, comunque è chiarissimo, secondo quello che hai detto, sono assolutamente d'accordo. Io adesso, come dicevo prima, mi fermerai su questo primo approccio che intanto serve per raccogliere I dati, gestirli, manipolarli e avere un output che faciliti la vita a chi sta organizzando l'evento per capire chi deve chiamare, dove deve prenotare, per quante persone e che informazioni passare. Questo è il primo, secondo me, approccio utile nel quale andiamo a tirare un tool su cui poi andiamo a costruirvi il data. Su questo io l'unica cosa che aggiungerei, magari molto di più futuristico, è il famoso agent di cui parlavamo prima. Su cui adesso vorrei spegnere un po' di parole.
+
+50:59 - Lorena Cavecchi
+Per forte, Federico, perché noi a un certo punto dovremmo dargli questi dati perché Normalmente una volta che abbiamo raccolto tutti I dati, noi facciamo uscire una mail riepilogativa, una settimana prima dell'evento, ricordandogli, dandogli la riconferma dell'hotel, la riconferma dell'orario e il numero dell'assistente che farà con loro, che li aspetta in stazione e che devono chiamare. Molte volte dobbiamo anche allegare a un biglietto.
+
+51:33 - Carlo Sanvoisin
+Facciamo una piccola parentesi su questa parte relativa appunto alle comunicazioni, cioè una volta che abbiamo raccolto I dati, abbiamo organizzato tutte le liste, ok, ora come ci comunico con queste persone?
+
+51:47 - Federico Saladino
+Arrivavo proprio qua, per qua io l'ho chiamato genericamente agent, ma qua è come comuniciamo le informazioni. Allora, noi abbiamo studiato ogni forma di soluzione, Cioè possiamo ovviamente mandare le mail con le informazioni relative. Qui ci tornano di nuovo utili I gruppi, perché se io ho il gruppo Hotel Perle d'Acqua, la mail verrà generata automaticamente, sapendo che queste persone avranno la pronotazione Hotel Perle d'Acqua, la cena, il ristorante, l'amulata eccetera eccetera eccetera. Questo può essere mandato via mail, e noi possiamo anche mandarlo via whatsapp volendo. Qua abbiamo già pensato ad altre soluzioni anche perché comunque l'utilizzo di whatsapp è comodissimo secondo me proprio per permettere all'utente di avere questo feeling super di cura del dettaglio dell'evento, il fatto di ricevere comunicazioni via chat.
+
+52:55 - Lorena Cavecchi
+A parte che a noi succede magari di mandare gli sms ma ci siamo accorti che molte aziende italiane anche in Italia hanno bloccato gli sms perché I whatsapp non ha più un costo perché rientra nel traffico dati mentre gli sms sì e quindi noi sono vittima di phishing che è un casino lato cyber security quindi sì ci sono un po di flow che abbiamo già pensato.
+
+53:25 - Federico Saladino
+Ti lascio parlare, Federico, che stavi facendo tu il discorso.
+
+53:29 - Federico Saladino
+Comunque il discorso di base è che nel momento in cui c'è proprio l'account Whatsapp non-loop è verificato, ti scrive non-loop, non ci può essere phishing. Un sms una volta ti arriva da un 331, una volta ti arriva da un 333, non si sa mai, ti devi un po' fidare nel senso. C'è la pericolo di phishing in poi se I nostri amici che fanno phishing si rendono conto a un certo punto che l'organizzazione 20 di NoLoop funziona così, magari dicono ma spruttiamo un po', invece se arriva da un canale ufficiale è quello, arriva da una mail, la mail di NoLoop arriva su WhatsApp e il profilo di NoLoop. Allora per il discorso di costi qui purtroppo non è proprio così, nel senso l'SMS è il più costoso, comunicare anche tramite questi altri servizi a un costo a livello che possiamo offrirvi a livello proprio poi di perché sarà più imperioso dipende quanti messaggi si mandano nel senso quanto si comunica però a livello di prezzo sarà sempre incredibilmente competitivo perché noi andiamo a utilizzare soluzioni da sviluppatori cioè non non andiamo a utilizzare servizi di mailing fatte pensate con interfaccia grafica già pronta per mandare mail a quello che No, noi comunichiamo direttamente con delle API che si occupano di mandare 10.000-20.000 mail e diciamo che noi mandiamo semplicemente le informazioni chiamando proprio da server a server e quindi I costi sono molti inferiori, sia lato mail che lato comunicazioni su WhatsApp. Il discorso di costo quindi c'è, sì, non c'è per l'utente perché rientra nel nel traffico dati, ci sono una serie di politiche, su cui magari non ci addentriamo, sul come viene fatto il billing in un caso o nell'altro, però lì semplicemente vi offriremo una soluzione ad hoc che semplicemente vi dice che ogni volta che mandate un messaggio via WhatsApp costerà TOT, ogni volta che mandate TOT mail costerà TOT, capiamo un attimo nel senso. Estremamente competitivi.
+
+55:45 - Lorena Cavecchi
+Se noi abbiamo due eventi contemporaneamente o anche più di due e dobbiamo mandare comunicazioni via whatsapp contestualmente, lui recepisce l'evento a cui è legato?
+
+56:04 - Simone Montanari
+Noi faremo a livello di database, inseriremo una white che all'inizio pensato fosse uno, ma ha senso che siano più di un numero collegato a un account, che a livello di compilazione proprio del form l'utente può inserire, inserisci il tuo numero o I tuoi numeri di cellulare per essere contattato tramite WhatsApp, sarà proprio la call to action in un italiano più bello. In quel modo, se l'utente inserisce il suo numero di telefono, solo quei numeri di telefono sono autorizzati chiedere informazioni per quel partecipante e noi al numero principale mandiamo gli aggiornamenti broadcast. A tutti I numeri secondari possiamo rispondere, nel caso lui avesse domande, facendo già una validazione sul partecipante. È stato lui a dirmi di accettare quel numero WhatsApp e quindi non c'è una fuga di dati data dal fatto che un utente a caso può scrivere all'assistenza impersonificando un altro utente per sapere dove abita.
+
+57:06 - Lorena Cavecchi
+Ok, quindi il sistema recepisce collegherà il numero di telefono di cellulare che loro scriveranno nella loro scheda di adesione e collegherà quel numero di telefono a quell'evento.
+
+57:18 - Simone Montanari
+Esatto, se c'è in definità.
+
+57:21 - Lorena Cavecchi
+Paratipoli di utente.
+
+57:22 - Simone Montanari
+Esattamente. La mail e WhatsApp come due modi per identificare l'utente e questo ci permette di collegarlo uno a uno. Chiaramente se l'utente ha fatto 50 eventi nella sua vita perché magari è nel consiglio di amministrazione di tre aziende o è un commerciale di punta che viene spesso invitato, noi andremo a fornire le informazioni per il primo evento a cui partecipa. Se gli scrivo oggi per oggi, lui mi dà le informazioni sull'evento di oggi, non su quello che avrò tra tre mesi magari in Sicilia, che ne so.
+
+57:59 - Federico Saladino
+Io mi aspetto, attenzione, mi aspetto, non per forza, nel momento io la gestirei così almeno. Nel momento in cui deve arrivare il messaggio di conferma di iscrizione, per esempio, noi lo mandiamo, cioè comunque sarà il messaggio di per sé che ridefinisce quello specifico evento. Certo, se sono iscritto a due eventi, se ricevo due mail, una per un evento e una per l'altro, riceverò un messaggio per un evento e un messaggio per l'altro. Dopodiché, per quanto riguarda la gente, cioè nei momenti in cui facciamo la gente che chatta proprio, se tu scrivi una domanda e la domanda è ambigua, la gente ti risponderà per capire meglio prima di darti le informazioni. E' proprio questa l'interazione, se tu gli chiedi ma da dove devo partire per raggiungere, la gente ti dice di quale evento stiamo parlando, che magari ti dice l'evento a Milano o l'evento a Napoli. Poi gli dici quello di Milano, Ok, benissimo, per l'evento di Milano devi, o magari ti potrebbe anche dire, al momento, ancora in fase di pianificazione, ti manderemo le informazioni.
+
+59:09 - Simone Montanari
+Certo, esatto, chiaramente sempre con un filtro, non tutti gli eventi che voi producete, ma solo gli eventi a cui lui è invitato ed è già stato messo in analisi.
+
+59:21 - Federico Saladino
+Non sono già venuti anche, perché non puoi continuare a chiedere.
+
+59:26 - Lorena Cavecchi
+Facciamo sparire tutti I dati che possibili anche dai nostri server perché proprio non possiamo tenerli.
+
+59:39 - Federico Saladino
+Non c'è problema, noi ce li teniamo per l'evento, poi possiamo, nel senso, brasiamo tutto o comunque li mettiamo ad uso lì nostro interno come cronologia, nel senso che così come voi potete, lì non è che ci sia un vero problema, è oppiabile, così come voi per esempio vi potete tenere un foglio Excel che descriva un vecchio evento, come immagino ce l'abbiate, nel senso lì la stessa cosa.
+
+1:00:15 - Lorena Cavecchi
+Allora noi potremmo tenere le maschere, le maschere, ma tutti I dati dei partecipanti siamo obbligati a cancellarli. Offuscamento, esatto.
+
+1:00:23 - Simone Montanari
+Noi possiamo fare un tool che vi permette, a fine evento, in automatico, una settimana dopo, di avere tutti I dati che nel form iniziale avete flegato come sensibili relativi a un determinato evento, diventano tutti mariorossinato il primo febbraio del 70, che ne so, proprio dati a caso.
+
+1:00:50 - Federico Saladino
+Questo è il famoso writing di Forgotten, tecnicamente fino a dieci anni nel momento, però in questo modo diventa anche uno storico, nel senso che voglio andare a vedere che cavolo avevamo fatto a livello di numeri e cose nell'evento di due mesi fa. C'è tutta la lista di partecipanti, tutti nuovi però, e tutte sensibili, I nomi, I numeri del telefono, gli indirizzi mail sono fuscati, però comunque tu sai che c'erano 50 persone, che tot sono andate in quell'albergo, ancora puoi sempre ricontrollare, no?
+
+1:01:29 - Simone Montanari
+Così, nel senso, puoi andare a vedere.
+
+1:01:31 - Simone Montanari
+Chiaramente questa è un'opzione.
+
+1:01:33 - Lorena Cavecchi
+E resta l'evento senza contante X, ma con tutte le numeriche di quello che è stato l'evento, capito giusto?
+
+1:01:40 - Simone Montanari
+Esatto, chiaramente, questo noi cercheremo di aiutarvi a cancellare il meno possibile rimanendo compliant, poi chiaramente se un'informazione mi dite questa preferisco non averla che rischiare, noi ve la cancelliamo e non ci sono assolutamente problemi. Togliere è sempre facile, offuscare è quel valore aggiunto che vi permette di avere qualche metrica in più.
+
+1:02:00 - Unidentified Speaker
+Tutto qua.
+
+1:02:01 - Federico Saladino
+Ah, ok, perfetto.
+
+1:02:02 - Carlo Sanvoisin
+Esatto, così rimane la possibilità di valore portistica. Quindi essenzialmente è una cosa molto importante.
+
+1:02:07 - Federico Saladino
+Se volete andare a minarla all'albergo Perle d'acqua, potete dirgli guarda che io in quest'ultimo anno ti ho prenotato un totale di 1200 camere. Fammi un prezzo migliore, sennò scambiamo fornitore. C'è una reportistica in futuro.
+
+1:02:25 - Lorena Cavecchi
+Abbiamo anche una sorta di foglia statistica su quello che c'è. Quanti aerei abbiamo utilizzato? Quali sono gli aeroporti che abbiamo utilizzato di più?
+
+1:02:40 - Federico Saladino
+Adesso cosa faremo? La stima verrà preparata sulla base a comparti, probabilmente, a questo punto. Sarà la raccolta dati, quello è, tool base, agent, piuttosto che invio mail sender e invio mail whatsapp, reportistica. Così poi voi potete anche scegliere, valutare, magari dire prendiamo tutto, prendiamo queste cose, queste vediamo in futuro come ci troviamo, nel caso espandiamo.
+
+1:03:08 - Simone Montanari
+Esatto, per esempio è anche in ottica di delivery, è quella che costruiamo alla fine, dopo aver costruito tutto quanto, perché si deve basare sul database principale. Poi siete voi, tra virgolette, che potete decidere se partire con lo sviluppo completo e chiaramente ottimizzare tempi e costi, o se andare a scaglionare tutto quanto per rendere tutto quanto più sostenibile a livello sia temporale che di budget, perché da questo punto di vista l'obiettivo di il vantaggio di poter fare le cose custom in questo modo è che possiamo organizzarle in base alle vostre priorità per essere più versatili.
+
+1:03:51 - Lorena Cavecchi
+Tutto qua. Sì, allora sicuramente il lato budget sapete che non sono io poi la persona che prenderà la decisione finale, però a livello di... A me verrà fatta la domanda certamente sulla tipo di strumento, se io lo trovo valido, cioè se ha senso fare questo tipo di questo tipo di strumento. Quindi questo per me è importante. Io probabilmente inizierei a mettere insieme tante di queste cose che avete detto, perché sicuramente in WhatsApp il fatto di avere una dashboard che ci permette la persona soprattutto all'inizio per I piccoli eventi, è una cosa per cui noi assolutamente ne abbiamo bisogno. E poi mano a mano andrei a crescere, perché tenete conto che noi solo per un evento a giugno, che era di una settimana, avremmo mandato credo quasi 10.000 sms, che per me vuol dire un traffico whatsapp solo legato a un evento, perché l'evento era grande, erano quasi 2.000 persone, quindi la mia idea è iniziamo a vedere come funziona, come lo dobbiamo sistemare per renderlo poi fruibile sui grandi numeri.
+
+1:05:28 - Carlo Sanvoisin
+Non so se mi sono spiegato E questa sarà una soluzione scalabile Lorena, partiamo dai piccoli progetti e poi la scaliamo anche su quelli grossi. Di base quello che mi porto a casa è che la vostra necessità principale e diciamo il perimetro di progetto iniziale sarà sicuramente tutta la prima parte sulla raccolta dati, poi la parte successiva sull'elaborazione e poi la parte successiva di comunicazione tramite email e WhatsApp integrati da un'unica interfaccia. Successivamente a questo ragioneremo su agente virtuale collegato Whatsapp e eventualmente reportistica. Mi confermi che lo scopo principale sul quale magari noi ci concentriamo anche a livello di definire un po' le funzionalità, la quotazione, è questo, che si ferma la parte di comunicazione, poi agent e reportistica magari lo vediamo in un secondo momento o comunque vi facciamo una quotazione, ma ve li teniamo separati?
+
+1:06:22 - Lorena Cavecchi
+Sì, sì, ce n'è lì assolutamente separati quelli.
+
+1:06:25 - Carlo Sanvoisin
+Ok, quindi voi inizialmente avrete l'integrazione con Whatsapp, per mandare dei messaggi broadcast, ma non ci sarà la gente virtuale che risponde come quella nostra.
+
+1:06:35 - Lorena Cavecchi
+Sì, però tu questa cosa a me la metti lo stesso, cioè, a parte, ma non è detto che...
+
+1:06:42 - Carlo Sanvoisin
+Sì, te la presentiamo però però.
+
+1:06:44 - Lorena Cavecchi
+Sì, però poi stringerò per... Perché secondo me, ripeto, cioè il plus in più deve essere avere quella cosa in più. Chiaro, magari ci vorrà più tempo per arrivare a quello, perché... Dovremmo lavorarci di più. Ripeto, se uno si accorge che manca il documento e te lo scrive e lui ti dice mandalo via mail o chiama la segreteria per dare il tuo documento, non lo so, mi sto inventando, però se già c'è un filtro che non è la persona fisica che in ufficio si accorge che una persona sia iscritta ma non ha messo dentro il documento ma comunque gli viene mandato sollecito tramite questo agent, è comunque un lavoro in meno per la collega che magari può fare altro. Certo, perfetto. Allora direi con oggi chiudiamo.
+
+1:07:36 - Federico Saladino
+L'ultima cosa, scusami anche che volevo dire Carlo, l'ultima cosa che voglio che sia chiara Lorena, attenzione che il grosso anche vantaggio di questa soluzione è che è web based, cioè tu puoi andare in una libreria in una biblioteca, accendere il computer, fare la login e utilizzare l'applicativo. Puoi usarlo nel pc di casa, puoi usarlo nel pc dell'ufficio, puoi usarlo magari da smartphone, da tablet. Diventa un po' difficile perché la faremo per computer, ovviamente. Però la comodità è anche che è web-based, cioè non ti devi più preoccupare di portare in giro file, chiavette, accedere a drive. L'apri l'URL, fai la login e sei dentro.
+
+1:08:19 - Simone Montanari
+L'obiettivo principale, il primo dei vari obiettivi, proprio quello di cercare di cercare di aiutarvi a mantenere l'origine del dato in un posto dove uno siamo sempre compliant lato GDPR privacy e tutto quanto perché abbiamo un server con un sistema di backup ed è tutto documentato e conforme e dall'altra parte la possibilità di gestire tutto quanto in modo più versatile possibile perché che sia un un'autenticazione con un utente password che sia login tramite Google che vi velocizza ancora di più il processo questo potete scegliere tranquillamente voi. L'obiettivo, il risultato finale, è proprio quello di andare a modernizzare il più possibile la soluzione per renderla più comoda e più accessibile.
+
+1:09:02 - Unidentified Speaker
+Perfetto, va bene.
+
+1:09:04 - Unidentified Speaker
+Super.
+
+1:09:04 - Unidentified Speaker
+Super.
+
+1:09:04 - Lorena Cavecchi
+Allora fa tu un pretto però, così io posso avere tutto. Allora Lorena, facciamo così.
+
+1:09:11 - Carlo Sanvoisin
+Io adesso, diciamo, sulla base del discorso di oggi, siccome più o meno vi è tornato tutto, che ci siamo detti con eh tutte quante le altre informazioni che ho raccolto anche da dagli altri reparti poi il prossimo passo ancora un reparto Carlo che secondo me è quello della biglietteria eh sì quello che dobbiamo fare la con ah sì ce ne mancano però sì ci vediamo domani su questo, su questa cosa, perché la biglietteria e la segreteria sono molto legati, quindi potrebbe essere che ci sia della sinergia.
+
+1:09:58 - Lorena Cavecchi
+Sinergia, è fantastico.
+
+1:10:00 - Carlo Sanvoisin
+Comunque in generale adesso ho fatto anche oggi una call con Massisini Caglia, mi sono fatto un'altra con Davide Settembrini, quindi abbiamo praticamente progress, programmazione, biglietteria, segreteria, legale, quindi ce l'abbiamo veramente tutte e a questo punto farò una specie di report finale diviso per probabilmente a questo punto reparti per ogni reparto la richiesta che è stata fatta e una soluzione di alto livello che abbiamo pensato appunto con Simone Federico e a quel punto magari gli mettiamo un'indicazione di eh effort diciamo tecnico complessità tecnica per metterlo a terra e poi farete voi la vostra valutazione su quanto impatta I vostri processi di business sulla base di quello teoricamente io dovrei fare una call con la Garbarino al 16 e stabilire quali teniamo, quali portiamo avanti, quali mettiamo in roadmap futura e poi a quel punto una volta che sono stati stabiliti quei 3, 4, 5, 6 use case principali andiamo avanti su call di dettaglio quindi un po' come oggi entriamo sempre di più nel dettaglio di come deve funzionare lo strumento ed è il momento in cui poi effettivamente tu mi dici sì ma il campo deve essere così questo deve essere selezionato.
+
+1:11:12 - Lorena Cavecchi
+La parte operatività si può vedere anche magari anche I primi test per vedere quali sono le migliorie e I cambiamenti.
+
+1:11:20 - Unidentified Speaker
+Esatto.
+
+1:11:21 - Carlo Sanvoisin
+Quindi diciamo che tutto quel lavoro lì è successivo a questa priorizzazione che facciamo quindi praticamente mi chiudo domani con l'ultima colla delle biglietterie. Faccio questo report complessivo, lo discutiamo io ve lo mando a tutto il gruppo di lavoro, lo discutiamo anche con la Carbarino e e Donzelli, da quello che ho capito il 16, e poi da quel momento in poi stabiliamo proprio le call di approfondimento e poi le tempestie dello sviluppo. Vai Simone!
+
+1:11:50 - Simone Montanari
+Interrompo un attimo perché devo scappare, purtroppo che sono un po' in ritardo sul Meet. Penso che tanto lato tecnico ci siamo detti tutto, quindi volevo ringraziarvi.
+
+1:12:01 - Lorena Cavecchi
+Ma anche lato economico, perché tanto noi non decidiamo niente, quindi noi siamo qua da aspettare.
+
+1:12:07 - Carlo Sanvoisin
+sai, molto giusti con le cosazioni, sicuramente meglio di quello che offre il mercato. È più funzionale, più bravi, più giovani, belli.
+
+1:12:15 - Unidentified Speaker
+Allora, ti ringrazio e alla prossima.
+
+1:12:17 - Lorena Cavecchi
+Grazie a tutti.
+
+1:12:18 - Simone Montanari
+Grazie a voi, buona sera, ciao.

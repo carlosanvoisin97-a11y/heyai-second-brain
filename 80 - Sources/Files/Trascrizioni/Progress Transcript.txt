@@ -1,0 +1,452 @@
+Progress
+Mon, Sep 1, 2025
+
+0:00 - Samantha Garofalo
+Sembra un'ottima idea, credo che sia una delle cose da aggiungere immediatamente nel parlo con Laura prima, in generale proprio. Allora io vedo che voi utilizzate questo Read AI che in realtà non è male, cioè l'ho utilizzato anche io.
+
+0:14 - Carlo Sanvoisin#+#Samantha Garofalo
+L'unico problema è che con l'italiano ancora non sono performanti al massimo, alcune parole non le capiscono. Io sono appena entrata quindi perdonami se intanto magari farò delle domande che non sono...
+
+0:29 - Laura Zaghi#+#Samantha Garofalo
+non l'ho visto partire sempre in automatico però questo sistema in realtà.
+
+0:35 - Carlo Sanvoisin#+#Samantha Garofalo
+Allora, dipende se la persona che ha mandato l'invito ha fatto l'accesso e si è registrata e quindi dipende sempre da chi manda l'invito. Ho capito allora. Ciao Ivano, piacere. Ciao Carlo.
+
+0:55 - Carlo Sanvoisin
+Anche Federico, per chi non l'avesse conosciuto, che è il nostro collaboratore che si occupa appunto degli sviluppi in tema di intelligenza artificiale e automazione. Sì esatto, ha avuto già la possibilità di riconoscere Laura. Sicuramente faremo delle belle chiacchere oggi, credo. Diciamo che in particolare sì, io mi occupo principalmente di architettura, quindi il mio lavoro è quello di andare a digitalizzare le soluzioni che magari vengono attualmente portate avanti per via cartacea, per via telefonica, per via e-mail, giro mail, foglie xl, eccetera, eccetera. Vado a trasformare questi processi in un sistema digitale. In sostanza. E poi ovviamente magari mi occupo anche di seguire la fase di sviluppo nel mentre, diciamo, per consegnare poi il prodotto finito. Faccio una brevissima introduzione. Allora, oggi parliamo appunto con alcuni referenti di Noloop che ci raccontano un pochino l'attività che loro definiscono Progress. Da quello che ho capito si tratta principalmente di un'attività legata appunto al project management, l'obiettivo della call è conoscerci per quello che non ci conoscevamo, capire meglio di che cosa si tratta appunto questa attività, quali sono gli eventuali step, chi se ne occupa, che strumenti utilizza e una volta che abbiamo capito meglio il contesto di questa attività, insieme a Federico possiamo effettivamente studiare delle soluzioni di digitalizzazione e portarvi poi delle proposte per cercare applicare appunto di automatizzare e vedere se ci sono dei passaggi che sono ripetitivi, dei passaggi che possono essere svolti dall'intelligenza artificiale via dicendo. Quindi poi io su questo lascio la parola insomma a voi, diteci anche voi chi sono appunto I referenti per ognuna delle magari sottoattività che stanno sotto il cappello del progress e insomma vi lascio la parola per raccontarci step by step come vengono svolte attività oggi. E a questo punto direi se potete far partire la registrazione così poi ci teniamo tutto quanto.
+
+3:30 - Laura Garbarino
+Grazie. Allora parto io perché ti dico, manca l'Antonella però se non c'è non è un problema. Capito di fare un punto su come va l'azienda, quindi cosa succede? Io voglio che tutto sia gestito dalla com, cioè il minimo comun denominatore di tutti I file, io ci sto cercando, poi mi dovete dire voi come, di mettere negli stessi file le stesse voci, perché poi io da voi ho bisogno tramite l'incidenza centrifugale dei tipologhi, ok? Quindi c'è un file, un Un foglio Excel, quello che fai, un foglio Excel del commerciale, il commerciale lo compila solo quando entra il cliente, quindi cosa vuol dire? Ci sarà la com, ci sarà la tipologia del cliente, che cosa vuol dire? Cliente di un business, cliente già acquisito dell'azienda, ci sarà il tipo di attività che questo cliente farà una convenzione che ci sarà confermato void, una tendina ha confermato void, quindi lei avrà il void confermato, poi nome cliente, chiaramente il fatturato presunto del cliente, il budget cioè la percentuale 10%, 5% di margine, di mark up, più ci sarà la persona che se ne occupa a livello di account. Questi sono I dati che a me interessano per il commerciale. Nel momento, in fase di brief, ci sarà l'Antonello Smetti che fa la programmazione, che cosa ci avrà? Stesse voci, come tipologia cliente, tipologia di evento, nome cliente, tutto quello che ha la Laura. Lei sarà colei che sovrascriverà sopra il budget, perché il budget iniziale e poi sarà lo stesso budget che rigorosamente deve avere la Zaghi, se non ci dovesse, dobbiamo dire all'intelligenza artificiale che se questo budget non fosse uguale deve dare un'anomalia. All'inizio cosa succede? Ti arriva il budget, ti inventi il budget, perché molti clienti non ti dicono quanto hanno. Quando tu presenti, a quel punto lì hai il budget. Quando poi tu fai la trattativa finale, perché la trattativa dell'evento la fa la programmazione, la programmazione quando passa l'evento confermato all'operativo, avrà un budget e un margine. Quello è il e della programmazione definitivo. Quindi l'Antonella sovrascriverà sopra finché non c'è quello definitivo, ok?
+
+6:34 - Carlo Sanvoisin#+#Laura Garbarino
+Non facciamo vari passaggi, sennò diventiamo matti, ok? Come discorso. Anche perché magari inizi con dieci destinazioni, poi ne vanno avanti tre, ok?
+
+6:44 - Laura Garbarino
+Quindi le prime sette le lasci stare col baggio che abbiamo dato e prosegui le due, le tre che ti interessano, no? Come tipo di soluzione. Quindi l'Antonella e avrà in più che cosa le persone che lei dovrà scorporare la parte di biglietteria, quindi lei farà soltanto quello che sono la parte di operativo, tutto eccetto la biglietteria, perché io poi avrò un foglio biglietteria che vi spiego cosa voglio fare, e poi avrà le persone che lavorano sul progetto. E questa è la parte creativo-operativo. Se è void, Scusami, c'è anche una fase di dove siamo, quindi in lavorazione 1, vuol dire che è arrivato il brief, cominciamo a lavorarci. Presentazione 1, perché buona la prima, molte volte devi rilavorare 2, quindi lavorazione 2. Budget 2, perché molte volte la rilavorazione cambia totalmente il budget, magari anche la destinazione, non si sa. Dopodiché a questo punto, se ci fosse bisogno di lavorazione 3, scriveremo anche lavorazione 3, budget 3, dopodiché a questo punto se diventa confermato o void. Se vogliamo in programmazione possiamo aggiungere anche passato all'operativo, che sappiamo se quel progetto che è stato confermato ce l'ha ancora in mano la programmazione o è passata, però non di cui perché se non c'era l'operativo ed è confermato, si possa dire che c'era in mano loro.
+
+8:18 - Carlo Sanvoisin#+#Laura Garbarino
+L'operativo quando gli arriva lo dividiamo in due fogli.
+
+8:22 - Laura Garbarino
+Tutte e due la Laura avrà un foglio solo, poi ve lo faccio vedere. L'operativa avrà due fogli, perché c'è la biglietteria che viaggia a parte, perché la biglietteria fa sia programmazione che poi operativo. Quindi avrà un momento di budget della programmazione, di quello che gli chiede il cliente in fase di programmazione, che magari dice 300 persone, 150 da Milano e 150 da Roma. Poi si scopre in fase operativa che queste sono suddivise tra Pisa, Catania, Puglia, tutta una serie di destinazioni che non ci sono in fase di budget iniziale. Quindi le prime voci sono sempre tutte uguali, quindi nome, clienti, tutta quella data lì ce l'hanno tutti, perché deve essere identificativa per tutti. Poi nello specifico il budget, diciamo che la parte della biglietteria avrà budget iniziale budget finale con l'utile relativo e le persone che ci stanno lavorando. L'altro, diciamo che l'operativo e la segreteria sono fuse insieme perché il budget della segreteria di fatto ricade nel budget dell'operativo e qui avranno le stesse identiche voci, quindi tutte le stesse con più, il budget che gli arriva dalla programmazione, il fatturato, il budget quindi di preso in carica che sarà lo stesso che ci avrà la programmazione, che ci avrà la Laura inizialmente, Zaghi e poi lei avrà il budget finale di chiusura pratica, quello che poi verrà fatturato. Quindi io facendo la com vedo in automatico una volta solo, perché è inutile che lo riscriva la Laura, perché poi il cliente può avere la stessa com è ricordare però ragazzi che la com se cambia è uguale tra comunicazioni tutte, non è che apriamo, c'è solo com IVA e 74ter. La stessa com ha lo stesso numero e può avere due tipi o tre tipi di fatturazione IVA. Quindi questo poi lo dovete vedere perché magari, cosa mi spiego, quando io faccio un evento in Europa lo fatture in 74ter o nel mondo. Posso anche decidere di scorporare I voli, I voli si fatturano in Articolo 15, Articolo 7, Articolo 10, quello che vuoi. Poi c'è magari la comunicazione che ho deciso di fatturare 74 Terre oppure la portiamo da l'Italia e la fatturiamo più IVA 22, quindi la stessa Com potrà avere fatturazioni diverse e io ho bisogno di avere I fatturati diversi. Cos'hanno di più l'operativo? 74 Terre più IVA hanno due Allora bisogna mettere tutte e due, di partenza. Se sappiamo dall'inizio che ha due… sicuramente la parte di comunicazione a 99% ha un'unica fatturazione, ma non è detto, perché se ad esempio tu lavori all'estero e prendi la parte di audio service all'estero, fattura in 74 terre. Quindi probabilmente avremo quasi tutte le pratiche con due com, che sono riferite alla tipologia diversa di IVA. Cosa c'ho in più dell'operativo? Oltre a avere la situazione del cliente, quindi avere la visione di come è partito, perché il mio obiettivo è vedere il cliente, tanto se quanto fattura, alla fine vedere quanto fatturato di new business ho fatto, quanto fatturato di clienti consolidati ho fatto, quanto tempo ci hanno lavorato le singole persone, com'è partita la fatturazione, com'è chiusa, quindi posso vedere anche se ci sono delle persone che sono più brave nella gestione oppure magari è il cliente che è più facile, non è detto che soltanto la bravura che dà il 10 lo porti al 25, però magari se c'è una costante che una persona margina molto bene, probabilmente vuol dire che l'hai brava, perché una volta ti può capitare che il cliente è fortunato, una volta no, 10 volte vuol dire che sei brava tu, come se 10 volte fai margine basso, il problema ce l'hai tu. Tutto questo mi permette di avere una visione ben quadrata delle persone. Non solo, io voglio vedere I fornitori, perché mi interessa capire I fornitori, non tanto di logistica, perché già siamo abbastanza attenti sul fatto di chiedere se uno fa più di tot fatturato o cosa del genere, ma quanto sulla parte di comunicazione. Comunque sarebbe buona cosa indicare anche nella logistica non tanto gli alberghi, perché gli alberghi purtroppo quello è, non è che puoi fare più di tanto, ma almeno capire quali fornitori utilizziamo come fornitori in loco e vedere I trasferimenti, quelli più e le hostess, voglio dire le macro voci più importanti che sono tre, sono I trasferimenti, gli aerei è inutile perché le compagnie aeree quelle sono, gli alberghi è inutile perché le compagnie sono quelle, poi abbiamo già un ragionamento che in base al fatturato andiamo a chiedere rebate, ma mi interessa sapere che corrispondenti usiamo e che agenzia di trasporti mezzi utilizziamo. Per me l'obiettivo è quello di avere uno strumento che mi permetta, andando a prendere tutte le voci che compilano le ragazze, di poter fare io poi tutta una serie di cose che vi chiederò. Anche perché poi ci sarà un controllo, anche che uno non scriva le cose a casaccio, con la parte amministrativa. Quindi poi parleremo, si dialogheranno con chi fa la gestione. Perché se uno dichiara che che su quel progetto quel fornitore si chiama Rossi e ha fatturato 100 e poi scopriamo che dal gestionale amministrativo non si chiamava Rossi, ma si chiamava Verdi e non ha fatturato 100, ha fatturato 120, magari ci si incazza pure.
+
+14:39 - Carlo Sanvoisin#+#Laura Garbarino
+Nella parte invece di comunicazione cosa succede?
+
+14:42 - Laura Garbarino
+Samantha ha all'interno di sé la programmazione e l'operativo, un po' come la biglietteria. Quindi lei che io vi ho raccontato, di fatto le fa tutte lei, quindi al 99% non c'è una figura che fa programmazione e una figura che fa operativo, potrebbe capitare perché magari ci sono momenti in cui una persona è impegnata in un progetto grosso operativo e magari la parte iniziale di presentazione la fa qualche di un altro, ma in linea di massimo, chi studia il progetto se lo porta a casa. Io vi ho fatto la mia parte, ma tenete conto che anche la parte di Chico, io qua non l'ho messo perché dipende da Chico, ma sarà la parte che Donzelli vi ucciderà di più, perché io lo faccio già questa parte qua, loro non la fanno. Io ve la racconto perché poi loro non ve la racconteranno, ma l'obiettivo di Donzelli è quello che vi sto raccontando io. Dovrà dire chi sono le persone, sempre com, tutta la divisione che vi ho fatto inizialmente è sempre uguale per tutti. Dopodiché lei metterà in fase, non prima perché non mi interessa metterla in fase, lasciami dire di programmazione chi sono I fornitori, se no diventiamo matti perché ne contattiamo tre, non ha senso. Sarà una cosa che poi chi farà questo lavoro sarà in grado di documentarlo, però per me in fase quando diventa operativo, chiaramente ci bisogna capire la sua divisione, chi è il fornitore di luci, chi è il fornitore di video, chi è il fornitore di… in maniera tale che poi alla fine sempre la somma, poi io vi chiederò a un certo punto, bene mi dici per cortesia il fornitore Rossi da tutto quello che è venuto fuori quanto ha fatturato? E sempre le persone che ci lavorano, perché cosa succede? Siccome noi abbiamo, non è detto che per il prossimo anno non andiamo a fare, noi in questo momento lavoriamo su gross profit primo, nel senso che non inseriamo il costo del personale all'interno, se non I consulenti, non è detto che dal prossimo anno lavoriamo su gross profit 2, dove mettiamo il costo del personale all'interno delle pratiche, perché molte volte I fondi anche in funzione di vendita o coda di vendita te lo possono chiedere, ti dicono tu mi dici il margine operativo, ma il margine reale di quella pratica non è così, perché se tu mi dici che è un evento da 100 mila Euro, che hai guadagnato 30 mila Euro, ma poi ci hanno lavorato sopra tante persone per altri che a costo mia azienda sono 15 mila Euro, sto dicendo dei numeri a caso, il margine di quella pratica non è 30, è 15, Perché loro vanno a vedere onestamente un fondo o comunque chi acquista, quanto è lavoro a persona a fatturato. C'è un margine, c'è una percentuale che sopra non ci può andare, quindi dobbiamo capire anche abbastanza velocemente se siamo in linea o no. Quindi Samantha metterà in più il discorso di chi Leo gestisce e tutti I fornitori, quindi il suo fatturato sarà un fatturato totale e poi sotto a cascata suddiviso per I fornitori, che possono anche essere quello degli arredi, quando affitti divani, salottini, cose del genere, ci sono tanti sub fornitori. L'unica cosa che non metterei più di tanto sono la parte degli artisti, perché gli artisti quelli sono, gli artisti li devi prendere dai manager e non è che puoi fare tante quelle sono, I prezzi sono…è un po' come gli aerei, è un po' come le camere, non so come poterti dire, non hai un valore, difficilmente hai una differenza sostanziale, ce l'hai se sei fortunato che non passi da un broker e vai direttamente alla fonte, però se non c'è il nominativo del manager non è che te lo puoi inventare, questo è che voglio dire.
+
+18:58 - Carlo Sanvoisin#+#Laura Garbarino
+Non è una cosa sulla quale ci puoi lavorare prima, nel senso che devi fare in modo di trovare il manager diretto.
+
+19:05 - Laura Garbarino
+Però io come faccio a sapere se… non ho un termine di paragone, non so come poterti dire, capito?
+
+19:12 - Carlo Sanvoisin#+#Laura Garbarino
+Non è che dico vado e ho trecento persone che mi danno quel servizio, quel servizio me lo danno quelle, punto.
+
+19:19 - Carlo Sanvoisin
+Certo, però se noi poi su questo strumento vogliamo ogni volta andare a calcolare il margine con quanta più precisione possibile, anche se non sono differentianti, perché tu dici che le compagnie aeree sono sempre le stesse, il costo più o meno è sempre quello, però comunque avere tutte quante le informazioni centralizzate su un unico sistema, ci permetterebbe di… Ah, ma è vero, lo dicevo perché molte volte loro sono oberate e non volevo mettere di più.
+
+19:46 - Laura Garbarino
+Finisco e poi ti lascio la parola. Ivano invece fa la parte di creatività, quindi l'unico budget che è in suo possesso, lui dovrà mettere sempre le stesse voci, dovrà mettere le persone che lavorano su e su quel progetto e chi prende di esterno, chi prende di esterno che vuol dire scenografo, soprattutto lo scenografo, quello che possono avere un costo, perché se la pratica va in operativo, finisce nel budget di Samantha e quindi ce lo dimentichiamo, ma se la pratica è void, molte volte l'architetto si fa pagare comunque, quindi noi abbiamo, siccome avremo un tot all'inizio dell'anno pratiche di soldi a disposizione, per pratiche non effettuate. Quando quel salvadanaio è finito, dobbiamo capire che lo dobbiamo andare a mettere dentro una pratica, non so se mi sono spiegato. Quindi il suo da tenere sottomonitorato è il fatto di dire, benissimo vediamo le pratiche void quanto ci sono costate fino adesso, perché quelle operative finiscono già a tutti I costi in Samantha. Non so se è stata chiara?
+
+20:49 - Carlo Sanvoisin#+#Laura Garbarino
+Per quest'ultimo punto forse se me lo ripeti meglio… Allora, Ivano che cosa fa?
+
+20:53 - Laura Garbarino
+è direttore della comunicazione, quindi sotto di sé chi ha? Un direttore creativo, gli arti, I copi che non hanno costi, loro non gestiscono il budget del cliente, gestiscono la parte creativa. Molte volte tu non fai tutto internamente, hai bisogno di uno che ti disegni una scena, che ti disegni un'idea creativa particolare, quindi ti affidi a delle persone sul mercato, a delle persone persone sul mercato che hanno questo tipo di figura, architetti famosi, designer famosi o qualcosa del genere. Quando tu presenti un progetto, indipendentemente che vada a buon fine o non vada a buon fine, al cliente finale ci sono alcuni che ti riconoscono una saxi fee per la presentazione, cioè ci sono alcuni clienti che ti dicono se comunque perdi ti riconosco 10.000 euro per la presentazione. La stragrande maggioranza dei clienti, se tu perdi te se ne fottono.
+
+21:58 - Carlo Sanvoisin#+#Ivano Romano#+#Laura Garbarino
+Fai conto Carlo che fatto 199,99% dei progetti che noi facciamo sono gare, quindi c'è la possibilità di vincere, c'è la possibilità di perdere.
+
+22:13 - Ivano Romano#+#Laura Garbarino
+Io comunque ho un costo esterno di scenografia, posso dire dei costi esterni già in questa fase, cioè nella fase di progettazione.
+
+22:24 - Laura Garbarino
+Che però nel momento che vengono confermati è chiaro che lo metti a costo della pratica e lo paga il cliente, nel momento che il cliente sceglie un'altra agenzia tu te lo tieni nel di dietro, come si dice.
+
+22:41 - Carlo Sanvoisin#+#Laura Garbarino
+Dimmi Federico perché ho visto che c'è la mano alzata.
+
+22:45 - Federico Saladino
+Federico vuole fare Adesso vi interrogo, vi interrogo adesso nel senso che faccio delle domande perché ho capito, diciamo, più o meno. Se vuoi vi proiettiamo il foglio che abbiamo adesso.
+
+23:00 - Laura Garbarino
+Sì può essere utile.
+
+23:02 - Federico Saladino#+#Laura Garbarino
+Cioè allora intanto volevo capire che cosa ci interessa fare.
+
+23:07 - Federico Saladino
+Ci interessa in sostanza digitalizzare tutto quello che è il processo di gestione. Allora intanto in stiamo parlando di eventi, giusto? Quindi parliamo di un evento specifico, l'evento X. L'evento X, per essere organizzato, ha bisogno di accedere, come dicevamo, a una serie di fornitori. Possono essere scenografi, artisti, noleggio luci, immagino, eccetera, eccetera, e tutto quanto. Alberghi, voli magari, dove non so, per andare in location per le persone che partecipano eccetera eccetera. Il scopo del gestionale in sostanza, se ho capito bene, è quello di andare a monitorare tutti questi costi, ok? Per fare in modo poi di avere una piattaforma che ci consenta facilmente di gestire tutto quello che è stato acquistato per l'evento. Non solo.
+
+24:09 - Federico Saladino#+#Laura Garbarino
+Allora, io ho bisogno di gestire clienti, quindi io bisogna sapere.
+
+24:14 - Laura Garbarino
+Esattamente il cliente, quanto è il fatturato di quell'anno e quanto è il margine. Fatto cento il fatturato, quanti clienti di new business, quanti di clienti storici. Fatto cento il fatturato, quanto di convention, quanto di viaggio incentive, quanto di road show, quanto di B2C. Quindi ho tutto il lato cliente che ho bisogno di avere tutta la spaccatura, tutto il lato fornitore, che ho bisogno della spaccatura e poi sapere il peso del lavoro che mi interessa anche per la distribuzione del lavoro, come viene fatta, quindi capire se ci sono delle persone più oberate che gestiscono più fatturato, perché magari sono più veloci rispetto ad altre che sono molto più lente e ne gestiscono molto di meno. Ci possono essere altre motivazioni, quindi da questo si vede, oppure io voglio chiedere chi gestisce tutti gli eventi grandi in operativo? Chi gestisce in programmazione? Scopro che tutti gli eventi grandi vengono affidati sempre alla stessa persona, sto dicendo le recavolate, o tutti gli eventi piccoli vengono sempre affidati alla stessa persona, quindi magari questo non permette alle persone di crescere, oppure perché quella persona non è adatta a fare l'evento quindi da una parte io ho uno storico del cliente che mi permette di capire esattamente tutto e uno storico delle persone che ci lavorano, devo riuscire ad avere, dall'altra parte tengo sotto controllo I fornitori.
+
+25:48 - Carlo Sanvoisin
+Io questo lo vedrei quasi come a metà fra un CRM e un gestionare, nel senso che noi abbiamo visto tutta la parte di lavoro che loro fanno sulla parte di lead generation, quindi quello che voi chiamate new business. Una volta poi che effettivamente un lead, un prospect diventa cliente, lo cominciano a gestire in questo modo, quindi nel momento in cui non è più un lead ma è un cliente sul quale io sto facendo effettivamente una commessa, allora vado a segnare lato cliente tutte quante queste informazioni, quindi se è nuovo, se è fidelizzato.
+
+26:26 - Carlo Sanvoisin#+#Laura Garbarino
+Anche perché scusami Carlo, io la commessa la apro appena ricevo il brief, perché io posso avere dei costi all'inizio, che non è solo quello dell'architetto, devo andare col taxi a prendere il brief e lo metto su quella commessa.
+
+26:42 - Laura Garbarino
+Quindi io poi avrò delle commesse con dei costi, che è chiaro, se vanno a buon fine rientrano tutti nei costi, se non vanno a buon fine ho dei costi che poi io vado a sottrarre dal il fatturato totale dal margine totale, cioè più che altro dal margine più che dal fatturato.
+
+27:03 - Carlo Sanvoisin
+Allora sicuramente vi torna utile il fatto che noi abbiamo già fatto tutto quanto il lavoro sulla parte di appunto di new business e che c'è già una struttura pronta che lavora essenzialmente per passaggi di status e in cui effettivamente già abbiamo l'indicazione se su lead è arrivato il brief e via dicendo. Noi dovremmo collegare il lavoro che abbiamo fatto sui lead e portarlo in questo ambito cliente, quindi diciamo che il trigger mi pare di capire è la ricezione del brief, dalla ricezione del brief in poi si apre una commessa perché si potrebbero sostenere dei costi e da quel momento in poi che io poi quel cliente la gara la vinca o meno, effettivamente io devo vedere che cosa ho speso, dove ho speso, chi ci ha lavorato, quanto ci ha lavorato. Chiaramente ci saranno molte più informazioni nel momento in cui è una gara vinta, perché a quel punto io ho tutta la lista di voci di costo che sono state sostenute per creare quel viaggio incentive o l'evento, avrò le ore proprio lavorate dei commerciali o a questo punto mi verrebbe da dire, ecco, una cosa che vorrei chiarire è come avviene il passaggio da commerciale a area di, come l'avete chiamata, sia biglietteria che programmatica.
+
+28:22 - Laura Garbarino
+Ma quello una volta che… allora tu devi sapere che il commerciale lui fa colui che porta il cliente, poi lui fa la supervisione, poi operativamente se lo gestiscono internamente, quando c'è il passaggio di brief, cioè quando tu vai a presentare al cliente, quando tu vai a presentare al cliente hai già fatto delle riunioni per avere il prodotto finito, che il prodotto finito può essere soltanto logistica, quindi solo voli e Antonella, potrebbe essere Antonella più Ivano e Samantha perché c'è la comunicazione, quindi alla fine tu fai un progetto unico. Nel momento che è confermato, ognuno va nei suoi pezzi.
+
+29:04 - Carlo Sanvoisin#+#Laura Garbarino
+Il commerciale di fatto fa soltanto da supervisore dei vari pezzi.
+
+29:09 - Laura Garbarino
+Il commerciale dovrebbe essere colui che fa l'helicopter view, da noi commerciali con l'helicopter view ce n'è zero. Quindi che è il grande problema che abbiamo, che è il grandissimo problema che abbiamo, perché non c'è nessuno, c'è chi è più bravo nella logistica e non gli interessa niente la comunicazione e quindi la comunicazione la prende come un peso e quindi trascrive quello che gli passa la comunicazione, per quello non mi interessa niente che sia il commerciale, non dico Laura Zaghi, ma nessuno è in grado di fare questo lavoro.
+
+29:47 - Carlo Sanvoisin#+#Laura Garbarino
+uno strumento di monitoraggio, no?
+
+29:49 - Laura Garbarino
+Uno strumento sul quale magari con pochi click… Ma io guarda, lo strumento di monitoraggio serve, ti posso dire, loro non lo vedono neanche questa cosa qua, gli account, lo vediamo solo noi, ma non è che l'ho fatto di non farglielo vedere perché voglio tenere qualcosa nascosto, più che niente non lo guarderebbero, non lo capirebbero e non gli interessa, perché ormai non abbiamo account di 20 anni, eccetto il new business che abbiamo la ragazza che è giovane, altri sono oltre 50 anni, più vicino ai 60 che ai 50. Quindi vuol dire che se non l'hanno imparato fino adesso, non l'imparano a quell'età. Ci vuole veramente una grande capacità quando sei anziana nel cambiare, che non è una delle capacità che hanno altre cose positive, ma non sicuramente questa. Quindi non mi interessa neanche, voglio dirti. Il problema è che ho pochissime persone all'interno dell'azienda che hanno un Helicopter View e questo è il problema che quando metti insieme un progetto, perché non lo puoi fare su uno perché ti tocca di persona, lo devi fare più o meno su tutti e questo è il grande problema, perché alla fine non c'è nessuno, tutti demandano al vicino di casa. E la colpa è di chi fa la biglietteria, la biglietteria, l'operativo, l'operativo, la parte di comunicazione, la comunicazione, ma non c'è mai nessuno che se lo sente suo tutto. E se non ci sono riuscita fino adesso, vi garantisco che non ci riuscirò mai, ma credo che sia una questione proprio di attitudine.
+
+31:35 - Carlo Sanvoisin#+#Laura Garbarino
+Chi se lo sente è un po' come la leadership. O ce l'hai o non ce l'hai, punto.
+
+31:43 - Laura Garbarino
+E noi purtroppo abbiamo persone molto precise, persone capaci, ma non sicuramente che hanno una visione di tenere in piedi un progetto.
+
+31:53 - Carlo Sanvoisin
+E allora qui una domanda mi sorge spontanea, ovvero se noi vogliamo centralizzare tutte quante le informazioni relative, chiamiamolo un progetto, un'opportunità su un cliente, che siano da una parte abbiamo le informazioni economiche, Da un'altra parte abbiamo le informazioni relative alle risorse umane che sono state impiegate. Da un'altra parte ci sono le informazioni relative proprio all'operatività di progetto.
+
+32:21 - Carlo Sanvoisin#+#Laura Garbarino
+Quindi sono tutte quante informazioni che, come mi stai praticamente facendo capire, vengono poi da persone diverse, perché l'operativo magari conosce meglio quali sono le caratteristiche del progetto. La Lorena, non lo riempiono I suoi eh?
+
+32:39 - Laura Garbarino
+Cioè la parte di programmazione lo riempie l'Antonella. Dimmi Lorena se sbaglio, la parte tua la riempi tu, corretto? La parte di Chiara la riempie Chiara, perché lei deve sapere tutto, perché perlomeno il responsabile deve sapere tutto quello che succede nel suo reparto. Quindi nessuno delle persone sotto è mai entrato in questa cosa qua, nessuno ha mai visto, né degli account, né di sotto questa cosa qua. Quello che io ti sto chiedendo è il report, a me interessa a me, per poi condividerlo con loro, perché secondo me molte volte presa dal lavoro non ti rendi neanche conto di cosa sta succedendo.
+
+33:28 - Federico Saladino
+Diciamo un attimo, diamoci intanto un punto di arrivo. Il punto di arrivo è avere questo report. Che cosa ci aspettiamo che questo report scritto dalla gente comunichi? Fa un resoconto di che tipo, che informazioni deve comunicare, cosa deve dire?
+
+33:43 - Federico Saladino#+#Laura Garbarino
+Non è che ci voglia una cosa grandissima.
+
+33:46 - Carlo Sanvoisin#+#Federico Saladino#+#Laura Garbarino
+Tu prendi la com, sommi le com.
+
+33:48 - Laura Garbarino
+Se lo dovessi fare io da ingegnere, io ho fatto matematica e ingegnere, farei altro che fare un algoritmo dove mi va a prendere tutte le com con lo stessa cosa, ti metto insieme prendo tutti I vari dati, me li metto insieme e ottengo. Poi sei tu, perché a me l'obiettivo è capire, usando come strumento, come punto unico, comune le due com o la com unica, le due com nel senso con le due fatturazioni, ma di fatto è uno che identifica l'evento del cliente, perché la com identifica l'evento del cliente, io di fatto non faccio altro che mettere insieme dei dati e questa è la cosa più semplice. Poi io mi aspetto da mi diciate se io oltre queste cose, che è molto facile da fare perché non fai altro che sommare dei dati che hanno già inserito dentro le altre persone, perché l'Antonella che inserirà… Faccio un esempio completo, arriva un viaggio da piccolo, così almeno lo faccio veloce, arriva un viaggio da 50 mila Euro, questo viaggio di programmazione di 50 mila Euro è un cliente di un cliente già che è nostro. Che cosa vuole? Che vuole vedere due location su Milano per fare un test drive, quindi devo contattare chi fa il test drive, devo contattare la location. Arrivo a un certo punto che quando lei lo compilerà, metterà chi lo sta seguendo? Laura Minauro in programmazione, la Samantha sta seguendo l'area del test drive, chi lo sta seguendo? Fatturato suddiviso tra I due, chi lo sta seguendo? Alessandro Donofrio, quindi ho da una parte Laura Minauro e dall'altra parte questi 80 sono 40 e 40, ve lo sto dicendo per comodità. Il cliente me lo conferma, benissimo, quindi arriva a Lorena la parte di Antonella che dice, benissimo, la parte di logistica intesa come sala, riunioni, pranzo, oste, trasferimenti, navette, cazze, razze, cotillon, Cuba 40 mila Euro. A quel punto lì in operativo andrà a Stefania Siciliani che normalmente è quella che ti sto dicendo con I nomi giusti, che normalmente gestisce Nissan. La Samantha invece si terrà Alessandro perché Alessandro farà programmazione operativo e lei poi questi 40 mila Euro magari partono con un margine del 5 per cento, del suo della parte di sotto e chiudiamo che ne so, al 10 in logistica e al 30 in comunicazione, sto dicendo delle cifre. La com la unisci e questa com, quando riepilogo cosa mi dirà? Nissan ha fatto 80 mila Euro, 80 mila Euro dove inizialmente avevamo un margine X, abbiamo un fatturato totale Y con un margine XY dove tu hai, è un cliente consolidato, e ci ha lavorato su questa com Caio e Sempronio. Questo è quello che tu richiedi normalmente.
+
+36:55 - Carlo Sanvoisin#+#Federico Saladino#+#Laura Garbarino
+In più cosa richiedo?
+
+36:57 - Laura Garbarino
+Che fornitori abbiamo utilizzato nella parte di Samantha? In questo caso è semplice perché è un fornitore che è quello che fa I test drive. Magari in un altro momento ci sono qui dieci fornitori diversi perché c'è da aggiungere altre cose. Quindi io nel mio riepilogo non prendo altro che prendere la e voglio andare a vedere nella com cosa c'è. Ok, ce l'aspettiamo in linguaggio naturale. E questo è molto semplice, dopodiché tu vedendo questa cosa qua, io mi aspetto da voi che mi diciate, guarda che avendo una cosa costruita così, con l'AI potremmo anche fare delle cose che magari a me non vengono in mente.
+
+37:34 - Carlo Sanvoisin
+Certo, ma io ti faccio una domanda Laura, ad oggi, da quello che ho capito, la maggior parte dei dati di cui ci hai parlato, in realtà già li tracciate, No, ma gli abbiamo tutti I dati che gli ho dato, io ce li ho.
+
+37:48 - Laura Garbarino
+Cioè poi cosa succede? Che io ho a parte un altro strumento che molte volte non si legge assolutamente con questo, anzi non si legge mai, che cosa succede? È il phasing, che è un ulteriore strumento che non ve lo tocco perché adesso viene fuori dal gestionale, che viene fuori il fatturato del cliente e le marginalità, ok? Ma se voglio mi viene fuori, se io voglio sapere il fatturato XY cosa ha fatto, mi viene fuori anche dall'amministrazione, chiedo il vostro nome e mi viene fuori le fatture che avete messo, però a me ci interessa di più capirlo anche in funzione dei singoli eventi per capire se magari, sto inventando e questo non viene fuori dal totale, se gli eventi piccoli li diamo sempre allo stesso fornitore, se l'evento utilizziamo sempre lo stesso, se I video li odiamo indipendentemente se è più belli, più brutti, sempre lo stesso, che non ti viene fuori dall'amministrazione, perché l'amministrazione ti dà un dato spurio, ti dà il totale. Non so se sono stata chiara.
+
+38:58 - Carlo Sanvoisin#+#Laura Garbarino
+No, sei stata chiara.
+
+39:00 - Carlo Sanvoisin
+Quello che vorrei cercare di capire io è, innanzitutto io capisco che in realtà fra queste I dati che si recuperano anche dal gestionale, noi la maggior parte dei dati li abbiamo, forse c'è qualcosa che dovrebbe ancora essere inserito all'interno del processo, come dicevi la parte soprattutto dei fornitori, mi pare di capire che non è una cosa che voi si facciate in maniera precisissima.
+
+39:24 - Carlo Sanvoisin#+#Laura Garbarino
+La sto facendo mettere a posto.
+
+39:26 - Laura Garbarino
+Noi tieni conto che questo dato lo abbiamo tutte le settimane lunedì, massimo martedì, cioè le ragazze hanno il venerdì per riempirlo e poi la Laura Zaghi me lo gira a me e a Donzelli direttamente il lunedì o il martedì.
+
+39:41 - Carlo Sanvoisin#+#Laura Garbarino
+Quindi noi è un dato aggiornato settimanalmente. Il problema è che ce la diciamo tutta e non è proprio vero che tutti facciano questo discorso di aggiornamento corretto.
+
+39:53 - Laura Garbarino
+La cosa che si vuole è che questo procedimento di call si faccia veramente tutte le settimane, perché poi avrò in maniera, avendo il ripieno avrò un riepilogo sempre, che sarà un riepilogo aggiornato al momento, ma ce lo farò. Certo.
+
+40:11 - Carlo Sanvoisin#+#Laura Garbarino
+E quindi se vengono fuori delle cose… Cioè oggi utilizzate questi strumenti che sono essenzialmente degli Excel.
+
+40:19 - Carlo Sanvoisin
+Il vostro obiettivo è mantenere l'attuale processo di lavoro e lavorare su questi dati che state già tracciando e quindi noi lavoriamo solamente sulla parte finale di reportistica, diciamo di aggregazione, elaborazione di dati.
+
+40:35 - Federico Saladino
+Per esempio io spingerei invece per andare a digitalizzare, cioè nel senso andare, allora il discorso è questo, c'è un lavoro dietro di studio che non è indifferente, cioè letteralmente da digitalizzare quello che è questo per esempio Foglie Excel e questi vostri processi di elaborazione con cui è attualmente lavorata. Però nel momento in cui poi c'è un gestionale che gestisce questi dati, secondo me c'è un enorme vantaggio nel senso proprio dove, immagino per esempio, mentre mi stavi parlando del modo in cui magari entra un new business e poi questo lavoro si va a dividere nelle varie settori che possono essere quello commerciale, quello di biglietteria. Nel momento in cui il gestionale semplicemente ti segue un flusso, dove entra questo nuovo cliente e automaticamente si va poi a dividere dalle varie persone, ognuno avrà la sua interfaccia e ogni persona deve occuparsi di quella lavorazione. Non voglio che ci mettano le mani tante persone, te la boccio.
+
+41:45 - Carlo Sanvoisin#+#Federico Saladino#+#Laura Garbarino
+Come l'hai divise oggi però magari con un sistema di notifiche per dire.
+
+41:50 - Laura Garbarino
+Io ho rinunciato perché le persone che hanno l'operatività in mano non ti riempiranno mai questa cosa nei tempi, perché o non ci sono, o sono incasinate, o te lo fanno con la mano sinistra, non fanno neanche il cash flow, ma di cosa stiamo parlando? Non ti dicono quanti soldi devi pagare al fornitore in anticipo, ma io ce li metto a fare questa cosa qua, ma me lo tirano dietro, ma mai più! Scordiamoci una cosa che io lo devo far fare alle persone, non lo faranno mai, perché stanno chiedendo delle persone che seguono I flussi, perché loro non lo vogliono fare, perciò è inutile, buttiamo via del tempo, soldi e tempo.
+
+42:31 - Carlo Sanvoisin
+Come prima tu hai evidenziato che c'è comunque una distinzione di ruoli, tu hai nominato in questo caso Antonella, Lorena e un'altra persona, ognuno ha responsabilità su una parte di questo processo e comunque ci sono degli step, quindi prima viene una parte di programmazione, poi viene una parte nel frattempo c'è chi si occupa della gestione di risorse. Tutto questo oggi lo fate con un Excel condiviso, quindi io so che entro venerdì lo devo fare, conosco quali sono le colonne, le celle che devo andare a riempire, lo faccio in questo modo qui. Chiaramente poi noi vi potremmo anche far vedere il lavoro essenzialmente che è già stato fatto su tutta la parte di New Business.
+
+43:17 - Carlo Sanvoisin#+#Laura Garbarino
+L'interfaccia è molto più semplice è semplice, è vero, però anche qui con uno strumento ci si può passare le responsabilità diciamo da un utente a un altro tramite un'interfaccia un pochino più facile da utilizzare.
+
+43:28 - Laura Garbarino
+Intanto io ho bisogno di una cosa che sia pronta in 20 giorni, ci siamo già tagliati la testa al toro, cioè io ho bisogno di avere dei dati abbastanza velocemente, quindi massimo un mese devo avere tutto, quindi e siamo oberati, siamo nel pieno del lavoro, quindi io non è che posso pensare di bloccare le persone a fare questa cosa perché me lo tirano in testa. Quindi il mio obiettivo è già un passaggio, riuscire a avere tutta questa informazione, credetemi che loro non è che non facciano niente le responsabili, però è già un lavoro importante per loro, perché purtroppo non fanno solo le responsabili, ma fanno anche l'operativo di alcuni viaggi o di alcune cose, perché se facessero solo la supervisione sarebbe facile. Quindi non creiamoci la vita difficile, perché non ho né il tempo perché sono altri progetti che ci possiamo lavorare, questo è uno strumento che serve a me e a Paolo, molto più semplice e non voglio avere tante grane in piedi, voglio una cosa veloce che mi permetta di fare questa cosa qua e basta. Poi su altri progetti invece che vi diranno le ragazze invece c'è da lavorare di più, perché quello tocca loro, ma questo è proprio numerico. Poi se ti viene in mente che se ti in mente che avendo tutti questi dati che poi ti mandiamo al coso, si può anche ricavare degli altri dati che a me non vengono in mente, ben venga! Facciamo poi un approfondimento sui dati, vediamo bene ad oggi dove sono, quali sono esattamente… Allora, appena noi facciamo, siccome l'abbiamo decisa di cambiarla in questi giorni, appena noi abbiamo le griglie nuove, ragazze, con I dati precisi come ce li siamo detti, uguali uno per l'altro, ve lo mandiamo!
+
+45:13 - Carlo Sanvoisin#+#Federico Saladino#+#Laura Garbarino
+Per noi è fondamentale.
+
+45:15 - Federico Saladino
+Quindi, obiettivo per questo progetto specifico? Uno strumento che, a partire da questi dati già esistenti, sia in grado di calcolare una serie di numeri che possono permettere lo studio. Anche io ho fatto ingegneria, quindi adesso capisco cosa intendi. L'obiettivo è quello di andare a fare uno studio, sostanzialmente, L'intelligenza artificiale qua secondo me può aiutare nel senso che a livello di contesto potrebbe per esempio anche, non lo so, su uno specifico evento il linguaggio naturale, quindi proprio scritto come se fosse… Ma quello è poi quello che ti chiederà Samantha?
+
+46:10 - Laura Garbarino
+Poi entriamo in ogni singolo reparto di cosa hanno bisogno I reparti, per farli funzionare meglio, ma è quello che poi entreremo. Questo serve a me, a Donzelli e a loro, perché questo mi serve a me come strumento finale, riepilogo, perché non è che questi dati non li conosco, io questi dati li conosco, però mi devo mettere lì sempre a fare di epilogo io, non ne ho voglia. Allora a questo punto qua io ho bisogno di avere uno strumento che senza andare a entrare nelle cose e soprattutto mi verifica se tutti l'hanno compilato giù, se c'è una congru… non congru, non mi viene la parola, se è corretto, questa cosa qua come discorso, capisci? E poi mi permette di fare un po' di ragionamenti, mi permette di dire ma avete capito quanti… perché se io dovessi chiedere adesso quanto fattura la biglietteria, non me lo sa dire nessuno, non neanche Quanti viaggi incentive, hai fatto cento la percentuale dei viaggi incentive delle convention, dei show che noi facciamo? Non lo sappiamo? Capisci? Cioè ci sono tante cose che non ti… Scusa un attimo che non vorrei… Pronto? Non è pronto.
+
+47:24 - Unidentified Speaker
+C'è capito?
+
+47:25 - Laura Garbarino
+Ci sono tanti dati che puoi tirar fuori, che ti mancano proprio che non li hai.
+
+47:32 - Carlo Sanvoisin#+#Laura Garbarino
+Anche stupidi, anche stupidi capito? Il check di coerenza lo faccio io, mi interessa a me, sui fornitori, non sui clienti.
+
+47:44 - Laura Garbarino
+Sui clienti non faccio un check, cioè sul fatturato sì, perché il gestionale nostro ha la fatturazione, ha il cash flow e il margine viene fuori dai costi ricavi. Tutto fatturato tot costi inseriti in commessa, quella è la cifra. Poi cosa succede? Poi vai a verificare se c'è una discrepanza tra questo e quello là, vai a vedere se la fattura è stata inserita doppia nel gestionale, se mancano in questo qua dei costi che non sono stati attribuiti in quella commessa e serve da check per il bilancio.
+
+48:31 - Carlo Sanvoisin
+parte fare analisi sui dati che sono presenti principalmente in questo Excel e in forse altri che ci fornirete più relativi?
+
+48:39 - Laura Garbarino
+No, ma è un Excel unico che ha le varie suite.
+
+48:43 - Carlo Sanvoisin#+#Laura Garbarino
+Ok, perfetto.
+
+48:44 - Carlo Sanvoisin
+Quindi diciamo che da qui noi prendiamo I dati per fare le analisi, quindi quanto margine ho su questa tipologia di cliente, quali I clienti grossi da chi sono gestiti per la maggior parte, I clienti piccoli che stanno lavorando più?
+
+48:59 - Laura Garbarino
+voglio farmi un po' di pippe su tutto quello che posso tirare fuori da questi dati.
+
+49:05 - Carlo Sanvoisin
+Ok, perfetto e questo sicuramente si può fare. Poi c'è un altro ambito invece che è proprio il cross check, quindi eventualmente se noi abbiamo dei dati finali aggregati sugli ordini, sulle fatture, bisognerebbe fare un check con...
+
+49:20 - Carlo Sanvoisin#+#Laura Garbarino
+Ma questo lo fa già una persona che fa questo di mestiere.
+
+49:24 - Carlo Sanvoisin
+Ok, allora noi ci concentriamo sulla parte di Diciamo che I prossimi passi saranno sicuramente entrare nel dettaglio di questo Excel e di ognuno dei suoi fogli e capire, noi io e Federico dobbiamo sicuramente capire perfettamente ognuna di queste colonne a cosa si riferisce in maniera tale che una volta ci abbiamo una comprensione più dettagliata dei dati che abbiamo in possesso, ti possiamo fare una proposta su come l'intelligenza artificiale potrebbe fare analisi. Da quelle che sono le tue richieste, quindi principalmente su appunto margini, fatturato, distinzione fra diverse aree, diverse persone, come vengono allocate le risorse e via dicendo, tutto quello che ci siamo detti oggi e poi magari ti diciamo ok, inoltre si potrebbero fare quest'altro tipo di analisi perché comunque avete questi dati.
+
+50:17 - Carlo Sanvoisin#+#Laura Garbarino
+Esatto, e potremmo anche strapolare altri dati. Esattamente.
+
+50:21 - Federico Saladino
+Resta sempre poi una cosa molto importante, da notare che c'è sempre il solito concetto, qui purtroppo Laura, che è il solito discorso. Garbage in, garbage out. Cioè, nel senso, lo strumento, il tool può funzionare a patto che I dati che gli diamo dentro siano corretti.
+
+50:39 - Federico Saladino#+#Laura Garbarino
+Ebbene, no, questo non funziona. Cioè, sta sbatteria.
+
+50:42 - Federico Saladino
+Esatto, altrimenti si sbarella, nel senso. Perché il discorso è questo. Cioè, le strutture che possiamo fare adesso, rispetto al codice tradizionale di una volta, Però questo non mi creerà I problemi, ti spiego perché.
+
+50:57 - Laura Garbarino
+Noi questo strumento lo usiamo già da 5-6 anni, quindi è uno strumento consolidato. Poi cosa succede? Che c'è persone tipo Ivano che non lo fa mai o lo fa quando si ricorda, ci sono persone tipo la Laura Ronzi, l'Antonella che lo fanno in maniera dire precisa, pontuale, c'era prima chi faceva l'operativo dell'EPM e che lo faceva e non lo faceva, volte sì, volte no, idem l'operativo perché dipende molte volte che lei ha il più il problema perché ha tre reparti, quindi non so tu Lorena se vuoi dare il subappalto a le persone tue sotto, però devi essere certa che lo facciano.
+
+51:42 - Laura Garbarino#+#Lorena Cavecchi
+Non ho capito, si sente niente tu, Lori e lui. La Gabriella lo fa perché lei ha l'accesso e la sua parte la inserisce lei, visto che Pagliano e Lattopia si conosce già in estere, quindi la parte voli e invece quella di operativo viene aggiornata tutte le settimane.
+
+52:03 - Lorena Cavecchi
+Ok.
+
+52:04 - Laura Garbarino#+#Lorena Cavecchi
+Sì, sì, sì, quello c'è perché un incontro settimanale mio con Leandro.
+
+52:09 - Laura Garbarino
+Esatto, voglio dire, poi troverete su questi fogli, delle voci in più che magari non vi ho chiesto, che non servono a me, ma servono ai singoli reparti che utilizzano su questo foglio Excel, tipo l'operativo c'ha che ne so il cash flow.
+
+52:29 - Lorena Cavecchi
+Abbiamo delle colonne che ci servono per identificare se vengono fatti determinati passaggi, tipo l'inserimento del cash flow, piuttosto che teniamo sotto controllo I budget giornati di settimana e settimana per vedere se ci sono delle diversità rispetto agli avanzamenti budget.
+
+52:51 - Laura Garbarino
+Mi va bene averli, ma nel mio recap totale non mi interessano I passaggi in mezzo, mi interessa l'iniziale e il finale.
+
+53:04 - Carlo Sanvoisin
+Come state spiegando ci possono lavorare più persone ci lavorano magari in momenti alterni. Dobbiamo sicuramente avere un riferimento su quando il dato è pronto e utilizzabile.
+
+53:19 - Carlo Sanvoisin#+#Laura Garbarino
+Poi chiaramente l'inserimento dei dati deve essere standardizzato. Vi faccio un piccolo esempio.
+
+53:25 - Carlo Sanvoisin
+Qui da una parte vedo le date numeriche e su un'altra riga c'è una data invece 17 dicembre 9 dicembre scritto invece con le lettere.
+
+53:37 - Carlo Sanvoisin#+#Laura Garbarino
+fatti uguali, tutti nello stesso modo, tutti standardizzati.
+
+53:41 - Carlo Sanvoisin
+Quindi io direi, magari oggi siccome mancano cinque minuti, lasciamoci con I riferimenti delle persone che dobbiamo consultare per capire come vengono oggi compilate questi dati, in maniera tale che magari andiamo a fare degli approfondimenti mirati su ognuno di questi sheet di questo Excel, capiamo come vengono compilati oggi questi dati, quando vengono compilati, da chi Aspetta però, non farei ancora questo passaggio, perché sennò diventa troppo lungo e non c'è tutto sto tempo, perché abbiamo anche altri lavori che poi ti chiederanno da fare.
+
+54:16 - Laura Garbarino
+Io direi adesso che loro si impegnano oggi lunedì, se riusciamo venerdì, a darvi per la prossima settimana già con tutti I dati corretti che io ho chiesto, perché questo è sbagliato. Quindi con I dati che noi interessano, poi le colonne che noi non interessano, che interessano loro, mettiamo in fondo, che voi non le guardate neanche. Cercheremo di dare a tutti lo stesso modo, si devono parlare tra di loro prima, le persone che sono qua, quindi avere lo stesso a metodologia. Dopodiché secondo me è inutile che tu parli, perché quelli sono I dati e non li cambierò mai e quella è quella che ci serve. Se poi tu ritieni che serve in più, mi chiami a me e lo dici a me. È inutile che parli con le singole persone, perché intanto quello che devono mettere dentro sono quelle dati lì. Non è un problema, ne parli con me e tiro fuori le singole persone che non hanno il tempo, perché poi lavoreranno su altri progetti.
+
+55:10 - Carlo Sanvoisin
+Diciamo che non vorrei che fanno un lavoro che per noi magari non è proprio deutico, quindi diciamo che magari una piccola overview di come devono essere disposti e scritti I dati per fare in modo poi che l'intelligenza artificiale li possa leggere in maniera semplice, perché non vorrei che fanno il lavoro di una settimana per standardizzare e poi magari I dati potevano essere standardizzato in un altro modo che era molto più profedeutico appunto a fare poi un'analisi con l'intelligenza artificiale.
+
+55:39 - Carlo Sanvoisin#+#Laura Garbarino
+Laura, mi posso fare una domanda?
+
+55:42 - Federico Saladino#+#Laura Garbarino
+Adesso che mettiamo a posto il file, dobbiamo risistemare tutto il passato?
+
+55:48 - Antonella Osmetti#+#Carlo Sanvoisin
+No, no, no.
+
+55:50 - Antonella Osmetti
+Solo da adesso in poi?
+
+55:52 - Laura Garbarino
+Allora, tieni conto che lo facciamo adesso in poi, ma poi interessa soprattutto me per il 2026, perché il 2025 lo dobbiamo tenere.
+
+56:03 - Antonella Osmetti#+#Laura Garbarino
+Sennò tutti I budget io per esempio li devo scorpolare nella biglietteria.
+
+56:08 - Antonella Osmetti
+Quello che è fatto lo lascio così.
+
+56:11 - Laura Garbarino
+Sì, quindi non avremo un dato pulito per il 2025, ma ci prepariamo ad averlo per il 2026.
+
+56:18 - Federico Saladino#+#Laura Zaghi
+Qui Laura, tra l'altro un'altra cosa, è proprio per questo che io... E ha detto sì. Ho parlato sopra qualcuno.
+
+56:27 - Laura Zaghi
+No, scusami.
+
+56:27 - Federico Saladino
+Dicevo, allora, questo allora, dal momento che mi hai detto, Laura, serve una cosa veloce, cade già quello che avevo in mente, io nel senso a livello di struttura. Il discorso, per esempio, che ci stiamo trovando ad affrontare in questo momento, ovvero il fatto che I dati sono scritti in maniera diversa ogni volta, eccetera eccetera, E' quello proprio che poi un gestionale ti va a prevenire, perché hai una fase di validazione. Una data è una data, è un formato data. Federico ti chiami? Sì. Allora io mi chiedo, sono Laura Gerberino, non mi ripetere le stesse cose.
+
+57:05 - Federico Saladino#+#Laura Garbarino
+E no. Punto. Finiamola lì. No, no, no.
+
+57:08 - Laura Garbarino
+Perché se no poi io mi arrabbio.
+
+57:10 - Federico Saladino#+#Laura Garbarino
+Te lo dico già proprio col cuore in mano. Sì, sì, no, ma non era per… Mi va benissimo quello che state facendo, non mi ripetere le cose, ok?
+
+57:19 - Laura Garbarino
+ti dico no, abbiamo anche un budget complessivo su questo lavoro, siccome c'è da spendere da altre parti, questa è una cosa in più, che deve essere solo fatta così, quindi non ho soldi da investire su questa parte, deve essere solo una cosa che serve a noi e la cercheremo di fare più automatizzata possibile, ma non voglio spercare tanto tempo, né nelle risorse, né in voi come budget, perché non ce l'ho. Mi interessa di più lavorare invece sui progetti delle singoli reparti, su quello che abbiamo già lavorato su Antonella e su Laura. Devo lavorare su Lorena, su Ivano e con Samantha sulla parte progettuale e quella invece è progettuale. A me il gestionale qua non lo voglio, punto. Io odio I gestionali, quindi già parti con una che odio I gestionali.
+
+58:10 - Federico Saladino
+No, ma non era per vendere del gestionale, era semplicemente per dire, c'è questo discorso dei dati e della formattazione dei dati è importantissimo, perché altrimenti noi non possiamo fare elaborazioni. Tutto quello che...
+
+58:22 - Laura Garbarino
+Allora, ti posso già dire che a me la data di consegna, ragazzi, tutta sta roba qua, data di consegna, non mi interessa a me per la data finale, la mettete in fondo. A me interessano, ragazzi, ve l'ho detto, I dati che vi ho chiesto. I dati che interessano a noi, ma non interessano a loro, li metti in fondo, che non li devono manco guardare. La data della consegna, non mi interessa niente di quella cosa lì nella finale, quelle lì sono in fase di brief, tu hai la scadenza di consegna del progetto, ma a me che me ne frega, tu non lo guarderai mai quella colonna lì, quindi la metti in fondo, è una cosa che serva a noi di lavoro, quindi io ti metterò la prima parte che è quella che interessa a noi, poi lasceremo una colonna libera e poi partiamo con la parte nostra che a voi non vi interessa neanche. Quindi è più facile formattarla.
+
+59:12 - Carlo Sanvoisin
+Domanda, questo chiaramente per ognuno degli sheet che fanno parte, diciamo, dei dati che ci interessano, quindi non solo su quello che abbiamo visto, ma immagino ci sono anche quelli più su I fornitori.
+
+59:26 - Carlo Sanvoisin#+#Laura Garbarino
+No, no, no, è tutto sullo stesso foglio.
+
+59:29 - Laura Garbarino
+Ok, meraviglioso.
+
+59:30 - Carlo Sanvoisin
+Allora io direi, magari mandateci anche in anteprima il lavoro che state facendo, così gli diamo un'occhiata con Federico e, se notiamo che c'è faccio un esempio. Prima c'era scritto 2025, tutti quanti dati, poi 2026. Magari questo tipo di formattazione qui potrebbe essere un qualcosa che non faci niente.
+
+59:51 - Carlo Sanvoisin#+#Laura Garbarino
+No, ma io ho sbagliato.
+
+59:53 - Lorena Cavecchi
+Possiamo magari sentirci un attimo perché I fogli sono separati, li abbiamo dovuti separare per forza proprio per un tema che se no non riusciamo mai a lavorarci tutti insieme, non possiamo sovrascrivere. Magari poi ne parliamo un secondino, giusto Antonella anche il tuo, tu aggiorni quello separato, il foglio programmazione.
+
+1:00:14 - Antonella Osmetti#+#Lorena Cavecchi
+Si si, io aggiorno il mio, ciascuno di noi aggiorna il suo in realtà, è un unico documento con diversi fogli di lavoro e ogni foglio di lavoro è seguito da un responsabile, ciascuno ha la sua parte da aggiornare.
+
+1:00:28 - Lorena Cavecchi
+Perché non è un file in condivisione, è un file dove lavoriamo tutti ma non è in condivisione.
+
+1:00:35 - Carlo Sanvoisin#+#Lorena Cavecchi
+No, no, no, è in rete, ognuno lo apre quando non lo trova in sola lettura, quindi non è condiviso.
+
+1:00:44 - Carlo Sanvoisin
+Ok, allora diciamo che non credo che sia un problema la differenza di avere dati separati su fogli diversi, possono anche essere appunto su fogli diversi, questo non è importante, però sarebbe importante che ci diamo delle regole di formattazione e forse è meglio che queste regole di formattazione le vediamo insieme, prima magari che vi date voi una regola interna, le vostre persone ci lavorano tutta questa settimana e poi scopriamo che non era la regola migliore o che ottimizza comunque il lavoro che noi andremo a fare.
+
+1:01:19 - Lorena Cavecchi
+Ma infatti proprio perché siamo noi questi collegati a compilare questo file, per quello chiedevo a Laura di parlarne un attimo, proprio perché ai Fogli per necessità, proprio perché non è condiviso questo non lavoriamo su SharePoint quindi ognuno compila il suo file e poi lo incolla all'interno di questo progress proprio perché è un progress che non ti permette di lavorare online contestualmente tutti insieme e quindi puoi lavorarci solo quando lo trovi disponibile.
+
+1:01:51 - Carlo Sanvoisin
+Ma se avete separato diciamo le vostre attività su sheet o fogli diversi perché non avere un excel condiviso e ognuno sa che si deve toccare solamente il suo foglio?
+
+1:02:03 - Lorena Cavecchi
+In realtà c'è un foglio completo che è quello di cui parlavano Laura e Laura Garbarino dicendo a Laura Zaghi che è quello che riporta tutto insieme e poi ci sono I vari fogli separati delle varie persone. Ora non so, magari si può pensare di fare un unico file dove ognuno compila la sua parte sopra in alto e metterlo in SharePoint, però questo io non lo so. Dovremmo parlarne, sì, magari ognuno ha le sue colonne e lavora sulle sue colonne, senza andare a toccare però l'inserimento, perché a noi quello che potrebbe crearci problemi è l'inserimento di righe se contestualmente lo utilizzano più persone.
+
+1:02:56 - Samantha Garofalo
+se su SharePoint in effetti in condivisione non dovrebbe accadere questo, perché se ognuno di noi sa che dobbiamo gestire quel foglio specifico fino a prova contraria, tra l'altro è tutta la parte anche di cronologia poi che potrebbe essere utile per noi, perché tutti quelli che aggiornano in realtà si possono vedere le versioni precedenti, quindi secondo me potrebbe essere un'idea. Io magari per voi è un sistema ancora non utilizzato, però secondo me potrebbe funzionare in effetti. Più che altro meno macchinone della storia.
+
+1:03:25 - Carlo Sanvoisin#+#Laura Garbarino#+#Samantha Garofalo
+Tu pensa che io pensavo fosse in condivisione? No, ma lo devo aver scontato anche io.
+
+1:03:31 - Lorena Cavecchi
+Io penso che sono all'interno, quindi ti do già l'idea che lo seguo solo numericamente, perché lo vedo direttamente quando me lo girano, quindi io quando lo giro, che lo vedo, non entro in rete, quindi mi vedo un prodotto dove… È un tema che dobbiamo affrontare per il Loser Point, perché non so quale problema c'è con la nasca all'interno della nostra policy per I documenti in SharePoint.
+
+1:04:01 - Laura Zaghi
+Io non l'avevo voluto.
+
+1:04:04 - Laura Garbarino#+#Laura Zaghi
+Io non l'avevo voluto.
+
+1:04:06 - Laura Zaghi
+Non mi ricordo se il formato era il unico che aveva consigliato questo perché risale.
+
+1:04:14 - Laura Garbarino#+#Laura Zaghi
+Allora lo chiamo in diretta.
+
+1:04:17 - Carlo Sanvoisin#+#Laura Zaghi
+Prova a chiedere.
+
+1:04:20 - Laura Zaghi
+Come si dice, Shar?
+
+1:04:23 - Unidentified Speaker
+A condivisione.
+
+1:04:24 - Laura Garbarino
+Ah beh, in condivisione.
+
+1:04:27 - Carlo Sanvoisin#+#Laura Garbarino#+#Laura Zaghi
+SharePoint, nel senso, noi utilizziamo, sì, che poi sarebbe Google Drive.
+
+1:04:34 - Laura Garbarino
+Io bisogno per il report che loro fanno, I vari reparti, che sia in condivisione, il progress, perché in questo momento non in condivisione, perché sembra che tu abbia detto che forse, ma non ho capito bene io, che tu forse hai detto di no, che I fogli in condivisione non vanno bene, perché in questo momento che cosa fanno? Ognuno fa il proprio foglio e poi lo lega, che non va bene, soprattutto perché io sto adesso chiedendo, che è una cosa che vuole anche Paolo, di avere tutta una serie di lettura totale dei fogli attraverso la com, che mi dia tutta una serie di dati. Quindi chiaramente la persona che poi dovrà fare questo società che sta gestendo questa cosa qua, dice se fosse in condivisione è molto meglio, ognuno guarda il suo foglio, però hai la sequenza, hai tutte le cose e c'era venuto il dubbio che non l'avessimo fatta in condivisione, perché forse tu non lo volevi? No? No? Ok. Cosa fa, deve essere condivisione su servers.
+
+1:05:48 - Laura Garbarino#+#Laura Zaghi#+#Lorena Cavecchi
+No, fermi tutti, sono due cose diverse, una cosa è SharePoint e una cosa è il server. SharePoint è online, su cloud.
+
+1:06:00 - Laura Garbarino
+Allora, deve essere SharePoint, online. Giusto. SharePoint è un cloud certificato di Microsoft.
+
+1:06:08 - Unidentified Speaker
+Esatto.
+
+1:06:08 - Laura Garbarino
+In quel modo potete anche di una persona contemporaneamente. Allora chi lo fa il passaggio su SharePoint ragazze? Perché sono incuriosi. No, forse in quel caso noi l'abbiamo messo su OneDrive. Ti faccio chiamare da Lorena, che è quella che è più attiva su questa cosa, ti fa vedere cosa ti vogliamo mettere su SharePoint.
+
+1:06:54 - Carlo Sanvoisin
+Lory lo puoi fare tu?
+
+1:06:57 - Laura Garbarino
+Sì, mi sento con Marco. Va bene, ciao. Bene, quindi si può fare.
+
+1:07:05 - Carlo Sanvoisin
+Perfetto, quindi Metodo di lavoro, già abbiamo fatto questa piccola miglioria di metterlo in condivisione, così ognuno si occupa del suo foglio. Diamoci come obiettivo questa settimana di darci una regola per scrivere I dati, sia in termini di formato, tempi, responsabilità, in maniera tale che poi noi abbiamo una base sulla quale lavorare e poter andare a sviluppare eventualmente uno strumento che fa analisi su questi dati. E su questo se volete coinvolgerci nel momento in cui vedate queste regole di formattazione sentitevi liberi di scrivermi in maniera tale che magari se ti posso dare qualche consiglio in termini di le colonne vanno inserite in questo modo, qui non mettiamo delle righe per esempio che hanno il merge perché quello potrebbe poi andare a compromettere l'analisi e via dicendo su questo insomma.
+
+1:08:02 - Carlo Sanvoisin#+#Laura Garbarino
+Allora questo lo fanno I ragazzi con te.
+
+1:08:05 - Unidentified Speaker
+Perfetto. Benissimo, sì. Grazie a tutti!

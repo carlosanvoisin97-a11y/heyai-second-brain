@@ -1,0 +1,607 @@
+[inaudibile]
+
+Speaker 1: Esatto.
+
+Speaker 1: Sì. Quindi la legge di bilancio, diciamo tutto quello da cui poi discendono, perché per esempio adesso c'è la legge di bilancio 26 che è stata approvata a dicembre, mille proroghe, cavoli vari. La legge di bilancio già prevede dove saranno destinate queste risorse per chi, per come, per cosa. Quindi l'idea potrebbe essere un po' quella, una sorta di, chiamiamolo osservatorio che anticipi un po'...
+
+Speaker 2: L'abbiamo chiamato osservatorio.
+
+Speaker 1: Perfetto.
+
+Speaker 3: Sì, però osservatorio preventivo.
+
+Speaker 2: Sì sì, no no no. Guarda, io ti avevo anticipato in realtà, nel senso che io oggi volevo venire qui per riraccontarvi un po' quello che ci siamo detti fino a questo momento, però vi volevo dire sulla base di quello che noi abbiamo pensato, in realtà poi le possibilità sono infinite. Perché la richiesta che mi è arrivata è stata uno strumento che, integrandosi con le varie fonti, ti permettesse di fare una ricerca avanzata. Quindi che tu già di base imposti dei parametri, dei parametri che comunque guidano anche l'intelligenza artificiale a valutare una serie di opportunità come coerenti o non coerenti, che hanno un match con il profilo, che hanno un match con la vostra azienda, con quello che fate. Però questo fra virgolette era un po' reattivo, quindi che parte comunque da un input della persona che vuole fare la ricerca. Magari inserisce appunto, che ne so, un brief relativo a un cliente, dice guarda io su sto cliente voglio capire quali sono effettivamente le opportunità che si matchano, fa tutti quanti gli incroci con i database e ti restituisce le varie documentazioni dicendoti questa secondo me è coerente e applicabile per questo motivo e via dicendo. Però questo è reattivo. E questo è quello su cui già avevamo fatto la nostra fra virgolette stima di MVP che in linguaggio tecnico sarebbe il minimum viable product, cioè il minimo indispensabile per poter avere uno strumento che funziona e che sta sul mercato. Però, mentre ci lavoravo io pensavo, ma quanto sarebbe più figo se ti arrivassero direttamente le notifiche? Cioè se io ad esempio questo strumento ci cominciassi a mettere dentro i profili dei miei clienti con quelle caratteristiche che sono utili a capire effettivamente quali opportunità sono coerenti per loro, lui ogni giorno si rifà il check e ti dice guarda che tu hai due opportunità da proporre a questo, tre opportunità da proporre a quell'altro. Gli vuoi mandare un'email? Tac, premi un pulsante e gli mandi già l'email con un'introduzione a quella che è l'opportunità, il documento che gli dice guarda questo è il finanziamento, questo è il bando, fa per te perché...
+
+Speaker 1: Domanda.
+
+Speaker 2: Vai.
+
+Speaker 1: Perché mi vengono... Voi avete immaginato questo strumento ovviamente come strumento interno a Future Italy, quindi...
+
+Speaker 2: Non solo.
+
+Speaker 1: Ok, quindi è potenzialmente anche vendibile.
+
+Speaker 2: Io ho pensato tre cose. O ve lo prendete voi e accelerate il vostro business in maniera esponenziale perché se noi attiviamo la parte di notifica, praticamente tu ogni giorno hai, non lo so, 10, 15 opportunità...
+
+Speaker 1: Ti arrivano.
+
+Speaker 3: Praticamente tu senza fare nulla...
+
+Speaker 2: Anche senza fare nulla.
+
+Speaker 3: Cioè tu hai già il brief finanza agevolata.
+
+Speaker 2: Esatto, tu devi praticamente solo confermare. Cioè ovviamente quello non manda niente al cliente fino a che tu non glielo confermi, però l'idea è che io mi sveglio la mattina e mi trovo un report che mi dice guarda che tu su questi clienti hai queste opportunità. Quali di queste vuoi proseguire? Voglio proseguire questa. Ok, magari ti aiuta a scrivere l'email, magari ti aiuta a generare una presentazione veloce che gliela spiega, cioè le possibilità sono infinite. Vi dico, io ieri sera ho detto vabbè non so che cosa mi aspetta domani onestamente, non so proprio bene qual è l'agenda, però per sicurezza facciamo una presentazione. Ho preso il mio documento, l'ho buttato nel mio strumento che fa presentazioni, ve la faccio vedere così magari vi fa sorridere, 5 minuti ha tirato fuori la presentazione.
+
+Speaker 1: Quale hai tu?
+
+Speaker 2: Quale ho io? Ce l'ho tutte.
+
+Speaker 1: Cioè quale usi per la presentazione?
+
+Speaker 2: Allora per le presentazioni uso Claude.
+
+Speaker 1: Claude, ok.
+
+Speaker 2: Sì. E adesso che si è integrato con Figma, hanno fatto diciamo una partnership ufficiale, le presentazioni diventeranno una cosa ancora più precisa. Però vi dico, mi ha fatto sorridere perché poi...
+
+Speaker 3: Ma tu gli dai un support document e gli dici fammi una presentazione, questo è il documento, fammi una presentazione da zero?
+
+Speaker 2: Io gli ho dato il documento di quotazione che avevo preparato per voi, lui c'aveva il contesto del progetto perché comunque io ci avevo già chiacchierato sul contesto del progetto, e vi faccio sorridere perché poi lui è intelligente, quindi che ha fatto poi per dire, nell'ultima slide vi ha messo il vostro claim. Target, cioè è troppo forte ragazzi, dai è troppo forte. Ma me l'ha fatta tutta la presentazione, cioè...
+
+Speaker 3: E in che formato te l'ha fatta? In PowerPoint?
+
+Speaker 2: Questo è in PowerPoint, però si può fare anche in Canva e poi adesso si dovrebbe poter fare pure in Figma che...
+
+Speaker 3: Però tutto Claude. Ok.
+
+Speaker 2: Sì, Claude è il migliore. Claude è il migliore. Sempre rispetto a ChatGPT...
+
+Speaker 3: Ah, io però almeno...
+
+Speaker 1: Secondo me servono per cose diverse, perché no, allora ChatGPT...
+
+Speaker 2: Sì, sono d'accordo.
+
+Speaker 1: Sulla parte più diciamo creativa ti aiuta molto, nel senso che ti butta lì delle idee a cui magari...
+
+Speaker 2: Scusami, non sono d'accordo.
+
+Speaker 1: Tutto da lavorare. Vabbè, forse dipende un po' dal tipo di lavoro che anche che uno fa.
+
+Speaker 3: Allora io per le mie ricerche che faccio io mi trovo, appunto, però non è che mi metto a provare tanti altri, quindi ho usato ChatGPT, ho usato Gemini, però io con Gemini mi trovo bene.
+
+Speaker 2: Per le ricerche Perplexity.
+
+Speaker 1: Sì, no ma a me interessa... Perplexity lo uso.
+
+Speaker 2: Ricerche Perplexity. Ricerche Perplexity perché a livello di fonti è molto più accurato. Invece ragionamento, creatività e soprattutto scrittura, Claude. Io ChatGPT lo prenderei e lo butterei dentro il cestino.
+
+Speaker 3: Ma io non lo uso più sinceramente. Allora io devo dire che ho iniziato a usare Gemini perché, siccome c'ho un account di Gmail Professional, in automatico a me mi ovviamente loro spingevano Gemini, quindi mi era apparso Gemini che era già la versione Pro, quindi alla fine mi sono e mi sono trovato bene. È vero che io comunque sulle fonti sono abbastanza paranoico quindi ricontrollo...
+
+Speaker 1: Uno che mi sta dando soddisfazione per altre cose...
+
+Speaker 2: Però guarda, dopo Perplexity quello è il migliore perché chiaramente essendo un prodotto di Google è molto integrato col motore di ricerca. Quindi non è male, però Perplexity è fatto per quello.
+
+Speaker 3: Per esempio uno che mi piace...
+
+Speaker 1: Quello sì.
+
+Speaker 3: Perché mi è capitato una volta che aveva preso proprio un'allucinazione, mi aveva messo il nome di uno che non c'entrava assolutamente niente.
+
+Speaker 1: Cioè un omonimo.
+
+Speaker 3: Sì, ma neanche, non c'era proprio una roba...
+
+Speaker 2: Io invece ho dovuto sistemare tutto perché siccome gli avevo detto guarda siamo in preparazione per il meeting con l'AD mentre facevo il contesto, lui ha preso e ha cominciato a scrivere per Claudia... aspetta aspetta un attimo, togliamo tutti sti nomi. Comunque sì, tu mi dicevi...
+
+Speaker 1: A me piace molto NotebookLM.
+
+Speaker 2: Lo sai che non l'ho ancora provato?
+
+Speaker 1: Fighissimo. Per sintesi e generazione infografiche e documenti di sintesi collegati...
+
+Speaker 3: Ma io per esempio sto facendo una certificazione di project manager e loro lo spingono NotebookLM e ci sono esercitazioni tra, perché siccome la certificazione è Coursera che è legata a Google, infatti spingono per avere...
+
+Speaker 2: Quello lo devo provare.
+
+Speaker 3: Però non è male quello.
+
+Speaker 2: Però ormai col fatto che io mi costruisco i miei agenti...
+
+Speaker 3: Ma noi poveri mortali che dobbiamo...
+
+Speaker 2: Io faccio tutto un po' più custom su quello che mi serve a me. Cioè l'idea è questa, con l'intelligenza artificiale oggi tu puoi ricreare una figura professionale. Quindi, se voi avete bisogno della figura professionale analyst che fa ricerca costantemente 24 ore su 24, scandaglia il web, cioè questo se voi mi date le fonti giuste, lui può scandagliare il web 24 ore su 24 tramite le fonti ufficiali che per voi sono trusted e restituirvi i brief in maniera strutturata come li volete voi. Li volete fatti per tipo di opportunità? Te li dà per tipo di opportunità. Ne vuoi uno per cliente in cui ti dice per questo cliente devi fare questo e quest'altro? Lo puoi fare così. Lo volete poi collegare all'email in maniera tale che con un click io già scrivo l'introduzione con un messaggio icebreaker del tipo guarda che quest'anno si aprono una serie di opportunità per te, ci vuoi allegare una presentazione esplicativa? Ci alleghi la presentazione esplicativa. Vuoi il documento che ti dice tutti i possibili risparmi che potresti ottenere utilizzando questo bando, questo finanziamento, questa agevolazione? Te lo fa. Poi chiaramente io consiglio sempre di controllare prima di mandare qualcosa al cliente, però l'idea è che un lavoro che prima poteva impiegare magari una giornata per tirare fuori un'opportunità, adesso tu la mattina ti svegli e ce n'hai 25 pronte da ricontrollare e mandare. Quindi l'accelerazione è fortissima. Come ti dicevo prima ci sono diverse possibilità, cioè voi potete decidere di creare questo strumento, pagare un po' di più fra virgolette e tenervelo come strumento vostro che vi accelera il business, e sicuramente questa è un'opzione perché ti dico, io qua nel vostro lavoro, cioè poi chiaramente uno ci deve entrare dentro e deve studiare, cioè l'idea è che io mi devo mettere qua, devo ascoltare proprio voi che mi raccontate i vostri processi, mi raccontate quello che fate e io vi aiuto a trasformare quelle che sono appunto le vostre competenze, le vostre esperienze, il vostro modo di lavorare in istruzioni per un agente che poi si comporta in quel modo lì. Ve lo metto in mano e poi mano a mano che voi dialogate con questo agente, lo allenate. Quindi lui magari inizialmente ha bisogno di più contesto, di più informazioni, poi mano a mano che tu ci continui a lavorare impara e diventa sempre più performante. E questa è una possibilità. Seconda possibilità, creiamo questo software in collaborazione. Vi veniamo incontro sui costi di sviluppo, in quel caso io andrei a coprire essenzialmente il mio costo vivo, se non magari vi vengo ancora più incontro, dipende poi dal tipo di investimento e vado a sostenere proprio anche io una parte di costo vivo. E a quel punto ci sono due opzioni. O si vende ad altre società che cercano questo tipo di supporto per il che fanno il vostro lavoro, e a quel punto si può vendere anche a 5-600 euro al mese secondo me come abbonamento per il tipo di strumento che è. Se vogliamo aumentarlo si potrebbe chiedere anche di più. O altrimenti lo potreste addirittura vendere come un servizio premium dei vostri clienti. Cioè tu dici al tuo cliente, guarda io comunque ti faccio tutta la parte consulenziale che parte però da un tuo input, ovvero tu ogni giorno apri il tuo cruscotto e ti appaiono a te le tue personali opportunità. Se tu aggiorni il tuo profilo per esempio sul tipo di investimenti che vuoi fare quest'anno, in base a quello che tu hai scritto nell'aggiornamento lo strumento incrocia con le varie ricerche che va a fare. Quando c'è un'opportunità che ti pinga e ti interessa, quella tu con un click la mandi a Future Italy e Future Italy te la lavora, per esempio. E quello potrebbe essere un servizio in abbonamento da 150 euro al mese però sui vostri clienti. Sono diverse possibilità. Chiaramente ci sono pro e contro, nel senso che per esempio mi viene in mente, se lo mandate a altri vostri tra virgolette competitor, teoricamente ci sarebbe la possibilità che vi prendano delle quote di mercato. Secondo me non è così perché la parte di ricerca è la parte a minor valore aggiunto. Il cliente non si affida a uno perché gli trova il bando, si affida a uno perché glielo sa lavorare. Quindi io penso che quella per me sarebbe la strada migliore, perché io immagino aziende come la vostra o aziende che sono ancora più verticali sulla ricerca di questo tipo di agevolazioni, che tu gli dici guarda che c'è uno strumento che tutti i giorni ti incrocia i dati sui tuoi clienti, ti manda le opportunità e già ti prepara per potergliola vendere, per poterlo portare dentro...
+
+Speaker 1: Io non vedo un problema sui competitor, un po' per il nostro... un po' perché adesso tanto c'è una comunicazione di bandi in apertura, cioè le notizie ce l'hanno tutti in genere. Dopodiché noi non facciamo un tipo... è vero che la finanza agevolata sicuramente è una delle nostre attività core, però noi per scelta tendiamo a prendere meno clienti e seguirli a 360 gradi. Quindi per il tipo di approccio noi non siamo Warrant che fa...
+
+Speaker 3: La finanza agevolata è una gamba di un'offerta di solito fatta da...
+
+Speaker 1: Sì, non è quantità ma è qualità. E soprattutto...
+
+Speaker 2: Quindi in questo caso tu andresti a vendere agli altri anche la quantità in realtà.
+
+Speaker 1: Esatto. E a loro vendi la quantità. Allora, chi è focalizzato sulla quantità è perfetto per il nostro cliente in questo caso, e non è un competitor. Noi non facciamo transizione 4.0 su 5.000 aziende perché non ci conviene, perché siamo piccoli e per noi è un'attività che ha poco valore aggiunto e abbiamo poche persone che potrebbero seguirli. Noi facciamo il contratto di sviluppo da 20 milioni, magari lo facciamo per tre aziende.
+
+Speaker 2: Certo.
+
+Speaker 1: Quello è l'approccio. Quindi da quel punto di vista non vedo difficoltà nel metterlo sul mercato anche verso competitor.
+
+Speaker 2: Allora forse quella è l'opportunità maggiore, anche perché a questo punto da quello che mi dici non avreste una base clienti così grande da produrre un profitto andandolo a vendere a loro come modello a subscription.
+
+Speaker 1: No, devi andare fuori dai nostri clienti. Cioè se noi questo decidiamo che è un prodotto di Future Italy con o per le aziende, a quel punto lo vendi come prodotto a parte a prescindere dal fatto che sia tua azienda, tuo cliente o meno.
+
+Speaker 2: Sì sì sì sì. Però poi lì come ci arrivi? Perché come lo penetri?
+
+Speaker 1: Vabbè lì marketing, mondi associativi, cioè il mercato riesce a penetrarlo.
+
+Speaker 2: Ecco, questa è un po' la mia domanda per voi, nel senso io sono chiaramente c'ho un team molto competente nello sviluppo tecnico, quindi se voi avete la visione strategica e noi abbiamo la componente tecnica, ci mettiamo insieme e creiamo un prodotto che chiaramente ad oggi è un prodotto che nel mercato non esiste, parliamoci chiaro.
+
+Speaker 1: Sì, sì, questo non esiste.
+
+Speaker 2: Non esiste e in più secondo me è...
+
+Speaker 1: Ma non esiste perché? Perché le conosciamo le realtà appunto che fanno il nostro lavoro, lo fanno anche in maniera massiva.
+
+Speaker 2: Perché ci muoviamo lentamente. Vedrai che entro 6 mesi qualcuno ce l'ha. Entro 6 mesi qualcuno ce l'ha. Perché in Italia ci muoviamo lentamente. Sono sicuro che in America qualcosa già lo stanno spingendo. Era inizialmente questo era nato come la ricerca lead. Se tu adesso vedi sulla ricerca lead proprio in generale, ci sono delle soluzioni. E io ho visto che già 8-9 mesi fa mi arrivavano le sponsorizzate degli americani che dicevano ho creato il software che ti automatizza la ricerca dei lead. Però era una cosa più a livello commerciale proprio più ampio, che ne so, io sono un'azienda che organizza eventi e quello mi cerca potenziali lead interessati agli eventi, ok? Adesso sto cominciando a vedere che qualche software così lo fanno pure in Italia. E però ci sono arrivati dopo. Ti dico, io questo per esempio già l'avevo fatto per un nostro cliente ai tempi, quindi sono stato fortunato, magari oggi se lo trovava a subscription e lo pagava meno. Su questa specializzazione di mercato qua non c'è ancora niente. Quindi saremmo i first mover. Oltretutto, non so se ti ha fatto vedere il prototipo.
+
+Speaker 1: No.
+
+Speaker 3: No.
+
+Speaker 2: Magari te lo faccio vedere. Cioè già abbiamo creato un prototipo che fa capire appunto come andrebbe a funzionare il sistema, però ci fa capire anche la velocità con cui eventualmente lo potremmo portare sul mercato.
+
+Speaker 1: Ed è un prodotto eventualmente... allora arrivano i competitor, adesso ti faccio...
+
+Speaker 2: Sì.
+
+Speaker 1: Perché Future Italy c'ha un miliardo di attività anche parallele, diciamo che questo prodotto potrebbe teoricamente evolvere in... in altre tipologie anche di servizi in aggiunta.
+
+Speaker 2: E certo. Questa è la base. Questa è la base. Cioè io già stavo pensando, se voi mi raccontate bene i vostri processi e il vostro lavoro, dalla parte di ricerca cominciamo a lavorare pure sulla parte di elaborazione. Quindi a quel punto io adesso non so esattamente che tipo di studio fate, che analisi fate, che cosa producete, però se tu mi dici guarda, io i dati li attingo da qui, li lavoro in questo modo e ottengo questo output, mi dai questi tre step, io questi tre step li insegno all'agente e poi li fa lui. E mano a mano tu lo vai a calibrare, a rendere più preciso, a rendere più performante.
+
+Speaker 1: Effettivamente è uno strumento che è potenzialmente...
+
+Speaker 2: Uh, questa è solo la base. Questa è solo la base, si possono fare tantissime cose. Cioè l'idea è proprio che ce la possiamo gestire come vogliamo. Se volete voi ricevere le notifiche su tutte le opportunità, tu ricevi la notifica sull'opportunità e poi decidi se mandare per esempio la presentazione al cliente. Mando la presentazione al cliente, la presentazione già è figa, fa capire in poche parole qual è... e lui dice ah ammazza, interessante, vogliamo vederci per parlarne? Perfetto. Io su quella gli dico fammi l'elaborazione di dettaglio e raccogli tutte quante le informazioni utili per arrivare all'output definitivo, ta ta ta ta ta, mezz'ora ti ha fatto la tua analisi. A quel punto sei pronto per andare veramente dal cliente a proporgli qualcosa di concreto. Poi mi raccontate quelli che sono gli step successivi e io capisco se pure sullo step successivo magari di chiusura c'è un modo di automatizzarlo. Però di base sì, cioè noi dobbiamo immaginare che se voi mi dite il processo è ricerca, elaborazione, presentazione e poi c'è un'altra procedura, tutte queste parti qua noi le andiamo a studiare e le andiamo ad aggiungere come dei moduli aggiuntivi. E questo parliamo dell'accelerazione interna. Secondo me, questo stesso strumento possiamo decidere di venderlo fuori, possiamo decidere di venderlo con magari dei moduli a premium, mettiamoli così, degli add-on. Quindi tu ti potresti prendere il servizio base a 500 euro che ti fa solo ricerca e notifica. Poi vuoi anche i messaggi icebreaker ai clienti e la creazione di presentazioni? Sono altri 100 euro in più al mese. Poi vuoi anche l'elaborazione del documento? Sono altri 150 euro in più al mese e via dicendo. E potete decidere voi, nel senso se non volete dare un'arma commerciale troppo potente a competitor che magari pensate che possono lavorare sugli stessi clienti, allora ci fermiamo a un certo livello di soluzione, magari lo teniamo solo sulla ricerca. Però io penso, ho visto un po' il mercato, ci sono migliaia di aziende in Italia che fanno solamente ricerca di insomma finanza agevolata. Quindi in realtà...
+
+Speaker 3: È un mercato bello bello pieno, sì.
+
+Speaker 2: Eh, e quindi cioè se noi penetrassimo anche solo un 1-5% di questo mercato con uno strumento a 5-600 euro di abbonamento mensile, stiamo parlando di cifre che insomma vanno oltre probabilmente quello che è la vostra fetta di business attuale.
+
+Speaker 1: Allora per noi la complementarità, anche quando Leo me l'ha raccontato un po', mi aveva parlato di voi, insomma la complementarità è evidente perché appunto c'è da un lato tutta la parte tecnica di sviluppo e anche aggiornamento, manutenzione, eccetera eccetera.
+
+Speaker 2: Sì.
+
+Speaker 1: Che per noi è fondamentale, perché per noi avere un partner affidabile anche per il tipo di lavoro che facciamo in cui la riservatezza delle informazioni è fondamentale, è molto importante. E potenzialmente, l'abbiamo già fatto su altri schemi, lavorare in partnership su alcuni servizi o prodotti potrebbe essere interessante, decidendo le modalità se voi siete interessati ovviamente.
+
+Speaker 2: Noi siamo interessati chiaramente. Ti dicevo, io so lato nostro quello che possiamo portare sul tavolo, cioè ti mostro anche adesso il prototipo giusto per darti un'idea di quello che si può fare. Da un'altra parte però chiaramente in maniera anche un po' cauta dico perfetto, io questa realtà però ancora non la conosco, non so effettivamente quali sono diciamo le vostre possibilità di portare poi lo strumento fuori. Cioè se doveste diventare un partner commerciale che fa essenzialmente da intermediario e velocizza quella che è la vendita di questo strumento sul mercato, anche voi mi dovreste fra virgolette fornire un po' di... non ti dico garanzie, però un'idea di guarda, io già ho queste una serie di aziende con le quali c'ho delle collaborazioni che conosco che potrebbero essere dei pilot interessati. Questa è la mia strategia di vendita per portarlo sul mercato. Facciamo l'investimento insieme, noi ci mettiamo la parte di sviluppo, voi ci dovreste mettere la parte commerciale.
+
+Speaker 1: Sì, no su questo adesso ne parliamo anche con Claudia, tanto poi ci confronteremo, però diciamo che la forza di Future Italy è quella degli snodi un po', no? Quindi tutti i vari attori a livello capillare sul territorio che ti fanno da snodo su x aziende.
+
+Speaker 2: Ottimo.
+
+Speaker 1: E quindi da questo punto di vista l'aspetto commerciale me lo sento abbastanza...
+
+Speaker 3: Sì, no poi comunque è una... cioè una cosa ricercata, cioè non c'è neanche bisogno come dire... sicuramente ci vuole la figura di mezzo come la vostra perché io mi presenterei da tecnico e da venditore. Invece voi vi presentate come una figura trusted di mercato, cioè che sta dentro questa nicchia qui.
+
+Speaker 3: Però diciamo passando da questi aggregatori con cui già abbiamo moltissime già relazioni stabilite eccetera, passando questi aggregatori chiamiamoli...
+
+Speaker 2: Ah gli aggregatori gli facciamo proprio... gli facciamo fuori in questo mercato. Anzi speriamo che non si muovano.
+
+Speaker 3: No, nel senso queste tipo che ne so associazioni di cose...
+
+Speaker 1: Associazioni di categoria, associazioni territoriali che dentro...
+
+Speaker 2: Ah gli aggregatori... ok.
+
+Speaker 3: No no, gli aggregatori di sì, gli aggregatori di di di lead diciamo.
+
+Speaker 2: Ok, no perché poi inizialmente loro mi avevano raccontato che esistono dei siti che aggregano un po' le fonti, esatto.
+
+Speaker 1: Sì, no quello che mi fa un po' non riesco a capire è che le istituzioni in primis, cioè tu che metti a disposizione, pensa a incentivi.gov, tutto it, no? Ma non ti viene in mente per dare un servizio pubblico effettivo che al di là degli incentivi governativi che quindi passano tendenzialmente da Invitalia e dal Mimit per le aziende, forse dovresti aggregare qualcos'altro. Cioè quello che è sorprendente è che...
+
+Speaker 2: Sono tutte fonti separate. Sono tutte fonti separate però almeno siamo in un momento storico fortunato perché dall'anno scorso tutte queste fonti, quelle ufficiali quantomeno, sono obbligate a esporre le API. Che sarebbe lo strumento attraverso il quale io mi posso collegare con il mio strumento e posso automatizzare la ricerca. Quindi questa è fondamentale, perché il metodo alternativo è lo scraping, cioè istruire un robot ad entrare sui portali e sulle piattaforme, cliccare e cercare. Ma questa cosa è nel grigio della legalità. Non so se hai presente quando tu entri su un sito e ti dice sono non sono un robot e devi cliccare. È proprio per evitare questo, per evitare che il robot entri dentro e guardi le informazioni. Nel momento in cui tu invece mi esponi la API che sarebbe questa chiave, questa porta attraverso la quale io posso dialogare col sistema, io lo faccio in maniera ufficiale, lo faccio in maniera real time, veloce, ottimizzata. Quindi a livello proprio di costi e tempi e affidabilità dell'informazione, oggi è un momento perfetto per andarsi a integrare con queste fonti. Già loro mi hanno dato una serie di fonti, diciamo mi hanno praticamente già rappresentato il quadro che potrebbe essere quasi il quadro completo. Avevamo detto facciamo comunque un check finale che le fonti siano tutto.
+
+Speaker 1: A livello europeo c'era tutto?
+
+Speaker 2: C'era anche a livello europeo. Dai ti faccio vedere qualcosa.
+
+Speaker 3: C'era pure perché qua avevano aggiunto pure la parte dei regionali...
+
+Speaker 2: Andiamo direttamente... avevo messo qui... tac tac tac tac. Se io faccio così e faccio così... Ah non sono collegato, giusto. Ce l'hai? È memorizzato? Sta lì. Ok.
+
+Speaker 1: Ragazzi se vi hanno lasciati stamattina mi faresti perdonare che non ho avuto nessuna riunione alle 9:00, non ho portato i pasticcini, cioccolatini, non sono niente male.
+
+Speaker 2: Guarda io passo. Intanto mi sono collegato con l'hotspot del telefono che non si sa mai. Allora...
+
+Speaker 3: Qua c'è l'ambasciata cinese che c'hanno...
+
+Speaker 2: Che cosa hanno?
+
+Speaker 3: Bloccano i segnali.
+
+Speaker 1: Sì sì, è vero. Non funziona il telefono in tutta la strada.
+
+Speaker 2: Incredibile. Mamma mia che paura che mi fanno. Allora, questa qua sarebbe la dashboard. Ovviamente tu devi immaginare che noi abbiamo creato questo prototipo con diciamo informazioni che abbiamo raccolto, abbiamo un po' estrapolato, però poi a un certo punto la fase di analisi si è fermata. Quindi io lì ci ho mandato un po' di creatività. Quindi immagina che tutto questo è un qualcosa che noi dovremmo studiare insieme. Quindi quello che c'è qui dentro è dimostrativo, illustrativo, però poi noi possiamo decidere di ah questo è figo, oppure ci mancherebbe questo, ci mettiamo quest'altro. Nella dashboard l'idea che avevo avuto è mettiamoci tutti i KPI principali. Quindi per esempio quanti bandi sono attivi, quanti hanno un match, questo immagina che io sono per esempio l'azienda. Ok? Quindi io entro dentro e mi dice tu ci sono 143 bandi attivi, 9 si matchano con il tuo profilo, esatto col tipo di investimenti che vuoi fare, con la tua ragione sociale, con quello che fai e via dicendo. Alcuni sono in scadenza, qua ti dice addirittura questi sono stati esclusi perché secondo me non sono applicabili su di te. Ti fa la lista delle priorità. Quindi ti dice per esempio qua, ho raccolto dall'Anac che ci sta servizi di supporto specialistico per trasformazione digitale, implementazione, pappa pero, è sopra soglia, ci sta lo score di matching, cioè questo secondo me al 92% di accuratezza è correlato con il tuo profilo. Ti dice il valore, la scadenza, il luogo, il CPV che potrebbe essere appunto uno dei filtri di ricerca che mi avete dato. Ti fa già un'analisi operativa, quindi ti dice alta priorità strategica e via dicendo. Clicchi e ti analizza il documento. Quindi già ti dice punti di forza, rischi, piano d'azione suggerito.
+
+Speaker 1: Ti genera il report.
+
+Speaker 2: E ti genera il report in un attimo. Qua ti continua con tutta quanta la lista. Quindi questa è un po' l'idea di dashboard, si intende la pagina principale operativa, il cruscotto in cui io posso un po' vedere ad alto livello tutto. Poi abbiamo le funzioni di ricerca. Quindi io voglio cercare proprio direttamente bandi e gare? Io ho tutti questi filtri avanzati che sono quelli che mi avete dato voi. Quindi per esempio quando parlavamo di ente erogatore, qua c'abbiamo Invitalia, il Ministero del Turismo, Commissione Europea, Regioni, però chiaramente sono molti sono mock, cioè me li sono dovuti anche un po' inventare perché non abbiamo finito l'analisi. Però ecco, periodo geografico europeo, nazionale, regionale, locale, internazionale. Quindi io scelgo il perimetro, l'ente, le soglie, il settore, questi li ho presi dal vostro sito, la dimensione dell'impresa, tipo di scadenza, codice Ateco, applico e tac. E mi filtra tutto quanto. E questa però è una ricerca già attiva da parte vostra. Quindi che c'ha una parte manuale, perché essenzialmente io devo o cerco per parole chiave, CPV, stazione appaltante o applico questi filtri o tutto insieme, però comunque lo sto cercando io.
+
+Speaker 1: Posso fargli una domanda?
+
+Speaker 2: Sì.
+
+Speaker 1: Se io penso tipicamente viene qua un'azienda nostra e mi dice ho il progetto xy, c'è qualcosa con cui posso finanziarlo? Io posso magari inserirgli una breve sintesi del progetto dentro?
+
+Speaker 2: Gli metti dentro il brief. L'avevo già pensata sta cosa. Proprio questo avevo pensato, che tu prendi il brief del cliente, lo butti dentro e lui fa ta ta ta ta ta e ti tira fuori.
+
+Speaker 3: A prova a prova di idiota, nel senso che così sei sicuro di non mancare niente.
+
+Speaker 1: No, non solo non manca niente, ma tu spesso, adesso m'hanno scritto che Paolo che fine ha fatto che aspettavamo una fondazione, no? Tu finisci la tua... c'abbiamo avuto un miliardo di cose, quindi Paolo quella ricerca non l'ha più fatta, è passato un mese da quando noi abbiamo visto sta fondazione, l'ho rimossa anch'io. Invece tu che fai? Gli appunti presi durante la riunione glieli infili immediatamente lì e...
+
+Speaker 2: Lo posso dire di più? Ho già creato per un'altra azienda uno strumento in cui tu praticamente ogni chiamata che fai sia Teams che reale, la registri e trascrivi e poi sulla base della... e lo so, infatti.
+
+Speaker 3: Per noi è compli... per il famoso tema no, più che altro noi siamo proprio riconosciuti per il discorso riservatezza.
+
+Speaker 2: Eh, però è tutto sui vostri server. Ricordati sempre che se io faccio una trascrizione su uno strumento che non è uno strumento Google, per esempio, o Microsoft, ma è il mio strumento che gira sul mio... avete dei server voi?
+
+Speaker 1: Sì.
+
+Speaker 2: Ok. Che gira sui vostri server, è l'equivalente dell'analyst che prende gli appunti. Quindi quello si sta prendendo gli appunti, rimane assolutamente dentro i vostri sistemi, fa il recap, fa il brief, vi crea l'email di follow up.
+
+Speaker 3: Ma è invisibile? Se è una call o si vede? Perché il problema è che...
+
+Speaker 2: Può anche essere invisibile.
+
+Speaker 3: Eh, perché il problema non ci possono essere questi...
+
+Speaker 1: Sì, i Read AI, c'era inserito...
+
+Speaker 2: Esatto. Io ho rifatto... ho rifatto Read AI per proprio per queste casistiche, cioè il mio cliente m'ha detto questo, m'ha detto io vorrei usare Read AI ma non posso perché appare. Esattamente. E quindi gliel'abbiamo ricreato però nel farglielo chiaramente l'abbiamo tarato sulla loro realtà. Quindi per esempio questa è un'agenzia che fa tanto project management e aveva bisogno che a fine call venissero assegnati proprio i task a ogni persona. Tac, assegna i task a ogni persona, tu clicchi ok e quello invia a ognuno che partecipava alla call tu devi fare questo entro...
+
+Speaker 3: Quello sicuramente è comodo eh, però era una cosa noi se c'è successo in un'altra call tutti in paranoia abbiamo dovuto...
+
+Speaker 1: No, più che altro perché c'era successo durante la call con un ente pubblico e lì figurati se...
+
+Speaker 2: No, in questo caso te lo tieni tu, cioè te lo tieni tu a parte, se sei in presenza o tu dici ti apri il computer e lo fai partire in sottofondo e nessuno se ne accorge, oppure esistono dei dispositivi che registrano, però poi stai andando già su un dispositivo esterno. Io vi consiglio sempre di utilizzare il software perché in quel caso il software voi per qualsiasi cosa potete dire questo gira sui miei server, è come se fossi io, cioè è un'estensione di me stesso. E a quel punto tu c'hai o il brief che ti manda il cliente o il brief prodotto da da questo strumento, lo metti dentro e lui fa tutti quanti gli incroci e ti restituisce le opportunità.
+
+Speaker 3: No ma sì, soprattutto è una questione di timing, così uno a 5-10 minuti metti là, lo fai subito e non ti perdi le cose, capito? Perché il problema è che fai le cose, fai "ah sì mi devo ricordare, devo guardare, fai tu, come fai te".
+
+Speaker 2: Ma intanto Claudia non c'è.
+
+Speaker 1: Allora io soluzioni di questo genere infatti le sto vendendo ai reparti commerciali delle aziende. Perché il reparto commerciale...
+
+Speaker 3: È un CRM perfetto.
+
+Speaker 2: Esatto. Esattamente. Io ho rifatto... lo strumento al quale facevo riferimento è una specie di CRM avanzato proprio perché loro mi dicevano che si perdevano un sacco di clienti per il ricontatto, cioè passava un sacco di tempo.
+
+Speaker 1: Quello potrebbe essere l'altro strumento.
+
+Speaker 3: È vitale per tutte le per tutte le cose commerciali, capito? Tutti questi qua...
+
+Speaker 1: Noi siamo sempre indietro, cioè tu ti perdi i clienti perché non gli rispondi in tempo.
+
+Speaker 3: Allora noi guarda, noi facciamo un sacco di cose, allora c'è abbiamo magari una lead, ti viene fuori un nome, una roba eccetera così.
+
+Speaker 1: No, perché un altro dei progetti che noi abbiamo e che è una vita che non riusciamo a sviluppare perché non riusciamo a svilupparlo come dice Claudia, e infatti su questo poi magari facciamo una riunione con lei, è una sorta di, chiamiamolo CRM ma avanzato strategico, cioè che non solo tiene traccia dei processi, dei memo, delle attività...
+
+Speaker 2: Ma in maniera proattiva ti...
+
+Speaker 1: In maniera proattiva, cioè lei si collega il sabato e la domenica da settimana bianca, apre e vede l'andamento della società qual è, quali sono i prossimi passi, quali sono le cose che ti stanno facendo perdere fatturato perché magari basta una telefonata non fatta e hai perso un'opportunità. Tutto quello che noi abbiamo visto fino a oggi di esistente non le è andato bene tendenzialmente perché diventa una sorta di gestionale statico.
+
+Speaker 2: Esatto. Esatto, esatto. Allora ti dico, io questo esattamente io sono partito da questo CRM avanzato per questo cliente che gli faceva l'aggiornamento essenzialmente dei contatti, perché loro m'hanno detto io ho lavoriamo su una lista Excel. Io c'ho questa lista Excel, ogni giorno le mie persone devono chiamare, cercare l'opportunità, però poi spesso capita che magari chiamano una persona e questa nel frattempo ha cambiato azienda, ha cambiato ruolo e via dicendo. Quindi noi gli abbiamo ricreato il CRM chiaramente digitale con questo strumento che va su LinkedIn e in autonomia si va a cercare le persone e aggiorna, ok? E questo era il primo passaggio. Quello che io adesso gli devo vendere, oltretutto domani, è esattamente la cosa che hai detto te, cioè non solo aggiornare i contatti in base a il ruolo, l'azienda dove sono andati e via dicendo, ma proattivamente se loro mi danno le parole chiave che loro normalmente utilizzano per trovare le loro opportunità e i loro lead, oppure dicono guarda io ogni mattina voglio la lista degli event manager in Italia, cioè gli dai degli input per i quali lui lavora di notte e tu la mattina ti ritrovi il brief pronto dei clienti da contattare, cioè tutte queste cose sono assolutamente fattibili e vi dico ci sono anche delle sinergie con progetti che stiamo già facendo, quindi magari anche a livello di costo cerchiamo di ottimizzarlo, sì. Però le cose che tu mi stai raccontando mi fanno immaginare un processo molto automatizzato e molto accelerato in cui per voi c'è un vantaggio di business diretto nel fatto che il vostro business proprio lo gestite in maniera istantanea e quindi potete anche permettervi magari appunto di onboardare di nuovi clienti, raggiungere delle opportunità che altrimenti non avreste raggiunto. Poi ci sta tutto il fattore commerciale, cioè se voi avete un network, una rete tramite la quale si può veicolare questo strumento, è uno strumento che vale. Quindi se noi ci prendiamo il costo di sviluppo e spendiamo quei 20-30 mila euro congiuntamente, perché io poi per una cosa del genere sotto questo non posso scendere, però ecco a quel punto insomma ci sta una bella opportunità. Eh, non so se hai notato per esempio dalla fine delle nostre call come io sempre ho mandato ogni volta il report in un secondo, la presentazione è pronta in un attimo, il prototipo è pronto in 5 minuti. Perché?
+
+Speaker 1: Certo, sei aiutato.
+
+Speaker 2: Perché sono aiutato, sennò io non potrei fare questo, cioè io...
+
+Speaker 1: Certo. O potresti farne 10 invece di farne 100.
+
+Speaker 2: Sì, io mi sono fatto un calcolo, secondo me nell'ultimo anno ho lavorato come sei persone contemporaneamente, cioè oggettivamente.
+
+Speaker 1: Ma la società è nuova... com'è, come siete strutturati voi?
+
+Speaker 2: Siamo una srl. È un anno che siamo sul mercato.
+
+Speaker 1: E da prima già lavoravate insieme, come...
+
+Speaker 2: Ehm no, io ho fatto diciamo consulenza sempre di trasformazione digitale in Deloitte, poi sono stato in Microsoft e poi ho avuto questa opportunità di aprire questa società, siccome c'erano già dei clienti pronti essenzialmente ho avuto l'opportunità, una persona che mi ha proposto di fare un finanziamento, ho detto ok. Cioè siccome comunque qua in azienda il mio percorso lo sto facendo, è anche veloce per carità, però avevo visto che si poteva fare molto di più oggettivamente.
+
+Speaker 1: Eh beh, sono quelle dinamiche da grandi aziende che poi...
+
+Speaker 2: Sì, sì, sì, sì, sì, esatto. Poi soprattutto paradossalmente in Microsoft ho trovato che pensavo di fare il salto di qualità, e invece Deloitte erano molto più forti. Mi sono ritrovato pure in una società in cui dicevo mamma mia questi vanno lenti proprio, cioè io qua sono loro che devono imparare da me, non il contrario, non mi interessa proprio. E quindi eccoci qua con l'AI. Però AI proprio a un momento giusto, perfetto. Tutti vogliono l'AI, l'AI è diventata veramente uno strumento utilizzabile, cioè ti dico questo questo l'ho costruito senza avere competenze di sviluppo. Io sono un funzionale. Io sono un po' faccio commerciale, faccio gestione, faccio analisi con il cliente, ma non programmo. E questo l'ho fatto senza skill di programmazione. Cioè rendiamoci conto a che livello siamo arrivati. Per dire. Poi c'avresti la ricerca degli incentivi. E quindi anche qua ti vai a mettere voglio supplier o intermediary, voglio questo perimetro geografico, voglio la tipologia di attività con l'industry e via dicendo, applico e mi ricerca. Le analytics le potremmo decidere insieme, cioè come dicevi te, voglio sapere quante opportunità ho in questo momento, voglio sapere quante sono monitorate in target, quante sono chiuse, quante sono pending e via dicendo. Voglio, come dicevi te, l'altra cosa figa è se io trascrivo per esempio tutte le call, oppure a questo strumento gli mando i miei memo vocali, oppure questo strumento lo integro con le email, cioè immaginate che noi dobbiamo raccogliere le informazioni, no? Le informazioni come sono veicolate? Tramite chiamate, tramite messaggi, tramite email e tramite la nostra testa che in quel caso però io posso fare il memo vocale. Io butto tutto dentro in maniera disordinata e quello ti dice... ma se gli manca un'informazione per esempio, ma questo aggiornamento su che cliente va perché non l'hai nominato? E tu gli dici ah no, questo aggiornamento deve andare sul cliente Pirelli, pam, e va ad aggiornare l'opportunità del cliente Pirelli con tutte quante queste informazioni. E io a quel punto qualsiasi informazione che ricevo o che voglio produrre in maniera non strutturata la posso consegnare al sistema che me la va a rimettere in ordine. E con quelle informazioni, più quelle che si cerca lui in autonomia, ogni mattina mi manda il report e mi dice guarda che tu devi fare il follow up di questo, devi mandare la presentazione a quell'altro.
+
+Speaker 3: Guarda che questo diventa l'altro pure strumento che stiamo cercando.
+
+Speaker 1: Eh, questo è questo è clou perché questo è un po' quello che insomma...
+
+Speaker 2: Sì è...
+
+Speaker 3: È il CRM avanzato che Claudia cerca, che si avvicina si avvicina al sogno descritto da lei diciamo.
+
+Speaker 1: Sì. E ma non è un sogno, si può fare.
+
+Speaker 2: Sì. Qui come tu conosci un po' Deloitte, tu immaginati che qua dentro noi facciamo ovviamente in piccolino perché siamo piccolini piccolini, però facciamo...
+
+Speaker 3: Le notifiche, no? Ti dice nuovo bando è uscito oppure là c'avevo prima tipo richiesto check documenti, cioè ti dice già devi fare questo, quello è in scadenza, qua c'è il task, cioè questa è chiaramente mock, però è lì che stiamo andando.
+
+Speaker 1: No, questo è molto interessante. Infatti forse potremmo, stavo ragionando anche sul tipo... perché forse partendo da questo poi parallelamente noi riusciamo a costruirci il nostro CRM aziendale, però iniziando a lavorare insieme, conoscendoci e conoscendo i tuoi processi.
+
+Speaker 3: Però per esempio questo, immagina Elena e Paolo per esempio, già senza andare...
+
+Speaker 1: Lidia, le gare, le gare sono integrate, quindi...
+
+Speaker 3: Lidia, le gare. Cioè tempo, tipo hai e tra l'altro questo semplifica tutta una serie di cose e alla fine libera tempo per cose più strategiche anche per te stessa.
+
+Speaker 1: No, ma è fondamentale perché ti toglie tutta la parte...
+
+Speaker 3: Ti toglie tutta la parte così, capito? Allora poi dopo uno poi decidiamo, no? Perché poi a Paolo magari gli arrivano le notifiche, le cose così, allora magari facciamo una riunione settimanale in cui gli dici guarda, c'ho queste 10 cose, m'ha proposto tre opzioni su quello eh, che vogliamo fare? E tu gli dai il via e gli dici guarda facciamo, concentriamoci su questo cliente, quest'altro lascialo perdere perché non è il periodo, che ne so, oppure eh, oppure proviamo comunque questa cosa. E fai così, capito? Cioè non è che devi fare invii di massa, non è che devi mandare...
+
+Speaker 1: Questi gli accessi, c'è un accesso aziendale da cui possono entrare tutti, come funziona?
+
+Speaker 2: Profilo. Tu puoi decidere di fare il profilo per ogni singola persona. Quindi qui l'ho immaginato proprio per azienda, che già stavo immaginando che tu lo mandi su un'altra azienda. Quindi fai conto che qua è sulla vostra, però l'idea è io la faccio appunto per non lo so, adesso fatemi un esempio di un vostro cliente.
+
+Speaker 1: Possiamo pensare a, non lo so, Angelini.
+
+Speaker 2: Angelini. Io lo metto per Angelini, Angelini si fa tutto quanto il suo profilo e sulla base del suo profilo e degli aggiornamenti che gli dà, tac, riceve le notifiche. Oppure per voi internamente poi si può specializzare con un'utenza diversa. Quindi a quel punto io sono quello che deve fare appunto più ricerca, io vedo i moduli di ricerca. Claudia si vede soprattutto il modulo di analytics perché fa il monitoraggio probabilmente, quindi vuole vedere tutto il funnel.
+
+Speaker 3: Claudia si vede un po' la sintesi, no? Di come stanno andando i progetti, un po' di grafici, cose così. Cioè lei se lei riuscisse, ti dico ti do anche questo diciamo, perché lei è molto... allora lei per esempio se lei potesse avere a dimensione iPad degli analytics ma anche dei grafici, delle cose con cui lei può avere, che ne so, si sveglia il lunedì, prende il caffè e si guarda com'è l'andamento, come se si guardasse il mercato, capito?
+
+Speaker 2: È quello che stavamo cercando di fare, no? Proprio questo, cioè...
+
+Speaker 3: No, sei d'accordo? Cioè Claudia sta cosa di... e le segnala magari, le dà l'andamento così e le segnala subito le criticità. Ricorda che qua bisogna telefonare, che ne so.
+
+Speaker 1: Sì, però aspetta, sono due cose diverse. Claudia qui dentro secondo me non c'entrerà mai. Cioè su questo per la parte di finanziamenti Claudia non c'entrerà mai. Quello che dici tu è la possibile evoluzione...
+
+Speaker 2: Ma sono sono integrati secondo me, nel senso che...
+
+Speaker 3: Eh, quello lo stavo a dire, secondo me è tutta la stessa roba.
+
+Speaker 1: Eh ma no, perché in quello scusami se ti interrompo per capirci con Leo, lì tu c'hai tutta la parte organizzazione, la parte amministrazione, tutto il resto, cioè i piani strategici, la business intelligence, cioè quello è uno strumento Future Italy a tutto tondo sia per l'interno sia verso l'esterno.
+
+Speaker 2: Esatto.
+
+Speaker 3: No, però questo potrebbe essere di cui...
+
+Speaker 2: Esatto.
+
+Speaker 3: No, però lei entra in un profilo da amministratore e vede delle cose che non certo non vedi capito?
+
+Speaker 1: Sì, però su questo lei non entra proprio, perché lei dirà Paolo, m'ha chiamato Massacesi, mandami che che possiamo fare. E lui si scarica da lì e gliela manda.
+
+Speaker 2: Esattamente come dici te, il CRM solitamente è l'ecosistema dentro il quale poi uno inserisce questa tipologia di strumenti. Quindi all'interno del del CRM c'è chi fa magari più ricerca proprio di opportunità commerciali, diciamo new business, che avrà accesso a questo strumento, però poi in realtà questo strumento alimenta il CRM. Perché quando io ho trovato dei prospect proprio perché so che c'è questa opportunità per lui che funziona, c'è il match, gliela voglio proporre, gli voglio mandare la presentazione, voglio cercare di farci la call e via dicendo, tutta questa informazione fluisce direttamente sul profilo prospect o cliente che sta dentro il CRM e gli va ad aggiornare l'attività. Quindi per esempio se ho trovato l'opportunità, ho detto sai che c'è questa opportunità a me torna, mandiamogli il messaggio. Mandiamo il messaggio con allegata la presentazione perché poi io per esempio, ecco come nel caso vostro, non mi piace da commerciale anche non mi piace fare una presentazione piatta aziendale sempre uguale, se voglio proporre un'opportunità al cliente mi piace portargli un qualcosa di personalizzato, che è il motivo per cui poi mi ha spinto per esempio a creare questo prototipo. Per far vedere già il valore di quello che si può fare. Vai a automatizzare questa parte, gli mandi la presentazione, lui ti risponde e ti dice wow, interessante, ci vediamo il 14 per fare un meeting in cui ce lo presenti? Tac, io mi faccio lo screenshot dell'email, proprio per fare le cose base eh, perché poi possiamo fare pure le integrazioni, però facciamo le cose base. Screenshot dell'email oppure copy paste, lo butto dentro e lui va ad aggiornare l'attività sul cliente. Quindi lato CRM globale io ho cliente Angelini, c'è stato uno scambio, è da presentare il 14.
+
+Speaker 3: Lo sai che c'è anche, scusa se ti interrompo ma è chiarissimo, ma lo sai cosa anche? Perché pure il problema uno piglia, fa una cosa, poi se ne va, qualcuno lo riprende, se tu ce l'hai così, no? Metti tra due anni uno che ne so, io non ci sono, ah Angelini, entra dentro Angelini, vede tutto quello che è successo fino all'ultimo scambio di email, capito? Cioè e tu non è che gli dici passami il cliente, vattelo a studiare, cioè non devi perdere neanche tempo a dirgli...
+
+Speaker 2: C'ha tutto lo storico.
+
+Speaker 3: C'ha tutto lo storico.
+
+Speaker 1: Sì. Con la documentazione.
+
+Speaker 3: Quindi arriva arriva una nuova risorsa e tu gli dici ok, tu sei su questi tre clienti, vatteli a intanto primo step devi imparare, vatteli a studiare sul CRM, capito?
+
+Speaker 2: Esattamente.
+
+Speaker 3: Così sei aggiornato, poi vedi deve essere aggiornato e vedi capito? Cioè.
+
+Speaker 2: E ci fai fluire dentro i documenti. Quindi per esempio la prima presentazione, bam, va subito dentro. Poi sono andato dal cliente e gli ho portato un'analisi di dettaglio sulla documentazione legale? Rimane dentro. Voglio vedere tutto lo storico di com'è andata? Ce l'ho. Voglio chiedere a un agente di farmi un recap? Io c'ho l'immaginina in basso a destra del robottino, ci clicco sopra e gli dico senti, fammi un recap dello storico delle interazioni con questo cliente. E lui tu tu tu tu tu e ti fa il recap.
+
+Speaker 3: E sta solo a, e sta solo a noi umani fare fare lo sforzo minimo di buttare dentro le note del meeting, il brief...
+
+Speaker 1: Io sono un altro potenziale cliente per te.
+
+Speaker 2: Sì? Ottimo.
+
+Speaker 1: Sì, in ambito consulenza del lavoro. AI applicata... eh sì, infatti.
+
+Speaker 3: Tutte le norme, le normative, le normette, tutti i cambi, un casino pazzesco, sì.
+
+Speaker 1: Ehm...
+
+Speaker 2: Che dite? Perché io già per esempio scusa perché nel frattempo io ragiono sempre sulle soluzioni, stavo pensando proprio questo ecosistema integrato che vi potremmo creare in cui da una parte vi mettiamo proprio la raccolta delle informazioni, quello che dicevo prima a livello di trascrizione e categorizzazione. Tutto questo fluisce dentro il CRM per tenere sempre aggiornati tutti quanti i contatti con da una parte notifica attiva di quelle che sono le scadenze, i task, le persone da ricontattare, guarda che a quello gli devi mandare una presentazione eccetera eccetera, e questo è più per gli operativi. Per la direzione invece sono notifiche più sull'andamento dell'azienda però avendo la visione d'insieme, e poi dentro ci mettiamo il modulo di ricerca, modulo di ricerca sempre che va ad alimentare anche le opportunità sui clienti. Lo colleghiamo a quel punto con software email, basta, tutto quello che è in entrata alimenta il sistema e sei già pronto per avere gli output in uscita.
+
+Speaker 1: Senti, a livello di sicurezza e privacy come siamo messi?
+
+Speaker 2: Si può gestire tutto. Nel senso che io vi consiglierei di, adesso non so che email utilizzate...
+
+Speaker 1: Microsoft, Outlook. Abbiamo tutto Microsoft noi al momento, anche il cloud.
+
+Speaker 2: Siete disposti a stare su cloud Microsoft?
+
+Speaker 1: Sì.
+
+Speaker 2: Allora senti, facciamo così. Siccome voi non dovete mandare email massive, dovete solo mandare email mirate, va bene, restiamo tutto su cloud, mi dovrei studiare l'integrazione con Outlook perché Microsoft è un po' un sistema chiuso, quindi magari c'è qualche step di integrazione in più, però però si può fare tutto. E a quel punto bisognerebbe studiare bene le vostre esigenze così che non vi sparo cifre così. Io adesso ti ho detto una cifra orientativa e io in quella cifra cercherei di farci rientrare sia la parte di appunto CRM base, più parte di notifica, più parte di raccolta di input destrutturati con categorizzazione all'interno dell'opportunità. Poi ci aggiungiamo questo modulo qui che abbiamo appena trattato, come abbiamo detto magari quello lo cominciamo come MVP e poi lo sviluppiamo insieme, quello ha anche ritorno di investimento sull'esterno. Tenete sempre conto che avere un CRM intelligente per voi non è solo l'efficientamento interno, ma quello è proprio un'accelerazione di business, cioè io posso lavorare su più clienti oggettivamente.
+
+Speaker 3: Certo, ti fa fatturare di più.
+
+Speaker 2: Sì. E io questo nei business case non ne tengo neanche mai conto perché non ce n'è bisogno, solitamente mi raccontano dei processi così, cioè vi faccio un esempio, qua c'ho c'ho una cosa molto simile. Praticamente io qua mi sono studiato per questo cliente che loro per profilare i clienti oggi ci mettono 1000 ore l'anno. Quindi 1000 ore l'anno perché c'hanno un team che sta lì, va su LinkedIn e cerca di capire questo cliente è adatto a me, non è adatto a me, 1000 ore. Questo si riduce a 250, c'hai il 70% di risparmio, tu hai risparmiato già una risorsa. Cioè solo facendo questa cosa tu una risorsa invece che metterla sulla ricerca clienti la metti direttamente sul contatto del cliente. Quindi a livello di efficientamento ti sei già coperto il costo di sviluppo, però in più hai anche l'incremento di business.
+
+Speaker 3: Sì sì, poi...
+
+Speaker 2: Quindi per esempio qua io c'avevo la profilazione, la messaggistica, perché poi quella ci spendeva 20 minuti a persona per pensare al messaggio. Tac, un minuto, lo devi solo rivedere e lo mandi. Poi ho detto, gestione della pipeline. Perché? Perché oggi nessuno c'ha visibilità su quello che succede. Allora perdi tempo a cercare di mettere insieme le cose. E anche quello automatizzato. Le notifiche? Se tu ogni volta devi entrare su Outlook, guardare l'ultima email, dire oddio non mi ricordo che cosa dovevo fare con sta persona, il tempo che perdi. In questo modo ogni mattina tu hai esattamente le azioni che devi fare. La ricerca proattiva poi è la cosa secondo me più figa in assoluto. Cioè ricerca proattiva chiaramente quella c'ha il suo costo perché significa che devo, poi dipende anche dalle fonti, nel senso questo cliente qua per esempio lavorava solo su LinkedIn. Quindi per loro era importante entrare su LinkedIn con una serie di parole chiave e lo strumento in automatico tramite quelle parole chiave trovava lead e aziende per loro in target. Per voi adesso non so come funziona, me lo dovreste spiegare, però poi eventualmente...
+
+Speaker 1: Noi non facciamo la ricerca adesso, la generazione di lead non arriva mai da...
+
+Speaker 3: È network based diciamo.
+
+Speaker 2: Però questo significa che è un'altra cosa che voi potreste fare e diventa un'esplosione del business a quel punto. Perché tu hai, se hai fatto pure l'osservatorio, tu hai nuovi potenziali clienti già in target in linea con te e già la proposta da fargli.
+
+Speaker 1: Esatto, perché in questo caso hai il prodotto, cioè mentre noi oggi ragioniamo sui servizi, quindi chi si rivolge a noi si rivolge a noi perché sa il tipo di servizio che realizziamo, nel momento in cui tu e quindi è difficile per noi andare sul mercato bombardando gente che non si conosce. Nel momento in cui tu hai il prodotto è molto diverso, perché sul prodotto l'anima più commerciale e meno istituzionale te la puoi giocartela diversamente.
+
+Speaker 3: Diciamo noi comunque facciamo un'offerta in cui poi ci scervelliamo anche parlando fra di noi per aggiungere pezzi...
+
+Speaker 1: Cioè non è mai una cosa uguale all'altra, capito?
+
+Speaker 3: Un ventaglio di servizi da cui loro possono pick and choose, magari il nostro obiettivo è sempre avere magari un fisso e poi coi servizi gli fai una delle aggiunte così.
+
+Speaker 1: Qui invece tu questo puoi spararlo, l'osservatorio puoi spararlo come prodotto massivo.
+
+Speaker 2: Questo qualsiasi azienda ne ha bisogno oggettivamente, cioè poi in questo momento che si fanno investimenti...
+
+Speaker 3: Cioè noi prima di mandare una proposta dobbiamo fare analisi, ricerche, cose, misure, cose, poi incontri, poi tipo riunione interna, poi decidiamo eh, e poi uno prepara la proposta, capito? Per farti capire, non è mai ed è ad hoc, ed è ad hoc, cioè noi ci rivendiamo certe cose ovvio, però di base è ad hoc.
+
+Speaker 1: Questo vuol dire creare un'anima più commerciale per noi, meno istituzionale che non fa male il famoso...
+
+Speaker 2: Allora, sono contento perché vedo che comunque già avevate pensato a delle esigenze, delle possibili evoluzioni, delle accelerazioni di business, quindi mi sembra che comunque fra virgolette il need c'è. Come lo portiamo avanti a questo punto?
+
+Speaker 1: Adesso io direi che, ma voi ci avete mandato una proposta...
+
+Speaker 2: Sì, ho mandato la proposta per la parte proprio di sviluppo del minimum viable product, sì.
+
+Speaker 1: Ce l'abbiamo, ce l'ha Giulia questa, che così ne parliamo con Claudia e gliela facciamo firmare e partiamo?
+
+Speaker 3: Giulia ce l'ha.
+
+Speaker 1: E quella è proprio per partire intanto.
+
+Speaker 2: Esatto. E se volete però io ci lavoro sul CRM intanto. Ditemi voi.
+
+Speaker 1: Sì, magari questo quando lei torna dalla settimana bianca sarebbe importante che lo vedessimo con lei, perché anche in video eh.
+
+Speaker 3: Sì sì.
+
+Speaker 1: E così ti diamo un'idea di, cioè ti dà un'idea di quello che lei ha in mente, che ce l'ha in mente solo lei per cui diventa...
+
+Speaker 2: Sì, no è meglio ascoltare lei, ho capito. Ho capito qual è il mood.
+
+Speaker 1: Esatto. Sì, no su questo, questo in particolare sì. Perché lei magari poi noi abbiamo determinate esigenze che a volte sono diverse dalle sue. Però lei su questo è una roba, guarda noi la conosciamo, lavoriamo con Claudia da 10 anni, stavamo in Alitalia insieme. E questo è una cosa che lei ha in mente già dai tempi di Alitalia perché ti avrebbe ottimizzato, cioè non c'era ancora l'AI, era un altro mondo proprio. E quindi abbiamo realizzato una roba alta così cartacea, ti dico solo questo, fatta tutta in PowerPoint, sono tutte... e quindi su questo è bene che ne parli con lei e...
+
+Speaker 2: Beh, se già però vedi quanto ci velocizziamo, perché se lei già ha in mente come deve funzionare...
+
+Speaker 1: Sì, lei ce l'ha in mente chiarissimo.
+
+Speaker 2: E allora, questa è una cosa è un vantaggio che io spesso non ho con i clienti, nel senso che io per esempio per il prodotto simile che ho dovuto vendere all'altro cliente, gliel'ho fatta io l'analisi. Insomma, utilizzando grandi risorse perché oggettivamente questi li dovevi rincorrere, non sapevano neanche loro che cosa dovevano fare della propria vita, però poi ci ho lavorato e siamo arrivati al prodotto finale. Se tu già c'hai l'idea di partenza, andiamo, andiamo speditissimi. E soprattutto ti posso subito dare lo strumento che realmente realizza il valore. Per me questo è molto molto interessante. Io...
+
+Speaker 1: Sull'osservatorio io direi di, chiamiamolo continuiamo a chiamarlo osservatorio.
+
+Speaker 2: Chiamiamolo osservatorio. L'unico problema è che mi mancavano due tre dati, nel senso che voi mi avevate dato una lista di fonti e io devo essere sicuro che è quella, perché per poter fare una quotazione di dettaglio deve essere confermata. Avete tutto nella quotazione.
+
+Speaker 3: Però diciamo che lì, allora comunque Paolo e Lidia avevano un'intervista, avevano un po'...
+
+Speaker 1: Adesso ce la rivediamo insieme.
+
+Speaker 3: Avevano già dato un feedback, lui aveva inserito delle cose eccetera, quindi quella in realtà...
+
+Speaker 2: È quasi un'ultimata infatti. La cosa che mi manca di più sono, avevo chiesto una specie di matrice con i parametri di ricerca, cioè mi avevate spiegato che per determinati profili clienti si applicano delle regole piuttosto che altre, cioè io devo avere questa queste sono le regole che devo insegnare all'AI. Se io non do queste regole all'AI, lui non sa come filtrare i risultati.
+
+Speaker 1: E la possibilità di integrare il brief ci dobbiamo aggiungere.
+
+Speaker 2: Ok. No, non l'avevo messa. Eh mi mi fate, facciamo così, se mi dite esatto, dati mancanti e funzionalità aggiuntive che vorreste vedere quotate, io ve le posso pure quotare a parte, così vi dico guarda, sono 25 la base. Se vuoi il brief ti aggiungo altri x, se vuoi anche la notifica, perché adesso dobbiamo un attimo studiarci cos'è realmente il quick win, il cosiddetto quick win che subito ottengo il valore, ok, sono queste cose qui, partiamo con queste. E poi mano a mano aggiungiamo.
+
+Speaker 1: Ce l'abbiamo noi il prototipo?
+
+Speaker 2: Sì.
+
+Speaker 1: Perfetto, così adesso becco Lidia, Paolo sta a Dubai, se torna vediamo. Lidia però la bracchiamo subito così ci facciamo...
+
+Speaker 2: Io su questo cerco di venirvi incontro comunque, cioè sapendo che c'è poi la possibilità di fare appunto una collaborazione a maggior ragione io vi vengo incontro, perché per me è un investimento. Per me è un investimento, io so che se lo facciamo bene, per fortuna tutti i costi sono contenuti, da questo punto di vista poi chiaramente come anticipavo un po' prima vi dico ok, io cerco sempre di restare contenuto però come è successo anche con altri clienti un po' devo chiaramente fare anche la mia analisi e chiedervi pure per voi quali sarebbero le prospettive di darmi un po' un'idea e poi magari di stabilire una specie di floor, cioè se poi il progetto, metti caso, non dovesse andare verso altri clienti perché magari non non c'è la persona vostra dedicata che si mette lì e cerca di venderlo e via dicendo, comunque noi fra virgolette un po' ci dobbiamo tutelare perché per me il costo di sviluppo di fare queste cose è un costo elevato, più io ci vado a mettere, ci investo praticamente il mio tempo, non ve lo faccio pagare, cioè non vi faccio pagare tutta la parte di project management, di coordinamento, di change management, di training e di gestione dei collaboratori e via dicendo, di analisi funzionale, perché poi dovremmo fare tanta analisi funzionale, quella parte me l'assorbo io come investimento mio personale, pago solamente lo sviluppo, copro solamente il costo vivo di sviluppo, però poi a quel punto è chiaro che ci dobbiamo venire incontro da entrambe le parti, quindi. Questa è un po' la situazione. Su questo non avete casi pregressi di revenue share?
+
+Speaker 1: Di revenue share? Ne stiamo facendo uno proprio in questo momento.
+
+Speaker 2: Ok.
+
+Speaker 1: Che più o meno è andato così, nel senso che io gli ho coperto completamente il cioè lui mi ha coperto solo il costo di sviluppo e io ci sto investendo tutta quanta la parte proprio di analisi dello strumento, evoluzione dello strumento e loro lo rivendono al cliente e stiamo lavorando su ci stiamo lavorando in questo momento. Chiaramente si lavora su percentuali di divisione dei ricavi che vengono da quella che è la vendita della soluzione, con dei minimi garantiti, cioè per esempio con questo cliente siccome è sempre un software che poi lui rivende ai suoi clienti a sua volta, c'è un minimo di impegno commerciale, cioè se tu non ti impegni comunque poi a venderlo, mensilmente un po' di costo me lo devi far recuperare. Quindi questa è un po' ad alto livello come deve funzionare.
+
+Speaker 1: Voi rimanete comunque due entità separate, non avete creato niente di congiunto.
+
+Speaker 2: Due entità separate. Due entità separate in cui c'è un audit chiaramente, perché siccome loro hanno in mano la parte di ricavi che viene dalla vendita del software perché lo vendono sul loro cliente, c'è un audit trimestrale, sulla base di quell'audit si calcola la percentuale di ricavi che abbiamo stabilito, noi abbiamo la visibilità su tutti i ricavi diretti e indiretti che vengono dalla soluzione e poi appunto andiamo a spartire fino al raggiungimento di un cap, oltre quel cap si diciamo ok basta, noi abbiamo coperto il nostro costo di sviluppo, c'abbiamo fatto il nostro margine sopra, mo tutto quello che fate da qui in poi è vostro, sì.
+
+Speaker 1: Ok.
+
+Speaker 2: E la proprietà intellettuale si condivide. Quindi chiaramente non si concorre sugli stessi clienti, però si cioè io vado sui miei, voi andate sui vostri e non ci pestiamo i piedi a vicenda. Detto che in queste soluzioni...
+
+Speaker 1: I miei e i vostri, se noi mettessimo una soluzione del genere sul mercato anche online?
+
+Speaker 2: Si può fare.
+
+Speaker 1: Eh, perché secondo me questo è un prodotto che si adesso al di là dei nostri delle varie associazioni, conf di qua e camere di commercio eccetera.
+
+Speaker 2: Quello vi creo una una landing page bellissima, stunning in in una giornata.
+
+Speaker 1: Secondo me si autovende questo.
+
+Speaker 2: Sì, anche secondo me. Là però devi spendere di advertising. Là dovresti fare...
+
+Speaker 3: Sì, devi avere visibilità perché purtroppo è pieno di roba, quindi devi avere visibilità.
+
+Speaker 2: Eh là ti devi mettere a fare ogni giorno non sai che cosa devi fare con i tuoi lead, non sai chi devi contattare, oppure non sai qual è il bando specifico per te ma sai che ci sono un sacco di opportunità, allora vai qui e scegli il tuo...
+
+Speaker 1: E poi la gente ormai scrive su ChatGPT esiste un finanziamento...
+
+Speaker 2: Sì ma gli dà delle informazioni sbagliate.
+
+Speaker 1: Gliele dà sbagliate, infatti dovrebbe rimandare, adesso non so se si può fare questo, che le varie AI più gettonate ti rimandano direttamente a strumenti come questo, non si può fare?
+
+Speaker 2: Eh si può fare se sei super mega indicizzato, che significa? Se quando la gente cerca finanza agevolata esce fuori il nostro sito, allora esce fuori pure da ChatGPT. Ma oggi andarsi a indicizzare in questo mercato sarebbe quasi impossibile. Il canale è l'advertising. Devi devi fare advertising mirato tramite LinkedIn e tramite Meta, magari qualcosa di email marketing, però quello è un canale un po' più freddo secondo me. Però c'è il need, cioè se è un'azienda, non capisci niente di finanza agevolata però vuoi fare investimenti, il tuo amico ti ha detto che avresti potuto risparmiare, clicca qui, perché poi è così che si comunica in questi casi, clicca qui e scopri che in un attimo puoi trovare il tuo bando. E magari gli metti una prova gratuita, nel senso scrivimi qual è la tua necessità, tac, scrivi e lui subito ti manda una cosa e tu dici ah, ma allora funziona. E gli metti i diversi tier, gli dici guarda, il base è 100 al mese e c'hai la ricerca manuale. Il plus c'hai la ricerca proattiva che ti manda le notifiche. Il premium ti fa anche l'analisi e ti dice già esattamente che cosa devi rispettare, cosa devi fare, ti fa il sum up delle cosiddette caratteristiche no che tu devi rispettare, le condizioni. E poi c'abbiamo le in più, se vuoi partecipare ti puoi rivolgere direttamente a...
+
+Speaker 1: Tac. Future Italy.
+
+Speaker 3: Figo.
+
+Speaker 1: È figo sì.
+
+Speaker 2: Ragazzi questo è, momento storico dell'intelligenza artificiale in cui queste cose si possono fare. Le aziende stanno investendo in questo tipo di di tecnologie. C'è un ritardo da parte del mercato che si può ancora sfruttare. Se ci sbrighiamo lo facciamo per bene, i 25.000 euro di investimento iniziale ci faranno fare una risata sopra fra 6 mesi rispetto a al flusso di business che si può generare. E vi dico, se non avessi visto questa opportunità qui, non ve l'avrei neanche fatta la proposta a un prezzo così basso perché oggettivamente cioè stiamo adesso contrattando strumenti meno complessi per prezzi che sono quattro volte tanto, però magari quello è uno strumento che va solo a fare l'efficientamento interno dell'azienda, quindi loro se lo comprano e io ci faccio il mio margine sopra e ho chiuso. Qua siccome ho visto l'opportunità ho detto ok, cerchiamo di andargli un po' incontro, portiamolo questo strumento sul mercato perché loro hanno la competenza per farmelo creare, perché altrimenti io non sono un avvocato, non sono una persona che sta in questo mondo, non sarei in grado di farlo performante. Invece questa collaborazione ci porta a diversi risultati. Voi vi efficientate internamente, creiamo una nuova revenue un nuovo revenue stream e da lì si può partire per fare una serie di altre applicazioni che fanno tutte parte dello stesso ecosistema.
+
+Speaker 1: No, io sono molto contenta di averti conosciuto. È la prima volta che qualcuno mi spiega queste cose in modo semplice e quindi ci ho capito qualcosa.
+
+Speaker 2: Hai visto? Eh, perché questo è il mio lavoro.
+
+Speaker 3: Eh, non è scontato.
+
+Speaker 1: Adesso noi ti mandiamo queste dati mancanti e funzionalità aggiuntive, così se tu ci rimandi il preventivo aggiornato noi glielo mandiamo a Claudia anche...
+
+Speaker 2: Magari dimmi se vuoi già che ti faccio uno specchietto di idea di come si potrebbe collaborare senza metterci numeri e cifre dentro.
+
+Speaker 1: Sì, assolutamente sì.
+
+Speaker 2: No, quello che abbiamo detto adesso. Partiamo dall'efficientamento interno, lavoriamo da domani su revenue share e...
+
+Speaker 1: Perfetto. In parallelo andiamo avanti sul revenue share in maniera tale che quando lo strumento è pronto, se noi ci siamo messi d'accordo, io penso proprio di sì, tac, partiamo subito.
+
+Speaker 2: Perfetto. Ottimo.
+
+Speaker 1: Dai, bene, ho insistito.
+
+Speaker 2: Gli ho rotto le scatole a lui.
+
+Speaker 1: Hai fatto bene.
+
+Speaker 3: No, lo so, lo so, però io invece...
+
+Speaker 2: Esatto, ti aiutano.
+
+Speaker 1: È per quello che poi mi ha tirato dentro a un certo punto, io non sapevo nulla.
+
+Speaker 3: No, lo so, perché cercavo di poi ho detto no, adesso dobbiamo parare con Lidia e basta, sennò non si muove niente. Ma pensa io poi a un certo punto fai la call, fai la seconda call, io cominciavo ad avere la mia idea in testa e dicevo ammazza, bella opportunità che si sta creando, e poi a un certo punto si ferma tutto.
+
+Speaker 1: Ma da quant'è che va avanti sta cosa?
+
+Speaker 2: Eh noi l'analisi l'avevamo finita prima delle vacanze di Natale. Da novembre. Abbiamo perso tempo ragazzi, potevamo stare già sul mercato. Non lo so. E io ho insistito, ho mandato un sacco di email, non mi rispondeva nessuno, a un certo punto ho detto oh, io gli faccio il prototipo. Se...
+
+Speaker 3: Vabbè dopo mi ti racconto.
+
+Speaker 1: Mo mi racconti. Vabbè, comunque adesso la sblocchiamo, io cerco pure di...
+
+Speaker 2: Bene. È stato un super piacere anche per me.
+
+Speaker 1: Fighissimo. Poi mi faccio lasciare il numero da...
+
+Speaker 2: Ok, magari poi ok, fate tra di loro, mi dici velocemente di che si tratta.
+
+Speaker 1: Niente, torno... ho una presentazione dell'idea, che magari quella te la posso mandare. Poi tecnicamente come si sviluppa, sì, ti anticipo la presentazione.
+
+Speaker 2: Perfetto. Allora mi anticipi qualcosa, rimaniamo che voi mi mandate quei dati mancanti e io vi rimando quotazione e un piano proprio d'azione per il futuro. Va bene? Ok. È stato un super piacere allora, vi auguro una buona giornata e buon lavoro.
+
+Speaker 1: Grazie mille.
+
+Speaker 3: Oddio dai, sì, me lo prendo a sto punto il caffè.
+
+Speaker 2: Ho 45 email a cui rispondere, per fortuna l'agente risponde alle email, quindi mo lo faccio partire.
+
+Speaker 1: Due ometti da soli. Ma a pranzo tornate?
+
+Speaker 3: Sì, andiamo a fare adesso...
+
+Speaker 1: Due ometti da soli.

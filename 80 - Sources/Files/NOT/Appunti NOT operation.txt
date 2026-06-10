@@ -1,0 +1,357 @@
+OVERVIEW OPERATIONS — CONTESTO INIZIALE
+Noloop On Trade (NOT) gestisce in modo completamente integrato l’intero ciclo di vita di un pop-up store o di un’attivazione all’interno dei centri commerciali, assumendosi responsabilità operative, gestionali e strategiche. Per il cliente storico – una multinazionale del tabacco – NOT copre ogni aspetto: dal recruitment dello staff alla formazione continua, dal monitoraggio quotidiano delle vendite alla gestione del magazzino, fino al coordinamento dei fornitori e del rapporto con i centri commerciali. La struttura è interamente interna: circa venti persone suddivise tra recruiter, formatori, area manager e data analyst, con Justin focalizzato sulla parte strategico-commerciale e sul funzionamento quotidiano degli stand, e Carmen responsabile della componente procedurale, logistica, documentale e numerica.
+Lo staff operativo nei mall è completamente selezionato e gestito da NOT: i clienti non partecipano alle scelte, sia per efficienza sia per tutela legale. La formazione è considerata il punto di forza del reparto: un mix di training standard sulla vendita e moduli personalizzati di prodotto, erogati sia tramite una piattaforma digitale dedicata sia con interventi costanti degli area manager sul campo. Parallelamente, NOT coordina anche il flusso logistico dei prodotti e dei materiali: acquisto e distribuzione dei device, gestione degli stock, controllo continuo della disponibilità necessaria per sostenere le vendite, oltre a materiali complementari come tablet, router Wi-Fi e shopper.
+Una parte cruciale del servizio è la reportistica: le vendite vengono registrate dagli addetti su più piattaforme (richiesta dal cliente), e successivamente consolidate internamente da NOT per produrre rapporti completi e affidabili. Questo lavoro, oggi svolto quasi interamente tramite Excel, è uno dei nodi operativi più onerosi. Accanto all’esecuzione, NOT svolge anche un ruolo consulenziale: propone idee, meccaniche di vendita e iniziative in-store, contribuendo alla definizione dell’esperienza e delle performance del pop-up.
+
+
+
+
+
+
+
+
+
+
+
+1. Panorama generale delle Operations NOT
+* NOT gestisce pop-up store e attivazioni nei centri commerciali “end-to-end”, con un livello di servizio che può andare da:
+o solo gestione staff + logistica + report vendite, fino a
+o progettazione stand, allestimento, strategia di vendita e iniziative marketing/drive to store.
+* Il grado di coinvolgimento di NOT dipende molto dal cliente:
+o Alcuni chiedono “full service totale” (ideazione stand, progettazione, allestimento, gestione staff, logistica, formazione, reportistica).
+o Altri hanno già parte della struttura (es. stand di proprietà) e chiedono a NOT di essere owner operativo di uno spazio progettato da terzi.
+Ruoli chiave:
+* Justin ? parte strategico-commerciale operativa: gestione quotidiana progetto, relazioni con fornitori di allestimento, coordinamento field, formazione e performance vendite.
+* Carmen ? parte procedurale, organizzativa e numerica: dati di vendita, riconciliazioni, logistica, documentazione, processi interni.
+* Massi ? relazione con centri commerciali e fornitore spazi (Cushman), negoziazione economica, creatore dell’app per lo staff eventi.
+
+2. Dal “cliente firmato” al lancio del pop-up
+2.1 Brief e progettazione del servizio
+* Brief iniziale e impostazione “macro” del progetto gestiti soprattutto da Germano e Massi (non da Justin/Carmen).
+* NOT si adatta al formato di brief del cliente, ma porta sempre:
+o consulenza su meccaniche di vendita,
+o suggerimenti su layout, posizionamento, strategie locali.
+* Requisiti minimi per poter lavorare:
+o il cliente può vendere al pubblico,
+o ha senso vendere il prodotto/servizio in centro commerciale,
+o ha budget e solidità per sostenerlo.
+2.2 Scelta dei centri commerciali e degli spazi
+* NOT lavora on demand, non ha spazi pre-acquistati (c’è solo un’idea futura di prendere slot direttamente).
+* Relazione chiave con Cushman & Wakefield:
+o è il partner che ha contatti con i principali centri commerciali in Italia.
+o tramite un referente (il capo del retail nel settore Italiano amico di Massi) accedono a tutti gli spazi disponibili ai prezzi migliori.
+* Massi:
+o gestisce la contrattazione economica con i centri commerciali,
+o verifica disponibilità spazi, periodi, vincoli (altezza, regole, ecc.).
+2.3 Dossier di proposta location
+Per ogni proposta di spazio al cliente NOT prepara (spesso con materiali prodotti da Cushman):
+* Presentazione con:
+o foto dello spazio,
+o planimetria (quando necessario),
+o footfall del centro,
+o stagionalità (periodi forti/deboli),
+o costo per settimana (formato tipico),
+o vincoli tecnici (es. altezze massime).
+* Quando richiesti:
+o render dello stand (es. caso I Love Riccio):
+* Massi coinvolge fornitori stand,
+* invia brand identity, riceve render posizionati nello spazio individuato.
+Timing medio per avere una presentazione fatta da ushman:
+? circa una settimana, variabile in base a:
+* complessità periodo (durata: 1 settimana vs 3 mesi),
+* disponibilità reale degli spazi sul periodo richiesto.
+
+3. Allestimento e setup dello stand
+3.1 Chi fa cosa
+* NOT non costruisce fisicamente gli stand: lavora con 1 fornitore principale di allestimenti (selezionato da Massi).
+* Ruolo NOT:
+o project management di comunicazione tra cliente e allestitore:
+* call per definire richieste specifiche (espositori inclinati, scanalature ad hoc, ecc.),
+* traduzione del brief del brand in indicazioni tecniche,
+* pressione costante sul fornitore (solleciti, rispetto tempi).
+o compliance con centro commerciale:
+* permessi,
+* rispetto delle regole del mall.
+o Tool utilizzati
+* Juston usa una lista “to do” segna tutto ciò che c’è da ricordarsi e quando ricordarselo e poi il Sollecito (tracking) avviene tutto tramite e-mail e chiamate.
+* Il giorno di apertura:
+o l’allestitore esegue il montaggio,
+o NOT presidia e verifica, segnala imperfezioni, difetti, danni.
+3.2 Allestimento prodotto & visual merchandising
+* L’allestimento di prodotto (dove mettere cosa, come esporre):
+o è gestito dal reparto formazione, perché sono i più esperti su:
+* prodotti,
+* brand guidelines,
+* dinamiche di vendita.
+3.3 Quality check iniziale (pre-montaggio)
+* Per clienti nuovi/format nuovi:
+o NOT partecipa a pre-montaggi in sede fornitore,
+o si fanno test:
+* misure reali dei prodotti,
+* scanalature specifiche per ogni referenza,
+* posizionamenti.
+* Obiettivo: arrivare al primo stand con meno sorprese possibili.
+
+4. Gestione dello staff
+4.1 Tipologie di staff
+Due grandi famiglie:
+1. Staff eventi (hostess, steward, runner, driver, mascot, camerieri…):
+o usato per eventi brevi / attivazioni temporanee.
+2. Staff pop-up/activation (addetti alla vendita, consulenti in stand):
+o personale continuativo nei centri,
+o richieste skill di vendita vere e proprie.
+4.2 Recruitment – canali e strumenti
+Per staff eventi:
+* Viene utilizzata l’APP proprietaria (nata nel 2001 come evoluzione di un vecchio sistema con database + SMS):
+o le persone si registrano, caricano foto, dati, IBAN, ecc.,
+o NOT può filtrare per zona, caratteristiche, ecc.,
+o l’app gestisce anche:
+* ritenute d’acconto,
+* avvisi cambio IBAN,
+* CU disponibile in app (non più raccomandate).
+L’app è in fase di aggiornamento e in attesa di una versione 2.0
+Per staff pop-up (activation):
+* Gestito da un team recruitment dedicato:
+o utilizzo intenso di Indeed (canale principale),
+o annunci su Facebook, Subito, bacheche fisiche,
+o cartelli negli stand,
+o passaparola interno (chiedere ai presenti se conoscono qualcuno),
+o supporto dell’app solo per sostituzioni brevi.
+* L’app attuale è satura e poco performante (in corso una ristrutturazione totale).
+* L’APP funziona bene per lavori saltuari (convention, fiere, attivazioni brevi),
+non per ruoli continuativi nei centri commerciali.
+Coinvolgimento del cliente nel recruitment:
+* Praticamente zero:
+o i clienti non partecipano a screening CV,
+o spesso non conoscono neanche il nome delle persone che vendono per loro (scelta voluta anche per motivi legali/giuslavoristici).
+4.3 Difficoltà di recruiting
+* Reclutare venditori stabili nei centri commerciali è molto difficile, soprattutto:
+o Triveneto (quasi piena occupazione),
+o alcune zone di Emilia Romagna e Piemonte,
+o centri commerciali “dispersi” (es. Tiare a Gorizia).
+* Vincoli:
+o nei centri commerciali devono essere assunti (no solo provvigione),
+o serve attitudine alla vendita senza leve variabili forti,
+o rischio di alta job rotation se la selezione non è molto accurata.
+4.4 Formazione
+* Considerata il fiore all’occhiello di NOT:
+o è la leva che consente di avere buone medie di vendita nonostante le difficoltà di contesto.
+* Due livelli:
+1. Formazione di vendita standard:
+* replicabile su qualsiasi prodotto (dalla Coca-Cola ai jet supersonici).
+2. Formazione di prodotto:
+* custom per ogni cliente/marchio,
+* adatta la parte di vendita allo specifico contesto.
+* Erogazione:
+o Piattaforma proprietaria per corsi digitali,
+o formazione in presenza (onboarding, visite in stand),
+o formazione continuativa:
+* se uno stand va male ? intervenire con formazione + area manager.
+* Ruolo degli Area Manager:
+o sono anche primi formatori sul campo:
+* visitano tutti gli stand ogni settimana,
+* verificano implementazione corretta della formazione,
+* correggono comportamento e tecniche.
+4.5 Struttura del team operations (~20 persone)
+* 2 recruiter eventi
+* 3 recruiter activation
+* 4 nel reparto formazione
+* 5 area manager
+* 3 junior area manager
+* 2 persone nel team analisi dati
+* 
+o Justin e Carmen
+* 
+o alcune risorse in 104 che supportano su controlli e modulistica.
+
+5. Logistica, materiali e stock
+5.1 Cosa gestiscono
+* NOT gestisce tutta la logistica dei prodotti per i clienti principali:
+o acquisto device/prodotti,
+o distribuzione nei centri,
+o monitoraggio stock (quanti prodotti ci sono, quanto manca),
+o gestione dispositivi difettosi o sostituiti.
+* Gestisce anche:
+o materiali non di vendita:
+* tablet,
+* saponette Wi-Fi,
+* materiale esplicativo,
+* shopper (fornite dal cliente o prodotte da NOT),
+* altro materiale promozionale.
+5.2 Modalità operative
+* Processi attuali sono molto manuali:
+o stock check,
+o organizzazione spedizioni,
+o solleciti,
+o soluzioni “creative” last minute (es. invio device su pullman e ritiro a Tiburtina).
+* Justin ha il focus costante su una sola cosa:
+o “abbiamo abbastanza stock ovunque per vendere nel weekend?”
+* Logisticamente:
+o Carmen è il fulcro operativo,
+o Justin “fa le domande” e controlla che per vendere non manchi nulla.
+
+6. Strumenti di project management, Reportistica, dati e KPI
+6.1 Cliente multinazionale tabacco (Glo)
+* Ogni vendita viene registrata:
+o sull’app di NOT,
+o su 2 piattaforme del cliente (CRM + app di un fornitore).
+* Flusso:
+o i ragazzi registrano le vendite 3 volte (una per sistema),
+o Carmen e il suo team:
+* estraggono i dati da tutte le fonti,
+* li mettono in comunicazione,
+* correggono errori,
+* incrociano con stock fornito da NOT,
+* producono un dato ufficiale aggregato.
+* Tutto questo lavoro oggi:
+o avviene in gran parte su Excel,
+o è molto manuale e macchinoso,
+o è percepito come uno dei punti più “ricchi” per automazione.
+6.2 Cliente skincare coreana (K-ippun Haru)
+* Usa Shopify come sistema centrale:
+o registrazione vendite automatizzata,
+o rapporto diretto con stock.
+* NOT:
+o controlla che dato di vendita = incasso reale,
+o interviene su Shopify per correggere eventuali discrepanze stock/vendite.
+* Processo molto più leggero rispetto al caso Glo.
+6.3 Proiezioni e analisi
+* NOT costruisce:
+o proiezioni di vendita,
+o analisi di performance,
+o medie di vendita per stand.
+* Oggi viene gestito:
+o con Excel semi-automatizzati,
+o molta analisi manuale.
+6.4 Uso strumenti e vincoli sul campo
+* Ci sono Gantt/strumenti di project management nella fase iniziale di progetto.
+* Per la consultazione quotidiana dei dati:
+o gli Area Manager sono sempre in giro nei centri,
+o si appoggiano quasi solo al telefono:
+* connessione Wi-Fi dei mall spesso pessima,
+* difficile usare laptop (batteria, spazi, connessione),
+o leggere file Excel enormi su mobile è un incubo.
+* Desiderio espresso:
+o interfaccia mobile-friendly con dashboard chiare,
+o possibilità di liberarsi da Excel per la consultazione.
+
+7. Contributo strategico/marketing lato operations
+* Anche se il focus di NOT è operativo, i team:
+o propongono idee di meccaniche in store (es. Sensory Station per fragranze tabacco),
+o suggeriscono iniziative drive to store,
+o contribuiscono a ottimizzare la strategia di vendita locale.
+* A volte:
+o queste idee vengono quotate come servizi,
+o altre volte rientrano nel pacchetto complessivo,
+o capita che idee di NOT vengano poi replicate dal cliente anche dopo anni (con o senza coinvolgimento diretto).
+* Il marketing digitale non lo propongono come servizio perchè al momento Amercian Tobaccio non può fare pubblicità online o utilizzare i social perchè è vietato (tabacco) e K-ippun Haru nasce dai social (è un influencer) quindi non ha di certo bisogno di NOT. In generale Justin dice che nella sua esperienza non è una proposta che riscuote molto successo ma in ottica futura se si può vendere qualche servizio in più (che però dobbiamo saper fare) si potrebbe provare.
+
+8. Pain point & desideri di automazione emersi
+Riassunti:
+1. Registrazione vendite su 3 sistemi diversi:
+o problema: tempo, errori, stress in ambiente confusionario,
+o desiderio: inserire una sola volta su un’app e far sì che un agente/integrazione replichi automaticamente sulle altre piattaforme.
+2. Riconciliazione dati vendite + stock (cliente tabacco):
+o oggi: grande lavoro manuale di Carmen & team su Excel,
+o ogni prodotto ha codice alfanumerico univoco ? perfetto per automatizzare.
+3. Gestione documentazione HR e compliance:
+o controlli su:
+* cassette pronto soccorso,
+* registri obbligatori,
+* documentazione dipendenti,
+* conteggio ore mensili per payroll,
+o molto tempo speso in attività ripetitive e burocratiche.
+4. Certificazioni formazione:
+o il team formazione rilascia e traccia certificazioni,
+o servono per mantenere status di società benefit / certificata,
+o tracking oggi molto manuale.
+5. Logistica & gestione magazzino:
+o gestione stock per singolo centro,
+o collegamento con magazzino centrale,
+o spedizioni last minute,
+o tutto estremamente manuale.
+6. Analisi KPI & medie di vendita:
+o calcoli ancora fatti a mano (anche se con Excel “furbi”),
+o sogno: liberarsi da Excel, avere dashboard e calcolo automatico.
+7. Customer service interno H24:
+o Justin riceve messaggi a tutte le ore (anche 23:00) su temi banali (es. “dove vedo il cedolino?”),
+o desiderio di un agente automatico che:
+* risponda alle FAQ,
+* categorizzi richieste,
+* faccia escalation solo quando necessario.
+
+
+9. Punti da approfondire nelle prossime call
+9.1 Call con Justin – focus “campo, processi, UX operativa”
+Dicci tu secondo te quali sono le principali criticità che vuoi approfondire (ti tolgono tempo, sono ancora manuali, non permettono scalabilità)
+
+Scaletta nostra:
+1. Flusso operativo completo di allestimento:
+o cronologia reale di un progetto (dalla conferma cliente al day 1),
+o interazioni quotidiane e avanzamento con fornitori stand (tool di project management)
+Approfondimento compliance con centro commerciale:
+* permessi,
+* rispetto delle regole del mall.
+2. Gestione quotidiana dei centri:
+o routine degli Area Manager e rapporto con Justin
+o come circolano le informazioni (nuove promo, cambi prodotto, ecc.),
+o come vengono aggiornati rapidamente tutti gli stand.
+3. Canali di recruitment:
+o Approfonfire processo + mostrarci App e come usano le alter piattaforme
+4. Formazione & piattaforma training:
+o struttura della piattaforma,
+o tipologie di corsi (vendita vs prodotto),
+o come misurano efficacia della formazione,
+o come area manager integrano il loro ruolo.
+o Gestione delle certificazioni
+5. Logistica vista dal campo:
+o esempi concreti di emergenze stock (come il caso del pullman),
+o punti precisi in cui la logistica rallenta o genera stress.
+6. Wishlist UX per dashboard mobile:
+o cosa vorrebbe vedere un Area Manager in 10 secondi sul telefono,
+o quali sono i KPI minimi che servono “on the go”.
+7. Customer service Agent:
+o tipologia di messaggi ricorrenti (FAQ),
+o canali usati (WhatsApp, mail, gruppi),
+o idee su come delegare ad un agente virtuale.
+8. Possibile approfondimento sul marketing Digitale
+APPROFONDIMENTI CHE VUOLE FARE CARLO
+- 
+
+9.2 Call con Carmen – focus “numeri, Excel, logistica e burocrazia”
+1. Processo dettagliato di riconciliazione vendite (cliente tabacco):
+o flusso step-by-step:
+* input da 3 piattaforme,
+* controlli incrociati,
+* gestione errori,
+* output per il cliente,
+o esempi di file Excel reali (anonimizzati),
+o regole logiche già oggi nella sua testa (da “estrarre” per l’AI).
+2. Gestione stock & magazzino:
+o come tiene traccia dello stock per centro,
+o come pianifica rifornimenti,
+o quali sono oggi i file e i campi chiave (prodotto, codice, quantità, ecc.),
+o differenze tra prodotti venduti e materiali di servizio (tablet, router, ecc.).
+3. Shopify & clienti “più semplici”:
+o come funziona la riconciliazione con Shopify,
+o cosa fa manualmente e cosa è già automatizzato.
+4. Documentazione HR & compliance:
+o elenco dei registri/documenti che gestisce:
+* kit pronto soccorso,
+* controlli periodici,
+* ore lavorate per ciascun dipendente,
+* materiali per studio paghe.
+o come sono strutturati i file,
+o dove vede il potenziale di automazione più immediata.
+5. Reportistica & KPI verso i clienti:
+o quali report mandano (formato, frequenza, destinatari),
+o quali KPI ritengono “chiave”,
+o dove oggi sente più fatica nella produzione dei report.
+6. Logistica – lato numerico/procedurale:
+o allineamento con Justin: come passano da “abbiamo bisogno di stock” alla spedizione effettiva,
+o quali fogli/documenti supportano quel processo.
+APPROFONDIMENTI CHE VUOLE FARE CARLO
+- App creata custom per segnare le vendite dei prodotti (non si capisce se è la stessa APP a cui fa riferimento Massi del suo Progetto del 2001, nel caso bisogna approfondire anche quella).
+- Approfondimento sull astruttura dell’excel che usano per contratti, turnistica, medio vendita o comunque in generale per la gestione delle risorse durante un Progetto;
+- Riconciliazione dei dati di vendita e reportistica da consegnare al cliente.
+

@@ -1,0 +1,335 @@
+Noloop | Demo LinkedIn Scraper 
+Thu, Sep 11, 2025
+
+0:00 - Carlo Sanvoisin
+Diciamo che abbiamo una bella lista lunga di possibili soluzioni, adesso capiremo con la Garbarino quali far partire per prime. Invece con te e con Antonella praticamente abbiamo finito, nel senso che oggi Federico ti farà vedere lo strumento ultimato, ci facciamo un giro insieme su quello che è lo strumento e poi io credo che mi dovrò fare un approfondimento con Marco per capire come mettere sui vostri server o se lo possiamo mettere su un server nostro al quale vi diamo accesso. Tutto quanto chiaramente in maniera dipendente da quelle che sono le vostre policy. Quindi il prossimo passo, dopo la colpa di oggi, sarà di capire con Marco, diciamo, le vostre...
+
+0:48 - Laura Zaghi
+Però quella è una cosa che vedete voi, diciamo, no?
+
+0:52 - Carlo Sanvoisin
+Beh, penso di sì. Penso di sì. Diciamo che a te ti coinvolgiamo nel momento in cui con Marco abbiamo stabilito appunto come mettere questa soluzione sui vostri server o su dei server dedicati. Fatto quello chiaramente dovremo creare dei login, quindi creeremo delle credenziali per te e il tuo team, quindi mi dovrai chiaramente fornire diciamo nomi e cognomi delle persone che devono avere accesso al tool e per ognuna di queste... Federico? Ciao Fede! Allora, stavo facendo una... Stavo dicendo a Laura che oggi vediamo lo strumento e poi il prossimo passo sarà quello di capire appunto come hostare questo strumento su dei server dedicati. Fatto quello, faremo praticamente la parte appunto di erogazione dello strumento tramite delle credenziali, ci dovrai fornire I nomi e cognomi e chiaramente anche tutta quella questione dei permessi, perché come ci siamo detti alcuni magari avranno visibilità più ampia rispetto ad altri e poi fatto quello eroghiamo lo strumento e facciamo chiaramente un po' di training.
+
+2:09 - Laura Zaghi
+Si, alcuni si fermeranno il nome del cliente e vedono se ha segnato o meno e altri invece potranno entrare e vedere che cosa si sviluppando eccetera eccetera.
+
+2:21 - Carlo Sanvoisin
+Esatto poi ci sai te che sei amministratrice quindi puoi vedere tutto.
+
+2:26 - Laura Zaghi
+Aspetta solo un secondo Carlo che dico a Gabriella che sono in call con te. Gabri? Adesso sono io in call con Carlo. No era solo perché a uno del Kazakhstan ha rubato il passaporto. Ti chiamo poi dopo e ti dico. Va bene grazie ciao ciao ciao.
+
+2:48 - Carlo Sanvoisin
+hanno rubato il passaporto?
+
+2:50 - Laura Zaghi
+Ti hanno rubato il passaporto? Eh sì, a uno del Kazakhstan, quindi non è che sarà così semplice adesso farlo tornare, vediamo.
+
+3:01 - Carlo Sanvoisin
+Ottimo, ok. E diciamo poi chiaramente faremo contestualmente un training, quindi spiegheremo essenzialmente come utilizzare lo strumento, facendo vedere le varie pagine e le varie funzioni, e direi che quel punto poi rimane in mano a voi per tutta una prima parte in cui lo testerete, ci darete I vostri feedback e diciamo che su questo siamo abbastanza in bolla. Quindi oggi facciamo vedere lo strumento, poi faccio il passaggio con Marco, poi ci risentiamo noi. Ecco, un altro passaggio importante sarà quello dell'import, quindi il famoso Excel dei lead che voi oggi avete, una volta che siamo pronti insomma entro settimana prossima o quella dopo facciamo questo import quindi ci dovete dare la lista definitiva con tutti I lead diciamo che ad oggi sono quelli attivi che state monitorando. Noi ci occuperemo di pulire questa lista e poi fare l'import.
+
+4:03 - Laura Zaghi
+Detto questo... Io mi porterai già avanti con I ragazzi di chiedere di formattarlo il più possibile no? Tipo là dove è minuscolo renderlo maiuscolo o viceversa.
+
+4:15 - Carlo Sanvoisin
+Su questo lo vediamo Federico perché forse sarà sufficiente, diciamo, sarà fatto con un metodo più semplice e basterà solamente avere I link delle pagine del profilo LinkedIn appunto di quel lead. Io metto solamente il link e poi è proprio lo strumento che andando a visitare la pagina del profilo LinkedIn riprende tutte quante le informazioni. Quindi invece che importare tutte tutte le informazioni già da oggi, lasciamo in mano lo strumento che gira e le recupera in maniera anche più sistematica, quindi la formattazione la fa lui. Però adesso lo vediamo, perché l'unico dubbio che ho è che magari voi avete delle informazioni in più, tipo il numero di telefono.
+
+5:08 - Federico Saladino
+L'import avverrà attraverso gli urla dei profili. Ogni qualvolta si vuole andare a inserire un nuovo lead, così come anche per andare ad inserire un numero di lead di massa, quindi quello che noi chiamiamo un bulk import, sarà sufficiente inserire il link LURL di questo profilo. Qui ci sono due punti importanti. Il primo è il fatto che il tool fa una verifica attualmente algoritmica, per esempio, delle compagnie importate. Mi spiego meglio. Diciamo che se un contatto lavora per Ferrari e su LinkedIn è segnato come Company Ferrari, un altro contatto lavora per Ferrari Technologies, il tool li vede come due compagnie diverse, questo intanto è un primo punto. Stessa cosa, per cui ho preferito rimuovere il concetto di import a partire dalle row, Sarebbe fatto anche qui che se un lead è segnato sotto Ferrari tutto maiuscolo, un lead segnato sotto Ferrari scritto in maniera corretta con solo la prima F maiuscola, il tool li vede come due compagnie diverse. In questo modo qua in sostanza noi ci fidiamo direttamente proprio dei dati di LinkedIn, andiamo a ridurre al minimo la possibilità che si vadano a creare dei doppioni. Questo è il primo punto. Il secondo punto, invece, è che voi in alcuni casi magari avete delle informazioni in più, come la mail e il numero di telefono. Allora, in questo caso, purtroppo per ora, queste sono informazioni che andranno inserite manualmente. Cioè, dopo che abbiamo fatto il primo import, ci sarà la lista contatti. Per quanto riguarda l'aggiunta delle informazioni aggiuntive, sarà sufficiente aprire la pagina del contatto e fare un edit aggiungere informazioni. Chiaro che fortunatamente in questo caso questo non è un lavoro che deve fare una persona, ma il numero di sales rep lato vostro, quindi di commerciali che avete lato vostro, che gestiscono ognuno 10-15 lead, immagino dovranno farsi questo lavoro, appunto anche solo qualora questa informazione sia disponibile, perché ricordo che mi dicevate che in verità è molto difficile oramai fare un interfacciarsi con un lead per la prima volta attraverso il telefono perché giustamente la gente non risponde più a numeri non conosciuti insomma.
+
+8:03 - Carlo Sanvoisin
+Fa anche essere un primo modo per entrare nello strumento e familiarizzarci comunque. Entrano, si vedono I propri lead già tutti quanti copolati, si vedono che loro hanno il numero di telefono e lì manca se lo aggiungono, però intanto hanno familiarizzato anche un po' con la piattaforma.
+
+8:19 - Federico Saladino
+Assolutamente e poi ti dico anche quest'altra cosa, in questo momento dal documento che io ho visto, quello che in particolare mi avete dato a me, c'è una bella inconsistenza nella formatazione dei numeri tra prefissi o più 39 e numeri fissi e numeri di cellulare. Siccome poi tutti gli input in lato interfaccia sono validati, non è consentito inserire che non è un numero di telefono valido e tutti I numeri di telefono poi verranno formattati nella maniera corretta.
+
+8:59 - Carlo Sanvoisin
+Quindi viene fatto in automatico, ok va bene.
+
+9:03 - Carlo Sanvoisin
+Sì, quindi un'ulteriore pulizia comunque dei dati e validazione degli stessi.
+
+9:08 - Laura Zaghi
+Menomale, menomale.
+
+9:09 - Federico Saladino
+Esatto, il lavoro che dovete fare a mano, che avreste dovuto fare a mano sull'excel, lo dovete fare in misura ridotta direttamente sull'applicativo. Sarà minimo comunque saranno. Ok questo è il primo punto, non so Carlo se puoi fargli dire qualcos'altro.
+
+9:26 - Laura Zaghi
+Non ho capito Federico hai dato via la tua voce saranno e non ho sentito niente.
+
+9:33 - Carlo Sanvoisin
+Saranno insomma un numero molto ridotto comunque poi su questo io direi una volta che abbiamo l'excel definitivo magari mi faccio anche un attimo uno studio di tutti quanti I dati in più che voi avete che eventualmente non si possono importare tramite link e capiamo se c'è da supportarvi la prima configurazione dello strumento io sono anche su questo disponibile cioè preferisco appunto esserci anche in queste fasi diciamo preliminari di configurazione senza problemi. Io direi Fede vogliamo mostrare insomma il tool con tutte quante le sue principali funzioni all'aura così insomma chiudiamo anche questa parte qui e poi andiamo sui prossimi passi.
+
+10:17 - Federico Saladino
+Assolutamente, se riesci Carlo a girare il link anche a Simo che purtroppo ha avuto un contratto. Ok, non pensavo che avrebbe partecipato. Ma sì, anche lui può venire, è allineato, tanto poi eventuali sviluppi anche su questa interfaccia sarà un effort condiviso insomma.
+
+10:41 - Carlo Sanvoisin
+Ok, Simo è l'altro, diciamo, risorsa che si occupa del nuovo sviluppo delle soluzioni, tu non l'hai conosciuto ancora.
+
+11:19 - Carlo Sanvoisin
+Mi sentite?
+
+11:20 - Federico Saladino
+Sì sì sì sì. Allora io intanto ho condiviso. Simone è l'altro mio soccorso.
+
+11:29 - Laura Zaghi
+Spettato un secondo. Dovete pazientare, ma io sono su un evento e non riuscivamo, sennò continuavo a rimandare.
+
+12:18 - Carlo Sanvoisin
+Vai figura di Laura, non c'è nessun problema. Tanto diciamo che io sono un pochino più libero. Federico si deve staccare fra mezz'ora, ma tanto è sufficiente per fare la demo.
+
+12:32 - Laura Zaghi
+Quando vedo che mi chiamano così, penso...
+
+12:34 - Carlo Sanvoisin
+Ok, andremo molto curiosi.
+
+12:36 - Federico Saladino
+Secondo me riusciamo a farlo.
+
+12:38 - Carlo Sanvoisin
+Dai, ok. Ciao Simo. Ciao a tutti.
+
+12:41 - Federico Saladino
+Così tanto ti presento Laura. Forse l'hai già visto anche in... No, al momento ancora no, credo. Sì, secondo me una volta l'ho vista. Simone è l'altro mio socio e ci occupiamo di fornire a Carlo e ai ragazzi AI di tutto quello che riguarda le soluzioni software.
+
+13:00 - Carlo Sanvoisin
+Allora, andiamo a bomba sulla demo.
+
+13:04 - Federico Saladino
+Andiamo a bomba sulla demo.
+
+13:07 - Unidentified Speaker
+Via!
+
+13:07 - Federico Saladino
+Comunque, condivido un attimo la finestra. Allora, rispetto a come siamo lasciati l'altra volta, abbiamo una serie di sviluppi, intanto, che riguardano in particolare... Vi ho perso. Ecco qua. Adesso ve lo ingrandisco un po', se è troppo sei troppo piccolo.
+
+13:32 - Laura Zaghi
+Vorrei partire intanto, di nuovo, dall'interfaccia che riguarda I contatti.
+
+13:38 - Federico Saladino
+Questa è la vista, chiaramente, che andreste a vedere te, Laura. È la vista che consente di vedere tutte le leads che attualmente sono in gestione. Una cosa molto importante è che questa lista ha un ordine molto specifico. Questo ordine è relativo all'ultimo contatto che ha ricevuto un cambio di status, quindi in pratica all'ultimo contatto su cui è stata effettuata una presentazione o un briefing o una chiamata eccetera eccetera. Questo è quello che definisce l'ordine. Sopra abbiamo una piccola view che ci permette di leggere velocemente su un totale contatti eventualmente I nuovi, quelli con esito positivo, negativo e in corso. Allora, qua dentro c'è la solita tabella, la tabella è filtrabile con un Omnifilter, con questo si può cercare qualsiasi cosa in sostanza, lui cerca tutto, questo invece è dedicato solamente al nome azienda. Mi spiego meglio, se c'è un'azienda che per esempio ha Dell, all'interno del proprio nome, come Andreina del Grosso, nel filtro aziende questo del Grosso viene rifiutato, mentre questo ricerca sia I nomi aziendali che anche all'interno dei nomi e cognomi della LID, ruolo della LID, qualsiasi numero di telefono eccetera. Quindi questi sono I due filtri. Qua infine abbiamo poi un filtro menu a tendina, questo si occupa di filtrare proprio per status, quindi io qui posso andare a scegliere per esempio quelli solo con status positivo e qui mi troverò in seguito solamente la vista dei lead con cui al momento lo status diciamo delle attività interne è rimasto come positivo. All'interno poi della lead, apriamo per esempio questo Luigi, abbiamo la nostra interfaccia che ci consente di I dettagli rispetto all'altra volta che cosa è cambiato? Un pochino diciamo le card laterali che si occupano di plincare quindi per poter navigare velocemente direttamente alla compagnia così come al commerciale specifico di questo lead, nonché poi tutta la nuova sezione dedicata invece alle attività Questa è la famosa sezione adesso di cui c'eravamo parlati, di timeline.
+
+16:24 - Laura Zaghi
+Scusami Federico, Luigi Parlato è la società?
+
+16:28 - Unidentified Speaker
+Luigi Parlato è il lead.
+
+16:32 - Laura Zaghi
+Ah ma hai messo dentro delle cose a caso sotto?
+
+16:38 - Federico Saladino
+Sì sì assolutamente, la nostra attività, possiamo prenderne uno nuovo.
+
+16:45 - Laura Zaghi
+No, fa niente. È perché vedevo sotto un altro nome. Diccio, come mai ne ha due? Ok, va bene, va bene.
+
+16:55 - Federico Saladino
+Se al lead non ci sono attività, noi possiamo creare la prima attività. Diamo per esempio un primo contatto, selezioniamo un esito positivo e qui abbiamo la possibilità di aggiungere note. Altre attività, questa attività viene aggiunta. Abbiamo comunque la possibilità di modificarla e di eliminarla e chiaramente quella di crearne una nuova che verrà poi messa come temporalmente come successiva. Questo ha ovviamente anche un timestamp che quindi diciamo può essere utilizzato per capire quando l'onata è stata inserita. Se adesso torniamo in una grafica e vediamo che lo status del lead è cambiato in positivo in quanto attività in timeline contiene lo status positivo. Questo vale anche se per esempio diciamo faccio un esempio andiamo ad aggiungere un'altra attività che in questo caso è risposta, questa risposta magari non ha molto senso però diciamo che abbiamo la presentazione progetto e la mettiamo come status in corso e andiamo a creare per questa nuova attività, in corso hanno un color code giallo, questo si aggiorna nell'anagrafica, ovviamente adesso non l'ho visto ma anche nella tabella, il nostro Agostino è salito in prima linea perché è stato l'ultimo contatto aggiornato, e qualora anche io andassi per esempio poi a modificare la presentazione progetto, selezionando uno status positivo in questo caso, a seguito dell'aggiornamento anche nella grafica qui lo status è tornato positivo e Agostino anche in tabella ritorna con uno status positivo. Quindi questo diciamo è quello che permette di vedere. Perché è stato scelto quest'ordine? Principalmente proprio per permettere di fare un monitoraggio molto molto veloce, cioè se io vado a selezionare uno dei miei sales rep, quindi uno dei vostri commerciali, io molto velocemente qui nella sua tabella di contatti, quindi dei leader assegnati, posso andare a vedere il un secondo qual è lo status medio dei lead seguiti da questo specifico commerciale. Non ci sono dati perché questi sono chiaramente dati sporchi e tutti questi lead sono nuovi, non hanno attività, però domani anche qui stesso identico principio, I lead più freschi, quindi con attività più fresche, saranno in prima in prima linea andando piano piano a scalare e questo consentimente le molto veloce di come stanno lavorando I dipendenti. Questo per quanto riguarda I contatti. Vorrei parlare poi un attimo anche di regole di visibilità. Per il momento, come regole di visibilità, io ho lasciato la possibilità a tutti quanti di vedere tutti I contatti, ma la possibilità di modificare specifici contatti, quindi modificare per esempio I condizioni dei lead o aggiungere attività in un modo circoscritto solamente ai super-user, quindi gli utenti super-user che sarai per esempio te, che quindi hai la possibilità di modificare a piacere, mentre gli utenti normali, quindi I commerciali, potranno modificare solamente I lead dei quali sono I commerciali, I rispettivi commerciali. Un'altra cosa qua molto comoda è per esempio la possibilità di cambiare velocemente l'assegnazione del commerciale. Cioè se Nicola Corradini, che attualmente è assegnata a Claudia, vogliamo spostarlo presso un altro sales rep...
+
+20:35 - Federico Saladino
+Sono io, lo faccio solo io quello.
+
+20:39 - Federico Saladino
+Questo qua lo puoi fare solamente te, esattamente. Gli altri, queste sono assolutamente bloccate, perché di fatto è una scelta di prenderlo lì e passarlo ad un'altra persona. Il createContact in questo momento è proprio la funzione che permette di creare questo è quello che attualmente necessita ancora della modifica che dicevo, perché qui non ci sarà più un flusso nel quale è possibile inserire I dati manualmente, ma la prima cosa che l'applicativo andrà a chiedere è l'URL profilo, l'URL profilo di Sales Navigator di questa persona specifica. Dopo che lo scraper avrà automaticamente estratto I dati, eventualmente mostrerà uno step successivo con questa modale, la quale rappresenterà già I nomi popolati, il ruolo e la compagnia. Il sales rep ovviamente sarà visibile solo se il contatto lo stai creando te, se è un commerciale a creare il contatto questa sezione sarà auto assegnata, in quanto io Federico commerciale inserendo un contratto, chiaramente sarà assegnato a me inizialmente. E qui magari, eventualmente, se il commerciale possiede informazioni aggiuntive, potrà aggiungere per esempio la mail e il telefono. Quindi questo sarà, diciamo, il processo di import. È chiaro che se abbiamo, mettiamo, non so, 100 lead totali e siamo 10 diversi commerciali, ce ne abbiamo circa dieci a testa, l'operazione sarà una cosa per il quale per dieci contatti, eventualmente, se presente, dovrò aggiungere le mail e il numero di telefono. Tutto qua. Quindi anziché dover ripulire tutte le tabelle con nomi, mettere maiuscole, minuscole, eccetera, questo sarà diciamo il processo. Cercherò magari anche di farvelo fare di bulk, nel senso che se inserisco dieci url ripeterà poi la modale per per 10 persone, però ora li vediamo insomma, non voglio over-ingegnerizzare. Se ci sono domande, come sempre Laura fermami.
+
+22:52 - Laura Zaghi
+Sì, adesso è tutto chiaro, dopo te ne faccio una io, ma per quanto riguarda quello che è appena esposto è tutto perfetto.
+
+23:02 - Federico Saladino
+Allora, questo invece è l'overview delle company, allora in questo caso, questa è completamente a vostra descrizione di come le utilizzate per riguarda la funzione IAI dello scraper, l'unico valore realmente interessante è il nome dell'azienda.
+
+23:20 - Laura Zaghi
+Poi non possiamo vedere già chi sono segnate, no? È un problema?
+
+23:26 - Federico Saladino
+Sì, direttamente qua in tabella si può aggiungere. Al momento non c'è, però si potrebbe aggiungere. Se apro Scania, all'interno di Scania vedo il contatto che abbiamo di Scania. E quando ora un'azienda abbia più più contatti, adesso bisognerebbe trovarne uno ovviamente, ma questo è uno scenario impossibile, di avere più lead per la stessa azienda.
+
+23:53 - Federico Saladino
+Ecco per esempio questa qua, Midat Batteries.
+
+23:56 - Federico Saladino
+Qui la scelta è stata proprio questa, cioè di non mostrare nella tabella per il semplice fatto che la relazione è uno a molti. Cioè una company può avere più lead assegnati, quindi io posso anche metterti una, diciamo, colonna con leads.
+
+24:14 - Laura Zaghi
+No, no, no, non ho capito.
+
+24:16 - Carlo Sanvoisin
+No, lei diceva con I commerciali, però a quel punto quale potrebbe essere?
+
+24:20 - Unidentified Speaker
+Noi commerciali?
+
+24:21 - Carlo Sanvoisin
+Sì, però Laura, cosa potrebbe accadere? Magari io ho più lead sotto una stessa azienda e magari quei lead sono seguiti da commerciali diversi. Non so poi se questo si può pensare.
+
+24:31 - Federico Saladino
+Io posso metterli qua. No, no, no, è impossibile.
+
+24:34 - Laura Zaghi
+Non è possibile.
+
+24:36 - Carlo Sanvoisin
+Allora se tu dici che c'è una relazione univoca tra azienda e cliente.
+
+24:43 - Laura Zaghi
+Magari di questo cliente che seguo io, Fideuram, ne conosco 15 di lead, di persone che si interfacciano con me, ma è un solo commerciale per azienda.
+
+24:57 - Federico Saladino
+Per struttura dati, l'associazione è tra lead e sales rep. Non c'è nessuna connessione con l'azienda se non indirettamente tramite I lead. Questo è stato fatto per un motivo molto specifico, nei momenti in cui poi il tool è libero e tutti quanti lo stanno utilizzando, se Simone aggiunge un lead che ha trovato, la compagnia però attualmente è comunque gestita da un commerciale specifico, il sistema non può dire a ok no questo però lo giriamo al nostro collega perché lo aggiunge tu poi magari potrebbe essere te Laura dire nei momenti in cui vedi che ci sono due due lead, tre lead assegnati a un'azienda e uno se l'è preso qualcun altro, gli dirai guarda questa questa azienda la seguiamo già e abbiamo già questi lead, giro anche questo lead al nostro collega. Io quello che posso fare è aggiungerti una colonna interna che ti dice anche a chi ha segnato questo contatto. Perché gli ragazzi fanno la ricerca subito se Michele non è seguito da nessuno.
+
+26:12 - Laura Zaghi
+La prima cosa che noi diciamo è vai e indaga su Michele. Loro entrano e fanno già la ricerca per azienda, guardano l'azienda se è già associata a qualcuno. Se non è associata e iniziano il lavoro.
+
+26:30 - Federico Saladino
+Tendenzialmente, diciamo che se l'azienda non è associata a nessuno, l'azienda non esiste in questo sistema.
+
+26:38 - Laura Zaghi
+E infatti loro inseriranno, partiranno magari dall'azienda, capito?
+
+26:42 - Laura Zaghi
+Quindi loro non partono quasi mai dal lead.
+
+26:46 - Laura Zaghi
+Capito cosa fanno, loro inseriscono, dai Michele approfondisco io e iniziano la ricerca, vanno a vedere chi appartiene, E' la stessa cosa, partono dall'azienda ma è la stessa cosa.
+
+27:01 - Federico Saladino
+Lo use case specifico potrebbe appunto essere che loro possano accedere tranquillamente a tutte le compagnie, le aziende con cui si sta collaborando, cercare se questa azienda è già una delle collaboratrici, se non l'è, eventualmente onbordare il lead e l'azienda verrà onbordata. Tutto ok? Va bene, quindi questa è la vista azienda. Alla fine, questa è l'ultima sezione, è ancora un attimo under development, saranno le vacancies. Questo poi mi dirai tu, diciamo, se vuoi permettere a tutti quanti gli utenti di vedere. Allora, qua dentro praticamente verranno popolate delle nuove entità che non sono né lead, né non sono né lead, né aziende. Sono posizioni che avevamo per una specifica azienda dove il lead ha cambiato azienda o ha cambiato posizione. Federico lavorava come marketing manager per Ferrari, Federico si sposta a Maserati, marketing manager di Ferrari è una posizione vacante. Federico lavorava come marketing manager per Ferrari si sposta totalmente da un'altra parte in Management, per X motivi, la posizione Marketing Manager di Ferrari rimane vacante. Da qui cosa si potrà fare? Potrai selezionare il Marketing Manager di Ferrari e, scusami, la posizione vacante e semplicemente incollarci dentro l'URL di un profilo che hai trovato cercando lo stesso navigator.
+
+28:42 - Laura Zaghi
+A quel punto lì l'applicativo in automatico rifarà tutta l'associazione scraping dei dati e collegherà questa nuova questa nuova leader alla posizione marketing manager di ferrari con cui non so se ero in contatto in sostanza io non ho capito una cosa io avevo capito che scraper una volta che io schiaccio scraper l'aggiornamento fosse automatico che ne so Simone non lavora più per ferrari ma lavora per lamborghini sotto Simone vedrò che è Questo è corretto.
+
+29:13 - Federico Saladino
+Simone va a lavorare per Lamborghini. Quello che avverrà è che Lamborghini esiste già nel nostro sistema. No, verrà onbordata la società Lamborghini, verrà aggiornato il contatto di Simone, il lead Simone.
+
+29:31 - Laura Zaghi
+E come lo vedo aggiornato?
+
+29:34 - Federico Saladino
+Nei contatti il valore di Simone dall'azienda Lamborghini sarà cambiato a Ferrari. Allora, per quanto riguarda l'avviso, al momento, siccome sarà l'ultimo contatto che è stato aggiornato, verrà portato in top of the table. Se poi vogliamo, per come funziona adesso, viene portato in nostra tabella.
+
+30:06 - Laura Zaghi
+E' stato un aggiornamento, corretto.
+
+30:08 - Federico Saladino
+Qui l'altra cosa è che se si vuole flaggare questa cosa, se si vuole mettere una flag che c'è stato un cambio di posizione, si può fare, c'è un po' magari di effort aggiuntivo, nel senso che non era stato molto previsto, però non è una cosa troppo complessa, si dovrebbe poter fare. Flaghiamo semplicemente il contatto come se avesse avuto un aggiornamento, non so.
+
+30:35 - Laura Zaghi
+non so, esce magari in evidenza, no? Certo. Senza magari aggiungere ulteriore colonna. Certo. Assolutamente. Poi ti ricordati che ti devo fare l'ultima domanda su Scripter. Sì, assolutamente.
+
+30:49 - Federico Saladino
+Scusatemi un attimo che io purtroppo sono fuori.
+
+30:53 - Laura Zaghi
+Sì, ok, allora faccio veloce. Io il pulsante Scripter lo attivo quando ne voglia.
+
+31:03 - Federico Saladino
+Può essere azionato manualmente, però chiaramente l'idea finale è quella di impostare uno schedule. Cioè noi gli diciamo ogni giorno a mezzanotte o una volta ogni due giorni. Quindi poi non lo vedrò più così?
+
+31:25 - Laura Zaghi
+No, lo potrai vedere.
+
+31:27 - Federico Saladino
+Questo io te lo lascio comunque. Te lo lascio, se tu lo vuoi azionare, lo puoi azionare. Ma agli altri no? Agli altri conviene di no, per il semplice motivo che comunque questa è un'azione AI, algoritmica, non da poco nel senso. Tutti I siti web non sono molto contenti se una macchina sta navigando I loro I loro dati e gli sta scrapeando.
+
+31:57 - Laura Zaghi
+Ok, allora impostatele voi.
+
+31:58 - Laura Zaghi
+Stiamo sanfando la linea grigia delle privacy. Facciamo che lo impostate voi. Impostatela voi, io non lo toccherò.
+
+32:07 - Federico Saladino
+Io comunque te lo lascio, avrai la possibilità di lanciarlo e di fermarlo. Adesso per esempio l'ho lanciato un momento. Dopodiché probabilmente tu non lo utilizzerai mai perché si occuperà di fare lo scherzo.
+
+32:22 - Laura Zaghi
+No, lascia stare. Mandatelo in automatico per tutta esigenza. Grazie.
+
+32:27 - Federico Saladino
+Questa è la nuova view anche interfaccia, questa view praticamente ti consente, per questo diciamo te la lascerei, piuttosto ti tolgo I bottoni diciamo, non lo so, per quando sta runnando. In questa interfaccia praticamente si vede proprio quando lo scraper naviga sulle pagine del contatto specifico, quali dati estrae e ti fa un underline anche di quali dati sono stati recuperati in pagina, in sostanza in questo caso event Non è necessario, l'importante è che si realizzi, non è importante visualizzare mentre lo fanno.
+
+33:03 - Laura Zaghi
+Ok, va bene. È un fiocchetto, Laura, sta lì per bellezza, per far vedere che stai lavorando.
+
+33:11 - Carlo Sanvoisin
+Averlo non cambia niente a livello funzionale, poi tu ti devi lavorare.
+
+33:17 - Federico Saladino
+Cambia a livello funzionale, è un tool di debatte in verità, perché ogni tanto deve succedere si vede che qui non sta funzionando correttamente. Da qua è possibile capire che cavolo sta succedendo. Questa interfaccia del Live Scraper View si aprirà anche quando si importa un nuovo contatto, cioè semplicemente quando il leader mette il nuovo contatto, comparirà in una finestra lo Scraper View che dirà che lo scraper è stato lanciato, mostrerà la pagina che lo scraper ha raccolto dal CS Navigator e I dati raccolti e poi passerà alla modellazione. Di aggiunta, insomma, dei dati. Ok, poi per il discorso di scraping capiremo nel senso ogni quanto farlo, perché questo è più interiore. Esattamente, cioè questo è più interiore, Laura, nel senso che quando questo sta rannando, sta ciclando, sta estraendo I dati, utilizza degli agenti. Quindi l'utilizzo degli agenti ha un costo, è bassissimo comunque, abbiamo già fatto un po' di stime di calcolo, è un costo riduzionale. Però semplicemente magari se c'è tanto diciamo un lib non è che cambia lavoro ogni giorno, magari questo tool può girare una volta a settimana per esempio il venerdì.
+
+34:34 - Laura Zaghi
+Va bene, sì, sì, sì. Esattamente, per ottimizzare.
+
+34:38 - Federico Saladino
+Ok, e poi va bene, infine, questa è anche un'altra cosa abbastanza importante, la sezione utenti. Qual è la sezione utenti? Tu di fatto hai, adesso magari te la posso rinominare come commerciali. Qua è la tua lista di commerciali. Perché è interessante? Perché qui tu puoi aggiungere un nuovo commerciale. L'aggiunta di un nuovo commerciale lo si fa solo tramite la mail. Una volta che viene inserita la mail, il commerciale si troverà una mail con lead me di Noloop, no? Iscriviti. Cliccando su quell'url lui inserisce I suoi dati, nome, cognome, date di nascita. Ora non ricordo quali dati fossero richiesti. E dopodiché la password e a quell'avvolgimento li può accedere all'applicativo. Da qui però tu cosa vuoi che succeda? Se un nostro amico molto simpatico, un nostro commerciale, si perde la sua password, adesso purtroppo non vedo mai, ci sarà la possibilità per fargli il reset password. Se Arianna Rossi si è dimenticata la password, così, anche senza che magari devi venire a disturbare noi, tu schiacci un bottoncino, reset password, però sarà un'operazione che fai tu, non possono farla loro direttamente. Questo è più o meno l'overview di tutto l'applicativo. Quando è che ci rivediamo?
+
+36:04 - Carlo Sanvoisin
+A questo punto io direi che dobbiamo sicuramente, come ti dicevo prima, gestire questa parte di delivery dell'applicativo, con Marco Merli e magari ecco su questo insomma faccio un allineamento anche con Federico e Simone per capire le implicazioni tecniche e poi una volta che sappiamo esattamente come, diciamo, portarlo a terra, come farlo girare e dare accesso a tutti quanti, ci risentiamo noi invece per quanto riguarda le persone che devono avere l'accesso e la lista finale, diciamo, dell'Excel sulla quale andrò a lavorare un po' anche io, io per aggiungere tutti quanti quei link appunto che servono alle pagine di LinkedIn in maniera tale che poi possiamo fare tutto questo import e se ci sarà da fare delle configurazioni iniziali dei dati mancanti anche su quello come ti dicevo la mia piena disponibilità. Quindi io ti direi mi sento anche domani con Marco se è disponibile e poi ti aggiorno quando riusciamo appunto a fare questi ultimi passaggi.
+
+37:11 - Laura Zaghi
+D'accordo. Super. Allora, grazie. Grazie a te, Laura.
+
+37:15 - Laura Zaghi
+Grazie, Simone.
+
+37:16 - Carlo Sanvoisin
+Grazie, Carlo.
+
+37:18 - Laura Zaghi
+Grazie a voi.
+
+37:19 - Federico Saladino
+Ciao.
+
+37:20 - Carlo Sanvoisin
+Aspetto voi.
+
+37:21 - Federico Saladino
+Ci sentiamo presto.
+
+37:22 - Federico Saladino
+A presto.
+
+37:23 - Carlo Sanvoisin
+Ciao, ciao, ciao. Senti, discorso hosting.
+
+37:26 - Carlo Sanvoisin
+Facciamo prima una chiacchiera da noi, così poi quando parlo con loro, un referente, che insomma si occupi di queste cose, almeno io sono già preparato e so cosa dire.
+
+37:41 - Unidentified Speaker
+Sì, va benissimo.
+
+37:43 - Federico Saladino
+Possiamo farlo se sei più tardi, la facciamo anche insieme a Simo. Bene, ok. Super, allora ci sentiamo dopo.
+
+37:51 - Carlo Sanvoisin
+Ciao Fede. Va bene. Comunque è andata bene. Hai visto, il tour le piace, non ha rotto le palle praticamente su niente. Ma no, no, assolutamente, infatti.
+
+38:02 - Federico Saladino
+Adesso lì magari giusto quella roba lì di aggiungere un facciamolo. Tanto l'anno che abbiamo fatto 30 facciamo 31, però siamo ben oltre quello che era stato un pochino preventivato per certi punti di vista, quindi vediamo.
+
+38:20 - Carlo Sanvoisin
+Te ripeto, nel senso per me se vogliamo consegnarla così e diciamo se vuoi il flag è un'integrazione io diciamo detto che con tutta la roba che partirà adesso Possiamo pure metterci un po' più di margine su altre soluzioni e ciao, non rompere le scatole.
+
+38:41 - Federico Saladino
+Non ti preoccupare, perché comunque per me, nella mia testa, senza quel discorso di vacancy, non è completo proprio. Aspetta un attimo che qua c'è io c'ho sta PM, tra un momento la strozzo, la vado a Romania e... Alla prossima Yes, GripenFourth. Stare in cool. Grazie mille Al prossimo episodio non voglio niente di differenza però nel senso allora piuttosto eh se eh ci dicevamo no? Magari per il quindici sarà il 20 nel senso per finire bene tutto quanto. Solo perché sennò mancano queste due robine, le devo inserire di corsa adesso, devo fare un po' una rasciata, mi ritirerei la rasciata, tutto qua. Non ti preoccupare, per il resto siamo a posto. È solo che magari facciamo il 20, non so, adesso con calma. Poi più che altro, l'altra cosa Per il discorso di training li capiamo, cioè nel senso che io posso farlo, però magari per farlo bene, per calmarci...
+
+41:23 - Carlo Sanvoisin
+No, ma lo posso fare io, che problemi ci stanno? Me ne occupo io. La tua quota è la quota di sviluppo, è giusto che si limiti a quella lì.
+
+41:36 - Federico Saladino
+Poi c'è il training, ne voglio dire. Mi raccomando, studiatelo, va bene, studiatelo. Tutto bene se questa domanda fammela proprio solo perché se non vorrei mai che nel col training magari se per sbaglio dici qualcosa che in verità l'applicativo non supporta e poi questi qua dicono ah cavolo però in un training. Certo certo. Mi raccomando.
+
+41:55 - Carlo Sanvoisin
+Quello prima lo studio bene se c'ho dei dubbi ti faccio domande. Va bene dai lasciamoci così che sto full pure io. Ci sentiamo dopo sul gruppo. Ciao Fede.
+
+42:04 - Federico Saladino
+Grazie.
+
+42:04 - Unidentified Speaker
+Ci vediamo dopo. Ciao Tatone.
+
+42:05 - Unidentified Speaker
+Grazie a te.

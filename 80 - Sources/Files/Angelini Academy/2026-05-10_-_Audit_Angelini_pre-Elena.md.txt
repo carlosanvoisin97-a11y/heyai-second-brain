@@ -1,0 +1,131 @@
+﻿________________
+
+
+type: audit parent_project: _Angelini Academy client: Angelini Academy created: 2026-05-10 updated: 2026-05-10 context: prep allineamento Carlo + Daniele Caporale + Elena Chiti 11/5 ore 12:00 purpose: stato dei fatti al 10/5 → input per Fase 2 (strategia di posizionamento pitch finale)
+🔎 Angelini Academy — Audit pre-Elena (10 maggio 2026)
+Stato dei fatti al 10/5/2026, due giorni dopo la Q&A call cliente 8/5 e un giorno prima dell'allineamento interno Carlo + Daniele + Elena (11/5 ore 12:00). Non contiene strategia: la strategia di pitch nasce nella Fase 2 a partire da questa base.
+Sintesi in 3 righe
+1. La gara è ancora attiva e ancora vincibile, ma il perimetro è cambiato: non più "ristrutturazione completa" ma restyling rapido entro giugno + ristrutturazione fase 2. Concept proposta entro fine maggio, stesso tempo dato alle altre agenzie.
+2. La call 8/5 ha fissato 8 paletti del cliente (e-commerce, eventi, MBA volumi, AI bocciate, brand book 2024, bilinguismo IT/EN, foto autorizzate, copy a HeyAI) e ha aperto 1 porta tecnica (sviluppo IT alternativo). Tutto il resto è ancora aperto.
+3. Performance HeyAI in call: 6.5/10. Caterina sta valutando, non ha né scelto né scartato. Il pitch finale deve invertire 5 pattern Carlo + riprendere il laboratorio editoriale permanente come differenziale (non emerso in call per confusione cliente).
+1. Il passaggio strategico che ribalta tutto
+Prima del 8/5 (lettura HeyAI): sito rifatto from scratch, opzione B €4-5K, mockup navigabile come prova di velocità, AI come catalogo di feature.
+
+
+Dopo il 8/5 (parole letterali di Caterina): "essere coerente, non rifare tutto adesso". Il sito va fatto in due fasi:
+
+
+Fase
+	Quando
+	Cosa
+	Chi (aperto)
+	Fase 1 — Restyling rapido
+	Entro giugno 2026
+	Allineamento estetico/contenuti del sito esistente al lancio comunicazione in atto
+	Possibilmente fornitore tecnico di gruppo Angelini ("economia di scala mai messa in discussione")
+	Fase 2 — Ristrutturazione completa
+	Post-Festival Trento, timing aperto
+	Architettura nuova multi-pilastro, percorsi commerciali (MBA, Roadshow, Forum), modulo AI editoriale
+	Aperto — Caterina valuta proposte alternative al fornitore storico
+	
+
+Conseguenza chiave: la proposta HeyAI sarà modulare. Angelini deve poter scegliere quali fasi affidarci e quali tenere al fornitore in essere. Il succo dell'offerta sta sulla fase 2, ma la fase 1 resta proponibile (conferma Elena pomeriggio 8/5).
+
+
+Vincolo tecnico per Michele: l'architettura della fase 1 deve già accogliere la fase 2 senza dover essere rifatta.
+2. Stato del cliente — chi è chi, cosa vogliono, cosa hanno chiuso
+Lato cliente (Angelini Academy)
+* [[Caterina Caboni]] — Senior Marketing & Events Manager, single point of contact fase gara. In call 8/5 ha tenuto la stanza da sola. Non bypassare. Lettura di Elena nel debrief: poco tecnica, "non saprei" va letto come "fate voi, ne capite più di me, mostratemi le opzioni". Va guidata con fermezza ma chiarezza.
+* [[Tiziana Carnicelli]] — non in call 8/5, ruolo ridimensionato rispetto a quanto pensato pre-call (non è la sponsor). Resta presumibilmente l'alleata interna che ha garantito a FuturItaly la possibilità di proporre. Il laboratorio editoriale è stato concordato Elena ↔ Tiziana ma è "saltato" in call per confusione di Caterina sui contenuti — Tiziana ha già 2 fornitori attivi (agenzia tecnica gruppo + creator content esterno).
+* [[Marco Morbidelli]] — CEO. Brief gara chiede esplicitamente di costruire il suo profilo LinkedIn personale: segnale di seniority nelle decisioni.
+* Ufficio acquisti Angelini — ostile a FuturItaly, ha contestato a tavolino l'ingresso fuori procedura. Vuole tenere i fornitori storici della holding.
+Decisioni cliente prese in call 8/5 (paletti)
+1. E-commerce: NO nel 2026, ma architettura predisposta + oscurata, accendibile fase 2. Proposta deve includere 2 opzioni (custom integrato vs gateway separato) con pro/contro.
+2. Eventi: NO area pubblica (80-90% sono interni). Eventualmente area riservata oscurabile in futuro.
+3. MBA candidature: form sì, dimensionato sui volumi reali → 45 candidati max post-screening IE Madrid. Carlo aveva sovrastimato 10x in call. "Tienete conto della dimensione".
+4. Calcolatore borse: semplificato a singolo parametro reddito. "Talmente semplice, non la farei più complicata".
+5. AI bocciate in call: chatbot conversazionale + agente percorsi formativi + calcolatore complesso → 3 NO consecutivi in 4 minuti. "Di frontiera per noi", "ho paura di un boomerang". Resta spazio per UNA sola feature AI ben dimensionata (candidata naturale: chatbot ricerca scientifica). NON catalogo.
+6. Brand book 2024 confermato come riferimento, logo invariato, NO rebranding visivo.
+7. Bilinguismo IT/EN mantenuto. Analisi SEO consulenziale lato HeyAI.
+8. Library foto: usare quelle autorizzate già sul sito (no library nuova strutturata).
+9. Copywriting e contenuti: HeyAI nel perimetro proposta. ✅
+10. Sviluppo tecnico: oggi è agenzia IT del gruppo Angelini con economie di scala — Caterina apre a valutare proposte alternative se interessanti. Spazio possibile, da verificare con IT.
+11. Fili rossi del brief: NON tassonomia editoriale del sito ma concetti di posizionamento. "Sono gli obiettivi della nostra comunicazione, non fatevi vincolare" — ha smontato la lettura di Michele.
+12. Approccio richiesto: strategia prima, effetti speciali dopo. "Fate voi una proposta, ma siete voi a doverci dire perché". Esplicito NO al "full optional con i video".
+13. Tempistiche: 3 settimane per concept proposta, entro fine maggio, stesso tempo dato alle altre agenzie.
+14. Budget: nessun paletto. Proposta modulare per scaglioni.
+Criteri di valutazione gara (dal brief, slide 35)
+Criterio
+	Peso
+	Strategia
+	30%
+	Contenuto
+	30%
+	Creatività
+	15%
+	Prezzo
+	10%
+	Team
+	10%
+	Case history
+	5%
+	
+
+Il 75% della valutazione è qualità sostanziale. Il prezzo conta poco. Vinciamo sulla profondità della comprensione del loro contesto + sul metodo, non sul ribasso.
+3. Stato della relazione FuturItaly ↔ HeyAI ↔ Cliente
+* [[Elena Chiti]] = alleata interna, owner della relazione commerciale. Non è il decisore. Onesta nel debrief ("non è una merda, all'inizio sì"). Da fidarsi delle sue letture politiche. Da non bypassare.
+* [[Daniele Caporale]] = Communication strategist FuturItaly, dialogo diretto con Caboni, regista designato del pitch finale. In call 8/5 non ha tenuto la regia: Carlo ha portato avanti il 70% delle domande, Daniele rimasto nello sfondo, FuturItaly come capofila quasi assente lato cliente. Da ricalibrare.
+* Margine FuturItaly = vincolo strutturale di partnership. Elena ha chiesto esplicitamente in debrief 8/5 che la proposta HeyAI permetta a FuturItaly di marginare. Modello da decidere lunedì: markup HeyAI→FuturItaly→Angelini vs fattura separata + % commercializzazione.
+* Modello fornitore (F2 in Q&A): ancora non risolto. HeyAI come delivery di FuturItaly (sub) vs HeyAI come fornitore autonomo coordinato. Setup più probabile e più comodo: lead unico FuturItaly + HeyAI sub.
+4. Punti aperti che la call di domani 11/5 ore 12:00 DEVE chiudere
+Dalla scheda progetto, sono 4 espliciti:
+
+
+1. Chi tira la corda con Caterina sull'IT per sviluppo tecnico fase 2, e con che tempistica. Senza risposta a questo, non sappiamo se HeyAI sviluppa o passa il pallone al fornitore di gruppo.
+2. Regia pitch finale — chi parla quando, in che %, come si dividono i blocchi narrativi. Target operativo: Carlo ≤30% tempo parlato (vs ~70% in call 8/5).
+3. Flusso economico margine FuturItaly — dichiarato apertamente nel pricing (markup vs fattura separata + %). Va impostato adesso, non in fase di proposta scritta.
+4. Laboratorio editoriale permanente come differenziale — rimettere a terra il concept (HeyAI = infrastruttura editoriale-tecnica che converte ricerca scientifica in posizionamento, non agenzia che "fa il sito"). Daniele ne è custode insieme a Elena, va riallineato.
+
+
+Punti correlati che potrebbero emergere:
+
+
+* Identità "Davide" presente in call 8/5 (typo per Daniele? Altra risorsa FuturItaly?) → da chiarire.
+* Target mapping serio (Insead/Oxford pedagogia, ISEE/ISPE borse MBA, mercato Angelini esteso biotech, network Tiziana ricercatori internazionali) → deliverable pre-pitch, prima slide del pitch finale. Da costruire Carlo+Elena nei prossimi giorni.
+5. Vincoli e regole interne per la proposta finale
+Da rispettare già al pitch del 11/5 con Elena (modalità di lavoro), non solo in proposta scritta:
+
+
+* Arrivare con domande, non con tesi. La proposta nasce visibilmente come traduzione della loro strategia (4 pilastri + Engaged Research + target reali), non come idea calata.
+* UNA sola feature AI ben dimensionata sui loro volumi, presentata come conseguenza dei loro target — non come catalogo. Mai più 3 NO consecutivi sull'AI.
+* Prima i numeri, poi le soluzioni. Ogni feature di scope deve dichiarare ad alta voce il volume che la giustifica. "Tienete conto della dimensione" è la frase più importante dell'8/5.
+* Daniele tiene la regia, Carlo interviene quando chiamato in causa sul tecnico-sito. Accettare anche che Daniele possa non riempire — meglio silenzi del FuturItaly che spegnimento del FuturItaly.
+* Modularità esplicita nella proposta: Angelini deve poter scegliere quali fasi affidarci.
+* Mai parlare di prezzi in call cliente prima che lo chiedano esplicitamente — posizionamento di valore prima del numero.
+6. Cosa serve a Elena specificamente dal nostro incontro di domani
+Elena non è il destinatario finale della proposta; è la persona che deve portare avanti la nostra proposta dentro Angelini insieme a Daniele. Il suo bisogno da noi non è "una proposta tecnica perfetta" ma:
+
+
+* Una tesi di vincita chiara e raccontabile in 60 secondi davanti a Caterina (laboratorio editoriale + UNA feature AI ben dimensionata + target mapping serio + modularità).
+* Una distribuzione di ruoli pitch finale condivisa con Daniele (chi apre, chi chiude, chi parla del metodo, chi parla del tecnico).
+* Un modello economico che le permetta di marginare e di giustificarlo a FuturItaly internamente.
+* La conferma che HeyAI non la metterà in difficoltà in pitch (rifare i 5 pattern dell'8/5 le brucerebbe la relazione cliente).
+7. Materiale già prodotto, pronto da riusare
+Asset disponibili nel vault:
+
+
+* [[Analisi Brief]] — lettura strutturata 37 slide PDF (vision, purpose, 4 pilastri, communication plan 2026, target, criteri valutazione).
+* [[Wireframe e Architettura]] — sitemap, schede pagine, wireframe testuali low-fi delle 5 pagine prioritarie, mappatura sito↔piano comunicazione 2026, sette raccomandazioni progettuali. Da aggiornare dopo il cambio scope (fase 1 + fase 2).
+* [[Analisi Narrativa]] + [[Analisi Narrativa Short]] — vision tradotta in claim, micro-copy, hooks per i 3 fili rossi. Da rivedere ora che i fili rossi NON sono tassonomia editoriale.
+* [[Domande QA]] — 36 domande organizzate per ambito, con scenari di risposta + sezione J (6 iper-necessarie). Smontate a metà dalla call 8/5 ma utili come knowledge base.
+* Smoke test homepage HTML — HTML standalone responsive prodotto 6/5 come prova di metodo "sito vero pre-pitch". Riusabile come base per il prototipo Fase 5.
+* [[2026-05-08 - Angelini Academy - Domande tecniche IT]] — docx v1.1 da 13 domande tecniche per fase, allegato all'email Elena (firma + invio in sospeso).
+* [[2026-05-08 - Carlo Performance — Q&A Call Cliente Angelini Academy|Coaching note Q&A 8/5]] — 5 pattern Carlo da rompere + 3 lezioni operative per il pitch finale.
+
+
+________________
+
+
+
+
+Output di Fase 1: completato. Tutto il sapere consolidato sull'audit è qui. Pronti per Fase 2 (strategia di posizionamento).
