@@ -16,10 +16,11 @@ Sei l'assistente di Carlo Sanvoisin (HeyAI Digital). Questa skill è la **fonte 
 | `links` | §LINKS | cloud ✅ · Code ✅ (bastano Read/Glob/Bash) | **flag-only** | `99 - System/Vault Link Audit.md` |
 | `moc` | §MOC | cloud ✅ · Code ✅ | **auto-patch-safe** (solo counters/versione/updated) | `99 - System/MOC Refresh Log.md` |
 | `consistency` | §CONSISTENCY | **solo Code** (servono `list_scheduled_tasks` + `RemoteTrigger`, assenti nelle routine cloud headless) | **flag-only** | `99 - System/System Consistency Audit.md` |
-| `contradictions` | §CONTRADICTIONS | — | — | slot dichiarato, **vuoto** |
+| `contradictions` | §CONTRADICTIONS | cloud ✅ · Code ✅ (bastano Read/Grep) | **flag-only** | `99 - System/Contradictions Audit.md` (solo se findings>0 — audit-as-delta) |
 
 **Regole trasversali (valgono per ogni sub-check):**
 - **Isolamento**: se un sub-check fallisce, gli altri proseguono; il fallimento va segnalato esplicitamente nel report/chat, mai silenziato.
+- **Audit-as-delta (M6, 10/6/2026)**: se un sub-check chiude a **zero findings**, NON appendere l'entry completa al file di report — aggiorna solo la riga di trend (dove esiste) o una riga sintetica `✅ run YYYY-MM-DD pulito`. L'entry completa si scrive solo con findings > 0. Riduce gli artefatti crescenti che richiedono rolling-window.
 - **Append-only §15**: ogni output file si arricchisce in append (+ rolling-window dove prevista); mai rewrite di sezioni storiche.
 - **Mai**: auto-fix di wikilink · creare schede progetto/persona · toccare i numeri del Master Facts Sheet · modificare scheduled task o trigger (solo segnalazione).
 - Con `all` da Code: al termine produrre **mini-report di sintesi in chat** (K broken, patch/flag MOC, drift consistency) — nessun file nuovo, i dettagli restano nei 3 file dedicati.
@@ -176,9 +177,42 @@ Se 0 drift: `✅ Sistema consistente — 0 drift. Runtime A: N trigger · Runtim
 
 ---
 
-## §CONTRADICTIONS — slot dichiarato, VUOTO
+## §CONTRADICTIONS — contraddizioni fattuali cross-schede (flag-only) — IMPLEMENTATO 10/6/2026
 
-Motore semantico di contraddizioni cross-schede (numeri divergenti tra Master Facts e schede, stati incompatibili, citazioni in conflitto). **Non implementato** — richiede sessione dedicata (è il pezzo mancante della KB-solidity). Invocarlo oggi deve rispondere: "contradictions: non implementato (slot F3), vedi backlog handover 10/6".
+> Il pezzo mancante della KB-solidity (assorbe il vecchio cherry-pick wiki-lint). On-demand da Code o in `all`; NON agganciato ai cron (i 4 trigger cloud restano invariati). La weekly-system-review può citarne l'ultimo esito.
+
+### Razionale
+Regola §2 CLAUDE.md: "errori di math = bocciatura cliente"; regola §5: Master Facts = fonte autoritativa, "data più recente vince" sui conflitti. Oggi un numero divergente tra Master Facts e scheda si scopre solo a occhio. Questo sub-check lo rileva in automatico.
+
+### Cosa puoi fare
+- Read/Grep su `99 - System/Master Facts Sheet.md`, `20 - Projects/**/*.md`, `CLAUDE.md` §5/§6.
+- Scrivere SOLO `99 - System/Contradictions Audit.md` (creato al primo finding; append-only, rolling-window >30gg → `50 - Archive/System/`).
+
+### Cosa NON puoi fare mai
+- Mai correggere numeri o stati (flag-only assoluto: i numeri li tocca solo Carlo, §5).
+- Mai flaggare numeri storici dichiarati superati (es. marcati `[superato]`, in sezioni `Log`/`storia`, o in file archiviati) — confronta solo i valori CORRENTI.
+- Mai scansionare `50 - Archive/`, `80 - Sources/`, `00 - Inbox/` (solo fonti vive: Master Facts, schede progetto, CLAUDE.md).
+
+### Algoritmo
+1. **Estrai i fatti dal Master Facts Sheet**: per ogni progetto, i valori correnti (importi €, percentuali, stati contrattuali: "firmato/bozza/mai prodotto/acconto pagato") con la riga di contesto. Ignora sezioni esplicitamente storiche.
+2. **Estrai i fatti dalle schede progetto** (`20 - Projects/**/*.md`): frontmatter (`status:`, `updated:`) + importi/stati nelle sezioni vive (escludi `## Log` e citazioni).
+3. **Estrai da CLAUDE.md**: tabella §6 (priorità/stati/valori) e valori chiave §5.
+4. **Confronta a triple** (Master Facts ↔ scheda ↔ CLAUDE.md §5/§6) per progetto:
+   - Importo diverso per lo stesso progetto → 🔴 CONTRADDIZIONE
+   - Stato contrattuale incompatibile (es. "firmato" vs "bozza non firmata") → 🔴
+   - `status:` frontmatter vs stato in tabella §6 (es. `lost` vs 🟢 P2) → 🟡
+   - Conflitto risolvibile con "data più recente vince" (§4): segnala come 🟡 con la fonte vincente proposta — MAI auto-applicare.
+5. **Report** (solo se findings > 0, audit-as-delta): append a `Contradictions Audit.md`:
+```markdown
+## Audit YYYY-MM-DD
+### 🔴 Contraddizioni (N)
+| Progetto | Fonte A (valore, updated) | Fonte B (valore, updated) | Vincente proposto (§4) |
+|---|---|---|---|
+### 🟡 Drift minori (N)
+…
+```
+   Se 0 findings: nessuna scrittura su file; in chat/`all`: `✅ contradictions: 0`.
+6. **Anti-rumore**: massimo 1 flag per coppia progetto+fatto (no duplicati per occorrenze multiple dello stesso valore); le proposte `[PROPOSTA]`/`TBD` non sono contraddizioni (sono flag deliberati).
 
 ---
 
@@ -190,6 +224,6 @@ Dopo l'esecuzione dei 3 sub-check, sintesi in chat (nessun file nuovo):
 links: K=… J=… P=… (alert: sì/no) → Vault Link Audit
 moc: N patch · M flag → MOC Refresh Log
 consistency: 🔴 N · 🟡 M → System Consistency Audit
-contradictions: slot vuoto
+contradictions: 🔴 N · 🟡 M (file solo se >0)
 ```
 Sub-check falliti: riportarli come `⚠️ <check>: FALLITO — <motivo>` senza bloccare gli altri.
