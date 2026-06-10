@@ -59,3 +59,15 @@ Pitch concluso 5/6 (esito soft-defer → workshop H2'26). Proposta di triage per
 - **ARCHIVIARE (lavorazione pitch superata, 21 file)**: i 14 `Prompt Claude Code - *` + 3 `Prompt Claude Design - Atto *` + `Pitch Deck Scaletta McKinsey 23-5` + `Pitch Outline 18-5 …Short` + `Pre-call Elena 18-5` + `2026-05-27 - Prep Call Elena FuturItaly`
 - **ARCHIVIARE (analisi intermedie/QA, 12 file)**: `Analisi Narrativa` + `Analisi Narrativa Short` + `Brief Mockup` + `Mockup Brief Sito` + `Brief Copy Sito per Claude Code` + `Brief Copy …(v1.1 archiviata)` + `Campagna 2026 (archiviata…)` + `Domande QA` + `Q&A preparatorio 8 maggio` + `Pitch Angelini - Diagnosi Strategica (29-5)` + `Pitch Angelini - Story Map ricca…(29-5)` + `Pitch Deck - QA e Restyle (stato 29-5)` + `Video Reel Veo 3.1 - Prompt Pack` + `Angelini Academy — Briefing Personaggi Landing Page`
 - Destinazione proposta: `50 - Archive/Angelini Academy Pitch 2026-05/` (con path-update dei wikilink via grep-on-rename, stesso metodo cluster A/B)
+
+### Task 6 — Ottimizzazioni skill tattiche (2026-06-10 ~14:25)
+
+- `pm-method` (`~/.claude/skills/`, FUORI repo): description 975 → 369 char (trigger troppo largo). Backup pre-modifica: `~/vault-trash-2026-06-10/skill-backups/pm-method.SKILL.md.bak`
+- `system-consistency-check` SKILL locale (`~/.claude/scheduled-tasks/`, FUORI repo): riscritto come puntatore al wrapper vault (era logica propria con affermazioni stantie: "bridge DISABILITATO", "cloud non introspezionabile"). Backup: `skill-backups/system-consistency-check.SKILL.md.bak`. Description task allineata via `update_scheduled_task` (§15.quater)
+- `obsidian-bases` (nel repo): SKILL 497→~180 righe, reference in `references/SYNTAX_REFERENCE.md` — commit `34dab13`
+- `website-builder-setup`: `mv ~/.claude/skills/website-builder-setup` → `~/.claude/skills-archive/website-builder-setup` (recupero: mv inverso)
+- `desktop-commander-guide`: 🔍 SKIP — non è una skill personale (è `desktop-commander:desktop-commander-overview`, plugin marketplace, non modificabile da noi). Se i trigger "hi/hello/help" disturbano: disabilitare il plugin, non patcharlo
+
+### ⚠️ Nota operativa rilevata ~14:15 — terzo writer attivo
+
+Il plugin **Obsidian Git ha pushato in autonomia** gli 8 commit locali dei fix (Obsidian aperto, auto-sync ~10'). Nessun danno (commit validi, già destinati a main), ma la strategia "trattengo i push finché il run cloud non atterra" non regge col plugin attivo: il run cloud `vault-link-checker` (lanciato 13:55 circa) dovrà mergiare al push. Se il run fallisce il push → ri-trigger.
