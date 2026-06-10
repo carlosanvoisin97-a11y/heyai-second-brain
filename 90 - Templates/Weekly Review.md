@@ -4,7 +4,7 @@ created: {{date}}
 updated: {{date}}
 status: in_progress
 week: 
-related_template: "Weekly Review interattivo (Setup in 99 - System/Setup Weekly Review.md)"
+related_template: "Weekly Review interattivo (Setup in 50 - Archive/System Snapshots/Setup Weekly Review.md)"
 ---
 
 # 📅 Weekly Review — settimana del {{date}}

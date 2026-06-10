@@ -135,7 +135,7 @@ Verrengia ha un altro cliente (suo, non NoLoop) che ha **immaginato un applicati
 - Topic interessante per HeyAI (biotech/sanità "campo interessantissimo" — citazione Carlo in call)
 - **NDA potenzialmente richiesto** dal cliente prima della prima call ("ci sono clienti che prima di fare la prima call mi fanno firmare un NDA")
 
-📁 Approfondimento dedicato in `00 - Inbox/2026-05-21 - Lead biotech medical device via Verrengia.md`
+📁 Approfondimento dedicato in `50 - Archive/Inbox/2026-05/2026-05-21 - Lead biotech medical device via Verrengia.md`
 
 ## ⚠️ Performance flag (per Carlo — vedi §30 Area Performance & Coaching)
 
