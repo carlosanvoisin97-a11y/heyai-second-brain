@@ -155,7 +155,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 
 > La tabella mantenuta a mano è stata RIMOSSA (era la prima fonte di drift: status/priorità/valori duplicati). Lo stato progetti vive nei **frontmatter delle schede** `20 - Projects/**` (`type: project`/`project-macro` — campi `status`, `priority`, `client`, `owner`, `updated`). Viste:
 > - **Umana (Obsidian)**: [[99 - System/Progetti Live.base|Progetti Live]] — P1 live · Tutti gli attivi · Persi/archiviati/prospect.
-> - **Agenti e routine (ricetta)**: `grep -rl -E 'type: project(-macro)?' "20 - Projects" --include='*.md'` → leggere i frontmatter; P1 = `priority: p1` + `status: active`. Valori economici → §5 / [[99 - System/Master Facts Sheet]]. Fornitori in valutazione (es. Jakala) → `30 - Areas/Area - Partnership Fornitori/`.
+> - **Agenti e routine (ricetta)**: `grep -rl -E '^type: project(-macro)?$' "20 - Projects" --include='*.md'` → leggere i frontmatter; P1 = `priority: p1` + `status: active`. Valori economici → §5 / [[99 - System/Master Facts Sheet]]. Fornitori in valutazione (es. Jakala) → `30 - Areas/Area - Partnership Fornitori/`.
 > - **Regola (cascata §10bis)**: lo stato si aggiorna SOLO nel frontmatter della scheda — mai ricopiare elenchi qui. Task aperti per progetto → [[99 - System/Open Tasks]] (aggregati ogni mattina dal digest).
 
 ## 7. Persone chiave — decisori per progetto (lista completa in `60 - People/`)
