@@ -1,8 +1,9 @@
 ---
 type: design
-status: pronto-da-attivare
+status: attivato
 created: 2026-06-10
 updated: 2026-06-10
+attivato: 2026-06-10 sera-2 — script in .claude/hooks/prompt-router.sh + UserPromptSubmit in settings.json; pipe-test 6/6; +3 voci router (pricing-audit, requirement-log, coaching-note)
 tags: [system, hook, router, audio]
 ---
 
