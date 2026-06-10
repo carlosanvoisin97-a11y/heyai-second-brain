@@ -1,10 +1,10 @@
 ---
 type: lead
-status: early-discovery
+status: dormant
 priority: p3
 client: TBD (cliente di [[Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]], non NoLoop)
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-06-10
 stakeholders: [Paolo Verrengia (commercialista NoLoop)]
 sources: [call telefonica Carlo↔Verrengia 21/5/2026]
 ---
@@ -31,10 +31,10 @@ sources: [call telefonica Carlo↔Verrengia 21/5/2026]
 
 ## Next steps
 
-- [ ] **#p3** Attendere che Verrengia torni con: identità del cliente, requisiti più precisi, ambito medico (diagnostica? riabilitazione? monitoring?), eventuale NDA preliminare
-- [ ] **#p3** Quando arriva richiesta: capire scope chiaro **prima** di mobilitare sviluppatori (Federico/Simone) o partner hardware
-- [ ] **#p3** Mappare partner hardware HeyAI per ambito medical/biotech (TBD chi sono — non ne abbiamo nel vault attualmente)
-- [ ] **#p3** Valutare se serve NDA reciproco HeyAI↔cliente Verrengia prima della prima call
+- [-] ~~**#p3**~~ Attendere che Verrengia torni con: identità del cliente, requisiti più precisi, ambito medico (diagnostica? riabilitazione? monitoring?), eventuale NDA preliminare
+- [-] ~~**#p3**~~ Quando arriva richiesta: capire scope chiaro **prima** di mobilitare sviluppatori (Federico/Simone) o partner hardware
+- [-] ~~**#p3**~~ Mappare partner hardware HeyAI per ambito medical/biotech (TBD chi sono — non ne abbiamo nel vault attualmente)
+- [-] ~~**#p3**~~ Valutare se serve NDA reciproco HeyAI↔cliente Verrengia prima della prima call
 
 ## Open Questions
 
@@ -48,3 +48,6 @@ sources: [call telefonica Carlo↔Verrengia 21/5/2026]
 
 ### 2026-05-21
 - Lead emerso in call Verrengia↔Carlo (chiusura della conversazione, dopo il merito principale Wave 1/2). Carlo ha aperto la porta in modo prudente ma proattivo: "facciamo anche questo".
+
+### 2026-06-10
+- ❌ **Task annullati su decisione di Carlo** ("lead non importante", sessione 10/6 sera): i 4 next steps #p3 sono cancellati, non completati. Il lead resta documentato qui come dormiente: se Verrengia torna con il cliente, si riapre da questa scheda.
