@@ -245,7 +245,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 |---|---|---|---|
 | `code-sessions-index` | `35 20 * * *` | ✅ on | indicizza sessioni Code → `code-recap/` + cascata sicura + **catch-up self-heal** |
 | `system-consistency-check` | `30 7 * * 1` | ✅ on | audit scheduler/doc (LOCALE per forza: audita gli scheduler) |
-| `pm-digest-mattutino` (bridge) | `30 9 * * 1-5` (dopo il cloud) | ✅ **on — failover** | rete M365 (Rischio #1, ri-armato 9/6): gira 09:30 **SOLO se la daily di oggi manca** (= cloud fallito); guardia anti-doppione nel SKILL |
+| `pm-digest-mattutino` (bridge) | `30 9 * * 1-5` (dopo il cloud) | ✅ **on — failover** | rete M365 (Rischio #1, ri-armato 9/6, guardia estesa 10/6): gira 09:30 se la daily di oggi **manca** (→ digest completo) **o è degradata** (banner M365 OFFLINE → integra le fonti live in append); salta solo se la daily è completa |
 
 **C) Locale ad app aperta**: plugin **Obsidian Git** — commit-and-sync + auto-pull ogni ~10' (§9ter + [[99 - System/Routines/_README]]).
 
@@ -256,11 +256,11 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 
 Esistono **tre** runtime (cron + stato nella tabella §9). Implicazioni operative:
 
-- **Cloud (claude.ai)**: le 5 routine audit/digest girano **unattended, anche a Mac spento** (server-side, clonano il repo). È il "battito" vero, ripristinato in F1 (7/6) e provato end-to-end. Verifica / "Run now" da Code con `RemoteTrigger action:list|run`, o dal pannello claude.ai. ⚠️ Il PM Digest dipende dall'auth **M365 su claude.ai**: se il token scade, il run headless fallisce → il bridge locale (sotto) è la rete di sicurezza.
-- **Code-locale** (`~/.claude/scheduled-tasks/`, visto da `mcp__scheduled-tasks__list_scheduled_tasks`): **3 task** — `code-sessions-index` (on), `system-consistency-check` (on, locale per forza), `pm-digest-mattutino` bridge (**on — failover**, ri-armato 9/6: gira 9:30 solo se la daily di oggi manca). Best-effort: girano solo ad **app Code aperta** (se chiusa → al prossimo avvio), **mai a Mac spento**.
+- **Cloud (claude.ai)**: le 5 routine audit/digest girano **unattended, anche a Mac spento** (server-side, clonano il repo). È il "battito" vero, ripristinato in F1 (7/6) e provato end-to-end. Verifica / "Run now" da Code con `RemoteTrigger action:list|run`, o dal pannello claude.ai. ⚠️ Il PM Digest dipende dall'auth **M365 su claude.ai**: se il token scade, il run cloud produce comunque una daily **degradata** (solo fonti vault, banner `M365 OFFLINE` in testa — patch 10/6); il bridge locale (sotto) integra le fonti live in append, ma l'auth va comunque rinnovata a mano.
+- **Code-locale** (`~/.claude/scheduled-tasks/`, visto da `mcp__scheduled-tasks__list_scheduled_tasks`): **3 task** — `code-sessions-index` (on), `system-consistency-check` (on, locale per forza), `pm-digest-mattutino` bridge (**on — failover**, guardia estesa 10/6: gira 9:30 se la daily di oggi manca o è degradata-M365). Best-effort: girano solo ad **app Code aperta** (se chiusa → al prossimo avvio), **mai a Mac spento**.
 - **Plugin Obsidian Git**: gira ad **app Obsidian aperta** (§9ter) — è ciò che tira l'output cloud dentro Obsidian.
 - ⚠️ `list_scheduled_tasks` vede **SOLO** lo scheduler Code-locale (i 3 task sopra), **NON** le routine cloud. Per quelle: `RemoteTrigger action:list` o pannello claude.ai. Non confondere i due (errore storico Front 3).
-- **Campanello automatico**: l'hook `SessionStart` lancia `.claude/hooks/digest-staleness-check.sh`: se l'ultima daily note è ferma da ≥2 giorni avvisa — di norma significa che la **cloud routine M365 ha fallito** (token), non più "Cowork non aperto". Recupero: controllare auth M365 su claude.ai o `RemoteTrigger run` del digest (il bridge locale 9:30, già ON, copre da solo se l'app Code è aperta).
+- **Campanello automatico**: l'hook `SessionStart` lancia `.claude/hooks/digest-staleness-check.sh` (weekend-aware dal 10/6): avvisa se l'ultima daily è ferma da ≥2 giorni **lavorativi** (= cloud completamente giù) oppure se la daily di oggi è **degradata-M365** (banner presente → token da rinnovare). Recupero: rinnovare auth M365 su claude.ai (Settings → Connectors) o `RemoteTrigger run` del digest; il bridge locale 9:30 integra/copre da solo se l'app Code è aperta.
 - **Regola pratica**: per *lavorare* sul vault, Code e Obsidian sono equivalenti (il sync li allinea, §9ter). Le *automazioni* girano in **cloud** (Mac spento ok); tieni Obsidian aperto ogni tanto perché il plugin tiri in locale l'output.
 
 ## 9ter. Git, sync e branch (era Code-first) — disciplina anti-errori
@@ -274,7 +274,7 @@ Esistono **tre** runtime (cron + stato nella tabella §9). Implicazioni operativ
 - **Push solo su `main`** (`git push origin HEAD:main`). **MAI creare branch o aprire PR** per il vault.
 - **Branch/worktree `claude/*` che si accumulano** = creati 1-per-sessione dall'isolamento harness. **Innocui** (0 commit unici; tutto il lavoro va su main); si ripuliscono periodicamente (`git worktree remove` + `git branch -D`). Non sono bug né perdita dati.
 - **`.gitignore` = barriera di sicurezza**: ignora `.obsidian/plugins/` (i `data.json` plugin possono contenere API key/PAT), `copilot/`, e i grezzi PII (`_import-*`, `_DA_DOWNLOADS_*`). **Mai un-ignorarli**: l'auto-sync fa `stage-all` → finirebbero su GitHub.
-- **Routine cloud → solo `main`**: ogni file `99 - System/Routines/*.md` DEVE mantenere `## Push finale` (`git push origin HEAD:main`, no branch/PR); i prompt dei 5 trigger cloud sono ora espliciti uguale (allineati 7/6).
+- **Routine cloud → solo `main`**: ogni file `99 - System/Routines/*.md` DEVE mantenere `## Push finale` con la sequenza **`git pull --rebase origin main` → `git push origin HEAD:main` → verifica working tree pulito** (patch 10/6: il pull evita push rifiutati se un altro writer pusha durante la run; il check finale evita che modifiche residue finiscano sull'outcome-branch `claude/*` del trigger — causa del leak link-checker 10/6); no branch/PR; i prompt dei trigger cloud restano espliciti "push su main".
 
 **Convenzione sessioni (F4, 9/6):**
 - **Workflow vault = SOLO Code locale.** Ogni sessione gira in una worktree auto-creata dall'harness → **committa il lavoro vault su `main`** con `git -C /Users/carlosanvoisin/claude` (NON sul branch della worktree, che resta a 0 commit). Il plugin sincronizza main↔Obsidian↔GitHub. _(Promemoria automatico a ogni avvio: hook SessionStart `.claude/hooks/vault-align-check.sh`.)_
@@ -300,7 +300,7 @@ Quando crei una nuova scheda in `20 - Projects/` o `60 - People/`, propaga subit
 
 ### 10ter. Pre-flight check di apertura chat
 
-**Obbligatorio prima di rispondere alla prima domanda in ogni nuova sessione.** Sequenza: (1) verificare ultimo run PM Digest in [[99 - System/Digest Log]] — se l'ultima daily note in `10 - Daily Notes/` è ferma da ≥2 giorni, **segnalare e ricordare la causa probabile**: digest non girato perché Cowork non è stato aperto (vedi §9bis — automazioni Cowork-bound). In Code l'hook `digest-staleness-check.sh` lo flagga già da solo; (2) leggere indice sessioni Cowork del giorno precedente (`80 - Sources/Cowork Sessions/{ieri}.md`); (3) cross-reference prosa vs checkbox sulle 3-5 schede progetto più rilevanti — segnalare incoerenze con "🔍 Pre-flight check".
+**Obbligatorio prima di rispondere alla prima domanda in ogni nuova sessione.** Sequenza: (1) verificare ultimo run PM Digest in [[99 - System/Digest Log]] — se l'ultima daily note in `10 - Daily Notes/` è ferma da ≥2 giorni, **segnalare e ricordare la causa probabile**: digest non girato perché Cowork non è stato aperto (vedi §9bis — automazioni Cowork-bound). In Code l'hook `digest-staleness-check.sh` lo flagga già da solo; (2) leggere l'indice sessioni Code più recente in `80 - Sources/Cowork Sessions/code-recap/` (file `YYYY-MM-DD - Indice code sessions.md` con data più alta — gli indici Cowork piatti sono fermi al 28/5, era pre-dismissione); (3) cross-reference prosa vs checkbox sulle 3-5 schede progetto più rilevanti — segnalare incoerenze con "🔍 Pre-flight check".
 
 ### 10ter.1 Pre-flight per task di produzione
 
