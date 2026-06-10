@@ -191,9 +191,9 @@ status: in-construction (Fase A + consolidamento DPIII Fase 4 5/5/2026 + delta A
 - Se Andrea accetta rebalance → **Jakala** (margine atteso €43K sui 2 più probabili vs €40,7K Silencio)
 - Se Andrea rifiuta → **Silencio**
 
-Vedi: [[00 - Inbox/2026-05-05 - Decisione finale fornitori]] · [[00 - Inbox/2026-05-06 - PREP Rebalance call Pasquali]]
+Vedi: [[50 - Archive/Inbox/2026-05/2026-05-05 - Decisione finale fornitori]] · [[50 - Archive/Inbox/2026-05/2026-05-06 - PREP Rebalance call Pasquali]]
 
-### 4 scenari valutati (rif: [[00 - Inbox/2026-05-04 - Scenari Fornitori (post call Silencio)]])
+### 4 scenari valutati (rif: [[50 - Archive/Inbox/2026-05/2026-05-04 - Scenari Fornitori (post call Silencio)]])
 
 1. **Sconto Jakala su Osservatorio** _(prima mossa raccomandata)_ — Sfrutta Silencio €20K come leva → chiedi Jakala da €38K a €28-30K. Se accetta: bundle Jakala = Oss €30K + PresidIA €27K + Achipont €20K = €77K. Probabilità 50-60%
 2. **Split fornitori** — Silencio: Osservatorio €20K + Achipont €20K = €40K · Jakala: PresidIA €27K + HoReCa €30K = €57K. Rischio HoReCa non parte → Jakala a €27K solo
