@@ -77,6 +77,13 @@ Pitch concluso 5/6 (esito soft-defer → workshop H2'26). Proposta di triage per
 - Grafia commercialista: **Verrengia** (conferma Carlo) — rename 2 file + 86 occorrenze in 20 file; citazioni stampa intatte (commit `5340d70b`±)
 - Schede persona: `Luciano (sistemista Eldis).md` → **rinominata** `Luciano Pecorella.md` (canonico Nome Cognome; era la stessa persona — check-duplicati §15.quinquies) + creata `Simona Velotta.md` (FMA)
 
+### Triage Angelini ESEGUITO (sera 10/6, OK Carlo "fai pulizia")
+
+- **53 file** → `50 - Archive/Angelini Academy Pitch 2026-05/` via `git mv` (39 .md lavorazione pitch + 6 xlsx pricing v1–v4.2 + smoke test, reel assets, docx superati — inclusi i file "audit sito mockup vs pitch" segnalati da Carlo)
+- **Restano 16 file strategici** nel progetto: hub, Framework/Strategia Pitch, Strategia Website, Master Brief, Analisi Brief, specs (Accessibility/SEO), Scan Comparable, Wireframe, Deck Riferimento Decisioni, REGISTRO VALIDAZIONE, Audit Pricing, Sintesi Pre-PPTX, deck UNIFICATO finale, pricing v4.3
+- Distillazione pre-archive (Weekly Review): [[Lezioni dalla gara Angelini Academy]] in `40 - Resources/Concetti/`
+- Wikilink: risolvono per basename (v4) anche post-move — verificato dal run bis del checker. Recupero: `git mv` inverso o `git checkout pre-overnight-2026-06-10 --`
+
 ### ⚠️ Nota operativa rilevata ~14:15 — terzo writer attivo
 
 Il plugin **Obsidian Git ha pushato in autonomia** gli 8 commit locali dei fix (Obsidian aperto, auto-sync ~10'). Nessun danno (commit validi, già destinati a main), ma la strategia "trattengo i push finché il run cloud non atterra" non regge col plugin attivo: il run cloud `vault-link-checker` (lanciato 13:55 circa) dovrà mergiare al push. Se il run fallisce il push → ri-trigger.
