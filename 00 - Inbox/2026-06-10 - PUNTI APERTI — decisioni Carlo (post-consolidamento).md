@@ -30,7 +30,7 @@ aliases: [Punti aperti 10-6, Decisioni Carlo post-consolidamento]
 12. ✅ **ESEGUITO il run di prova** → [[99 - System/Radar/2026-06-10 - Radar]]; cadenza da decidere dopo lettura. Storico: schedulo il trigger cloud (che cadenza?) o archivio la routine?
 13. ✅ delega «mi fido di te»: vista .base pilota pronta; M1/M2 si decide dopo l'uso. Storico: (frontmatter fonte unica + viste Bases): riprendere (~1-2 sessioni) o dichiarare superati? _(la [[99 - System/Progetti Live.base|vista .base]] pilota è pronta — aprila in Obsidian e dimmi se la direzione ti piace)_
 14. ✅ **CONFERMATA definitiva**. Storico: confermi come definitiva? (provata end-to-end più volte; senza GitHub cadono le routine unattended)
-15. ✅ **APPROVATO** («seguo le due raccomandazioni») → scaffold in coda handover §2. Storico: **Vault-conoscenza separato in `~/2brain`** (pattern Karpathy): avviare lo scaffold o archiviare l'idea?
+15. ✅ **APPROVATO ed ESEGUITO 11/6** («seguo le due raccomandazioni») → scaffold completato: ~/2brain è un wiki git con quality gate ≥2 fonti + skill wiki-self-heal. Storico: **Vault-conoscenza separato in `~/2brain`** (pattern Karpathy): avviare lo scaffold o archiviare l'idea?
 16. ✅ «se necessario» — parcheggiato. Storico: **Test empirico second brain** (~1h con te): farlo o lasciar cadere?
 17. ✅ ci pensa Carlo. Storico: **2° vault** `~/Documents/Obsidian Vault`: rimuovilo TU dalla lista vault di Obsidian (Settings → vault switcher → Remove; i file restano su disco). 10 secondi.
 18. ✅ **VERIFICATO attivo** (obsidian-cli risponde) → obsidian-cli TENUTA. Storico: **Toggle** in Obsidian: serve solo se teniamo `obsidian-cli` (candidata a dismissione nella skill-strategy) — decidi col punto 22.
