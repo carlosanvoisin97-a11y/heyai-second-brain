@@ -3,7 +3,7 @@ type: person
 role: Consulente del lavoro / paghe — studio FMA (payroll HeyAI)
 company: FMA
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-11
 last_contact: 2026-06-05
 cadence_days: 30
 relationship_strength: operational
@@ -37,3 +37,9 @@ Referente operativa dello studio **FMA** per il payroll e gli adempimenti del pe
 
 ### 2026-06-09
 - Contratti e dichiarazioni inviati/firmati (chiusure registrate in Open Tasks ✅).
+
+### 2026-06-11 — Audit: gap sul contratto di assunzione di Carlo
+- ⚠️ **Rettifica parziale del "inviati 9/6 ✅"**: dalla call team del 9/6 sera risulta che il contratto di Carlo (già firmato da lui) **mancava della firma del datore di lavoro (Bruno)** — Bruno doveva firmare "stasera" i documenti portati da Michele, e Andrea chiedeva a Carlo dove fosse il documento. All'11/6 pomeriggio **nessun invio a Velotta risulta dal mailbox di Carlo**. Le dichiarazioni detassazione (Carlo+Andrea) sono invece confermate inviate da Andrea il 9/6 16:29.
+- [ ] **#p1 Carlo**: verificare firma Bruno sul contratto di assunzione + inviare la scansione a Simona Velotta
+- [ ] **#p2 Carlo**: confermare con [[Andrea Pazienza]] che i contratti Michele+Andrea siano effettivamente partiti verso Velotta (l'email del 9/6 conteneva solo le dichiarazioni)
+- Reminder attivo: 🔴 **F24 maggio — versamento entro 16/6** (owner Andrea).

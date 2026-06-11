@@ -251,3 +251,8 @@ Mossa tattica: **risposta ufficiale entro la prima settimana di giugno** (≈ 1/
 Pattern email: nessuna menzione del fatto che HeyAI sta confrontando con altri partner (Silencio/Aegiscore/Soolutions) — frase ridotta a *"faremo un allineamento interno per consolidare la pipeline progetti e ragionare insieme al nostro amministratore sulla parte economica"*. Lascia ambiguo se è race competitiva o solo governance interna HeyAI; protegge il canale Andrea Pasquali (figlio Marco Pasquali NoLoop, relazione sensibile) in caso di esito negativo Jakala.
 
 Bozza in attesa approvazione Carlo per invio. Sensibilità relazionale: il messaggio è anche destinato indirettamente ad Andrea (in CC sulla mail originale di Luigi).
+
+### 2026-06-11 — Follow-up Luigi (10/6) + linea presa-tempo
+
+- **Luigiandrea Scaramuzzi 10/6 10:07** ("R: Proposta di quotazioni", CC Andrea Pasquali): *"Volevo chiederti se avevate avuto modo di valutare le proposte e se poteva essere utile fare un aggiornamento insieme."* Secondo follow-up dalla proposta 15/5 — Jakala tiene il deal caldo.
+- **Linea decisa (bozza pronta, invio a carico Carlo)**: presa-tempo cordiale — valutazioni interne sull'allocazione dei progetti in chiusura, ritorno "entro un paio di settimane" per fissare l'aggiornamento. Nessuna menzione del confronto con altri fornitori (pattern 19/5 confermato, protezione canale Andrea Pasquali). La decisione Jakala vs Silencio/Aegiscore resta aperta (Open Tasks #p1; offerta Aegiscore v5 ferma dal 25/5 in attesa di risposta).

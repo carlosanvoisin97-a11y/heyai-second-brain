@@ -4,7 +4,7 @@ role: Responsabile MICE / Capo reparto logistica
 company: NoLoop
 email: lorena.cavecchi@noloop.eu
 created: 2026-04-30
-updated: 2026-05-22
+updated: 2026-06-11
 sources: [Organigramma NoLoop 17/03/2025, conferma Carlo 5/5/2026, call Crowd Sessione Finale 12/5/2026 (assente)]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-06 21:43 -->
@@ -67,6 +67,7 @@ Stakeholder operativo chiave per: registrazioni, liste, comunicazioni, rooming, 
 - **06/05/2026** — Sessione finale test Crowd → **spostata a 12/5** (Lorena rientrata da Singapore, decisione di farla con tutti i decisori in stanza)
 - **12/05/2026** — Sessione finale test Crowd, **Lorena assente in call**. David ha guidato il giro test e ha esplicitamente deferito a Lorena su (1) email automatica di conferma post-registrazione (necessità reale) e (2) editabilità pop-up di conferma. Carlo manda email recap a David **mettendo Lorena in CC** come decisore per dare il punto unico da cui Lorena possa allinearsi prima di dare l'OK formale.
 - **21/05/2026 17:22** — Lorena si aggancia al thread "R: Crowd | Sessione Finale Test" (mail Arianna del 19/5 con feedback bug post-test) chiedendo esplicitamente il **video tutorial** promesso: ha fatto fatica da sola a tentativi nelle parti dove aveva saltato call. Propone inoltre call di formazione al reparto a chiusura progetto. Carlo risponde 22/5 confermando push interno al team di sviluppo + apertura sulla call formazione.
+- **09/06/2026 16:32** — **Escalation diretta solo-a-Carlo** sul rooming Crowd (bypass del thread di gruppo): *"È veramente super complicato allo stato attuale associare le camere. Non è utilizzabile, rallenta il lavoro delle risorse in maniera esponenziale. […] Va cambiato mi spiace."* Chiede call con lei+Arianna lavorando live su Crowd + stato delle altre modifiche. **Pattern**: quando il tema diventa critico scrive in privato al PM, tono fermo ma collaborativo (*"ti facciamo vedere lavorando su crowd cosa abbiamo bisogno"*). Risposta Carlo 11/6: video dimostrativo entro lunedì 15/6 + call unica a valle dei test (slot chiesti per la settimana 15-19/6) — dettaglio in [[Crowd]] §Log 11/6.
 
 ## Sessioni Cowork correlate
 
