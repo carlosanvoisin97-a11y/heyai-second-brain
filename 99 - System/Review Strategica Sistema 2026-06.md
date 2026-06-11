@@ -121,7 +121,7 @@ GitHub (spina dorsale; repo privato; PAT plugin da monitorare) · claude.ai (rou
 | **PowerPoint MCP** (estensione) | — | valutato e SCARTATO (si usa Claude Design) | **SPEGNI** | Carlo (estensioni app) |
 | **Meta Ads** (connettore claude.ai, ~60 tool) | — | 0 (decisione #28: no suite a Michele/Andrea) | **SCOLLEGA** | Carlo (claude.ai) |
 | **Google Drive · Spotify** (connettori claude.ai) | — | 0 lavoro (Spotify personale?) | SCOLLEGA Drive; Spotify a scelta | Carlo (claude.ai) |
-| **21st-dev-magic** (MCP, API key in chiaro in config, ~$20/mese) | — | mai usato produttivamente | **RIMUOVI** (anche per la API key) + verifica abbonamento | Carlo conferma → Claude rimuove |
+| **21st-dev-magic** (MCP) | — | mai usato produttivamente | ✅ **TIENI** (deciso da Carlo 11/6: tier gratuito, nessun costo). Nota residua: API key in chiaro in ~/.claude.json — accettata | — |
 | ~25 server MCP dei plugin inline mai autenticati | — | peso morto sul listing tool | si spengono spegnendo i plugin sopra | — |
 
 **Stima risparmio se applicato tutto**: ~100-130 voci skill in meno per sessione (−45%) + decine di tool MCP morti in meno. Esecuzione: vedi [[2026-06-10 - PUNTI APERTI — decisioni Carlo (post-consolidamento)|PUNTI APERTI]] #32.
