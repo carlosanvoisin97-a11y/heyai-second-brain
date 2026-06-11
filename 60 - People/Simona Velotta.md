@@ -43,3 +43,12 @@ Referente operativa dello studio **FMA** per il payroll e gli adempimenti del pe
 - [ ] **#p1 Carlo**: verificare firma Bruno sul contratto di assunzione + inviare la scansione a Simona Velotta
 - [ ] **#p2 Carlo**: confermare con [[Andrea Pazienza]] che i contratti Michele+Andrea siano effettivamente partiti verso Velotta (l'email del 9/6 conteneva solo le dichiarazioni)
 - Reminder attivo: 🔴 **F24 maggio — versamento entro 16/6** (owner Andrea).
+
+### 2026-06-11 (sera) — Moduli assunzione Carlo completati (check meticoloso + compilazione)
+- **Check completo dei 5 file** (contratto 10pp, rinuncia detassazione, TFR2, richiesta detrazioni, + docx sorgente): anagrafica coerente su tutti, CF SNVCRL97S04H501V verificato algoritmicamente ✓.
+- **Compilati e firmati digitalmente** (firma estratta dal contratto, data 11/05/2026 per coerenza col pacchetto): `TFR2 (conferimento TFR)_COMPILATO_FIRMATO.pdf` (data+firma p.2) e `Richiesta detrazioni_COMPILATO_FIRMATO.pdf` (data+firma p.1 e p.2 quadro E) — in Downloads, verificati visivamente.
+- **Detassazione**: confermata da Carlo la compilazione senza rinuncia (dichiarazione reddito 2025 ≤ €33K barrata e firmata) — il 5% si applica, chiude Velotta.
+- **TFR2 — punto aperto FONTE**: scelto conferimento integrale a FONTE, ma adesione al fondo non ancora formalizzata → data adesione lasciata vuota, modulo di adesione non allegato. **Da chiedere a Velotta come procedere** (domanda già nella bozza email).
+- **Contratto**: resta solo la firma di Bruno (datore di lavoro, p.5) — Carlo gli manda il documento a parte.
+- ⚠️ **Passaporto Carlo in scadenza 19/07/2026** (unico documento d'identità mostrato per la pratica) — rinnovo da prenotare.
+- [ ] **#p2 Carlo**: follow-up con Velotta su pratica adesione FONTE (a valle dell'invio email)
