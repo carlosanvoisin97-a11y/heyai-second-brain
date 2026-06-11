@@ -23,6 +23,8 @@ projects: [Crowd, Operation Transformation, Eye Cookies, Eldis Compilatore, Venu
 | Email condizione vincolante IP a Soolutions | **NON ancora scritta** — decisione Bruno-call 9/6, in capo a Carlo (spec modello base + spec retraining di terzi) |
 | Quotazione Osservatorio rivista | **NON inviata** — prima riconciliare €45K (Master Facts) vs "50" detto in call 9/6 |
 
+> **🔄 Update 11/6 sera (fusione eseguita, sessione Eye Cookies #2)**: le bozze sono state consolidate su richiesta Carlo — (a) **email UNICA a Germano** sui due progetti EC+OT (assorbe la §2.4, ora superata) in [[00 - Inbox/2026-06-11 - BOZZA Email recap call Eye Cookies a Germano|file BOZZA aggiornato v2]]; (b) **email UNICA Federico+Simone** tutti i fronti (fusione §2.5 + punti call EC #2) in [[00 - Inbox/2026-06-11 - BOZZA Email interna Federico+Simone post call Eye Cookies 11-6|file BOZZA aggiornato v2]]; (c) **bozza Carmen rivista** per call unica connettività+ingestion con Germano coinvolto (testo in chat sessione EC #2 — supera la §2.3). Lorena (§2.1) e Luigi/Jakala (§2.2) restano invariate.
+
 ## 2. Bozze email pronte (copia-incolla Outlook)
 
 ### 2.1 Lorena Cavecchi — R: Crowd | Sessione Finale Test (versione finale approvata)

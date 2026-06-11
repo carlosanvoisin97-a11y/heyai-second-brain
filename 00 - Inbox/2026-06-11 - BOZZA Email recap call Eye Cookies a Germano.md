@@ -1,23 +1,24 @@
 ---
 type: email-draft
 created: 2026-06-11
+updated: 2026-06-11
 to: Germano Marano <germanomarano.consultant@noloop.eu>
 cc: (valutare Massi + Andrea — default solo Germano, recap operativo)
-subject: "thread bisettimanale Eye Cookies (recap call 11/6)"
-related_project: "[[Eye Cookies]]"
+subject: "thread bisettimanale (recap unico Eye Cookies + Operation Transformation, call 11/6)"
+related_project: "[[Eye Cookies]] + [[Operation Transformation]]"
 meeting_context: 2026-06-11 — Seconda call bisettimanale Eye Cookies (call assorbita nelle schede)
 status: da inviare (Carlo)
 ---
 
-# BOZZA — Email recap call 11/6 a Germano
+# BOZZA — Email recap UNICA a Germano (Eye Cookies + Operation Transformation)
 
-> Regola §13 rispettata: mai "Soolutions"/"Aegiscore", sempre "team di sviluppo". Testo paste-ready Outlook.
+> v2 (11/6 sera): fusa con i punti OT del thread (handover sessione PM 11/6 §2.4, ora superata) — un solo recap sui due progetti, coerente con la decisione di call unificata. Regola §13 rispettata. Testo paste-ready Outlook.
 
 ---
 
 Ciao Germano,
 
-grazie come sempre per l'allineamento di oggi! Ti lascio il recap dei punti, così da tenere il filo in vista del punto di settimana prossima.
+grazie come sempre per l'allineamento di oggi! Visto che abbiamo deciso di trattare i due progetti in un'unica call, ti lascio un recap unico, così teniamo il filo su entrambi in vista del punto di settimana prossima.
 
 Eye Cookies:
 
@@ -33,13 +34,13 @@ Eye Cookies:
 
 * Totem — confermata la direzione della costruzione dedicata con proposta su tre livelli (base, design brandizzabile, custom completo); primi due sketch in arrivo tra fine settimana e inizio della prossima
 
-* Connettività pop-up — definizione dell'esigenza primaria in un passaggio a tre con Carmen; come da accordi la sento oggi per incrociare le agende
-
 Operation Transformation:
 
 * Form e API BAT/PARD — attesa dei riscontri da Massi; ne riparliamo settimana prossima con il quadro completo, tenendo sul tavolo lo scenario scraping
 
-Dalla prossima volta accorpiamo i temi dei due progetti in un'unica call, come ci siamo detti.
+* Prioritizzazione maschera unica di registrazione vs ingestion dello storico — appena avete un riscontro interno fammi sapere, così adeguiamo la roadmap di conseguenza
+
+Call con Carmen — per ottimizzare, proporrei di coprire in un unico incontro sia il tema connettività pop-up sia l'ingestion dei dati storici, che serve a entrambi i progetti: come da accordi la sento oggi per incrociare le agende e ti giro l'invito. In anticipo ti faccio avere anche il documento di proposta multi-SIM, utile come base per il confronto.
 
 Fammi sapere se ti torna tutto, per qualsiasi cosa resto a disposizione!
 
