@@ -2,7 +2,7 @@
 type: strategic-review
 status: live
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-11
 aliases: [Review Strategica, Review architetturale sistema]
 ---
 
@@ -46,7 +46,7 @@ Scelte fondanti (tutte provate end-to-end e confermate da Carlo): git+GitHub com
 
 | # | Rischio | Stato |
 |---|---|---|
-| 🔴1 | Race fra i 3 writer (plugin committa file a metà) | **Mitigato**: regola Obsidian-chiuso (§2.5) + scritture ordinate; il plugin resta (è il backup). Residuo accettato: commit "auto-sync" rumorosi nella history |
+| 🔴1 | Race fra i 3 writer (plugin committa file a metà) | **Mitigato (rafforzato 11/6)**: plugin configurato con "commit-and-sync after stopping file edits" ON (Carlo) → niente commit durante scritture attive; resta la regola Obsidian-chiuso (§2.5) per i lavori su hook/settings + scritture ordinate. Residuo accettato: commit "auto-sync" rumorosi nella history |
 | 🔴2 | Failover digest disinnescato dal fallback degradato | **CHIUSO 10/6**: guardia bridge a 4 casi (manca→completo; degradata→integra live, anti-doppione; manuale→append) + §9/§9bis allineati |
 | 🔴3 | Drift doc↔realtà (copie di stato) | **Ridotto strutturalmente**: M1 (la copia peggiore eliminata), segnaletica bonificata (28 file), _README riconciliato. Residuo governato da §7 + consistency-check |
 | 🟡4 | Push cloud senza pull → run perso | **CHIUSO**: pull→push→clean in 8/8 routine |
