@@ -65,7 +65,7 @@ Contrattualistica
 
 * review delle 3 bozze di Andrea (accordo quadro + ordini esecutivi) con l'integrazione IP/fine-tuning
 
-* condizione vincolante di cui abbiamo parlato lunedì, ve la metto nero su bianco qui: oltre al codice sorgente ci serve la specifica del modello di base utilizzato e le spec tecniche per il retraining da parte di terzi, in modo che un altro sviluppatore competente possa ritrainare il modello in autonomia. Per noi è condizione sine qua non: confermatemela per iscritto rispondendo a questa email
+* sull'IP ho fatto un allineamento con Bruno, comunque in linea con quello che ci eravamo già detti anche noi in call: vi chiedo solo una conferma, cioè che oltre al codice sorgente riusciamo ad avere anche la specifica del modello di base utilizzato e le indicazioni tecniche per un eventuale retraining da parte di terzi. È solo per poter garantire al cliente continuità del servizio nel tempo, anche in ottica di assistenza ed evolutive future. Fatemi un cenno di conferma quando potete, così chiudo il punto
 
 Minutes
 
