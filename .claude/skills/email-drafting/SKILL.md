@@ -103,3 +103,40 @@ Confronto bozza Claude vs versione finale inviata da Carlo, su email di risposta
 - **Cut intensifiers**: `segnalazioni` ~~`così`~~ `puntuali`. Coerente col taglio sistematico degli avverbi rafforzativi (20/5 Laura Zaghi).
 - **Niente blocco di bullet che ripete la prosa**: una iterazione intermedia aveva 3 bullet "punti dal team di sviluppo" che ripetevano i due paragrafi sopra (solo 1 dei 3 portava info nuova — il comportamento dell'import). Carlo l'ha fatto notare. Lezione: se un elenco "di sintesi" ripete ciò che la prosa ha già detto è rumore — tenere solo l'informazione netta-nuova, in prosa. Estende la "Lezione PM sul secondo livello" al caso del riassunto ridondante.
 - **§13 confermata in uso reale**: tutta la mail usa `il team di sviluppo` / `il team`, mai il nome del fornitore, anche parlando di chi sta sviluppando le funzioni.
+
+### 2026-06-11 — FORMATO CANONICO recap call ricorrente + correzioni round completo (recap Germano EC+OT e email Carmen, confrontate con le versioni INVIATE)
+
+Fonte: due round di correzioni dettate da Carlo + diff finale bozza→inviato (recap a Germano 11/6 20:44, email Carmen 11/6 20:43) + recap reali precedenti (28/5, 8/6). Per i recap di call ricorrenti questo blocco PREVALE sui pattern generici sopra.
+
+**Struttura recap (canonica, verificata su 3 email reali):**
+- Apertura: `Ciao [Nome],` + `come da accordi di seguito il recap dei punti aperti e dei temi trattati durante l'allineamento di oggi/del GG/MM.` — **niente ringraziamento** ("non dobbiamo ringraziare sempre": siamo il fornitore che conduce; si ringrazia solo per qualcosa di concreto ricevuto).
+- Corpo: **sezioni tematiche con header in grassetto + due punti** (`Punti aperti lato Microlog:`, `Presentazione BAT:`, `Operation Transformation:`, `Dati e connettività:`); eventuale sezione `Altri temi discussi:` per i punti informativi (presente 28/5 e 8/6, omessa 11/6 su scelta esplicita di Carlo — non è obbligatoria).
+- Chiusura: standard `Fammi sapere se ti torna tutto...` oppure `Grazie,` + `Carlo`.
+- Destinatari recap NOT: TO Germano · CC Massi + Andrea + Federico + Simone.
+
+**Forme delle azioni (correzione strutturale):**
+- Richiesta diretta al destinatario → seconda persona cortese: `ti chiederemmo di condividerci...`, `se possibile condividici...`.
+- Azione che il destinatario fa verso un terzo → impersonale da+infinito: `Da verificare con Microlog se...`.
+- MAI la forma sostantivata per le richieste (`invio da parte tua di X` = sbagliato); i sostantivati restano per stati/attese (`Attesa dell'ok su...`).
+- Stati condizionati su decisioni di terzi: `restiamo in attesa e, alla luce del riscontro, stabiliremo se procedere`.
+
+**Micro-pattern dal diff bozza→inviato (11/6):**
+- **Appendici col trattino, non bullet nuovi**: un tema correlato si aggancia al bullet esistente con ` - ` (es. `- valutata la possibilità in futuro di richiedere un extra al cliente per il servizio real-time`; `- anche su questo tema possiamo valutare le integrazioni dirette per il canone "premium"`).
+- **Tagliare gli elenchi tecnici quando il concetto è chiaro**: Carlo ha rimosso `(testo per SMS, email con link al carrello, record a database)` — il dettaglio implementativo non serve al cliente.
+- **Niente sezioni carry-over esplicite**: "Punti aperti dai precedenti allineamenti" tagliata; nel recap entrano solo i punti vivi della call, i temi non maturi (proposta in stima, conferme non sollecitabili) restano nel vault e si ripresentano quando pronti.
+- **Mai nominare i decisori terzi**: `per tua review interna` / `verifiche interne`, non "Massi".
+- **Condizionali di cortesia** verso il cliente: `ci servirebbe capire`, `vorremmo approfittarne`, `potrebbe cambiare il dimensionamento`, `servirebbe il dato puntuale`.
+- **Non ripetere lo stesso connettore** ("in generale" una sola volta per email; idem per "Ottimo"-style filler).
+- **Lessico**: anglismi tecnici ok anche col cliente (`il probabile merge che faremo fra i bisettimanali`), `Req Log` abbreviato con referente tecnico, etichette funzionali lato cliente (`Output per retargeting`, non `Output dell'MVP`).
+
+**Email di scheduling a stakeholder che conosce il tema (Carmen 11/6):**
+- Spiegazione minima del tema (`la call sul tema ingestion dati storici per Operations Transformation`), niente rispiegone del perché — il contesto si dà solo sul tema NUOVO (connettività: prima il perché della proposta, poi l'esigenza su cui serve aiuto).
+- Slot chiesti al destinatario: `Quando puoi fammi sapere un paio di slot di settimana prossima in cui saresti disponibile così fisso il meeting su Teams.`
+- Chi è in copia si dichiara: `Aggiungo in copia Germano, che è già a conoscenza del tema...`.
+- Chiusura variante: `Per qualsiasi domanda o dubbio resto a disposizione, aspetto tue,` + `Grazie,` + `Carlo` — "aspetto tue" come sollecito leggero.
+- Oggetto: convenzione `Progetto | Tema` (`Operation Transformation | Ingestion dati storici e connettività pop-up`).
+
+**Processo (root cause delle correzioni 11/6):**
+- Il check Outlook delle email recenti — primo obbligo di questa skill — NON è saltabile: se i tool M365 sono deferred, caricarli via ToolSearch. Il precedente diretto (recap 28/5) conteneva già l'intero formato corretto.
+- I recap si costruiscono dalla TRASCRIZIONE (completezza dei temi discussi), non solo dai task con azione.
+- Ordine invii concatenati: se il recap cita un'azione verso un altro interlocutore, inviare prima quell'email così il recap la riporta come fatto compiuto (`Ho scritto a Carmen...`).

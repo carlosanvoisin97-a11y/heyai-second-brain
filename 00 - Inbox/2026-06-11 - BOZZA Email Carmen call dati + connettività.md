@@ -6,7 +6,7 @@ to: Carmen Compare
 cc: Germano Marano
 subject: "Call dati storico + connettività pop-up"
 related_project: "[[Operation Transformation]] + [[Eye Cookies]]"
-status: da inviare (Carlo) — PRIMA del recap a Germano (che la cita come già scritta)
+status: ✅ INVIATA 11/6 ore 20:43 — oggetto "Operation Transformation | Ingestion dati storici e connettività pop-up" (TO Carmen, CC Germano+Federico+Simone) — versione finale Carlo: intro ingestion minimale (niente rispiegone), "Quando puoi fammi sapere un paio di slot", condizionali di cortesia sul tema connettività, chiusura "aspetto tue, Grazie". Delta assorbiti nella skill email-drafting (rolling 11/6)
 ---
 
 # BOZZA v3 — Email Carmen (call ingestion storico + connettività)

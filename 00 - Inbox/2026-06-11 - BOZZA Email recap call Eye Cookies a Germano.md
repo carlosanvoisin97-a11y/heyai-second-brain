@@ -7,7 +7,7 @@ cc: Massi Sinigaglia + Federico + Simone (pattern recap reale 8/6)
 subject: "R: Eye Cookies | Allineamento bisettimanale (recap unico EC+OT, call 11/6)"
 related_project: "[[Eye Cookies]] + [[Operation Transformation]]"
 meeting_context: 2026-06-11 — Seconda call bisettimanale Eye Cookies (call assorbita nelle schede)
-status: da inviare (Carlo) — DOPO l'email a Carmen (il recap la cita come già scritta)
+status: ✅ INVIATA 11/6 ore 20:44 (TO Germano, CC Massi+Andrea+Federico+Simone) — versione finale Carlo con delta vs bozza: tagliati carry-over Miroglio/multi-SIM e bullet prioritizzazione; punti premium come appendici "- " ai bullet; sketch+valutazioni economiche promessi a inizio settimana prossima. Delta assorbiti nella skill email-drafting (rolling 11/6)
 ---
 
 # BOZZA v4 — Email recap UNICA a Germano (Eye Cookies + Operation Transformation)
