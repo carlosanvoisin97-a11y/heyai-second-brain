@@ -4,7 +4,7 @@ role: Sviluppatore Senior Front-end
 company: Soolutions
 email: federico@soolutions.io
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-11
 aliases: [Federico, "Fede"]
 emails_historical:
   - federico@soolutions.io (attuale)
@@ -105,6 +105,15 @@ top_quotes:
 > "quel modello è un black box: gli entrano i dati e caga fuori le risposte. Non puoi aprirlo e sventrarlo, ne devi creare uno nuovo se hai un nuovo use case. Litighiamo? Loro possono continuare a utilizzarlo e a ritrainarlo, non c'è problema — mettiamo anche una funzione di auto-retrain"
 > — Call 9/6/2026. Chiarisce che NON c'è vendor lock-in sostanziale: il modello resta usabile/ritrainabile dal cliente a vita; il lock-in è solo sull'evolutivo (nuova tipologia merceologica = modello nuovo).
 
+> "su quello noi siamo molto forti, cioè per dire riusciamo a prendere anche per il naso LinkedIn per esempio con gli antibot"
+> — Call bisettimanale [[Eye Cookies]] 11/6/2026 (davanti a Germano). Capability scraping dichiarata — asset per la direzione scraping BAT/PARD su [[Operation Transformation]]. Con caveat onesto: *"è sempre un po' instabile, non prometto niente Germano"*.
+
+> "come ogni buon sistema di statistica c'è il concetto di garbage in garbage out... il sistema ha scambiato magari banalmente i due soggetti... in quel caso lì la nostra statistica si rompe"
+> — Call 11/6/2026. Presidio preventivo della qualità del dato in ingresso da Microlog (scambio soggetti, trigger fine visita): mette a verbale col cliente che output sbagliati derivati da dati sbagliati non sono responsabilità del sistema HeyAI. Stesso pattern della clausola godmode del 13/5.
+
+> "i totem è un mercato di quelli proprio ristretti... li fanno in tre gatti e quindi li fanno strapagare, e quindi davvero conviene piuttosto che l'andiamo a costruire qua"
+> — Call 11/6/2026. Make-vs-buy: la filosofia "tutto in casa" applicata all'hardware (autocostruzione totem = computer + touch + microcomputer/edge server). Aggiunge l'istinto commerciale esercitato a favore del cliente: *"se fossi davvero bravo a BAT gli chiedi una percentuale sulla vendita recuperata"*.
+
 ## 🎯 Pattern di interazione (aggiornati 20/5)
 
 - **Negoziazione pricing bidirezionale**: accetta dilazione/concessioni cash flow se controbilanciate da clausole simmetriche (se Soolutions consegna prima, HeyAI paga prima; se Soolutions consegna in ritardo, max 1 mese saltato + doppio mese successivo).
@@ -136,6 +145,7 @@ top_quotes:
 - **Strumenti strutturati e persistenti vs canali volatili** _[emerso 6/5/2026]_: ama "la bella carta" e Wrike. Email = "le perdo". WhatsApp = "rumoroso". Per task tracking serve **strutturato + ricercabile** — è il motivo per cui la Microsoft Lists ha senso per lui (compromesso su "strutturato come Wrike, ma dentro stack che già usa").
 - **Comunicazione diretta, anche aspra** _[emerso 6/5/2026]_: in disaccordo dice "***** tuoi", "non ha senso", "ma perché te ne frega così tanto?". È il suo registro confidenziale, non personale. Carlo lo accetta e media. **Mai prenderla come offesa o rispondere allo stesso registro in chat scritte** (rischio interpretazione esterna).
 - **Disciplina delivery-prima-del-test** _[emerso 27/5/2026, Crowd]_: rifiuta di esporre i tester a lavorazioni non finite. Preferisce completare la **delivery finale** e poi aprire la finestra di test, invece di chiudere il ciclo mentre integra ancora. Motivo: i report su feature incomplete/integrazioni mancanti generano falsi bug e gli scaricano lavoro di interpretazione ("perdo tempo su robe che non si capiscono / non erano ancora terminate"). **Come gestirlo**: Carlo dovrebbe sequenziare i cicli di test a valle delle delivery di Federico e **filtrare/strutturare i bug report** prima di inoltrarglieli (Federico si offre di fixare a valle e di affiancare gli utenti live sui dubbi).
+- **Posizioni di scope corrette live in call cliente** _[emerso 11/6/2026, Eye Cookies]_: quando un punto di scope dichiarato da Carlo non gli torna, lo contraddice in diretta anche davanti al cliente (*"questo non riusciamo con BAT non riusciamo a farlo ragazzi"* sugli output MVP email/SMS/link e-commerce). L'esito della discussione è stato produttivo (output ridisegnato in modo agnostico con Germano), ma il disallineamento PM↔dev è emerso davanti al cliente. **Come gestirlo**: pre-call sync di 10' sui punti di scope che Carlo intende dichiarare.
 
 ## Sensibilità
 

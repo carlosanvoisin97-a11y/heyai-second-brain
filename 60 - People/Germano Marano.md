@@ -4,8 +4,8 @@ role: Consultant
 company: NoLoop
 email: germanomarano.consultant@noloop.eu
 created: 2026-04-30
-updated: 2026-06-04
-last_contact: 2026-06-04
+updated: 2026-06-11
+last_contact: 2026-06-11
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-22 20:22 (cron-22) | source-session: local_972c4d6a-07a7-4781-a853-468093d6a858 | source-lastActive: 2026-05-22 -->
 
@@ -14,13 +14,20 @@ last_contact: 2026-06-04
 - **Ruolo**: Consultant NoLoop, lato delivery
 - **Azienda**: NoLoop
 - **Email**: germanomarano.consultant@noloop.eu
-- **Ultimo contatto**: 2026-06-04 (call bisettimanale Operation Transformation — Carlo + Federico, Massi assente, 30 min)
+- **Ultimo contatto**: 2026-06-11 (seconda call bisettimanale Eye Cookies — Carlo + Federico + Simone, 51 min)
 
 ## Progetti in comune
 
 - [[Eye Cookies|Eye Cook]] — fornisce file/asset operativi (Excel cookie aggiornato), interfaccia con Microlog
 
 ## Interazioni recenti
+
+### 2026-06-11 — Seconda call bisettimanale [[Eye Cookies]] (51 min; Carlo + Federico + Simone)
+- **Sblocco tracce Microlog portato a casa**: Germano riporta la soluzione concordata con Microlog — allargamento finestra di identificazione a tutta l'area su **dati storici reali**, HeyAI passa un ID univoco nel formato che preferisce (anche email), Microlog crea e restituisce la traccia via API. Attesa solo il suo OK sull'implementazione. Conferma il pattern gatekeeper-facilitatore: arriva in call "con le risposte" ai punti aperti da Microlog.
+- **Filosofia prodotto agnostico** dichiarata sull'output MVP: dato formattato senza azioni dirette, il cliente aziona con la sua marketing automation; end-to-end quotato extra. **Precisazione modello business NOT**: non percentuale sulla vendita recuperata ma sistema di target a numerosità con premi.
+- **Governance onesta sui propri limiti**: sulla connettività rimanda a [[Carmen Compare|Carmen]] (*"facciamo un passaggio insieme a Carlo e Carmen così l'aiuto a comprendere... al momento mi dispiace ma non vi so rispondere"*) — non improvvisa risposte su domini non suoi. Stessa onestà su BAT/PARD: Massi non gli risponde, *"se aspettiamo questi che rispondono passa una vita"*.
+- **Demo BAT**: chiede proposte concrete da portare a Massi (*"se tu hai un'idea di demo... me la vuoi proporre? ne parlo con massi"*); si segna di recuperare strumenti in uso BAT (CRM/mail marketing/SMS) e info brand. Info operative: **15 nuovi pop-up light BAT in apertura fine giugno-luglio** (formato ~2x2, una persona); manda il progetto/schema installazione sensori (4 telecamere angolari, batch invio 5').
+- **OK immediato all'unificazione dei bisettimanali** EC+OT proposta da Carlo (*"Possiamo unire, certo"*). Dettaglio call → [[Eye Cookies]] Log 11/6 + [[Operation Transformation]] Log 11/6.
 
 ### 2026-06-04 — Call allineamento bisettimanale [[Operation Transformation]] (con Carlo + Federico; Massi assente)
 - Germano confermato **referente tecnico NoLoop** sul progetto Operation, ma non aggiornato sulle discussioni pregresse con Carmen/Massi (_"mi è stato solo detto occupati del progetto"_) → Carlo lo allinea via email (RL + brief + architettura). **Pattern**: pragmatico, domande tecniche puntute (esistenza/ownership API BAT), ragiona in ottica prodotto (propone di esporre noi le API → vendibile a BAT; valuta tracking prodotti per i tabacchini). Chiude da alleato (_"sono parte del team"_). **Si prende**: verifica interna stato API BAT + interesse BAT al modulo tracking. **Decisione**: I Love Ric (sua attivazione make-up ad Arese, in chiusura) fuori perimetro. Dettaglio call → [[Operation Transformation]] Log 4/6.
@@ -72,6 +79,10 @@ last_contact: 2026-06-04
 - **28/5/2026 — Near real-time API**: *"Oggi poi ho richiesto un preventivo per il Real Time o near Real Time"* — conferma esplicita richiesta preventivo Microlog (carry-over dal 25/5 ora confermato).
 - **28/5/2026 — Reazione positiva alla demo**: *"mi aspettavo una presentazione, invece voi mi avete fatto vedere già"* + *"ma figurati e come potevo crederlo? cioè sarebbe stato un pregiudizio il mio"* — sblocco psicologico, riconoscimento delivery anticipata HeyAI.
 - **28/5/2026 — Apertura tech-Operation**: *"glielo posso dire se magari questa chiamata settimanale... io chiedo a Massi se dovrò seguire anche il progetto operation e poi ne parliamo"* — apertura a unico tech-point-of-contact NoLoop per entrambi i progetti NOT.
+- **11/6/2026 — Filosofia prodotto agnostico (output MVP)**: *"Io metto a disposizione i miei dati formattati in maniera tale che sia facile importarli per un carrello o importarli per una piattaforma di retargeting. Tu te li prendi e poi tu decidi. Quindi diventiamo ancora una volta agnostici... è anche più economico"*.
+- **11/6/2026 — Tiering commerciale**: *"Poi se c'è qualcuno che vuole l'implementazione end-to-end e vuole la chiamata da marketing, quella gliela quotiamo in più da cliente"*.
+- **11/6/2026 — Deferenza onesta a Carmen su connettività**: *"facciamo un passaggio insieme a Carlo e Carmen così aiuto a comprendere Carmen qual è l'esigenza primaria. Perché al momento mi dispiace ma non vi so rispondere. Vi ringrazio"*.
+- **11/6/2026 — Realismo sui tempi BAT/Massi**: *"se aspettiamo questi che rispondono passa una vita"*.
 
 ## Sessioni Cowork correlate
 

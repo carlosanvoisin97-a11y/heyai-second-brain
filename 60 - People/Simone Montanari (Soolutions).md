@@ -4,7 +4,7 @@ role: Sviluppatore Senior Back-end
 company: Soolutions
 email: simone@soolutions.io
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-11
 aliases: [Simone, "Simone M", "SM", "Simo"]
 emails_historical:
   - simone@soolutions.io (attuale, back-end)
@@ -86,6 +86,15 @@ top_quotes:
 > "le soluzioni sono fornite viste e piaciute con un tempo ragionevole di revisione; finito il discorso. Se vieni da me dopo due anni quando magari non collaboriamo più e mi dici a gratis fammi funzionare il modello anche su un'altra cosa, io ti rispondo: è una lavorazione"
 > — Call 9/6/2026. Posizione su gratuità/evolutivo: il prodotto è chiavi-in-mano nel perimetro pattuito; nuovi use case = lavorazione a pagamento. Carlo: "è chiaro, va comunicato al cliente".
 
+> "io forse non aspetterei le due settimane, farei un punto settimana prossima"
+> — Call bisettimanale [[Eye Cookies]] 11/6/2026. Proattività di cadenza: accorcia lui la ricorrenza per non restare bloccato sull'integrazione tracce Microlog. Stessa logica su connettività: *"prima iniziamo a parlarne, prima andiamo verso la concretezza del discorso... è il giusto momento di sollevare le domande"*.
+
+> "in pochi kilobit io riesco a passare tutto quello che mi serve e mi faccio bastare delle schede che sono molto più costose al megabyte ma mi danno priorità e garanzia che qualsiasi operatore funzioni"
+> — Call 11/6/2026. Cost-engineering connettività: edge server nel totem che preformatta i dati → SIM bianca (tariffa al MB, ≈1000x consumer) sostenibile per l'applicativo. E sull'autopreventivo: *"ci facciamo un preventivo da soli in base a quelli che sono i nostri requisiti"* (stima MB mensili in corso).
+
+> "mi hanno dato disponibilità tra fine di questa settimana e inizio della prossima per fare due sketch concreti per farvi vedere qualcosa che non siano chiacchiere ma sia un prodotto"
+> — Call 11/6/2026. Sketch totem: delega ai suoi designer (lato Tokio Studio) con timing dichiarato spontaneamente — raro nel cluster, da agganciare come data di verifica.
+
 ## 🎯 Pattern di interazione
 
 - **Comunicazione asciutta, tecnica**: entra rapido in call, conferma o smentisce in 1-2 frasi tecniche. Si tiene sul "come funziona", lascia a [[Federico Saladino (Soolutions)]] le posizioni di principio. Quando partecipa a thread Federico-Carlo, tende a moderare con un'opzione tecnica praticabile ("ti posso mettere settings", "in teoria...") invece di prendere posizione netta.
@@ -101,6 +110,9 @@ top_quotes:
 - **Tokio Studio ≠ secondo fornitore**: nelle email/documenti formali esterni, attenzione a non far emergere l'esistenza dei due brand come se fossero due fornitori diversi (rischio confusione cliente). HeyAI ↔ Soolutions è la relazione contrattuale; Tokio Studio è solo la "voce design" dello stesso individuo.
 
 ## Log
+
+### 2026-06-11 — Call bisettimanale Eye Cookies #2
+- Conduzione tecnica condivisa con Federico (meno monologo rispetto al 28/5). Tre contributi chiave: accorciamento della cadenza (punto settimana prossima sul tema tracce), architettura connettività (3 opzioni SIM + edge server, autopreventivo da stima MB), sketch totem con i designer (2 concept tra fine settimana e inizio prossima). Si è auto-silenziato quando le risposte arrivavano dal flusso (*"mi sono taciuto perché... sono arrivate tutte le risposte che stavo pensando"*). Dettaglio call → [[Eye Cookies]] Log 11/6.
 
 ### 2026-05-25 — Consegna versione DESKTOP Minutes (DMG) per beta-test
 - Durante il viaggio (*"oggi è la giornata di viaggio, internet a singhiozzo"* — coerente con OOO Marocco 22-26/5 in frontmatter) ha caricato a Carlo il **DMG firmato della versione desktop di [[Minutes]]**, costruita da lui. Ci ha lavorato **solo in dev mode** → chiede a Carlo di fare da **beta tester** su macchina pulita e di **registrare un video della prima installazione** (diventa tutorial di onboarding a costo zero, o video-bug se qualcosa non va). Rientro operativo "al 100%" annunciato per la sera del 26/5. Fonte: [[2026-05-28 - Trascrizioni vocali WhatsApp (batch 25-28 mag)]] note 01-02.
