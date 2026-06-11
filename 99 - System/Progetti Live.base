@@ -8,8 +8,6 @@ formulas:
   giorni_fermo: (now() - file.mtime).days
   stato_icon: if(status == "active", "🟢", if(status == "lost", "🔴", if(status == "closing", "🟦", if(status == "archived", "📦", "⚪"))))
 properties:
-  formula.stato_icon:
-    displayName: ""
   priority:
     displayName: Priorità
   client:
