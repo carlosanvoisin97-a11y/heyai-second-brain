@@ -18,10 +18,8 @@ status: da inviare (Carlo)
 
 Ciao Luigiandrea,
 
-grazie del sollecito e scusami per i tempi, sono state settimane particolarmente piene.
+perdonami per i tempi! Le quotazioni e le proposte di investimento sono ormai tutte uscite, ma siamo ancora in attesa di una conferma da parte dei clienti. Non appena ho novità vi faccio sapere.
 
-Le proposte le abbiamo guardate con attenzione: stiamo chiudendo in questi giorni alcune valutazioni interne sull'allocazione dei progetti, che impattano anche i perimetri di cui avevamo parlato. Appena ho il quadro consolidato, conto entro un paio di settimane, torno da te e fissiamo volentieri l'aggiornamento insieme.
-
-Grazie intanto per la pazienza, a presto!
+Grazie mille, a presto!
 
 Carlo
