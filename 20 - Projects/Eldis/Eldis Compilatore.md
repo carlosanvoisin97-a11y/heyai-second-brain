@@ -6,11 +6,16 @@ owner: Carlo
 client: Eldis Net
 product: AI Product Catalogue
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-11
 last_call_date: 2026-05-08
 next_call_date: 2026-06-09
 stakeholders: [Stefania Solidoro, Marta Garrafa, Alessandra Aprile, Giovanna Cecchi, Simone Montanari (Soolutions), Federico Saladino (Soolutions)]
 ---
+
+> [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
+> - Compilatore listini + Builder catalogo per Eldis (AI Product Catalogue): consegnato, delivery in chiusura — resta solo il round di test definitivo unico (~30/6) e fixing.
+> - Call 9/6: evolutive €3.900 (€1.800+€2.100) annullate dal cliente; Eldis verso self-host, canone €130/mese in discussione; consulenza €180/h giudicata cara — Giovanna (CFO) guida revisione cost-driven.
+> - Slip §13 in call (fornitori nominati + zero-markup rivelato al cliente): tenere la linea; pendenti decorrenza canone no-retroattività e mini-CR edit descrizioni Builder ("falla passare").
 <!-- auto-updated by cowork-sessions-index 2026-05-24 20:22 (cron-22) | source-session: local_07624f1b-4b2b-4edf-971a-1fbe04fe96e2 | source-lastActive: 2026-05-22 -->
 
 # 📁 Eldis — Compilatore + Builder Catalogo

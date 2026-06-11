@@ -5,7 +5,7 @@ priority: p1
 owner: Carlo
 client: NoLoop (divisione NOT)
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-11
 contract_status: emesso_non_firmato
 stakeholders: [Massi Sinigaglia, Justin Lauro, Roberta Calajò, Paolo Donzelli, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
 ---
@@ -150,7 +150,7 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - [ ] **#p1** Carlo ↔ [[Carmen Compare|Carmen]]: re-sync lunedì 8/6 su esito **visita BAT in sede (venerdì 5/6)** + escalation [[Massi Sinigaglia|Massi]] per sblocco API BAT/PARD
 - [ ] **#p1** Carlo + [[Massi Sinigaglia|Massi]]: conferma formale prioritizzazione **registrazione dati** vs modello predittivo (via email a Germano+Massi)
 - [ ] **#p2** [[Carmen Compare|Carmen]] (NoLoop): preparare 2-3 dubbi sulla struttura dati dello storico da esporre a Fed+Simone per l'ingestion
-- [ ] **#p2** [[Germano Marano|Germano]] (NoLoop): verifica interna stato API BAT (esistono / perché non esposte) + interesse BAT al modulo tracking prodotti per i tabacchini
+- [ ] **#p2** [[Germano Marano|Germano]] (NoLoop): verifica interna stato API BAT (esistono / perché non esposte) + interesse BAT al modulo tracking prodotti per i tabacchini _[update 11/6: feedback preliminare NON positivo su apertura form/API; Massi non risponde nonostante la richiesta; risposte attese settimana prossima; direzione probabile scraping sia BAT che PARD]_
 - [x] ~~**#p2** "I Love Ric" — nuovo pop-up nel perimetro NOT~~ → ✅ chiuso 2026-06-04: Germano conferma è attivazione make-up ad Arese in chiusura tra ~1 mese → **fuori dal perimetro di progetto**
 
 ## Eventi chiave
@@ -177,6 +177,12 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - 2026-06-08 — `2043e8b6` (Code) — review di sicurezza bozze Contratto Quadro HeyAI↔team di sviluppo + OE OT: 5 nodi critici pre-firma (entità NOT vs NoLoop incoerente, contratto cliente non firmato, cap responsabilità art. 12.1, royalty art. 6.2-6.3, GDPR). Numeri OE (€55K fornitore, cost-ratio 50%) committati in-sessione nel Master Facts/Log. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-2043e8b6|claude-main (2043e8b6)]]
 
 ## Log
+
+### 2026-06-11 — Coda OT nella call bisettimanale Eye Cookies: form/API BAT in stallo, direzione scraping
+- In coda alla call Eye Cookies dell'11/6 (Carlo + [[Germano Marano|Germano]] + Federico + Simone — trascrizione in `80 - Sources/Files/Eye Cookies/`): **feedback preliminare NON positivo sull'apertura form/API BAT** (Germano: *"abbiamo già qualche feedback che non è positivo, ne parleremo settimana prossima"*). Massi è l'unico interlocutore su BAT e PARD e **non risponde nonostante la richiesta** (Germano: *"se aspettiamo questi che rispondono passa una vita"*); seconda interlocuzione attesa settimana prossima.
+- **Direzione emergente: web scraping per entrambi i flussi (BAT e PARD)** — Germano: *"la meno precisa, la meno sostenibile, la meno pulita... però se vogliamo automatizzare, quella è l'unica soluzione"* (l'esposizione di API lato NOT non risolve se BAT non va a prendersi i dati, e i form resterebbero onere NOT). Federico: il team è molto forte sullo scraping (*"riusciamo a prendere per il naso LinkedIn con gli antibot"*), BAT è target più semplice di LinkedIn; rischio = manutenzione (se cambiano la pagina va rifatto il sistema); chiedere a BAT almeno un preavviso sugli aggiornamenti pagina. Nessun lavoro anticipato fino alle risposte di Massi.
+- **Connettività multi-SIM** (utilità principale OT, operatori in store con connessione instabile): soluzione tecnica presentata in call (dual SIM / SIM bianca + edge server / SIM operatore — dettaglio in [[Eye Cookies]] Log 11/6); la definizione dell'esigenza passa da una **call Carlo + Germano + [[Carmen Compare|Carmen]]** (Carlo chiede disponibilità oggi pomeriggio).
+- **Governance**: i bisettimanali EC e OT si **unificano in una sola call** con entrambi i temi (decisione Carlo+Germano in call). Prossimo punto: settimana prossima.
 
 ### 2026-06-09 (pomeriggio) — Allineamento team interno HeyAI (Bruno + Carlo + Michele + Andrea; 1h19m)
 - **Condizione vincolante posta da Bruno sui modelli AI (NUOVO, estende la call fatture del mattino)**: oltre al codice sorgente, Soolutions deve fornire **la specifica di quale LLM/modello open-source di base è stato usato** e le **specifiche tecniche per il (ri)training**, così che **un terzo sviluppatore competente possa ritrainare il modello** su nuovi prodotti/categorie senza Soolutions. Ragionamento di Bruno: *"il problema io lo vedo più nostro che NoLoop — il cliente è nostro; se NON litighiamo col cliente ma smettiamo di lavorare con gli sviluppatori, dobbiamo essere in grado di trovare un altro sviluppatore che faccia il training, sennò il contenzioso si crea tra noi e il cliente"*. Il lock-in è **rischio HeyAI**, non NoLoop.

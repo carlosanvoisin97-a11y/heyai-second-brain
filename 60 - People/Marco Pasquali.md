@@ -3,7 +3,7 @@ type: person
 role: Director Marketing
 company: NoLoop
 created: 2026-04-30
-updated: 2026-05-12
+updated: 2026-06-11
 last_contact: 2026-03-11
 next_touchpoint: 
 cadence_days: 30
@@ -13,6 +13,11 @@ top_quotes:
   - "documenta decisioni, non impressioni"
 sources: [conferma utente 30/04]
 ---
+
+> [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
+> - Scheda persona: Marco Pasquali, Director Marketing NoLoop e mentor informale di Carlo come PM; relazione in raffreddamento (last contact 11/03, cadenza 30 giorni).
+> - Padre di Andrea Pasquali (PM Jakala, fornitore HeyAI); coinvolto su tutto il marketing NoLoop e NOT; coaching chiave: "documenta decisioni, non impressioni".
+> - Connessione padre(cliente)↔figlio(fornitore) sensibile, mai metterlo in posizione conflittuale; per NOT il referente principale resta Massi Sinigaglia, Marco solo asse marketing.
 
 # 👤 Marco Pasquali
 

@@ -5,9 +5,14 @@ priority: p2
 owner: Carlo
 client: Studio Murolo
 created: 2026-04-30
-updated: 2026-06-10
+updated: 2026-06-11
 stakeholders: [Marco Murolo, Danilo Piersanti (Silencio), Luca (Silencio), Andrea Pasquali]
 ---
+
+> [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
+> - Piattaforma SaaS governance del lavoro per PMI (Marco Murolo, canale Confcommercio); trattativa fornitore Silencio vs Jakala ancora aperta, Carlo inclinato Silencio; Marco rientra dal Giappone.
+> - Vendita €55.000+ Full Ownership o €44.000 Revenue Share (conferma 10/6); Silencio €35K (margine €20K) vs Jakala €25K (margine €30K); Marco protective su IP, exit-oriented.
+> - Silenzio di Marco = riorganizzazione non disinteresse, ricontattare con cadenza; mai esporre floor pricing al cliente; pende doppia proposta FO/RS e conflitto Master Facts €25K/€27K.
 <!-- auto-updated by cowork-sessions-index 2026-05-15 20:22 (cron-22) | source-session: local_9912ed2f-67e2-4965-a04a-d6fc60b841e4 | source-lastActive: 2026-05-15 pomeriggio -->
 <!-- auto-updated by cowork-sessions-index 2026-05-06 20:08 -->
 

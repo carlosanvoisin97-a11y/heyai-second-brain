@@ -4,9 +4,14 @@ status: evaluating
 priority: p2
 client: Jakala (potenziale outsourcer)
 created: 2026-04-30
-updated: 2026-05-19
+updated: 2026-06-11
 stakeholders: [Andrea Pasquali]
 ---
+
+> [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
+> - Fornitore in valutazione per outsourcing 3 progetti HeyAI; quotazione definitiva ricevuta 15/5, risposta ufficiale rinviata tatticamente alla prima settimana di giugno.
+> - Quotazione Scaramuzzi (Manager, capo di Andrea Pasquali): Osservatorio €32K, Achipont €30K (bundle €50K), PresidIA €25K; Achipont salito da €15K, vs Silencio €18K.
+> - Andrea Pasquali è figlio di Marco Pasquali (NoLoop), relazione sensibile: mai esporre il confronto fornitori, e non parlare troppo dopo aver ottenuto il risultato.
 <!-- auto-updated by cowork-sessions-index 2026-05-08 13:00 -->
 
 # 📁 Jakala — Fornitore (outsourcing 3 progetti)

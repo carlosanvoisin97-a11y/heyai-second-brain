@@ -3,7 +3,7 @@ type: person
 role: Amministratrice Delegata (AD)
 company: NoLoop
 created: 2026-04-30
-updated: 2026-05-14
+updated: 2026-06-11
 last_contact: 2026-04-29
 next_touchpoint: 
 cadence_days: 7
@@ -13,6 +13,11 @@ top_quotes:
   - "se tutte le volte ti devi scusare per il prezzo, mi metti il dubbio che il prezzo sia alto"
 sources: [chat "next steps noloop 2026", chat "Analisi soluzioni Link Flow Sally", chat "Revisione meticolosa presentazione cliente", correzione utente 30/04]
 ---
+
+> [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
+> - AD NoLoop, decision maker N°1; relazione warm ("Carlo ormai è uno di noi"); ultimo snodo: bozza email reminder plenaria Minutes (14/5) pronta, non inviata.
+> - Decide in stanza, non per email; vuole stime e tempi, non features; legge solo email corte; scuse preventive sul prezzo = perdita di credibilità.
+> - Restare neutrale nelle dinamiche interne (Zaghi/Ilia); l'11/03 ha accennato a term sheet/acquisizioni: NoLoop potrebbe chiudere come entità separata, possibile cambiamento strategico.
 
 # 👤 Laura Garbarino (LG)
 

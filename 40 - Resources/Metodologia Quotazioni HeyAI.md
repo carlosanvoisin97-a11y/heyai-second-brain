@@ -1,9 +1,14 @@
 ---
 type: resource
 created: 2026-04-30
-updated: 2026-06-07
+updated: 2026-06-11
 sources: [chat "Recupero metodologia quotazioni IT/tecniche", chat "Audit critico quotazione", artifacts Lotto 2, chat "Miglioramenti brief pricing" 9/4→4/5/2026]
 ---
+
+> [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
+> - Knowledge base interna dei pattern per quotazioni cliente HeyAI (pricing, matrice rischi, sezioni standard, clausole); viva, ultimo aggiornamento 7/6/2026 con ingest F2.
+> - Markup 2.0x default (range 1.7x-2.2x), prezzo target 60-75% del saving annuo, tariffa senior €440-600/gg; mai esporre dettaglio costi per requisito al cliente.
+> - Le clausole buyout/Change of Control/anti-aggiramento sono PROPOSTA da confermare: wording non definitivo, i numeri specifici per progetto restano nelle schede progetto, non qui.
 
 # 📚 Metodologia Quotazioni HeyAI
 

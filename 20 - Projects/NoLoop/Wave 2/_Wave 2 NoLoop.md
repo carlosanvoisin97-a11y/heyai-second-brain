@@ -5,7 +5,7 @@ priority: p1
 owner: Carlo
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-10
+updated: 2026-06-11
 aliases:
   - Wave 2 NoLoop
   - Wave 2
@@ -16,6 +16,11 @@ deadline_history:
   - 2026-05-15: nuovo target — riscontro+commenti su bozza Longo (con Andrea Pazienza) per chiusura settimana lavorativa
 stakeholders: [Marco Merli, Marco Longo (Morbinati & Longo), Paolo Donzelli, Massi Sinigaglia, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
 ---
+
+> [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
+> - Bundle 8 moduli AI NoLoop da €300K (IP a HeyAI): accettato da due mesi ma mai partito operativamente, contratto in riscrittura interna, pagamenti fermi.
+> - Decisione 9/6: Andrea riscrive il contratto (bozza Longo solo traccia, scrupolo etico Bruno); NoLoop attende il finanziamento e chiede l'IP; quota Soolutions ~€160K (53%).
+> - Bloccante pre-firma cliente: IP HeyAI↔Soolutions solo verbale, da formalizzare per iscritto; sui numeri vince sempre il PDF 13/04 (€300K, mai €315K).
 <!-- auto-updated by cowork-sessions-index 2026-05-08 20:30 | source-session: local_c4785b1e-caa7-4d78-8bbb-05ba4805b2af | source-lastActive: 2026-05-08 ~17:30 -->
 <!-- atomic-change deadline: 2026-05-07 → 2026-05-15 | session: local_c4785b1e-caa7-4d78-8bbb-05ba4805b2af -->
 
