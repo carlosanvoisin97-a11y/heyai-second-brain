@@ -24,13 +24,15 @@ Punti aperti lato Microlog:
 
 * Attesa dell'ok sull'allargamento della finestra di identificazione sui dati storici — da quel momento il team inizia a richiamare le singole tracce via API
 
-* Come anticipato in call, ti chiederemmo di verificare con Microlog due approfondimenti utili per lo sviluppo: se il near real-time viaggerà sulle stesse API attuali o su un layer separato (nel primo caso l'integrazione lato nostro resta pressoché invariata) e con quale criterio viene chiuso il "fine visita" che genera la traccia. In generale, come discusso oggi, real-time e near real-time verranno gestiti come evolutive di fase due: il perimetro del requirement log per l'MVP prevede il flusso batch post visita (req. 5.3)
+* Come anticipato in call, ti chiederemmo di verificare con Microlog due approfondimenti utili per lo sviluppo: se il near real-time viaggerà sulle stesse API attuali o su un layer separato (nel primo caso l'integrazione lato nostro resta pressoché invariata) e con quale criterio viene chiuso il "fine visita" che genera la traccia. Come discusso oggi, real-time e near real-time verranno gestiti come evolutive di fase due: il perimetro del requirement log per l'MVP prevede il flusso batch post visita (req. 5.3)
 
-* Verifica della qualità del tracciamento sullo scambio di soggetti ravvicinati e, più in generale, approfondimento sulla robustezza del tracciamento, per capire la qualità dei dati che potremo utilizzare: a noi serve il dato puntuale del singolo e non l'aggregato. Inoltre, se possibile, ti chiederemmo di condividerci lo schema delle installazioni dei sensori
+* Verifica della qualità del tracciamento sullo scambio di soggetti ravvicinati e approfondimento complessivo sulla robustezza del tracciamento, per capire la qualità dei dati che potremo utilizzare: a noi serve il dato puntuale del singolo e non l'aggregato. Inoltre, se possibile, ti chiederemmo di condividerci lo schema delle installazioni dei sensori
 
 Output per retargeting:
 
 * Abbiamo stabilito che in questa fase metteremo a disposizione del cliente un endpoint dal quale recuperare i dati già formattati per i suoi sistemi di email marketing, CRM e messaggistica (testo per SMS, email con link al carrello, record a database), mentre le integrazioni dirette con sistemi specifici verranno pianificate per una fase due
+
+* Si è discussa inoltre la possibilità di proporre l'aggiornamento dinamico in real time e l'integrazione diretta con i sistemi del cliente per il retargeting come servizio premium, a canone maggiorato
 
 Presentazione BAT e Totem:
 
