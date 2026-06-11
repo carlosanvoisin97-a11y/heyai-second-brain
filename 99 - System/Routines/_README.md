@@ -27,6 +27,7 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 | `pm-digest-mattutino.md`      | `0 8 * * 1-5` (Lun-Ven 8) | digest      | **M365** (Outlook/cal/SharePoint/Teams) |
 | `radar-competitor.md`         | — **autorata, NON schedulata** | radar competitor/mercato → `99 - System/Radar/` (alimenta cockpit) | web pubblico |
 | `weekly-system-review.md` 🆕  | `30 16 * * 6` UTC (Sab ~18:30 CEST) | meta-loop F6: review del sistema → prep-doc `00 - Inbox/` | nessuno |
+| `radar-competitor.md` 🆕 | `30 7 1 * *` UTC (1° del mese ~9:30 CEST) | radar fornitori/concorrenti → `99 - System/Radar/` | nessuno |
 
 ⚠️ **8 file routine, 7 schedulate + 1 no**: `radar-competitor.md` è scritta e pronta ma **non ha né trigger cloud né task locale** (9/6). Da decidere se schedularla (cloud, settimanale) o lasciarla on-demand. Il cockpit legge `99 - System/Radar/` solo se qualcuno la fa girare.
 
@@ -104,6 +105,7 @@ Il "battito" (digest + audit) girava nello **scheduler Cowork**, che parte solo 
 | crm-velocity | `trig_01Vaae83mADn7pNgnPoBNDtJ` | `0 7 * * 1` | — |
 | moc-refresh | `trig_01LtknAQfEwDPPgoSD7MsRGd` | `0 14 * * 6` | — |
 | weekly-review-interactive | `trig_01PwXWK8fgjmjvbv3a5f6PL5` | `0 15 * * 6` | — |
+| radar-competitor | `trig_014m83cujGzTLkxkddeDHye6` | `30 7 1 * *` | — |
 | vault-link-checker | `trig_01SMEJPZFUvqMGEFPR7DADob` | `40 13 * * 0` | — |
 
 **Cosa è stato PROVATO (7/6):**

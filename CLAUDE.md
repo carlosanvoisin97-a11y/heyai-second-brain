@@ -227,6 +227,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 | `moc-refresh` | `0 14 * * 6` | audit MOC-Home | — |
 | `weekly-review-interactive` | `0 15 * * 6` | prep weekly review → `00 - Inbox/` | — |
 | `weekly-system-review` 🆕 | `30 16 * * 6` | meta-loop F6: review del sistema → `00 - Inbox/` | — |
+| `radar-competitor` 🆕 | `30 7 1 * *` (1° del mese, ~9:30 CEST) | radar fornitori/concorrenti → `99 - System/Radar/` | — |
 
 **B) Code-locale** (`~/.claude/scheduled-tasks/`, **best-effort: solo ad app Code aperta / al prossimo avvio**):
 
@@ -238,7 +239,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
 
 **C) Locale ad app aperta**: plugin **Obsidian Git** — commit-and-sync + auto-pull ogni ~10' (§9ter + [[99 - System/Routines/_README]]).
 
-**Manuale**: `dashboard-refresh-manual` (refresh PM Dashboard, on-demand).
+**Manuale**: `dashboard-refresh-manual` (refresh PM Dashboard, on-demand). _(radar-competitor: da manuale a cron mensile l'11/6.)_
 **Ritirati/disabilitati**: `cowork-sessions-index` (ritirato 7/6 → sostituito da `code-sessions-index`); `friday-wrap-up`, `weekly-digest`, `claude-chats-sync`. Storia patch → [[99 - System/CLAUDE Changelog Archive]].
 
 ### 9bis. I runtime e come verificarli — non fidarsi di un solo `list` (rev. 8/6/2026)

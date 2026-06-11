@@ -42,8 +42,8 @@ aliases: [Handover 10-6 sera, Handover consolidamento completo]
 3. **Scaffold vault-conoscenza `~/2brain`** (Carlo: "seguo le due raccomandazioni" = llm-wiki-setup + wiki-self-heal con quality gate ≥2 fonti) — sessione dedicata da pianificare → ✅ **ESEGUITO 11/6**: repo git locale con CLAUDE.md (regole + quality gate ≥2 fonti), wiki/index.md, prima voce "Pattern LLM-wiki (Karpathy)" (2 fonti ✓), log append-only, skill `wiki-self-heal` (5 check flag-only). Nessun remote per ora
 4. **Watchdog digest pezzo 2** (trigger cloud 10:00 controlla-daily): solo se si osservano run cloud che falliscono PRIMA della routine — [[2026-06-10 - DESIGN failover 2 PM Digest (Rischio 1)]]
 5. **PKM residuo minore**: pilota Progressive Summarization L4 + analisi tagging concettuale (i MOC tematici sono fatti; resurfacing/distill già coperti da weekly-system-review)
-6. **radar-competitor**: run di prova fatto; decidere con Carlo cadenza/schedulazione dopo che l'ha letto
-7. *(minore)* Il trigger cloud `weekly-system-review` ha 4 connettori MCP ereditati di default (Drive/M365/Spotify/Meta) che la routine non usa — innocui; rimovibili dal pannello claude.ai se si vuole pulizia
+6. **radar-competitor**: run di prova fatto; decidere con Carlo cadenza/schedulazione dopo che l'ha letto → ✅ **SCHEDULATO 11/6**: mensile (1° del mese ~9:30, trigger `trig_014m83cujGzTLkxkddeDHye6`); on-demand sempre possibile via RemoteTrigger run
+7. *(minore)* I trigger cloud `weekly-system-review` e `radar-competitor` hanno 4 connettori MCP ereditati di default (Drive/M365/Spotify/Meta) che le routine non usano — innocui; rimovibili dal pannello claude.ai se si vuole pulizia
 
 ## 3. In capo a CARLO (aggiornato dopo le sue risposte — 12 punti)
 
