@@ -4,7 +4,7 @@ product: Crowd
 client: NoLoop
 status: in-production-evolving
 created: 2026-04-30
-updated: 2026-06-09
+updated: 2026-06-11
 aliases: ["NoLoop Crowd", "NoLoop Claude (errore typo)"]
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-20 20:22 (cron-22) | source-session: local_1653abdf-0f2f-42cd-8125-3c9edf17b324 | source-lastActive: 2026-05-20 -->
@@ -137,6 +137,13 @@ Pattern consolidato per le minute Crowd (TO: Arianna+David, CC: Lorena+Federico+
 - [ ] **#p2** Carlo: email recap a Laura Garbarino "Minutes tutto in produzione" + reminder plenaria/consumi token
 
 ## Log
+
+### 2026-06-11 — Escalation rooming Lorena: linea di risposta + vocali Federico (video entro lunedì 15/6)
+- **Escalation 9/6 (16:32, email solo a Carlo)**: [[Lorena Cavecchi]] scrive direttamente fuori dal thread di gruppo — rooming *"veramente super complicato… Non è utilizzabile, rallenta il lavoro delle risorse in maniera esponenziale. […] Va cambiato mi spiace"*; chiede call con lei+[[Arianna Giordanella]] lavorando live su Crowd + stato delle altre modifiche richieste da Arianna.
+- **Vocali Federico 11/6 (17:22 WhatsApp, trascritti in locale)**: (1) lavoro intenso per rendere Crowd production-ready (si collegherà a un sito → accesso dall'esterno): ridisegno di alcune sezioni che non lo convincevano + hardening sicurezza (endpoint protetti, penetration test); (2) sul rooming manca **solo l'export con cambio tipologia** (tenuto per ultimo) — il **tutorial completo del rooming** si registra a valle di quella chiusura; (3) linea sulla deadline data al cliente: *"se trovano qualcosa che è effettivamente un problema funzionale glielo sistemo chiaramente"* — la deadline serve a **congelare le nuove richieste** (*"gli abbiamo concesso un milione di robe, adesso non lo accettiamo più"*), non i bug fix.
+- **Linea di risposta a Lorena (bozza finale prodotta, invio a carico Carlo)**: interventi in corso sul modulo (gestione più flessibile tipologie camera + export hotel + UI + sicurezza dati) → **video dimostrativo entro lunedì 15/6** (registrato a prodotto finito) → **call unica** Lorena+Arianna a valle di visione e test (slot chiesti per settimana 15-19/6) con review complessiva; eventuali esigenze non coperte mappate in quella sede come evolutive. Sostituisce in forma morbida il "reminder con due date" deciso il 9/6.
+- [ ] **#p1 Federico**: video tutorial completo rooming (associazione camere + cambi tipologia + export) — **entro lunedì 15/6, data comunicata al cliente**
+- [ ] **#p1 Carlo**: a valle degli slot di Lorena, fissare la call unica review test + rooming (settimana 15-19/6)
 
 ### 2026-06-09 (allineamento team interno) — Test ancora non chiusi, ultimo reminder con Lorena in CC
 - **Test della piattaforma gestione eventi ancora non finalizzati**: NoLoop sta gestendo tanti lanci in contemporanea e non riesce a chiudere i test; la persona che dovrebbe chiuderli ([[Arianna]], tester) è stata tutto il giorno in call con Michele. Carlo ha già mandato **2 reminder** ("siamo fuori roadmap, vi abbiamo concesso più tempo ma dobbiamo chiudere").

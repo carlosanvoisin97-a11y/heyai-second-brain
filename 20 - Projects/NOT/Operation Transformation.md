@@ -178,6 +178,11 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 
 ## Log
 
+### 2026-06-11 — Review risposta email Germano (9/6, note inline) al recap OT dell'8/6
+- Note inline di [[Germano Marano|Germano]] (email 9/6 14:20): **API BAT/PARD** → *"stiamo facendo gli approfondimenti necessari, durante il prossimo avanzamento dovrei avere tutto chiaro"* (poi anticipato in call 11/6: feedback preliminare negativo, v. entry sotto); **dati/ingestion** → *"coinvolgetemi pure se ritenete utile"*; **documentazione** (RL + brief) → ringrazia.
+- **Punto NON risposto: conferma interna NOT sulla prioritizzazione** maschera unica vs ingestion storico → resta aperto, da chiudere al prossimo avanzamento (ora unificato EC+OT).
+- In capo a HeyAI dal recap 8/6: **doc proposta multi-SIM da girare a Germano** + organizzazione **call Carmen** per ingestion storico (in settimana).
+
 ### 2026-06-11 — Coda OT nella call bisettimanale Eye Cookies: form/API BAT in stallo, direzione scraping
 - In coda alla call Eye Cookies dell'11/6 (Carlo + [[Germano Marano|Germano]] + Federico + Simone — trascrizione in `80 - Sources/Files/Eye Cookies/`): **feedback preliminare NON positivo sull'apertura form/API BAT** (Germano: *"abbiamo già qualche feedback che non è positivo, ne parleremo settimana prossima"*). Massi è l'unico interlocutore su BAT e PARD e **non risponde nonostante la richiesta** (Germano: *"se aspettiamo questi che rispondono passa una vita"*); seconda interlocuzione attesa settimana prossima.
 - **Direzione emergente: web scraping per entrambi i flussi (BAT e PARD)** — Germano: *"la meno precisa, la meno sostenibile, la meno pulita... però se vogliamo automatizzare, quella è l'unica soluzione"* (l'esposizione di API lato NOT non risolve se BAT non va a prendersi i dati, e i form resterebbero onere NOT). Federico: il team è molto forte sullo scraping (*"riusciamo a prendere per il naso LinkedIn con gli antibot"*), BAT è target più semplice di LinkedIn; rischio = manutenzione (se cambiano la pagina va rifatto il sistema); chiedere a BAT almeno un preavviso sugli aggiornamenti pagina. Nessun lavoro anticipato fino alle risposte di Massi.
