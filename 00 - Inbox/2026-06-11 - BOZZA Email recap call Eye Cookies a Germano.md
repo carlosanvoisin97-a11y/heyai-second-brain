@@ -3,44 +3,62 @@ type: email-draft
 created: 2026-06-11
 updated: 2026-06-11
 to: Germano Marano <germanomarano.consultant@noloop.eu>
-cc: (valutare Massi + Andrea — default solo Germano, recap operativo)
-subject: "thread bisettimanale (recap unico Eye Cookies + Operation Transformation, call 11/6)"
+cc: Massi Sinigaglia + Federico + Simone (pattern recap reale 8/6; il 28/5 F+S erano in TO e Andrea in CC)
+subject: "R: Eye Cookies | Allineamento bisettimanale (recap unico EC+OT, call 11/6)"
 related_project: "[[Eye Cookies]] + [[Operation Transformation]]"
 meeting_context: 2026-06-11 — Seconda call bisettimanale Eye Cookies (call assorbita nelle schede)
-status: da inviare (Carlo)
+status: da inviare (Carlo) — DOPO l'email a Carmen (il recap la cita come già scritta)
 ---
 
-# BOZZA — Email recap UNICA a Germano (Eye Cookies + Operation Transformation)
+# BOZZA v3 — Email recap UNICA a Germano (Eye Cookies + Operation Transformation)
 
-> v2 (11/6 sera): fusa con i punti OT del thread (handover sessione PM 11/6 §2.4, ora superata) — un solo recap sui due progetti, coerente con la decisione di call unificata. Regola §13 rispettata. Testo paste-ready Outlook.
+> v3 (11/6 sera): riscritta con le correzioni di Carlo + ricalibrata sul formato dei recap REALI inviati (28/5 EC, 8/6 OT, recuperati via Outlook): sezioni con header in grassetto, "Altri temi discussi" per i punti informativi, richieste al cliente in seconda persona cortese, nessun ringraziamento in apertura, mai nominare Massi ("verifiche interne"). Le intestazioni di sezione vanno in **grassetto** in Outlook. Testo paste-ready.
 
 ---
 
 Ciao Germano,
 
-grazie come sempre per l'allineamento di oggi! Visto che abbiamo deciso di trattare i due progetti in un'unica call, ti lascio un recap unico, così teniamo il filo su entrambi in vista del punto di settimana prossima.
+come da accordi di seguito il recap dei punti aperti e dei temi trattati durante l'allineamento di oggi. Ne approfitto per accorpare i thread dei due progetti in un'unica discussione, anche alla luce della probabile unificazione degli allineamenti di cui ci siamo detti.
 
-Eye Cookies:
+Punti aperti lato Microlog:
 
-* Tracce storiche — attesa dell'ok di Microlog sull'allargamento della finestra di identificazione sui dati storici; da quel momento il team può iniziare a richiamare le singole tracce via API. Prima verifica già al punto di settimana prossima
+* Attesa dell'ok sull'allargamento della finestra di identificazione sui dati storici — da quel momento il team inizia a richiamare le singole tracce via API
 
-* Near real-time — nessun blocco lato team sulla traccia singola restituita a fine visita; attesa del preventivo Microlog richiesto da te, con verifica di coerenza delle API quando disponibile
+* Near real-time: restiamo in attesa del preventivo che hai richiesto e, una volta confermato, prendiamo la decisione tecnica. Due approfondimenti utili da girare a Microlog: se il near real-time viaggerà sulle stesse API attuali o su un layer separato (nel primo caso l'integrazione lato nostro resta pressoché invariata) e con quale criterio viene chiuso il "fine visita" che genera la traccia. Ti ricordo intanto che da requirement log il perimetro MVP prevede il flusso batch post visita (req. 5.3): l'eventuale real-time entra come evolutiva
 
-* Sensoristica — invio da parte tua dello schema di installazione dei sensori + richiesta a Microlog del criterio con cui viene chiuso il "fine visita", a tutela della qualità statistica del dato
+* Robustezza del tracciamento sullo scambio di soggetti ravvicinati: a noi serve il dato puntuale del singolo e non l'aggregato, quindi è un punto da verificare con loro
 
-* Output dell'MVP — confermato l'approccio del dato formattato messo a disposizione senza azioni dirette (testo per SMS, email con link al carrello, istanza a database); l'implementazione end-to-end resta quotabile a parte come servizio premium, in linea con il requirement 5.3 (carrello generato post visita)
+* E se possibile condividici lo schema di installazione dei sensori
 
-* Presentazione BAT — avvio della prima bozza lato nostro, da rivedere insieme prima del passaggio con Massi; condivisione dell'ETA a breve. Molto utili, appena riesci a recuperarle, le info sugli strumenti in uso (CRM, mail marketing, SMS/WhatsApp) ed eventuali linee guida brand
+Output per retargeting:
 
-* Totem — confermata la direzione della costruzione dedicata con proposta su tre livelli (base, design brandizzabile, custom completo); primi due sketch in arrivo tra fine settimana e inizio della prossima
+* Come da perimetro di progetto, in questa fase prevediamo di mettere a disposizione del cliente un endpoint dal quale recuperare i dati già formattati per i suoi sistemi di email marketing, CRM e messaggistica (testo per SMS, email con link al carrello, record a database); le integrazioni dirette con sistemi specifici sono pianificate per la fase due post MVP
+
+Presentazione BAT e Totem:
+
+* Cominciamo a buttare giù una prima bozza di presentazione con scaletta e demo; in demo lasceremo aperte le opzioni sul valore per il cliente (lead, vendita recuperata, retargeting), così da farci guidare dal loro interesse. Una volta pronta te la condividiamo per le tue verifiche interne
+
+* Come anticipato in call, se possibile condividici le linee guida brand utili per i totem e gli attuali strumenti in uso (CRM, email marketing, messaggistica), così costruiamo uno use case pratico calato nel loro contesto per il retargeting
+
+* Totem: confermata la direzione della costruzione dedicata, con proposta su tre livelli (base, design brandizzabile, custom completo); primi due sketch tra fine settimana e inizio della prossima, con le valutazioni economiche a seguire
 
 Operation Transformation:
 
-* Form e API BAT/PARD — attesa dei riscontri da Massi; ne riparliamo settimana prossima con il quadro completo, tenendo sul tavolo lo scenario scraping
+* Form e API BAT/PARD: restiamo in attesa dei riscontri dalle verifiche interne, ne riparliamo al prossimo punto con il quadro completo tenendo sul tavolo lo scenario scraping
 
-* Prioritizzazione maschera unica di registrazione vs ingestion dello storico — appena avete un riscontro interno fammi sapere, così adeguiamo la roadmap di conseguenza
+* Conferma interna NOT sulla prioritizzazione della maschera unica di registrazione rispetto all'ingestion dello storico, così adeguiamo la roadmap di conseguenza
 
-Call con Carmen — per ottimizzare, proporrei di coprire in un unico incontro sia il tema connettività pop-up sia l'ingestion dei dati storici, che serve a entrambi i progetti: come da accordi la sento oggi per incrociare le agende e ti giro l'invito. In anticipo ti faccio avere anche il documento di proposta multi-SIM, utile come base per il confronto.
+Dati e connettività:
+
+* Ho già scritto a Carmen per organizzare il passaggio a tre su connettività dei pop-up e ingestion dello storico in un'unica call: appena incrociamo le agende ti giro l'invito. Ti anticipo intanto il documento di proposta multi-SIM come base per il confronto
+
+Altri temi discussi:
+
+* Documentazione API Microlog: il nuovo riferimento documentale era già la base di lavoro del team; accessi ok con entrambe le credenziali, ti segnaliamo eventuali problemi di login
+
+* Sensoristica: configurazione a 4 telecamere angolari con invio dati al server ogni 5 minuti; la logica di visita e traccia è gestita dal layer software applicativo
+
+* Modello a due tier emerso in call: servizio base con dati schedulati post visita e possibile tier premium near real-time / end-to-end, da quotare a parte
 
 Fammi sapere se ti torna tutto, per qualsiasi cosa resto a disposizione!
 
