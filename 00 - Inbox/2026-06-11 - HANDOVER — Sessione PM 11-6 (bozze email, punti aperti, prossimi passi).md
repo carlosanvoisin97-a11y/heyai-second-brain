@@ -179,7 +179,7 @@ Grazie raga!
 ## 5. Discrepanze da risolvere con Carlo
 
 1. **Osservatorio FuturItaly**: Master Facts €45K (v2 19/5) vs "noi glielo volevamo vendere a 50" (Carlo, call team 9/6) + decisione di alzare ulteriormente → riconciliare PRIMA dell'invio della quotazione rivista.
-2. **Avv. Longo, nome proprio**: scheda vault = "Marco Longo (Morbinati & Longo)", ma Andrea gli scrive "Ciao Mauro" (10-11/6) e la trascrizione 9/6 dice "Mauro" → verificare nome canonico ed eventualmente rinominare (grep-on-rename §15).
+2. **Avv. Longo, nome proprio**: scheda vault = "Mauro Longo (Morbinati & Longo)", ma Andrea gli scrive "Ciao Mauro" (10-11/6) e la trascrizione 9/6 dice "Mauro" → verificare nome canonico ed eventualmente rinominare (grep-on-rename §15).
 3. **Open Tasks** segna "contratti a Velotta inviati 9/6 ✅" ma il contratto di Carlo risulta non inviato (v. §4) → riconciliare dopo la verifica.
 
 ## 6. Cose NON fatte in questa sessione (da non dare per fatte)

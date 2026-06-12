@@ -256,7 +256,7 @@ Estrazione integrale di TUTTI i task/prossimi passi di Carlo strutturati per PRI
 - Luca Candiani, Antonio Cichello (Producer), Ivano Romano (Communication)
 - Lorena Cavecchi (Resp MICE), Stefano Havant (Avant)
 - Danilo Piersanti, Luca, Gabriele (Silencio)
-- Marco Longo (avv), Lavinia Ferrari (Futuritaly)
+- Mauro Longo (avv), Lavinia Ferrari (Futuritaly)
 
 **CLIENTI:**
 - Germano Marano (Eye Cookies)

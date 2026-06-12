@@ -16,7 +16,7 @@ created: 2026-05-08
 
 ### Per progetto
 
-- **[[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]]**: bozza contratto da [[60 - People/Marco Longo (Morbinati & Longo)|avv. Longo]] arrivata **giovedì 7/5 mattina** (milestone calendario rispettata). Setup Microsoft Lists "Soolutions Delivery Board" creata 6/5 sera (sostituisce Wrike). Kickoff Wave 2 Soolutions tenuto 7/5 17:00. Sessione Finale Crowd già fissata per 12/5 15:30. — Status: 🟢
+- **[[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]]**: bozza contratto da [[60 - People/Mauro Longo (Morbinati & Longo)|avv. Longo]] arrivata **giovedì 7/5 mattina** (milestone calendario rispettata). Setup Microsoft Lists "Soolutions Delivery Board" creata 6/5 sera (sostituisce Wrike). Kickoff Wave 2 Soolutions tenuto 7/5 17:00. Sessione Finale Crowd già fissata per 12/5 15:30. — Status: 🟢
 - **[[20 - Projects/Eldis/Eldis Compilatore|Eldis Compilatore]]**: call formativa Builder Catalogo confermata venerdì 8/5 15:30–16:30 con [[60 - People/Stefania Solidoro|Stefania]] + [[60 - People/Marta Garrafa|Marta]] + Giovanna + Alessandra + [[60 - People/Simone Montanari (Soolutions)|Simone]]. **Bug TIFF rendering ancora aperto**, escalation tecnica architetturale. Marta ha segnalato 6/5 due nuovi problemi (codice gamma Unik Table + RAEE). — Status: 🔴
 - **[[30 - Areas/Area - Partnership Fornitori/Jakala|Jakala]]**: quotazione finale **bundle 4 progetti €70-75K** ricevuta 5/5 sera da [[60 - People/Andrea Pasquali]]. Slot "Punto HeyAi" del 5/5 annullato dall'organizzatore, rifissato come "Pasquali" 7/5 13:00. Decisione allocazione 4 progetti ancora pendente. — Status: 🟡
 - **[[20 - Projects/Futuritaly/Angelini Academy/_Angelini Academy|Angelini Academy]]**: gara competitiva via FuturItaly partita 5/5 (brief inoltrato da [[Elena Chiti|Elena Chiti]]). Call prep interna con Elena+Daniele 7/5 16:30. Documento Q&A con domande prioritarie inviato a Elena 7/5 sera. **Q&A cliente con Caterina Caboni 8/5 11:00 CEST** (delta orario verificato: vault 7/5 indicava 9:00, calendar Outlook 11:00). — Status: 🟢
@@ -45,7 +45,7 @@ created: 2026-05-08
 
 ### Top 3 priorità lunedì (11/05)
 
-1. **Lettura bozza contratto Wave 2** ricevuta da [[60 - People/Marco Longo (Morbinati & Longo)|avv. Longo]] 7/5 e preparazione riscontro per discussione con avvocato + [[60 - People/Andrea Pazienza]]. #p1
+1. **Lettura bozza contratto Wave 2** ricevuta da [[60 - People/Mauro Longo (Morbinati & Longo)|avv. Longo]] 7/5 e preparazione riscontro per discussione con avvocato + [[60 - People/Andrea Pazienza]]. #p1
 2. **Decisione finale allocazione 4 progetti** Silencio vs Jakala (input: sintesi Danilo 8/5 + quotazione Jakala 5/5). Comunicare ai 4 cantieri (PresidIA, Osservatorio, Achipont, HoReCa) entro lunedì sera. #p1
 
 ### Email senza risposta da 3+ giorni

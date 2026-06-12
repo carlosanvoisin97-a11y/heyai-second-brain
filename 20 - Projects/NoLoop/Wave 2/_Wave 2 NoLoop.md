@@ -14,7 +14,7 @@ deadline: 2026-05-15
 deadline_history:
   - 2026-05-07: bozza contratto avv. Longo attesa → ricevuta 7/5 ore 10:22 (sessione `local_c4785b1e` ha chiuso il task `[x]`)
   - 2026-05-15: nuovo target — riscontro+commenti su bozza Longo (con Andrea Pazienza) per chiusura settimana lavorativa
-stakeholders: [Marco Merli, Marco Longo (Morbinati & Longo), Paolo Donzelli, Massi Sinigaglia, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
+stakeholders: [Marco Merli, Mauro Longo (Morbinati & Longo), Paolo Donzelli, Massi Sinigaglia, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
 ---
 
 > [!summary]+ ⚡ Sintesi L4 (pilota PKM, 11/6/2026 — vista derivata: fa fede il corpo della scheda)
@@ -123,7 +123,7 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 
 ## Task aperti
 
-- [x] ~~**#p1** Bozza contratto Wave 2 da avv. Marco Longo (Morbinati & Longo) — milestone calendario 2026-05-07/08; se non arriva entro fine settimana, sollecitare~~ → ✅ chiuso 2026-05-08: bozza ricevuta 7/5 ore 10:22 via email "[64508] HeyAI / Noloop (Wave 2)", milestone calendario rispettata. Nuovo task aperto di lettura+riscontro tracciato in [[99 - System/Open Tasks]] e Daily Note 2026-05-08.
+- [x] ~~**#p1** Bozza contratto Wave 2 da avv. Mauro Longo (Morbinati & Longo) — milestone calendario 2026-05-07/08; se non arriva entro fine settimana, sollecitare~~ → ✅ chiuso 2026-05-08: bozza ricevuta 7/5 ore 10:22 via email "[64508] HeyAI / Noloop (Wave 2)", milestone calendario rispettata. Nuovo task aperto di lettura+riscontro tracciato in [[99 - System/Open Tasks]] e Daily Note 2026-05-08.
 - [x] ~~**#p1** Lettura+riscontro bozza Longo — entro 15/5~~ → ✅ chiuso 2026-05-11: analisi completa in [[2026-05-11 - Analisi bozza contratto Longo Wave 2]] (verdict: firmabile dopo round di chiarimenti, 8 placeholder + 7 decisioni Carlo + 2 allegati da preparare + 1 dipendenza IP Soolutions)
 - [x] ~~**#p1** Decisione Carlo su 7 punti analisi bozza Longo~~ → ✅ chiuso 2026-05-11: decisioni prese inline in [[2026-05-11 - Analisi bozza contratto Longo Wave 2]] §"Decisioni Carlo 11/5". Sintesi: riserva NOT tenere (richiesta cliente), estensione infragruppo tenere, escrow tenere ma costi cliente, soglie Sally 80 confermate, DPA da recuperare Wave 1 (Andrea), AI autorizzate chiuse OK come art. 10.6 generico, OnSite Generali MVP gestito operativamente senza clausola contrattuale
 - [x] ~~**#p1** Andrea Pazienza prepara Allegato 2 — Piano Fatturazione~~ → ✅ superato 2026-05-11: il Piano Fatturazione è documento HeyAI già condiviso a NoLoop, **lo recuperiamo e lo giriamo a Longo come Allegato 2** (vedi task sotto)
@@ -234,7 +234,7 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 ## Log
 
 ### 2026-06-09 (allineamento team interno HeyAI — Bruno+Carlo+Michele+Andrea)
-- **DECISIONE — contratto cliente Wave 2: riscrittura, NON riuso diretto della bozza Longo**. Andrea **riscrive** il contratto HeyAI↔NoLoop partendo dal lavoro di risistemazione fatto su [[Operation Transformation]] + documentazione tecnica Wave 2 + clausola di cessione IP, usando la **bozza di [[Marco Longo (Morbinati & Longo)|Mauro Longo]] solo come traccia/riferimento, non come testo da inviare**. Motivazione **etica** (Bruno): *"non dovremmo utilizzare quello che ci ha fatto lui se non pagandolo"*. Il documento riscritto va mandato **definitivo a [[Paolo Donzelli|Donzelli]]**, usandolo anche come impression "va bene così".
+- **DECISIONE — contratto cliente Wave 2: riscrittura, NON riuso diretto della bozza Longo**. Andrea **riscrive** il contratto HeyAI↔NoLoop partendo dal lavoro di risistemazione fatto su [[Operation Transformation]] + documentazione tecnica Wave 2 + clausola di cessione IP, usando la **bozza di [[Mauro Longo (Morbinati & Longo)|Mauro Longo]] solo come traccia/riferimento, non come testo da inviare**. Motivazione **etica** (Bruno): *"non dovremmo utilizzare quello che ci ha fatto lui se non pagandolo"*. Il documento riscritto va mandato **definitivo a [[Paolo Donzelli|Donzelli]]**, usandolo anche come impression "va bene così".
 - **Stato Donzelli (via Andrea)**: a valle dell'invio Donzelli aveva detto che *"se confermate che il resto del contratto è OK procediamo a modificare la parte IP"* → *"per il resto mi sembrava OK, ma per scrupolo lo chiedo e torno da te"*. **Non è mai tornato.** Bruno: Donzelli legge davvero solo 2-3 punti fondamentali (IP), il resto del contratto probabilmente non lo legge nel dettaglio. Rapporto strafidato, nessun timore di contenzioso.
 - **Verrengia + finanziamento**: Carlo e Andrea hanno dato **tutta la documentazione** al commercialista [[Paolo Verrengia (commercialista NoLoop)|Verrengia]]. NoLoop ha posto la condizione *"ci potete dare la proprietà intellettuale? sennò non prendiamo il finanziamento"* → da quel momento **nessuna notizia**. Le "soluzioni nuove" Wave 2 restano in attesa del responso finale NoLoop sui finanziamenti.
 - **Push**: Carlo chiede di accelerare — *"il progetto è stato accettato da due mesi e ancora non è partito"*.

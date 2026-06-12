@@ -33,7 +33,7 @@ related:
 
 ## 🔴 5 priorità della settimana (cosa NON deve sfuggirti)
 
-1. **Bozza contratto Wave 2 da [[Marco Longo (Morbinati & Longo)]]** — ricevuta 7/5 10:22, da leggere e dare riscontro. Allineare con [[Andrea Pazienza]] prima del riscontro all'avvocato. _Progetto: [[_Wave 2 NoLoop|Wave 2 NoLoop]]_
+1. **Bozza contratto Wave 2 da [[Mauro Longo (Morbinati & Longo)]]** — ricevuta 7/5 10:22, da leggere e dare riscontro. Allineare con [[Andrea Pazienza]] prima del riscontro all'avvocato. _Progetto: [[_Wave 2 NoLoop|Wave 2 NoLoop]]_
 2. **Decisione fornitore Achipoint Soolutions vs Jakala** — preventivo Soolutions arrivato 7/5 17:02 (€10K MVP + opzionali singoli, es. aggiornamento auto periodico €1.600). Cambia il margine: €35K se Soolutions vs €25K se Jakala. Da chiudere prima di mandare la Proposta v3 al cliente. _Progetto: [[Achipoint]] + [[Jakala]]_
 3. **Concept proposta Angelini Academy entro fine maggio** — call cliente 8/5 ha ribaltato lo scope (restyling rapido fase 1 + ristrutturazione fase 2, AI ridotta a 1 feature, e-commerce predisposto+oscurato, MBA dimensionato su 45 candidati max, NO chatbot/agente percorsi/calcolatore borse complesso). 3 settimane di tempo. Allineamento Carlo+Daniele+Elena lunedì 11/5 12:00 per ridiscutere pitch finale. _Progetto: [[_Angelini Academy|Angelini Academy]]_
 4. **Sessione finale Crowd martedì 12/5** — chiusura formale Wave 1 + saldo. Federico deve consegnare video grouping/roaming + chiusura feature mancanti prima della call. _Progetto: [[Crowd]]_
@@ -170,7 +170,7 @@ related:
 1. **File orfani in root vault**: 1 file riservato gestito fuori archivio operativo (chiuso 8/5 quality check); 1 file ancora in root (gestione manuale Carlo).
 2. **Lock files Office non chiusi**: `.~lock.Soolutions Delivery Board - Tasks da importare.xlsx#` (root) + `~$26-05-07 - Prep call FuturItaly Angelini Academy.docx` (00-Inbox). Probabile chiusura impropria.
 3. **Inconsistenza checkbox vs prosa Achipont**: task `[ ] Preparare proposta economica modulare (Luigi accetta meglio €X+€X+€X)` aperto in scheda Achipont ma in Eventi chiave c'è "2026-05-07 sera — Prodotti i due deliverable v1: Requirement Log e Proposta di Investimento" e in Open Tasks è già `[x]`. Da riconciliare.
-4. **Task ambiguo Wave 2**: `[ ] #p1 Attendere bozza contratto avvocato (Marco Longo, ricezione confermata 28/04)` testo ambiguo + bozza arrivata 7/5. Da riformulare/chiudere.
+4. **Task ambiguo Wave 2**: `[ ] #p1 Attendere bozza contratto avvocato (Mauro Longo, ricezione confermata 28/04)` testo ambiguo + bozza arrivata 7/5. Da riformulare/chiudere.
 5. **Doppio run PM Digest 7/5**: 08:02 + re-run no-op alle 08:57 (54 min dopo, fuori jitter 145s). No danno, ma da monitorare nei prossimi giorni se si ripete (possibile bug scheduler).
 6. **Categorizzazione Open Tasks**: 11 task setup Microsoft Lists Soolutions etichettati `**#p1**` ma in sezione `## Priorità media (#p2)` — mismatch.
 7. **Patch SKILL cowork-sessions-index** ancora non applicata (vedi Decisioni pending #5).

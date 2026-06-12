@@ -3,7 +3,7 @@ type: analysis
 created: 2026-05-11
 updated: 2026-05-11
 project: _Wave 2 NoLoop
-stakeholders: [Marco Longo (Morbinati & Longo), Andrea Pazienza, Paolo Donzelli, Marco Merli]
+stakeholders: [Mauro Longo (Morbinati & Longo), Andrea Pazienza, Paolo Donzelli, Marco Merli]
 status: decisions-taken
 priority: p1
 related_doc: "20260506 HeyAI - NoLoop - Wave 2 - bozza.docx (ricevuta 7/5 ore 10:22)"
@@ -217,7 +217,7 @@ Carlo aggiorna lo stato: Piano Fatturazione **già allegato a Longo**, VenueFind
 - 📄 Trascrizione testuale: `outputs/longo_bozza_wave2.md` (1309 righe)
 - 📊 Allegato 1 RL: [Wave2_RequirementLog_FINAL.xlsx](computer:///Users/carlosanvoisin/claude/20%20-%20Projects/NoLoop/Wave%202/Wave2_RequirementLog_FINAL.xlsx)
 - 📁 Scheda progetto: [[_Wave 2 NoLoop|Wave 2 NoLoop]]
-- 📁 Scheda legale: [[Marco Longo (Morbinati & Longo)]]
+- 📁 Scheda legale: [[Mauro Longo (Morbinati & Longo)]]
 - 📋 Master Facts: [[Master Facts Sheet]] §Wave 2 NoLoop
 - ❓ Open Questions: #19/#29 (IP HeyAI↔Soolutions formalizzazione)
 

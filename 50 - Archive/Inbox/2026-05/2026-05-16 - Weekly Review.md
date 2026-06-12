@@ -104,7 +104,7 @@ _(Auto-popolato dal task — sweep frontmatter `updated:`, data riferimento 2026
 
 ### Touchpoint pianificati (🟢) — verifica esecuzione
 
-- **Marco Longo (Wave 2)** — call fissata lun 16/5 16:00 o mar 19/5 10:00 → fine tuning contratto → verifica se avvenuta
+- **Mauro Longo (Wave 2)** — call fissata lun 16/5 16:00 o mar 19/5 10:00 → fine tuning contratto → verifica se avvenuta
 - **Elena Chiti (Angelini Academy)** — call 15/5 17:00 → allineamento proposta sito → verifica output e stato pitch 31/5
 - **OnSite MVP (NoLoop)** — 20/5 — prep da avviare questa settimana
 - **crm-velocity** — run automatico lun 18/5 09:00 → aggiornerà i gap sopra con dati freschi

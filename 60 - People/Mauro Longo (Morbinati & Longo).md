@@ -5,10 +5,12 @@ role: Avvocato (legale HeyAI)
 company: Morbinati & Longo
 email: m.longo@morbinatilongo.it
 created: 2026-04-30
+updated: 2026-06-11
+aliases: [Mauro Longo, Avv. Longo, Avv. Mauro Longo, Longo]
 sources: [email Outlook 28/04 - 29/04]
 ---
 
-# 👤 Avv. Marco Longo (Morbinati & Longo)
+# 👤 Avv. Mauro Longo (Morbinati & Longo)
 
 - **Ruolo**: **Avvocato — legale HeyAI** per contratti complessi
 - **Studio**: Morbinati & Longo
@@ -19,7 +21,7 @@ sources: [email Outlook 28/04 - 29/04]
 
 - [[_Wave 2 NoLoop|Wave 2 NoLoop]] — stesura contratto Wave 2 (€300K bundle, 8 moduli, 83 requisiti)
   - 28/04 — Andrea Pazienza ha inviato thread completo con allegati
-  - 29/04 — Marco Longo ha confermato ricezione, in stesura contratto
+  - 29/04 — Mauro Longo ha confermato ricezione, in stesura contratto
   - **07/05 — bozza ricevuta** (ore 10:22, email "[64508] HeyAI / Noloop (Wave 2)", allegato `20260506 HeyAI - NoLoop - Wave 2 - bozza.docx`). Struttura: 13 articoli + premessa + 3 allegati. Verdict HeyAI (analisi 11/5): solida, impianto difensivo ben costruito, firmabile dopo round di chiarimenti
   - **11/05 — analisi HeyAI completata**: vedi [[2026-05-11 - Analisi bozza contratto Longo Wave 2]]. 8 placeholder + 7 decisioni Carlo + 2 allegati da preparare + 1 dipendenza IP Soolutions. Call con Longo prevista gio 14/5, invio commenti via PEC ven 15/5
 
@@ -37,7 +39,7 @@ sources: [email Outlook 28/04 - 29/04]
 ## Log
 
 ### 2026-06-11 — Declino retainer → preavviso di parcella €5.000 (scadenza ~18/6) + riunione di chiarimento
-- ⚠️ **Rettifica nome: il nome proprio è MAURO, non Marco** (firma "ml", Andrea apre con "Ciao Mauro", thread [64508]) → rename file + grep globale da eseguire (occorrenze in CLAUDE.md §7, MOC, schede Wave 2).
+- ⚠️ **Rettifica nome: il nome proprio è MAURO, non Marco** (firma "ml", Andrea apre con "Ciao Mauro", thread [64508]). → ✅ **rename ESEGUITO 11/6 sera (conferma Carlo)**: file rinominato `Marco Longo (Morbinati & Longo).md` → `Mauro Longo (Morbinati & Longo).md`; grep globale `Marco Longo`→`Mauro Longo` propagato a tutte le occorrenze (CLAUDE.md §7, MOC, Open Tasks, Wave 2, + snapshot cowork/archive per non lasciare wikilink rotti); 0 residui. Aggiunti alias naturali in frontmatter (Mauro Longo / Avv. Longo / Longo). Il vecchio nome "Marco" NON registrato come alias (era un errore, non una forma alternativa — §4).
 - **10/6 16:17 — Andrea declina la proposta di partnership/retainer** (email cortese: "le nostre marginalità non ci consentono di investire questo ammontare nella parte legale", ringraziamenti, porta aperta al futuro).
 - **11/6 10:16 — risposta Longo**: chiude "anche dal punto di vista amministrativo il **mandato conferitoci lo scorso 28 aprile 2026** per la redazione del Contratto Wave 2"; richiama tariffario standard "3-4% del valore dell'accordo" (su €300K ≈ €12K) e trasmette **preavviso di parcella forfait €5.000 + accessori** (`Preavviso_di_parcella_128_2026.pdf`), riduzione "valida a condizione che il pagamento venga eseguito **entro 7 giorni**" (≈ scadenza 18/6).
 - **Punti di merito**: il "mandato" è l'email di Andrea 28/4 (richiesta redazione contratto, nessuna lettera d'incarico né compenso pattuito); la bozza è stata consegnata il 7/5 e apprezzata da HeyAI ("ottimo lavoro", 14/5); il **14/5 Andrea stesso** aveva messo all'odg "parcella relativa allo sviluppo di questo contratto" → il lavoro era riconosciuto come oneroso, ma **l'importo non è mai stato quantificato/accettato** (unico numero mai sul tavolo: forfait €7.500 dentro la proposta partnership, mai accettata).

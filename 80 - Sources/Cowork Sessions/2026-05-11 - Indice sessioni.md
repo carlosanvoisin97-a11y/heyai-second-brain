@@ -256,9 +256,9 @@ runs:
 ## Sessione 8 — Analyze NoLoop Wave 2 legal document (bozza contratto Longo)
 
 - **ID**: `local_5e5e0b1a-7c1e-4fd7-b750-98e94a5a6eab`
-- **Trigger**: Bozza contratto Wave 2 ricevuta da avv. Marco Longo (Morbinati & Longo) il 7/5 ore 10:22 via email "[64508] HeyAI / Noloop (Wave 2)". Analisi completa 11/5 → produzione documento di analisi + bozza email recap Andrea Pazienza per allineamento interno → invio commenti consolidati a Longo entro **ven 15/5**.
+- **Trigger**: Bozza contratto Wave 2 ricevuta da avv. Mauro Longo (Morbinati & Longo) il 7/5 ore 10:22 via email "[64508] HeyAI / Noloop (Wave 2)". Analisi completa 11/5 → produzione documento di analisi + bozza email recap Andrea Pazienza per allineamento interno → invio commenti consolidati a Longo entro **ven 15/5**.
 - **Progetti**: [[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]]
-- **Persone**: [[60 - People/Andrea Pazienza]], [[60 - People/Marco Longo (Morbinati & Longo)]], [[60 - People/Federico Saladino (Soolutions)]], [[60 - People/Simone Montanari (Soolutions)]]
+- **Persone**: [[60 - People/Andrea Pazienza]], [[60 - People/Mauro Longo (Morbinati & Longo)]], [[60 - People/Federico Saladino (Soolutions)]], [[60 - People/Simone Montanari (Soolutions)]]
 
 ### Decisioni
 - **Verdict generale bozza Longo**: firmabile dopo round di chiarimenti. Impianto solido a favore HeyAI (IP a noi, obbligazione di mezzi, silenzio-assenso UAT 15gg, massimale 12 mesi, disclaimer AI + human oversight, divieto di training). Numeri PDF 13/04 rispettati al centesimo. Clausole tecniche dimostrano Longo ha letto bene anche Requirement Log.

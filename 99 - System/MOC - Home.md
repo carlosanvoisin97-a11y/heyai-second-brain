@@ -124,7 +124,7 @@ Dashboard principale del vault. Punto di ingresso per navigare tutto.
 - [[60 - People/Manuela (Soolutions)]] (junior, Venue Finder)
 
 **Legale**
-- [[60 - People/Marco Longo (Morbinati & Longo)]] — avvocato Wave 2 NoLoop
+- [[60 - People/Mauro Longo (Morbinati & Longo)]] — avvocato Wave 2 NoLoop
 
 **Fornitori potenziali (in valutazione)**
 - [[60 - People/Andrea Pasquali]] (Jakala — outsourcing 3 progetti €85K) 🆕 categoria

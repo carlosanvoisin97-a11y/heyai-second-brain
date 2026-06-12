@@ -17,7 +17,7 @@ created: 2026-05-05
 ### Per progetto
 
 - **NOT — Modulo Gestione Vendite (NoLoop)**: Deep Dive con [[Justin Lauro]], confermato rischio concreto che le **API BAT/PARD** non vengano rese disponibili. Da attivare piano B. — Status: 🟡
-- **Wave 2 NoLoop**: kickoff il 29/04, allineamento operativo con Soolutions/Tokio/Havant. Contratti in attesa di [[Marco Longo (Morbinati & Longo)|Morbinati & Longo]] per giovedì **7/05**. Sollecito firme aperto da [[Marco Merli]] del 28/04. — Status: 🟡
+- **Wave 2 NoLoop**: kickoff il 29/04, allineamento operativo con Soolutions/Tokio/Havant. Contratti in attesa di [[Mauro Longo (Morbinati & Longo)|Morbinati & Longo]] per giovedì **7/05**. Sollecito firme aperto da [[Marco Merli]] del 28/04. — Status: 🟡
 - **Eye Cook**: chiusa la richiesta di [[Massi Sinigaglia]] — [[Andrea Pazienza]] ha inviato il 29/04 le **3 fatture di cortesia** per i progetti NOT (sito web + LinkedIn, Operation Trasformation, terzo lotto). — Status: 🟢
 - **PresidIa**: [[Marco Murolo]] ha inviato i **format cedolini** il 29/04 (era sparito per riorganizzazione ufficio). Analisi in corso prima del prossimo incontro. — Status: 🟡
 - **Jakala**: [[Andrea Pasquali]] (29/04) ha inviato la **proposta di quotazioni** in Excel con due opzioni (a tempo fino a fine anno / a progetto). Da valutare e decidere. — Status: 🟡
@@ -52,7 +52,7 @@ created: 2026-05-05
 - Nessun evento in calendario per il 04/05 nei dati estratti (verificare al rientro: il calendario può aver subito variazioni dopo il ponte 1° maggio).
 
 ### Deadline imminenti (prossimi 7 giorni — fino al 12/05)
-- **gio 07/05** — Bozza contratto Wave 2 da [[Marco Longo (Morbinati & Longo)|Morbinati & Longo]] (data confermata)
+- **gio 07/05** — Bozza contratto Wave 2 da [[Mauro Longo (Morbinati & Longo)|Morbinati & Longo]] (data confermata)
 - Implicito: chiusura analisi cedolini PresidIa prima del prossimo incontro
 - Implicito: decisione Jakala (la quotazione a tempo è "fino a fine anno" → ogni settimana di ritardo erode il valore)
 

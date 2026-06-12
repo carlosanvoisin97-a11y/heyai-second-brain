@@ -66,7 +66,7 @@ status: active
 - [ ] **#p2** Inviare fattura/importo a Massi per [[Eye Cookies|Eye Cook]] (richiesta del 29/04)
 - [ ] **#p2** Analizzare format cedolini ricevuti da [[Marco Murolo]] per [[PresidIa]] prima del prossimo incontro
 - [ ] **#p2** Valutare quotazione Excel di [[Andrea Pasquali]] ([[Jakala]]) — 2 opzioni: a tempo fino fine anno vs progetto
-- [ ] **#p2** Bozza contratto da [[Marco Longo (Morbinati & Longo)|Morbinati & Longo]] per [[_Wave 2 NoLoop|Wave 2 NoLoop]] — attesa giovedì 7 maggio 2026
+- [ ] **#p2** Bozza contratto da [[Mauro Longo (Morbinati & Longo)|Morbinati & Longo]] per [[_Wave 2 NoLoop|Wave 2 NoLoop]] — attesa giovedì 7 maggio 2026
 - [ ] **#p3** Invio company profile aggiornato Futuritaly (ricevuto da [[_Futuritaly|Direzione Futuritaly]])
 - [ ] **#p3** Triage mail "Land in primary" di Abby Jones (Ignite SendKit AI) — verificare contesto
 

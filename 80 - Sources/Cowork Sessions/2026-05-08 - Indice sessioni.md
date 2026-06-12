@@ -150,7 +150,7 @@ runs:
 1. **File orfani in root vault** (violazione §15 path corretto): 2 file riservati in root invece che in cartella appropriata. Da gestire fuori dall'archivio operativo.
 2. **Lock files Office non chiusi**: `.~lock.Soolutions Delivery Board - Tasks da importare.xlsx#` (root) + `~$26-05-07 - Prep call FuturItaly Angelini Academy.docx` (00-Inbox). Probabile chiusura impropria Office/LibreOffice.
 3. **Inconsistenza checkbox vs prosa (§15.ter)** scheda Achipoint: task aperto `- [ ] **#p2** Preparare proposta economica modulare (Luigi accetta meglio €X+€X+€X)` ma "Eventi chiave" dice "2026-05-07 sera — Prodotti i due deliverable v1: Requirement Log e Proposta di Investimento" e in Open Tasks è già `[x]`. Da riconciliare a `[x]`.
-4. **Inconsistenza minore Wave 2 NoLoop**: task `- [ ] #p1 Attendere bozza contratto avvocato (Marco Longo, ricezione confermata 28/04)` con testo ambiguo ("ricezione confermata 28/04") ma ancora aperto. Milestone 7/5. Da riformulare per evitare ambiguità.
+4. **Inconsistenza minore Wave 2 NoLoop**: task `- [ ] #p1 Attendere bozza contratto avvocato (Mauro Longo, ricezione confermata 28/04)` con testo ambiguo ("ricezione confermata 28/04") ma ancora aperto. Milestone 7/5. Da riformulare per evitare ambiguità.
 5. **PM Digest doppio run del 7/5**: 08:02 + re-run no-op alle 08:57 (54 min dopo, fuori jitter 145s). Re-run segnalato correttamente come no-op nel Digest Log, no danno. Possibile bug scheduler — da monitorare nei prossimi giorni.
 
 ### Output prodotti
@@ -317,10 +317,10 @@ Patch chirurgica append-only — frontmatter `updated: 2026-05-08` confermato + 
 - **ID**: `local_c4785b1e-caa7-4d78-8bbb-05ba4805b2af`
 - **Trigger**: Trigger manuale del task `cowork-sessions-index` da pannello Scheduled, poi conversazione con Carlo per chiusura anomalie residue.
 - **Progetti**: [[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|Wave 2 NoLoop]], [[20 - Projects/Achipont/Achipoint|Achipoint]] (verifica)
-- **Persone**: [[60 - People/Marco Longo (Morbinati & Longo)]] (citato come autore bozza ricevuta 7/5 10:22)
+- **Persone**: [[60 - People/Mauro Longo (Morbinati & Longo)]] (citato come autore bozza ricevuta 7/5 10:22)
 
 #### Decisioni
-- **Anomalia 4 chiusa**: task Wave 2 NoLoop "Bozza contratto avv. Marco Longo (milestone 2026-05-07/08)" → `[x]` con audit "ricezione confermata 7/5 ore 10:22 via email '[64508] HeyAI / Noloop (Wave 2)'" propagato in 2 file ([[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|_Wave 2 NoLoop]] + [[99 - System/Open Tasks]]).
+- **Anomalia 4 chiusa**: task Wave 2 NoLoop "Bozza contratto avv. Mauro Longo (milestone 2026-05-07/08)" → `[x]` con audit "ricezione confermata 7/5 ore 10:22 via email '[64508] HeyAI / Noloop (Wave 2)'" propagato in 2 file ([[20 - Projects/NoLoop/Wave 2/_Wave 2 NoLoop|_Wave 2 NoLoop]] + [[99 - System/Open Tasks]]).
 - **Anomalia 3 verificata**: Achipoint task "Preparare proposta economica modulare" già `[x]` chiuso (riconciliato in run precedenti). No-op.
 - **Stop di chiusura**: Carlo non apre nuovi cantieri stasera. Lock files Office (4) lasciati a Carlo per eliminazione manuale dal Finder.
 
@@ -446,7 +446,7 @@ Patch chirurgica append-only — frontmatter `updated: 2026-05-08` confermato + 
 - [[99 - System/Open Tasks]] — gestita dal `pm-digest-mattutino` 8:02. Skip whitelist task.
 - [[CLAUDE]] · [[99 - System/Open Questions]] — escluse da policy (whitelist task). Carlo ha già aggiornato CLAUDE.md §14 con l'edit "8/5/2026 sera tardo (run 2 — chiusura)" durante la sessione 10.
 - [[20 - Projects/Achipont/Achipoint|Achipoint]] — verificata in sessione 7 (anomalia 3 già fixata in run precedente). Nessun nuovo append da fare.
-- [[60 - People/Marco Longo (Morbinati & Longo)]] — citato in sessione 7 ma nessuna interazione diretta nuova (solo verbalizzazione email ricezione 7/5 10:22 già committata in `_Wave 2 NoLoop`). Skip per evitare rumore.
+- [[60 - People/Mauro Longo (Morbinati & Longo)]] — citato in sessione 7 ma nessuna interazione diretta nuova (solo verbalizzazione email ricezione 7/5 10:22 già committata in `_Wave 2 NoLoop`). Skip per evitare rumore.
 - Tutte le altre schede toccate live in sessione 10 (Angelini Academy prep doc, Futuritaly bozze email, Jakala prep doc, Eldis Compilatore email, Federico Saladino bozza, Crowd chat Teams) — NON ricevono `## Sessioni Cowork correlate` aggiuntivo perché l'edit è stato già committato live e non ha generato dialoghi vault-worthy oltre il fix orfani. Frontmatter `updated:` già bumpato dalle Edit live.
 
 ### Conflict scan cross-sessione

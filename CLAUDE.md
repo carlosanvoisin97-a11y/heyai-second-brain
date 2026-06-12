@@ -201,7 +201,7 @@ Fonte autoritativa: [[99 - System/Master Facts Sheet]]. **Leggere sempre il Mast
   - [[60 - People/Simone Montanari (Soolutions)|Simone Montanari]] — back-end + design (Tokio Studio = stessa persona, 2 brand)
 - **Silencio.dev** (fornitore in lead post call 4/5): [[60 - People/Danilo Piersanti (Silencio)|Danilo Piersanti]] — co-founder principale + [[60 - People/Luca Fratini (Aegiscore)|Luca Fratini]] — co-founder/senior dev (dual affiliation con sua azienda Aegiscore, vedi sotto)
 - **Jakala**: [[60 - People/Andrea Pasquali]] — PM interno, figlio di Marco Pasquali NoLoop (relazione **sensibile**) · [[60 - People/Luigiandrea Scaramuzzi (Jakala)|Luigiandrea Scaramuzzi]] 🆕 — Manager Jakala, capo di Andrea, decisore commerciale sui bundle (quotazione 15/5 firmata da lui)
-- **Legale Wave 2**: [[60 - People/Marco Longo (Morbinati & Longo)|Marco Longo]]
+- **Legale Wave 2**: [[60 - People/Mauro Longo (Morbinati & Longo)|Mauro Longo]]
 - **Aegiscore S.R.L.S.** (azienda di Luca Fratini, parte tecnica esecutiva del bundle Silencio — fatturazione integrata): [[60 - People/Luca Fratini (Aegiscore)|Luca Fratini]] — CEO. Offerta bundle 4 progetti €100K (6/5 — PresidIA €35K + OssAI €20K + HoReCa €27K + Achipont €18K). Topic aperto: ownership codice sorgente
 - ❌ Spike Reply — escluso, troppo caro
 

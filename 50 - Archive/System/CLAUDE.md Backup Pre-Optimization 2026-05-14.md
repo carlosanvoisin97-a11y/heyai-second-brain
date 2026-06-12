@@ -296,7 +296,7 @@ Vedi [[00 - Inbox/2026-05-04 - Scenari Fornitori (post call Silencio)]] e [[30 -
   - [[60 - People/Simone Montanari (Soolutions)|Simone Montanari]] — back-end + design (Tokio Studio = stessa persona, 2 brand)
 - **Silencio.dev** (fornitore in lead post call 4/5): [[60 - People/Danilo Piersanti (Silencio)|Danilo Piersanti]] — co-founder
 - **Jakala**: [[60 - People/Andrea Pasquali]] — PM interno, figlio di Marco Pasquali NoLoop (relazione **sensibile**)
-- **Legale Wave 2**: [[60 - People/Marco Longo (Morbinati & Longo)|Marco Longo]]
+- **Legale Wave 2**: [[60 - People/Mauro Longo (Morbinati & Longo)|Mauro Longo]]
 - ❌ Spike Reply — escluso, troppo caro
 
 ## 8. Workflow ricorrenti — prompt library

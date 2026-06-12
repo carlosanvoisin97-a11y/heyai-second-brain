@@ -334,7 +334,7 @@ Breve scambio per definire struttura di mail top-down a Laura su 3 macro-aree Le
 - **Quotazione_PresidIA_v3_COMPLIANCE.docx** — aggiunta sezione 7.2 GDPR compliance (framing "proattivo HeyAI", non "correzione")
 
 ### Link/risorse esterne
-- **avv. Marco Longo** (Morbinati & Longo, legale IP/contratti)
+- **avv. Mauro Longo** (Morbinati & Longo, legale IP/contratti)
 - GDPR compliance framework (citato ma non linkato)
 
 ### Pattern ricorrenti
