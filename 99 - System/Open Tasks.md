@@ -1,6 +1,6 @@
 ---
 type: dashboard
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 # ✅ Open Tasks
@@ -8,6 +8,8 @@ updated: 2026-06-11
 Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente PM Digest (8:02 lun-ven).
 
 > **Nota reconcile manuale 29/5 (audit vault — Front 1)**: ripuliti i **41 task chiusi** (`- [x]`/`- [-]`) che erano rimasti nelle sezioni Priorità #p1/#p2 (residuo accumulato perché il PM Digest, che fa questo reconcile allo step 5e, non gira da 26/5). 11 erano duplicati già presenti in "Recentemente chiusi" → rimossi; 30 relocati lì preservando testo+provenienza. Le sezioni Priorità ora elencano **solo task realmente aperti**. Nessun checkbox cambiato di stato, nessun task aperto toccato. I task chiusi >7gg verranno archiviati in `50 - Archive/Open Tasks/2026-05.md` al prossimo run del Digest.
+
+> **Nota PM Digest 12/6/2026 08:02**: 15 email lorde, 5 filtrate (LinkedIn ×3, newsletter ×2), **10 email rilevanti** (thread Longo [64508] ×4 + Crowd Lorena risposta + recap interno F+S + OT Carmen + Eye Cookies bisettimanale + bozza assunzione Carlo + Jakala follow-up). 0 meeting oggi. 0 file SP. 1 chat Teams (Germano link docs.microlog.it Eye Cookies 15:34 CEST). **8 task nuovi aggiunti** (+4 in #p1, +4 in #p2). **Alert critici**: 🔴 Longo chiude mandato Wave 2 + parcella €5.000 da pagare entro 18/6 (tariffa agevolata decade se non pagata); 🔴 F24 MAGGIO scade 16/06 (tra 4 giorni); 🔴 Contratto Wave 2 senza copertura legale dopo chiusura Longo; 🟠 Video tutorial rooming Crowd per lunedì 15/6 (promesso a Lorena); 🟠 Bozza documenti assunzione Carlo non inviata (TFR2 data vuota aperta); 🟠 Risposta Jakala Scaramuzzi evasiva — decisione definitiva ancora pendente.
 
 > **Nota PM Digest 11/6/2026 08:02**: 9 email lorde, 7 filtrate (LinkedIn ×5, SP recording scaduto, job listing), **2 email rilevanti**: Andrea Pazienza declinazione retainer Morbinati&Longo [64508] Wave 2, Jakala Scaramuzzi follow-up proposta quotazioni. 1 meeting oggi (Eye Cookies bisettimanale 15:30 CEST). 4 file SP (sicurezza sul lavoro HeyAI — DVR+Nomina medico+Protocollo+fascicolo Pazienza, nessun progetto cliente). 0 chat Teams. **8 task nuovi aggiunti** (+6 in #p1, +2 in #p2) da email + vault scan [[Operation Transformation]] call 9/6. **Reconcile 11/6**: ~58 task [x] spostati in Recentemente chiusi (gap recovery 9/6). **Alert critici**: 🔴 Andrea Pazienza ha inviato ieri declinazione retainer legale a Morbinati&Longo (thread Wave 2) — verificare se impatta solo retainer o anche impegno Wave 2 specifico; 🔴 F24 MAGGIO scade 16/06 (5 giorni); 🔴 Contratto Quadro Soolutions + OE OT con 5 nodi critici pre-firma non ancora in Open Tasks; 🟠 Jakala Scaramuzzi chiede aggiornamento proposta (stale 3 settimane); 🟠 Eye Cookies bisettimanale OGGI 15:30 CEST.
 
@@ -19,6 +21,10 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità alta (#p1)
 
+- [ ] **#p1** 🔴 Carlo+[[Andrea Pazienza]]: **pagare parcella Avv. [[Marco Longo (Morbinati & Longo)|Longo]] €5.000 entro 18/6/2026** — tariffa agevolata decade dopo 7gg dalla ricezione (11/6); oltre la scadenza si torna a 3-4% di €300K = €9K-12K. Allegato preavviso di parcella già ricevuto 11/6. _da email Longo 11/6 — PM Digest 12/6_
+- [ ] **#p1** 🔴 Carlo: **contratto Wave 2 rimasto senza copertura legale** dopo chiusura mandato Morbinati&Longo (11/6) — decidere se trovare nuovo studio legale per finalizzare o procedere senza revisione esterna; impatto su firma con NoLoop _da email Longo 11/6 — PM Digest 12/6_
+- [ ] **#p1** Federico+Simone: **produrre video tutorial completo del rooming Crowd** entro lunedì 15/6 (Carlo ha promesso a [[Lorena Cavecchi]] 11/6) + aggiornare stato altre feature in sviluppo _da email Carlo recap 11/6 — PM Digest 12/6_
+- [ ] **#p1** Federico+Simone: **valutazione effort utenza vendite da remoto Carmen** (Operation Transformation) — Carmen inserisce vendite proprie senza toccare quelle venditori; campi preimpostati con fill randomico per statistici. Documento campi form già condiviso da Carlo 3/6. Risposta urgente per prioritizzazione. _da email Carlo recap 11/6 — PM Digest 12/6_
 - [ ] **#p1** Carlo: **verificare con [[Andrea Pazienza]] email declinazione retainer Morbinati & Longo** (10/6) — Andrea ha comunicato a "Mauro" (studio legale) che HeyAI non può sostenere i costi del retainer annuale; confermare se il rifiuto riguarda solo il retainer o impatta anche l'impegno specifico Wave 2 con Avv. [[Marco Longo (Morbinati & Longo)|Marco Longo]]; eventuale allineamento pre-call _da email Andrea Pazienza 10/6 — PM Digest 11/6_
 - [ ] **#p1** Carlo: **rispondere a [[Luigiandrea Scaramuzzi (Jakala)|Scaramuzzi]] (Jakala) — follow-up proposta quotazioni** (email 10/6); Carlo aveva promesso risposta entro prima settimana giugno (stale 3 settimane); con Achipont LOST il bundle €50K Osservatorio+Achipont non è più applicabile — comunicare tempistica o decisione _da email Scaramuzzi 10/6 — PM Digest 11/6_
 - [ ] **#p1** Carlo: **review e firma bozze Contratto Quadro Soolutions + OE Operation Transformation** — 5 nodi critici aperti pre-firma: entità cliente NOT/NoLoop, contratto cliente non firmato, cap responsabilità art. 12.1, royalty/riuso art. 6.2-6.3, GDPR art. 10 vs esclusione E.2. Checklist → [[2026-06-08 - Review Contratto Quadro + OE Soolutions]] _(9/6: nodo #4 royalty/riuso parzialmente sciolto — cessione IP circoscritta all'ecosistema custom, modelli AI esclusi ma con uso illimitato al cliente)_ _da [[Operation Transformation]] — vault scan 11/6_
@@ -61,6 +67,10 @@ Vista aggregata di tutti i task aperti nel vault. Aggiornata dal task ricorrente
 
 ## Priorità media (#p2)
 
+- [ ] **#p2** Federico+Simone: **riscontro fix Venue Finder + data realistica MVP** (richiesto da Carlo in recap 11/6) _da email Carlo recap 11/6 — PM Digest 12/6_
+- [ ] **#p2** Carlo+Federico+Simone: **decidere tariffa assistenza Eldis spacchettata** — cliente (Stefania) ha bocciato €180/h fisso; chiede livelli tipo base-email / intervento-call. Valutare con Soolutions e rispondere a Eldis _da email Carlo recap 11/6 — PM Digest 12/6_
+- [ ] **#p2** Federico+Simone: **confermare decorrenza canone hosting Eldis €130 da settembre** (setup macchine agosto, senza retroattività) _da email Carlo recap 11/6 — PM Digest 12/6_
+- [ ] **#p2** Carlo: **inviare bozza documenti assunzione a Simona** (bozza creata 11/6, non ancora inviata) — chiarire punto TFR2: data vuota, fondo pensione non ancora formalizzato _da bozza email 11/6 — PM Digest 12/6_
 - [ ] **#p2** Andrea + Elena (Soolutions): **call di 10 min per chiudere dicitura fattura** (riferimento a OE firmato + cessione IP al saldo ultima tranche) _da [[Operation Transformation]] — call 9/6, vault scan 11/6_
 - [ ] **#p2** Carlo: **valutare accesso al gestionale commesse Soolutions** (Simone pubblica su produzione, fornisce CLI/MCP + skill) come possibile evoluzione della Delivery Board _da [[Operation Transformation]] — call 9/6, vault scan 11/6_
 - [ ] **#p2** Carlo+Michele: **confermare date meeting luglio Angelini Academy** con [[Tiziana Carnicelli]] — [[Elena Chiti]] propone 8/7 ore 11 o 15 oppure 9/7 ore 11 o 16:30; [[Caterina Caboni]] suggerisce seconda settimana luglio; rispondere ad Elena con slot confermato. Tiziana condivide la roadmap — segnale positivo. _da email Elena+Caterina 9/6 — PM Digest 10/6_

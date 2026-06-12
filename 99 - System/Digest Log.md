@@ -1,12 +1,13 @@
 ---
 type: log
-updated: 2026-06-10
+updated: 2026-06-12
 ---
 
 # 📊 Digest Log
 
 > Storico esecuzioni del PM Digest mattutino.
 
+- 2026-06-12 08:02 — 15 email lorde, 5 filtrate (LinkedIn ×3, newsletter ×2), **10 email rilevanti** (thread Longo [64508] ×4 + Crowd risposta Lorena + recap interno F+S + OT Carmen + Eye Cookies + bozza assunzione Carlo + Jakala), 0 meeting, 0 file SP, 1 chat Teams (Germano docs.microlog.it). **8 task nuovi aggiunti** (+4 #p1, +4 #p2). Alert: 🔴 Longo chiude mandato Wave 2 + parcella €5.000 entro 18/6; 🔴 F24 MAGGIO scade 16/06 (4gg); 🔴 Contratto Wave 2 senza copertura legale; 🟠 Video tutorial Crowd per lunedì 15/6; 🟠 Bozza assunzione Carlo non inviata _(+4 task #p1 +4 task #p2 aggiunti direttamente in Priorità)_
 - 2026-06-11 08:02 — 9 email lorde, 7 filtrate (LinkedIn ×5, SP recording scaduto, job listing), **2 email rilevanti** (Andrea Pazienza declinazione retainer legale Wave 2 + Jakala Scaramuzzi follow-up proposta), 1 meeting (Eye Cookies bisettimanale 15:30 CEST), 4 file SP (sicurezza sul lavoro HeyAI — nessun progetto cliente), 0 chat Teams. **8 task nuovi aggiunti** (+6 #p1, +2 #p2) da email + vault scan [[Operation Transformation]] call 9/6. **Reconcile 11/6**: ~58 task [x] spostati in Recentemente chiusi (gap recovery 9/6). Alert: 🔴 Andrea Pazienza ha inviato declinazione retainer Morbinati&Longo (thread Wave 2) — impatto Wave 2 da verificare; 🔴 F24 MAGGIO scade 16/06 (5gg); 🔴 Contratto Quadro Soolutions 5 nodi critici pre-firma ora in Open Tasks; 🟠 Jakala Scaramuzzi follow-up proposta stale 3 settimane; 🟠 Eye Cookies bisettimanale OGGI 15:30
 - 2026-06-10 09:30 — bridge locale: digest cloud già presente (daily note `2026-06-10.md` con sezione PM Digest, run cloud 08:02), skip failover. Nessun doppione prodotto.
 - 2026-06-10 08:02 — 7 email rilevanti (17 lorde, 10 filtrate: LinkedIn ×2, tldv, Italotreno, SP recording, Wrike, altri), 0 meeting, 0 file SP, 0 chat Teams rilevanti. **3 task nuovi aggiunti** (+2 #p1, +1 #p2). **0 task chiusi**. Alert: 🔴 Lorena Cavecchi escalation rooming Crowd — NON UTILIZZABILE; 🔴 F24 maggio scade 16/06 (6gg); 🟠 Germano OT note inline da leggere; 🟠 Angelini meeting luglio da confermare; 🟠 Achipont LOST definitivo 9/6 _(+2 task #p1 +1 task #p2 aggiunti in Priorità)_
