@@ -5,7 +5,7 @@ priority: p2
 owner: Carlo
 client: NoLoop
 created: 2026-05-06
-updated: 2026-05-21
+updated: 2026-06-12
 aliases:
   - Wave 1 NoLoop
   - Wave 1
@@ -43,6 +43,9 @@ aliases:
 Le **schede modulo** (Crowd, Minutes, LeadMe, Venue Finder, Sally, Link, Flow, OnSite) vivono in `20 - Projects/NoLoop/Wave 2/` e contengono storia Wave 1 + roadmap Wave 2 in un'unica vista. Questa scheda macro Wave 1 serve solo per chiusura amministrativa.
 
 ## Log
+
+### 2026-06-12
+- **Pagamenti (audio Andrea 12/6)**: manca all'incasso la **terza tranche Wave 1** (oltre all'ultima fattura Piattaforma Eventi ancora da emettere — task già aperto). Non sollecitata nell'email recap Donzelli 12/6 per scelta (thread dedicato, non in coda a un recap).
 
 ### 2026-05-21
 - **Audit fiscale esterno attivato da [[Paolo Donzelli]]**: commercialista [[Paolo Verrengia (commercialista NoLoop)|Paolo Verrengia]] (Roma, 40+ anni esperienza) ha contattato Carlo per **audit di forma sui contratti Wave 1** ai fini agevolazione fiscale retroattiva. Stato fatturazione Wave 1 confermato in call ("alcune sono complete e 2 invece sono praticamente in fase di consegna, praticamente entro fine mese, incrociando le dita" — Carlo)

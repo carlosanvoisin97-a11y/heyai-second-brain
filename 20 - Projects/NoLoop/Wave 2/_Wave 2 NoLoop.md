@@ -5,7 +5,7 @@ priority: p1
 owner: Carlo
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-11
+updated: 2026-06-12
 aliases:
   - Wave 2 NoLoop
   - Wave 2
@@ -232,6 +232,13 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 - 2026-06-08 — `c754079e` (Code) — sessione PM-method "cosa fare da PM" sui progetti cloud Wave 2 (piattaforma eventi, Minutes, Venue Finder): status review + produzione bozze email/output operativi per i task prioritari. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-c754079e|claude-main (c754079e)]]
 
 ## Log
+
+### 2026-06-12 (audio Andrea + screenshot WhatsApp — stato contratto e pagamenti)
+- **Screenshot WhatsApp Andrea↔Donzelli del 29/5 (11:52-11:55), agli atti**: Andrea — *"volevo chiederti se per tutto il resto vi sembrava giusto così procediamo a modificare la parte sulla proprietà intellettuale e ve lo rimandiamo, oppure c'erano altre cose che volevate modificare"*; Donzelli — *"Penso resto fosse ok ma per scrupolo chiedo e torno da te"*. Mai tornato (conferma del Log 9/6, ora con data e canale esatti: WhatsApp, 29/5).
+- **Telefonata Carlo↔Donzelli (post-29/5, data da precisare)**: a domanda di Carlo sull'avanzamento, Donzelli ha detto che **per lui i contratti andavano bene** — ⚠️ discrepanza con il "torno da te" rimasto formalmente aperto verso Andrea. **Gestione decisa 12/6**: l'email recap a Donzelli ([[00 - Inbox/2026-06-12 - BOZZA Email recap Donzelli (Wave 1-2 + NOT)|bozza 12/6]]) recepisce per iscritto l'ok telefonico sull'impianto e annuncia il reinvio con la sola parte IP aggiornata — se Donzelli ha riserve residue, emergono in risposta.
+- **Parte IP del contratto (linea Andrea)**: da riscrivere *"per scriverci che andrà tutto a loro"* (IP a NoLoop, coerente con la condizione IP↔finanziamento del Log 9/6). **Dipendenza**: prima serve il feedback di Federico+Simone sulla parte IP di accordo quadro + ordini esecutivi (inviati da Andrea) — da lì si deriva la struttura IP dei contratti verso NoLoop. Schema Andrea: HeyAI in mezzo; a sinistra gli sviluppatori (accordo quadro + OE per progetto), a destra NoLoop (nessun accordo quadro, contratti per progetto).
+- **Pagamenti**: fattura **prima tranche Wave 2 GIÀ EMESSA** (ce l'hanno via email) e **mai riscontrata** (*"non ci hanno mai cagato, è come se il progetto non fosse partito"* — Andrea). ⚠️ Supera lo stato "fatture ⏳ PENDING in attesa di intestazione societaria" — da riallineare su Master Facts (segnalato a Carlo, non toccato senza conferma §5).
+- 📎 Fonte: 2 audio Andrea Pazienza trascritti + screenshot WhatsApp (sessione Code 12/6).
 
 ### 2026-06-09 (allineamento team interno HeyAI — Bruno+Carlo+Michele+Andrea)
 - **DECISIONE — contratto cliente Wave 2: riscrittura, NON riuso diretto della bozza Longo**. Andrea **riscrive** il contratto HeyAI↔NoLoop partendo dal lavoro di risistemazione fatto su [[Operation Transformation]] + documentazione tecnica Wave 2 + clausola di cessione IP, usando la **bozza di [[Mauro Longo (Morbinati & Longo)|Mauro Longo]] solo come traccia/riferimento, non come testo da inviare**. Motivazione **etica** (Bruno): *"non dovremmo utilizzare quello che ci ha fatto lui se non pagandolo"*. Il documento riscritto va mandato **definitivo a [[Paolo Donzelli|Donzelli]]**, usandolo anche come impression "va bene così".
