@@ -1,13 +1,48 @@
 ---
 type: system-log
 created: 2026-05-15
-updated: 2026-06-10
-last_run: 2026-06-10 14:00 (run sab, cron 14:00 UTC / routine cloud moc-refresh)
+updated: 2026-06-13
+last_run: 2026-06-13 14:00 (run sab, cron 14:00 UTC / routine cloud moc-refresh)
 ---
 
 # MOC Refresh Log
 
 Log degli audit settimanali del [[99 - System/MOC - Home]] (task `moc-refresh`, cron sab 16:00).
+
+---
+
+## 2026-06-13 14:00 — 2 auto-patches · 2 flags
+
+Run sabato 13/6 (slot cron 14:00 UTC / 16:00 CEST). Ultimo run: 10/6. Intervallo: 3 giorni.
+
+### Auto-patches applicati
+
+- `updated:` frontmatter MOC: `2026-06-10` → `2026-06-13`
+- Versione Master Facts in §"Da leggere subito": `**v1.2 (9/6)**` → `**v1.2 (10/6)**` (frontmatter Master Facts: `updated: 2026-06-10`; label allineata — MFS aggiornato dopo il run 10/6 che vedeva ancora `2026-06-09`)
+
+### Flag to triage (Carlo decide)
+
+**Nuova persona non in MOC (1):**
+- `[[60 - People/Simona Velotta]]` — Consulente payroll/adempimenti HeyAI, studio FMA; creata 10/6/2026, `updated: 2026-06-11`. Ruolo operativo amministrativo (F24, LUL, pratiche assunzione soci). Carlo decide: (a) aggiungere a §Team HeyAI o §Aree Amministrazione, (b) tenere solo in `60 - People/` (operativa, non decisore su progetti attivi).
+
+**Nuovo file `99 - System/` non in MOC §Sistema vault (1):**
+- `[[99 - System/Contradictions Audit]]` — output della routine §CONTRADICTIONS di vault-health (implementata 10/6/2026). Carlo decide se aggiungere a §Sistema vault accanto a `Vault Link Audit` e `System Consistency Audit`.
+
+### Flag 10/6 verificati come risolti
+
+- `[[60 - People/Paolo Verrengia (commercialista NoLoop)]]` → aggiunto al cluster NoLoop §Amministrativo ✅
+- `[[99 - System/Mappa Skill e Frammentazione AI]]` → aggiunto a §Sistema vault ✅
+- `[[20 - Projects/Achipont/Achipoint|Achipont]]` drift status → MOC ora mostra `🔴 LOST 9/6` + header "11 totali + 1 lost" ✅
+
+### Wikilink broken
+
+Nessuno. Spot-check su path critici (20 - Projects principali, 30 - Areas, 40 - Resources, 60 - People cluster, 99 - System). Il wikilink `[[60 - People/Luciano (sistemista Eldis)]]` risolve via alias di `Luciano Pecorella.md` (rename 10/6 al canonico Nome Cognome, alias registrato in frontmatter) — non broken.
+
+### Stato finale
+
+- Auto-patches: 2 · Flag aperti: 2 · Wikilink broken: 0
+- No alert Daily Note (flag ≤ 5, broken = 0)
+- Prossimo run scheduled: sab 20/6 14:00 UTC
 
 ---
 

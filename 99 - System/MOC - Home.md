@@ -1,7 +1,7 @@
 ---
 type: moc
 created: 2026-04-30
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 <!-- auto-updated by cowork-sessions-index 2026-05-08 20:30 | source-session: local_4c933da1-0348-4ef3-8a6d-de4a6bc1b514 | source-lastActive: 2026-05-08 ~20:00 -->
 
@@ -12,7 +12,7 @@ Dashboard principale del vault. Punto di ingresso per navigare tutto.
 
 ## 📌 Da leggere subito
 
-- [[99 - System/Master Facts Sheet]] — **v1.2 (9/6)** Numeri ufficiali + scenari fornitori + pattern di negoziazione + pricing modulare Achipont consolidato
+- [[99 - System/Master Facts Sheet]] — **v1.2 (10/6)** Numeri ufficiali + scenari fornitori + pattern di negoziazione + pricing modulare Achipont consolidato
 - [[99 - System/Open Questions]] — **6 domande con follow-up attivo** (al 14/5: #19+#29 IP Soolutions, #31-#33 Angelini Academy, #34 scheduler) + 27 risolte archiviate in [[50 - Archive/System/Open Questions Archive 2026-04-05|Open Questions Archive 2026-04-05]]
 - [[99 - System/Open Tasks]] — task aperti aggregati (batch reconciliation 7/5: 11 chiusi + 4 annullati + 2 riassegnati)
 - [[50 - Archive/System/Numeri Cronologici|Numeri Cronologici (archiviato 13/5)]] — Tutti i numeri/quotazioni cronologici
