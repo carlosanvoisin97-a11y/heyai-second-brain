@@ -5,7 +5,7 @@ priority: p3
 owner: Michele + Andrea
 client: NoLoop / NOT
 created: 2026-04-30
-updated: 2026-06-12
+updated: 2026-06-13
 stakeholders: [Michele Mattucci, Andrea Pazienza]
 ---
 
@@ -47,6 +47,8 @@ Questo è il progetto "marketing tradizionale" di NOT: sito web + comunicazione 
 - Prossima revisione di status con Michele
 
 ## Log
+
+- 2026-06-12 (sessione Code 7150866b) — stato sito online + post LinkedIn incluso nell'email recap executive Donzelli; recap [[80 - Sources/Cowork Sessions/code-recap/2026-06-12 - claude-main-7150866b]]
 
 ### 2026-06-12 — Pagamenti (audio Andrea + daily 12/6)
 - **Prima tranche sito+LinkedIn NON ancora pagata**: Andrea ha sollecitato [[Roberta Calajò]] (email "HeyAI | Promemoria fattura SitoWeb e LinkedIn", 11/6 16:46 — risolta l'ambiguità della daily 12/6: "Roberta" = Calajò, progetto = NOT Marketing, non Matteo Cosma).

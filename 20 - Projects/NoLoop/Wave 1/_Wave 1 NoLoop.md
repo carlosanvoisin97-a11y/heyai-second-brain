@@ -5,7 +5,7 @@ priority: p2
 owner: Carlo
 client: NoLoop
 created: 2026-05-06
-updated: 2026-06-12
+updated: 2026-06-13
 aliases:
   - Wave 1 NoLoop
   - Wave 1
@@ -43,6 +43,8 @@ aliases:
 Le **schede modulo** (Crowd, Minutes, LeadMe, Venue Finder, Sally, Link, Flow, OnSite) vivono in `20 - Projects/NoLoop/Wave 2/` e contengono storia Wave 1 + roadmap Wave 2 in un'unica vista. Questa scheda macro Wave 1 serve solo per chiusura amministrativa.
 
 ## Log
+
+- 2026-06-12 (sessione Code 7150866b) — bozza email recap executive Donzelli (Wave 1 chiusura + plenaria/demo); recap [[80 - Sources/Cowork Sessions/code-recap/2026-06-12 - claude-main-7150866b]]
 
 ### 2026-06-12
 - **Pagamenti (audio Andrea 12/6)**: manca all'incasso la **terza tranche Wave 1** (oltre all'ultima fattura Piattaforma Eventi ancora da emettere — task già aperto). Non sollecitata nell'email recap Donzelli 12/6 per scelta (thread dedicato, non in coda a un recap).

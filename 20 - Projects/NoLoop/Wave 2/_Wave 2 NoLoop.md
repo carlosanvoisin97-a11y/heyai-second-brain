@@ -5,7 +5,7 @@ priority: p1
 owner: Carlo
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-12
+updated: 2026-06-13
 aliases:
   - Wave 2 NoLoop
   - Wave 2
@@ -232,6 +232,8 @@ Listino totale 8 moduli: **€327.000** | Sconto bundle: **-€27.000** | **Bund
 - 2026-06-08 — `c754079e` (Code) — sessione PM-method "cosa fare da PM" sui progetti cloud Wave 2 (piattaforma eventi, Minutes, Venue Finder): status review + produzione bozze email/output operativi per i task prioritari. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-08 - claude-main-c754079e|claude-main (c754079e)]]
 
 ## Log
+
+- 2026-06-12 (sessione Code 7150866b) — bozza email recap executive Donzelli (nudge Wave 2 legato allo sblocco pagamento); recap [[80 - Sources/Cowork Sessions/code-recap/2026-06-12 - claude-main-7150866b]]
 
 ### 2026-06-12 (audio Andrea + screenshot WhatsApp — stato contratto e pagamenti)
 - **Screenshot WhatsApp Andrea↔Donzelli del 29/5 (11:52-11:55), agli atti**: Andrea — *"volevo chiederti se per tutto il resto vi sembrava giusto così procediamo a modificare la parte sulla proprietà intellettuale e ve lo rimandiamo, oppure c'erano altre cose che volevate modificare"*; Donzelli — *"Penso resto fosse ok ma per scrupolo chiedo e torno da te"*. Mai tornato (conferma del Log 9/6, ora con data e canale esatti: WhatsApp, 29/5).

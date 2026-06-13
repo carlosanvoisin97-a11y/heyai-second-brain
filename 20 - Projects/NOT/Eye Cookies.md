@@ -5,7 +5,7 @@ priority: p1
 owner: Carlo
 client: NoLoop
 created: 2026-04-30
-updated: 2026-06-12
+updated: 2026-06-13
 last_reconcile: 2026-06-11 (declutter task superati: Carmen ingestion + presentazione BAT 28/5 → consolidati nelle versioni 11/6)
 deadline: 2026-09-01
 contract_status: non_prodotto
@@ -193,6 +193,8 @@ Per memoria: la **prima bozza Germano** (febbraio 2026) conteneva **6 clausole v
 - 2026-06-11 — `576976ec` (Code) — sessione PM parallela (no-commit, coordinata via HANDOVER): prep call Eye Cookies (intro + deep dive BAT/Totem) + processing 3 doc di allineamento (Team, Eldis, fatture). → [[80 - Sources/Cowork Sessions/code-recap/2026-06-11 - claude-main-576976ec|claude-main (576976ec)]]
 
 ## Log
+
+- 2026-06-12 (sessione Code 7150866b) — stato Eye Cookies incluso nell'email recap executive Donzelli; recap [[80 - Sources/Cowork Sessions/code-recap/2026-06-12 - claude-main-7150866b]]
 
 ### 2026-06-12 — Contratto e pagamenti (audio Andrea)
 - **Pagamento**: prima tranche Eye Cookies **incassata** (riconferma nel recap pagamenti di Andrea 12/6).

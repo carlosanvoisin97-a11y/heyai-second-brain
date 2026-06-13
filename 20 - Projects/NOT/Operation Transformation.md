@@ -5,7 +5,7 @@ priority: p1
 owner: Carlo
 client: NoLoop (divisione NOT)
 created: 2026-04-30
-updated: 2026-06-12
+updated: 2026-06-13
 contract_status: emesso_non_firmato
 stakeholders: [Massi Sinigaglia, Justin Lauro, Roberta Calajò, Paolo Donzelli, Federico Saladino (Soolutions), Simone Montanari (Soolutions)]
 ---
@@ -179,6 +179,8 @@ Oggi ogni vendita NOT registrata su **3 piattaforme separate**:
 - 2026-06-11 — `576976ec` (Code) — sessione PM parallela (no-commit, coordinata via HANDOVER): allineamento NOT + processing 3 doc di allineamento (Team, Eldis, fatture) + prep call. → [[80 - Sources/Cowork Sessions/code-recap/2026-06-11 - claude-main-576976ec|claude-main (576976ec)]]
 
 ## Log
+
+- 2026-06-12 (sessione Code 7150866b) — stato OT incluso nell'email recap executive Donzelli; recap [[80 - Sources/Cowork Sessions/code-recap/2026-06-12 - claude-main-7150866b]]
 
 ### 2026-06-12 — Stato contratto e pagamenti (audio Andrea)
 - **Pagamento**: prima tranche OT **incassata** (riconferma nel recap pagamenti di Andrea 12/6).
